@@ -92,6 +92,17 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset
 .empty{padding:24px;text-align:center;color:var(--muted)}
 footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
 .room .cap{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:9px;font-size:.8em;background:rgba(127,127,127,.18);color:inherit}
+.sp-search{max-width:340px;width:100%;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink)}
+.spg{border-top:1px solid var(--line)}
+.spg>summary{cursor:pointer;padding:14px 0;font-weight:700;display:flex;justify-content:space-between;gap:10px;list-style:none}
+.spg>summary::-webkit-details-marker{display:none}
+.spg>summary span:first-child{flex:1}
+.spg>summary .n{color:var(--muted);font-weight:400;white-space:nowrap}
+.spg>summary::after{content:"▾";color:var(--accent)}.spg[open]>summary::after{content:"▴"}
+.spg ul{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
+.spg li{display:grid;gap:3px;padding:8px 10px;border-radius:10px;background:rgba(127,127,127,.08)}
+.spg li .t{font-weight:600}.spg li a{color:var(--accent);font-weight:700;font-size:.9rem;text-underline-offset:3px}
+.chips{display:flex;flex-wrap:wrap;gap:4px}.chips span{padding:1px 7px;border-radius:9px;font-size:.78rem;background:rgba(127,127,127,.18)}
 </style>
 
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
@@ -112,6 +123,11 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
       <span class="tile-text">Räume für Feste und Anlässe zum mieten</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
+    <a class="tile tile-alt" href="#spielplaetze" id="go-spiel">
+      <span class="tile-title">Spielplätze</span>
+      <span class="tile-text">Spielplätze in deiner Gemeinde</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
   </nav>
 </div>
 
@@ -127,6 +143,20 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </section>
   <p id="rcount" class="count-line"></p>
   <main id="rooms"></main>
+</div>
+
+<div class="wrap" id="view-spielplaetze" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1>Spielplätze</h1>
+    <p class="lead">Öffentliche Spielplätze, nach Gemeinden geordnet. Tippe auf eine Gemeinde, um ihre Spielplätze zu sehen.</p>
+  </header>
+  <section class="filters" aria-label="Suche Spielplätze">
+    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="sp-search" placeholder="Gemeinde oder Spielplatz" aria-label="Gemeinde oder Spielplatz suchen"></div>
+  </section>
+  <p id="spcount" class="count-line"></p>
+  <main id="spiel"></main>
+  <footer>Daten: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-events" hidden>
@@ -152,6 +182,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 </div>
 
 <script src="events.js"></script>
+<script src="spielplaetze.js"></script>
 <script>
 const AGES=[[0,3],[4,6],[7,9],[10,12]];
 const TIMES=[["all","Alle Termine"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
@@ -318,9 +349,34 @@ function renderRooms(){
     i.addEventListener("change",()=>{rstate.sort=v;renderRooms();document.getElementById("rs-dd").open=false});l.append(i,node("span","",t));sp.append(l)});
   renderRooms();
 })();
+const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpit:"Sandkasten",climbingframe:"Klettergerüst",seesaw:"Wippe",springy:"Federtier",roundabout:"Karussell",water:"Wasser",water_pump:"Wasserpumpe",zipwire:"Seilbahn",playhouse:"Spielhaus",trampoline:"Trampolin",balancebeam:"Balancierbalken",structure:"Spielturm",tower:"Turm",table_tennis:"Pingpong"};
+(function setupSpiel(){
+  const D=window.SPIELPLAETZE,box=document.getElementById("spiel"),inp=document.getElementById("sp-search");
+  if(!D){box.append(node("p","empty","Die Spielplätze werden gerade gesammelt. Schau bald wieder vorbei."));return}
+  document.getElementById("spstand").textContent="Stand: "+D.stand.split("-").reverse().join(".")+".";
+  const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);
+  function item(p){const li=document.createElement("li");li.append(node("span","t",p.n||(p.s?"Spielplatz bei "+p.s:"Spielplatz")));
+    const ch=node("div","chips");p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).forEach(t=>ch.append(node("span","",t)));
+    if(p.min||p.max)ch.append(node("span","",p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre"));
+    if(p.rs)ch.append(node("span","","rollstuhlgängig"));if(ch.childNodes.length)li.append(ch);
+    if(p.desc)li.append(node("span","note",p.desc));
+    const a=node("a","","Auf der Karte zeigen");a.href="https://www.openstreetmap.org/?mlat="+p.lat+"&mlon="+p.lon+"#map=18/"+p.lat+"/"+p.lon;a.target="_blank";a.rel="noopener";li.append(a);return li}
+  function render(){const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nP=0;const byB={};
+    Object.keys(D.gemeinden).sort((a,b)=>a.localeCompare(b,"de")).forEach(g=>{let L=D.gemeinden[g];
+      if(q&&!g.toLowerCase().includes(q))L=L.filter(p=>(p.n+" "+(p.s||"")).toLowerCase().includes(q));if(!L.length)return;
+      (byB[BZ[g]||"Andere"]=byB[BZ[g]||"Andere"]||[]).push([g,L])});
+    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
+      byB[b].forEach(([g,L])=>{nG++;nP+=L.length;const d=node("details","spg"),su=document.createElement("summary");
+        su.append(node("span","",g),node("span","n",L.length===1?"1 Spielplatz":L.length+" Spielplätze"));d.append(su);
+        if(q)d.open=true;let done=false;const fill=()=>{if(done)return;done=true;const ul=document.createElement("ul");L.forEach(p=>ul.append(item(p)));d.append(ul)};
+        if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})});
+    document.getElementById("spcount").textContent=(nP===1?"1 Spielplatz":nP+" Spielplätze")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
+    if(!nG)box.append(node("p","empty","Nichts gefunden."))}
+  inp.addEventListener("input",render);render();
+})();
 function route(){
-  const v=({"#events":"events","#raeume":"raeume"})[location.hash]||"home";
-  ["home","events","raeume"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze"})[location.hash]||"home";
+  ["home","events","raeume","spielplaetze"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
