@@ -108,28 +108,9 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .spg li .t{font-weight:600}.spg li a{color:var(--accent);font-weight:700;font-size:.9rem;text-underline-offset:3px}
 .chips{display:flex;flex-wrap:wrap;gap:4px}.chips span{padding:1px 7px;border-radius:9px;font-size:.78rem;background:rgba(127,127,127,.18)}
 .dd-note{margin:6px 4px 2px;font-size:.78rem;color:var(--muted);line-height:1.35}
-.spmap{height:280px;border-radius:12px;margin:2px 0 10px;border:1px solid var(--line);background:rgba(127,127,127,.12);z-index:0}
-.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
-.leaflet-container{overflow:hidden;position:relative;outline:0;font:inherit;touch-action:pan-y pinch-zoom}
-.leaflet-tile,.leaflet-marker-icon{user-select:none;-webkit-user-drag:none}
-.leaflet-container img.leaflet-tile{max-width:none!important;max-height:none!important;width:256px;height:256px;mix-blend-mode:normal}
-.leaflet-tile{filter:inherit;visibility:hidden}.leaflet-tile-loaded{visibility:inherit}
-.leaflet-pane{z-index:400}.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-marker-pane{z-index:600}.leaflet-popup-pane{z-index:700}
-.leaflet-pane svg path.leaflet-interactive{cursor:pointer;pointer-events:auto}
-.leaflet-control-container .leaflet-top,.leaflet-control-container .leaflet-bottom{position:absolute;z-index:800;pointer-events:none}
-.leaflet-top{top:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-right{right:0}
-.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}
-.leaflet-top .leaflet-control{margin-top:8px}.leaflet-left .leaflet-control{margin-left:8px}.leaflet-right .leaflet-control{margin-right:0}.leaflet-right{text-align:right}.leaflet-right .leaflet-control{float:right}
-.leaflet-bar{border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.3);overflow:hidden}
-.leaflet-bar a{display:block;width:32px;height:32px;line-height:32px;text-align:center;text-decoration:none;background:#fff;color:#222;font:700 18px/32px sans-serif;border-bottom:1px solid #ddd}
-.leaflet-control-attribution{background:rgba(255,255,255,.85);color:#333;font-size:10px;padding:0 5px;margin:0}.leaflet-control-attribution a{color:#0b6}
-.leaflet-popup{position:absolute;text-align:center;margin-bottom:14px}
-.leaflet-popup-content-wrapper{background:#fff;color:#222;border-radius:10px;box-shadow:0 3px 14px rgba(0,0,0,.3);text-align:left;padding:1px}
-.leaflet-popup-content{margin:10px 14px;font-size:.88rem;line-height:1.35}.leaflet-popup-content a{color:#0f766e;font-weight:700}
-.leaflet-popup-tip-container{width:40px;height:14px;position:absolute;left:50%;margin-left:-20px;overflow:hidden;pointer-events:none}
-.leaflet-popup-tip{width:14px;height:14px;padding:1px;margin:-8px auto 0;transform:rotate(45deg);background:#fff}
-.leaflet-popup-close-button{position:absolute;top:2px;right:6px;color:#666;text-decoration:none;font:18px/20px sans-serif}
-.leaflet-zoom-animated{transform-origin:0 0}
+.spmap{height:320px;border-radius:12px;margin:2px 0 4px;border:1px solid var(--line);overflow:hidden;background:rgba(127,127,127,.12)}
+.spmap iframe{width:100%;height:100%;border:0;display:block}
+.maplink{display:inline-block;margin:0 0 12px;color:var(--accent);font-weight:700;font-size:.9rem;text-underline-offset:3px}
 </style>
 
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
@@ -183,7 +164,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </section>
   <p id="spcount" class="count-line"></p>
   <main id="spiel"></main>
-  <footer>Daten: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
+  <footer>Liste: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Karte: Google Maps, sie zeigt die Spielplätze, die Google kennt. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-events" hidden>
@@ -416,7 +397,7 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
     if(p.min||p.max)ch.append(node("span","",p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre"));
     if(p.rs)ch.append(node("span","","rollstuhlgängig"));if(ch.childNodes.length)li.append(ch);
     if(p.desc)li.append(node("span","note",p.desc));
-    const a=node("a","","Auf der Karte zeigen");a.href="https://www.openstreetmap.org/?mlat="+p.lat+"&mlon="+p.lon+"#map=18/"+p.lat+"/"+p.lon;a.target="_blank";a.rel="noopener";li.append(a);return li}
+    const a=node("a","","Auf der Karte zeigen");a.href="https://www.google.com/maps/search/?api=1&query="+p.lat+","+p.lon;a.target="_blank";a.rel="noopener";li.append(a);return li}
   function render(){const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nP=0;const byB={};
     Object.keys(D.gemeinden).sort((a,b)=>a.localeCompare(b,"de")).forEach(g=>{let L=D.gemeinden[g];
       if(q&&!g.toLowerCase().includes(q))L=L.filter(p=>(p.n+" "+(p.s||"")).toLowerCase().includes(q));if(!L.length)return;
@@ -425,24 +406,15 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
       byB[b].forEach(([g,L])=>{nG++;nP+=L.length;const d=node("details","spg"),su=document.createElement("summary");
         su.append(node("span","",g),node("span","n",L.length===1?"1 Spielplatz":L.length+" Spielplätze"));d.append(su);
         if(q)d.open=true;let done=false;const fill=()=>{if(done)return;done=true;const m=node("div","spmap");m.setAttribute("aria-label","Karte der Spielplätze in "+g);d.append(m);const ul=document.createElement("ul");L.forEach(p=>ul.append(item(p)));d.append(ul)};
-        if(d.open)fill();d.addEventListener("toggle",()=>{fill();if(d.open)showMap(d,L)});box.append(d)})});
+        if(d.open)fill();d.addEventListener("toggle",()=>{fill();if(d.open)showMap(d,L,g)});box.append(d)})});
     document.getElementById("spcount").textContent=(nP===1?"1 Spielplatz":nP+" Spielplätze")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
     if(!nG)box.append(node("p","empty","Nichts gefunden."))}
   inp.addEventListener("input",render);render();
 })();
-let leafletP=null;
-function loadLeaflet(){if(window.L)return Promise.resolve();if(leafletP)return leafletP;
-  leafletP=new Promise((ok,no)=>{const sc=document.createElement("script");sc.src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js";sc.onload=ok;sc.onerror=no;document.head.append(sc)});return leafletP}
-async function showMap(d,list){const el=d.querySelector(".spmap");if(!el||el._map)return;
-  try{await loadLeaflet()}catch(e){el.replaceWith(node("p","note","Die Karte konnte nicht geladen werden."));return}
-  const map=L.map(el,{scrollWheelZoom:false});el._map=map;
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'}).addTo(map);
-  const pts=[];list.forEach(p=>{pts.push([p.lat,p.lon]);
-    const box=document.createElement("div");box.append(node("b","",p.n||(p.s?"Spielplatz bei "+p.s:"Spielplatz")),document.createElement("br"));
-    const a=node("a","","Route planen");a.href="https://www.google.com/maps/dir/?api=1&destination="+p.lat+","+p.lon;a.target="_blank";a.rel="noopener";box.append(a);
-    L.circleMarker([p.lat,p.lon],{radius:8,color:"#fff",weight:2,fillColor:"#0f766e",fillOpacity:.95}).addTo(map).bindPopup(box)});
-  if(pts.length===1)map.setView(pts[0],16);else map.fitBounds(pts,{padding:[20,20],maxZoom:16});
-  setTimeout(()=>map.invalidateSize(),50)}
+function showMap(d,list,g){const el=d.querySelector(".spmap");if(!el||el.firstChild)return;
+  const f=document.createElement("iframe");f.title="Google-Karte: Spielplätze in "+g;f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";
+  f.src="https://maps.google.com/maps?q="+encodeURIComponent("Spielplatz, "+g+", Schweiz")+"&z=13&hl=de&output=embed";el.append(f);
+  const a=node("a","maplink","In Google Maps öffnen");a.href="https://www.google.com/maps/search/"+encodeURIComponent("Spielplatz "+g+" Schweiz");a.target="_blank";a.rel="noopener";el.after(a)}
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze"})[location.hash]||"home";
   ["home","events","raeume","spielplaetze"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
