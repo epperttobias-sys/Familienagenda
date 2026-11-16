@@ -1,6 +1,7 @@
 // Holt Spielplätze aus OpenStreetMap (Overpass) für alle Gemeinden in gemeinden.json
 import { readFileSync, writeFileSync } from "node:fs";
-const G = JSON.parse(readFileSync(new URL("./gemeinden.json", import.meta.url)));
+import { alleGemeinden } from "./alle.mjs";
+const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name);
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
 const re = `^(${names.map(esc).join("|")})( \\\\(ZH\\\\))?$`;

@@ -1,6 +1,7 @@
 // Familienangebote aus OpenStreetMap: Kitas, Bibliotheken, Ludotheken, Bäder, Familienzentren
 import { readFileSync, writeFileSync } from "node:fs";
-const G = JSON.parse(readFileSync(new URL("./gemeinden.json", import.meta.url)));
+import { alleGemeinden } from "./alle.mjs";
+const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
 const re = `^(${names.map(esc).join("|")})( \\\\(ZH\\\\))?$`;

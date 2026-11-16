@@ -1,6 +1,7 @@
 // Ausflugsziele aus OpenStreetMap für die Region (Bezirke Uster, Meilen, Pfäffikon, Hinwil)
 import { readFileSync, writeFileSync } from "node:fs";
-const G = JSON.parse(readFileSync(new URL("./gemeinden.json", import.meta.url)));
+import { alleGemeinden } from "./alle.mjs";
+const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
 const re = `^(${names.map(esc).join("|")})( \\\\(ZH\\\\))?$`;
@@ -26,8 +27,9 @@ const bounds = [];
 for (const e of data.elements) if (e.type === "relation" && e.tags && e.tags.boundary === "administrative")
   bounds.push({ name: e.tags.name.replace(/ \(ZH\)$/, ""), segs: (e.members || []).filter(m => m.type === "way" && m.geometry).map(m => m.geometry.map(p => [p.lon, p.lat])) });
 const cross = (x, y, lines) => { let c = 0; for (const L of lines) for (let i = 1; i < L.length; i++) { const [x1, y1] = L[i - 1], [x2, y2] = L[i]; if ((y1 > y) !== (y2 > y) && x < (x2 - x1) * (y - y1) / (y2 - y1) + x1) c++; } return c; };
-const SKIP = /friedhof|denkmal|gedenk|grab|wegkreuz|bildstock|brunnen$|kapelle|kirche|parkplatz|bushaltestelle|haltestelle|hotel|restaurant|tankstelle|swisscom|antenne|funkturm|sendeturm|wasserturm|hochspannung|stall\b|schützenhaus/i;
+const SKIP = /^(ente|gans|huhn|hahn|pfau|ziege|esel|schaf|kuh|pferd)$|triebwagen|güterwagen|personenwagen|lokomotive|friedhof|denkmal|gedenk|grab|wegkreuz|bildstock|brunnen$|kapelle|kirche|parkplatz|bushaltestelle|haltestelle|hotel|restaurant|tankstelle|swisscom|antenne|funkturm|sendeturm|wasserturm|hochspannung|stall\b|schützenhaus/i;
 function kind(t) {
+  if (t.man_made === "tower") return "aussicht";
   if (t.tourism === "zoo" || t.tourism === "aquarium" || t.farm === "petting_zoo" || (t.animal_keeping && /tier|zoo|alpaka|lama|esel|ponny|pony|streichel|wildpark|vogel/i.test(t.name || ""))) return "tiere";
   if (t.tourism === "museum") return "museum";
   if (t.tourism === "theme_park" || t.leisure) return t.leisure === "firepit" ? "feuer" : "erlebnis";

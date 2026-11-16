@@ -341,6 +341,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 </div>
 
 <script src="events.js"></script>
+<script src="gemeinden.js"></script>
 <script src="wetter.js"></script>
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
@@ -544,7 +545,7 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
   const D=window.SPIELPLAETZE,box=document.getElementById("spiel"),inp=document.getElementById("sp-search");
   if(!D){box.append(node("p","empty","Die Spielplätze werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("spstand").textContent="Stand: "+D.stand.split("-").reverse().join(".")+".";
-  const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);Object.values((window.FAMILIENAGENDA||{}).gemeinden||{}).forEach(g=>{if(g.bezirk)BZ[g.name]=g.bezirk});
+  const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);Object.values(Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA||{}).gemeinden||{})).forEach(g=>{if(g.bezirk)BZ[g.name]=g.bezirk});
   function item(p){const li=document.createElement("li");li.append(node("span","t",pname(p)));
     const ch=node("div","chips");p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).forEach(t=>ch.append(node("span","",t)));
     if(p.min||p.max)ch.append(node("span","",p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre"));
@@ -612,7 +613,7 @@ async function showMap(d,list,g,me){const el=d.querySelector(".spmap");if(!el||e
 const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","Pfadi und Jugendgruppen","🏕️"],["musik","Musik und Tanz","🎵"],["familie","Familie und Eltern","👨‍👩‍👧"],["kreativ","Zirkus, Kreativ, Natur","🎪"]];
 (function setupVereine(){
   const V=window.VEREINE,box=document.getElementById("vereine"),inp=document.getElementById("vr-search");
-  const GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
+  const GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   if(!V){box.append(node("p","empty","Die Vereine werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("vrstand").textContent="Stand: "+V.stand.split("-").reverse().join(".")+".";
   let total=0;for(const c in V.gemeinden)total+=V.gemeinden[c].length;
@@ -668,7 +669,7 @@ const EXTRA={wz:[["Familienstadtplan Wetzikon (PDF)","https://www.wetzikon.ch/wA
 function ohDe(o){const D={Mo:"Mo",Tu:"Di",We:"Mi",Th:"Do",Fr:"Fr",Sa:"Sa",Su:"So",PH:"Feiertage"};return o.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH)\b/g,m=>D[m]).replace(/\boff\b/g,"geschlossen").replace(/24\/7/,"immer offen").replace(/;\s*/g,"; ")}
 const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","🏫 Kitas, Krippen und Horte"],["bib","📚 Bibliotheken"],["ludo","🧩 Ludotheken"],["zentrum","🏠 Familienzentren und Treffpunkte"],["bad","🏊 Hallenbäder und Badis"]];
 (function setupFamilie(){
-  const F=window.FAMILIE||{gemeinden:{}},V=(window.VEREINE||{gemeinden:{}}).gemeinden,GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
+  const F=window.FAMILIE||{gemeinden:{}},V=(window.VEREINE||{gemeinden:{}}).gemeinden,GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   const box=document.getElementById("familie"),codes=Object.keys(GM);
   if(window.FAMILIE)document.getElementById("fastand").textContent="Stand: "+F.stand.split("-").reverse().join(".")+".";
   const KS=[["beratung","👶 Mütter- und Väterberatung"]].concat(FAK);
@@ -702,14 +703,14 @@ const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","�
     const ks=selK?KS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];
     document.getElementById("fk-sum").textContent=!selK?"Alle Angebote":ks.length===1?ks[0]:ks.length+" Angebote"}
   function render(){sync();box.replaceChildren();const byB={};let nG=0,nA=0;
-    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c],L=items(c).filter(x=>kOn(x.k)),bera=!!KJZ[g.bezirk]&&kOn("beratung");
+    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c],L=items(c).filter(x=>kOn(x.k)),bera=kOn("beratung");
       if(selK&&!L.length&&!bera)return;(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||[]).push([c,g,L,bera])});
     Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
       byB[b].sort((x,y)=>x[1].name.localeCompare(y[1].name,"de")).forEach(([c,g,L,bera])=>{nG++;nA+=L.length+(bera?1:0);
         const n=L.length+(bera?1:0);const d=node("details","spg fa"),su=document.createElement("summary");su.append(node("span","",g.name),node("span","n",n===1?"1 Angebot":n+" Angebote"));d.append(su);
         if(selK||(selG&&selG.size<=3))d.open=true;
         let done=false;const fill=()=>{if(done)return;done=true;
-          if(bera){const k=KJZ[g.bezirk];d.append(node("h4","","👶 Mütter- und Väterberatung"));const ul=document.createElement("ul"),li=document.createElement("li");
+          if(bera){const k=KJZ[g.bezirk]||KJZ.Hinwil;d.append(node("h4","","👶 Mütter- und Väterberatung"));const ul=document.createElement("ul"),li=document.createElement("li");
             li.append(node("span","t","Beratung zu Stillen, Ernährung, Schlaf und Entwicklung, kostenlos für Eltern mit Kindern bis 5 Jahre"));const vl=node("div","vl");vl.append(lk(k[0],k[1]));li.append(vl);ul.append(li);d.append(ul)}
           FAK.forEach(([kk,title])=>{const S=L.filter(x=>x.k===kk);if(!S.length)return;d.append(node("h4","",title));const ul=document.createElement("ul");
             S.forEach(x=>{const li=document.createElement("li");li.append(node("span","t",x.n));const m=[x.a,x.oh?"🕒 "+ohDe(x.oh):""].filter(Boolean).join(" · ");if(m)li.append(node("span","m",m));
@@ -726,7 +727,7 @@ const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","�
 })();
 const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["erlebnis","🎢 Erlebnis, Klettern, Minigolf"],["burg","🏰 Burgen, Schlösser, Ruinen"],["aussicht","🌄 Aussichtspunkte und Türme"],["sehens","⭐ Sehenswürdigkeiten"],["feuer","🔥 Feuerstellen und Grillplätze"]];
 (function setupAusflug(){
-  const A=window.AUSFLUG,box=document.getElementById("ausflug"),GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
+  const A=window.AUSFLUG,box=document.getElementById("ausflug"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   if(!A){box.append(node("p","empty","Die Ausflugsziele werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("austand").textContent="Stand: "+A.stand.split("-").reverse().join(".")+".";
   document.getElementById("tile-ausflug").textContent=A.ziele.length+" Ziele: Tierparks, Museen, Burgen, Aussichtstürme und mehr";
