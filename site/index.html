@@ -138,6 +138,8 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .fa h4{margin:12px 0 6px;font-size:.95rem}.fa ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 .fa li{display:grid;gap:2px;padding:8px 10px;border-radius:10px;background:rgba(127,127,127,.08)}.fa li .t{font-weight:600}.fa li .m{font-size:.85rem;color:var(--muted)}
 .fa .vl a{font-size:.9rem;color:var(--accent);font-weight:700}.fa .src{margin:10px 0 14px;font-size:.88rem}.fa .src a{color:var(--accent);font-weight:700}
+.au{list-style:none;margin:0;padding:0;display:grid;gap:8px}.au li{display:grid;gap:3px;padding:10px 12px;border-radius:12px;background:rgba(127,127,127,.08)}
+.au li .t{font-weight:700}.au li .m{font-size:.85rem;color:var(--muted)}.au li .d{font-size:.9rem}.au .vl a{font-size:.9rem;color:var(--accent);font-weight:700}
 .near{display:grid;gap:6px;justify-items:start}.near .note{margin:0;color:var(--muted);font-size:.85rem}
 .nearbtn{font:inherit;font-weight:700;padding:10px 16px;border-radius:12px;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer}
 #sp-near-box{width:100%}#sp-near-box ul{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:8px}
@@ -166,6 +168,11 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <a class="tile tile-alt" href="#raeume" id="go-raeume">
       <span class="tile-title">Event-Räume</span>
       <span class="tile-text">Räume für Feste und Anlässe zum mieten</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="tile tile-alt" href="#ausflug" id="go-ausflug">
+      <span class="tile-title">Ausflugsziele in der Region</span>
+      <span class="tile-text" id="tile-ausflug">Tierparks, Museen, Burgen, Aussichtstürme und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#familie" id="go-familie">
@@ -198,6 +205,23 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </section>
   <p id="rcount" class="count-line"></p>
   <main id="rooms"></main>
+</div>
+
+<div class="wrap" id="view-ausflug" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1>Ausflugsziele in der Region</h1>
+    <p class="lead">Tierparks, Museen, Burgen, Aussichtstürme, Erlebnisse und Feuerstellen in den Bezirken Uster, Meilen, Pfäffikon und Hinwil.</p>
+  </header>
+  <section class="filters" aria-label="Filter Ausflugsziele">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="ag-dd"><summary id="ag-sum">Alle Gemeinden</summary><div class="dd-panel" id="ag-panel"><input type="search" class="dd-search" id="ag-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="ag-all">Alle</button><button type="button" id="ag-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Thema</b><details class="dd" id="ak-dd"><summary id="ak-sum">Alle Themen</summary><div class="dd-panel" id="ak-panel"><div class="dd-actions"><button type="button" id="ak-all">Alle Themen</button></div></div></details></div>
+    <div class="row"><b>Wetter</b><details class="dd" id="aw-dd"><summary id="aw-sum">Bei jedem Wetter</summary><div class="dd-panel" id="aw-panel"></div></details></div>
+  </section>
+  <div class="near"><button type="button" id="au-near" class="nearbtn">📍 Nach Entfernung sortieren</button><p class="note" id="au-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p></div>
+  <p id="aucount" class="count-line"></p>
+  <main id="ausflug"></main>
+  <footer>Quelle: OpenStreetMap, jede Woche aktualisiert. Öffnungszeiten und Preise bitte vor dem Besuch auf der Website prüfen. «Auch bei Regen» gilt für Museen und Hallen. <span id="austand"></span></footer>
 </div>
 
 <div class="wrap" id="view-familie" hidden>
@@ -273,6 +297,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="wetter.js"></script>
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
+<script src="ausflug.js"></script>
 <script src="spielplaetze.js"></script>
 <script>
 const AGES=[[0,3],[4,6],[7,9],[10,12]];
@@ -652,9 +677,59 @@ const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","�
     if(!nG)box.append(node("p","empty",selG&&!selG.size?"Keine Gemeinde gewählt.":"Für diese Auswahl gibt es keine Angebote."))}
   render();
 })();
+const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["erlebnis","🎢 Erlebnis, Klettern, Minigolf"],["burg","🏰 Burgen, Schlösser, Ruinen"],["aussicht","🌄 Aussichtspunkte und Türme"],["sehens","⭐ Sehenswürdigkeiten"],["feuer","🔥 Feuerstellen und Grillplätze"]];
+(function setupAusflug(){
+  const A=window.AUSFLUG,box=document.getElementById("ausflug"),GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
+  if(!A){box.append(node("p","empty","Die Ausflugsziele werden gerade gesammelt. Schau bald wieder vorbei."));return}
+  document.getElementById("austand").textContent="Stand: "+A.stand.split("-").reverse().join(".")+".";
+  document.getElementById("tile-ausflug").textContent=A.ziele.length+" Ziele: Tierparks, Museen, Burgen, Aussichtstürme und mehr";
+  const codes=Object.keys(GM).filter(c=>A.ziele.some(z=>z.g===c));let selG=null,selK=null,rain=false,me=null;
+  const KL=Object.fromEntries(AKS);const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
+  const gp=document.getElementById("ag-panel"),groups={};codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  const curG=()=>new Set(selG||codes),setG=set=>{selG=set.size===codes.length?null:set;render()};
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const list=groups[b].sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de"));
+    const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.addEventListener("click",()=>{const c=curG(),on=!list.every(x=>c.has(x));list.forEach(x=>on?c.add(x):c.delete(x));setG(c)});head.append(hb);gp.append(head);
+    list.forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="ag-"+c;l.dataset.name=GM[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const s=curG();i.checked?s.add(c):s.delete(c);setG(s)});l.append(i,node("span","",GM[c].name),node("span","n",String(A.ziele.filter(z=>z.g===c).length)));gp.append(l)})});
+  document.getElementById("ag-all").addEventListener("click",()=>setG(new Set(codes)));
+  document.getElementById("ag-none").addEventListener("click",()=>{selG=new Set();render()});
+  const gs=document.getElementById("ag-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  const kp=document.getElementById("ak-panel");
+  AKS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="ak-"+k;
+    i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<AKS.length?s:null;render()});l.append(i,node("span","",t+" ("+A.ziele.filter(z=>z.k===k).length+")"));kp.append(l)});
+  document.getElementById("ak-all").addEventListener("click",()=>{selK=null;render()});
+  const wp=document.getElementById("aw-panel");
+  [["all","Bei jedem Wetter"],["rain","Auch bei Regen (drinnen)"]].forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="aw";i.id="aw-"+v;
+    i.addEventListener("change",()=>{rain=v==="rain";render();document.getElementById("aw-dd").open=false});l.append(i,node("span","",t));wp.append(l)});
+  const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
+  document.getElementById("au-near").addEventListener("click",()=>{const msg=document.getElementById("au-near-msg");
+    if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht …";
+    navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
+      e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
+  function sync(){codes.forEach(c=>{const i=document.getElementById("ag-"+c);if(i)i.checked=!selG||selG.has(c)});
+    const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("ag-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
+    AKS.forEach(([k])=>document.getElementById("ak-"+k).checked=!!selK&&selK.has(k));
+    const ks=selK?AKS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ak-sum").textContent=!selK?"Alle Themen":ks.length===1?ks[0]:ks.length+" Themen";
+    document.getElementById("aw-all").checked=!rain;document.getElementById("aw-rain").checked=rain;document.getElementById("aw-sum").textContent=rain?"Auch bei Regen":"Bei jedem Wetter"}
+  function li(z){const l=document.createElement("li");const t=node("span","t",z.n);if(z._d!=null)t.append(node("span","dist"," · "+(z._d<1?Math.round(z._d*100)*10+" m":z._d.toFixed(1).replace(".",",")+" km")));l.append(t);
+    l.append(node("span","m",KL[z.k]+" · "+((GM[z.g]||{}).name||"")+(z.in?" · ☔ auch bei Regen":"")+(z.fee===0?" · gratis":"")));
+    if(z.d)l.append(node("span","d",z.d));if(z.oh)l.append(node("span","m","🕒 "+ohDe(z.oh)));
+    const vl=node("div","vl");if(z.w)vl.append(lk("Website",z.w));if(z.wp)vl.append(lk("Wikipedia",z.wp));
+    vl.append(lk("Karte","https://www.google.com/maps/search/?api=1&query="+z.lat+","+z.lon),lk("Route","https://www.google.com/maps/dir/?api=1&destination="+z.lat+","+z.lon));l.append(vl);return l}
+  function render(){sync();box.replaceChildren();
+    let L=A.ziele.filter(z=>(!selG||selG.has(z.g))&&(!selK||selK.has(z.k))&&(!rain||z.in)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
+    document.getElementById("aucount").textContent=L.length===1?"1 Ausflugsziel":L.length+" Ausflugsziele";
+    if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es keine Ausflugsziele."));return}
+    if(me){L.sort((a,b)=>a._d-b._d);const ul=node("ul","au");L.slice(0,60).forEach(z=>ul.append(li(z)));box.append(ul);return}
+    AKS.forEach(([k,t])=>{const S=L.filter(z=>z.k===k);if(!S.length)return;box.append(node("h2","bez",t+" ("+S.length+")"));const ul=node("ul","au");S.forEach(z=>ul.append(li(z)));box.append(ul)})}
+  render();
+})();
 function route(){
-  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie"})[location.hash]||"home";
-  ["home","events","raeume","spielplaetze","vereine","familie"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug"})[location.hash]||"home";
+  ["home","events","raeume","spielplaetze","vereine","familie","ausflug"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);

@@ -47,7 +47,7 @@ for (const e of data.elements) {
   const b = bounds.find(b => cross(c.lon, c.lat, b.segs) % 2 === 1); if (!b || !code[b.name]) continue;
   const key = name + b.name; if (seen.has(key)) continue; seen.add(key);
   const wp = t.wikipedia && /^de:/.test(t.wikipedia) ? "https://de.wikipedia.org/wiki/" + encodeURIComponent(t.wikipedia.slice(3).replace(/ /g, "_")) : "";
-  const indoor = INDOOR.has(k) || t.indoor === "yes" || t.leisure === "trampoline_park" || t.leisure === "amusement_arcade" || (t.leisure === "sports_centre") || t.building ? 1 : 0;
+  const indoor = INDOOR.has(k) || t.indoor === "yes" || t.leisure === "trampoline_park" || t.leisure === "amusement_arcade" || t.leisure === "sports_centre" || t.leisure === "ice_rink" ? 1 : 0;
   out.push({ g: code[b.name], k, n: name, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5), d: (t.description || "").slice(0, 200),
     w: t.website || t["contact:website"] || "", wp, oh: t.opening_hours || "", in: indoor, fee: t.fee === "no" ? 0 : t.fee === "yes" ? 1 : null });
 }
