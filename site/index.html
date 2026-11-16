@@ -133,6 +133,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .chipsel{display:flex;flex-wrap:wrap;gap:6px}
 .chipsel button{font:inherit;font-size:.88rem;padding:6px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
 .chipsel button[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.vl{display:flex;flex-wrap:wrap;gap:4px 14px}.vl a+a{color:var(--muted);font-weight:600}
 .vr li .k{font-size:.75rem;font-weight:700;color:var(--muted)}
 .near{display:grid;gap:6px;justify-items:start}.near .note{margin:0;color:var(--muted);font-size:.85rem}
 .nearbtn{font:inherit;font-weight:700;padding:10px 16px;border-radius:12px;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer}
@@ -203,7 +204,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </section>
   <p id="vrcount" class="count-line"></p>
   <main id="vereine"></main>
-  <footer>Die Vereine stammen aus den Vereinslisten der Gemeinden und werden jede Woche aktualisiert. Ob ein Verein Kinder aufnimmt, erkennt die Seite am Namen, zum Beispiel «Pfadi», «Jugendmusik» oder «FC». Turn- und Sportvereine haben meist eine Kinder- oder Jugendriege, Musikvereine oft eine Jugendmusik. Details und Kontakte findest du über den Link zur Gemeinde. <span id="vrstand"></span></footer>
+  <footer>Die Vereine stammen aus den Vereinslisten der Gemeinden und werden jede Woche aktualisiert. Ob ein Verein Kinder aufnimmt, erkennt die Seite am Namen, zum Beispiel «Pfadi», «Jugendmusik» oder «FC». Turn- und Sportvereine haben meist eine Kinder- oder Jugendriege, Musikvereine oft eine Jugendmusik. Die Website des Vereins stammt aus dem Eintrag bei der Gemeinde. Kontakte findest du dort. <span id="vrstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-spielplaetze" hidden>
@@ -533,7 +534,8 @@ const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","P
         su.append(node("span","",g),node("span","n",L.length===1?"1 Verein":L.length+" Vereine"));d.append(su);if(q||on.size)d.open=true;
         let done=false;const fill=()=>{if(done)return;done=true;const ul=document.createElement("ul");
           L.forEach(v=>{const li=document.createElement("li");li.append(node("span","t",v.n),node("span","k",GL[v.k]+(v.o?" · "+v.o:"")));
-            const a=node("a","","Mehr auf der Website der Gemeinde");a.href=v.u;a.target="_blank";a.rel="noopener";li.append(a);ul.append(li)});d.append(ul)};
+            const ln=node("div","vl");if(v.w){const w=node("a","","Website des Vereins");w.href=v.w;w.target="_blank";w.rel="noopener";ln.append(w)}
+            const a=node("a","",v.w?"Eintrag bei der Gemeinde":"Mehr auf der Website der Gemeinde");a.href=v.u;a.target="_blank";a.rel="noopener";ln.append(a);li.append(ln);ul.append(li)});d.append(ul)};
         if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})});
     document.getElementById("vrcount").textContent=(nV===1?"1 Verein":nV+" Vereine")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
     if(!nG)box.append(node("p","empty","Nichts gefunden."));

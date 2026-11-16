@@ -26,8 +26,18 @@ for (const [code, g] of Object.entries(G)) {
     const k = classifyClub(n); if (!k) continue;
     list.push({ n, k, o: strip(decode(r.ort || "")).trim(), u: href ? "https://" + g.domain + href : "https://" + g.domain + path });
   }
+  // eigene Website des Vereins aus der Detailseite der Gemeinde (Link «Website»)
+  for (const v of list) {
+    if (!/\/_rte\/verein\//.test(v.u)) continue;
+    try {
+      const r = await fetch(v.u, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt)" }, signal: AbortSignal.timeout(20000) });
+      if (r.ok) { const h = await r.text(); const re = /<a\b[^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi; let m;
+        while ((m = re.exec(h))) { if (/^\s*(website|webseite|homepage|internet)/i.test(strip(decode(m[2])))) { v.w = decode(m[1]); break; } } }
+    } catch {}
+    await sleep(300);
+  }
   list.sort((a, b) => a.n.localeCompare(b.n, "de"));
-  out[code] = list; info.push(`${g.name}: ${rows.length} Vereine, ${list.length} für Kinder (${path})`);
+  out[code] = list; info.push(`${g.name}: ${rows.length} Vereine, ${list.length} für Kinder, ${list.filter(v => v.w).length} mit Website (${path})`);
   await sleep(600);
 }
 console.log(info.join("\n"));
