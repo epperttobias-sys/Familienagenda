@@ -26,8 +26,8 @@
    "name": "Kappel am Albis",
    "bezirk": "Affoltern",
    "domain": "www.kappel-am-albis.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 7
   },
   "knonau": {
    "name": "Knonau",
@@ -96,7 +96,7 @@
    "name": "Feuerthalen",
    "bezirk": "Andelfingen",
    "domain": "www.feuerthalen.ch",
-   "ok": true,
+   "ok": false,
    "count": 3
   },
   "flaach": {
@@ -124,22 +124,22 @@
    "name": "Kleinandelfingen",
    "bezirk": "Andelfingen",
    "domain": "www.kleinandelfingen.ch",
-   "ok": true,
+   "ok": false,
    "count": 5
   },
   "laufenuhwiesen": {
    "name": "Laufen-Uhwiesen",
    "bezirk": "Andelfingen",
    "domain": "www.uhwiesen.ch",
-   "ok": true,
+   "ok": false,
    "count": 2
   },
   "marthalen": {
    "name": "Marthalen",
    "bezirk": "Andelfingen",
    "domain": "www.marthalen.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 7
   },
   "rheinau": {
    "name": "Rheinau",
@@ -300,7 +300,7 @@
    "bezirk": "Dielsdorf",
    "domain": "www.daellikon.ch",
    "ok": true,
-   "count": 3
+   "count": 2
   },
   "daenikon": {
    "name": "Dänikon",
@@ -341,8 +341,8 @@
    "name": "Niederhasli",
    "bezirk": "Dielsdorf",
    "domain": "www.niederhasli.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 6
   },
   "niederweningen": {
    "name": "Niederweningen",
@@ -376,8 +376,8 @@
    "name": "Regensdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.regensdorf.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 5
   },
   "ruemlang": {
    "name": "Rümlang",
@@ -474,8 +474,8 @@
    "name": "Urdorf",
    "bezirk": "Dietikon",
    "domain": "www.urdorf.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 68
   },
   "weiningen": {
    "name": "Weiningen",
@@ -496,7 +496,7 @@
    "bezirk": "Hinwil",
    "domain": "www.bubikon.ch",
    "ok": true,
-   "count": 39
+   "count": 36
   },
   "du": {
    "name": "Dürnten",
@@ -538,7 +538,7 @@
    "bezirk": "Hinwil",
    "domain": "www.wald-zh.ch",
    "ok": true,
-   "count": 19
+   "count": 18
   },
   "wz": {
    "name": "Wetzikon",
@@ -552,7 +552,7 @@
    "bezirk": "Horgen",
    "domain": "www.adliswil.ch",
    "ok": true,
-   "count": 11
+   "count": 10
   },
   "horgen": {
    "name": "Horgen",
@@ -572,8 +572,8 @@
    "name": "Richterswil",
    "bezirk": "Horgen",
    "domain": "www.richterswil.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 13
   },
   "rueschlikon": {
    "name": "Rüschlikon",
@@ -586,8 +586,8 @@
    "name": "Thalwil",
    "bezirk": "Horgen",
    "domain": "www.thalwil.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 170
   },
   "waedenswil": {
    "name": "Wädenswil",
@@ -607,22 +607,22 @@
    "name": "Herrliberg",
    "bezirk": "Meilen",
    "domain": "www.herrliberg.ch",
-   "ok": true,
+   "ok": false,
    "count": 28
   },
   "hb": {
    "name": "Hombrechtikon",
    "bezirk": "Meilen",
    "domain": "www.hombrechtikon.ch",
-   "ok": true,
+   "ok": false,
    "count": 14
   },
   "n": {
    "name": "Küsnacht",
    "bezirk": "Meilen",
    "domain": "www.kuesnacht.ch",
-   "ok": true,
-   "count": 28
+   "ok": false,
+   "count": 23
   },
   "a": {
    "name": "Männedorf",
@@ -642,8 +642,8 @@
    "name": "Oetwil am See",
    "bezirk": "Meilen",
    "domain": "www.oetwil.ch",
-   "ok": true,
-   "count": 27
+   "ok": false,
+   "count": 26
   },
   "t": {
    "name": "Uetikon am See",
@@ -678,7 +678,7 @@
    "bezirk": "Pfäffikon",
    "domain": "www.fehraltorf.ch",
    "ok": true,
-   "count": 19
+   "count": 18
   },
   "hi": {
    "name": "Hittnau",
@@ -692,7 +692,7 @@
    "bezirk": "Pfäffikon",
    "domain": "www.ilef.ch",
    "ok": true,
-   "count": 102
+   "count": 103
   },
   "li": {
    "name": "Lindau",
@@ -734,7 +734,7 @@
    "bezirk": "Uster",
    "domain": "www.duebendorf.ch",
    "ok": true,
-   "count": 92
+   "count": 93
   },
   "e": {
    "name": "Egg",
@@ -852,8 +852,8 @@
    "name": "Elsau",
    "bezirk": "Winterthur",
    "domain": "www.elsau.ch",
-   "ok": false,
-   "count": 0
+   "ok": true,
+   "count": 40
   },
   "hagenbuch": {
    "name": "Hagenbuch",
@@ -975,24 +975,6 @@
   },
   {
    "gemeinden": [
-    "daellikon"
-   ],
-   "id": "daellikon-7735069",
-   "name": "Bewegungsraum für Kleinkinder",
-   "von": "2026-11-02",
-   "bis": "2026-11-16",
-   "ort": "Gemeinschaftszentrum Roos",
-   "veranstalter": "kjz Regensdorf",
-   "time": "",
-   "age": {
-    "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
-   },
-   "url": "https://www.daellikon.ch/_rte/anlass/7735069"
-  },
-  {
-   "gemeinden": [
     "ru"
    ],
    "id": "ru-6587-26452",
@@ -1050,6 +1032,20 @@
    "time": "",
    "age": null,
    "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/1899/eventdate/1883"
+  },
+  {
+   "gemeinden": [
+    "niederhasli"
+   ],
+   "id": "niederhasli-7785457",
+   "name": "Kerzenziehen",
+   "von": "2026-11-08",
+   "bis": "2026-11-20",
+   "ort": "Velokeller Schulhaus Rossacker",
+   "veranstalter": "Pro Hasli",
+   "time": "",
+   "age": null,
+   "url": "https://www.niederhasli.ch/_rte/anlass/7785457"
   },
   {
    "gemeinden": [
@@ -1134,6 +1130,24 @@
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.rueschlikon.ch/_rte/anlass/7791316"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638211",
+   "name": "Kerzenziehen",
+   "von": "2026-11-12",
+   "bis": "2026-11-26",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638211"
   },
   {
    "gemeinden": [
@@ -1310,7 +1324,6 @@
   {
    "gemeinden": [
     "e",
-    "o",
     "r"
    ],
    "id": "e-7760953",
@@ -1343,113 +1356,17 @@
   },
   {
    "gemeinden": [
-    "h"
-   ],
-   "id": "h-7665838",
-   "name": "Kamishibai",
-   "von": "2026-11-16",
-   "bis": "2026-11-16",
-   "ort": "Bibliothek",
-   "veranstalter": "Gemeindebibliothek",
-   "time": "14.30 - 15.00",
-   "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
-   },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7665838"
-  },
-  {
-   "gemeinden": [
-    "adliswil"
-   ],
-   "id": "adliswil-7817068",
-   "name": "Kerzenziehen 13.- 22.11.",
-   "von": "2026-11-16",
-   "bis": "2026-11-16",
-   "ort": "Sihltal Kirche",
-   "veranstalter": "Sihltal Kirche",
-   "time": "16.00 - 20.00",
-   "age": null,
-   "url": "https://www.adliswil.ch/_rte/anlass/7817068"
-  },
-  {
-   "gemeinden": [
-    "bb"
-   ],
-   "id": "bb-7799986",
-   "name": "Kinderballett - Pre-Ballet für 4 bis 5 Jährige - Offizielle Probelektion",
-   "von": "2026-11-16",
-   "bis": "2026-11-16",
-   "ort": "Familienforum Bubikon-Wolfhausen",
-   "veranstalter": "Gabriela Glaus",
-   "time": "14.50 - 15.30",
-   "age": {
-    "min": 4,
-    "max": 5,
-    "label": "4 bis 5 Jahre"
-   },
-   "url": "https://www.bubikon.ch/_rte/anlass/7799986"
-  },
-  {
-   "gemeinden": [
-    "bb"
-   ],
-   "id": "bb-7734607",
-   "name": "Kreatives Kindertanzen 4- bis 5-Jährige",
-   "von": "2026-11-16",
-   "bis": "2026-11-16",
-   "ort": "Familienforum Bubikon-Wolfhausen",
-   "veranstalter": "Gabriela Glaus - Musik, Singen & Kindertanzen Bubikon-Wolfhausen",
-   "time": "14.00 - 14.40",
-   "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7734607"
-  },
-  {
-   "gemeinden": [
-    "bb"
-   ],
-   "id": "bb-7809088",
-   "name": "Mami & Kind - Tanzen und Musik für 2- bis 5-Jährige",
-   "von": "2026-11-16",
-   "bis": "2026-11-16",
-   "ort": "Familienforum Bubikon-Wolfhausen",
-   "veranstalter": "Gabriela Glaus",
-   "time": "16.00 - 16.40",
-   "age": {
-    "min": 2,
-    "max": 5,
-    "label": "2 bis 5 Jahre"
-   },
-   "url": "https://www.bubikon.ch/_rte/anlass/7809088"
-  },
-  {
-   "gemeinden": [
     "ru"
    ],
-   "id": "ru-6655-25465",
+   "id": "ru-6655-25466",
    "name": "Rütner Kerzenziehen",
    "von": "2026-11-16",
-   "bis": "2026-11-16",
+   "bis": "2026-11-17",
    "ort": "Altes Pfarrhaus",
    "veranstalter": "Reformierte Kirche Rüti weitere Termine 16. November 2026 17. November",
    "time": "",
    "age": null,
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6655/eventdate/25465"
-  },
-  {
-   "gemeinden": [
-    "wa"
-   ],
-   "id": "wa-7737109",
-   "name": "Walder Kerzenziehen",
-   "von": "2026-11-16",
-   "bis": "2026-11-16",
-   "ort": "Reformiertes Gemeindezentrum Windegg",
-   "veranstalter": "Reformierte Kirche Wald",
-   "time": "14.00 - 20.00",
-   "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7737109"
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6655/eventdate/25466"
   },
   {
    "gemeinden": [
@@ -1531,6 +1448,56 @@
   },
   {
    "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7587322",
+   "name": "ELKI-TREFF",
+   "von": "2026-11-17",
+   "bis": "2026-11-17",
+   "ort": "UG (Viva Kirche)",
+   "veranstalter": "ELKI-Treff Marthalen",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7587322"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7692082",
+   "name": "Gschichtezyt",
+   "von": "2026-11-17",
+   "bis": "2026-11-17",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.elsau.ch/_rte/anlass/7692082"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638127",
+   "name": "Kerzenziehen",
+   "von": "2026-11-17",
+   "bis": "2026-11-17",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 19.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638127"
+  },
+  {
+   "gemeinden": [
     "wil"
    ],
    "id": "wil-7779655",
@@ -1584,6 +1551,34 @@
    "time": "15.00 - 16.30",
    "age": null,
    "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1647/eventdate/6370"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7606495",
+   "name": "Müslibibliothek",
+   "von": "2026-11-17",
+   "bis": "2026-11-17",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "9.15 - 9.40",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7606495"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704253",
+   "name": "Purzelbaum Family",
+   "von": "2026-11-17",
+   "bis": "2026-11-17",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704253"
   },
   {
    "gemeinden": [
@@ -1779,6 +1774,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7823500",
+   "name": "BAUEN - BAUEN",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Abenteuerspielplatz Thalwil",
+   "veranstalter": "Verein Abenteuerspielplatz Thalwil",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7823500"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7533601",
@@ -1915,6 +1924,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7583710",
+   "name": "ElKi-Singen",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7583710"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7666003",
@@ -1975,6 +2002,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604599",
+   "name": "Familientreff",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604599"
+  },
+  {
+   "gemeinden": [
     "weiach"
    ],
    "id": "weiach-3305-4486",
@@ -2000,6 +2041,24 @@
    "time": "9.30",
    "age": null,
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1969/eventdate/1442"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7824802",
+   "name": "Geschichten werden lebendig",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Praxis LogLit",
+   "veranstalter": "Ursina Hollenweger",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7824802"
   },
   {
    "gemeinden": [
@@ -2064,6 +2123,24 @@
     "label": "Kindergarten"
    },
    "url": "https://www.zumikon.ch/_rte/anlass/7774324"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638130",
+   "name": "Kerzenziehen",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.00 - 19.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638130"
   },
   {
    "gemeinden": [
@@ -2447,6 +2524,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7727032",
+   "name": "Schach-Treff für Kinder, Jugendliche und Erwachsene",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "14.00 - 18.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7727032"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7657126",
@@ -2462,6 +2553,20 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.duernten.ch/_rte/anlass/7657126"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7775050",
+   "name": "Spielnachmittag",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 16.30",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7775050"
   },
   {
    "gemeinden": [
@@ -2697,6 +2802,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604794",
+   "name": "Familientreff",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604794"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7588432",
@@ -2761,6 +2880,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638133",
+   "name": "Kerzenziehen",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 19.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638133"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7784773",
@@ -2800,6 +2937,66 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7660525"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7292915",
+   "name": "Krabbelgruppen in Waldemars Nest",
+   "von": "2026-11-19",
+   "bis": "2026-11-20",
+   "ort": "Kleinkindraum Waldemars Nest",
+   "veranstalter": "reformierte Kirche Thalwil",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "Kleinkinder"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7292915"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638178",
+   "name": "Krabbelturnen",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7638178"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7606498",
+   "name": "Müslibibliothek",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "9.15 - 9.40",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7606498"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7288697",
+   "name": "Mütter- und Väterberatung",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Schür-Treff, Mehrzweckraum",
+   "veranstalter": "Mütter- und Väterberatung",
+   "time": "",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7288697"
   },
   {
    "gemeinden": [
@@ -3077,6 +3274,24 @@
    "time": "8.00 - 11.30",
    "age": null,
    "url": "https://www.greifensee.ch/_rte/anlass/7402180"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638136",
+   "name": "Kerzenziehen",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "18.00 - 21.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638136"
   },
   {
    "gemeinden": [
@@ -3725,6 +3940,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638142",
+   "name": "Kerzenziehen",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.00 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638142"
+  },
+  {
+   "gemeinden": [
     "adliswil"
    ],
    "id": "adliswil-7817080",
@@ -3764,6 +3997,20 @@
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7284089"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7400107",
+   "name": "Kindermalen das Experimentieren und spielen mit Farben",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Pfistertreff",
+   "veranstalter": "KulTWerk Thalwil",
+   "time": "10.00 - 12.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7400107"
   },
   {
    "gemeinden": [
@@ -4118,6 +4365,24 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7820695",
+   "name": "\"o solo mio!\" Komödie über Einsamkeit mit Gesang",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Schreinerei Lüönd",
+   "veranstalter": "Barbara Briner",
+   "time": "11.00 - 12.10",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7820695"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7822045",
@@ -4235,6 +4500,24 @@
    "time": "11.00 - 17.00",
    "age": null,
    "url": "https://www.truellikon.ch/_rte/anlass/7727197"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638145",
+   "name": "Kerzenziehen",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.00 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638145"
   },
   {
    "gemeinden": [
@@ -4510,6 +4793,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7215740",
+   "name": "BabyTreff mit Mütter- und Väterberatung",
+   "von": "2026-11-23",
+   "bis": "2026-11-23",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7215740"
+  },
+  {
+   "gemeinden": [
     "dietlikon"
    ],
    "id": "dietlikon-1356-6361",
@@ -4589,6 +4890,20 @@
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8730/eventdate/8219"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604398",
+   "name": "Familientreff",
+   "von": "2026-11-23",
+   "bis": "2026-11-23",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604398"
   },
   {
    "gemeinden": [
@@ -4924,6 +5239,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638151",
+   "name": "Kerzenziehen",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 19.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638151"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7784788",
@@ -4977,6 +5310,20 @@
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6636/eventdate/9686"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704256",
+   "name": "Purzelbaum Family",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704256"
   },
   {
    "gemeinden": [
@@ -5077,6 +5424,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7804981",
+   "name": "Basteln für unser Adventsfenster",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7804981"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7533604",
@@ -5102,6 +5463,24 @@
    "time": "16.00 - 22.00",
    "age": null,
    "url": "https://www.wildberg.ch/_rte/anlass/7706632"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7691986",
+   "name": "Bilderbuchgeschichten auf Englisch mit Tali",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "15.00 - 15.30",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7691986"
   },
   {
    "gemeinden": [
@@ -5253,6 +5632,24 @@
   },
   {
    "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7740979",
+   "name": "Erzählmorgen",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Bibliothek",
+   "veranstalter": "Bibliothek",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7740979"
+  },
+  {
+   "gemeinden": [
     "o"
    ],
    "id": "o-3456-2052",
@@ -5306,6 +5703,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10541/eventdate/14515"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604602",
+   "name": "Familientreff",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604602"
   },
   {
    "gemeinden": [
@@ -5373,6 +5784,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7823497",
+   "name": "KERZEN",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Abenteuerspielplatz Thalwil",
+   "veranstalter": "Abenteuerspielplatz Thalwil",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7823497"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7736404",
@@ -5384,6 +5809,24 @@
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.ruemlang.ch/_rte/anlass/7736404"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638154",
+   "name": "Kerzenziehen",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.00 - 19.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638154"
   },
   {
    "gemeinden": [
@@ -5426,6 +5869,20 @@
    "time": "14.00 - 18.00",
    "age": null,
    "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7164/eventdate/11040"
+  },
+  {
+   "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7278281",
+   "name": "Kerzenziehen öffentlich",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
+   "time": "13.30",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7278281"
   },
   {
    "gemeinden": [
@@ -5779,6 +6236,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604797",
+   "name": "Familientreff",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604797"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7588435",
@@ -5843,6 +6314,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638157",
+   "name": "Kerzenziehen (Kreativabend für alle)",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Mehrzweckraum Schulhaus Bahnhofstrasse",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "18.00 - 21.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638157"
+  },
+  {
+   "gemeinden": [
     "wallisellen"
    ],
    "id": "wallisellen-7784794",
@@ -5854,6 +6343,24 @@
    "time": "",
    "age": null,
    "url": "https://www.wallisellen.ch/_rte/anlass/7784794"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7292918",
+   "name": "Krabbelgruppen in Waldemars Nest",
+   "von": "2026-11-26",
+   "bis": "2026-11-27",
+   "ort": "Kleinkindraum Waldemars Nest",
+   "veranstalter": "reformierte Kirche Thalwil",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "Kleinkinder"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7292918"
   },
   {
    "gemeinden": [
@@ -5961,6 +6468,20 @@
    "time": "17.00",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578058"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7748974",
+   "name": "Adventskranzen für alle",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "reformiertes Kirchgemeindehaus, Rosengartensaal",
+   "veranstalter": "Reformierte Kirche Richterswil",
+   "time": "14.00 - 20.00",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7748974"
   },
   {
    "gemeinden": [
@@ -6258,6 +6779,20 @@
   },
   {
    "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7278284",
+   "name": "Kerzenziehen öffentlich",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
+   "time": "13.30",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7278284"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7694983",
@@ -6429,6 +6964,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-6983674",
+   "name": "«Flower Power» Kranzen",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "KGH Elsau",
+   "veranstalter": "Evang.-ref. Kirchgemeinde Eulachtal",
+   "time": "15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/6983674"
+  },
+  {
+   "gemeinden": [
     "v"
    ],
    "id": "v-17212-106147",
@@ -6462,6 +7011,20 @@
     "label": "ab 3 Jahren"
    },
    "url": "https://www.uetikonamsee.ch/_rte/anlass/7731709"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7748977",
+   "name": "Adventskranzen für alle",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Reformiertes Kirchgemeindehaus, Rosengartensaal",
+   "veranstalter": "Reformierte Kirche Richterwil",
+   "time": "10.00 - 16.00",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7748977"
   },
   {
    "gemeinden": [
@@ -7019,6 +7582,20 @@
   },
   {
    "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7278287",
+   "name": "Kerzenziehen öffentlich",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
+   "time": "13.30",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7278287"
+  },
+  {
+   "gemeinden": [
     "rs"
    ],
    "id": "rs-7455226",
@@ -7094,6 +7671,20 @@
    "time": "11.00 - 12.00",
    "age": null,
    "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=17102"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7796488",
+   "name": "Micro-OL",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Reformierte Kirche Richterswil",
+   "veranstalter": "Martin Gross",
+   "time": "13.30 - 17.00",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7796488"
   },
   {
    "gemeinden": [
@@ -7435,6 +8026,20 @@
   },
   {
    "gemeinden": [
+    "regensdorf"
+   ],
+   "id": "regensdorf-7590571",
+   "name": "1. Advent Postenlauf",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Hundesport Riedthof",
+   "veranstalter": "Hundesport Riedthof Regensdorf",
+   "time": "16.00 - 18.00",
+   "age": null,
+   "url": "https://www.regensdorf.ch/_rte/anlass/7590571"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7822873",
@@ -7629,17 +8234,18 @@
   },
   {
    "gemeinden": [
+    "elsau",
     "wiesendangen"
    ],
-   "id": "wiesendangen-7765108",
+   "id": "elsau-7700242",
    "name": "Familiengottesdienst am 1. Adventssonntag",
    "von": "2026-11-29",
    "bis": "2026-11-29",
    "ort": "kath. Kirche St. Stefan",
-   "veranstalter": "Pfarrei St. Stefan",
-   "time": "10.00 - 11.00",
+   "veranstalter": "kath. Pfarrei St. Stefan",
+   "time": "10.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7765108"
+   "url": "https://www.elsau.ch/_rte/anlass/7700242"
   },
   {
    "gemeinden": [
@@ -7813,7 +8419,8 @@
   },
   {
    "gemeinden": [
-    "niederglatt"
+    "niederglatt",
+    "niederhasli"
    ],
    "id": "niederglatt-7823428",
    "name": "Samichlauseinzug",
@@ -7948,6 +8555,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7215743",
+   "name": "BabyTreff mit Mütter- und Väterberatung",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7215743"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556212",
@@ -8009,6 +8634,20 @@
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8731/eventdate/8218"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604401",
+   "name": "Familientreff",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604401"
   },
   {
    "gemeinden": [
@@ -8087,6 +8726,20 @@
    "time": "15.00 - 17.00",
    "age": null,
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7004/eventdate/12672"
+  },
+  {
+   "gemeinden": [
+    "niederhasli"
+   ],
+   "id": "niederhasli-7798102",
+   "name": "Adventsfenster",
+   "von": "2026-12-01",
+   "bis": "2026-12-24",
+   "ort": "Gemeindegebiet Niederhasli",
+   "veranstalter": "Pro Hasli",
+   "time": "",
+   "age": null,
+   "url": "https://www.niederhasli.ch/_rte/anlass/7798102"
   },
   {
    "gemeinden": [
@@ -8192,6 +8845,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7780633",
+   "name": "Ein Wort wird zum Geschenk ...",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "15.30 - 16.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7780633"
+  },
+  {
+   "gemeinden": [
     "o"
    ],
    "id": "o-3475-2042",
@@ -8203,6 +8870,20 @@
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3475/eventdate/2042"
+  },
+  {
+   "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7587316",
+   "name": "ELKI-TREFF",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "UG (Viva Kirche)",
+   "veranstalter": "ELKI-Treff Marthalen",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7587316"
   },
   {
    "gemeinden": [
@@ -8320,6 +9001,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704259",
+   "name": "Purzelbaum Family",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704259"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7366402",
@@ -8353,6 +9048,38 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.buelach.ch/_rte/anlass/7755028"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704295",
+   "name": "Startklar-Fit für Kindergarten und Schule",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "19.00 - 21.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704295"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7817791",
+   "name": "Taschenlampenführung für Kinder",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Museum Thalwil",
+   "veranstalter": "Museum Thalwil",
+   "time": "16.30 - 17.20",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7817791"
   },
   {
    "gemeinden": [
@@ -8460,6 +9187,24 @@
     "label": "3 bis 5 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7036301"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-6907450",
+   "name": "Buchstart",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/6907450"
   },
   {
    "gemeinden": [
@@ -8619,6 +9364,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604605",
+   "name": "Familientreff",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604605"
+  },
+  {
+   "gemeinden": [
     "i"
    ],
    "id": "i-7783531",
@@ -8634,6 +9393,24 @@
     "label": "ab 2 Jahren"
    },
    "url": "https://www.meilen.ch/_rte/anlass/7783531"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7824805",
+   "name": "Geschichten werden lebendig",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Praxis LogLit",
+   "veranstalter": "Ursina Hollenweger",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7824805"
   },
   {
    "gemeinden": [
@@ -8931,6 +9708,52 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7823491",
+   "name": "SAMICHLAUS- ZVIERI",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Abenteuerspielplatz Thalwil",
+   "veranstalter": "Abenteuerspielplatz Thalwil",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7823491"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7217117",
+   "name": "Samichlaus-Gschichtezyt",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Bibliothek",
+   "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7217117"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7727038",
+   "name": "Schach-Treff für Kinder, Jugendliche und Erwachsene",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "14.00 - 18.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7727038"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7657132",
@@ -9038,6 +9861,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7288778",
+   "name": "Babymassage",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Schür-Treff, Mehrzweckraum",
+   "veranstalter": "Mütter- und Väterberatung",
+   "time": "",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7288778"
+  },
+  {
+   "gemeinden": [
     "buchs"
    ],
    "id": "buchs-7727641",
@@ -9140,6 +9977,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604800",
+   "name": "Familientreff",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604800"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-6890275",
+   "name": "Fiire mit de Chline",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/6890275"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677721",
@@ -9236,6 +10101,66 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7292921",
+   "name": "Krabbelgruppen in Waldemars Nest",
+   "von": "2026-12-03",
+   "bis": "2026-12-04",
+   "ort": "Kleinkindraum Waldemars Nest",
+   "veranstalter": "reformierte Kirche Thalwil",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "Kleinkinder"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7292921"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638181",
+   "name": "Krabbelturnen",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7638181"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-6930313",
+   "name": "Müsli-Treff",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Kleiner Mühlesaal",
+   "veranstalter": "Familienverein Drü Dörfli",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/6930313"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7288817",
+   "name": "Mütter- und Väterberatung",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Schür-Treff, Mehrzweckraum",
+   "veranstalter": "Mütter- und Väterberatung",
+   "time": "",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7288817"
+  },
+  {
+   "gemeinden": [
     "langnauamalbis"
    ],
    "id": "langnauamalbis-7597816",
@@ -9247,6 +10172,20 @@
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7597816"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704277",
+   "name": "Purzelbaum Family",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "9.00 - 10.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704277"
   },
   {
    "gemeinden": [
@@ -9293,6 +10232,20 @@
    "time": "",
    "age": null,
    "url": "https://www.moenchaltorf.ch/_rte/anlass/7760590"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7815073",
+   "name": "Schnupperstunde Kindertheaterkurs",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Lila",
+   "veranstalter": "Lila Kindertheater",
+   "time": "14.00 - 18.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7815073"
   },
   {
    "gemeinden": [
@@ -9460,6 +10413,24 @@
    "time": "9.30 - 10.00",
    "age": null,
    "url": "https://www.ruemlang.ch/_rte/anlass/5452946"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7217081",
+   "name": "Buchstart-Treff",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Bibliothek",
+   "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "Kleinkinder"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7217081"
   },
   {
    "gemeinden": [
@@ -9887,6 +10858,24 @@
   },
   {
    "gemeinden": [
+    "regensdorf"
+   ],
+   "id": "regensdorf-7818025",
+   "name": "Winterkino im Zwhatt- Winterzauber Zwhatt",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "https://www.zwhatt.ch/de-ch/zwhatt-winterzauber.html",
+   "veranstalter": "Zwhatt, Siedlungscoaching ITOBA",
+   "time": "17.00 - 22.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.regensdorf.ch/_rte/anlass/7818025"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7693132",
@@ -9959,6 +10948,38 @@
    "time": "",
    "age": null,
    "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2169&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=3578a174ae5084c9569b6ff23dc7d639"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7566325",
+   "name": "Buchstart mit Speedy Schnägg",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Bibliothek",
+   "veranstalter": "Bibliothek",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 1,
+    "max": 3,
+    "label": "1 bis 3 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7566325"
+  },
+  {
+   "gemeinden": [
+    "regensdorf"
+   ],
+   "id": "regensdorf-7783072",
+   "name": "Chlauseinzug in 8106 Adlikon bei Regensdorf",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Gmeindshüsli in 8106 Adlikon",
+   "veranstalter": "Verein Aktives Adlikon 8106",
+   "time": "16.00 - 21.00",
+   "age": null,
+   "url": "https://www.regensdorf.ch/_rte/anlass/7783072"
   },
   {
    "gemeinden": [
@@ -10826,6 +11847,20 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7706272",
+   "name": "Besuche den Samichlaus am 06.Dezember",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "An 5 Standorten rund um Urdorf",
+   "veranstalter": "St Nikolaus Gesellschaft Urdorf",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7706272"
+  },
+  {
+   "gemeinden": [
     "dinhard"
    ],
    "id": "dinhard-3625-3739",
@@ -10851,6 +11886,24 @@
    "time": "10.30",
    "age": null,
    "url": "https://www.meilen.ch/_rte/anlass/7798870"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638214",
+   "name": "Chlaus-Zmorge",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "9.00 - 11.30",
+   "age": {
+    "min": 2,
+    "max": 12,
+    "label": "ab 2 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638214"
   },
   {
    "gemeinden": [
@@ -11056,6 +12109,20 @@
     "label": "4 bis 6 Jahre"
    },
    "url": "https://www.egg.ch/_rte/anlass/7801048"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7686661",
+   "name": "Offenes Singen zu Samichlaus, Advent und Weihnachten",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Reformierte Kirche Platte",
+   "veranstalter": "Thalwiler Konzerte",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7686661"
   },
   {
    "gemeinden": [
@@ -11360,6 +12427,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7215746",
+   "name": "BabyTreff mit Mütter- und Väterberatung",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7215746"
+  },
+  {
+   "gemeinden": [
     "daellikon"
    ],
    "id": "daellikon-7735138",
@@ -11425,6 +12510,20 @@
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3457/eventdate/2050"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604404",
+   "name": "Familientreff",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604404"
   },
   {
    "gemeinden": [
@@ -11750,6 +12849,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7820548",
+   "name": "Duo Sharon Chan und Charles Kwong",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Kulturcafé im Pfistertreff",
+   "veranstalter": "Fachstelle Kultur",
+   "time": "18.30",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7820548"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7534234",
@@ -11807,6 +12920,38 @@
    "time": "15.00 - 16.30",
    "age": null,
    "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1649/eventdate/6369"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704262",
+   "name": "Purzelbaum Family",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704262"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7817782",
+   "name": "Taschenlampenführung für Kinder",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Museum Thalwil",
+   "veranstalter": "Museum Thalwil",
+   "time": "16.30 - 17.20",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7817782"
   },
   {
    "gemeinden": [
@@ -11944,6 +13089,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-6907492",
+   "name": "Bilderbuchgeschichten",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "15.00 - 15.30",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/6907492"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-7062-10953",
@@ -11998,6 +13161,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7583713",
+   "name": "ElKi-Singen",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7583713"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7666012",
@@ -12013,6 +13194,24 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.duernten.ch/_rte/anlass/7666012"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7740982",
+   "name": "Erzählmorgen",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Bibliothek",
+   "veranstalter": "Bibliothek",
+   "time": "9.30 - 10.00",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7740982"
   },
   {
    "gemeinden": [
@@ -12045,6 +13244,20 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10535/eventdate/14511"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604608",
+   "name": "Familientreff",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604608"
   },
   {
    "gemeinden": [
@@ -12098,6 +13311,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7823494",
+   "name": "GRITIBÄNZ",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Abenteuerspielplatz Thalwil",
+   "veranstalter": "Abenteuerspielplatz Thalwil",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7823494"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556275",
@@ -12109,6 +13336,24 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556275"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7217114",
+   "name": "Gschichtezyt",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Bibliothek",
+   "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7217114"
   },
   {
    "gemeinden": [
@@ -12374,6 +13619,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704304",
+   "name": "Café International",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704304"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7737325",
@@ -12435,6 +13694,20 @@
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3733/eventdate/41606"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604803",
+   "name": "Familientreff",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604803"
   },
   {
    "gemeinden": [
@@ -12520,6 +13793,24 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7292924",
+   "name": "Krabbelgruppen in Waldemars Nest",
+   "von": "2026-12-10",
+   "bis": "2026-12-11",
+   "ort": "Kleinkindraum Waldemars Nest",
+   "veranstalter": "reformierte Kirche Thalwil",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "Kleinkinder"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7292924"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7717219",
@@ -12559,6 +13850,20 @@
    "time": "10.00 - 12.00",
    "age": null,
    "url": "https://www.neerach.ch/freizeit/veranstaltungen.html/138/event/5908/eventdate/4871"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704280",
+   "name": "Purzelbaum Family",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "9.00 - 10.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704280"
   },
   {
    "gemeinden": [
@@ -12942,6 +14247,24 @@
   },
   {
    "gemeinden": [
+    "regensdorf"
+   ],
+   "id": "regensdorf-7818022",
+   "name": "Winterkino im Winterzauber Zwhatt",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Zwhatt Platz",
+   "veranstalter": "Zwhatt, SIedlungscoaching ITOBA",
+   "time": "17.00 - 22.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.regensdorf.ch/_rte/anlass/7818022"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7792234",
@@ -12957,6 +14280,24 @@
     "label": "Kindergarten"
    },
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7792234"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7770460",
+   "name": "Advent mit 100 Stories, L´Atelier-ein Kinderatelier",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Bürgi",
+   "veranstalter": "Zenaida Feraud",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 3,
+    "max": 10,
+    "label": "3 bis 10 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7770460"
   },
   {
    "gemeinden": [
@@ -13394,6 +14735,24 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7817776",
+   "name": "Taschenlampenführung für Kinder",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Museum Thalwil",
+   "veranstalter": "Museum Thalwil",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7817776"
+  },
+  {
+   "gemeinden": [
     "turbenthal"
    ],
    "id": "turbenthal-4810-7569",
@@ -13500,6 +14859,20 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638223",
+   "name": "Eröffnung Adventsfenster FAVU",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7638223"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7753741",
@@ -13592,6 +14965,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638217",
+   "name": "Kasperlitheater Gigelisuppe: Vom Drache und de Wiehnachtsguetsli",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Singsaal Moosmatt",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "16.00 - 17.00",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7638217"
+  },
+  {
+   "gemeinden": [
     "niederweningen",
     "oberweningen",
     "schleinikon",
@@ -13637,6 +15028,42 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7640245",
+   "name": "Offene Turnhalle",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Zentrumshalle",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "10.00 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 7,
+    "label": "0 bis 7 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7640245"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7680154",
+   "name": "Offene Turnhalle Playgrounds",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Turnhalle Schweikrüti",
+   "veranstalter": "Fachstelle Frühe Förderung und Playground",
+   "time": "9.30 - 11.30",
+   "age": {
+    "min": 0,
+    "max": 6,
+    "label": "0 bis 6 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7680154"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7766299",
@@ -13666,6 +15093,24 @@
    "time": "13.30 - 16.30",
    "age": null,
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4205/eventdate/54525"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7215749",
+   "name": "BabyTreff mit Mütter- und Väterberatung",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7215749"
   },
   {
    "gemeinden": [
@@ -13705,6 +15150,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604407",
+   "name": "Familientreff",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604407"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7816585",
@@ -13734,6 +15193,20 @@
    "time": "14.00 - 14.40",
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7817575"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7220174",
+   "name": "Kulturmama’s English Storytime",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "Bibliothek",
+   "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7220174"
   },
   {
    "gemeinden": [
@@ -13825,6 +15298,20 @@
   },
   {
    "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7587313",
+   "name": "ELKI-TREFF",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "UG (Viva Kirche)",
+   "veranstalter": "ELKI-Treff Marthalen",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7587313"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7552450",
@@ -13840,6 +15327,24 @@
     "label": "ab 2 Jahren"
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7552450"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7692088",
+   "name": "Gschichtezyt",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.elsau.ch/_rte/anlass/7692088"
   },
   {
    "gemeinden": [
@@ -13900,6 +15405,52 @@
     "label": "ab 6 Jahren"
    },
    "url": "https://www.uster.ch/_rte/anlass/7466311"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7606501",
+   "name": "Müslibibliothek",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "9.15 - 9.40",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7606501"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704265",
+   "name": "Purzelbaum Family",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704265"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7817773",
+   "name": "Taschenlampenführung für Kinder",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Museum Thalwil",
+   "veranstalter": "Museum Thalwil",
+   "time": "16.30 - 17.20",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7817773"
   },
   {
    "gemeinden": [
@@ -14059,6 +15610,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604611",
+   "name": "Familientreff",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604611"
+  },
+  {
+   "gemeinden": [
     "s"
    ],
    "id": "s-2736",
@@ -14110,6 +15675,24 @@
     "label": "4 bis 6 Jahre"
    },
    "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/373/eventdate/941"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7824808",
+   "name": "Geschichten werden lebendig",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Praxis LogLit",
+   "veranstalter": "Ursina Hollenweger",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7824808"
   },
   {
    "gemeinden": [
@@ -14359,6 +15942,48 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7727041",
+   "name": "Schach-Treff für Kinder, Jugendliche und Erwachsene",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "14.00 - 18.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7727041"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7823488",
+   "name": "SPIEL- NACHMITTAG",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Abenteuerspielplatz Thalwil",
+   "veranstalter": "Verein Abenteuerspielplatz Thalwil",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7823488"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7775053",
+   "name": "Spielnachmittag",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 16.30",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7775053"
+  },
+  {
+   "gemeinden": [
     "wiesendangen"
    ],
    "id": "wiesendangen-7713889",
@@ -14525,6 +16150,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604806",
+   "name": "Familientreff",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604806"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677724",
@@ -14589,6 +16228,38 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7292927",
+   "name": "Krabbelgruppen in Waldemars Nest",
+   "von": "2026-12-17",
+   "bis": "2026-12-18",
+   "ort": "Kleinkindraum Waldemars Nest",
+   "veranstalter": "reformierte Kirche Thalwil",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "Kleinkinder"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7292927"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7638184",
+   "name": "Krabbelturnen",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7638184"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7717225",
@@ -14600,6 +16271,48 @@
    "time": "16.00",
    "age": null,
    "url": "https://www.duernten.ch/_rte/anlass/7717225"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7606507",
+   "name": "Müslibibliothek",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Bibliothek Elsau",
+   "veranstalter": "Bibliothek Elsau",
+   "time": "9.15 - 9.40",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7606507"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7288820",
+   "name": "Mütter- und Väterberatung",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Schür-Treff, Mehrzweckraum",
+   "veranstalter": "Mütter- und Väterberatung",
+   "time": "",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7288820"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704283",
+   "name": "Purzelbaum Family",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "9.00 - 10.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704283"
   },
   {
    "gemeinden": [
@@ -15155,6 +16868,20 @@
   },
   {
    "gemeinden": [
+    "marthalen"
+   ],
+   "id": "marthalen-7278347",
+   "name": "Familien-Weihnachtsfeier",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Kirche Marthalen",
+   "veranstalter": "Ortskirchenkommission Marthalen",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.marthalen.ch/_rte/anlass/7278347"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7814644",
@@ -15261,6 +16988,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7215752",
+   "name": "BabyTreff mit Mütter- und Väterberatung",
+   "von": "2026-12-21",
+   "bis": "2026-12-21",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7215752"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7816591",
@@ -15332,6 +17077,20 @@
    "time": "16.00",
    "age": null,
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8811/eventdate/8270"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7723696",
+   "name": "Familien-Weihnachtsgottesdienst",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Kath. Kirche Urdorf",
+   "veranstalter": "Kath. Pfarramt Hl. Bruder Klaus",
+   "time": "17.00 - 18.30",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7723696"
   },
   {
    "gemeinden": [
@@ -15465,6 +17224,24 @@
   },
   {
    "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7796500",
+   "name": "Krippenspiel",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Reformierte Kirche Richterswil",
+   "veranstalter": "Reformierte Kirche Richterswil",
+   "time": "17.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7796500"
+  },
+  {
+   "gemeinden": [
     "l"
    ],
    "id": "l-5883-11929",
@@ -15592,6 +17369,24 @@
     "label": "Kindergarten"
    },
    "url": "https://www.hinwil.ch/_rte/anlass/7735639"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7215755",
+   "name": "BabyTreff mit Mütter- und Väterberatung",
+   "von": "2026-12-28",
+   "bis": "2026-12-28",
+   "ort": "Familienzentrum",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "14.30 - 16.30",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7215755"
   },
   {
    "gemeinden": [
@@ -15769,6 +17564,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604410",
+   "name": "Familientreff",
+   "von": "2027-01-04",
+   "bis": "2027-01-04",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604410"
+  },
+  {
+   "gemeinden": [
     "benken"
    ],
    "id": "benken-7108217",
@@ -15879,6 +17688,38 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729135",
+   "name": "ElKi-Singen",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729135"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604614",
+   "name": "Familientreff",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604614"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7698526",
@@ -15957,6 +17798,48 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604809",
+   "name": "Familientreff",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604809"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7778461",
+   "name": "Fiire mit de Chline",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7778461"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7792615",
+   "name": "GESTÄRKT in den Kindergarten - (Kursnr. 2701 4 Abende)",
+   "von": "2027-01-07",
+   "bis": "2027-02-18",
+   "ort": "Spielgruppe Zwergli, Bürgi 2. Stock",
+   "veranstalter": "zwergli.richterswil - Elternbildung",
+   "time": "19.45 - 21.30",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7792615"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7660513",
@@ -15968,6 +17851,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7660513"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7715329",
+   "name": "Krabbelturnen",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7715329"
   },
   {
    "gemeinden": [
@@ -16277,6 +18174,42 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7715326",
+   "name": "Offene Turnhalle",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Zentrumshalle",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "10.00 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 7,
+    "label": "0 bis 7 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7715326"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7680157",
+   "name": "Offene Turnhalle Playgrounds",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Turnhalle Schweikrüti",
+   "veranstalter": "Fachstelle Frühe Förderung und Playground",
+   "time": "9.30 - 11.30",
+   "age": {
+    "min": 0,
+    "max": 6,
+    "label": "0 bis 6 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7680157"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7766305",
@@ -16324,6 +18257,20 @@
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8735/eventdate/8221"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604413",
+   "name": "Familientreff",
+   "von": "2027-01-11",
+   "bis": "2027-01-11",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604413"
   },
   {
    "gemeinden": [
@@ -16447,6 +18394,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702576",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702576"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-7870-11604",
@@ -16462,6 +18427,38 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7870/eventdate/11604"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714891",
+   "name": "Buchstart",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714891"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604617",
+   "name": "Familientreff",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604617"
   },
   {
    "gemeinden": [
@@ -16490,6 +18487,20 @@
    "time": "14.30 - 15.00",
    "age": null,
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392592"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7792609",
+   "name": "GESTÄRKT in den Kindergarten - (Kursnr. 2702 4 Abende)",
+   "von": "2027-01-13",
+   "bis": "2027-02-24",
+   "ort": "Spielgruppe Zwergli, Bürgi 2. Stock",
+   "veranstalter": "zwergli.richterswil – Elternbildung",
+   "time": "19.45 - 21.30",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7792609"
   },
   {
    "gemeinden": [
@@ -16578,6 +18589,20 @@
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565080"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604812",
+   "name": "Familientreff",
+   "von": "2027-01-14",
+   "bis": "2027-01-14",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604812"
   },
   {
    "gemeinden": [
@@ -16947,6 +18972,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604416",
+   "name": "Familientreff",
+   "von": "2027-01-18",
+   "bis": "2027-01-18",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604416"
+  },
+  {
+   "gemeinden": [
     "benken"
    ],
    "id": "benken-7804204",
@@ -17046,6 +19085,38 @@
    "time": "16.15 - 17.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7736053"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729132",
+   "name": "ElKi-Singen",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729132"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604620",
+   "name": "Familientreff",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604620"
   },
   {
    "gemeinden": [
@@ -17151,6 +19222,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7785907",
+   "name": "Café International",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7785907"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565083",
@@ -17162,6 +19247,20 @@
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565083"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604815",
+   "name": "Familientreff",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604815"
   },
   {
    "gemeinden": [
@@ -17204,6 +19303,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7660510"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7715332",
+   "name": "Krabbelturnen",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7715332"
   },
   {
    "gemeinden": [
@@ -17282,6 +19395,24 @@
    "time": "13.30 - 16.00",
    "age": null,
    "url": "https://www.bruetten.ch/_rte/anlass/7284875"
+  },
+  {
+   "gemeinden": [
+    "niederhasli"
+   ],
+   "id": "niederhasli-7785448",
+   "name": "Brändi Dog Plausch Turnier",
+   "von": "2027-01-23",
+   "bis": "2027-01-23",
+   "ort": "Werksgebäude Oberhasli",
+   "veranstalter": "Pro Hasli",
+   "time": "13.45 - 19.30",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.niederhasli.ch/_rte/anlass/7785448"
   },
   {
    "gemeinden": [
@@ -17541,6 +19672,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604419",
+   "name": "Familientreff",
+   "von": "2027-01-25",
+   "bis": "2027-01-25",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604419"
+  },
+  {
+   "gemeinden": [
     "n"
    ],
    "id": "n-17536-17664",
@@ -17591,6 +19736,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604623",
+   "name": "Familientreff",
+   "von": "2027-01-27",
+   "bis": "2027-01-27",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604623"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556281",
@@ -17620,6 +19779,20 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.uetikonamsee.ch/_rte/anlass/7825975"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604818",
+   "name": "Familientreff",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604818"
   },
   {
    "gemeinden": [
@@ -18005,6 +20178,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604422",
+   "name": "Familientreff",
+   "von": "2027-02-01",
+   "bis": "2027-02-01",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604422"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7809406",
@@ -18125,6 +20312,38 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729138",
+   "name": "ElKi-Singen",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729138"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604626",
+   "name": "Familientreff",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604626"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7392574",
@@ -18199,6 +20418,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604821",
+   "name": "Familientreff",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604821"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677733",
@@ -18224,6 +20457,34 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7660507"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7715335",
+   "name": "Krabbelturnen",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7715335"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-7806628",
+   "name": "Müsli-Treff",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Kleiner Mühlesaal",
+   "veranstalter": "Familienverein Drü Dörfli",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806628"
   },
   {
    "gemeinden": [
@@ -18425,6 +20686,20 @@
   },
   {
    "gemeinden": [
+    "niederhasli"
+   ],
+   "id": "niederhasli-7798111",
+   "name": "Notfälle bei Kleinkindern Kibesuisse",
+   "von": "2027-02-06",
+   "bis": "2027-02-06",
+   "ort": "Samariter Niederhasli",
+   "veranstalter": "Samariter Niederhasli",
+   "time": "09.00 - 12.00",
+   "age": null,
+   "url": "https://www.niederhasli.ch/_rte/anlass/7798111"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7816486",
@@ -18485,6 +20760,24 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7680160",
+   "name": "Offene Turnhalle Playgrounds",
+   "von": "2027-02-07",
+   "bis": "2027-02-07",
+   "ort": "Turnhalle Schweikrüti",
+   "veranstalter": "Fachstelle Frühe Förderung und Playground",
+   "time": "9.30 - 11.30",
+   "age": {
+    "min": 0,
+    "max": 6,
+    "label": "0 bis 6 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7680160"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7766320",
@@ -18518,6 +20811,20 @@
     "label": "ab 5 Jahren"
    },
    "url": "https://www.uster.ch/_rte/anlass/7738780"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604425",
+   "name": "Familientreff",
+   "von": "2027-02-08",
+   "bis": "2027-02-08",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604425"
   },
   {
    "gemeinden": [
@@ -18589,6 +20896,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604629",
+   "name": "Familientreff",
+   "von": "2027-02-10",
+   "bis": "2027-02-10",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604629"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7645678",
@@ -18614,6 +20935,34 @@
    "time": "15.00 - 16.00",
    "age": null,
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1879/eventdate/1395"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604824",
+   "name": "Familientreff",
+   "von": "2027-02-11",
+   "bis": "2027-02-11",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604824"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7715341",
+   "name": "Krabbelturnen",
+   "von": "2027-02-11",
+   "bis": "2027-02-11",
+   "ort": "Turnhalle Embri",
+   "veranstalter": "Familienverein Urdorf",
+   "time": "15.30 - 17.00",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7715341"
   },
   {
    "gemeinden": [
@@ -18667,6 +21016,20 @@
   },
   {
    "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-7456441",
+   "name": "Kindermaskenball",
+   "von": "2027-02-12",
+   "bis": "2027-02-12",
+   "ort": "Gemeindesaal Kappal am Albis",
+   "veranstalter": "FasnachtsGesellschaft Uerzlikon",
+   "time": "14.30 - 17.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7456441"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7581313",
@@ -18706,6 +21069,20 @@
    "time": "15.00 - 17.30",
    "age": null,
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8780/eventdate/8243"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7702012",
+   "name": "Fasnacht 2027 - Kinderumzug",
+   "von": "2027-02-13",
+   "bis": "2027-02-13",
+   "ort": "Dorfstrasse/Chilbiplatz/Schützenhalle",
+   "veranstalter": "Fasnachtsgesellschaft Thalwil",
+   "time": "13.30 - 19.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7702012"
   },
   {
    "gemeinden": [
@@ -18766,6 +21143,20 @@
    "time": "8.00 - 12.00",
    "age": null,
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8746/eventdate/8226"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604431",
+   "name": "Familientreff",
+   "von": "2027-02-15",
+   "bis": "2027-02-15",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604431"
   },
   {
    "gemeinden": [
@@ -18861,6 +21252,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604632",
+   "name": "Familientreff",
+   "von": "2027-02-17",
+   "bis": "2027-02-17",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604632"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7764793",
@@ -18886,6 +21291,20 @@
    "time": "14.00 - 14.30",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7776388"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604827",
+   "name": "Familientreff",
+   "von": "2027-02-18",
+   "bis": "2027-02-18",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604827"
   },
   {
    "gemeinden": [
@@ -18918,6 +21337,20 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621303"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7702081",
+   "name": "Fasnacht Thalwil 2027 - Uslumpete",
+   "von": "2027-02-19",
+   "bis": "2027-02-19",
+   "ort": "Schützenhalle Thalwil",
+   "veranstalter": "Fasnachtsgesellschaft Thalwil",
+   "time": "20.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7702081"
   },
   {
    "gemeinden": [
@@ -18981,6 +21414,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7700194",
+   "name": "Familiengottesdienst",
+   "von": "2027-02-21",
+   "bis": "2027-02-21",
+   "ort": "ref. Kirche",
+   "veranstalter": "kath. Pfarrei St. Stefan",
+   "time": "11.15 - 12.15",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7700194"
+  },
+  {
+   "gemeinden": [
     "feuerthalen"
    ],
    "id": "feuerthalen-3358-6039",
@@ -18992,6 +21439,20 @@
    "time": "",
    "age": null,
    "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3358/eventdate/6039"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604434",
+   "name": "Familientreff",
+   "von": "2027-02-22",
+   "bis": "2027-02-22",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604434"
   },
   {
    "gemeinden": [
@@ -19027,6 +21488,34 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704298",
+   "name": "Startklar-Fit für Kindergarten und Schule",
+   "von": "2027-02-23",
+   "bis": "2027-02-23",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "19.00 - 21.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704298"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604635",
+   "name": "Familientreff",
+   "von": "2027-02-24",
+   "bis": "2027-02-24",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604635"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556284",
@@ -19038,6 +21527,20 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556284"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604830",
+   "name": "Familientreff",
+   "von": "2027-02-25",
+   "bis": "2027-02-25",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604830"
   },
   {
    "gemeinden": [
@@ -19197,6 +21700,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604437",
+   "name": "Familientreff",
+   "von": "2027-03-01",
+   "bis": "2027-03-01",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604437"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7809409",
@@ -19261,6 +21778,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714894",
+   "name": "Buchstart",
+   "von": "2027-03-03",
+   "bis": "2027-03-03",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714894"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7736059",
@@ -19272,6 +21807,20 @@
    "time": "16.15 - 17.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7736059"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604638",
+   "name": "Familientreff",
+   "von": "2027-03-03",
+   "bis": "2027-03-03",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604638"
   },
   {
    "gemeinden": [
@@ -19307,6 +21856,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604833",
+   "name": "Familientreff",
+   "von": "2027-03-04",
+   "bis": "2027-03-04",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604833"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7778554",
+   "name": "Fiire mit de Chline",
+   "von": "2027-03-04",
+   "bis": "2027-03-04",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7778554"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677739",
@@ -19318,6 +21895,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677739"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-7806634",
+   "name": "Müsli-Treff",
+   "von": "2027-03-04",
+   "bis": "2027-03-04",
+   "ort": "Kleiner Mühlesaal",
+   "veranstalter": "Familienverein Drü Dörfli",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806634"
   },
   {
    "gemeinden": [
@@ -19435,6 +22026,24 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7680163",
+   "name": "Offene Turnhalle Playgrounds",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Turnhalle Schweikrüti",
+   "veranstalter": "Fachstelle Frühe Förderung und Playground",
+   "time": "9.30 - 11.30",
+   "age": {
+    "min": 0,
+    "max": 6,
+    "label": "0 bis 6 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7680163"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7766329",
@@ -19450,6 +22059,20 @@
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766329"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604440",
+   "name": "Familientreff",
+   "von": "2027-03-08",
+   "bis": "2027-03-08",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604440"
   },
   {
    "gemeinden": [
@@ -19521,6 +22144,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702579",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-03-10",
+   "bis": "2027-03-10",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702579"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-7872-11606",
@@ -19554,6 +22195,38 @@
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7718998"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729144",
+   "name": "ElKi-Singen",
+   "von": "2027-03-10",
+   "bis": "2027-03-10",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729144"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604641",
+   "name": "Familientreff",
+   "von": "2027-03-10",
+   "bis": "2027-03-10",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604641"
   },
   {
    "gemeinden": [
@@ -19632,6 +22305,34 @@
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.ruemlang.ch/_rte/anlass/7645681"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7785910",
+   "name": "Café International",
+   "von": "2027-03-11",
+   "bis": "2027-03-11",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7785910"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604836",
+   "name": "Familientreff",
+   "von": "2027-03-11",
+   "bis": "2027-03-11",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604836"
   },
   {
    "gemeinden": [
@@ -19759,7 +22460,8 @@
   },
   {
    "gemeinden": [
-    "langnauamalbis"
+    "langnauamalbis",
+    "thalwil"
    ],
    "id": "langnauamalbis-7800322",
    "name": "Pfadischnuppertag",
@@ -19897,6 +22599,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604443",
+   "name": "Familientreff",
+   "von": "2027-03-15",
+   "bis": "2027-03-15",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604443"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818688",
@@ -19993,6 +22709,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604644",
+   "name": "Familientreff",
+   "von": "2027-03-17",
+   "bis": "2027-03-17",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604644"
+  },
+  {
+   "gemeinden": [
     "s"
    ],
    "id": "s-2739",
@@ -20068,6 +22798,20 @@
    "time": "14.00 - 14.30",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7776391"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604839",
+   "name": "Familientreff",
+   "von": "2027-03-18",
+   "bis": "2027-03-18",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604839"
   },
   {
    "gemeinden": [
@@ -20150,6 +22894,20 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4248/eventdate/3043"
+  },
+  {
+   "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7683406",
+   "name": "Erzählcafé: Das ist ein Kinderspiel",
+   "von": "2027-03-19",
+   "bis": "2027-03-19",
+   "ort": "Dorftreff GZ Drei Eichen",
+   "veranstalter": "Altersbeauftragte Gemeinde Richterswil",
+   "time": "14.15 - 16.00",
+   "age": null,
+   "url": "https://www.richterswil.ch/_rte/anlass/7683406"
   },
   {
    "gemeinden": [
@@ -20297,6 +23055,24 @@
   },
   {
    "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7792942",
+   "name": "Secondhand - alles fürs Kind",
+   "von": "2027-03-20",
+   "bis": "2027-03-20",
+   "ort": "Haaggerisaal",
+   "veranstalter": "Elternmitwirkung Schule Samstagern",
+   "time": "9.00 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 9,
+    "label": "0 bis 9 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7792942"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7730455",
@@ -20411,6 +23187,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604446",
+   "name": "Familientreff",
+   "von": "2027-03-22",
+   "bis": "2027-03-22",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604446"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7811164",
@@ -20457,6 +23247,52 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729147",
+   "name": "ElKi-Singen",
+   "von": "2027-03-24",
+   "bis": "2027-03-24",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729147"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604647",
+   "name": "Familientreff",
+   "von": "2027-03-24",
+   "bis": "2027-03-24",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604647"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7794160",
+   "name": "Flower Power \"Osterbasteln\"",
+   "von": "2027-03-24",
+   "bis": "2027-03-24",
+   "ort": "KGH Elsau",
+   "veranstalter": "Evang. ref. Kirche Eulachtal",
+   "time": "15.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7794160"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556290",
@@ -20482,6 +23318,20 @@
    "time": "",
    "age": null,
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4393/eventdate/3179"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604842",
+   "name": "Familientreff",
+   "von": "2027-03-25",
+   "bis": "2027-03-25",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604842"
   },
   {
    "gemeinden": [
@@ -20528,6 +23378,20 @@
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766341"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604449",
+   "name": "Familientreff",
+   "von": "2027-03-29",
+   "bis": "2027-03-29",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604449"
   },
   {
    "gemeinden": [
@@ -20581,6 +23445,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604650",
+   "name": "Familientreff",
+   "von": "2027-03-31",
+   "bis": "2027-03-31",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604650"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7722817",
@@ -20595,6 +23473,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604845",
+   "name": "Familientreff",
+   "von": "2027-04-01",
+   "bis": "2027-04-01",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604845"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7778563",
+   "name": "Fiire mit de Chline",
+   "von": "2027-04-01",
+   "bis": "2027-04-01",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7778563"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677748",
@@ -20606,6 +23512,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677748"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-7806640",
+   "name": "Müsli-Treff",
+   "von": "2027-04-01",
+   "bis": "2027-04-01",
+   "ort": "Kleiner Mühlesaal",
+   "veranstalter": "Familienverein Drü Dörfli",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806640"
   },
   {
    "gemeinden": [
@@ -20719,6 +23639,24 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7680166",
+   "name": "Offene Turnhalle Playgrounds",
+   "von": "2027-04-04",
+   "bis": "2027-04-04",
+   "ort": "Turnhalle Schweikrüti",
+   "veranstalter": "Fachstelle Frühe Förderung und Playground",
+   "time": "9.30 - 11.30",
+   "age": {
+    "min": 0,
+    "max": 6,
+    "label": "0 bis 6 Jahre"
+   },
+   "url": "https://www.thalwil.ch/_rte/anlass/7680166"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7766344",
@@ -20748,6 +23686,20 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556245"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604452",
+   "name": "Familientreff",
+   "von": "2027-04-05",
+   "bis": "2027-04-05",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604452"
   },
   {
    "gemeinden": [
@@ -20794,6 +23746,56 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556248"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702582",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-04-07",
+   "bis": "2027-04-07",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702582"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729150",
+   "name": "ElKi-Singen",
+   "von": "2027-04-07",
+   "bis": "2027-04-07",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729150"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604653",
+   "name": "Familientreff",
+   "von": "2027-04-07",
+   "bis": "2027-04-07",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604653"
   },
   {
    "gemeinden": [
@@ -20862,6 +23864,20 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7816990"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604848",
+   "name": "Familientreff",
+   "von": "2027-04-08",
+   "bis": "2027-04-08",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604848"
   },
   {
    "gemeinden": [
@@ -21011,6 +24027,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604455",
+   "name": "Familientreff",
+   "von": "2027-04-12",
+   "bis": "2027-04-12",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604455"
+  },
+  {
+   "gemeinden": [
     "i"
    ],
    "id": "i-7778110",
@@ -21071,6 +24101,20 @@
   },
   {
    "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7704301",
+   "name": "Startklar-Fit für Kindergarten und Schule",
+   "von": "2027-04-13",
+   "bis": "2027-04-13",
+   "ort": "Mehrzweckraum Hofwis",
+   "veranstalter": "Frühe Förderung Elsau",
+   "time": "19.00 - 21.00",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7704301"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7725955",
@@ -21089,6 +24133,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714897",
+   "name": "Buchstart",
+   "von": "2027-04-14",
+   "bis": "2027-04-14",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714897"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7736068",
@@ -21100,6 +24162,20 @@
    "time": "16.15 - 17.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7736068"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604656",
+   "name": "Familientreff",
+   "von": "2027-04-14",
+   "bis": "2027-04-14",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604656"
   },
   {
    "gemeinden": [
@@ -21164,6 +24240,20 @@
     "label": "ab 3 Jahren"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818805"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604851",
+   "name": "Familientreff",
+   "von": "2027-04-15",
+   "bis": "2027-04-15",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604851"
   },
   {
    "gemeinden": [
@@ -21373,6 +24463,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604458",
+   "name": "Familientreff",
+   "von": "2027-04-19",
+   "bis": "2027-04-19",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604458"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818691",
@@ -21420,6 +24524,38 @@
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7719007"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729153",
+   "name": "ElKi-Singen",
+   "von": "2027-04-21",
+   "bis": "2027-04-21",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729153"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604659",
+   "name": "Familientreff",
+   "von": "2027-04-21",
+   "bis": "2027-04-21",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604659"
   },
   {
    "gemeinden": [
@@ -21497,6 +24633,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604854",
+   "name": "Familientreff",
+   "von": "2027-04-22",
+   "bis": "2027-04-22",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604854"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677754",
@@ -21557,6 +24707,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604461",
+   "name": "Familientreff",
+   "von": "2027-04-26",
+   "bis": "2027-04-26",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604461"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7631140",
@@ -21582,6 +24746,34 @@
    "time": "13.30",
    "age": null,
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3205/eventdate/1903"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604662",
+   "name": "Familientreff",
+   "von": "2027-04-28",
+   "bis": "2027-04-28",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604662"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604857",
+   "name": "Familientreff",
+   "von": "2027-04-29",
+   "bis": "2027-04-29",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604857"
   },
   {
    "gemeinden": [
@@ -21614,6 +24806,20 @@
    "time": "",
    "age": null,
    "url": "https://www.egg.ch/_rte/anlass/7681435"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604464",
+   "name": "Familientreff",
+   "von": "2027-05-03",
+   "bis": "2027-05-03",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604464"
   },
   {
    "gemeinden": [
@@ -21663,6 +24869,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604665",
+   "name": "Familientreff",
+   "von": "2027-05-05",
+   "bis": "2027-05-05",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604665"
+  },
+  {
+   "gemeinden": [
     "h"
    ],
    "id": "h-7817002",
@@ -21678,6 +24898,34 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7817002"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604860",
+   "name": "Familientreff",
+   "von": "2027-05-06",
+   "bis": "2027-05-06",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604860"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-7806649",
+   "name": "Müsli-Treff",
+   "von": "2027-05-06",
+   "bis": "2027-05-06",
+   "ort": "Kleiner Mühlesaal",
+   "veranstalter": "Familienverein Drü Dörfli",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806649"
   },
   {
    "gemeinden": [
@@ -21706,6 +24954,20 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556251"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604467",
+   "name": "Familientreff",
+   "von": "2027-05-10",
+   "bis": "2027-05-10",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604467"
   },
   {
    "gemeinden": [
@@ -21773,6 +25035,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702585",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-05-12",
+   "bis": "2027-05-12",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702585"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7736071",
@@ -21784,6 +25064,38 @@
    "time": "16.15 - 17.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7736071"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729156",
+   "name": "ElKi-Singen",
+   "von": "2027-05-12",
+   "bis": "2027-05-12",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729156"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604668",
+   "name": "Familientreff",
+   "von": "2027-05-12",
+   "bis": "2027-05-12",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604668"
   },
   {
    "gemeinden": [
@@ -21820,6 +25132,34 @@
     "label": "4 bis 10 Jahre"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4283/eventdate/3243"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604863",
+   "name": "Familientreff",
+   "von": "2027-05-13",
+   "bis": "2027-05-13",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604863"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7778566",
+   "name": "Fiire mit de Chline",
+   "von": "2027-05-13",
+   "bis": "2027-05-13",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7778566"
   },
   {
    "gemeinden": [
@@ -21873,6 +25213,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604470",
+   "name": "Familientreff",
+   "von": "2027-05-17",
+   "bis": "2027-05-17",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604470"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818694",
@@ -21888,6 +25242,38 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818694"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714903",
+   "name": "Buchstart",
+   "von": "2027-05-19",
+   "bis": "2027-05-19",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714903"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604671",
+   "name": "Familientreff",
+   "von": "2027-05-19",
+   "bis": "2027-05-19",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604671"
   },
   {
    "gemeinden": [
@@ -21920,6 +25306,20 @@
    "time": "14.00 - 14.30",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7786546"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604866",
+   "name": "Familientreff",
+   "von": "2027-05-20",
+   "bis": "2027-05-20",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604866"
   },
   {
    "gemeinden": [
@@ -22051,6 +25451,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604473",
+   "name": "Familientreff",
+   "von": "2027-05-24",
+   "bis": "2027-05-24",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604473"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7378993",
@@ -22079,6 +25493,38 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729162",
+   "name": "ElKi-Singen",
+   "von": "2027-05-26",
+   "bis": "2027-05-26",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729162"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604674",
+   "name": "Familientreff",
+   "von": "2027-05-26",
+   "bis": "2027-05-26",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604674"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7392565",
@@ -22104,6 +25550,20 @@
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7552501"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604869",
+   "name": "Familientreff",
+   "von": "2027-05-27",
+   "bis": "2027-05-27",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604869"
   },
   {
    "gemeinden": [
@@ -22227,6 +25687,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604476",
+   "name": "Familientreff",
+   "von": "2027-05-31",
+   "bis": "2027-05-31",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604476"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818775",
@@ -22274,6 +25748,20 @@
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7719010"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604677",
+   "name": "Familientreff",
+   "von": "2027-06-02",
+   "bis": "2027-06-02",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604677"
   },
   {
    "gemeinden": [
@@ -22331,6 +25819,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604872",
+   "name": "Familientreff",
+   "von": "2027-06-03",
+   "bis": "2027-06-03",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604872"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7778569",
+   "name": "Fiire mit de Chline",
+   "von": "2027-06-03",
+   "bis": "2027-06-03",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7778569"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7677763",
@@ -22342,6 +25858,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677763"
+  },
+  {
+   "gemeinden": [
+    "kappelamalbis"
+   ],
+   "id": "kappelamalbis-7806652",
+   "name": "Müsli-Treff",
+   "von": "2027-06-03",
+   "bis": "2027-06-03",
+   "ort": "Kleiner Mühlesaal",
+   "veranstalter": "Familienverein Drü Dörfli",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806652"
   },
   {
    "gemeinden": [
@@ -22395,6 +25925,20 @@
   },
   {
    "gemeinden": [
+    "regensdorf"
+   ],
+   "id": "regensdorf-7614073",
+   "name": "Sommerfest GZ Roos",
+   "von": "2027-06-06",
+   "bis": "2027-06-06",
+   "ort": "Gemeinschaftszentrum Roos",
+   "veranstalter": "Gemeinschaftszentrum Roos & Ludothek Regensdorf",
+   "time": "13.00 - 18.00",
+   "age": null,
+   "url": "https://www.regensdorf.ch/_rte/anlass/7614073"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556257",
@@ -22406,6 +25950,20 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556257"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604479",
+   "name": "Familientreff",
+   "von": "2027-06-07",
+   "bis": "2027-06-07",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604479"
   },
   {
    "gemeinden": [
@@ -22495,6 +26053,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702591",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-06-09",
+   "bis": "2027-06-09",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702591"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7736080",
@@ -22506,6 +26082,52 @@
    "time": "16.15 - 17.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7736080"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729168",
+   "name": "ElKi-Singen",
+   "von": "2027-06-09",
+   "bis": "2027-06-09",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729168"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604680",
+   "name": "Familientreff",
+   "von": "2027-06-09",
+   "bis": "2027-06-09",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604680"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604875",
+   "name": "Familientreff",
+   "von": "2027-06-10",
+   "bis": "2027-06-10",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604875"
   },
   {
    "gemeinden": [
@@ -22573,6 +26195,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604482",
+   "name": "Familientreff",
+   "von": "2027-06-14",
+   "bis": "2027-06-14",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604482"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818700",
@@ -22623,6 +26259,38 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714906",
+   "name": "Buchstart",
+   "von": "2027-06-16",
+   "bis": "2027-06-16",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714906"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604683",
+   "name": "Familientreff",
+   "von": "2027-06-16",
+   "bis": "2027-06-16",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604683"
+  },
+  {
+   "gemeinden": [
     "h"
    ],
    "id": "h-7817020",
@@ -22652,6 +26320,20 @@
    "time": "14.00 - 14.30",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7776403"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604878",
+   "name": "Familientreff",
+   "von": "2027-06-17",
+   "bis": "2027-06-17",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604878"
   },
   {
    "gemeinden": [
@@ -22743,6 +26425,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604485",
+   "name": "Familientreff",
+   "von": "2027-06-21",
+   "bis": "2027-06-21",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604485"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7746151",
@@ -22785,6 +26481,38 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729174",
+   "name": "ElKi-Singen",
+   "von": "2027-06-23",
+   "bis": "2027-06-23",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729174"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604686",
+   "name": "Familientreff",
+   "von": "2027-06-23",
+   "bis": "2027-06-23",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604686"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7392559",
@@ -22810,6 +26538,20 @@
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7552504"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604881",
+   "name": "Familientreff",
+   "von": "2027-06-24",
+   "bis": "2027-06-24",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604881"
   },
   {
    "gemeinden": [
@@ -22919,6 +26661,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604488",
+   "name": "Familientreff",
+   "von": "2027-06-28",
+   "bis": "2027-06-28",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604488"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604689",
+   "name": "Familientreff",
+   "von": "2027-06-30",
+   "bis": "2027-06-30",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604689"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7822069",
@@ -22930,6 +26700,34 @@
    "time": "",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7822069"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604884",
+   "name": "Familientreff",
+   "von": "2027-07-01",
+   "bis": "2027-07-01",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604884"
+  },
+  {
+   "gemeinden": [
+    "elsau"
+   ],
+   "id": "elsau-7778578",
+   "name": "Fiire mit de Chline",
+   "von": "2027-07-01",
+   "bis": "2027-07-01",
+   "ort": "ref. Kirche Elsau",
+   "veranstalter": "ref. Kirchgemeinde Elsau und Elsauer Katholiken",
+   "time": "9.15 - 9.45",
+   "age": null,
+   "url": "https://www.elsau.ch/_rte/anlass/7778578"
   },
   {
    "gemeinden": [
@@ -22958,6 +26756,20 @@
    "time": "10.00 - 10.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7778164"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604491",
+   "name": "Familientreff",
+   "von": "2027-07-05",
+   "bis": "2027-07-05",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604491"
   },
   {
    "gemeinden": [
@@ -22993,6 +26805,24 @@
   },
   {
    "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702594",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-07-07",
+   "bis": "2027-07-07",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702594"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7736086",
@@ -23004,6 +26834,38 @@
    "time": "16.15 - 17.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7736086"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729177",
+   "name": "ElKi-Singen",
+   "von": "2027-07-07",
+   "bis": "2027-07-07",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729177"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604692",
+   "name": "Familientreff",
+   "von": "2027-07-07",
+   "bis": "2027-07-07",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604692"
   },
   {
    "gemeinden": [
@@ -23040,6 +26902,20 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7817026"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604887",
+   "name": "Familientreff",
+   "von": "2027-07-08",
+   "bis": "2027-07-08",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604887"
   },
   {
    "gemeinden": [
@@ -23090,6 +26966,20 @@
    "time": "",
    "age": null,
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4151/eventdate/2984"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604494",
+   "name": "Familientreff",
+   "von": "2027-07-12",
+   "bis": "2027-07-12",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604494"
   },
   {
    "gemeinden": [
@@ -23253,6 +27143,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604500",
+   "name": "Familientreff",
+   "von": "2027-08-16",
+   "bis": "2027-08-16",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604500"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818706",
@@ -23271,6 +27175,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604695",
+   "name": "Familientreff",
+   "von": "2027-08-18",
+   "bis": "2027-08-18",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604695"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604890",
+   "name": "Familientreff",
+   "von": "2027-08-19",
+   "bis": "2027-08-19",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604890"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818742",
@@ -23285,6 +27217,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604503",
+   "name": "Familientreff",
+   "von": "2027-08-23",
+   "bis": "2027-08-23",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604503"
+  },
+  {
+   "gemeinden": [
     "sg"
    ],
    "id": "sg-6844300",
@@ -23296,6 +27242,34 @@
    "time": "",
    "age": null,
    "url": "https://www.seegraeben.ch/_rte/anlass/6844300"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604698",
+   "name": "Familientreff",
+   "von": "2027-08-25",
+   "bis": "2027-08-25",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604698"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604893",
+   "name": "Familientreff",
+   "von": "2027-08-26",
+   "bis": "2027-08-26",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604893"
   },
   {
    "gemeinden": [
@@ -23314,6 +27288,66 @@
     "label": "ab 3 Jahren"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3056"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604506",
+   "name": "Familientreff",
+   "von": "2027-08-30",
+   "bis": "2027-08-30",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604506"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729183",
+   "name": "ElKi-Singen",
+   "von": "2027-09-01",
+   "bis": "2027-09-01",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729183"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604701",
+   "name": "Familientreff",
+   "von": "2027-09-01",
+   "bis": "2027-09-01",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604701"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604896",
+   "name": "Familientreff",
+   "von": "2027-09-02",
+   "bis": "2027-09-02",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604896"
   },
   {
    "gemeinden": [
@@ -23346,6 +27380,20 @@
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.uitikon.ch/_rte/anlass/7792036"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604509",
+   "name": "Familientreff",
+   "von": "2027-09-06",
+   "bis": "2027-09-06",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604509"
   },
   {
    "gemeinden": [
@@ -23399,6 +27447,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604704",
+   "name": "Familientreff",
+   "von": "2027-09-08",
+   "bis": "2027-09-08",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604704"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604899",
+   "name": "Familientreff",
+   "von": "2027-09-09",
+   "bis": "2027-09-09",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604899"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7730365",
@@ -23449,6 +27525,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604512",
+   "name": "Familientreff",
+   "von": "2027-09-13",
+   "bis": "2027-09-13",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604512"
+  },
+  {
+   "gemeinden": [
     "langnauamalbis"
    ],
    "id": "langnauamalbis-7809100",
@@ -23464,6 +27554,56 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809100"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702597",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-09-15",
+   "bis": "2027-09-15",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702597"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7729186",
+   "name": "ElKi-Singen",
+   "von": "2027-09-15",
+   "bis": "2027-09-15",
+   "ort": "Neue ref. Kirche",
+   "veranstalter": "Ref. Kirche",
+   "time": "9.30",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7729186"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604707",
+   "name": "Familientreff",
+   "von": "2027-09-15",
+   "bis": "2027-09-15",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604707"
   },
   {
    "gemeinden": [
@@ -23499,6 +27639,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604902",
+   "name": "Familientreff",
+   "von": "2027-09-16",
+   "bis": "2027-09-16",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604902"
+  },
+  {
+   "gemeinden": [
     "n"
    ],
    "id": "n-16268-15595",
@@ -23527,6 +27681,20 @@
   },
   {
    "gemeinden": [
+    "niederhasli"
+   ],
+   "id": "niederhasli-7672843",
+   "name": "Strassenfest 2027",
+   "von": "2027-09-18",
+   "bis": "2027-09-18",
+   "ort": "Dorfstrasse/Dorfplatz",
+   "veranstalter": "Gemeinde Niederhasli",
+   "time": "10.00 - 17.00",
+   "age": null,
+   "url": "https://www.niederhasli.ch/_rte/anlass/7672843"
+  },
+  {
+   "gemeinden": [
     "benken"
    ],
    "id": "benken-7789402",
@@ -23538,6 +27706,20 @@
    "time": "",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7789402"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604515",
+   "name": "Familientreff",
+   "von": "2027-09-20",
+   "bis": "2027-09-20",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604515"
   },
   {
    "gemeinden": [
@@ -23556,6 +27738,48 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818709"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7813867",
+   "name": "Ausflug Kinderzoo Rapperswil, mit Schiff nach Zürich",
+   "von": "2027-09-22",
+   "bis": "2027-09-22",
+   "ort": "Gemäss Programm",
+   "veranstalter": "Chumm und mach mit!",
+   "time": "",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7813867"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604710",
+   "name": "Familientreff",
+   "von": "2027-09-22",
+   "bis": "2027-09-22",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604710"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604905",
+   "name": "Familientreff",
+   "von": "2027-09-23",
+   "bis": "2027-09-23",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604905"
   },
   {
    "gemeinden": [
@@ -23601,6 +27825,52 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604518",
+   "name": "Familientreff",
+   "von": "2027-09-27",
+   "bis": "2027-09-27",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604518"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714909",
+   "name": "Buchstart",
+   "von": "2027-09-29",
+   "bis": "2027-09-29",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714909"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604713",
+   "name": "Familientreff",
+   "von": "2027-09-29",
+   "bis": "2027-09-29",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604713"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818811",
@@ -23616,6 +27886,20 @@
     "label": "3 bis 7 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818811"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604908",
+   "name": "Familientreff",
+   "von": "2027-09-30",
+   "bis": "2027-09-30",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604908"
   },
   {
    "gemeinden": [
@@ -23651,6 +27935,24 @@
   },
   {
    "gemeinden": [
+    "richterswil"
+   ],
+   "id": "richterswil-7792939",
+   "name": "Secondhand - alles fürs Kind",
+   "von": "2027-10-02",
+   "bis": "2027-10-02",
+   "ort": "Haaggerisaal Samstagern",
+   "veranstalter": "Elternmitwirkung Samstagern",
+   "time": "9.00 - 12.00",
+   "age": {
+    "min": 0,
+    "max": 10,
+    "label": "0 bis 10 Jahre"
+   },
+   "url": "https://www.richterswil.ch/_rte/anlass/7792939"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7289216",
@@ -23666,6 +27968,20 @@
     "label": "ab 5 Jahren"
    },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7289216"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604521",
+   "name": "Familientreff",
+   "von": "2027-10-04",
+   "bis": "2027-10-04",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604521"
   },
   {
    "gemeinden": [
@@ -23719,6 +28035,48 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604716",
+   "name": "Familientreff",
+   "von": "2027-10-06",
+   "bis": "2027-10-06",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604716"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604911",
+   "name": "Familientreff",
+   "von": "2027-10-07",
+   "bis": "2027-10-07",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604911"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604524",
+   "name": "Familientreff",
+   "von": "2027-10-11",
+   "bis": "2027-10-11",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604524"
+  },
+  {
+   "gemeinden": [
     "horgen"
    ],
    "id": "horgen-3548-58520",
@@ -23747,6 +28105,34 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604719",
+   "name": "Familientreff",
+   "von": "2027-10-13",
+   "bis": "2027-10-13",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604719"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604914",
+   "name": "Familientreff",
+   "von": "2027-10-14",
+   "bis": "2027-10-14",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604914"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818748",
@@ -23758,6 +28144,20 @@
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7818748"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604527",
+   "name": "Familientreff",
+   "von": "2027-10-18",
+   "bis": "2027-10-18",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604527"
   },
   {
    "gemeinden": [
@@ -23779,6 +28179,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604722",
+   "name": "Familientreff",
+   "von": "2027-10-20",
+   "bis": "2027-10-20",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604722"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7776409",
@@ -23790,6 +28204,34 @@
    "time": "14.00 - 14.30",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7776409"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604917",
+   "name": "Familientreff",
+   "von": "2027-10-21",
+   "bis": "2027-10-21",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604917"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604530",
+   "name": "Familientreff",
+   "von": "2027-10-25",
+   "bis": "2027-10-25",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604530"
   },
   {
    "gemeinden": [
@@ -23808,6 +28250,52 @@
     "label": "3 bis 5 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7725970"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7714912",
+   "name": "Buchstart",
+   "von": "2027-10-27",
+   "bis": "2027-10-27",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "9.30 - 10.15",
+   "age": {
+    "min": 1,
+    "max": 4,
+    "label": "1 bis 4 Jahre"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7714912"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604725",
+   "name": "Familientreff",
+   "von": "2027-10-27",
+   "bis": "2027-10-27",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604725"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604920",
+   "name": "Familientreff",
+   "von": "2027-10-28",
+   "bis": "2027-10-28",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604920"
   },
   {
    "gemeinden": [
@@ -23844,6 +28332,20 @@
     "label": "ab 3 Jahren"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4271/eventdate/3058"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604533",
+   "name": "Familientreff",
+   "von": "2027-11-01",
+   "bis": "2027-11-01",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604533"
   },
   {
    "gemeinden": [
@@ -23894,6 +28396,34 @@
     "label": "3 bis 5 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7725973"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604728",
+   "name": "Familientreff",
+   "von": "2027-11-03",
+   "bis": "2027-11-03",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604728"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604923",
+   "name": "Familientreff",
+   "von": "2027-11-04",
+   "bis": "2027-11-04",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604923"
   },
   {
    "gemeinden": [
@@ -23957,6 +28487,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604536",
+   "name": "Familientreff",
+   "von": "2027-11-08",
+   "bis": "2027-11-08",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604536"
+  },
+  {
+   "gemeinden": [
     "langnauamalbis"
    ],
    "id": "langnauamalbis-7809106",
@@ -23972,6 +28516,52 @@
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809106"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7702600",
+   "name": "Bilderbuchgeschichten",
+   "von": "2027-11-10",
+   "bis": "2027-11-10",
+   "ort": "Gemeindebibliothek Urdorf",
+   "veranstalter": "Gemeindebibliothek Urdorf",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.urdorf.ch/_rte/anlass/7702600"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604731",
+   "name": "Familientreff",
+   "von": "2027-11-10",
+   "bis": "2027-11-10",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604731"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604926",
+   "name": "Familientreff",
+   "von": "2027-11-11",
+   "bis": "2027-11-11",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604926"
   },
   {
    "gemeinden": [
@@ -24025,6 +28615,20 @@
   },
   {
    "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604539",
+   "name": "Familientreff",
+   "von": "2027-11-15",
+   "bis": "2027-11-15",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604539"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818715",
@@ -24040,6 +28644,52 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818715"
+  },
+  {
+   "gemeinden": [
+    "d"
+   ],
+   "id": "d-7725979",
+   "name": "Bilderbuch-Abenteuer (Kinder 3-5 Jahre)",
+   "von": "2027-11-17",
+   "bis": "2027-11-17",
+   "ort": "Stadtbibliothek",
+   "veranstalter": "Stadtbibliothek Dübendorf",
+   "time": "14.15",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725979"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7604734",
+   "name": "Familientreff",
+   "von": "2027-11-17",
+   "bis": "2027-11-17",
+   "ort": "Pfistertreff",
+   "veranstalter": "Fachstelle Frühe Förderung",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7604734"
+  },
+  {
+   "gemeinden": [
+    "il"
+   ],
+   "id": "il-7776412",
+   "name": "Vorlesezeit",
+   "von": "2027-11-17",
+   "bis": "2027-11-17",
+   "ort": "Bibliothek Effretikon",
+   "veranstalter": "Bibliothek Effretikon",
+   "time": "14.00 - 14.30",
+   "age": null,
+   "url": "https://www.ilef.ch/_rte/anlass/7776412"
   }
  ]
 }
