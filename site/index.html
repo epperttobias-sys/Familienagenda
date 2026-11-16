@@ -108,9 +108,33 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .spg li .t{font-weight:600}.spg li a{color:var(--accent);font-weight:700;font-size:.9rem;text-underline-offset:3px}
 .chips{display:flex;flex-wrap:wrap;gap:4px}.chips span{padding:1px 7px;border-radius:9px;font-size:.78rem;background:rgba(127,127,127,.18)}
 .dd-note{margin:6px 4px 2px;font-size:.78rem;color:var(--muted);line-height:1.35}
-.spmap{height:320px;border-radius:12px;margin:2px 0 4px;border:1px solid var(--line);overflow:hidden;background:rgba(127,127,127,.12)}
-.spmap iframe{width:100%;height:100%;border:0;display:block}
+.spmap{height:280px;border-radius:12px;margin:2px 0 10px;border:1px solid var(--line);background:rgba(127,127,127,.12);z-index:0}
+.leaflet-pane,.leaflet-tile,.leaflet-marker-icon,.leaflet-marker-shadow,.leaflet-tile-container,.leaflet-pane>svg,.leaflet-pane>canvas,.leaflet-zoom-box,.leaflet-image-layer,.leaflet-layer{position:absolute;left:0;top:0}
+.leaflet-container{overflow:hidden;position:relative;outline:0;font:inherit;touch-action:pan-y pinch-zoom}
+.leaflet-tile,.leaflet-marker-icon{user-select:none;-webkit-user-drag:none}
+.leaflet-container img.leaflet-tile{max-width:none!important;max-height:none!important;width:256px;height:256px;mix-blend-mode:normal}
+.leaflet-tile{filter:inherit;visibility:hidden}.leaflet-tile-loaded{visibility:inherit}
+.leaflet-pane{z-index:400}.leaflet-tile-pane{z-index:200}.leaflet-overlay-pane{z-index:400}.leaflet-marker-pane{z-index:600}.leaflet-popup-pane{z-index:700}
+.leaflet-pane svg path.leaflet-interactive{cursor:pointer;pointer-events:auto}
+.leaflet-control-container .leaflet-top,.leaflet-control-container .leaflet-bottom{position:absolute;z-index:800;pointer-events:none}
+.leaflet-top{top:0}.leaflet-bottom{bottom:0}.leaflet-left{left:0}.leaflet-right{right:0}
+.leaflet-control{position:relative;z-index:800;pointer-events:auto;float:left;clear:both}
+.leaflet-top .leaflet-control{margin-top:8px}.leaflet-left .leaflet-control{margin-left:8px}.leaflet-right .leaflet-control{margin-right:0}.leaflet-right{text-align:right}.leaflet-right .leaflet-control{float:right}
+.leaflet-bar{border-radius:8px;box-shadow:0 1px 4px rgba(0,0,0,.3);overflow:hidden}
+.leaflet-bar a{display:block;width:32px;height:32px;line-height:32px;text-align:center;text-decoration:none;background:#fff;color:#222;font:700 18px/32px sans-serif;border-bottom:1px solid #ddd}
+.leaflet-control-attribution{background:rgba(255,255,255,.85);color:#333;font-size:10px;padding:0 5px;margin:0}.leaflet-control-attribution a{color:#0b6}
+.leaflet-popup{position:absolute;text-align:center;margin-bottom:14px}
+.leaflet-popup-content-wrapper{background:#fff;color:#222;border-radius:10px;box-shadow:0 3px 14px rgba(0,0,0,.3);text-align:left;padding:1px}
+.leaflet-popup-content{margin:10px 14px;font-size:.88rem;line-height:1.35}.leaflet-popup-content a{color:#0f766e;font-weight:700}
+.leaflet-popup-tip-container{width:40px;height:14px;position:absolute;left:50%;margin-left:-20px;overflow:hidden;pointer-events:none}
+.leaflet-popup-tip{width:14px;height:14px;padding:1px;margin:-8px auto 0;transform:rotate(45deg);background:#fff}
+.leaflet-popup-close-button{position:absolute;top:2px;right:6px;color:#666;text-decoration:none;font:18px/20px sans-serif}
+.leaflet-zoom-animated{transform-origin:0 0}
 .maplink{display:inline-block;margin:0 0 12px;color:var(--accent);font-weight:700;font-size:.9rem;text-underline-offset:3px}
+.pop b{font-size:.95rem}.pop ul{margin:6px 0;padding:0;list-style:none;display:grid;gap:2px}.pop .ln{display:flex;flex-wrap:wrap;gap:4px 12px;margin-top:6px}
+.pin{width:28px;height:28px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#e5484d;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35);display:grid;place-items:center}
+.pin span{transform:rotate(45deg);font-size:13px;line-height:1}
+.pin.sc{background:#3b82f6}
 </style>
 
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
@@ -164,7 +188,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </section>
   <p id="spcount" class="count-line"></p>
   <main id="spiel"></main>
-  <footer>Liste: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Karte: Google Maps, sie zeigt die Spielplätze, die Google kennt. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
+  <footer>Liste: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Bewertungen und Fotos findest du über den Link zu Google beim Pin. Brunnen, Bäume und Schulgelände stammen aus Einträgen in OpenStreetMap, ohne Schätzung. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-events" hidden>
@@ -392,10 +416,12 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
   if(!D){box.append(node("p","empty","Die Spielplätze werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("spstand").textContent="Stand: "+D.stand.split("-").reverse().join(".")+".";
   const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);
-  function item(p){const li=document.createElement("li");li.append(node("span","t",p.n||(p.s?"Spielplatz bei "+p.s:"Spielplatz")));
+  function item(p){const li=document.createElement("li");li.append(node("span","t",pname(p)));
     const ch=node("div","chips");p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).forEach(t=>ch.append(node("span","",t)));
     if(p.min||p.max)ch.append(node("span","",p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre"));
-    if(p.rs)ch.append(node("span","","rollstuhlgängig"));if(ch.childNodes.length)li.append(ch);
+    if(p.rs)ch.append(node("span","","rollstuhlgängig"));if(p.sc)ch.append(node("span","","🏫 Schulgelände"));if(p.w||p.dw)ch.append(node("span","","💧 Brunnen"));
+    if(p.sh)ch.append(node("span","","⛱️ Schatten"));if(p.wd)ch.append(node("span","","🌲 Waldrand"));else if(p.tr)ch.append(node("span","","🌳 "+p.tr+(p.tr===1?" Baum":" Bäume")));
+    if(ch.childNodes.length)li.append(ch);
     if(p.desc)li.append(node("span","note",p.desc));
     const a=node("a","","Auf der Karte zeigen");a.href="https://www.google.com/maps/search/?api=1&query="+p.lat+","+p.lon;a.target="_blank";a.rel="noopener";li.append(a);return li}
   function render(){const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nP=0;const byB={};
@@ -411,10 +437,34 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
     if(!nG)box.append(node("p","empty","Nichts gefunden."))}
   inp.addEventListener("input",render);render();
 })();
-function showMap(d,list,g){const el=d.querySelector(".spmap");if(!el||el.firstChild)return;
-  const f=document.createElement("iframe");f.title="Google-Karte: Spielplätze in "+g;f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";
-  f.src="https://maps.google.com/maps?q="+encodeURIComponent("Spielplatz, "+g+", Schweiz")+"&z=13&hl=de&output=embed";el.append(f);
-  const a=node("a","maplink","In Google Maps öffnen");a.href="https://www.google.com/maps/search/"+encodeURIComponent("Spielplatz "+g+" Schweiz");a.target="_blank";a.rel="noopener";el.after(a)}
+function facts(p){const f=[];
+  if(p.sc)f.push("🏫 Auf einem Schul- oder Kindergartengelände");
+  if(p.w||p.dw)f.push("💧 Trinkbrunnen"+(p.dw?" vorhanden":" in der Nähe (bis 80 m)"));
+  if(p.sh)f.push("⛱️ Schatten oder Dach eingetragen");
+  if(p.wd)f.push("🌲 Am Waldrand oder an einer Baumreihe");else if(p.tr)f.push("🌳 "+(p.tr===1?"1 Baum":p.tr+" Bäume")+" im Umkreis von 30 m");
+  if(p.oh)f.push("🕒 "+p.oh);if(p.op)f.push("Betreiber: "+p.op);return f}
+function pname(p){return p.n||(p.s?"Spielplatz bei "+p.s:"Spielplatz")}
+let leafletP=null;
+function loadLeaflet(){if(window.L)return Promise.resolve();if(leafletP)return leafletP;
+  leafletP=new Promise((ok,no)=>{const sc=document.createElement("script");sc.src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js";sc.onload=ok;sc.onerror=no;document.head.append(sc)});return leafletP}
+async function showMap(d,list,g){const el=d.querySelector(".spmap");if(!el||el._map)return;
+  try{await loadLeaflet()}catch(e){el.replaceWith(node("p","note","Die Karte konnte nicht geladen werden."));return}
+  const map=L.map(el,{scrollWheelZoom:false});el._map=map;
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'}).addTo(map);
+  const pts=[];list.forEach(p=>{pts.push([p.lat,p.lon]);
+    const box=node("div","pop");box.append(node("b","",pname(p)));
+    const ft=p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i);
+    const ul=document.createElement("ul");if(ft.length)ul.append(node("li","","🛝 "+ft.join(", ")));
+    if(p.min||p.max)ul.append(node("li","","👶 "+(p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre")));
+    if(p.rs)ul.append(node("li","","♿ Rollstuhlgängig"));facts(p).forEach(t=>ul.append(node("li","",t)));
+    if(!ul.childNodes.length)ul.append(node("li","note","Keine weiteren Angaben eingetragen."));box.append(ul);
+    const ln=node("div","ln"),a1=node("a","","Bewertungen und Fotos auf Google"),a2=node("a","","Route");
+    a1.href="https://www.google.com/maps/search/?api=1&query="+p.lat+","+p.lon;a2.href="https://www.google.com/maps/dir/?api=1&destination="+p.lat+","+p.lon;
+    [a1,a2].forEach(a=>{a.target="_blank";a.rel="noopener";ln.append(a)});box.append(ln);
+    const icon=L.divIcon({className:"",html:'<div class="pin'+(p.sc?" sc":"")+'"><span>🛝</span></div>',iconSize:[28,28],iconAnchor:[14,30],popupAnchor:[0,-28]});
+    L.marker([p.lat,p.lon],{icon,title:pname(p)}).addTo(map).bindPopup(box,{maxWidth:260})});
+  if(pts.length===1)map.setView(pts[0],16);else map.fitBounds(pts,{padding:[24,24],maxZoom:16});
+  setTimeout(()=>map.invalidateSize(),50)}
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze"})[location.hash]||"home";
   ["home","events","raeume","spielplaetze"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
