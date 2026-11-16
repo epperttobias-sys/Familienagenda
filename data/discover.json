@@ -1,1 +1,1612 @@
-[]
+[
+ {
+  "name": "Adliswil",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.308,
+  "lon": 8.522,
+  "domain": "www.adliswil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Aesch",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.336,
+  "lon": 8.434,
+  "domain": "www.aesch.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Aeugst am Albis",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.275,
+  "lon": 8.491,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Affoltern am Albis",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.282,
+  "lon": 8.446,
+  "domain": "www.stadtaffoltern.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Altikon",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.578,
+  "lon": 8.786,
+  "domain": "www.altikon.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen.html/102"
+ },
+ {
+  "name": "Andelfingen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.585,
+  "lon": 8.687,
+  "domain": "www.andelfingen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Bachenbülach",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.501,
+  "lon": 8.545,
+  "domain": "www.bachenbuelach.ch",
+  "system": "eventitem",
+  "path": "/freizeit-kultur/veranstaltungen.html/195"
+ },
+ {
+  "name": "Bachs",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.529,
+  "lon": 8.431,
+  "domain": "www.bachs.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Bassersdorf",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.44,
+  "lon": 8.632,
+  "domain": "www.bassersdorf.ch",
+  "system": "eventitem",
+  "path": "/leben-standort/lebenslagen/veranstaltungen.html/84"
+ },
+ {
+  "name": "Bauma",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.375,
+  "lon": 8.891,
+  "domain": "www.bauma.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Benken",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.654,
+  "lon": 8.653,
+  "domain": "www.benken.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Berg am Irchel",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.561,
+  "lon": 8.592,
+  "domain": "www.bergamirchel.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Birmensdorf",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.352,
+  "lon": 8.439,
+  "domain": "www.birmensdorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Bonstetten",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.316,
+  "lon": 8.466,
+  "domain": "www.bonstetten.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Boppelsen",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.47,
+  "lon": 8.405,
+  "domain": "www.boppelsen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Brütten",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.475,
+  "lon": 8.676,
+  "domain": "www.bruetten.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Bubikon",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.27,
+  "lon": 8.809,
+  "domain": "www.bubikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Buch am Irchel",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.547,
+  "lon": 8.625,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Buchs",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.459,
+  "lon": 8.438,
+  "domain": "www.buchs.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Bäretswil",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.341,
+  "lon": 8.868,
+  "domain": "www.baeretswil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Bülach",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.53,
+  "lon": 8.545,
+  "domain": "www.buelach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dachsen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.66,
+  "lon": 8.624,
+  "domain": "www.dachsen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dielsdorf",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.476,
+  "lon": 8.451,
+  "domain": "www.dielsdorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dietikon",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.401,
+  "lon": 8.398,
+  "domain": "www.dietikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dietlikon",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.423,
+  "lon": 8.613,
+  "domain": "www.dietlikon.ch",
+  "system": "eventitem",
+  "path": "/kultur-freizeit/kultur/veranstaltungen.html/56"
+ },
+ {
+  "name": "Dinhard",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.559,
+  "lon": 8.764,
+  "domain": "www.dinhard.ch",
+  "system": "eventitem",
+  "path": "/verwaltung/veranstaltungen.html/167"
+ },
+ {
+  "name": "Dorf",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.573,
+  "lon": 8.649,
+  "domain": "www.dorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dägerlen",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.563,
+  "lon": 8.723,
+  "domain": "www.daegerlen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dällikon",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.439,
+  "lon": 8.433,
+  "domain": "www.daellikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dänikon",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.443,
+  "lon": 8.405,
+  "domain": "www.daenikon.ch",
+  "system": "eventitem",
+  "path": "/aktuelles/veranstaltungen.html/24"
+ },
+ {
+  "name": "Dättlikon",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.529,
+  "lon": 8.623,
+  "domain": "www.daettlikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dübendorf",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.388,
+  "lon": 8.618,
+  "domain": "www.duebendorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Dürnten",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.275,
+  "lon": 8.858,
+  "domain": "www.duernten.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Egg",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.298,
+  "lon": 8.697,
+  "domain": "www.egg.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Eglisau",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.572,
+  "lon": 8.517,
+  "domain": "www.eglisau.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Elgg",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.48,
+  "lon": 8.858,
+  "domain": "www.elgg.ch",
+  "system": "eventitem",
+  "path": "/wohnen-leben/leben/veranstaltungen.html/32"
+ },
+ {
+  "name": "Ellikon an der Thur",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.563,
+  "lon": 8.826,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Elsau",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.502,
+  "lon": 8.805,
+  "domain": "www.elsau.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Embrach",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.51,
+  "lon": 8.599,
+  "domain": "www.embrach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Erlenbach",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.304,
+  "lon": 8.609,
+  "domain": "www.erlenbach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Fehraltorf",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.385,
+  "lon": 8.75,
+  "domain": "www.fehraltorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Feuerthalen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.686,
+  "lon": 8.651,
+  "domain": "www.feuerthalen.ch",
+  "system": "eventitem",
+  "path": "/gesellschaft/veranstaltungen.html/267"
+ },
+ {
+  "name": "Fischenthal",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.341,
+  "lon": 8.937,
+  "domain": "www.fischenthal.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Flaach",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.583,
+  "lon": 8.607,
+  "domain": "www.flaach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Flurlingen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.684,
+  "lon": 8.642,
+  "domain": "www.flurlingen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Freienstein-Teufen",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.542,
+  "lon": 8.583,
+  "domain": "www.freienstein-teufen.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen-gemeinde.html/208"
+ },
+ {
+  "name": "Fällanden",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.37,
+  "lon": 8.636,
+  "domain": "www.faellanden.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Geroldswil",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.42,
+  "lon": 8.413,
+  "domain": "www.geroldswil.ch",
+  "system": "eventitem",
+  "path": "/freizeit-und-kultur/kultur/veranstaltungen.html/45"
+ },
+ {
+  "name": "Glattfelden",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.56,
+  "lon": 8.493,
+  "domain": "www.glattfelden.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Gossau",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.302,
+  "lon": 8.769,
+  "domain": "www.stadtgossau.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Greifensee",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.366,
+  "lon": 8.681,
+  "domain": "www.greifensee.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Grüningen",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.279,
+  "lon": 8.763,
+  "domain": "www.grueningen.ch",
+  "system": "eventitem",
+  "path": "/dorfleben/freizeit-sport/veranstaltungen.html/86"
+ },
+ {
+  "name": "Hagenbuch",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.515,
+  "lon": 8.873,
+  "domain": "www.hagenbuch.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hausen am Albis",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.245,
+  "lon": 8.541,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hedingen",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.302,
+  "lon": 8.456,
+  "domain": "www.hedingen.ch",
+  "system": "eventitem",
+  "path": "/dorfleben/veranstaltungen.html/22"
+ },
+ {
+  "name": "Henggart",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.56,
+  "lon": 8.684,
+  "domain": "www.henggart.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Herrliberg",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.297,
+  "lon": 8.63,
+  "domain": "www.herrliberg.ch",
+  "system": "eventitem",
+  "path": "/leben/freizeit/veranstaltungen.html/235"
+ },
+ {
+  "name": "Hettlingen",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.548,
+  "lon": 8.709,
+  "domain": "www.hettlingen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hinwil",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.303,
+  "lon": 8.857,
+  "domain": "www.hinwil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hittnau",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.366,
+  "lon": 8.83,
+  "domain": "www.hittnau.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hochfelden",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.528,
+  "lon": 8.508,
+  "domain": "hochfelden.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hombrechtikon",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.252,
+  "lon": 8.767,
+  "domain": "www.hombrechtikon.ch",
+  "system": "eventitem",
+  "path": "/leben/freizeit/veranstaltungskalender.html/228"
+ },
+ {
+  "name": "Horgen",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.236,
+  "lon": 8.584,
+  "domain": "www.horgen.ch",
+  "system": "eventitem",
+  "path": "/leben-in-horgen/freizeit/veranstaltungen.html/99"
+ },
+ {
+  "name": "Höri",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.508,
+  "lon": 8.502,
+  "domain": "www.hoeri.ch",
+  "system": "eventitem",
+  "path": "/politik-verwaltung/aktuelles/agenda.html/34"
+ },
+ {
+  "name": "Hüntwangen",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.593,
+  "lon": 8.499,
+  "domain": "www.huentwangen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Hüttikon",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.443,
+  "lon": 8.392,
+  "domain": "www.huettikon.ch",
+  "system": "eventitem",
+  "path": "/freizeit/gemeinde-kalender.html/167"
+ },
+ {
+  "name": "Kappel am Albis",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.225,
+  "lon": 8.513,
+  "domain": "www.kappel-am-albis.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Kilchberg",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.323,
+  "lon": 8.545,
+  "domain": "www.kilchberg.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Kleinandelfingen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.609,
+  "lon": 8.662,
+  "domain": "www.kleinandelfingen.ch",
+  "system": "eventitem",
+  "path": "/bildung-kultur-freizeit/agenda-eventletter.html/69"
+ },
+ {
+  "name": "Kloten",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.459,
+  "lon": 8.587,
+  "domain": "www.kloten.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Knonau",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.227,
+  "lon": 8.463,
+  "domain": "www.knonau.ch",
+  "system": "eventitem",
+  "path": "/dorfleben/freizeit-sport/veranstaltungen.html/399"
+ },
+ {
+  "name": "Küsnacht",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.321,
+  "lon": 8.615,
+  "domain": "www.kuesnacht.ch",
+  "system": "eventitem",
+  "path": "/leben-freizeit/veranstaltungen.page/843"
+ },
+ {
+  "name": "Langnau am Albis",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.28,
+  "lon": 8.528,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Laufen-Uhwiesen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.669,
+  "lon": 8.643,
+  "domain": "www.uhwiesen.ch",
+  "system": "eventitem",
+  "path": "/vereine/agenda.html/114"
+ },
+ {
+  "name": "Lindau",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.441,
+  "lon": 8.683,
+  "domain": "www.lindau.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Lufingen",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.482,
+  "lon": 8.592,
+  "domain": "www.lufingen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Marthalen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.62,
+  "lon": 8.631,
+  "domain": "www.marthalen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Maschwanden",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.235,
+  "lon": 8.431,
+  "domain": "www.maschwanden.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Maur",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.335,
+  "lon": 8.66,
+  "domain": "www.maur.ch",
+  "system": "eventitem",
+  "path": "/aktuelles-projekte/veranstaltungen.html/407"
+ },
+ {
+  "name": "Meilen",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.281,
+  "lon": 8.647,
+  "domain": "www.meilen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Mettmenstetten",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.243,
+  "lon": 8.466,
+  "domain": "www.mettmenstetten.ch",
+  "system": "eventitem",
+  "path": "/themen-a-z/veranstaltungen.html/30"
+ },
+ {
+  "name": "Männedorf",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.26,
+  "lon": 8.697,
+  "domain": "www.maennedorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Mönchaltorf",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.315,
+  "lon": 8.731,
+  "domain": "www.moenchaltorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Neerach",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.511,
+  "lon": 8.474,
+  "domain": "www.neerach.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen.html/66"
+ },
+ {
+  "name": "Neftenbach",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.539,
+  "lon": 8.666,
+  "domain": "www.neftenbach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Niederglatt",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.492,
+  "lon": 8.498,
+  "domain": "www.oberuzwil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Niederhasli",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.469,
+  "lon": 8.493,
+  "domain": "www.niederhasli.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Niederweningen",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.505,
+  "lon": 8.375,
+  "domain": "www.niederweningen.ch",
+  "system": "eventitem",
+  "path": "/freizeit-kultur/veranstaltungen.html/20"
+ },
+ {
+  "name": "Nürensdorf",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.457,
+  "lon": 8.651,
+  "domain": "www.nuerensdorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Oberembrach",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.489,
+  "lon": 8.631,
+  "domain": "www.oberembrach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Oberengstringen",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.412,
+  "lon": 8.465,
+  "domain": "www.oberengstringen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Oberglatt",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.48,
+  "lon": 8.525,
+  "domain": "www.oberglatt.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Oberrieden",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.273,
+  "lon": 8.571,
+  "domain": "www.oberrieden.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Oberweningen",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.508,
+  "lon": 8.406,
+  "domain": "www.oberweningen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Obfelden",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.262,
+  "lon": 8.422,
+  "domain": "www.obfelden.ch",
+  "system": "eventitem",
+  "path": "/aktuell/veranstaltungen.html/27"
+ },
+ {
+  "name": "Oetwil am See",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.275,
+  "lon": 8.721,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Oetwil an der Limmat",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.429,
+  "lon": 8.397,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Opfikon",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.429,
+  "lon": 8.574,
+  "domain": "www.opfikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Ossingen",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.611,
+  "lon": 8.721,
+  "domain": "www.ossingen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Otelfingen",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.466,
+  "lon": 8.393,
+  "domain": "www.otelfingen.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungskalender.html/201"
+ },
+ {
+  "name": "Ottenbach",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.281,
+  "lon": 8.409,
+  "domain": "www.ottenbach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Pfungen",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.51,
+  "lon": 8.639,
+  "domain": "www.pfungen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Pfäffikon",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.37,
+  "lon": 8.797,
+  "domain": "www.pfaeffikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rafz",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.613,
+  "lon": 8.545,
+  "domain": "www.rafz.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Regensberg",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.477,
+  "lon": 8.426,
+  "domain": "www.regensberg.ch",
+  "system": "eventitem",
+  "path": "/aktuelles/veranstaltungen.html/11"
+ },
+ {
+  "name": "Regensdorf",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.44,
+  "lon": 8.472,
+  "domain": "www.regensdorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rheinau",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.627,
+  "lon": 8.618,
+  "domain": "www.rheinau.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Richterswil",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.201,
+  "lon": 8.69,
+  "domain": "www.richterswil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rickenbach",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.551,
+  "lon": 8.795,
+  "domain": "www.rickenbach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rifferswil",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.245,
+  "lon": 8.498,
+  "domain": "www.rifferswil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rorbas",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.534,
+  "lon": 8.569,
+  "domain": "www.rorbas.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Russikon",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.403,
+  "lon": 8.784,
+  "domain": "www.russikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rümlang",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.45,
+  "lon": 8.53,
+  "domain": "www.ruemlang.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rüschlikon",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.305,
+  "lon": 8.546,
+  "domain": "www.rueschlikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Rüti",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.258,
+  "lon": 8.866,
+  "domain": "www.rueti.ch",
+  "system": "eventitem",
+  "path": "/freizeit-kultur/veranstaltungskalender.html/30"
+ },
+ {
+  "name": "Schlatt",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.471,
+  "lon": 8.828,
+  "domain": "www.schlatt.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Schleinikon",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.504,
+  "lon": 8.391,
+  "domain": "www.schleinikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Schlieren",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.395,
+  "lon": 8.45,
+  "domain": "www.schlieren.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Schwerzenbach",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.383,
+  "lon": 8.656,
+  "domain": "www.schwerzenbach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Schöfflisdorf",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.505,
+  "lon": 8.421,
+  "domain": "www.schoefflisdorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Seegräben",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.342,
+  "lon": 8.768,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Seuzach",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.535,
+  "lon": 8.727,
+  "domain": "www.seuzach.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Stadel",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.538,
+  "lon": 8.47,
+  "domain": "www.stadel.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Stallikon",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.32,
+  "lon": 8.49,
+  "domain": "www.stallikon.ch",
+  "system": "eventitem",
+  "path": "/dorfleben/veranstaltungen.html/208"
+ },
+ {
+  "name": "Steinmaur",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.5,
+  "lon": 8.444,
+  "domain": "www.steinmaur.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Stäfa",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.249,
+  "lon": 8.741,
+  "domain": "www.staefa.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Thalheim an der Thur",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.582,
+  "lon": 8.743,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Thalwil",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.288,
+  "lon": 8.561,
+  "domain": "www.thalwil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Truttikon",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.632,
+  "lon": 8.729,
+  "domain": "www.truttikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Trüllikon",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.646,
+  "lon": 8.688,
+  "domain": "www.truellikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Turbenthal",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.433,
+  "lon": 8.882,
+  "domain": "www.turbenthal.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen.html/34"
+ },
+ {
+  "name": "Uetikon am See",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.271,
+  "lon": 8.682,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Uitikon",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.366,
+  "lon": 8.461,
+  "domain": "www.uitikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Unterengstringen",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.411,
+  "lon": 8.435,
+  "domain": "www.unterengstringen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Urdorf",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.381,
+  "lon": 8.424,
+  "domain": "www.urdorf.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Uster",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.352,
+  "lon": 8.719,
+  "domain": "www.uster.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Volken",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.576,
+  "lon": 8.631,
+  "domain": "www.volken.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Volketswil",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.395,
+  "lon": 8.692,
+  "domain": "www.volketswil.ch",
+  "system": "eventitem",
+  "path": "/freizeit-und-kultur/veranstaltungen.html/32"
+ },
+ {
+  "name": "Wald",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.284,
+  "lon": 8.93,
+  "domain": "www.waldschweiz.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wallisellen",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.42,
+  "lon": 8.596,
+  "domain": "www.wallisellen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wangen-Brüttisellen",
+  "bezirk": "Uster",
+  "website": "",
+  "lat": 47.413,
+  "lon": 8.646,
+  "domain": "www.wangen-bruettisellen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wasterkingen",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.597,
+  "lon": 8.472,
+  "domain": "www.wasterkingen.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen.html/149"
+ },
+ {
+  "name": "Weiach",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.555,
+  "lon": 8.442,
+  "domain": "www.weiach.ch",
+  "system": "eventitem",
+  "path": "/dorfleben/veranstaltungen.page/482"
+ },
+ {
+  "name": "Weiningen",
+  "bezirk": "Dietikon",
+  "website": "",
+  "lat": 47.42,
+  "lon": 8.431,
+  "domain": "www.weiningen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Weisslingen",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.433,
+  "lon": 8.776,
+  "domain": "www.weisslingen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wettswil am Albis",
+  "bezirk": "Affoltern",
+  "website": "",
+  "lat": 47.337,
+  "lon": 8.471,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wetzikon",
+  "bezirk": "Hinwil",
+  "website": "",
+  "lat": 47.323,
+  "lon": 8.804,
+  "domain": "www.wetzikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wil",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.61,
+  "lon": 8.511,
+  "domain": "www.wil-zh.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wila",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.412,
+  "lon": 8.868,
+  "domain": "www.wila.ch",
+  "system": "eventitem",
+  "path": "/wila-aktuell/veranstaltungen.html/231"
+ },
+ {
+  "name": "Wildberg",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.418,
+  "lon": 8.829,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Winkel",
+  "bezirk": "Bülach",
+  "website": "",
+  "lat": 47.488,
+  "lon": 8.558,
+  "domain": "www.winkel.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Winterthur",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.499,
+  "lon": 8.733,
+  "domain": "",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wädenswil",
+  "bezirk": "Horgen",
+  "website": "",
+  "lat": 47.206,
+  "lon": 8.654,
+  "domain": "www.waedenswil.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Zell",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.449,
+  "lon": 8.805,
+  "domain": "www.zell.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Zollikon",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.342,
+  "lon": 8.596,
+  "domain": "www.zollikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Zumikon",
+  "bezirk": "Meilen",
+  "website": "",
+  "lat": 47.336,
+  "lon": 8.625,
+  "domain": "www.zumikon.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Zürich",
+  "bezirk": "Zürich",
+  "website": "https://www.stadt-zuerich.ch/",
+  "lat": 47.377,
+  "lon": 8.537,
+  "domain": "www.stadt-zuerich.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Würenlos",
+  "bezirk": "Dielsdorf",
+  "website": "",
+  "lat": 47.437,
+  "lon": 8.389,
+  "domain": "www.wuerenlos.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Wiesendangen",
+  "bezirk": "Winterthur",
+  "website": "",
+  "lat": 47.532,
+  "lon": 8.821,
+  "domain": "www.wiesendangen.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Illnau-Effretikon",
+  "bezirk": "Pfäffikon",
+  "website": "",
+  "lat": 47.431,
+  "lon": 8.723,
+  "domain": "www.ilef.ch",
+  "system": "",
+  "path": ""
+ },
+ {
+  "name": "Stammheim",
+  "bezirk": "Andelfingen",
+  "website": "",
+  "lat": 47.633,
+  "lon": 8.786,
+  "domain": "www.stammheim.ch",
+  "system": "",
+  "path": ""
+ }
+]
