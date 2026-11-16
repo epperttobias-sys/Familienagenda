@@ -28,6 +28,19 @@ h1{font:800 clamp(2rem,7vw,3rem)/1.05 var(--display);margin:0;text-wrap:balance}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .row b{font-size:.8rem;color:var(--muted);font-weight:500;min-width:74px}
+.dd{position:relative}
+.dd summary{list-style:none;font:500 .92rem var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-height:36px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.dd summary::-webkit-details-marker{display:none}
+.dd summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px)}
+.dd[open] summary::after{transform:rotate(-135deg) translateY(-2px)}
+.dd summary:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.dd-panel{position:absolute;z-index:20;top:calc(100% + 6px);left:0;width:min(320px,calc(100vw - 32px));max-height:60vh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;box-shadow:0 8px 24px rgba(0,0,0,.15);display:grid;gap:2px}
+.dd-panel label{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;cursor:pointer}
+.dd-panel label:hover{background:var(--soft)}
+.dd-panel input{width:18px;height:18px;accent-color:var(--accent)}
+.dd-panel .n{margin-left:auto;color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums}
+.dd-actions{display:flex;gap:6px;padding:4px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
+.dd-actions button{min-height:30px;padding:4px 10px;font-size:.85rem}
 button{font:500 .92rem var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
 button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
@@ -58,7 +71,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </header>
 
   <section class="filters" aria-label="Filter">
-    <div class="row" id="f-g"><b>Gemeinde</b></div>
+    <div class="row" id="f-g"><b>Gemeinde</b><details class="dd" id="g-dd"><summary id="g-sum">Alle Gemeinden</summary><div class="dd-panel" id="g-panel"><div class="dd-actions"><button type="button" id="g-all">Alle</button><button type="button" id="g-none">Keine</button></div></div></details></div>
     <div class="row" id="f-a"><b>Alter</b></div>
     <div class="row" id="f-t"><b>Wann</b>
       <button id="t-all" data-v="all" aria-pressed="true">Alle</button>
@@ -128,8 +141,10 @@ function render(){
 function btn(id,text,fn){const b=node("button","",text);b.id=id;b.setAttribute("aria-pressed","false");b.addEventListener("click",fn);return b}
 function save(){try{localStorage.setItem("familienagenda2",JSON.stringify({g:[...state.g],a:[...state.a]}))}catch(e){}}
 function sync(){
-  document.getElementById("g-all").setAttribute("aria-pressed",String(!state.g.size));
-  for(const c in SITES)document.getElementById("g-"+c).setAttribute("aria-pressed",String(state.g.has(c)));
+  for(const c in SITES)document.getElementById("g-"+c).checked=!state.g.size||state.g.has(c);
+  if(state.g.has("__none"))for(const c in SITES)document.getElementById("g-"+c).checked=false;
+  const sel=[...state.g].filter(c=>SITES[c]).map(c=>SITES[c].name);
+  document.getElementById("g-sum").textContent=state.g.has("__none")&&!sel.length?"Keine Gemeinde":!sel.length?"Alle Gemeinden":sel.length<=2?sel.join(", "):sel.length+" Gemeinden";
   document.getElementById("a-all").setAttribute("aria-pressed",String(!state.a.size));
   AGES.forEach((_,i)=>document.getElementById("a-"+i).setAttribute("aria-pressed",String(state.a.has(i))));
   const o=document.getElementById("a-open");o.hidden=!state.a.size;o.setAttribute("aria-pressed",String(state.open));
@@ -150,8 +165,16 @@ async function start(){
   if(down.length)document.getElementById("status").textContent=" Beim letzten Sammeln nicht erreichbar: "+down.join(", ")+". Dort zeigen wir die älteren Daten.";
   try{const s=JSON.parse(localStorage.getItem("familienagenda2")||"{}");(s.g||[]).filter(c=>SITES[c]).forEach(c=>state.g.add(c));(s.a||[]).filter(i=>AGES[i]).forEach(i=>state.a.add(i));}catch(e){}
   const fg=document.getElementById("f-g"),fa=document.getElementById("f-a");
-  fg.append(btn("g-all","Alle",()=>{state.g.clear();update()}));
-  for(const c in SITES)fg.append(btn("g-"+c,SITES[c].name,()=>toggle(state.g,c)));
+  const panel=document.getElementById("g-panel"),codes=Object.keys(SITES);
+  const counts={};EVENTS.forEach(e=>e.gemeinden.forEach(c=>counts[c]=(counts[c]||0)+1));
+  codes.slice().sort((a,b)=>SITES[a].name.localeCompare(SITES[b].name,"de")).forEach(c=>{
+    const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="g-"+c;
+    i.addEventListener("change",()=>{const wasNone=state.g.delete("__none");if(!wasNone&&!state.g.size)codes.forEach(x=>state.g.add(x));i.checked?state.g.add(c):state.g.delete(c);if(state.g.size===codes.length)state.g.clear();else if(!state.g.size)state.g.add("__none");update()});
+    l.append(i,node("span","",SITES[c].name),node("span","n",String(counts[c]||0)));panel.append(l)});
+  document.getElementById("g-all").addEventListener("click",()=>{state.g.clear();update()});
+  document.getElementById("g-none").addEventListener("click",()=>{state.g.clear();state.g.add("__none");update()});
+  document.addEventListener("click",ev=>{const d=document.getElementById("g-dd");if(d.open&&!d.contains(ev.target))d.open=false});
+  document.addEventListener("keydown",ev=>{if(ev.key==="Escape")document.getElementById("g-dd").open=false});
   fa.append(btn("a-all","Jedes Alter",()=>{state.a.clear();update()}));
   AGES.forEach((r,i)=>fa.append(btn("a-"+i,r[0]+"–"+r[1],()=>toggle(state.a,i))));
   fa.append(btn("a-open","Auch «Alter offen»",()=>{state.open=!state.open;update()}));
