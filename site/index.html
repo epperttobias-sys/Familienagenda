@@ -65,6 +65,8 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset
 .eyebrow{margin:0 0 6px;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .tiles{display:grid;gap:12px}
 .tile{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:4px 16px;padding:22px 20px;border-radius:18px;background:var(--accent);color:var(--accent-ink);text-decoration:none;box-shadow:0 6px 20px rgba(15,118,110,.18)}
+.tile-alt{background:var(--surface);color:var(--ink);border:2px solid var(--accent);box-shadow:none}
+.tile-alt .tile-arrow{color:var(--accent)}
 .tile:hover{filter:brightness(1.05)}
 .tile:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
 .tile-title{font:800 clamp(1.8rem,7vw,2.4rem)/1 var(--display)}
@@ -89,11 +91,24 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
       <span class="tile-text" id="tile-text">Anlässe für Kinder in der Region</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
+    <a class="tile tile-alt" href="#raeume" id="go-raeume">
+      <span class="tile-title">Event-Räume</span>
+      <span class="tile-text">Räume für Feste und Anlässe</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
   </nav>
 </div>
 
+<div class="wrap" id="view-raeume" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1>Event-Räume</h1>
+    <p class="lead">Dieser Bereich ist noch im Aufbau.</p>
+  </header>
+</div>
+
 <div class="wrap" id="view-events" hidden>
-  <a class="back" href="#" id="back">← Übersicht</a>
+  <a class="back" href="#" id="back" data-back>← Übersicht</a>
   <header>
     <h1>Familienagenda</h1>
     <p class="lead" id="lead">Was läuft für Kinder in deiner Region?</p>
@@ -215,13 +230,12 @@ async function start(){
   sync();render();
 }
 function route(){
-  const ev=location.hash==="#events";
-  document.getElementById("view-home").hidden=ev;
-  document.getElementById("view-events").hidden=!ev;
+  const v=({"#events":"events","#raeume":"raeume"})[location.hash]||"home";
+  ["home","events","raeume"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
-document.getElementById("back").addEventListener("click",e=>{e.preventDefault();location.hash="";route()});
+document.querySelectorAll("[data-back]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();location.hash="";route()}));
 route();
 start();
 </script>
