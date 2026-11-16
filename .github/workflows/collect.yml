@@ -69,7 +69,7 @@ jobs:
           git add data site/events.json site/events.js
           git add site/wetter.js 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Events aktualisiert"
-          git pull --rebase --autostash origin main
+          git pull --rebase -X theirs --autostash origin main || (git rebase --abort; git pull --no-rebase -X ours origin main)
           git push
       - uses: actions/upload-pages-artifact@v3
         with:
