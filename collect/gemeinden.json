@@ -1,0 +1,21 @@
+{
+  "u": { "name": "Uster", "domain": "www.uster.ch" },
+  "e": { "name": "Egg", "domain": "www.egg.ch" },
+  "g": { "name": "Greifensee", "domain": "www.greifensee.ch" },
+  "m": { "name": "Mönchaltorf", "domain": "www.moenchaltorf.ch" },
+  "f": { "name": "Fällanden", "domain": "www.faellanden.ch" },
+  "a": { "name": "Männedorf", "domain": "www.maennedorf.ch" },
+  "i": { "name": "Meilen", "domain": "www.meilen.ch" },
+  "d": { "name": "Dübendorf", "domain": "www.duebendorf.ch", "path": "/veranstaltungengd" },
+  "z": { "name": "Zollikon", "domain": "www.zollikon.ch" },
+  "k": { "name": "Zumikon", "domain": "www.zumikon.ch" },
+  "t": { "name": "Uetikon am See", "domain": "www.uetikonamsee.ch" },
+  "h": { "name": "Fehraltorf", "domain": "www.fehraltorf.ch" },
+  "r": { "name": "Maur", "domain": "www.maur.ch", "system": "eventitem", "path": "/aktuelles-projekte/veranstaltungen.html/407", "delay": 3000 },
+  "v": { "name": "Volketswil", "domain": "www.volketswil.ch", "system": "eventitem", "path": "/freizeit-und-kultur/veranstaltungen.html/32", "delay": 3000 },
+  "n": { "name": "Küsnacht", "domain": "www.kuesnacht.ch", "system": "eventitem", "path": "/leben-freizeit/veranstaltungen.page/843", "delay": 3000 },
+  "l": { "name": "Herrliberg", "domain": "www.herrliberg.ch", "system": "eventitem", "path": "/leben/freizeit/veranstaltungen.html/235", "delay": 3000 },
+  "o": { "name": "Oetwil am See", "domain": "www.oetwil.ch", "system": "eventitem", "path": "/dorfleben/veranstaltungen.html/60", "delay": 3000 },
+  "s": { "name": "Schwerzenbach", "domain": "www.schwerzenbach.ch", "system": "bss", "path": "/aktuelles/veranstaltungskalender/", "delay": 1500 },
+  "b": { "name": "Erlenbach", "domain": "www.erlenbach.ch", "system": "tiles", "path": "/de/gemeinde/veranstaltungen/", "linkPart": "/de/veranstaltungen/", "delay": 1000 }
+}

@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Familienagenda Region Uster</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Figtree:wght@400;500;700&display=swap">
+<style>
+/* Layout: eine ruhige Tagesliste wie ein Kalenderblatt, Filter kleben oben, damit man sie am Handy mit dem Daumen erreicht. */
+:root{
+  --bg:#eef6f4; --surface:#ffffff; --ink:#123a3f; --muted:#50706f; --line:#cfe1dd;
+  --accent:#0f766e; --accent-ink:#ffffff; --sun:#ffc93c; --sun-ink:#4a3500; --soft:#dcefe9;
+  --display:"Bricolage Grotesque","Trebuchet MS",sans-serif; --body:"Figtree","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e2124; --surface:#16302f; --ink:#e7f4f1; --muted:#a2bfba; --line:#2a4a48;
+  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0e2124; --surface:#16302f; --ink:#e7f4f1; --muted:#a2bfba; --line:#2a4a48;
+  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.45 var(--body)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
+h1{font:800 clamp(2rem,7vw,3rem)/1.05 var(--display);margin:0;text-wrap:balance}
+.lead{margin:8px 0 0;color:var(--muted);max-width:60ch}
+.filters{background:var(--bg);padding-block:10px;display:grid;gap:8px;border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.row b{font-size:.8rem;color:var(--muted);font-weight:500;min-width:74px}
+button{font:500 .92rem var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
+button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+#count{margin:0;color:var(--muted);font-size:.92rem;font-variant-numeric:tabular-nums}
+.month{font:600 1.35rem var(--display);margin:12px 0 4px}
+.day{display:grid;grid-template-columns:58px minmax(0,1fr);gap:12px;padding-block:12px;border-top:1px solid var(--line)}
+.date{text-align:center;font-variant-numeric:tabular-nums}
+.date strong{display:block;font:800 1.6rem/1 var(--display)}
+.date span{font-size:.78rem;color:var(--muted)}
+.events{display:grid;gap:12px;min-width:0}
+.ev{min-width:0}
+.ev a{color:var(--ink);font-weight:700;text-decoration-color:var(--accent);text-underline-offset:3px;overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:.9rem;overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.tag{font-size:.75rem;font-weight:700;border-radius:6px;padding:1px 7px;background:var(--soft);color:var(--ink)}
+.tag.kids{background:var(--sun);color:var(--sun-ink)}
+.empty{padding:24px;text-align:center;color:var(--muted)}
+footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padding-top:14px}
+</style>
+
+<style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Familienagenda</h1>
+    <p class="lead" id="lead">Was läuft für Kinder in deiner Region?</p>
+  </header>
+
+  <section class="filters" aria-label="Filter">
+    <div class="row" id="f-g"><b>Gemeinde</b></div>
+    <div class="row" id="f-a"><b>Alter</b></div>
+    <div class="row" id="f-t"><b>Wann</b>
+      <button id="t-all" data-v="all" aria-pressed="true">Alle</button>
+      <button id="t-we" data-v="we" aria-pressed="false">Nächstes Wochenende</button>
+      <button id="t-30" data-v="30" aria-pressed="false">Nächste 30 Tage</button>
+    </div>
+  </section>
+
+  <p id="count" aria-live="polite"></p>
+  <main id="list"></main>
+
+  <footer>
+    Du kannst mehrere Gemeinden und Altersgruppen gleichzeitig wählen. Die Anlässe werden jede Nacht automatisch aus den Agenden der Gemeinden gesammelt. «Ab 4 Jahren» zählt bis 12 Jahre mit. Anlässe ohne Altersangabe heissen «Alter offen». Die Erkennung kann Fehler machen, prüfe Alter, Zeit und Anmeldung bitte auf der Detailseite.
+    <span id="status"></span>
+  </footer>
+</div>
+
+<script src="events.js"></script>
+<script>
+const AGES=[[0,3],[4,6],[7,9],[10,12]];
+let SITES={},EVENTS=[];
+const state={g:new Set(),a:new Set(),open:true,t:"all"};
+const pd=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
+const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const add=(d,n)=>new Date(d.getFullYear(),d.getMonth(),d.getDate()+n);
+const WD=["So","Mo","Di","Mi","Do","Fr","Sa"];
+const MON=["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
+const fmt=d=>d.getDate()+". "+MON[d.getMonth()];
+const node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
+function range(today){
+  if(state.t==="30")return[iso(today),iso(add(today,30))];
+  if(state.t==="we"){const w=today.getDay();const sat=w===0?add(today,-1):add(today,6-w);return[iso(sat),iso(add(sat,1))];}
+  return[iso(today),"9999-12-31"];
+}
+function ageOk(e){
+  if(!state.a.size)return true;
+  if(!e.age)return state.open;
+  return[...state.a].some(i=>e.age.min<=AGES[i][1]&&e.age.max>=AGES[i][0]);
+}
+function select(today){
+  const[from,to]=range(today);
+  return EVENTS.filter(e=>e.bis>=from&&e.von<=to&&(!state.g.size||e.gemeinden.some(c=>state.g.has(c)))&&ageOk(e))
+    .map(e=>({e,show:e.von>from?e.von:from}))
+    .sort((a,b)=>a.show.localeCompare(b.show)||a.e.name.localeCompare(b.e.name,"de"));
+}
+function render(){
+  const n=new Date(),items=select(new Date(n.getFullYear(),n.getMonth(),n.getDate()));
+  const list=document.getElementById("list");list.replaceChildren();
+  document.getElementById("count").textContent=items.length===1?"1 Anlass":items.length+" Anlässe";
+  if(!items.length){list.append(node("p","empty","Für diese Auswahl gibt es keine Anlässe. Wähle einen längeren Zeitraum, mehr Gemeinden oder ein anderes Alter."));return}
+  let month="",day="",box=null;
+  for(const{e,show}of items){
+    const d=pd(show),m=MON[d.getMonth()]+" "+d.getFullYear();
+    if(m!==month){month=m;day="";list.append(node("h2","month",m))}
+    if(show!==day){day=show;const row=node("div","day"),date=node("div","date");
+      date.append(node("strong","",d.getDate()),node("span","",WD[d.getDay()]));
+      box=node("div","events");row.append(date,box);list.append(row)}
+    const ev=node("article","ev"),a=node("a","",e.name),h=node("div");
+    a.href=e.url||("https://"+SITES[e.gemeinden[0]].domain+"/_rte/anlass/"+e.id);a.target="_blank";a.rel="noopener";h.append(a);
+    const bits=[];if(e.von!==e.bis)bits.push(fmt(pd(e.von))+" bis "+fmt(pd(e.bis)));if(e.time)bits.push(e.time+" Uhr");if(e.ort)bits.push(e.ort);
+    const tags=node("div","tags");
+    tags.append(node("span","tag"+(e.age?" kids":""),e.age?e.age.label:"Alter offen"));
+    e.gemeinden.forEach(c=>SITES[c]&&tags.append(node("span","tag",SITES[c].name)));
+    ev.append(h,node("div","meta",bits.join(" · ")),tags);box.append(ev);
+  }
+}
+function btn(id,text,fn){const b=node("button","",text);b.id=id;b.setAttribute("aria-pressed","false");b.addEventListener("click",fn);return b}
+function save(){try{localStorage.setItem("familienagenda2",JSON.stringify({g:[...state.g],a:[...state.a]}))}catch(e){}}
+function sync(){
+  document.getElementById("g-all").setAttribute("aria-pressed",String(!state.g.size));
+  for(const c in SITES)document.getElementById("g-"+c).setAttribute("aria-pressed",String(state.g.has(c)));
+  document.getElementById("a-all").setAttribute("aria-pressed",String(!state.a.size));
+  AGES.forEach((_,i)=>document.getElementById("a-"+i).setAttribute("aria-pressed",String(state.a.has(i))));
+  const o=document.getElementById("a-open");o.hidden=!state.a.size;o.setAttribute("aria-pressed",String(state.open));
+  document.querySelectorAll("#f-t button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===state.t)));
+}
+const update=()=>{sync();render();save()};
+const toggle=(s,v)=>{s.has(v)?s.delete(v):s.add(v);update()};
+async function start(){
+  let data=window.FAMILIENAGENDA;
+  if(!data||!data.events){
+    try{const r=await fetch("events.json",{cache:"no-cache"});if(!r.ok)throw 0;data=await r.json()}catch(e){}
+  }
+  if(!data||!data.events||!data.gemeinden){document.getElementById("count").textContent="Die Anlässe konnten nicht geladen werden. Die Datei events.js fehlt im selben Ordner wie diese Seite.";return}
+  SITES=data.gemeinden;EVENTS=data.events;
+  const names=Object.values(SITES);
+  document.getElementById("lead").textContent="Was läuft für Kinder in deiner Region? Anlässe aus "+names.length+" Gemeinde-Agenden, Stand "+fmt(pd(data.stand))+" "+data.stand.slice(0,4)+".";
+  const down=names.filter(s=>!s.ok).map(s=>s.name);
+  if(down.length)document.getElementById("status").textContent=" Beim letzten Sammeln nicht erreichbar: "+down.join(", ")+". Dort zeigen wir die älteren Daten.";
+  try{const s=JSON.parse(localStorage.getItem("familienagenda2")||"{}");(s.g||[]).filter(c=>SITES[c]).forEach(c=>state.g.add(c));(s.a||[]).filter(i=>AGES[i]).forEach(i=>state.a.add(i));}catch(e){}
+  const fg=document.getElementById("f-g"),fa=document.getElementById("f-a");
+  fg.append(btn("g-all","Alle",()=>{state.g.clear();update()}));
+  for(const c in SITES)fg.append(btn("g-"+c,SITES[c].name,()=>toggle(state.g,c)));
+  fa.append(btn("a-all","Jedes Alter",()=>{state.a.clear();update()}));
+  AGES.forEach((r,i)=>fa.append(btn("a-"+i,r[0]+"–"+r[1],()=>toggle(state.a,i))));
+  fa.append(btn("a-open","Auch «Alter offen»",()=>{state.open=!state.open;update()}));
+  document.getElementById("f-t").addEventListener("click",ev=>{const b=ev.target.closest("button");if(b){state.t=b.dataset.v;update()}});
+  sync();render();
+}
+start();
+</script>
+</body>
+</html>
