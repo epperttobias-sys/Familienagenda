@@ -1,4 +1,4 @@
-name: Vereine und Familienangebote holen
+name: Vereine, Familienangebote und Ausflugsziele holen
 
 on:
   workflow_dispatch:
@@ -18,10 +18,12 @@ jobs:
         continue-on-error: true
       - run: node collect/familie.mjs
         continue-on-error: true
+      - run: node collect/ausflug.mjs
+        continue-on-error: true
       - run: |
           git config user.name "familienagenda-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/vereine.js; git add site/familie.js 2>/dev/null || true
+          git add site/vereine.js; git add site/familie.js 2>/dev/null || true; git add site/ausflug.js 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Vereine und Familienangebote aktualisiert"
           git pull --rebase --autostash origin main
           git push
