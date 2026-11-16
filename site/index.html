@@ -144,6 +144,14 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .sa{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:8px}.sa li{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;padding:10px 12px;border-radius:12px;background:rgba(127,127,127,.08)}
 .sa .dt{display:grid;justify-items:center;align-content:start;line-height:1.1}.sa .dt strong{font-size:1.35rem}.sa .dt span{font-size:.78rem;color:var(--muted)}
 .sa a.t{font-weight:700;color:var(--ink);text-underline-offset:3px}.sa .m{font-size:.85rem;color:var(--muted)}
+.subbrand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:800 1rem var(--display)}.subbrand .leu{width:38px;height:38px;filter:none}
+.wrap:not(.home)>header h1::after{content:"";display:block;width:120px;height:8px;margin-top:10px;border-radius:999px;background:linear-gradient(135deg,var(--zh) 0 50%,#fff 50% 100%);box-shadow:inset 0 0 0 1px var(--line)}
+.bez,.month{border-left:6px solid var(--zh);padding-left:10px;line-height:1.15}
+.date strong{color:var(--accent)}
+.tile-alt{background-image:linear-gradient(135deg,transparent 0 88%,var(--soft) 88% 100%)}
+.spg>summary{border-left:3px solid transparent;padding-left:8px}.spg[open]>summary{border-left-color:var(--zh)}
+.zhwaves{display:block;color:var(--zh);opacity:.45;margin:8px 0 0}
+.wrap:not(.home) .back{font-weight:700}
 .brand{display:flex;align-items:center;gap:14px}.leu{width:72px;height:72px;flex:none;filter:drop-shadow(0 3px 8px rgba(10,92,184,.25))}
 .zhband{height:14px;border-radius:999px;background:linear-gradient(135deg,var(--zh) 0 50%,#fff 50% 100%);box-shadow:inset 0 0 0 1px var(--line);max-width:220px}
 .tile{position:relative}.tile .ico{grid-row:span 2;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--soft);color:var(--accent)}
@@ -811,6 +819,15 @@ const SEASONS=[
         const w=wxFor(e,show);if(w){const[ic,tx]=WX(w.c);body.append(node("div","m",ic+" "+tx+", "+w.tn+"° bis "+w.tx+"°"))}
         li.append(dt,body);ul.append(li)});box.append(ul)})}
   render();
+})();
+(function zhDesign(){
+  const leu=document.querySelector(".brand .leu");if(!leu)return;
+  const waves='<svg class="zhwaves" viewBox="0 0 240 24" width="200" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 8c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/><path d="M2 18c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/></svg>';
+  document.querySelectorAll(".wrap:not(.home)").forEach(w=>{
+    const a=document.createElement("a");a.href="#";a.className="subbrand";a.setAttribute("data-back","");
+    const l=leu.cloneNode(true);l.setAttribute("aria-hidden","true");l.removeAttribute("role");a.append(l,document.createTextNode("Für Familien in Zürich"));
+    const band=document.createElement("div");band.className="zhband";band.setAttribute("aria-hidden","true");
+    w.prepend(a,band);const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison"})[location.hash]||"home";
