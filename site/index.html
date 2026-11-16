@@ -11,15 +11,15 @@
 /* Layout: eine ruhige Tagesliste wie ein Kalenderblatt, Filter kleben oben, damit man sie am Handy mit dem Daumen erreicht. */
 :root{
   --bg:#eef6f4; --surface:#ffffff; --ink:#123a3f; --muted:#50706f; --line:#cfe1dd;
-  --accent:#0f766e; --accent-ink:#ffffff; --sun:#ffc93c; --sun-ink:#4a3500; --soft:#dcefe9;
+  --accent:#0f766e; --accent-ink:#ffffff; --sun:#ffc93c; --heart:#e0244f; --sun-ink:#4a3500; --soft:#dcefe9;
   --display:"Bricolage Grotesque","Trebuchet MS",sans-serif; --body:"Figtree","Segoe UI",system-ui,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0e2124; --surface:#16302f; --ink:#e7f4f1; --muted:#a2bfba; --line:#2a4a48;
-  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}}
+  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0e2124; --surface:#16302f; --ink:#e7f4f1; --muted:#a2bfba; --line:#2a4a48;
-  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}
+  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.45 var(--body)}
 .wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
 h1{font:800 clamp(2rem,7vw,3rem)/1.05 var(--display);margin:0;text-wrap:balance}
@@ -61,6 +61,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset
 .tag{font-size:.75rem;font-weight:700;border-radius:6px;padding:1px 7px;background:var(--soft);color:var(--ink)}
 .tag.kids{background:var(--sun);color:var(--sun-ink)}
 [hidden]{display:none!important}
+.heart{color:var(--heart);display:inline-block}
 .eyebrow{margin:0 0 6px;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .tiles{display:grid;gap:12px}
 .tile{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:4px 16px;padding:22px 20px;border-radius:18px;background:var(--accent);color:var(--accent-ink);text-decoration:none;box-shadow:0 6px 20px rgba(15,118,110,.18)}
@@ -80,8 +81,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <body>
 <div class="wrap home" id="view-home">
   <header>
-    <p class="eyebrow">Für unsere Familie</p>
-    <h1>Übersicht</h1>
+    <h1>Familien in Zürich und die es lieben <span class="heart" aria-label="Herz">♥</span></h1>
   </header>
   <nav class="tiles" aria-label="Bereiche">
     <a class="tile" href="#events" id="go-events">
