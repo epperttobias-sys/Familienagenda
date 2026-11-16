@@ -54,14 +54,14 @@ window.FAMILIENAGENDA = {
    "name": "Maur",
    "bezirk": "Uster",
    "domain": "www.maur.ch",
-   "ok": true,
-   "count": 19
+   "ok": false,
+   "count": 16
   },
   "v": {
    "name": "Volketswil",
    "bezirk": "Uster",
    "domain": "www.volketswil.ch",
-   "ok": true,
+   "ok": false,
    "count": 21
   },
   "s": {
@@ -110,28 +110,28 @@ window.FAMILIENAGENDA = {
    "name": "Küsnacht",
    "bezirk": "Meilen",
    "domain": "www.kuesnacht.ch",
-   "ok": true,
-   "count": 28
+   "ok": false,
+   "count": 23
   },
   "l": {
    "name": "Herrliberg",
    "bezirk": "Meilen",
    "domain": "www.herrliberg.ch",
-   "ok": true,
+   "ok": false,
    "count": 28
   },
   "o": {
    "name": "Oetwil am See",
    "bezirk": "Meilen",
    "domain": "www.oetwil.ch",
-   "ok": true,
-   "count": 27
+   "ok": false,
+   "count": 26
   },
   "hb": {
    "name": "Hombrechtikon",
    "bezirk": "Meilen",
    "domain": "www.hombrechtikon.ch",
-   "ok": true,
+   "ok": false,
    "count": 14
   },
   "b": {
@@ -194,15 +194,15 @@ window.FAMILIENAGENDA = {
    "name": "Wildberg",
    "bezirk": "Pfäffikon",
    "domain": "www.wildberg.ch",
-   "ok": true,
+   "ok": false,
    "count": 13
   },
   "wi": {
    "name": "Wila",
    "bezirk": "Pfäffikon",
    "domain": "www.wila.ch",
-   "ok": true,
-   "count": 6
+   "ok": false,
+   "count": 5
   },
   "wz": {
    "name": "Wetzikon",
@@ -236,7 +236,7 @@ window.FAMILIENAGENDA = {
    "name": "Seegräben",
    "bezirk": "Hinwil",
    "domain": "www.seegraeben.ch",
-   "ok": true,
+   "ok": false,
    "count": 5
   },
   "wa": {
@@ -250,14 +250,14 @@ window.FAMILIENAGENDA = {
    "name": "Grüningen",
    "bezirk": "Hinwil",
    "domain": "www.grueningen.ch",
-   "ok": true,
+   "ok": false,
    "count": 1
   },
   "ru": {
    "name": "Rüti",
    "bezirk": "Hinwil",
    "domain": "www.rueti.ch",
-   "ok": true,
+   "ok": false,
    "count": 11
   }
  },
@@ -514,9 +514,7 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "e",
-    "o",
-    "r"
+    "e"
    ],
    "id": "e-7760953",
    "name": "Kerzenziehen (KerZi 2026)",
@@ -1568,8 +1566,7 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "s",
-    "wi"
+    "s"
    ],
    "id": "s-2738",
    "name": "Fiire mit de Chliine",
@@ -1577,7 +1574,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-21",
    "ort": "",
    "veranstalter": "",
-   "time": "9.30 - 11.00",
+   "time": "",
    "age": {
     "min": 2,
     "max": 12,
@@ -4759,7 +4756,6 @@ window.FAMILIENAGENDA = {
     "f",
     "g",
     "m",
-    "r",
     "u"
    ],
    "id": "f-7612543",
