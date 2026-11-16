@@ -20,17 +20,19 @@ const gem = data.elements.filter(e => e.tags && e.tags.admin_level === "8" && e.
 console.log("Bezirke:", bez.map(b => b.name).join(", "), "| Gemeinden:", gem.length);
 const slug = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ /g, "-").replace(/[^a-z0-9-]/g, "");
 async function get(url) { try { const r = await fetch(url, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(20000) }); return r.ok ? { url: r.url, html: await r.text() } : null; } catch { return null; } }
-const isIweb = h => /data-entities="/.test(h) && /_rte\/anlass\//.test(h);
+const isIweb = h => /data-entities="/.test(h) && /_rte(\\)?\/anlass(\\)?\//.test(h);
+const isZH = (h, name) => { const t = h.toLowerCase().replace(/&uuml;|&#252;/g, "ü").replace(/&auml;|&#228;/g, "ä").replace(/&ouml;|&#246;/g, "ö"); const w = name.toLowerCase().split(" ")[0];
+  return /\b8\d{3}\b/.test(t) && (t.includes(w) || t.includes(slug(w))); };
 const isItem = h => /class="[^"]*event-item/.test(h) && /\/event\/\d+\/eventdate\/\d+/.test(h);
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 const out = [];
 for (const g of gem) {
   const cands = [];
   if (g.website) cands.push(g.website.replace(/^http:/, "https:").replace(/\/$/, ""));
-  cands.push(`https://www.${slug(g.name)}.ch`, `https://www.${slug(g.name)}-zh.ch`);
+  cands.push(`https://www.${slug(g.name)}-zh.ch`, `https://www.${slug(g.name)}.ch`, `https://www.${slug(g.name).replace(/-/g, "")}.ch`);
   let res = { ...g, domain: "", system: "", path: "" };
   for (const c of cands) {
-    const home = await get(c); if (!home) continue;
+    const home = await get(c); if (!home || !isZH(home.html, g.name)) continue;
     const domain = new URL(home.url).host; res.domain = domain;
     const t = await get(`https://${domain}/anlaesseaktuelles`);
     if (t && isIweb(t.html)) { res.system = "iweb"; break; }
@@ -41,7 +43,7 @@ for (const g of gem) {
       if (isIweb(p.html)) { res.system = "iweb"; res.path = u.pathname; break; }
       if (isItem(p.html)) { res.system = "eventitem"; res.path = u.pathname; break; }
     }
-    break;
+    if (res.system) break;
   }
   out.push(res); console.log(`${res.bezirk} | ${res.name} | ${res.domain || "-"} | ${res.system || "?"} ${res.path}`);
   await sleep(300);

@@ -11,15 +11,15 @@
 /* Layout: eine ruhige Tagesliste wie ein Kalenderblatt, Filter kleben oben, damit man sie am Handy mit dem Daumen erreicht. */
 :root{
   --bg:#f1f6fc; --surface:#ffffff; --ink:#0d2340; --muted:#4f6684; --line:#cfdcee;
-  --accent:#0a5cb8; --accent-ink:#ffffff; --sun:#ffc93c; --heart:#e0244f; --sun-ink:#4a3500; --soft:#dfeafa; --zh:#0a5cb8;
+  --accent:#0a5cb8; --accent-ink:#ffffff; --sun:#ffc93c; --heart:#0a5cb8; --sun-ink:#4a3500; --soft:#dfeafa; --zh:#0a5cb8;
   --display:"Bricolage Grotesque","Trebuchet MS",sans-serif; --body:"Figtree","Segoe UI",system-ui,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --bg:#0a1729; --surface:#11243d; --ink:#e8f0fb; --muted:#a3b7d2; --line:#24405f;
-  --accent:#7ab6ff; --accent-ink:#04203f; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#183252; --zh:#3d8ae6; color-scheme:dark}}
+  --accent:#7ab6ff; --accent-ink:#04203f; --sun:#ffd666; --heart:#7ab6ff; --sun-ink:#3d2c00; --soft:#183252; --zh:#3d8ae6; color-scheme:dark}}
 :root[data-theme="dark"]{
   --bg:#0a1729; --surface:#11243d; --ink:#e8f0fb; --muted:#a3b7d2; --line:#24405f;
-  --accent:#7ab6ff; --accent-ink:#04203f; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#183252; --zh:#3d8ae6; color-scheme:dark}
+  --accent:#7ab6ff; --accent-ink:#04203f; --sun:#ffd666; --heart:#7ab6ff; --sun-ink:#3d2c00; --soft:#183252; --zh:#3d8ae6; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.45 var(--body)}
 .wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
 h1{font:800 clamp(2rem,7vw,3rem)/1.05 var(--display);margin:0;text-wrap:balance}
