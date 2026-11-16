@@ -36,18 +36,28 @@ for (const e of data.elements) {
   const feat = Object.keys(t).filter(k => k.startsWith("playground:") && t[k] !== "no").map(k => k.slice(11));
   if (t.playground) feat.push(...t.playground.split(";"));
   out[g.name].push({ id: e.type[0] + e.id, n: t.name || "", lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5),
-    min: t.min_age || "", max: t.max_age || "", rs: t.wheelchair === "yes" ? 1 : 0, f: feat, desc: t.description || "" });
+    min: t.min_age || "", max: t.max_age || "", rs: t.wheelchair === "yes" ? 1 : 0, f: feat, desc: t.description || "",
+    sh: t.shade === "yes" || t.covered === "yes" ? 1 : 0, dw: t.drinking_water === "yes" ? 1 : 0, oh: t.opening_hours || "", op: t.operator || "" });
 }
-// Strassennamen für Spielplätze ohne Namen
-const noname = Object.values(out).flat().filter(p => !p.n);
-if (noname.length) {
-  const sq = `[out:json][timeout:300];nwr["leisure"="playground"][!"name"]${BB}->.all;foreach.all->.p(.p out ids;way(around.p:70)["highway"]["name"];out tags 1;);`;
-  const sd = await ask(sq);
-  if (sd) { const near = {}; let cur = null;
-    for (const e of sd.elements) { if (e.tags && e.tags.highway) { if (cur && !near[cur]) near[cur] = e.tags.name; } else cur = e.type[0] + e.id; }
-    let k = 0; for (const p of noname) if (near[p.id]) { p.s = near[p.id]; k++; }
-    console.log("strassen:", k, "von", noname.length); }
+// Umgebung aus OpenStreetMap: nächste Strasse, Trinkbrunnen, Bäume, Schulgelände (echte Einträge, keine Schätzung)
+const all = Object.values(out).flat(), byId = Object.fromEntries(all.map(p => [p.id, p]));
+let old = {}; try { const t = readFileSync("site/spielplaetze.js", "utf8"); const o = JSON.parse(t.slice(t.indexOf("{"), t.lastIndexOf("}") + 1));
+  for (const L of Object.values(o.gemeinden)) for (const p of L) old[p.lat + "," + p.lon] = p; } catch (e) {}
+const [s0, w0, n0, e0] = [47.20, 8.52, 47.52, 9.02], tiles = [];
+for (let i = 0; i < 4; i++) for (let j = 0; j < 2; j++) tiles.push(`(${(s0 + i * 0.08).toFixed(2)},${(w0 + j * 0.25).toFixed(2)},${(s0 + (i + 1) * 0.08).toFixed(2)},${(w0 + (j + 1) * 0.25).toFixed(2)})`);
+let got = 0;
+for (const bb of tiles) {
+  const eq = `[out:json][timeout:600];nwr["leisure"="playground"]${bb}->.all;foreach.all->.p(` +
+    `way(around.p:70)["highway"]["name"]->.s;node(around.p:80)["amenity"~"^(drinking_water|fountain|water_point)$"]->.w;` +
+    `node(around.p:30)["natural"="tree"]->.t;way(around.p:15)["natural"~"^(wood|tree_row)$"]->.wd;way(around.p:15)["landuse"="forest"]->.fo;` +
+    `(.p;node(w.p);)->.pp;.pp is_in->.ia;area.ia["amenity"~"^(school|kindergarten)$"]->.sch;` +
+    `make info ty=p.u(type()),i=p.u(id()),st=s.min(t["name"]),w=w.count(nodes),tr=t.count(nodes),wd=wd.count(ways)+fo.count(ways),sc=sch.count(areas););out;`;
+  const d = await ask(eq); if (!d) continue;
+  for (const e of d.elements) { const t = e.tags || {}; const p = byId[(t.ty || "?")[0] + t.i]; if (!p) continue; got++;
+    if (!p.n && t.st) p.s = t.st; if (+t.w) p.w = 1; if (+t.tr) p.tr = +t.tr; if (+t.wd) p.wd = 1; if (+t.sc) p.sc = 1; }
 }
+console.log("umgebung:", got, "von", all.length);
+for (const p of all) { const o = old[p.lat + "," + p.lon]; if (!o || p.s || p.w || p.tr || p.wd || p.sc) continue; for (const k of ["s", "w", "tr", "wd", "sc"]) if (o[k]) p[k] = o[k]; }
 for (const p of Object.values(out).flat()) delete p.id;
 console.log("grenzen:", bounds.map(b => b.name).join(", "));
 for (const k in out) out[k].sort((a, b) => (b.n ? 1 : 0) - (a.n ? 1 : 0) || (a.n || a.s || "~").localeCompare(b.n || b.s || "~", "de"));
