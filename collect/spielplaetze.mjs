@@ -6,7 +6,7 @@ const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
 const re = `^(${names.map(esc).join("|")})( \\\\(ZH\\\\))?$`;
 const BB = "(47.20,8.52,47.52,9.02)";
 const q = `[out:json][timeout:180];(nwr["leisure"="playground"]${BB};);out center tags;` +
-  `rel["boundary"="administrative"]["admin_level"="8"]["name"~"${re}"]${BB};out geom tags;`;
+  `rel["boundary"="administrative"]["admin_level"="8"]["name"~"${re}"]${BB};out geom;`;
 const hosts = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
 let data;
 for (const h of hosts) {
@@ -19,7 +19,7 @@ for (const h of hosts) {
 if (!data) { console.log("keine Daten, alte Liste bleibt"); process.exit(0); }
 // Gemeindegrenzen als Ringe
 const bounds = [];
-for (const e of data.elements) if (e.type === "relation") {
+for (const e of data.elements) if (e.type === "relation" && e.tags && e.tags.boundary === "administrative") {
   const rings = (e.members || []).filter(m => m.type === "way" && m.geometry && m.role !== "inner").map(m => m.geometry.map(p => [p.lon, p.lat]));
   bounds.push({ name: e.tags.name.replace(/ \(ZH\)$/, ""), segs: rings, inner: (e.members || []).filter(m => m.role === "inner" && m.geometry).map(m => m.geometry.map(p => [p.lon, p.lat])) });
 }
@@ -27,7 +27,7 @@ for (const e of data.elements) if (e.type === "relation") {
 const cross = (x, y, lines) => { let c = 0; for (const L of lines) for (let i = 1; i < L.length; i++) { const [x1, y1] = L[i - 1], [x2, y2] = L[i]; if ((y1 > y) !== (y2 > y) && x < (x2 - x1) * (y - y1) / (y2 - y1) + x1) c++; } return c; };
 const out = {}; names.forEach(n => out[n] = []);
 for (const e of data.elements) {
-  if (e.type === "relation") continue;
+  if (e.tags && e.tags.boundary === "administrative") continue;
   const t = e.tags || {}, c = e.center || e; if (c.lat == null) continue;
   if (["private", "no", "customers"].includes(t.access)) continue;
   const g = bounds.find(b => (cross(c.lon, c.lat, b.segs) + cross(c.lon, c.lat, b.inner)) % 2 === 1); if (!g || !out[g.name]) continue;
