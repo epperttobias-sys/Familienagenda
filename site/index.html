@@ -28,16 +28,19 @@ h1{font:800 clamp(2rem,7vw,3rem)/1.05 var(--display);margin:0;text-wrap:balance}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 .row{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 .row b{font-size:.8rem;color:var(--muted);font-weight:500;min-width:74px}
-.dd{position:relative}
+.row{position:relative}
+.dd{position:static}
 .dd summary{list-style:none;font:500 .92rem var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 14px;min-height:36px;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
 .dd summary::-webkit-details-marker{display:none}
 .dd summary::after{content:"";width:7px;height:7px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px)}
 .dd[open] summary::after{transform:rotate(-135deg) translateY(-2px)}
 .dd summary:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
-.dd-panel{position:absolute;z-index:20;top:calc(100% + 6px);left:0;width:min(320px,calc(100vw - 32px));max-height:60vh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;box-shadow:0 8px 24px rgba(0,0,0,.15);display:grid;gap:2px}
+.dd-panel{position:absolute;z-index:20;top:calc(100% + 6px);left:0;width:min(340px,100%);max-height:60vh;overflow:auto;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:8px;box-shadow:0 8px 24px rgba(0,0,0,.15);display:grid;gap:2px}
 .dd-panel label{display:flex;align-items:center;gap:10px;padding:8px;border-radius:8px;cursor:pointer}
 .dd-panel label:hover{background:var(--soft)}
 .dd-panel input{width:18px;height:18px;accent-color:var(--accent)}
+.dd-panel .sep{border-top:1px solid var(--line);margin:4px 0}
+.dd-panel input:disabled+span{color:var(--muted)}
 .dd-panel .n{margin-left:auto;color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums}
 .dd-actions{display:flex;gap:6px;padding:4px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
 .dd-actions button{min-height:30px;padding:4px 10px;font-size:.85rem}
@@ -72,12 +75,8 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 
   <section class="filters" aria-label="Filter">
     <div class="row" id="f-g"><b>Gemeinde</b><details class="dd" id="g-dd"><summary id="g-sum">Alle Gemeinden</summary><div class="dd-panel" id="g-panel"><div class="dd-actions"><button type="button" id="g-all">Alle</button><button type="button" id="g-none">Keine</button></div></div></details></div>
-    <div class="row" id="f-a"><b>Alter</b></div>
-    <div class="row" id="f-t"><b>Wann</b>
-      <button id="t-all" data-v="all" aria-pressed="true">Alle</button>
-      <button id="t-we" data-v="we" aria-pressed="false">Nächstes Wochenende</button>
-      <button id="t-30" data-v="30" aria-pressed="false">Nächste 30 Tage</button>
-    </div>
+    <div class="row" id="f-a"><b>Alter</b><details class="dd" id="a-dd"><summary id="a-sum">Jedes Alter</summary><div class="dd-panel" id="a-panel"><div class="dd-actions"><button type="button" id="a-all">Jedes Alter</button></div></div></details></div>
+    <div class="row" id="f-t"><b>Wann</b><details class="dd" id="t-dd"><summary id="t-sum">Alle Termine</summary><div class="dd-panel" id="t-panel"></div></details></div>
   </section>
 
   <p id="count" aria-live="polite"></p>
@@ -92,6 +91,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="events.js"></script>
 <script>
 const AGES=[[0,3],[4,6],[7,9],[10,12]];
+const TIMES=[["all","Alle Termine"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
 let SITES={},EVENTS=[];
 const state={g:new Set(),a:new Set(),open:true,t:"all"};
 const pd=s=>{const[y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)};
@@ -145,10 +145,11 @@ function sync(){
   if(state.g.has("__none"))for(const c in SITES)document.getElementById("g-"+c).checked=false;
   const sel=[...state.g].filter(c=>SITES[c]).map(c=>SITES[c].name);
   document.getElementById("g-sum").textContent=state.g.has("__none")&&!sel.length?"Keine Gemeinde":!sel.length?"Alle Gemeinden":sel.length<=2?sel.join(", "):sel.length+" Gemeinden";
-  document.getElementById("a-all").setAttribute("aria-pressed",String(!state.a.size));
-  AGES.forEach((_,i)=>document.getElementById("a-"+i).setAttribute("aria-pressed",String(state.a.has(i))));
-  const o=document.getElementById("a-open");o.hidden=!state.a.size;o.setAttribute("aria-pressed",String(state.open));
-  document.querySelectorAll("#f-t button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===state.t)));
+  AGES.forEach((_,i)=>document.getElementById("a-"+i).checked=state.a.has(i));
+  const o=document.getElementById("a-open");o.checked=state.open;o.disabled=!state.a.size;
+  const ages=[...state.a].sort().map(i=>AGES[i][0]+"–"+AGES[i][1]);
+  document.getElementById("a-sum").textContent=ages.length?ages.join(", ")+" Jahre":"Jedes Alter";
+  TIMES.forEach(([v,l])=>{document.getElementById("t-"+v).checked=state.t===v;if(state.t===v)document.getElementById("t-sum").textContent=l});
 }
 const update=()=>{sync();render();save()};
 const toggle=(s,v)=>{s.has(v)?s.delete(v):s.add(v);update()};
@@ -173,12 +174,17 @@ async function start(){
     l.append(i,node("span","",SITES[c].name),node("span","n",String(counts[c]||0)));panel.append(l)});
   document.getElementById("g-all").addEventListener("click",()=>{state.g.clear();update()});
   document.getElementById("g-none").addEventListener("click",()=>{state.g.clear();state.g.add("__none");update()});
-  document.addEventListener("click",ev=>{const d=document.getElementById("g-dd");if(d.open&&!d.contains(ev.target))d.open=false});
-  document.addEventListener("keydown",ev=>{if(ev.key==="Escape")document.getElementById("g-dd").open=false});
-  fa.append(btn("a-all","Jedes Alter",()=>{state.a.clear();update()}));
-  AGES.forEach((r,i)=>fa.append(btn("a-"+i,r[0]+"–"+r[1],()=>toggle(state.a,i))));
-  fa.append(btn("a-open","Auch «Alter offen»",()=>{state.open=!state.open;update()}));
-  document.getElementById("f-t").addEventListener("click",ev=>{const b=ev.target.closest("button");if(b){state.t=b.dataset.v;update()}});
+  const dds=[...document.querySelectorAll("details.dd")];
+  dds.forEach(d=>d.addEventListener("toggle",()=>{if(d.open)dds.forEach(x=>{if(x!==d)x.open=false})}));
+  document.addEventListener("click",ev=>dds.forEach(d=>{if(d.open&&!d.contains(ev.target))d.open=false}));
+  document.addEventListener("keydown",ev=>{if(ev.key==="Escape")dds.forEach(d=>d.open=false)});
+  const ap=document.getElementById("a-panel");
+  const check=(id,text,fn,type="checkbox",name)=>{const l=node("label"),i=document.createElement("input");i.type=type;i.id=id;if(name)i.name=name;i.addEventListener("change",()=>fn(i));l.append(i,node("span","",text));return l};
+  AGES.forEach((r,i)=>ap.append(check("a-"+i,r[0]+"–"+r[1]+" Jahre",()=>toggle(state.a,i))));
+  ap.append(node("div","sep"),check("a-open","Auch Anlässe ohne Altersangabe",inp=>{state.open=inp.checked;update()}));
+  document.getElementById("a-all").addEventListener("click",()=>{state.a.clear();update()});
+  const tp=document.getElementById("t-panel");
+  TIMES.forEach(([v,l])=>tp.append(check("t-"+v,l,()=>{state.t=v;update();document.getElementById("t-dd").open=false},"radio","wann")));
   sync();render();
 }
 start();
