@@ -288,3 +288,18 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
   }
   return { rows: items.length, events: result };
 }
+
+// Vereine: Kinder-Angebote am Namen erkennen und einer Gruppe zuordnen
+const CLUB_NO = /senior|veteran|alt[- ]?pfadi|altherren|männerchor|maennerchor|frauenchor|frauenturn|männerturn|damenriege|herrenriege|seniorenturn|kiwanis|rotary|lions|partei|\bsvp\b|\bfdp\b|\bsp\b|die mitte|\bglp\b|\bevp\b|grüne|gewerbe|landfrauen|pensionierte|rentner|60\s*\+|schützen|jäger|jagd|imker|ornitholog(?!.*jugend)|fasn|guggen|zunft|quartierverein|dorfverein|verkehrsverein|verschönerung|wanderverein|kulturverein|kirchenchor|samariter(?!.*jugend)|freundeskreis|stiftung|genossenschaft|club 2|aktive senioren/i;
+export const CLUB_GROUPS = [
+  ["pfadi", "Pfadi und Jugendgruppen", /pfadi|cevi|jungwacht|blauring|jubla|jungschar|jugendtreff|jugendarbeit|jugendverein|kinder|jugend(?!musik)|kids|juniors?\b/i],
+  ["sport", "Sport", /\bfc\b|fussball|football|turn|unihockey|floorball|handball|volleyball|basketball|tennis|badminton|judo|karate|taekwondo|kampfsport|aikido|schwimm|wasserball|leichtathletik|\blv\b|\bla\b|\bski|snowboard|eishockey|eislauf|curling|reit|pony|velo|bike|\brad|orientierungslauf|\bol\b|rugby|hockey|tischtennis|rhönrad|kletter|segel|ruder|kanu|golf|inline|skater|sport|athlet|gymnastik|trampolin|fechten|boxen|ringen|schach/i],
+  ["musik", "Musik und Tanz", /musik|kadetten|kinderchor|jugendchor|tanz|ballett|tambour|brass|harmonie|chor\b|singschule|band\b/i],
+  ["familie", "Familie und Eltern", /eltern|famili|mütter|muetter|väter|spielgruppe|ludothek|elki|krabbel|kita|tagesfamilien/i],
+  ["kreativ", "Natur, Kreativ und Weiteres", /theater|zirkus|circus|robot|natur|vogelschutz|tierschutz|jugendfeuerwehr|pontonier|modell|bastel|werk|kunst|forscher|science/i],
+];
+export function classifyClub(name) {
+  if (CLUB_NO.test(name)) return null;
+  for (const [k, , re] of CLUB_GROUPS) if (re.test(name)) return k;
+  return null;
+}
