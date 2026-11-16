@@ -25,9 +25,11 @@ async function fetchText(url) {
 const ONLY = process.env.BEZIRK || "";
 const slug = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/[^a-z0-9]+/g, "-");
 const all = await readJson("collect/gemeinden.json", {});
-const sites = Object.fromEntries(Object.entries(all).filter(([, s]) => !ONLY || s.bezirk === ONLY));
+// «eventitem» läuft als eigener, langsamer Durchgang, weil alle diese Gemeinden beim gleichen Anbieter liegen
+const sites = Object.fromEntries(Object.entries(all).filter(([, s]) => !ONLY || (ONLY === "eventitem" ? s.system === "eventitem" : s.bezirk === ONLY && s.system !== "eventitem")));
 const cacheFile = ONLY ? `data/cache-${slug(ONLY)}.json` : "data/cache.json";
-const cache = await readJson(cacheFile, null) ?? await readJson("data/cache.json", {});
+const cache = await readJson("data/cache.json", {});
+try { const { readdir } = await import("node:fs/promises"); for (const f of await readdir(path("data/"))) if (/^cache-.*\.json$/.test(f)) Object.assign(cache, await readJson("data/" + f, {})); } catch {}
 const previous = await readJson("site/events.json", { events: [] });
 previous.events ??= [];
 const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
