@@ -6,7 +6,7 @@
   "lat": 47.308,
   "lon": 8.522,
   "domain": "www.adliswil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -15,9 +15,9 @@
   "website": "",
   "lat": 47.336,
   "lon": 8.434,
-  "domain": "www.aesch.ch",
-  "system": "",
-  "path": ""
+  "domain": "www.aesch-zh.ch",
+  "system": "iweb",
+  "path": "/veranstaltungen"
  },
  {
   "name": "Aeugst am Albis",
@@ -36,7 +36,7 @@
   "lat": 47.282,
   "lon": 8.446,
   "domain": "www.stadtaffoltern.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -56,7 +56,7 @@
   "lat": 47.585,
   "lon": 8.687,
   "domain": "www.andelfingen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -96,7 +96,7 @@
   "lat": 47.375,
   "lon": 8.891,
   "domain": "www.bauma.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -106,7 +106,7 @@
   "lat": 47.654,
   "lon": 8.653,
   "domain": "www.benken.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -126,7 +126,7 @@
   "lat": 47.352,
   "lon": 8.439,
   "domain": "www.birmensdorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -136,7 +136,7 @@
   "lat": 47.316,
   "lon": 8.466,
   "domain": "www.bonstetten.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -156,7 +156,7 @@
   "lat": 47.475,
   "lon": 8.676,
   "domain": "www.bruetten.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -166,7 +166,7 @@
   "lat": 47.27,
   "lon": 8.809,
   "domain": "www.bubikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -175,8 +175,8 @@
   "website": "",
   "lat": 47.547,
   "lon": 8.625,
-  "domain": "",
-  "system": "",
+  "domain": "www.buchamirchel.ch",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -185,8 +185,8 @@
   "website": "",
   "lat": 47.459,
   "lon": 8.438,
-  "domain": "www.buchs.ch",
-  "system": "",
+  "domain": "www.buchs-zh.ch",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -196,7 +196,7 @@
   "lat": 47.341,
   "lon": 8.868,
   "domain": "www.baeretswil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -206,8 +206,8 @@
   "lat": 47.53,
   "lon": 8.545,
   "domain": "www.buelach.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/anlaessetb/71446"
  },
  {
   "name": "Dachsen",
@@ -216,7 +216,7 @@
   "lat": 47.66,
   "lon": 8.624,
   "domain": "www.dachsen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -226,7 +226,7 @@
   "lat": 47.476,
   "lon": 8.451,
   "domain": "www.dielsdorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -236,8 +236,8 @@
   "lat": 47.401,
   "lon": 8.398,
   "domain": "www.dietikon.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/anlaessebadi"
  },
  {
   "name": "Dietlikon",
@@ -276,7 +276,7 @@
   "lat": 47.563,
   "lon": 8.723,
   "domain": "www.daegerlen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -286,7 +286,7 @@
   "lat": 47.439,
   "lon": 8.433,
   "domain": "www.daellikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -306,7 +306,7 @@
   "lat": 47.529,
   "lon": 8.623,
   "domain": "www.daettlikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -316,8 +316,8 @@
   "lat": 47.388,
   "lon": 8.618,
   "domain": "www.duebendorf.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/veranstaltungengd"
  },
  {
   "name": "Dürnten",
@@ -326,7 +326,7 @@
   "lat": 47.275,
   "lon": 8.858,
   "domain": "www.duernten.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -336,7 +336,7 @@
   "lat": 47.298,
   "lon": 8.697,
   "domain": "www.egg.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -365,9 +365,9 @@
   "website": "",
   "lat": 47.563,
   "lon": 8.826,
-  "domain": "",
-  "system": "",
-  "path": ""
+  "domain": "www.ellikonanderthur.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen.html/16"
  },
  {
   "name": "Elsau",
@@ -376,7 +376,7 @@
   "lat": 47.502,
   "lon": 8.805,
   "domain": "www.elsau.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -386,7 +386,7 @@
   "lat": 47.51,
   "lon": 8.599,
   "domain": "www.embrach.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -406,7 +406,7 @@
   "lat": 47.385,
   "lon": 8.75,
   "domain": "www.fehraltorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -436,7 +436,7 @@
   "lat": 47.583,
   "lon": 8.607,
   "domain": "www.flaach.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -446,7 +446,7 @@
   "lat": 47.684,
   "lon": 8.642,
   "domain": "www.flurlingen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -466,7 +466,7 @@
   "lat": 47.37,
   "lon": 8.636,
   "domain": "www.faellanden.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -495,7 +495,7 @@
   "website": "",
   "lat": 47.302,
   "lon": 8.769,
-  "domain": "www.stadtgossau.ch",
+  "domain": "www.gossau-zh.ch",
   "system": "",
   "path": ""
  },
@@ -506,7 +506,7 @@
   "lat": 47.366,
   "lon": 8.681,
   "domain": "www.greifensee.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -525,9 +525,9 @@
   "website": "",
   "lat": 47.515,
   "lon": 8.873,
-  "domain": "www.hagenbuch.ch",
-  "system": "",
-  "path": ""
+  "domain": "www.hagenbuch-zh.ch",
+  "system": "eventitem",
+  "path": "/freizeit/veranstaltungen.html/106"
  },
  {
   "name": "Hausen am Albis",
@@ -556,7 +556,7 @@
   "lat": 47.56,
   "lon": 8.684,
   "domain": "www.henggart.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -576,7 +576,7 @@
   "lat": 47.548,
   "lon": 8.709,
   "domain": "www.hettlingen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -586,7 +586,7 @@
   "lat": 47.303,
   "lon": 8.857,
   "domain": "www.hinwil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -596,7 +596,7 @@
   "lat": 47.366,
   "lon": 8.83,
   "domain": "www.hittnau.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -666,7 +666,7 @@
   "lat": 47.225,
   "lon": 8.513,
   "domain": "www.kappel-am-albis.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -696,8 +696,8 @@
   "lat": 47.459,
   "lon": 8.587,
   "domain": "www.kloten.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/eventkalenderred"
  },
  {
   "name": "Knonau",
@@ -725,8 +725,8 @@
   "website": "",
   "lat": 47.28,
   "lon": 8.528,
-  "domain": "",
-  "system": "",
+  "domain": "www.langnauamalbis.ch",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -745,7 +745,7 @@
   "website": "",
   "lat": 47.441,
   "lon": 8.683,
-  "domain": "www.lindau.ch",
+  "domain": "",
   "system": "",
   "path": ""
  },
@@ -756,7 +756,7 @@
   "lat": 47.482,
   "lon": 8.592,
   "domain": "www.lufingen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -766,7 +766,7 @@
   "lat": 47.62,
   "lon": 8.631,
   "domain": "www.marthalen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -796,7 +796,7 @@
   "lat": 47.281,
   "lon": 8.647,
   "domain": "www.meilen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -816,7 +816,7 @@
   "lat": 47.26,
   "lon": 8.697,
   "domain": "www.maennedorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -826,7 +826,7 @@
   "lat": 47.315,
   "lon": 8.731,
   "domain": "www.moenchaltorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -846,7 +846,7 @@
   "lat": 47.539,
   "lon": 8.666,
   "domain": "www.neftenbach.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -855,8 +855,8 @@
   "website": "",
   "lat": 47.492,
   "lon": 8.498,
-  "domain": "www.oberuzwil.ch",
-  "system": "",
+  "domain": "www.niederglatt-zh.ch",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -866,7 +866,7 @@
   "lat": 47.469,
   "lon": 8.493,
   "domain": "www.niederhasli.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -896,7 +896,7 @@
   "lat": 47.489,
   "lon": 8.631,
   "domain": "www.oberembrach.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -906,7 +906,7 @@
   "lat": 47.412,
   "lon": 8.465,
   "domain": "www.oberengstringen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -936,7 +936,7 @@
   "lat": 47.508,
   "lon": 8.406,
   "domain": "www.oberweningen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -955,7 +955,7 @@
   "website": "",
   "lat": 47.275,
   "lon": 8.721,
-  "domain": "",
+  "domain": "oetwilamsee.ch",
   "system": "",
   "path": ""
  },
@@ -976,7 +976,7 @@
   "lat": 47.429,
   "lon": 8.574,
   "domain": "www.opfikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1016,7 +1016,7 @@
   "lat": 47.51,
   "lon": 8.639,
   "domain": "www.pfungen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1036,7 +1036,7 @@
   "lat": 47.613,
   "lon": 8.545,
   "domain": "www.rafz.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1056,7 +1056,7 @@
   "lat": 47.44,
   "lon": 8.472,
   "domain": "www.regensdorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1066,7 +1066,7 @@
   "lat": 47.627,
   "lon": 8.618,
   "domain": "www.rheinau.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1076,7 +1076,7 @@
   "lat": 47.201,
   "lon": 8.69,
   "domain": "www.richterswil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1096,7 +1096,7 @@
   "lat": 47.245,
   "lon": 8.498,
   "domain": "www.rifferswil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1116,7 +1116,7 @@
   "lat": 47.403,
   "lon": 8.784,
   "domain": "www.russikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1126,7 +1126,7 @@
   "lat": 47.45,
   "lon": 8.53,
   "domain": "www.ruemlang.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1136,7 +1136,7 @@
   "lat": 47.305,
   "lon": 8.546,
   "domain": "www.rueschlikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1166,7 +1166,7 @@
   "lat": 47.504,
   "lon": 8.391,
   "domain": "www.schleinikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1196,7 +1196,7 @@
   "lat": 47.505,
   "lon": 8.421,
   "domain": "www.schoefflisdorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1205,9 +1205,9 @@
   "website": "",
   "lat": 47.342,
   "lon": 8.768,
-  "domain": "",
-  "system": "",
-  "path": ""
+  "domain": "www.seegraeben.ch",
+  "system": "iweb",
+  "path": "/anlaesse"
  },
  {
   "name": "Seuzach",
@@ -1216,7 +1216,7 @@
   "lat": 47.535,
   "lon": 8.727,
   "domain": "www.seuzach.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1226,7 +1226,7 @@
   "lat": 47.538,
   "lon": 8.47,
   "domain": "www.stadel.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1246,7 +1246,7 @@
   "lat": 47.5,
   "lon": 8.444,
   "domain": "www.steinmaur.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1276,7 +1276,7 @@
   "lat": 47.288,
   "lon": 8.561,
   "domain": "www.thalwil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1286,7 +1286,7 @@
   "lat": 47.632,
   "lon": 8.729,
   "domain": "www.truttikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1296,8 +1296,8 @@
   "lat": 47.646,
   "lon": 8.688,
   "domain": "www.truellikon.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/veranstaltungen"
  },
  {
   "name": "Turbenthal",
@@ -1315,8 +1315,8 @@
   "website": "",
   "lat": 47.271,
   "lon": 8.682,
-  "domain": "",
-  "system": "",
+  "domain": "www.uetikonamsee.ch",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1326,8 +1326,8 @@
   "lat": 47.366,
   "lon": 8.461,
   "domain": "www.uitikon.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/veranstaltungen"
  },
  {
   "name": "Unterengstringen",
@@ -1336,7 +1336,7 @@
   "lat": 47.411,
   "lon": 8.435,
   "domain": "www.unterengstringen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1346,7 +1346,7 @@
   "lat": 47.381,
   "lon": 8.424,
   "domain": "www.urdorf.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1356,7 +1356,7 @@
   "lat": 47.352,
   "lon": 8.719,
   "domain": "www.uster.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1366,7 +1366,7 @@
   "lat": 47.576,
   "lon": 8.631,
   "domain": "www.volken.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1385,8 +1385,8 @@
   "website": "",
   "lat": 47.284,
   "lon": 8.93,
-  "domain": "www.waldschweiz.ch",
-  "system": "",
+  "domain": "www.wald-zh.ch",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1396,7 +1396,7 @@
   "lat": 47.42,
   "lon": 8.596,
   "domain": "www.wallisellen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1404,9 +1404,9 @@
   "bezirk": "Uster",
   "website": "",
   "lat": 47.413,
-  "lon": 8.646,
+  "lon": 8.647,
   "domain": "www.wangen-bruettisellen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1436,7 +1436,7 @@
   "lat": 47.42,
   "lon": 8.431,
   "domain": "www.weiningen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1446,7 +1446,7 @@
   "lat": 47.433,
   "lon": 8.776,
   "domain": "www.weisslingen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1476,7 +1476,7 @@
   "lat": 47.61,
   "lon": 8.511,
   "domain": "www.wil-zh.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1506,7 +1506,7 @@
   "lat": 47.488,
   "lon": 8.558,
   "domain": "www.winkel.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1526,7 +1526,7 @@
   "lat": 47.206,
   "lon": 8.654,
   "domain": "www.waedenswil.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1536,7 +1536,7 @@
   "lat": 47.449,
   "lon": 8.805,
   "domain": "www.zell.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1546,7 +1546,7 @@
   "lat": 47.342,
   "lon": 8.596,
   "domain": "www.zollikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1556,7 +1556,7 @@
   "lat": 47.336,
   "lon": 8.625,
   "domain": "www.zumikon.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1565,7 +1565,7 @@
   "website": "https://www.stadt-zuerich.ch/",
   "lat": 47.377,
   "lon": 8.537,
-  "domain": "www.stadt-zuerich.ch",
+  "domain": "",
   "system": "",
   "path": ""
  },
@@ -1575,7 +1575,7 @@
   "website": "",
   "lat": 47.437,
   "lon": 8.389,
-  "domain": "www.wuerenlos.ch",
+  "domain": "",
   "system": "",
   "path": ""
  },
@@ -1586,7 +1586,7 @@
   "lat": 47.532,
   "lon": 8.821,
   "domain": "www.wiesendangen.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  },
  {
@@ -1596,8 +1596,8 @@
   "lat": 47.431,
   "lon": 8.723,
   "domain": "www.ilef.ch",
-  "system": "",
-  "path": ""
+  "system": "iweb",
+  "path": "/agenda"
  },
  {
   "name": "Stammheim",
@@ -1606,7 +1606,7 @@
   "lat": 47.633,
   "lon": 8.786,
   "domain": "www.stammheim.ch",
-  "system": "",
+  "system": "iweb",
   "path": ""
  }
 ]
