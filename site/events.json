@@ -69,7 +69,7 @@
    "bezirk": "Uster",
    "domain": "www.schwerzenbach.ch",
    "ok": true,
-   "count": 13
+   "count": 0
   },
   "a": {
    "name": "Männedorf",
@@ -139,7 +139,7 @@
    "bezirk": "Meilen",
    "domain": "www.erlenbach.ch",
    "ok": true,
-   "count": 5
+   "count": 0
   },
   "h": {
    "name": "Fehraltorf",
@@ -483,20 +483,6 @@
    "time": "",
    "age": null,
    "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17503/eventdate/17643"
-  },
-  {
-   "gemeinden": [
-    "b"
-   ],
-   "id": "b-kerzenziehen-in-der-martin-stiftung",
-   "name": "Kerzenziehen in der Martin Stiftung",
-   "von": "2026-11-14",
-   "bis": "2026-11-27",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/kerzenziehen-in-der-martin-stiftung/"
   },
   {
    "gemeinden": [
@@ -1480,20 +1466,6 @@
   },
   {
    "gemeinden": [
-    "b"
-   ],
-   "id": "b-adventsbasteln-in-der-bibliothek-2",
-   "name": "ADVENTSBASTELN in der Bibliothek",
-   "von": "2026-11-21",
-   "bis": "2026-11-21",
-   "ort": "",
-   "veranstalter": "",
-   "time": "09.30 - 11.30",
-   "age": null,
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/adventsbasteln-in-der-bibliothek-2/"
-  },
-  {
-   "gemeinden": [
     "d"
    ],
    "id": "d-7747819",
@@ -1568,10 +1540,9 @@
   },
   {
    "gemeinden": [
-    "s",
     "wi"
    ],
-   "id": "s-2738",
+   "id": "wi-5031-5737",
    "name": "Fiire mit de Chliine",
    "von": "2026-11-21",
    "bis": "2026-11-21",
@@ -1580,10 +1551,10 @@
    "time": "9.30 - 11.00",
    "age": {
     "min": 2,
-    "max": 12,
-    "label": "ab 2 Jahren"
+    "max": 5,
+    "label": "2 bis 5 Jahre"
    },
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2738&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=afeba14ebbd3f980aff65ae76305c6dc"
+   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5031/eventdate/5737"
   },
   {
    "gemeinden": [
@@ -1687,24 +1658,6 @@
   },
   {
    "gemeinden": [
-    "s"
-   ],
-   "id": "s-2219",
-   "name": "Samschtigsgschichtli",
-   "von": "2026-11-21",
-   "bis": "2026-11-21",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "ab 4 Jahren"
-   },
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2219&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=d61ae541bb83b593f898704f54206626"
-  },
-  {
-   "gemeinden": [
     "il"
    ],
    "id": "il-7730452",
@@ -1798,24 +1751,6 @@
     "label": "3 bis 12 Jahre"
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3440/eventdate/2031"
-  },
-  {
-   "gemeinden": [
-    "b"
-   ],
-   "id": "b-yoga-fuer-mama-kind-10",
-   "name": "Yoga für Mama & Kind",
-   "von": "2026-11-21",
-   "bis": "2026-11-21",
-   "ort": "",
-   "veranstalter": "",
-   "time": "10.45 - 11.45",
-   "age": {
-    "min": 3,
-    "max": 6,
-    "label": "3 bis 6 Jahre"
-   },
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-10/"
   },
   {
    "gemeinden": [
@@ -2304,20 +2239,6 @@
     "label": "Kindergarten"
    },
    "url": "https://www.hinwil.ch/_rte/anlass/7735984"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-3131",
-   "name": "Chuchi International - Chinder-Chuchi - ausverkauft!",
-   "von": "2026-11-25",
-   "bis": "2026-11-25",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3131&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=e15df66cc9389ac139e0e679374fe037"
   },
   {
    "gemeinden": [
@@ -2992,24 +2913,6 @@
   },
   {
    "gemeinden": [
-    "b"
-   ],
-   "id": "b-chrabbelfiir-advent",
-   "name": "Chrabbelfiir «Advent»",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "",
-   "veranstalter": "",
-   "time": "16.00 - 18.00",
-   "age": {
-    "min": 0,
-    "max": 5,
-    "label": "0 bis 5 Jahre"
-   },
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/chrabbelfiir-advent/"
-  },
-  {
-   "gemeinden": [
     "d"
    ],
    "id": "d-7194092",
@@ -3053,20 +2956,6 @@
     "label": "3 bis ca. 6 Jahre"
    },
    "url": "https://www.uster.ch/_rte/anlass/7268894"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-3196",
-   "name": "Herzliche Einladung zum Kerzenziehen in Schwerzenbach",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3196&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=6191028112ea48a7eb3003574ef3cccb"
   },
   {
    "gemeinden": [
@@ -4416,20 +4305,6 @@
   },
   {
    "gemeinden": [
-    "s"
-   ],
-   "id": "s-2169",
-   "name": "Buchstart",
-   "von": "2026-12-05",
-   "bis": "2026-12-05",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2169&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=3578a174ae5084c9569b6ff23dc7d639"
-  },
-  {
-   "gemeinden": [
     "a"
    ],
    "id": "a-7675006",
@@ -4650,20 +4525,6 @@
   },
   {
    "gemeinden": [
-    "s"
-   ],
-   "id": "s-3344",
-   "name": "Samichlaus und Schmutzli kommen uns besuchen",
-   "von": "2026-12-05",
-   "bis": "2026-12-05",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3344&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=033897eb69774c831322df0d5cdc6543"
-  },
-  {
-   "gemeinden": [
     "hb"
    ],
    "id": "hb-7516-11294",
@@ -4771,20 +4632,6 @@
    "time": "14.30",
    "age": null,
    "url": "https://www.faellanden.ch/_rte/anlass/7612543"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-2715",
-   "name": "Besuch von Samichlaus und Schmutzli",
-   "von": "2026-12-06",
-   "bis": "2026-12-06",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2715&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=b2d4667c46305bce42a18039c9561fc7"
   },
   {
    "gemeinden": [
@@ -5851,24 +5698,6 @@
   },
   {
    "gemeinden": [
-    "b"
-   ],
-   "id": "b-yoga-fuer-mama-kind-11",
-   "name": "Yoga für Mama & Kind",
-   "von": "2026-12-12",
-   "bis": "2026-12-12",
-   "ort": "",
-   "veranstalter": "",
-   "time": "10.45 - 11.45",
-   "age": {
-    "min": 3,
-    "max": 6,
-    "label": "3 bis 6 Jahre"
-   },
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-11/"
-  },
-  {
-   "gemeinden": [
     "i"
    ],
    "id": "i-7783555",
@@ -6114,24 +5943,6 @@
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10543/eventdate/14519"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-2736",
-   "name": "Fiire mit de Chliine",
-   "von": "2026-12-16",
-   "bis": "2026-12-16",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": {
-    "min": 2,
-    "max": 12,
-    "label": "ab 2 Jahren"
-   },
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2736&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=9a0ac995160710e46d5db2d20fca634f"
   },
   {
    "gemeinden": [
@@ -6555,24 +6366,6 @@
   },
   {
    "gemeinden": [
-    "s"
-   ],
-   "id": "s-2220",
-   "name": "Samschtigsgschichtli",
-   "von": "2026-12-19",
-   "bis": "2026-12-19",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "ab 4 Jahren"
-   },
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2220&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=843e5b9d3bc0c05f5c0a49493e6f3e73"
-  },
-  {
-   "gemeinden": [
     "a"
    ],
    "id": "a-7563109",
@@ -6630,20 +6423,6 @@
     "label": "ab 10 Jahren"
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3229/eventdate/1915"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-3342",
-   "name": "Herzliche Einladung zum Weihnachtsmusical, aufgeführt von den Kindern und Teenagern der Glattalchurch",
-   "von": "2026-12-20",
-   "bis": "2026-12-20",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3342&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=14550d2aa1bd9159a92c5444b0a207b8"
   },
   {
    "gemeinden": [
@@ -8045,20 +7824,6 @@
   },
   {
    "gemeinden": [
-    "s"
-   ],
-   "id": "s-2730",
-   "name": "Fiire mit de Chliine zur Fasnacht",
-   "von": "2027-02-06",
-   "bis": "2027-02-06",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2730&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=162278cb25e555a095f550674f24dd42"
-  },
-  {
-   "gemeinden": [
     "wb"
    ],
    "id": "wb-7816486",
@@ -8791,24 +8556,6 @@
   },
   {
    "gemeinden": [
-    "s"
-   ],
-   "id": "s-2739",
-   "name": "Fiire mit de Chliine",
-   "von": "2027-03-17",
-   "bis": "2027-03-17",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": {
-    "min": 2,
-    "max": 12,
-    "label": "ab 2 Jahren"
-   },
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2739&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=c3b6d92c7864f684c46e481e5fde71e9"
-  },
-  {
-   "gemeinden": [
     "bb"
    ],
    "id": "bb-7722814",
@@ -9288,20 +9035,6 @@
     "label": "Kleinkinder"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621324"
-  },
-  {
-   "gemeinden": [
-    "s"
-   ],
-   "id": "s-2552",
-   "name": "Kinderartikelbörse Frühling/Sommer",
-   "von": "2027-04-10",
-   "bis": "2027-04-10",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2552&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=f718aaa45f4a2e11d3ad7f726e882287"
   },
   {
    "gemeinden": [
