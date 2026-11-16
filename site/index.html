@@ -207,8 +207,10 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <p class="lead">Was gibt es für Familien in deiner Gemeinde? Beratung, Spielgruppen, Kitas, Bibliothek, Ludothek, Bäder und Treffpunkte. Tippe auf eine Gemeinde.</p>
   </header>
   <section class="filters" aria-label="Suche Familienangebote">
-    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="fa-search" placeholder="Gemeinde oder Angebot, z.B. Ludothek" aria-label="Gemeinde oder Angebot suchen"></div>
+    <div class="row"><b>Gemeinde</b><details class="dd" id="fg-dd"><summary id="fg-sum">Alle Gemeinden</summary><div class="dd-panel" id="fg-panel"><input type="search" class="dd-search" id="fg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="fg-all">Alle</button><button type="button" id="fg-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Angebot</b><details class="dd" id="fk-dd"><summary id="fk-sum">Alle Angebote</summary><div class="dd-panel" id="fk-panel"><div class="dd-actions"><button type="button" id="fk-all">Alle Angebote</button></div></div></details></div>
   </section>
+  <p id="facount" class="count-line"></p>
   <main id="familie"></main>
   <footer>Quellen: Mütter- und Väterberatung und Bezirksübersichten vom Kanton Zürich, Spielgruppen und Elternvereine aus den Vereinslisten der Gemeinden, Kitas, Bibliotheken, Ludotheken, Bäder und Treffpunkte aus OpenStreetMap. Was dort fehlt, fehlt auch hier. Angaben ohne Gewähr, bitte vor dem Besuch auf der Website prüfen. <span id="fastand"></span></footer>
 </div>
@@ -571,36 +573,64 @@ const BEZPDF={Uster:"https://internet.zh.ch/content/dam/zhweb/bilder-dokumente/t
   Meilen:"https://internet.zh.ch/content/dam/zhweb/bilder-dokumente/themen/familie/angebote-fuer-familien-mit-kindern/freizeitgestaltung/angebote_familien_meilen.pdf",
   "Pfäffikon":"https://internet.zh.ch/content/dam/zhweb/bilder-dokumente/themen/familie/angebote-fuer-familien-mit-kindern/freizeitgestaltung/angebote_familien_pfaeffikon.pdf"};
 const EXTRA={wz:[["Familienstadtplan Wetzikon (PDF)","https://www.wetzikon.ch/wAssets/docs/Gesellschaft/Familienstadtplan-Wetzikon.pdf"]]};
+function ohDe(o){const D={Mo:"Mo",Tu:"Di",We:"Mi",Th:"Do",Fr:"Fr",Sa:"Sa",Su:"So",PH:"Feiertage"};return o.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH)\b/g,m=>D[m]).replace(/\boff\b/g,"geschlossen").replace(/24\/7/,"immer offen").replace(/;\s*/g,"; ")}
 const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","🏫 Kitas, Krippen und Horte"],["bib","📚 Bibliotheken"],["ludo","🧩 Ludotheken"],["zentrum","🏠 Familienzentren und Treffpunkte"],["bad","🏊 Hallenbäder und Badis"]];
 (function setupFamilie(){
   const F=window.FAMILIE||{gemeinden:{}},V=(window.VEREINE||{gemeinden:{}}).gemeinden,GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
-  const box=document.getElementById("familie"),inp=document.getElementById("fa-search");
+  const box=document.getElementById("familie"),codes=Object.keys(GM);
   if(window.FAMILIE)document.getElementById("fastand").textContent="Stand: "+F.stand.split("-").reverse().join(".")+".";
+  const KS=[["beratung","👶 Mütter- und Väterberatung"]].concat(FAK);
+  let selG=null,selK=null;
   const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
   function items(c){const L=(F.gemeinden[c]||[]).map(x=>Object.assign({},x));
     (V[c]||[]).filter(v=>v.k==="familie").forEach(v=>L.push({k:/ludothek/i.test(v.n)?"ludo":"spiel",n:v.n,w:v.w||"",u:v.u,a:v.o&&v.o!==(GM[c]||{}).name?v.o:""}));return L}
-  function render(){const q=inp.value.trim().toLowerCase();box.replaceChildren();const byB={};
-    Object.keys(GM).forEach(c=>{const g=GM[c];let L=items(c);
-      if(q&&!g.name.toLowerCase().includes(q)){L=L.filter(x=>(x.n+" "+(FAK.find(f=>f[0]===x.k)||["",""])[1]).toLowerCase().includes(q));if(!L.length)return}
-      (byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||[]).push([c,g,L])});
+  const kOn=k=>!selK||selK.has(k);
+  // Dropdown Gemeinde
+  const gp=document.getElementById("fg-panel"),groups={};
+  codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  const curG=()=>new Set(selG||codes),setG=set=>{selG=set.size===codes.length?null:set;render()};
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const list=groups[b].sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de"));
+    const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.addEventListener("click",()=>{const c=curG(),on=!list.every(x=>c.has(x));list.forEach(x=>on?c.add(x):c.delete(x));setG(c)});head.append(hb);gp.append(head);
+    list.forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="fg-"+c;l.dataset.name=GM[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const s=curG();i.checked?s.add(c):s.delete(c);setG(s)});l.append(i,node("span","",GM[c].name));gp.append(l)})});
+  document.getElementById("fg-all").addEventListener("click",()=>setG(new Set(codes)));
+  document.getElementById("fg-none").addEventListener("click",()=>{selG=new Set();render()});
+  const fs=document.getElementById("fg-search");fs.addEventListener("input",()=>{const q=fs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  // Dropdown Angebot
+  const kp=document.getElementById("fk-panel");
+  KS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="fk-"+k;
+    i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<KS.length?s:null;render()});l.append(i,node("span","",t));kp.append(l)});
+  document.getElementById("fk-all").addEventListener("click",()=>{selK=null;render()});
+  function sync(){const sg=selG?[...selG]:codes;codes.forEach(c=>{const i=document.getElementById("fg-"+c);if(i)i.checked=!selG||selG.has(c)});
+    const names=sg.map(c=>GM[c].name);document.getElementById("fg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
+    KS.forEach(([k])=>document.getElementById("fk-"+k).checked=!!selK&&selK.has(k));
+    const ks=selK?KS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];
+    document.getElementById("fk-sum").textContent=!selK?"Alle Angebote":ks.length===1?ks[0]:ks.length+" Angebote"}
+  function render(){sync();box.replaceChildren();const byB={};let nG=0,nA=0;
+    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c],L=items(c).filter(x=>kOn(x.k)),bera=!!KJZ[g.bezirk]&&kOn("beratung");
+      if(selK&&!L.length&&!bera)return;(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||[]).push([c,g,L,bera])});
     Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
-      byB[b].sort((x,y)=>x[1].name.localeCompare(y[1].name,"de")).forEach(([c,g,L])=>{
-        const d=node("details","spg fa"),su=document.createElement("summary");su.append(node("span","",g.name),node("span","n",L.length===1?"1 Angebot":L.length+" Angebote"));d.append(su);if(q)d.open=true;
+      byB[b].sort((x,y)=>x[1].name.localeCompare(y[1].name,"de")).forEach(([c,g,L,bera])=>{nG++;nA+=L.length+(bera?1:0);
+        const n=L.length+(bera?1:0);const d=node("details","spg fa"),su=document.createElement("summary");su.append(node("span","",g.name),node("span","n",n===1?"1 Angebot":n+" Angebote"));d.append(su);
+        if(selK||(selG&&selG.size<=3))d.open=true;
         let done=false;const fill=()=>{if(done)return;done=true;
-          const k=KJZ[g.bezirk];if(k){d.append(node("h4","","👶 Mütter- und Väterberatung"));const ul=document.createElement("ul"),li=document.createElement("li");
+          if(bera){const k=KJZ[g.bezirk];d.append(node("h4","","👶 Mütter- und Väterberatung"));const ul=document.createElement("ul"),li=document.createElement("li");
             li.append(node("span","t","Beratung zu Stillen, Ernährung, Schlaf und Entwicklung, kostenlos für Eltern mit Kindern bis 5 Jahre"));const vl=node("div","vl");vl.append(lk(k[0],k[1]));li.append(vl);ul.append(li);d.append(ul)}
           FAK.forEach(([kk,title])=>{const S=L.filter(x=>x.k===kk);if(!S.length)return;d.append(node("h4","",title));const ul=document.createElement("ul");
-            S.forEach(x=>{const li=document.createElement("li");li.append(node("span","t",x.n));const m=[x.a,x.oh?"🕒 "+x.oh:""].filter(Boolean).join(" · ");if(m)li.append(node("span","m",m));
+            S.forEach(x=>{const li=document.createElement("li");li.append(node("span","t",x.n));const m=[x.a,x.oh?"🕒 "+ohDe(x.oh):""].filter(Boolean).join(" · ");if(m)li.append(node("span","m",m));
               const vl=node("div","vl");if(x.w)vl.append(lk("Website",x.w));if(x.u)vl.append(lk(x.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",x.u));
               if(x.lat)vl.append(lk("Karte","https://www.google.com/maps/search/?api=1&query="+x.lat+","+x.lon));li.append(vl);ul.append(li)});d.append(ul)});
-          if(!L.length)d.append(node("p","note","Zu dieser Gemeinde habe ich noch keine Einträge gefunden."));
+          if(!L.length&&!bera)d.append(node("p","note","Zu dieser Gemeinde habe ich noch keine Einträge gefunden."));
           const src=node("p","src");const parts=[];if(BEZPDF[g.bezirk])parts.push(lk("Übersicht Familienangebote Bezirk "+g.bezirk+" (Kanton, PDF)",BEZPDF[g.bezirk]));
           (EXTRA[c]||[]).forEach(([t,u])=>parts.push(lk(t,u)));parts.push(lk("Website der Gemeinde","https://"+g.domain));
           parts.forEach((a,i)=>{if(i)src.append(" · ");src.append(a)});d.append(src)};
         if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})});
-    if(!box.childNodes.length)box.append(node("p","empty","Nichts gefunden."))}
-  inp.addEventListener("input",render);
-  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",render);else render();
+    document.getElementById("facount").textContent=(nA===1?"1 Angebot":nA+" Angebote")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
+    if(!nG)box.append(node("p","empty",selG&&!selG.size?"Keine Gemeinde gewählt.":"Für diese Auswahl gibt es keine Angebote."))}
+  render();
 })();
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie"})[location.hash]||"home";
