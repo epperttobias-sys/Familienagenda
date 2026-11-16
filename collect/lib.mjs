@@ -276,9 +276,11 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     const key = `${code}:${ev.detailKey ?? ev.id}`;
     let info = cache[key];
     if (!info || day(today) - day(info.seen) > 14) {
-      const text = ev.detailKey ? detailText(await get(ev.url), ev.name) : `${ev.name} ${ev.hint}`;
-      info = { ...classify(ev, `${ev.hint} ${text}`), ...extras(text), seen: today };
-      cache[key] = info;
+      let text = `${ev.name} ${ev.hint}`;
+      if (ev.detailKey) { try { text = detailText(await get(ev.url), ev.name); } catch { info = null; } }
+      const fresh = { ...classify(ev, `${ev.hint} ${text}`), ...extras(text), seen: today };
+      if (info !== null) cache[key] = fresh;
+      info = fresh;
     }
     if (info.kids) result.push({
       gemeinden: [code], id: `${code}-${ev.id}`, name: ev.name, von: ev.von, bis: ev.bis,

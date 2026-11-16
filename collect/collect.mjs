@@ -10,9 +10,16 @@ const DELAY_MS = 400;
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 async function fetchText(url) {
-  const res = await fetch(url, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, sammelt einmal pro Nacht)" }, signal: AbortSignal.timeout(30000) });
-  if (!res.ok) throw new Error(`${res.status} bei ${url}`);
-  return res.text();
+  let last;
+  for (let i = 0; i < 3; i++) {
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, sammelt einmal pro Nacht)" }, signal: AbortSignal.timeout(30000) });
+      if (res.ok) return res.text();
+      last = new Error(`${res.status} bei ${url}`); if (res.status === 404) break;
+    } catch (e) { last = e; }
+    await sleep(3000 * (i + 1));
+  }
+  throw last;
 }
 
 const ONLY = process.env.BEZIRK || "";
