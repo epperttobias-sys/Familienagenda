@@ -2,7 +2,9 @@
 import { readFileSync, writeFileSync } from "node:fs";
 const UA = { "User-Agent": "Familienagenda/1.0 (github.com/epperttobias-sys/fuer-familien-in-zuerich)" };
 const hosts = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
-const q = `[out:json][timeout:300];area["ISO3166-2"="CH-ZH"]->.zh;rel(area.zh)["boundary"="administrative"]["admin_level"="6"];out geom;rel(area.zh)["boundary"="administrative"]["admin_level"="8"];out center tags;`;
+const BB = "(47.15,8.35,47.70,9.00)";
+const ZH = ["Affoltern", "Andelfingen", "Bülach", "Dielsdorf", "Dietikon", "Hinwil", "Horgen", "Meilen", "Pfäffikon", "Uster", "Winterthur", "Zürich"];
+const q = `[out:json][timeout:300];rel["boundary"="administrative"]["admin_level"="6"]["name"~"^Bezirk (${ZH.join("|")})$"]${BB};out geom;rel["boundary"="administrative"]["admin_level"="8"]${BB};out center tags;`;
 let data;
 for (let round = 0; round < 3 && !data; round++) for (const h of hosts) {
   try { const r = await fetch(h, { method: "POST", headers: { ...UA, "Content-Type": "application/x-www-form-urlencoded" }, body: "data=" + encodeURIComponent(q) });
@@ -12,9 +14,9 @@ if (!data) { console.log("Overpass nicht erreichbar"); process.exit(1); }
 const cross = (x, y, lines) => { let c = 0; for (const L of lines) for (let i = 1; i < L.length; i++) { const [x1, y1] = L[i - 1], [x2, y2] = L[i]; if ((y1 > y) !== (y2 > y) && x < (x2 - x1) * (y - y1) / (y2 - y1) + x1) c++; } return c; };
 const bez = data.elements.filter(e => e.tags && e.tags.admin_level === "6").map(e => ({ name: e.tags.name.replace(/^Bezirk /, ""), segs: (e.members || []).filter(m => m.type === "way" && m.geometry).map(m => m.geometry.map(p => [p.lon, p.lat])) }));
 const gem = data.elements.filter(e => e.tags && e.tags.admin_level === "8" && e.center).map(e => {
-  const b = bez.find(b => cross(e.center.lon, e.center.lat, b.segs) % 2 === 1);
-  return { name: e.tags.name.replace(/ \(ZH\)$/, ""), bezirk: b ? b.name : "?", website: e.tags.website || e.tags["contact:website"] || "", lat: +e.center.lat.toFixed(3), lon: +e.center.lon.toFixed(3) };
-});
+  const b = bez.find(b => cross(e.center.lon, e.center.lat, b.segs) % 2 === 1); if (!b) return null;
+  return { name: e.tags.name.replace(/ \(ZH\)$/, ""), bezirk: b.name, website: e.tags.website || e.tags["contact:website"] || "", lat: +e.center.lat.toFixed(3), lon: +e.center.lon.toFixed(3) };
+}).filter(Boolean);
 console.log("Bezirke:", bez.map(b => b.name).join(", "), "| Gemeinden:", gem.length);
 const slug = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/ /g, "-").replace(/[^a-z0-9-]/g, "");
 async function get(url) { try { const r = await fetch(url, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(20000) }); return r.ok ? { url: r.url, html: await r.text() } : null; } catch { return null; } }
