@@ -119,3 +119,11 @@ test("Baustein Kacheln", async () => {
   const items = await SYSTEMS.tiles({ domain: "e.ch", path: "/de/v/", linkPart: "/de/veranstaltungen/" }, async () => html);
   assert.deepEqual([items[0].id, items[0].von, items[0].hint], ["kletterplausch", "2026-11-08", "Für Familien"]);
 });
+
+test("Baustein RSS", async () => {
+  const xml = `<rss><channel><item><title>Kinder-Theater &amp; Musik</title><description>21.11.2026 | 14:00 Uhr - 15:30 Uhr&lt;br/&gt;Kategorie: Kinder&lt;br/&gt;Ort: Aula Egg&lt;br/&gt;https://x.ch</description><link>http://www.w.ch/de/veranstaltungen/detail/detail.php?i=55</link></item><item><title>Ohne Link</title><description>21.11.2026</description><link>http://www.w.ch/de/</link></item></channel></rss>`;
+  const items = await SYSTEMS.rss({ domain: "www.w.ch", path: "/rss.php" }, async () => xml);
+  assert.equal(items.length, 1);
+  assert.deepEqual([items[0].name, items[0].von, items[0].time, items[0].ort, items[0].detailKey, items[0].url], ["Kinder-Theater & Musik", "2026-11-21", "14.00 - 15.30", "Aula Egg", "55", "https://www.w.ch/de/veranstaltungen/detail/detail.php?i=55"]);
+  assert.equal(classify({ name: "Theater", kategorie: "" }, "Datum 21.11.2026 Kategorie Kinder & Familie Lokalität").kids, true);
+});

@@ -26,13 +26,13 @@ for (const [code, site] of Object.entries(sites)) {
   try {
     const r = await collectSite(code, site, { fetchText, cache, today, wait: () => sleep(site.delay ?? DELAY_MS) });
     events.push(...r.events);
-    status[code] = { name: site.name, domain: site.domain, ok: true, count: r.events.length };
+    status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: true, count: r.events.length };
     console.log(`${site.name}: ${r.rows} Events gelesen, ${r.events.length} für Kinder`);
   } catch (err) {
     // Fällt eine Gemeinde aus, bleiben ihre bisherigen Events stehen.
     const old = previous.events.filter(e => e.gemeinden[0] === code && e.bis >= today);
     events.push(...old);
-    status[code] = { name: site.name, domain: site.domain, ok: false, count: old.length };
+    status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: false, count: old.length };
     console.error(`${site.name} fehlgeschlagen: ${err.message}`);
   }
 }

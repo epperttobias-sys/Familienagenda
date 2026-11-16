@@ -12,7 +12,7 @@ for (const f of files) {
   for (const [id, von, bis, name, ort, time, amin, amax, label, path] of r.ev)
     if (!(parseInt(time, 10) >= 20 && amin === null))
     events.push({ gemeinden: [r.code], id: `${r.code}-${id}`, name, von, bis, ort, veranstalter: "", time, age: amin === null ? null : { min: amin, max: amax, label }, url: `https://${site.domain}${path || (r.tpl ? r.tpl.replace('{e}', id.split('-')[0]).replace('{d}', id.split('-')[1]) : '/_rte/anlass/' + id)}` });
-  status[r.code] = { name: site.name, domain: site.domain, ok: true, count: r.ev.length };
+  status[r.code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: true, count: r.ev.length };
 }
 const ordered = Object.fromEntries(Object.keys(sites).filter(c => status[c]).map(c => [c, status[c]]));
 const merged = merge(events);

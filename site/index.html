@@ -42,6 +42,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dd-panel .sep{border-top:1px solid var(--line);margin:4px 0}
 .dd-panel input:disabled+span{color:var(--muted)}
 .dd-panel .n{margin-left:auto;color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums}
+.dd-search{width:100%;font:500 .95rem var(--body);padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);margin-bottom:6px}
+.dd-search:focus-visible{outline:3px solid var(--sun);outline-offset:1px}
+.dd-group{padding:10px 4px 2px}
+.dd-group button{border:0;background:none;padding:2px 4px;min-height:0;border-radius:6px;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.dd-group button:hover{text-decoration:underline}
 .dd-actions{display:flex;gap:6px;padding:4px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
 .dd-actions button{min-height:30px;padding:4px 10px;font-size:.85rem}
 button{font:500 .92rem var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;min-height:36px;cursor:pointer}
@@ -210,10 +215,24 @@ async function start(){
   const fg=document.getElementById("f-g"),fa=document.getElementById("f-a");
   const panel=document.getElementById("g-panel"),codes=Object.keys(SITES);
   const counts={};EVENTS.forEach(e=>e.gemeinden.forEach(c=>counts[c]=(counts[c]||0)+1));
-  codes.slice().sort((a,b)=>SITES[a].name.localeCompare(SITES[b].name,"de")).forEach(c=>{
-    const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="g-"+c;
-    i.addEventListener("change",()=>{const wasNone=state.g.delete("__none");if(!wasNone&&!state.g.size)codes.forEach(x=>state.g.add(x));i.checked?state.g.add(c):state.g.delete(c);if(state.g.size===codes.length)state.g.clear();else if(!state.g.size)state.g.add("__none");update()});
-    l.append(i,node("span","",SITES[c].name),node("span","n",String(counts[c]||0)));panel.append(l)});
+  const search=document.createElement("input");search.type="search";search.id="g-search";search.placeholder="Gemeinde suchen";search.className="dd-search";search.setAttribute("aria-label","Gemeinde suchen");
+  panel.insertBefore(search,panel.firstChild);
+  const groups={};codes.forEach(c=>{const b=SITES[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  const isSel=c=>!state.g.has("__none")&&(!state.g.size||state.g.has(c));
+  const setGroup=(list,on)=>{const cur=new Set(codes.filter(isSel));list.forEach(c=>on?cur.add(c):cur.delete(c));
+    state.g=cur.size===codes.length?new Set():cur.size?cur:new Set(["__none"]);update()};
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{
+    const list=groups[b].sort((x,y)=>SITES[x].name.localeCompare(SITES[y].name,"de"));
+    const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.title="Ganzen Bezirk wählen";hb.addEventListener("click",()=>setGroup(list,!list.every(isSel)));
+    head.append(hb);panel.append(head);
+    list.forEach(c=>{
+      const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="g-"+c;l.dataset.name=SITES[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const wasNone=state.g.delete("__none");if(!wasNone&&!state.g.size)codes.forEach(x=>state.g.add(x));i.checked?state.g.add(c):state.g.delete(c);if(state.g.size===codes.length)state.g.clear();else if(!state.g.size)state.g.add("__none");update()});
+      l.append(i,node("span","",SITES[c].name),node("span","n",String(counts[c]||0)));panel.append(l)})});
+  search.addEventListener("input",()=>{const q=search.value.trim().toLowerCase();const shown=new Set();
+    panel.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    panel.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
   document.getElementById("g-all").addEventListener("click",()=>{state.g.clear();update()});
   document.getElementById("g-none").addEventListener("click",()=>{state.g.clear();state.g.add("__none");update()});
   const dds=[...document.querySelectorAll("details.dd")];

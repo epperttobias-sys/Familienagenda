@@ -23,7 +23,7 @@ export function listFromHtml(html) {
 
 const ADMIN = /gemeinderatssitzung|gemeindeversammlung|urnengang|kartonsammlung|papiersammlung|häckseldienst|sonderabfall|christbaumsammlung|elternabend|elternbildung|femmes-tische|deutschkurs|spielgruppe|yoga|senior|mittagstisch|gottesdienst für erwachsene/i;
 const KIDS_NAME = /kinder|chind|famili|eltern-?kind|vater-kind|gschicht|märli|maerli|samichlaus|kerzenzieh|krabbel|chrabbel|fiire mit|zirkus|circus|räbe|puppentheater|kasperli|buchstart|storytime|kamishibai|vorläse|värsli|kreativraum|fasnacht|weihnachtsmärt|christchindli|\bkind\b|elki|knirps|bastel/i;
-const KIDS_TEXT = /hauptzielgruppe:\s*(familien|kleinkinder|kinder)|für (die )?(kinder|familien|klein und gross|gross und klein)|kinder (sind )?willkommen|für kinder empfehlenswert/i;
+const KIDS_TEXT = /hauptzielgruppe:\s*(familien|kleinkinder|kinder)|für (die )?(kinder|familien|klein und gross|gross und klein)|kinder (sind )?willkommen|für kinder empfehlenswert|kategorie:?\s*(kinder|famili)/i;
 export const KIDS_CATEGORIES = new Set(["14", "18"]);
 const SKIP_CATEGORIES = new Set(["7", "19"]);
 const MAX_DAYS = 60;
@@ -217,6 +217,26 @@ export const SYSTEMS = {
       }
       const next = html.match(/<a href="([^"]*month%5D=next[^"]*)"/);
       url = next ? abs(`https://${site.domain}/`, next[1]) : null;
+    }
+    return items;
+  },
+
+  // RSS-Feed mit einem Eintrag pro Termin (Wetzikon). Beschreibung: «16.11.2026 | 16:00 Uhr - 18:00 Uhr<br/>Kategorie: …<br/>Ort: …».
+  async rss(site, get) {
+    const xml = await get(`https://${site.domain}${site.path}`);
+    const items = [];
+    for (const b of xml.split(/<item>/).slice(1)) {
+      const tag = t => decode((b.match(new RegExp(`<${t}>([\\s\\S]*?)</${t}>`)) || [])[1] ?? "").replace(/^<!\[CDATA\[|\]\]>$/g, "");
+      const desc = decode(tag("description"));
+      const link = tag("link").replace(/^http:/, "https:");
+      const id = (link.match(/[?&]i=(\d+)/) || [])[1];
+      const d = desc.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
+      if (!id || !d) continue;
+      const von = ymd(d[3], d[2], d[1]);
+      const t = desc.match(/(\d{1,2})[:.](\d{2})\s*Uhr(?:\s*-\s*(\d{1,2})[:.](\d{2}))?/);
+      const time = t ? (t[3] ? `${t[1]}.${t[2]} - ${t[3]}.${t[4]}` : `${t[1]}.${t[2]}`) : "";
+      const ort = strip((desc.match(/Ort:\s*([^<]*)/) || [])[1] ?? "");
+      items.push({ id: `${id}-${von}`, name: strip(tag("title")), von, bis: von, ort, veranstalter: "", kategorie: "", hint: "", url: link, detailKey: id, time });
     }
     return items;
   },

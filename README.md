@@ -17,10 +17,13 @@ Hinweis: Beim kostenlosen GitHub-Konto ist die Seite öffentlich erreichbar, auc
 
 Die Liste steht in `collect/gemeinden.json`. Jede Gemeinde braucht einen eigenen Buchstaben als Schlüssel und ein `system`:
 
-- ohne `system` (i-web): Uster, Egg, Greifensee, Mönchaltorf, Fällanden, Männedorf, Meilen, Dübendorf, Zollikon, Zumikon, Uetikon am See, Fehraltorf. Liegt die Agenda nicht unter `/anlaesseaktuelles`, gib den Pfad mit `path` an (siehe Dübendorf).
-- `eventitem`: Maur, Volketswil, Küsnacht, Herrliberg, Oetwil am See. Diese Websites erlauben nur 4 Abrufe in 10 Sekunden, deshalb `delay: 3000`.
+- ohne `system` (i-web): die meisten Gemeinden. Liegt die Agenda nicht unter `/anlaesseaktuelles`, gib den Pfad mit `path` an (siehe Dübendorf, Seegräben, Illnau-Effretikon).
+- `eventitem`: z. B. Maur, Volketswil, Küsnacht, Herrliberg, Oetwil am See, Hombrechtikon, Grüningen, Rüti, Wila. Diese Websites erlauben nur 4 Abrufe in 10 Sekunden, deshalb `delay: 3000`.
 - `bss`: Schwerzenbach (Monatskalender)
 - `tiles`: Erlenbach
+- `rss`: Wetzikon (RSS-Feed)
+
+Jede Gemeinde hat ein Feld `bezirk`. Die Webseite gruppiert die Gemeinden danach.
 
 Eine weitere Gemeinde mit einem dieser Systeme kannst du einfach eintragen. Für ein anderes System braucht es einen neuen Baustein in `collect/lib.mjs`.
 
