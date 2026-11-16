@@ -222,8 +222,9 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <p class="lead">Sport, Musik, Pfadi, Familie und mehr, aus den Vereinslisten der Gemeinden. Tippe auf eine Gemeinde, um ihre Vereine zu sehen.</p>
   </header>
   <section class="filters" aria-label="Filter Vereine">
-    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="vr-search" placeholder="Gemeinde oder Verein, z.B. Fussball" aria-label="Gemeinde oder Verein suchen"></div>
-    <div class="row"><b>Bereich</b><div class="chipsel" id="vr-groups"></div></div>
+    <div class="row"><b>Gemeinde</b><details class="dd" id="vg-dd"><summary id="vg-sum">Alle Gemeinden</summary><div class="dd-panel" id="vg-panel"><input type="search" class="dd-search" id="vg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="vg-all">Alle</button><button type="button" id="vg-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Bereich</b><details class="dd" id="vk-dd"><summary id="vk-sum">Alle Bereiche</summary><div class="dd-panel" id="vk-panel"><div class="dd-actions"><button type="button" id="vk-all">Alle Bereiche</button></div></div></details></div>
+    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="vr-search" placeholder="Verein, z.B. Unihockey oder Judo" aria-label="Verein suchen"></div>
   </section>
   <p id="vrcount" class="count-line"></p>
   <main id="vereine"></main>
@@ -538,33 +539,52 @@ async function showMap(d,list,g,me){const el=d.querySelector(".spmap");if(!el||e
   setTimeout(()=>map.invalidateSize(),50)}
 const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","Pfadi und Jugendgruppen","🏕️"],["musik","Musik und Tanz","🎵"],["familie","Familie und Eltern","👨‍👩‍👧"],["kreativ","Zirkus, Kreativ, Natur","🎪"]];
 (function setupVereine(){
-  const V=window.VEREINE,box=document.getElementById("vereine"),inp=document.getElementById("vr-search"),gb=document.getElementById("vr-groups");
+  const V=window.VEREINE,box=document.getElementById("vereine"),inp=document.getElementById("vr-search");
   const GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
   if(!V){box.append(node("p","empty","Die Vereine werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("vrstand").textContent="Stand: "+V.stand.split("-").reverse().join(".")+".";
   let total=0;for(const c in V.gemeinden)total+=V.gemeinden[c].length;
   document.getElementById("tile-vereine").textContent=total+" Vereine für Kinder: Sport, Musik, Pfadi und mehr";
-  const on=new Set();
-  VGROUPS.forEach(([k,t,ic])=>{const b=node("button","",ic+" "+t);b.type="button";b.setAttribute("aria-pressed","false");
-    b.addEventListener("click",()=>{on.has(k)?on.delete(k):on.add(k);b.setAttribute("aria-pressed",on.has(k));render()});gb.append(b)});
+  const codes=Object.keys(GM).filter(c=>V.gemeinden[c]&&V.gemeinden[c].length);let selG=null,selK=null;
   const GL=Object.fromEntries(VGROUPS.map(([k,t,ic])=>[k,ic+" "+t]));
-  function render(){const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nV=0;const byB={};
-    Object.keys(V.gemeinden).forEach(c=>{const name=(GM[c]&&GM[c].name)||c,bz=(GM[c]&&GM[c].bezirk)||"Weitere";
-      let L=V.gemeinden[c].filter(v=>!on.size||on.has(v.k));
-      if(q&&!name.toLowerCase().includes(q))L=L.filter(v=>(v.n+" "+GL[v.k]).toLowerCase().includes(q));
-      if(!L.length)return;(byB[bz]=byB[bz]||[]).push([name,L])});
+  const gp=document.getElementById("vg-panel"),groups={};
+  codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  const curG=()=>new Set(selG||codes),setG=set=>{selG=set.size===codes.length?null:set;render()};
+  const cnt={};codes.forEach(c=>cnt[c]=V.gemeinden[c].length);
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const list=groups[b].sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de"));
+    const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.addEventListener("click",()=>{const c=curG(),on=!list.every(x=>c.has(x));list.forEach(x=>on?c.add(x):c.delete(x));setG(c)});head.append(hb);gp.append(head);
+    list.forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="vg-"+c;l.dataset.name=GM[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const s=curG();i.checked?s.add(c):s.delete(c);setG(s)});l.append(i,node("span","",GM[c].name),node("span","n",String(cnt[c])));gp.append(l)})});
+  document.getElementById("vg-all").addEventListener("click",()=>setG(new Set(codes)));
+  document.getElementById("vg-none").addEventListener("click",()=>{selG=new Set();render()});
+  const gs=document.getElementById("vg-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  const kp=document.getElementById("vk-panel");
+  VGROUPS.forEach(([k,t,ic])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="vk-"+k;
+    i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<VGROUPS.length?s:null;render()});l.append(i,node("span","",ic+" "+t));kp.append(l)});
+  document.getElementById("vk-all").addEventListener("click",()=>{selK=null;render()});
+  function sync(){codes.forEach(c=>{const i=document.getElementById("vg-"+c);if(i)i.checked=!selG||selG.has(c)});
+    const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("vg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
+    VGROUPS.forEach(([k])=>document.getElementById("vk-"+k).checked=!!selK&&selK.has(k));
+    const ks=selK?VGROUPS.filter(([k])=>selK.has(k)).map(([,t])=>t):[];document.getElementById("vk-sum").textContent=!selK?"Alle Bereiche":ks.length===1?ks[0]:ks.length+" Bereiche"}
+  function render(){sync();const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nV=0;const byB={};
+    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c];
+      let L=V.gemeinden[c].filter(v=>!selK||selK.has(v.k));if(q)L=L.filter(v=>(v.n+" "+GL[v.k]).toLowerCase().includes(q));
+      if(!L.length)return;(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||[]).push([g.name,L])});
     Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
       byB[b].sort((x,y)=>x[0].localeCompare(y[0],"de")).forEach(([g,L])=>{nG++;nV+=L.length;const d=node("details","spg vr"),su=document.createElement("summary");
-        su.append(node("span","",g),node("span","n",L.length===1?"1 Verein":L.length+" Vereine"));d.append(su);if(q||on.size)d.open=true;
+        su.append(node("span","",g),node("span","n",L.length===1?"1 Verein":L.length+" Vereine"));d.append(su);if(q||selK||(selG&&selG.size<=3))d.open=true;
         let done=false;const fill=()=>{if(done)return;done=true;const ul=document.createElement("ul");
           L.forEach(v=>{const li=document.createElement("li");li.append(node("span","t",v.n),node("span","k",GL[v.k]+(v.o?" · "+v.o:"")));
             const ln=node("div","vl");if(v.w){const w=node("a","","Website des Vereins");w.href=v.w;w.target="_blank";w.rel="noopener";ln.append(w)}
             const a=node("a","",v.w?"Eintrag bei der Gemeinde":"Mehr auf der Website der Gemeinde");a.href=v.u;a.target="_blank";a.rel="noopener";ln.append(a);li.append(ln);ul.append(li)});d.append(ul)};
         if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})});
     document.getElementById("vrcount").textContent=(nV===1?"1 Verein":nV+" Vereine")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
-    if(!nG)box.append(node("p","empty","Nichts gefunden."));
-    const miss=Object.keys(GM).filter(c=>!V.gemeinden[c]).map(c=>GM[c].name).sort((a,b)=>a.localeCompare(b,"de"));
-    if(miss.length&&!q&&!on.size)box.append(node("p","note","Noch ohne Vereinsliste: "+miss.join(", ")+". Diese Gemeinden führen ihre Vereine anders auf, sie folgen später."))}
+    if(!nG)box.append(node("p","empty",selG&&!selG.size?"Keine Gemeinde gewählt.":"Nichts gefunden."));
+    const miss=Object.keys(GM).filter(c=>!V.gemeinden[c]||!V.gemeinden[c].length).map(c=>GM[c].name).sort((a,b)=>a.localeCompare(b,"de"));
+    if(miss.length&&!q&&!selK&&!selG)box.append(node("p","note","Noch ohne Vereinsliste: "+miss.join(", ")+". Diese Gemeinden führen ihre Vereine anders auf, sie folgen später."))}
   inp.addEventListener("input",render);render();
 })();
 const KJZ={Uster:["kjz Uster","https://www.zh.ch/de/bildungsdirektion/amt-fuer-jugend-und-berufsberatung/kjz-uster.html"],Meilen:["kjz Meilen","https://www.zh.ch/de/bildungsdirektion/amt-fuer-jugend-und-berufsberatung/kjz-meilen.html"],
