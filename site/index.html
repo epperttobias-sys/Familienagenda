@@ -10,16 +10,16 @@
 <style>
 /* Layout: eine ruhige Tagesliste wie ein Kalenderblatt, Filter kleben oben, damit man sie am Handy mit dem Daumen erreicht. */
 :root{
-  --bg:#eef6f4; --surface:#ffffff; --ink:#123a3f; --muted:#50706f; --line:#cfe1dd;
-  --accent:#0f766e; --accent-ink:#ffffff; --sun:#ffc93c; --heart:#e0244f; --sun-ink:#4a3500; --soft:#dcefe9;
+  --bg:#f1f6fc; --surface:#ffffff; --ink:#0d2340; --muted:#4f6684; --line:#cfdcee;
+  --accent:#0a5cb8; --accent-ink:#ffffff; --sun:#ffc93c; --heart:#e0244f; --sun-ink:#4a3500; --soft:#dfeafa; --zh:#0a5cb8;
   --display:"Bricolage Grotesque","Trebuchet MS",sans-serif; --body:"Figtree","Segoe UI",system-ui,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#0e2124; --surface:#16302f; --ink:#e7f4f1; --muted:#a2bfba; --line:#2a4a48;
-  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}}
+  --bg:#0a1729; --surface:#11243d; --ink:#e8f0fb; --muted:#a3b7d2; --line:#24405f;
+  --accent:#7ab6ff; --accent-ink:#04203f; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#183252; --zh:#3d8ae6; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#0e2124; --surface:#16302f; --ink:#e7f4f1; --muted:#a2bfba; --line:#2a4a48;
-  --accent:#5eead4; --accent-ink:#06302c; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#1f4340; color-scheme:dark}
+  --bg:#0a1729; --surface:#11243d; --ink:#e8f0fb; --muted:#a3b7d2; --line:#24405f;
+  --accent:#7ab6ff; --accent-ink:#04203f; --sun:#ffd666; --heart:#ff5c80; --sun-ink:#3d2c00; --soft:#183252; --zh:#3d8ae6; color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font:400 16px/1.45 var(--body)}
 .wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px;display:grid;gap:20px}
 h1{font:800 clamp(2rem,7vw,3rem)/1.05 var(--display);margin:0;text-wrap:balance}
@@ -73,7 +73,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset
 .heart{color:var(--heart);display:inline-block}
 .eyebrow{margin:0 0 6px;font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:700}
 .tiles{display:grid;gap:12px}
-.tile{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:4px 16px;padding:22px 20px;border-radius:18px;background:var(--accent);color:var(--accent-ink);text-decoration:none;box-shadow:0 6px 20px rgba(15,118,110,.18)}
+.tile{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:4px 16px;padding:22px 20px;border-radius:18px;background:var(--accent);color:var(--accent-ink);text-decoration:none;box-shadow:0 6px 20px rgba(10,92,184,.20)}
 .tile-alt{background:var(--surface);color:var(--ink);border:2px solid var(--accent);box-shadow:none}
 .tile-alt .tile-arrow{color:var(--accent)}
 .tile:hover{filter:brightness(1.05)}
@@ -125,7 +125,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .leaflet-control-attribution{background:rgba(255,255,255,.85);color:#333;font-size:10px;padding:0 5px;margin:0}.leaflet-control-attribution a{color:#0b6}
 .leaflet-popup{position:absolute;text-align:center;margin-bottom:14px}
 .leaflet-popup-content-wrapper{background:#fff;color:#222;border-radius:10px;box-shadow:0 3px 14px rgba(0,0,0,.3);text-align:left;padding:1px}
-.leaflet-popup-content{margin:10px 14px;font-size:.88rem;line-height:1.35}.leaflet-popup-content a{color:#0f766e;font-weight:700}
+.leaflet-popup-content{margin:10px 14px;font-size:.88rem;line-height:1.35}.leaflet-popup-content a{color:#0a5cb8;font-weight:700}
 .leaflet-popup-tip-container{width:40px;height:14px;position:absolute;left:50%;margin-left:-20px;overflow:hidden;pointer-events:none}
 .leaflet-popup-tip{width:14px;height:14px;padding:1px;margin:-8px auto 0;transform:rotate(45deg);background:#fff}
 .leaflet-popup-close-button{position:absolute;top:2px;right:6px;color:#666;text-decoration:none;font:18px/20px sans-serif}
@@ -144,6 +144,11 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .sa{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:8px}.sa li{display:grid;grid-template-columns:52px minmax(0,1fr);gap:10px;padding:10px 12px;border-radius:12px;background:rgba(127,127,127,.08)}
 .sa .dt{display:grid;justify-items:center;align-content:start;line-height:1.1}.sa .dt strong{font-size:1.35rem}.sa .dt span{font-size:.78rem;color:var(--muted)}
 .sa a.t{font-weight:700;color:var(--ink);text-underline-offset:3px}.sa .m{font-size:.85rem;color:var(--muted)}
+.zhband{height:14px;border-radius:999px;background:linear-gradient(135deg,var(--zh) 0 50%,#fff 50% 100%);box-shadow:inset 0 0 0 1px var(--line);max-width:220px}
+.tile{position:relative}.tile .ico{grid-row:span 2;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--soft);color:var(--accent)}
+.tile:not(.tile-alt) .ico{background:rgba(255,255,255,.2);color:inherit}.tile .ico svg{width:26px;height:26px}
+.tile{grid-template-columns:auto minmax(0,1fr) auto!important}.tile .ico{grid-column:1;grid-row:1/3}.tile .tile-title{grid-column:2;grid-row:1}.tile .tile-text{grid-column:2;grid-row:2}.tile .tile-arrow{grid-column:3;grid-row:1/3}
+.home footer.waves{border:0;padding:0;margin-top:8px;color:var(--zh);opacity:.5}
 .near{display:grid;gap:6px;justify-items:start}.near .note{margin:0;color:var(--muted);font-size:.85rem}
 .nearbtn{font:inherit;font-weight:700;padding:10px 16px;border-radius:12px;border:0;background:var(--accent);color:var(--accent-ink);cursor:pointer}
 #sp-near-box{width:100%}#sp-near-box ul{list-style:none;margin:0 0 6px;padding:0;display:grid;gap:8px}
@@ -160,46 +165,55 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 </head>
 <body>
 <div class="wrap home" id="view-home">
+  <div class="zhband" aria-hidden="true"></div>
   <header>
     <h1>Für Familien in Zürich <span class="heart" aria-label="Herz">♥</span></h1>
   </header>
   <nav class="tiles" aria-label="Bereiche">
     <a class="tile" href="#events" id="go-events">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15" r="2"/></svg></span>
       <span class="tile-title">Events</span>
       <span class="tile-text" id="tile-text">Anlässe für Kinder in der Region</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt tile-season" href="#saison" id="go-saison">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></span>
       <span class="tile-title" id="tile-saison-t">Saisonale Highlights</span>
       <span class="tile-text" id="tile-saison">Was gerade Saison hat</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#raeume" id="go-raeume">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V9l8-6 8 6v12"/><path d="M9 21v-6h6v6"/></svg></span>
       <span class="tile-title">Event-Räume</span>
       <span class="tile-text">Räume für Feste und Anlässe zum mieten</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#ausflug" id="go-ausflug">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-10 4 6 3-4 5 8z"/><circle cx="17" cy="6" r="2"/></svg></span>
       <span class="tile-title">Ausflugsziele in der Region</span>
       <span class="tile-text" id="tile-ausflug">Tierparks, Museen, Burgen, Aussichtstürme und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#familie" id="go-familie">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 21v-3a5 5 0 0110 0v3M14 21v-2a3.5 3.5 0 017 0v2"/></svg></span>
       <span class="tile-title">Familienangebote der Gemeinde</span>
       <span class="tile-text">Beratung, Spielgruppen, Kitas, Bibliothek, Ludothek und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#vereine" id="go-vereine">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M5.6 5.6c3.5 3.5 9.3 3.5 12.8 0M5.6 18.4c3.5-3.5 9.3-3.5 12.8 0"/></svg></span>
       <span class="tile-title">Vereine</span>
       <span class="tile-text" id="tile-vereine">Sport, Musik, Pfadi und mehr für Kinder</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#spielplaetze" id="go-spiel">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21l6-10M5 13h4"/></svg></span>
       <span class="tile-title">Spielplätze</span>
       <span class="tile-text">Spielplätze in deiner Gemeinde</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
   </nav>
+  <footer class="waves" aria-hidden="true"><svg viewBox="0 0 240 24" width="240" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 8c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/><path d="M2 18c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/></svg></footer>
 </div>
 
 <div class="wrap" id="view-raeume" hidden>
