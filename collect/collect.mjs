@@ -15,8 +15,12 @@ async function fetchText(url) {
   return res.text();
 }
 
-const sites = await readJson("collect/gemeinden.json", {});
-const cache = await readJson("data/cache.json", {});
+const ONLY = process.env.BEZIRK || "";
+const slug = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/[^a-z0-9]+/g, "-");
+const all = await readJson("collect/gemeinden.json", {});
+const sites = Object.fromEntries(Object.entries(all).filter(([, s]) => !ONLY || s.bezirk === ONLY));
+const cacheFile = ONLY ? `data/cache-${slug(ONLY)}.json` : "data/cache.json";
+const cache = await readJson(cacheFile, null) ?? await readJson("data/cache.json", {});
 const previous = await readJson("site/events.json", { events: [] });
 previous.events ??= [];
 const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
@@ -37,7 +41,15 @@ for (const [code, site] of Object.entries(sites)) {
   }
 }
 
-await writeFile(path("data/cache.json"), JSON.stringify(cache) + "\n");
+if (ONLY) {
+  const mine = Object.fromEntries(Object.entries(cache).filter(([k]) => sites[k.split(":")[0]]));
+  await writeFile(path(cacheFile), JSON.stringify(mine) + "\n");
+  const { mkdir } = await import("node:fs/promises"); await mkdir(path("data/parts/"), { recursive: true });
+  await writeFile(path(`data/parts/${slug(ONLY)}.json`), JSON.stringify({ bezirk: ONLY, status, events }) + "\n");
+  console.log(`Bezirk ${ONLY}: ${events.length} Anlässe aus ${Object.keys(sites).length} Gemeinden`);
+  process.exit(0);
+}
+await writeFile(path(cacheFile), JSON.stringify(cache) + "\n");
 if (!Object.values(status).some(s => s.ok)) {
   console.error("Keine Gemeinde erreichbar, die bisherigen Daten bleiben bestehen.");
   process.exit(1);

@@ -4,7 +4,7 @@ const G = JSON.parse(readFileSync(new URL("./gemeinden.json", import.meta.url)))
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
 const re = `^(${names.map(esc).join("|")})( \\\\(ZH\\\\))?$`;
-const BB = "(47.20,8.52,47.52,9.02)";
+const BB = "(47.15,8.35,47.70,9.00)";
 const q = `[out:json][timeout:240];(` +
   `nwr["amenity"="childcare"]${BB};nwr["amenity"="kindergarten"]["name"~"kita|krippe|hort|tagesst|kinderhaus|spielgruppe",i]${BB};` +
   `nwr["amenity"="library"]${BB};nwr["amenity"="toy_library"]${BB};` +
@@ -13,10 +13,11 @@ const q = `[out:json][timeout:240];(` +
   `);out center tags;rel["boundary"="administrative"]["admin_level"="8"]["name"~"${re}"]${BB};out geom;`;
 const hosts = ["https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter", "https://overpass.kumi.systems/api/interpreter"];
 let data;
+for (let round = 0; round < 4 && !data; round++) { if (round) await new Promise(r => setTimeout(r, 45000));
 for (const h of hosts) {
   try { const r = await fetch(h, { method: "POST", headers: { "User-Agent": "Familienagenda/1.0 (github.com/epperttobias-sys/Familienagenda)", "Content-Type": "application/x-www-form-urlencoded" }, body: "data=" + encodeURIComponent(q) });
     if (!r.ok) throw new Error(r.status); data = await r.json(); console.log("ok", h); break; } catch (e) { console.log("fehler", h, e.message); }
-}
+}}
 if (!data) { console.log("keine Daten, alte Liste bleibt"); process.exit(0); }
 const bounds = [];
 for (const e of data.elements) if (e.type === "relation" && e.tags && e.tags.boundary === "administrative")

@@ -235,7 +235,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
     <h1>Ausflugsziele in der Region</h1>
-    <p class="lead">Tierparks, Museen, Burgen, Aussichtstürme, Erlebnisse und Feuerstellen in den Bezirken Uster, Meilen, Pfäffikon und Hinwil.</p>
+    <p class="lead">Tierparks, Museen, Burgen, Aussichtstürme, Erlebnisse und Feuerstellen im Kanton Zürich.</p>
   </header>
   <section class="filters" aria-label="Filter Ausflugsziele">
     <div class="row"><b>Gemeinde</b><details class="dd" id="ag-dd"><summary id="ag-sum">Alle Gemeinden</summary><div class="dd-panel" id="ag-panel"><input type="search" class="dd-search" id="ag-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="ag-all">Alle</button><button type="button" id="ag-none">Keine</button></div></div></details></div>
@@ -521,7 +521,7 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
   const D=window.SPIELPLAETZE,box=document.getElementById("spiel"),inp=document.getElementById("sp-search");
   if(!D){box.append(node("p","empty","Die Spielplätze werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("spstand").textContent="Stand: "+D.stand.split("-").reverse().join(".")+".";
-  const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);
+  const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);Object.values((window.FAMILIENAGENDA||{}).gemeinden||{}).forEach(g=>{if(g.bezirk)BZ[g.name]=g.bezirk});
   function item(p){const li=document.createElement("li");li.append(node("span","t",pname(p)));
     const ch=node("div","chips");p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).forEach(t=>ch.append(node("span","",t)));
     if(p.min||p.max)ch.append(node("span","",p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre"));
@@ -550,7 +550,7 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
       const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
       const all=[];for(const g in D.gemeinden)D.gemeinden[g].forEach(p=>all.push(Object.assign({g,km:km(me[0],me[1],p.lat,p.lon)},p)));
       all.sort((a,b)=>a.km-b.km);const top=all.slice(0,10);
-      if(!top.length||top[0].km>15){msg.textContent="In deiner Nähe (15 km) kenne ich keine Spielplätze. Die Liste umfasst die Bezirke Uster, Meilen, Pfäffikon und Hinwil.";box2.replaceChildren();return}
+      if(!top.length||top[0].km>15){msg.textContent="In deiner Nähe (15 km) kenne ich keine Spielplätze. Die Liste umfasst den Kanton Zürich.";box2.replaceChildren();return}
       msg.textContent="Die 10 nächsten Spielplätze, Luftlinie ab deinem Standort:";
       box2.replaceChildren();const m=node("div","spmap");box2.append(m);const ul=document.createElement("ul");
       top.forEach(p=>{const li=item(p),t=li.querySelector(".t");t.append(node("span","dist"," · "+(p.km<1?Math.round(p.km*1000/10)*10+" m":p.km.toFixed(1).replace(".",",")+" km")+" · "+p.g));ul.append(li)});box2.append(ul);
