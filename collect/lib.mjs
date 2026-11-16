@@ -292,7 +292,7 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
 // Vereine: Kinder-Angebote am Namen erkennen und einer Gruppe zuordnen
 const CLUB_NO = /senior|veteran|alt[- ]?pfadi|altherren|männerchor|maennerchor|frauenchor|frauenturn|männerturn|damenriege|herrenriege|seniorenturn|kiwanis|rotary|lions|partei|\bsvp\b|\bfdp\b|\bsp\b|die mitte|\bglp\b|\bevp\b|grüne|gewerbe|landfrauen|pensionierte|rentner|60\s*\+|schützen|jäger|jagd|imker|ornitholog(?!.*jugend)|fasn|gugge|zunft|quartierverein|dorfverein|verkehrsverein|verschönerung|wanderverein|kulturverein|kirchenchor|samariter(?!.*jugend)|freundeskreis|stiftung|genossenschaft|club 2|aktive senioren|verband\b|familiengärten|familiengarten|hundesport|motorsport|supporter|gönner|aktivriege|damenturn|damen|herren|krippe|kindertagesst|kinderheim|jugendberatung|tagesfamilien|kita\b|hauseigentümer|privatwald/i;
 export const CLUB_GROUPS = [
-  ["pfadi", "Pfadi und Jugendgruppen", /pfadi|cevi|jungwacht|blauring|jubla|jungschar|jugendtreff|jugendarbeit|jugendverein|kinder|jugend(?!musik)|kids|juniors?\b/i],
+  ["pfadi", "Pfadi und Jugendgruppen", /pfadi|cevi|jungwacht|blauring|jubla|jungschar|jugendtreff|jugendarbeit|jugendverein/i],
   ["sport", "Sport", /\bfc\b|fussball|football|turn|unihockey|floorball|handball|volleyball|basketball|tennis|badminton|judo|karate|taekwondo|kampfsport|aikido|schwimm|wasserball|leichtathletik|\blv\b|\bla\b|\bski|snowboard|eishockey|eislauf|curling|reit|pony|velo|bike|\brad|orientierungslauf|\bol\b|rugby|hockey|tischtennis|rhönrad|kletter|segel|ruder|kanu|golf|inline|skater|sport|athlet|gymnastik|trampolin|fechten|boxen|ringen|schach/i],
   ["musik", "Musik und Tanz", /jugendmusik|musikschule|kadetten|kinderchor|jugendchor|tanz|ballett|tambour|singschule|musik/i],
   ["familie", "Familie und Eltern", /eltern|famili|mütter|muetter|väter|spielgruppe|ludothek|elki|krabbel|kita|tagesfamilien/i],
@@ -301,5 +301,6 @@ export const CLUB_GROUPS = [
 export function classifyClub(name) {
   if (CLUB_NO.test(name)) return null;
   for (const [k, , re] of CLUB_GROUPS) if (re.test(name)) return k;
+  if (/kinder|jugend|kids|juniors?\b/i.test(name)) return "pfadi";
   return null;
 }
