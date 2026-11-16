@@ -37,6 +37,7 @@ const out = {}; const seen = new Set();
 for (const e of data.elements) {
   if (e.type === "relation" && e.tags && e.tags.boundary === "administrative") continue;
   const t = e.tags || {}, c = e.center || e; if (c.lat == null || !t.name) continue;
+  if (/hospiz|massage|wohnhaus|heim\b|beratung|therapie/i.test(t.name)) continue;
   if (["private", "no"].includes(t.access)) continue;
   const k = kind(t); if (!k) continue;
   const b = bounds.find(b => cross(c.lon, c.lat, b.segs) % 2 === 1); if (!b || !code[b.name]) continue;
