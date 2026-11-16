@@ -511,7 +511,7 @@ async function showMap(d,list,g,me){const el=d.querySelector(".spmap");if(!el||e
   if(me){L.circleMarker(me,{radius:9,color:"#fff",weight:3,fillColor:"#1a73e8",fillOpacity:1}).addTo(map).bindPopup("Du bist hier");L.circle(me,{radius:30,color:"#1a73e8",weight:1,fillOpacity:.12}).addTo(map);pts.push(me)}
   if(pts.length===1)map.setView(pts[0],16);else map.fitBounds(pts,{padding:[24,24],maxZoom:16});
   setTimeout(()=>map.invalidateSize(),50)}
-const VGROUPS=[["sport","Sport","⚽"],["pfadi","Pfadi und Jugendgruppen","🏕️"],["musik","Musik und Tanz","🎵"],["familie","Familie und Eltern","👨‍👩‍👧"],["kreativ","Zirkus, Kreativ, Natur","🎪"]];
+const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","Pfadi und Jugendgruppen","🏕️"],["musik","Musik und Tanz","🎵"],["familie","Familie und Eltern","👨‍👩‍👧"],["kreativ","Zirkus, Kreativ, Natur","🎪"]];
 (function setupVereine(){
   const V=window.VEREINE,box=document.getElementById("vereine"),inp=document.getElementById("vr-search"),gb=document.getElementById("vr-groups");
   const GM=(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{};
