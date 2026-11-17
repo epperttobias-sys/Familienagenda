@@ -259,23 +259,57 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 
 
 <style>
-/* Events: Variante A1 */
-#view-events .filters{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:8px;background:none!important;box-shadow:none!important;padding:0!important}
-#view-events .filters .row{position:static;display:block}
+/* Kopf kompakt (Variante K1) */
+.wrap.hk1>header{grid-template-columns:auto minmax(0,1fr)!important;padding:12px 14px!important;gap:2px 12px!important}
+.wrap.hk1>header .secico{grid-row:1/3!important;width:46px!important;height:46px!important;border-radius:15px!important}
+.wrap.hk1>header .secico svg{width:24px!important;height:24px!important}
+.wrap.hk1>header h1{font-size:1.35rem!important;margin:0!important;align-self:end}
+.wrap.hk1>header .lead{grid-column:2!important;margin:0!important;font-size:.88rem!important;align-self:start}
+/* ohne Kopfkarte (Variante K2) */
+.wrap.hk2>header{display:none!important}
+.wrap.hk2 .subbar b{font-size:1.25rem}
+.wrap.hk2 .subbar b small{display:block;font:600 .78rem var(--body);color:#2c4a70}
+.wrap.hk2>.filters{margin-top:-30px;position:relative}
+/* Unterseiten: Variante A1 */
+.wrap:not(.home) .filters{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:8px;background:none!important;box-shadow:none!important;padding:0!important}
+.wrap:not(.home) .filters .row{position:static;display:block;min-width:0}
+.wrap:not(.home) .filters .row:has(>input),.wrap:not(.home) .filters .row:last-of-type:nth-of-type(odd){grid-column:1/-1}
 #view-events #f-t{display:none}
-#view-events .filters .row>b{position:absolute;margin:8px 0 0 14px;font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);pointer-events:none;z-index:1}
-#view-events .filters .row{position:relative}
-#view-events .filters{position:relative}
-#view-events .dd{display:block}
-#view-events .dd>summary{display:flex;width:100%;justify-content:space-between;border-radius:14px!important;padding:24px 14px 8px;min-height:58px;font-weight:700;font-size:.95rem;background:var(--surface);border:1px solid var(--line)}
-#view-events .dd>summary span,#view-events .dd>summary{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
-#view-events .dd>summary::after{flex:none;color:var(--sec);margin-left:6px}
-#view-events .dd.set>summary{border-color:var(--sec);background:color-mix(in srgb,var(--sec) 9%,var(--surface))}
-#view-events .filters .row:nth-child(even) .dd-panel{left:auto;right:0}
-#view-events .dd-panel{width:min(340px,calc(100vw - 32px))}
-#view-events .filters .resetbtn{display:none}
+.wrap:not(.home) .filters .row>b{position:absolute;margin:8px 0 0 14px;font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);pointer-events:none;z-index:1;min-width:0}
+.wrap:not(.home) .filters .row:has(>input){position:relative}
+.wrap:not(.home) .filters .row:has(>input)>b{display:none}
+.cntrow>p{color:var(--sec)!important;flex:1;min-width:0}.cntrow .resetbtn{white-space:nowrap}
+.wrap:not(.home) .filters .row>input{width:100%;margin:0;border-radius:14px;padding:16px 14px;min-height:58px;font:700 .95rem var(--body);background:var(--surface);border:1px solid var(--line);color:var(--ink)}
+.wrap:not(.home) .dd{display:block}
+.wrap:not(.home) .filters .dd>summary{display:flex;width:100%;justify-content:space-between;border-radius:14px!important;padding:24px 14px 8px;min-height:58px;font-weight:700;font-size:.95rem;background:var(--surface);border:1px solid var(--line);overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.wrap:not(.home) .filters .dd>summary::after{flex:none;color:var(--sec);margin-left:6px}
+.wrap:not(.home) .dd.set>summary{border-color:var(--sec)!important;background:color-mix(in srgb,var(--sec) 9%,var(--surface))!important}
+.wrap:not(.home) .filters .row:nth-of-type(even) .dd-panel{left:auto;right:0}
+.wrap:not(.home) .filters .dd-panel{width:min(340px,calc(100vw - 32px))}
+.wrap:not(.home) .filters .resetbtn{display:none}
+.wrap:not(.home):not(#view-spielplaetze) .near .nearbtn{display:none}
+.wrap:not(.home):not(#view-spielplaetze) .near:not(.on){display:none}
+.wrap:not(.home) .near .note{margin:0}
+.wrap:not(.home) .evc{display:flex;gap:12px;background:var(--surface);border-radius:18px;padding:12px;margin-bottom:10px;box-shadow:0 2px 10px rgba(13,35,64,.06);position:relative}
+.evc .em{width:54px;height:54px;flex:none;border-radius:16px;display:grid;place-items:center;font-size:1.7rem;background:color-mix(in srgb,var(--sec) 12%,var(--surface))}
+.evc .bd{min-width:0;flex:1}
+.evc.hk .bd,#view-events .evc .bd{padding-right:44px}
+.evc .bd>a,.evc .bd>.tt{display:block;font-weight:800;font-size:1rem;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.evc .bd>a:hover{text-decoration:underline}
+.evc .meta{color:var(--muted);font-size:.88rem;margin-top:2px;overflow-wrap:anywhere}
+.evc .desc{font-size:.9rem;margin-top:4px}
+.evc .tags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
+.evc .tag{font-size:.75rem;font-weight:700;border-radius:999px;padding:3px 9px;background:var(--soft);color:var(--ink)}
+.evc .lk{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.evc .lk a{font-size:.8rem;font-weight:800;padding:6px 11px;border-radius:10px;background:color-mix(in srgb,var(--sec) 10%,var(--surface));color:var(--sec);text-decoration:none}
+.evc .km{position:absolute;top:12px;right:12px;font-size:.75rem;font-weight:800;padding:3px 8px;border-radius:999px;background:color-mix(in srgb,var(--sec) 12%,var(--surface));color:var(--sec)}
+.wrap:not(.home) .gsrc{margin:-2px 2px 12px;font-size:.85rem;color:var(--muted)}.wrap:not(.home) .gsrc a{color:var(--sec);font-weight:700}
+.wrap:not(.home) .room ul{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.wrap:not(.home) .room li{background:var(--soft);border-radius:999px;padding:4px 11px;font-size:.88rem}
+.wrap:not(.home) .room .links a,.wrap:not(.home) .spg li a{font-size:.8rem;font-weight:800;padding:6px 11px;border-radius:10px;background:color-mix(in srgb,var(--sec) 10%,var(--surface));color:var(--sec)!important;text-decoration:none;justify-self:start}
+.wrap:not(.home) .spg li{background:var(--bg);border-radius:14px;padding:10px 12px}
 .cntrow{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:-6px}
-.cntrow #count{margin:0;font-weight:700;color:var(--sec)}
+.cntrow>p{margin:0!important;font-weight:700;color:var(--sec)}
 .cntrow .resetbtn{margin:0;border:0;background:none;padding:4px 0;color:var(--sec)}
 .dstrip{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;scrollbar-width:none;margin:0 -2px}
 .dstrip::-webkit-scrollbar{display:none}
@@ -291,13 +325,6 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .evc .tag.kids{background:#4a3a10;color:#ffe08a}}
 :root[data-theme="dark"] .evc .tag.kids{background:#4a3a10;color:#ffe08a}
 .dayh{margin:14px 2px 4px;font:800 1rem var(--display);color:var(--ink)}
-#view-events #list .evc{display:flex;gap:12px;background:var(--surface);border-radius:18px;padding:12px;margin-bottom:10px;box-shadow:0 2px 10px rgba(13,35,64,.06);position:relative}
-.evc .em{width:54px;height:54px;flex:none;border-radius:16px;display:grid;place-items:center;font-size:1.7rem}
-.evc .bd{min-width:0;flex:1;padding-right:30px}
-.evc .bd>a{display:block;font-weight:800;font-size:1rem;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
-.evc .bd>a:hover{text-decoration:underline}
-.evc .meta{color:var(--muted);font-size:.88rem;margin-top:2px}
-.evc .tags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
 .evc .tag{border-radius:999px;padding:3px 9px;background:var(--soft)}
 .evc .fav{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;background:none;font-size:1.3rem;color:#b9c8dc;cursor:pointer;border-radius:50%}
 .evc .fav[aria-pressed=true]{color:#e0245e}
@@ -407,6 +434,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <div class="row"><b>Gemeinde</b><details class="dd" id="ag-dd"><summary id="ag-sum">Alle Gemeinden</summary><div class="dd-panel" id="ag-panel"><input type="search" class="dd-search" id="ag-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="ag-all">Alle</button><button type="button" id="ag-none">Keine</button></div></div></details></div>
     <div class="row"><b>Thema</b><details class="dd" id="ak-dd"><summary id="ak-sum">Alle Themen</summary><div class="dd-panel" id="ak-panel"><div class="dd-actions"><button type="button" id="ak-all">Alle Themen</button></div></div></details></div>
     <div class="row"><b>Wetter</b><details class="dd" id="aw-dd"><summary id="aw-sum">Bei jedem Wetter</summary><div class="dd-panel" id="aw-panel"></div></details></div>
+    <div class="row"><b>Sortieren</b><details class="dd" id="as-dd"><summary id="as-sum">Nach Thema</summary><div class="dd-panel" id="as-panel"></div></details></div>
   </section>
   <div class="near"><button type="button" id="au-near" class="nearbtn">📍 Nach Entfernung sortieren</button><p class="note" id="au-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p></div>
   <p id="aucount" class="count-line"></p>
@@ -424,6 +452,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <div class="row"><b>Gemeinde</b><details class="dd" id="eg-dd"><summary id="eg-sum">Alle Gemeinden</summary><div class="dd-panel" id="eg-panel"><input type="search" class="dd-search" id="eg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="eg-all">Alle</button><button type="button" id="eg-none">Keine</button></div></div></details></div>
     <div class="row"><b>Merkmal</b><details class="dd" id="ef-dd"><summary id="ef-sum">Alle Merkmale</summary><div class="dd-panel" id="ef-panel"><div class="dd-actions"><button type="button" id="ef-all">Alle Merkmale</button></div></div></details></div>
     <div class="row"><b>Art</b><details class="dd" id="ea-dd"><summary id="ea-sum">Alle</summary><div class="dd-panel" id="ea-panel"></div></details></div>
+    <div class="row"><b>Sortieren</b><details class="dd" id="es-dd"><summary id="es-sum">Nach Gemeinde</summary><div class="dd-panel" id="es-panel"></div></details></div>
   </section>
   <div class="near"><button type="button" id="es-near" class="nearbtn">📍 Nach Entfernung sortieren</button><p class="note" id="es-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p></div>
   <p id="escount" class="count-line"></p>
@@ -435,7 +464,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
     <h1>Familienangebote der Gemeinde</h1>
-    <p class="lead">Was gibt es für Familien in deiner Gemeinde? Beratung, Spielgruppen, Kitas, Bibliothek, Ludothek, Bäder und Treffpunkte. Tippe auf eine Gemeinde.</p>
+    <p class="lead">Was gibt es für Familien in deiner Gemeinde? Beratung, Spielgruppen, Kitas, Bibliothek, Ludothek, Bäder und Treffpunkte. Wähle oben deine Gemeinde.</p>
   </header>
   <section class="filters" aria-label="Suche Familienangebote">
     <div class="row"><b>Gemeinde</b><details class="dd" id="fg-dd"><summary id="fg-sum">Alle Gemeinden</summary><div class="dd-panel" id="fg-panel"><input type="search" class="dd-search" id="fg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="fg-all">Alle</button><button type="button" id="fg-none">Keine</button></div></div></details></div>
@@ -450,12 +479,12 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
     <h1>Vereine für Kinder</h1>
-    <p class="lead">Sport, Musik, Pfadi, Familie und mehr, aus den Vereinslisten der Gemeinden. Tippe auf eine Gemeinde, um ihre Vereine zu sehen.</p>
+    <p class="lead">Sport, Musik, Pfadi, Familie und mehr, aus den Vereinslisten der Gemeinden. Wähle oben deine Gemeinde.</p>
   </header>
   <section class="filters" aria-label="Filter Vereine">
     <div class="row"><b>Gemeinde</b><details class="dd" id="vg-dd"><summary id="vg-sum">Alle Gemeinden</summary><div class="dd-panel" id="vg-panel"><input type="search" class="dd-search" id="vg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="vg-all">Alle</button><button type="button" id="vg-none">Keine</button></div></div></details></div>
     <div class="row"><b>Bereich</b><details class="dd" id="vk-dd"><summary id="vk-sum">Alle Bereiche</summary><div class="dd-panel" id="vk-panel"><div class="dd-actions"><button type="button" id="vk-all">Alle Bereiche</button></div></div></details></div>
-    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="vr-search" placeholder="Verein, z.B. Unihockey oder Judo" aria-label="Verein suchen"></div>
+    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="vr-search" placeholder="🔍 Verein suchen, z.B. Unihockey oder Judo" aria-label="Verein suchen"></div>
   </section>
   <p id="vrcount" class="count-line"></p>
   <main id="vereine"></main>
@@ -469,7 +498,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <p class="lead">Öffentliche Spielplätze, nach Gemeinden geordnet. Tippe auf eine Gemeinde, um ihre Spielplätze zu sehen.</p>
   </header>
   <section class="filters" aria-label="Suche Spielplätze">
-    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="sp-search" placeholder="Gemeinde oder Spielplatz" aria-label="Gemeinde oder Spielplatz suchen"></div>
+    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="sp-search" placeholder="🔍 Gemeinde oder Spielplatz suchen" aria-label="Gemeinde oder Spielplatz suchen"></div>
   </section>
   <div class="near"><button type="button" id="sp-near" class="nearbtn">📍 Spielplätze in meiner Nähe</button><p class="note" id="sp-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p><div id="sp-near-box"></div></div>
   <p id="spcount" class="count-line"></p>
@@ -549,6 +578,18 @@ const WD=["So","Mo","Di","Mi","Do","Fr","Sa"];
 const MON=["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
 const fmt=d=>d.getDate()+". "+MON[d.getMonth()];
 const node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
+const fmtKm=d=>d<1?Math.round(d*100)*10+" m":d.toFixed(1).replace(".",",")+" km";
+function mkCard(o){const ev=node("article","evc"),em=node("div","em",o.em||"📍");if(o.bg)em.style.background=o.bg;
+  const bd=node("div","bd");let t;if(o.href){t=node("a","",o.title);t.href=o.href;t.target="_blank";t.rel="noopener"}else t=node("div","tt",o.title);bd.append(t);
+  if(o.meta)bd.append(node("div","meta",o.meta));if(o.desc)bd.append(node("div","desc",o.desc));
+  if(o.tags&&o.tags.length){const tg=node("div","tags");o.tags.forEach(x=>tg.append(node("span","tag",x)));bd.append(tg)}
+  if(o.links&&o.links.length){const lk=node("div","lk");o.links.forEach(([tx,u])=>{const a=node("a","",tx);a.href=u;a.target="_blank";a.rel="noopener";lk.append(a)});bd.append(lk)}
+  ev.append(em,bd);if(o.km!=null){ev.classList.add("hk");ev.append(node("span","km",(o.ap?"ca. ":"")+fmtKm(o.km)))}return ev}
+const gmaps=(lat,lon)=>"https://www.google.com/maps/search/?api=1&query="+lat+","+lon,groute=(lat,lon)=>"https://www.google.com/maps/dir/?api=1&destination="+lat+","+lon;
+function sortDD(pid,did,opts,get,set){const pnl=document.getElementById(pid);
+  opts.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name=pid;i.dataset.v=v;
+    i.addEventListener("change",()=>{set(v);document.getElementById(did).open=false});l.append(i,node("span","",t));pnl.append(l)});
+  return ()=>{const v=get();pnl.querySelectorAll("input").forEach(i=>i.checked=i.dataset.v===v);const o=opts.find(x=>x[0]===v);document.getElementById(did).querySelector("summary").textContent=o?o[1]:""}}
 function range(today){
   if(state.t.startsWith("d:"))return[state.t.slice(2),state.t.slice(2)];
   if(state.t==="today")return[iso(today),iso(today)];
@@ -644,7 +685,6 @@ async function start(){
   SITES=data.gemeinden;EVENTS=data.events;
   document.getElementById("tile-text").textContent=EVENTS.length+" Anlässe aus "+Object.keys(SITES).length+" Gemeinden";
   const names=Object.values(SITES);
-  document.getElementById("lead").textContent="Was läuft für Kinder in deiner Region? Anlässe aus "+names.length+" Gemeinde-Agenden, Stand "+fmt(pd(data.stand))+" "+data.stand.slice(0,4)+".";
   const down=names.filter(s=>!s.ok).map(s=>s.name);
   if(down.length)document.getElementById("status").textContent=" Beim letzten Sammeln nicht erreichbar: "+down.join(", ")+". Dort zeigen wir die älteren Daten.";
   try{const s=JSON.parse(localStorage.getItem("familienagenda2")||"{}");(s.g||[]).filter(c=>SITES[c]).forEach(c=>state.g.add(c));(s.a||[]).filter(i=>AGES[i]).forEach(i=>state.a.add(i));}catch(e){}
@@ -867,19 +907,17 @@ const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","P
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("vg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
     VGROUPS.forEach(([k])=>document.getElementById("vk-"+k).checked=!!selK&&selK.has(k));
     const ks=selK?VGROUPS.filter(([k])=>selK.has(k)).map(([,t])=>t):[];document.getElementById("vk-sum").textContent=!selK?"Alle Bereiche":ks.length===1?ks[0]:ks.length+" Bereiche"}
-  function render(){sync();const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nV=0;const byB={};
-    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c];
-      let L=V.gemeinden[c].filter(v=>!selK||selK.has(v.k));if(q)L=L.filter(v=>(v.n+" "+GL[v.k]).toLowerCase().includes(q));
-      if(!L.length)return;(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||[]).push([g.name,L])});
-    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
-      byB[b].sort((x,y)=>x[0].localeCompare(y[0],"de")).forEach(([g,L])=>{nG++;nV+=L.length;const d=node("details","spg vr"),su=document.createElement("summary");
-        su.append(node("span","",g),node("span","n",L.length===1?"1 Verein":L.length+" Vereine"));d.append(su);if(q||selK||(selG&&selG.size<=3))d.open=true;
-        let done=false;const fill=()=>{if(done)return;done=true;const ul=document.createElement("ul");
-          L.forEach(v=>{const li=document.createElement("li");li.append(node("span","t",v.n),node("span","k",GL[v.k]+(v.o?" · "+v.o:"")));
-            const ln=node("div","vl");if(v.w){const w=node("a","","Website des Vereins");w.href=v.w;w.target="_blank";w.rel="noopener";ln.append(w)}
-            const a=node("a","",v.w?"Eintrag bei der Gemeinde":"Mehr auf der Website der Gemeinde");a.href=v.u;a.target="_blank";a.rel="noopener";ln.append(a);li.append(ln);ul.append(li)});d.append(ul)};
-        if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})});
-    document.getElementById("vrcount").textContent=(nV===1?"1 Verein":nV+" Vereine")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
+  const VIC=[[/judo|karate|taekwon|kung|kampf|box|ringer|aikido|ju-?jitsu|kickbox|wing ?tsun|selbstverteid/i,"🥋"],[/fussball|\bfc\b|football|soccer/i,"⚽"],[/unihockey|landhockey|hockey/i,"🏑"],[/schwimm|wasserball|tauch|lebensrett|slrg/i,"🏊"],[/tennis/i,"🎾"],[/volley/i,"🏐"],[/basket/i,"🏀"],[/handball/i,"🤾"],[/ski|snowboard/i,"⛷️"],[/reit|pferd|pony/i,"🐴"],[/velo|bike|radfahr|radsport/i,"🚴"],[/leichtath|lauf|\blv\b|\bol\b|orientier/i,"🏃"],[/turn|gym|getu|riege|tsv|stv|satus/i,"🤸"],[/tanz|ballett|dance/i,"💃"],[/schach/i,"♟️"],[/pfadi|cevi|jubla|jungwacht|blauring|jugendgruppe/i,"🏕️"],[/musik|chor|sing|harmonie|tambour|band|orchester|jodel/i,"🎵"],[/zirkus|circus|theater/i,"🎪"],[/eltern|famili|mütter|väter|spielgruppe|ludothek/i,"👨‍👩‍👧"],[/natur|vogel|tier|garten|imker/i,"🌿"],[/schiess|schütz|armbrust|bogen/i,"🎯"],[/segel|ruder|kanu|kajak|wassersport/i,"⛵"],[/curling|eislauf|skat|eishockey/i,"⛸️"],[/golf/i,"⛳"],[/badminton/i,"🏸"],[/tischtennis|pingpong/i,"🏓"]];
+  const vIcon=v=>{for(const[re,ic]of VIC)if(re.test(v.n))return ic;const g=VGROUPS.find(x=>x[0]===v.k);return g?g[2]:"🤝"};
+  function render(){sync();const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nV=0,shown=0;const rows=[],MAX=300;
+    codes.forEach(c=>{if(selG&&!selG.has(c))return;let L=V.gemeinden[c].filter(v=>!selK||selK.has(v.k));if(q)L=L.filter(v=>(v.n+" "+GL[v.k]).toLowerCase().includes(q));
+      if(L.length)rows.push([GM[c].name,L])});
+    rows.sort((x,y)=>x[0].localeCompare(y[0],"de"));
+    rows.forEach(([g,L])=>{nG++;nV+=L.length;if(shown>=MAX)return;if(rows.length>1)box.append(node("h2","bez",g+" ("+L.length+")"));
+      L.slice().sort((a,b)=>a.n.localeCompare(b.n,"de")).forEach(v=>{if(shown>=MAX)return;shown++;const links=[];if(v.w)links.push(["Website des Vereins",v.w]);links.push([v.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",v.u]);
+        box.append(mkCard({em:vIcon(v),title:v.n,meta:[GL[v.k].replace(/^\S+\s/,""),v.o].filter(Boolean).join(" · "),links}))})});
+    document.getElementById("vrcount").textContent=(nV===1?"1 Verein":nV+" Vereine")+(nG===1?" in "+rows[0][0]:" in "+nG+" Gemeinden");
+    if(nV>shown)box.append(node("p","note","Es werden die ersten "+MAX+" Vereine gezeigt. Wähle oben eine Gemeinde oder einen Bereich."));
     if(!nG)box.append(node("p","empty",selG&&!selG.size?"Keine Gemeinde gewählt.":"Nichts gefunden."));
     const miss=Object.keys(GM).filter(c=>!V.gemeinden[c]||!V.gemeinden[c].length).map(c=>GM[c].name).sort((a,b)=>a.localeCompare(b,"de"));
     if(miss.length&&!q&&!selK&&!selG)box.append(node("p","note","Noch ohne Vereinsliste: "+miss.join(", ")+". Diese Gemeinden führen ihre Vereine anders auf, sie folgen später."))}
@@ -929,26 +967,21 @@ const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","�
     KS.forEach(([k])=>document.getElementById("fk-"+k).checked=!!selK&&selK.has(k));
     const ks=selK?KS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];
     document.getElementById("fk-sum").textContent=!selK?"Alle Angebote":ks.length===1?ks[0]:ks.length+" Angebote"}
-  function render(){sync();box.replaceChildren();const byB={};let nG=0,nA=0;
+  const FIC=Object.fromEntries(FAK.map(([k,t])=>[k,t.split(" ")[0]]));
+  function render(){sync();box.replaceChildren();const rows=[];let nG=0,nA=0,shown=0;const MAX=250;
     codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c],L=items(c).filter(x=>kOn(x.k)),bera=kOn("beratung");
-      if(selK&&!L.length&&!bera)return;(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||[]).push([c,g,L,bera])});
-    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
-      byB[b].sort((x,y)=>x[1].name.localeCompare(y[1].name,"de")).forEach(([c,g,L,bera])=>{nG++;nA+=L.length+(bera?1:0);
-        const n=L.length+(bera?1:0);const d=node("details","spg fa"),su=document.createElement("summary");su.append(node("span","",g.name),node("span","n",n===1?"1 Angebot":n+" Angebote"));d.append(su);
-        if(selK||(selG&&selG.size<=3))d.open=true;
-        let done=false;const fill=()=>{if(done)return;done=true;
-          if(bera){const k=KJZ[g.bezirk]||KJZ.Hinwil;d.append(node("h4","","👶 Mütter- und Väterberatung"));const ul=document.createElement("ul"),li=document.createElement("li");
-            li.append(node("span","t","Beratung zu Stillen, Ernährung, Schlaf und Entwicklung, kostenlos für Eltern mit Kindern bis 5 Jahre"));const vl=node("div","vl");vl.append(lk(k[0],k[1]));li.append(vl);ul.append(li);d.append(ul)}
-          FAK.forEach(([kk,title])=>{const S=L.filter(x=>x.k===kk);if(!S.length)return;d.append(node("h4","",title));const ul=document.createElement("ul");
-            S.forEach(x=>{const li=document.createElement("li");li.append(node("span","t",x.n));const m=[x.a,x.oh?"🕒 "+ohDe(x.oh):""].filter(Boolean).join(" · ");if(m)li.append(node("span","m",m));
-              const vl=node("div","vl");if(x.w)vl.append(lk("Website",x.w));if(x.u)vl.append(lk(x.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",x.u));
-              if(x.lat)vl.append(lk("Karte","https://www.google.com/maps/search/?api=1&query="+x.lat+","+x.lon));li.append(vl);ul.append(li)});d.append(ul)});
-          if(!L.length&&!bera)d.append(node("p","note","Zu dieser Gemeinde habe ich noch keine Einträge gefunden."));
-          const src=node("p","src");const parts=[];if(BEZPDF[g.bezirk])parts.push(lk("Übersicht Familienangebote Bezirk "+g.bezirk+" (Kanton, PDF)",BEZPDF[g.bezirk]));
-          (EXTRA[c]||[]).forEach(([t,u])=>parts.push(lk(t,u)));parts.push(lk("Website der Gemeinde","https://"+g.domain));
-          parts.forEach((a,i)=>{if(i)src.append(" · ");src.append(a)});d.append(src)};
-        if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})});
-    document.getElementById("facount").textContent=(nA===1?"1 Angebot":nA+" Angebote")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
+      if(selK&&!L.length&&!bera)return;rows.push([c,g,L,bera])});
+    rows.sort((x,y)=>x[1].name.localeCompare(y[1].name,"de"));
+    rows.forEach(([c,g,L,bera])=>{nG++;nA+=L.length+(bera?1:0);if(shown>=MAX)return;
+      if(rows.length>1)box.append(node("h2","bez",g.name+" ("+(L.length+(bera?1:0))+")"));
+      if(bera){const k=KJZ[g.bezirk]||KJZ.Hinwil;shown++;box.append(mkCard({em:"👶",title:"Mütter- und Väterberatung",meta:"Kostenlos für Eltern mit Kindern bis 5 Jahre: Stillen, Ernährung, Schlaf, Entwicklung",links:[[k[0],k[1]]]}))}
+      FAK.forEach(([kk,title])=>L.filter(x=>x.k===kk).forEach(x=>{if(shown>=MAX)return;shown++;const links=[];if(x.w)links.push(["Website",x.w]);if(x.u)links.push([x.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",x.u]);
+        if(x.lat)links.push(["Karte",gmaps(x.lat,x.lon)]);box.append(mkCard({em:FIC[kk],title:x.n,meta:[title.replace(/^\S+\s/,""),x.a].filter(Boolean).join(" · "),tags:x.oh?["🕒 "+ohDe(x.oh)]:[],links}))}));
+      if(!L.length&&!bera)box.append(node("p","note","Zu dieser Gemeinde habe ich noch keine Einträge gefunden."));
+      if(rows.length<=3){const src=node("p","gsrc");const parts=[];if(BEZPDF[g.bezirk])parts.push(lk("Übersicht Familienangebote Bezirk "+g.bezirk+" (Kanton, PDF)",BEZPDF[g.bezirk]));
+        (EXTRA[c]||[]).forEach(([t,u])=>parts.push(lk(t,u)));parts.push(lk("Website der Gemeinde "+g.name,"https://"+g.domain));parts.forEach((a,i)=>{if(i)src.append(" · ");src.append(a)});box.append(src)}});
+    document.getElementById("facount").textContent=(nA===1?"1 Angebot":nA+" Angebote")+(nG===1?" in "+rows[0][1].name:" in "+nG+" Gemeinden");
+    if(nA>shown&&shown>=MAX)box.append(node("p","note","Es werden die ersten "+MAX+" Angebote gezeigt. Wähle oben eine Gemeinde oder ein Angebot."));
     if(!nG)box.append(node("p","empty",selG&&!selG.size?"Keine Gemeinde gewählt.":"Für diese Auswahl gibt es keine Angebote."))}
   render();
 })();
@@ -977,12 +1010,13 @@ const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["er
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<AKS.length?s:null;render()});l.append(i,node("span","",t+" ("+A.ziele.filter(z=>z.k===k).length+")"));kp.append(l)});
   document.getElementById("ak-all").addEventListener("click",()=>{selK=null;render()});
   GO.ausflug=c=>{selG=new Set([c]);selK=null;render()};
-  RESET.ausflug=()=>{selG=null;selK=null;rain=false;me=null;document.getElementById("au-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
+  RESET.ausflug=()=>{selG=null;selK=null;rain=false;me=null;document.querySelector("#view-ausflug .near").classList.remove("on");document.getElementById("au-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
   const wp=document.getElementById("aw-panel");
   [["all","Bei jedem Wetter"],["rain","Auch bei Regen (drinnen)"]].forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="aw";i.id="aw-"+v;
     i.addEventListener("change",()=>{rain=v==="rain";render();document.getElementById("aw-dd").open=false});l.append(i,node("span","",t));wp.append(l)});
   const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
-  document.getElementById("au-near").addEventListener("click",()=>{const msg=document.getElementById("au-near-msg");
+  const syncS=sortDD("as-panel","as-dd",[["thema","Nach Thema"],["near","Nächste zuerst"]],()=>me?"near":"thema",v=>{if(v==="near")document.getElementById("au-near").click();else{me=null;document.querySelector("#view-ausflug .near").classList.remove("on");render()}});
+  document.getElementById("au-near").addEventListener("click",()=>{const msg=document.getElementById("au-near-msg");msg.parentNode.classList.add("on");
     if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht …";
     navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
       e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
@@ -990,18 +1024,16 @@ const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["er
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("ag-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
     AKS.forEach(([k])=>document.getElementById("ak-"+k).checked=!!selK&&selK.has(k));
     const ks=selK?AKS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ak-sum").textContent=!selK?"Alle Themen":ks.length===1?ks[0]:ks.length+" Themen";
-    document.getElementById("aw-all").checked=!rain;document.getElementById("aw-rain").checked=rain;document.getElementById("aw-sum").textContent=rain?"Auch bei Regen":"Bei jedem Wetter"}
-  function li(z){const l=document.createElement("li");const t=node("span","t",z.n);if(z._d!=null)t.append(node("span","dist"," · "+(z._d<1?Math.round(z._d*100)*10+" m":z._d.toFixed(1).replace(".",",")+" km")));l.append(t);
-    l.append(node("span","m",KL[z.k]+" · "+((GM[z.g]||{}).name||"")+(z.in?" · ☔ auch bei Regen":"")+(z.fee===0?" · gratis":"")));
-    if(z.d)l.append(node("span","d",z.d));if(z.oh)l.append(node("span","m","🕒 "+ohDe(z.oh)));
-    const vl=node("div","vl");if(z.w)vl.append(lk("Website",z.w));if(z.wp)vl.append(lk("Wikipedia",z.wp));
-    vl.append(lk("Karte","https://www.google.com/maps/search/?api=1&query="+z.lat+","+z.lon),lk("Route","https://www.google.com/maps/dir/?api=1&destination="+z.lat+","+z.lon));l.append(vl);return l}
+    document.getElementById("aw-all").checked=!rain;document.getElementById("aw-rain").checked=rain;document.getElementById("aw-sum").textContent=rain?"Auch bei Regen":"Bei jedem Wetter";syncS()}
+  function li(z){const tags=[];if(z.fee===0)tags.push("gratis");if(z.oh)tags.push("🕒 "+ohDe(z.oh));if(z.in)tags.push("🏠 Auch bei Regen");
+    const links=[];if(z.w)links.push(["Website",z.w]);if(z.wp)links.push(["Wikipedia",z.wp]);links.push(["Karte",gmaps(z.lat,z.lon)],["Route",groute(z.lat,z.lon)]);
+    return mkCard({em:(KL[z.k]||"📍").split(" ")[0],title:z.n,meta:[(GM[z.g]||{}).name,z.d||(KL[z.k]||"").replace(/^\S+\s/,"")].filter(Boolean).join(" · "),tags,links,km:z._d})}
   function render(){sync();box.replaceChildren();
     let L=A.ziele.filter(z=>(!selG||selG.has(z.g))&&(!selK||selK.has(z.k))&&(!rain||z.in)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
-    document.getElementById("aucount").textContent=L.length===1?"1 Ausflugsziel":L.length+" Ausflugsziele";
+    document.getElementById("aucount").textContent=(L.length===1?"1 Ziel":L.length+" Ziele")+" gefunden";
     if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es keine Ausflugsziele."));return}
-    if(me){L.sort((a,b)=>a._d-b._d);const ul=node("ul","au");L.slice(0,60).forEach(z=>ul.append(li(z)));box.append(ul);return}
-    AKS.forEach(([k,t])=>{const S=L.filter(z=>z.k===k);if(!S.length)return;box.append(node("h2","bez",t+" ("+S.length+")"));const ul=node("ul","au");S.forEach(z=>ul.append(li(z)));box.append(ul)})}
+    if(me){L.sort((a,b)=>a._d-b._d);L.slice(0,80).forEach(z=>box.append(li(z)));return}
+    AKS.forEach(([k,t])=>{const S=L.filter(z=>z.k===k);if(!S.length)return;box.append(node("h2","bez",t+" ("+S.length+")"));S.forEach(z=>box.append(li(z)))})}
   render();
 })();
 const SEASONS=[
@@ -1062,7 +1094,7 @@ const SEASONS=[
     const names=(selG?[...selG]:codes).map(GN);document.getElementById("sg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
     OP.forEach(([v,t])=>{document.getElementById("so-"+v).checked=ord===v;if(ord===v)document.getElementById("so-sum").textContent=t});
     const L=ALL.filter(x=>x.show<=to&&(!selK||x.k===selK)&&(!selG||x.e.gemeinden.some(c=>selG.has(c))));
-    document.getElementById("sacount").textContent=L.length===1?"1 Highlight":L.length+" Highlights";
+    document.getElementById("sacount").textContent=(L.length===1?"1 Highlight":L.length+" Highlights")+" gefunden";
     if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es gerade keine Highlights. Wähle einen längeren Zeitraum."));return}
     const sec=[];
     if(ord==="thema")order.forEach(k=>sec.push([TL[k],L.filter(x=>x.k===k)]));
@@ -1071,13 +1103,12 @@ const SEASONS=[
     else{const by={};L.forEach(x=>{const d=pd(x.show),k=MON[d.getMonth()]+" "+d.getFullYear();(by[x.show.slice(0,7)]=by[x.show.slice(0,7)]||[k,[]])[1].push(x)});
       Object.keys(by).sort().forEach(k=>sec.push(by[k]))}
     sec.forEach(([title,S0])=>{const S=S0.slice().sort((a,b)=>a.show.localeCompare(b.show));if(!S.length)return;
-      box.append(node("h2","bez",title+" ("+S.length+")"));const ul=node("ul","sa");
-      S.forEach(({e,show,k})=>{const li=document.createElement("li"),d=pd(show),dt=node("div","dt");dt.append(node("strong","",d.getDate()),node("span","",WD[d.getDay()]+" "+MON[d.getMonth()].slice(0,3)));
-        const body=node("div"),a=node("a","t",e.name);a.href=e.url||("https://"+(D.gemeinden[e.gemeinden[0]]||{}).domain+"/_rte/anlass/"+e.id);a.target="_blank";a.rel="noopener";body.append(a);
-        const bits=[e.gemeinden.map(c=>(D.gemeinden[c]||{}).name).filter(Boolean).join(", ")];if(e.time)bits.push(e.time+" Uhr");if(e.ort)bits.push(e.ort);if(e.age)bits.push(e.age.label);
-        const pl=place(e);if(pl)bits.push(pl==="in"?"Drinnen":"Draussen");if(ord!=="thema")bits.unshift(TL[k].split(" ")[0]);body.append(node("div","m",bits.join(" · ")));
-        const w=wxFor(e,show);if(w){const[ic,tx]=WX(w.c);body.append(node("div","m",ic+" "+tx+", "+w.tn+"° bis "+w.tx+"°"))}
-        li.append(dt,body);ul.append(li)});box.append(ul)})}
+      box.append(node("h2","bez",title+" ("+S.length+")"));
+      S.forEach(({e,show,k})=>{const d=pd(show);const bits=[WD[d.getDay()]+" "+d.getDate()+". "+MON[d.getMonth()].slice(0,3)];
+        if(e.time)bits.push(e.time+" Uhr");bits.push([e.ort,e.gemeinden.map(c=>(D.gemeinden[c]||{}).name).filter(Boolean).join(", ")].filter(Boolean).join(", "));
+        const tags=[e.age?e.age.label:"Alter offen"];const pl=place(e);if(pl)tags.push(pl==="in"?"🏠 Drinnen":"🌳 Draussen");
+        const w=wxFor(e,show);if(w){const[ic]=WX(w.c);tags.push(ic+" "+w.tx+"°")}
+        box.append(mkCard({em:/samichlaus|nikolaus/i.test(e.name)?"🎅":TL[k].split(" ")[0],title:e.name,href:e.url||("https://"+(D.gemeinden[e.gemeinden[0]]||{}).domain+"/_rte/anlass/"+e.id),meta:bits.join(" · "),tags}))})})}
   render();
 })();
 (function zhDesign(){
@@ -1102,8 +1133,17 @@ const SEASONS=[
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
-(function(){const rb=document.querySelector("#view-events .filters .resetbtn"),cr=document.querySelector("#view-events .cntrow");
-  if(rb&&cr){const b=rb.cloneNode(true);b.textContent="↺ Zurücksetzen";b.addEventListener("click",()=>rb.click());cr.append(b)}})();
+(function a1(){const EMO={Gemeinde:"📍",Alter:"🧒",Art:"🏷️",Thema:"🏷️",Wetter:"☁️",Bereich:"🏷️",Angebot:"🏷️",Merkmal:"✨",Sortieren:"↕️",Wann:"📅","Ordnen nach":"↕️",Suche:"🔍"};
+  document.querySelectorAll(".wrap:not(.home)").forEach(w=>{
+    w.querySelectorAll(".filters .row>b").forEach(b=>{const e=EMO[b.textContent.trim()];if(e)b.textContent=e+" "+b.textContent.trim()});
+    const rb=w.querySelector(".filters .resetbtn"),c=w.querySelector(".count-line,#count");if(rb&&c){let cr=c.closest(".cntrow");if(!cr){cr=node("div","cntrow");c.before(cr);cr.append(c)}
+      const b=rb.cloneNode(true);b.textContent="↺ Zurücksetzen";b.addEventListener("click",()=>rb.click());cr.append(b)}
+    if(w.id==="view-events")return;
+    w.querySelectorAll(".filters details.dd").forEach(d=>{const su=d.querySelector("summary"),def=su.textContent;const up=()=>d.classList.toggle("set",su.textContent!==def);
+      new MutationObserver(up).observe(su,{childList:true,characterData:true,subtree:true});up()})});
+  document.querySelectorAll(".wrap:not(.home):not(#view-events) .filters").forEach(fs=>{const dds=[...fs.querySelectorAll("details.dd")];
+    dds.forEach(d=>d.addEventListener("toggle",()=>{if(d.open)dds.forEach(x=>{if(x!==d)x.open=false})}))});
+  document.addEventListener("click",ev=>document.querySelectorAll(".wrap:not(.home):not(#view-events) details.dd[open]").forEach(d=>{if(!d.contains(ev.target))d.open=false}));})();
 const EFS=[["geprueft","✅ Ausdrückliches Kinderangebot (geprüft)"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"]];
 const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_cream","Glacé"],["biergarten","Gartenwirtschaften"]];
 (function setupEssen(){
@@ -1141,36 +1181,31 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   EAS.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="ea";i.id="ea-"+v;
     i.addEventListener("change",()=>{art=v;render();document.getElementById("ea-dd").open=false});l.append(i,node("span","",t));ap.append(l)});
   const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
-  document.getElementById("es-near").addEventListener("click",()=>{const msg=document.getElementById("es-near-msg");
+  const syncS=sortDD("es-panel","es-dd",[["gemeinde","Nach Gemeinde"],["near","Nächste zuerst"]],()=>me?"near":"gemeinde",v=>{if(v==="near")document.getElementById("es-near").click();else{me=null;document.querySelector("#view-essen .near").classList.remove("on");render()}});
+  document.getElementById("es-near").addEventListener("click",()=>{const msg=document.getElementById("es-near-msg");msg.parentNode.classList.add("on");
     if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht …";
     navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
       e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
   GO.essen=c=>{selG=new Set([c]);selF=null;render()};
-  RESET.essen=()=>{selG=null;selF=null;art="all";me=null;document.getElementById("es-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
+  RESET.essen=()=>{selG=null;selF=null;art="all";me=null;document.querySelector("#view-essen .near").classList.remove("on");document.getElementById("es-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
   function sync(){codes.forEach(c=>{const i=document.getElementById("eg-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("eg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
     EFS.forEach(([k])=>document.getElementById("ef-"+k).checked=!!selF&&selF.has(k));
     const fs=selF?EFS.filter(([k])=>selF.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ef-sum").textContent=!selF?"Alle Merkmale":fs.length===1?fs[0]:fs.length+" Merkmale";
-    EAS.forEach(([v,t])=>{document.getElementById("ea-"+v).checked=art===v;if(art===v)document.getElementById("ea-sum").textContent=t})}
-  function li(z){const l=document.createElement("li");const t=node("span","t",z.n);if(z._d!=null)t.append(node("span","dist"," · "+(z.ap?"ca. ":"")+(z._d<1?Math.round(z._d*100)*10+" m":z._d.toFixed(1).replace(".",",")+" km")));l.append(t);
-    l.append(node("span","m",[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · ")));
-    if(z.t)l.append(node("span","d","✅ "+z.t));
-    const ch=node("div","chips");z.f.filter(k=>k!=="geprueft").forEach(k=>ch.append(node("span","",k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":k==="spielplatz"&&z.ok?"🛝 Spielplatz":FL[k])));l.append(ch);
-    if(z.oh)l.append(node("span","m","🕒 "+ohDe(z.oh)));
-    const vl=node("div","vl");if(z.w)vl.append(lk("Website",z.w));if(z.q)vl.append(lk("Quelle",z.q));
-    const gq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));
-    vl.append(z.ap?lk("Karte","https://www.google.com/maps/search/?api=1&query="+gq):lk("Karte","https://www.google.com/maps/search/?api=1&query="+z.lat+","+z.lon),
-      z.ap?lk("Route","https://www.google.com/maps/dir/?api=1&destination="+gq):lk("Route","https://www.google.com/maps/dir/?api=1&destination="+z.lat+","+z.lon));l.append(vl);return l}
+    EAS.forEach(([v,t])=>{document.getElementById("ea-"+v).checked=art===v;if(art===v)document.getElementById("ea-sum").textContent=t});syncS()}
+  const AIC={restaurant:"🍽️",cafe:"☕",ice_cream:"🍦",biergarten:"🍺"};
+  function li(z){const tags=z.f.filter(k=>k!=="geprueft").map(k=>k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":k==="spielplatz"?"🛝 Spielplatz":FL[k]);if(z.oh)tags.push("🕒 "+ohDe(z.oh));
+    const links=[];if(z.w)links.push(["Website",z.w]);if(z.q)links.push(["Quelle",z.q]);const gq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));
+    links.push(["Karte",z.ap?"https://www.google.com/maps/search/?api=1&query="+gq:gmaps(z.lat,z.lon)],["Route",z.ap?"https://www.google.com/maps/dir/?api=1&destination="+gq:groute(z.lat,z.lon)]);
+    return mkCard({em:AIC[z.a]||"🍽️",title:z.n,meta:[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d,ap:z.ap})}
   function render(){sync();box.replaceChildren();
     let L=E.orte.filter(z=>(!selG||selG.has(z.g))&&(!selF||[...selF].every(k=>z.f.includes(k)))&&(art==="all"||z.a===art)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
-    document.getElementById("escount").textContent=L.length===1?"1 Ort":L.length+" Orte";
+    document.getElementById("escount").textContent=(L.length===1?"1 Ort":L.length+" Orte")+" gefunden";
     if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es keine Einträge."));return}
-    if(me){L.sort((a,b)=>a._d-b._d);const ul=node("ul","au");L.slice(0,60).forEach(z=>ul.append(li(z)));box.append(ul);return}
-    const byB={};L.forEach(z=>{const g=GM[z.g]||{};(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||{});(byB[g.bezirk||"Weitere"][z.g]=byB[g.bezirk||"Weitere"][z.g]||[]).push(z)});
-    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
-      Object.keys(byB[b]).sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de")).forEach(c=>{const S=byB[b][c];const d=node("details","spg"),su=document.createElement("summary");
-        su.append(node("span","",GM[c].name),node("span","n",S.length===1?"1 Ort":S.length+" Orte"));d.append(su);if(selF||art!=="all"||(selG&&selG.size<=3))d.open=true;
-        let done=false;const fill=()=>{if(done)return;done=true;const ul=node("ul","au");S.forEach(z=>ul.append(li(z)));d.append(ul)};if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})})}
+    if(me){L.sort((a,b)=>a._d-b._d);L.slice(0,80).forEach(z=>box.append(li(z)));return}
+    const by={};L.forEach(z=>(by[z.g]=by[z.g]||[]).push(z));const gs=Object.keys(by).sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de"));let shown=0;
+    gs.forEach(c=>{if(shown>=300)return;if(gs.length>1)box.append(node("h2","bez",GM[c].name+" ("+by[c].length+")"));by[c].forEach(z=>{if(shown++<300)box.append(li(z))})});
+    if(L.length>300)box.append(node("p","note","Es werden die ersten 300 Orte gezeigt. Wähle oben eine Gemeinde."))}
   render();
 })();
 (function shortTiles(){const S={"tile-essen":t=>t.replace(/ Orte mit.*/," kinderfreundliche Orte"),"tile-vereine":t=>t.replace(/ Vereine für Kinder.*/," Vereine für Kinder"),"tile-ausflug":t=>t.replace(/ Ziele:.*/," Ziele zum Entdecken"),
