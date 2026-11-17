@@ -22,6 +22,13 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 7
   },
+  "maschwanden": {
+   "name": "Maschwanden",
+   "bezirk": "Affoltern",
+   "domain": "www.maschwanden.ch",
+   "ok": true,
+   "count": 4
+  },
   "rifferswil": {
    "name": "Rifferswil",
    "bezirk": "Affoltern",
@@ -99,19 +106,19 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 0
   },
-  "truellikon": {
-   "name": "Trüllikon",
-   "bezirk": "Andelfingen",
-   "domain": "www.truellikon.ch",
-   "ok": true,
-   "count": 4
-  },
   "truttikon": {
    "name": "Truttikon",
    "bezirk": "Andelfingen",
    "domain": "www.truttikon.ch",
    "ok": true,
    "count": 0
+  },
+  "truellikon": {
+   "name": "Trüllikon",
+   "bezirk": "Andelfingen",
+   "domain": "www.truellikon.ch",
+   "ok": true,
+   "count": 4
   },
   "volken": {
    "name": "Volken",
@@ -197,17 +204,17 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 4
   },
-  "daellikon": {
-   "name": "Dällikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.daellikon.ch",
-   "ok": true,
-   "count": 2
-  },
   "dielsdorf": {
    "name": "Dielsdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.dielsdorf.ch",
+   "ok": true,
+   "count": 2
+  },
+  "daellikon": {
+   "name": "Dällikon",
+   "bezirk": "Dielsdorf",
+   "domain": "www.daellikon.ch",
    "ok": true,
    "count": 2
   },
@@ -330,6 +337,13 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 2
   },
+  "aeugst": {
+   "name": "Aeugst am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.aeugst-albis.ch",
+   "ok": true,
+   "count": 12
+  },
   "hedingen": {
    "name": "Hedingen",
    "bezirk": "Affoltern",
@@ -364,6 +378,13 @@ window.FAMILIENAGENDA = {
    "domain": "www.stallikon.ch",
    "ok": true,
    "count": 32
+  },
+  "dorf": {
+   "name": "Dorf",
+   "bezirk": "Andelfingen",
+   "domain": "www.dorf.ch",
+   "ok": true,
+   "count": 0
   },
   "feuerthalen": {
    "name": "Feuerthalen",
@@ -414,10 +435,24 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 0
   },
+  "glattfelden": {
+   "name": "Glattfelden",
+   "bezirk": "Bülach",
+   "domain": "www.glattfelden.ch",
+   "ok": true,
+   "count": 0
+  },
   "hoeri": {
    "name": "Höri",
    "bezirk": "Bülach",
    "domain": "www.hoeri.ch",
+   "ok": true,
+   "count": 0
+  },
+  "nuerensdorf": {
+   "name": "Nürensdorf",
+   "bezirk": "Bülach",
+   "domain": "www.nuerensdorf.ch",
    "ok": true,
    "count": 0
   },
@@ -455,6 +490,13 @@ window.FAMILIENAGENDA = {
    "domain": "www.niederweningen.ch",
    "ok": true,
    "count": 5
+  },
+  "oberglatt": {
+   "name": "Oberglatt",
+   "bezirk": "Dielsdorf",
+   "domain": "www.oberglatt.ch",
+   "ok": true,
+   "count": 0
   },
   "otelfingen": {
    "name": "Otelfingen",
@@ -596,19 +638,19 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 6
   },
-  "baeretswil": {
-   "name": "Bäretswil",
-   "bezirk": "Hinwil",
-   "domain": "www.baeretswil.ch",
-   "ok": true,
-   "count": 6
-  },
   "bb": {
    "name": "Bubikon",
    "bezirk": "Hinwil",
    "domain": "www.bubikon.ch",
    "ok": true,
    "count": 36
+  },
+  "baeretswil": {
+   "name": "Bäretswil",
+   "bezirk": "Hinwil",
+   "domain": "www.baeretswil.ch",
+   "ok": true,
+   "count": 6
   },
   "du": {
    "name": "Dürnten",
@@ -694,19 +736,19 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 5
   },
-  "a": {
-   "name": "Männedorf",
-   "bezirk": "Meilen",
-   "domain": "www.maennedorf.ch",
-   "ok": true,
-   "count": 10
-  },
   "i": {
    "name": "Meilen",
    "bezirk": "Meilen",
    "domain": "www.meilen.ch",
    "ok": true,
    "count": 17
+  },
+  "a": {
+   "name": "Männedorf",
+   "bezirk": "Meilen",
+   "domain": "www.maennedorf.ch",
+   "ok": true,
+   "count": 10
   },
   "t": {
    "name": "Uetikon am See",
@@ -764,6 +806,13 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 0
   },
+  "pfaeffikon": {
+   "name": "Pfäffikon",
+   "bezirk": "Pfäffikon",
+   "domain": "www.pfaeffikon.ch",
+   "ok": true,
+   "count": 133
+  },
   "rs": {
    "name": "Russikon",
    "bezirk": "Pfäffikon",
@@ -789,36 +838,36 @@ window.FAMILIENAGENDA = {
    "name": "Dübendorf",
    "bezirk": "Uster",
    "domain": "www.duebendorf.ch",
-   "ok": true,
-   "count": 93
+   "ok": false,
+   "count": 91
   },
   "e": {
    "name": "Egg",
    "bezirk": "Uster",
    "domain": "www.egg.ch",
-   "ok": true,
+   "ok": false,
    "count": 11
   },
   "f": {
    "name": "Fällanden",
    "bezirk": "Uster",
    "domain": "www.faellanden.ch",
-   "ok": true,
+   "ok": false,
    "count": 8
   },
   "g": {
    "name": "Greifensee",
    "bezirk": "Uster",
    "domain": "www.greifensee.ch",
-   "ok": true,
-   "count": 3
+   "ok": false,
+   "count": 2
   },
   "m": {
    "name": "Mönchaltorf",
    "bezirk": "Uster",
    "domain": "www.moenchaltorf.ch",
-   "ok": true,
-   "count": 8
+   "ok": false,
+   "count": 7
   },
   "s": {
    "name": "Schwerzenbach",
@@ -831,15 +880,15 @@ window.FAMILIENAGENDA = {
    "name": "Uster",
    "bezirk": "Uster",
    "domain": "www.uster.ch",
-   "ok": true,
-   "count": 41
+   "ok": false,
+   "count": 33
   },
   "wb": {
    "name": "Wangen-Brüttisellen",
    "bezirk": "Uster",
    "domain": "www.wangen-bruettisellen.ch",
-   "ok": true,
-   "count": 27
+   "ok": false,
+   "count": 26
   },
   "bruetten": {
    "name": "Brütten",
@@ -889,6 +938,13 @@ window.FAMILIENAGENDA = {
    "domain": "www.pfungen.ch",
    "ok": true,
    "count": 0
+  },
+  "rickenbach": {
+   "name": "Rickenbach",
+   "bezirk": "Winterthur",
+   "domain": "www.rickenbach-zh.ch",
+   "ok": true,
+   "count": 58
   },
   "seuzach": {
    "name": "Seuzach",
@@ -2095,6 +2151,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10007002",
+   "name": "Gschichteziit i de Bibliothek",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Gemeindebibliothek",
+   "veranstalter": "",
+   "time": "15.30 - 16.00",
+   "age": {
+    "min": 4,
+    "max": 7,
+    "label": "4 bis 7 Jahre"
+   },
+   "url": "https://www.pfaeffikon.ch/event/gschichteziit-i-de-bibliothek/2026-11-18/"
+  },
+  {
+   "gemeinden": [
     "dielsdorf"
    ],
    "id": "dielsdorf-7651408",
@@ -2789,6 +2863,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006409",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-11-19/"
+  },
+  {
+   "gemeinden": [
     "horgen"
    ],
    "id": "horgen-3730-41629",
@@ -2814,6 +2902,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604794"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-59855",
+   "name": "Filmabend mit Podiumsdiskussion: «Liebe, Wut & Geschwisterbande» – Ein Film für alle Eltern, deren Kinder sich streiten und die sich fragen: Wie hört das auf?",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Rex im Chesselhuus",
+   "veranstalter": "",
+   "time": "20.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/filmabend-mit-podiumsdiskussion-liebe-wut-geschwisterbande-ein-film-fuer-alle-eltern-deren-kinder-sich-streiten-und-die-sich-fragen-wie-hoert-das-auf/"
   },
   {
    "gemeinden": [
@@ -3246,6 +3348,42 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "maschwanden"
+   ],
+   "id": "maschwanden-922-2026-11-20",
+   "name": "Fiire mit de Chliine",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Maschwanden",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=922"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1720-2026-11-20",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1720"
+  },
+  {
+   "gemeinden": [
     "z"
    ],
    "id": "z-7370296",
@@ -3335,6 +3473,20 @@ window.FAMILIENAGENDA = {
    "time": "16.30 - 22.00",
    "age": null,
    "url": "https://www.bauma.ch/_rte/anlass/7759408"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10007178",
+   "name": "Kinderhüeti",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "08.30 - 11.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/kinderhueeti-5/2026-11-20/"
   },
   {
    "gemeinden": [
@@ -3453,6 +3605,34 @@ window.FAMILIENAGENDA = {
    "time": "17.00 - 22.00",
    "age": null,
    "url": "https://www.dachsen.ch/_rte/anlass/7545037"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-58488",
+   "name": "Mittelstufä Treff: Teil 3 – Tag der Kinderrechte (Familienevent)",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Ref. Kirchgemeindehaus",
+   "veranstalter": "",
+   "time": "17.00 - 19.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/mittelstufae-treff-teil-3-tag-der-kinderrechte-familienevent/"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10007058",
+   "name": "Singe mit de Chliinschte",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Reformiertes Kirchgemeindehaus",
+   "veranstalter": "",
+   "time": "09.30 - 10.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/singe-mit-de-chliinschte-8/2026-11-20/"
   },
   {
    "gemeinden": [
@@ -3596,6 +3776,20 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 21.00",
    "age": null,
    "url": "https://www.aesch-zh.ch/_rte/anlass/7758814"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-59985",
+   "name": "Ausstellung «Kinder und Menschenrechte»",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Museum Eva Wipf",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/ausstellung-kinder-und-menschenrechte/"
   },
   {
    "gemeinden": [
@@ -3744,6 +3938,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565221"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-58495",
+   "name": "Femmes Tische – Gesprächsrunde «was ihr nicht seht»",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Gemeindehaus",
+   "veranstalter": "",
+   "time": "09.45 - 12.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/femmes-tische-gespraechsrunde-was-ihr-nicht-seht/"
   },
   {
    "gemeinden": [
@@ -4072,6 +4280,20 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 14 Jahre"
    },
    "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7857/eventdate/8462"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1489-2026-11-21",
+   "name": "Pfadi Orion",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1489"
   },
   {
    "gemeinden": [
@@ -4862,6 +5084,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005374",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-11-23",
+   "bis": "2026-11-23",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-11-23/"
+  },
+  {
+   "gemeinden": [
     "o"
    ],
    "id": "o-3471-2046",
@@ -4891,6 +5127,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8730/eventdate/8219"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006410",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-11-23",
+   "bis": "2026-11-23",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-11-23/"
   },
   {
    "gemeinden": [
@@ -5545,6 +5795,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005375",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-11-25/"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7219304",
@@ -6012,6 +6276,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2700-2125",
+   "name": "Lebkuchen verzieren",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2700/eventdate/2125"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7232162",
@@ -6220,6 +6498,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565068"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006411",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-11-26/"
   },
   {
    "gemeinden": [
@@ -6653,6 +6945,24 @@ window.FAMILIENAGENDA = {
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7756399"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1721-2026-11-27",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1721"
   },
   {
    "gemeinden": [
@@ -7255,6 +7565,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60069",
+   "name": "Chinderfiir",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Reformierte Kirche Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.pfaeffikon.ch/event/chinderfiir-3/"
+  },
+  {
+   "gemeinden": [
     "wa"
    ],
    "id": "wa-7215374",
@@ -7425,6 +7753,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60420",
+   "name": "Familienverein am Weihnachtsmarkt",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "14.00 - 17.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/familienverein-am-weihnachtsmarkt/"
+  },
+  {
+   "gemeinden": [
     "truellikon"
    ],
    "id": "truellikon-7823851",
@@ -7469,7 +7811,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3182-58476",
+   "id": "horgen-3182-58593",
    "name": "Gschichtehöck im Advent an der Offenen Kirchentüre",
    "von": "2026-11-28",
    "bis": "2026-11-28",
@@ -7477,7 +7819,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 15.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3182/eventdate/58476"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3182/eventdate/58593"
   },
   {
    "gemeinden": [
@@ -7705,7 +8047,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-2785-58470",
+   "id": "horgen-2785-58587",
    "name": "Offene Kirchentür am Horgner Weihnachtsmarkt",
    "von": "2026-11-28",
    "bis": "2026-11-28",
@@ -7713,7 +8055,21 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.00 - 18.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/2785/eventdate/58470"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/2785/eventdate/58587"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1490-2026-11-28",
+   "name": "Pfadi Orion",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1490"
   },
   {
    "gemeinden": [
@@ -7916,6 +8272,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2867-2141",
+   "name": "Ü18-Kerzenziehen",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2867/eventdate/2141"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7681528",
@@ -8009,6 +8379,20 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 14.00",
    "age": null,
    "url": "https://www.waedenswil.ch/_rte/anlass/7801111"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60356",
+   "name": "Wiehnachtsmärt Pfäffikon 2026",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Seestrasse",
+   "veranstalter": "",
+   "time": "11.00 - 21.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/wiehnachtsmaert-pfaeffikon-2026/"
   },
   {
    "gemeinden": [
@@ -8296,6 +8680,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2813-2111",
+   "name": "FORUM Adventsmarkt und Kerzenziehen der KiKo",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2813/eventdate/2111"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7686625",
@@ -8420,6 +8818,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60004",
+   "name": "Samichlaus",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Pfarrei St. Benignus",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/samichlaus/"
+  },
+  {
+   "gemeinden": [
     "niederglatt",
     "niederhasli"
    ],
@@ -8478,6 +8890,24 @@ window.FAMILIENAGENDA = {
    "time": "13.30 - 16.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7683862"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1770-2026-11-29",
+   "name": "Weihnachtsgeschenke Bastelwerkstatt",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "",
+   "time": "11.00 - 14.00",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "Kindergarten"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1770"
   },
   {
    "gemeinden": [
@@ -8592,6 +9022,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005376",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-11-30/"
+  },
+  {
+   "gemeinden": [
     "uitikon"
    ],
    "id": "uitikon-7621717",
@@ -8635,6 +9079,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8731/eventdate/8218"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006412",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-11-30/"
   },
   {
    "gemeinden": [
@@ -9256,6 +9714,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7598065"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005377",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-12-02/"
   },
   {
    "gemeinden": [
@@ -9964,6 +10436,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006413",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-03/"
+  },
+  {
+   "gemeinden": [
     "horgen"
    ],
    "id": "horgen-3732-41607",
@@ -10531,6 +11017,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1722-2026-12-04",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1722"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7597153",
@@ -10592,6 +11096,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 22.00",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7695001"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10007176",
+   "name": "Kinderhüeti",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "08.30 - 11.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/kinderhueeti-5/2026-12-04/"
   },
   {
    "gemeinden": [
@@ -10820,6 +11338,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 4 Jahren"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8685/eventdate/8190"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10008245",
+   "name": "Singe mit de Chliinschte",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Ref. Kirchgemeindehaus",
+   "veranstalter": "",
+   "time": "09.30 - 10.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/singe-mit-de-chliinschte-9/2026-12-04/"
   },
   {
    "gemeinden": [
@@ -11202,7 +11734,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3184-58477",
+   "id": "horgen-3184-58594",
    "name": "Gschichtehöck im Advent",
    "von": "2026-12-05",
    "bis": "2026-12-05",
@@ -11210,7 +11742,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3184/eventdate/58477"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3184/eventdate/58594"
   },
   {
    "gemeinden": [
@@ -11428,6 +11960,20 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 14 Jahre"
    },
    "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7860/eventdate/8471"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1491-2026-12-05",
+   "name": "Pfadi Orion",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1491"
   },
   {
    "gemeinden": [
@@ -11979,6 +12525,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2701-2048",
+   "name": "Der Samichlaus besucht uns",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2701/eventdate/2048"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7753738",
@@ -12078,6 +12638,20 @@ window.FAMILIENAGENDA = {
    "time": "11.45",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7791235"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005816",
+   "name": "Kirche Kunterbunt",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Ref. Kirchgemeindehaus",
+   "veranstalter": "",
+   "time": "09.45 - 13.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/kirche-kunterbunt/2026-12-06/"
   },
   {
    "gemeinden": [
@@ -12399,6 +12973,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60303",
+   "name": "Weihnachtsführung am Pfäffikersee – Exkursion",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Naturzentrum Pfäffikersee",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": {
+    "min": 7,
+    "max": 12,
+    "label": "ab 7 Jahren"
+   },
+   "url": "https://www.pfaeffikon.ch/event/weihnachtsfuehrung-am-pfaeffikersee-exkursion/"
+  },
+  {
+   "gemeinden": [
     "e"
    ],
    "id": "e-7290860",
@@ -12482,6 +13074,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005378",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-12-07/"
+  },
+  {
+   "gemeinden": [
     "stallikon"
    ],
    "id": "stallikon-8732-8223",
@@ -12497,6 +13103,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8732/eventdate/8223"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006414",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-07",
+   "bis": "2026-12-07",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-07/"
   },
   {
    "gemeinden": [
@@ -13030,6 +13650,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2826-2145",
+   "name": "Basteln für unser Adventsfenster",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Bibliothek Aeugst am Albis",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2826/eventdate/2145"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7739386",
@@ -13123,6 +13757,38 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7062/eventdate/10953"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10007009",
+   "name": "Buchstart – Erzählen, Hören und Entdecken",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Gemeindebibliothek",
+   "veranstalter": "",
+   "time": "09.00 - 09.30",
+   "age": {
+    "min": 0,
+    "max": 3,
+    "label": "0 bis 3 Jahre"
+   },
+   "url": "https://www.pfaeffikon.ch/event/buchstart-erzaehlen-hoeren-und-entdecken/2026-12-09/"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005379",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff/2026-12-09/"
   },
   {
    "gemeinden": [
@@ -13432,6 +14098,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1567-2026-12-09",
+   "name": "Mütter- und Väterberatung",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "",
+   "veranstalter": "",
+   "time": "09.00 - 11.00",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1567"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7232168",
@@ -13681,6 +14361,34 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565074"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60439",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.00 - 11.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2-2/"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60532",
+   "name": "Fahrt zur Krippenaustellung",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Bahnhof Pfäffikon ZH",
+   "veranstalter": "",
+   "time": "13.15 - 17.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/fahrt-zur-krippenaustellung/"
   },
   {
    "gemeinden": [
@@ -14148,6 +14856,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1723-2026-12-11",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1723"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-5452952",
@@ -14281,6 +15007,20 @@ window.FAMILIENAGENDA = {
     "label": "Kindergarten"
    },
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7792234"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-59997",
+   "name": "«Winterzauber mit de Tante Carmen» – ein bisschen Wärme zur Winterzeit",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Dorfsaal Chesselhuus",
+   "veranstalter": "",
+   "time": "15.00 - 16.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/winterzauber-mit-de-tante-carmen-ein-bisschen-waerme-zur-winterzeit/"
   },
   {
    "gemeinden": [
@@ -14669,6 +15409,20 @@ window.FAMILIENAGENDA = {
    "time": "19.30 - 21.00",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7731898"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1492-2026-12-12",
+   "name": "Pfadi Orion",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1492"
   },
   {
    "gemeinden": [
@@ -15133,6 +15887,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005380",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff-3/2026-12-14/"
+  },
+  {
+   "gemeinden": [
     "stallikon"
    ],
    "id": "stallikon-8733-8220",
@@ -15148,6 +15916,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8733/eventdate/8220"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006416",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-14",
+   "bis": "2026-12-14",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-14/"
   },
   {
    "gemeinden": [
@@ -15847,6 +16629,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2851-2133",
+   "name": "Koffer-Kino ( Kamishi Bai)",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Bibliothek Aeugst am Albis",
+   "veranstalter": "",
+   "time": "",
+   "age": {
+    "min": 4,
+    "max": 6,
+    "label": "4 bis 6 Jahre"
+   },
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2851/eventdate/2133"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7776826",
@@ -16152,6 +16952,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565077"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006417",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-17",
+   "bis": "2026-12-17",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-17/"
   },
   {
    "gemeinden": [
@@ -16519,6 +17333,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1724-2026-12-18",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1724"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7700872",
@@ -16558,6 +17390,20 @@ window.FAMILIENAGENDA = {
    "time": "17.00 - 19.00",
    "age": null,
    "url": "https://www.faellanden.ch/_rte/anlass/7622308"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10007177",
+   "name": "Kinderhüeti",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "08.30 - 11.30",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/kinderhueeti-5/2026-12-18/"
   },
   {
    "gemeinden": [
@@ -16707,6 +17553,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-60553",
+   "name": "Gemeinsam eine Krippe bauen! Ein Vater-Kind-Erlebnis im Wald",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Pfadiheim Weiherholz",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/gemeinsam-eine-krippe-bauen-ein-vater-kind-erlebnis-im-wald/"
+  },
+  {
+   "gemeinden": [
     "affolternamalbis"
    ],
    "id": "affolternamalbis-7636534",
@@ -16782,6 +17642,20 @@ window.FAMILIENAGENDA = {
    "time": "19.30 - 21.30",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7731763"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1493-2026-12-19",
+   "name": "Pfadi Orion",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1493"
   },
   {
    "gemeinden": [
@@ -17025,6 +17899,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006418",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-21",
+   "bis": "2026-12-21",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-21/"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7816591",
@@ -17082,6 +17970,20 @@ window.FAMILIENAGENDA = {
    "time": "18.30",
    "age": null,
    "url": "https://www.adliswil.ch/_rte/anlass/7817149"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006419",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-24/"
   },
   {
    "gemeinden": [
@@ -17198,6 +18100,34 @@ window.FAMILIENAGENDA = {
    "time": "16.30 - 17.30",
    "age": null,
    "url": "https://www.wiesendangen.ch/_rte/anlass/7768045"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1769-2026-12-24",
+   "name": "Familienweihnachtsfeier am Heiligabend",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.30 - 17.30",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1769"
+  },
+  {
+   "gemeinden": [
+    "maschwanden"
+   ],
+   "id": "maschwanden-923-2026-12-24",
+   "name": "Fiire mit de Chliine Familienweihnacht",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Maschwanden",
+   "veranstalter": "",
+   "time": "17.00 - 18.00",
+   "age": null,
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=923"
   },
   {
    "gemeinden": [
@@ -17331,6 +18261,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1725-2026-12-25",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2026-12-25",
+   "bis": "2026-12-25",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1725"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7786780",
@@ -17342,6 +18290,20 @@ window.FAMILIENAGENDA = {
    "time": "10.00",
    "age": null,
    "url": "https://www.uster.ch/_rte/anlass/7786780"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1494-2026-12-26",
+   "name": "Pfadi Orion",
+   "von": "2026-12-26",
+   "bis": "2026-12-26",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1494"
   },
   {
    "gemeinden": [
@@ -17406,6 +18368,34 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7215755"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10005384",
+   "name": "Chrabbel- & Spieltreff",
+   "von": "2026-12-28",
+   "bis": "2026-12-28",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/chrabbel-spieltreff-3/2026-12-28/"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006420",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-28",
+   "bis": "2026-12-28",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-28/"
   },
   {
    "gemeinden": [
@@ -17487,6 +18477,52 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006421",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-31",
+   "bis": "2026-12-31",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-12-31/"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1726-2027-01-01",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-01-01",
+   "bis": "2027-01-01",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1726"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1495-2027-01-02",
+   "name": "Pfadi Orion",
+   "von": "2027-01-02",
+   "bis": "2027-01-02",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1495"
+  },
+  {
+   "gemeinden": [
     "wiesendangen"
    ],
    "id": "wiesendangen-7406518",
@@ -17512,6 +18548,20 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 11.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7794025"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1772-2027-01-03",
+   "name": "Familiengottesdienst mit den Sternsingern",
+   "von": "2027-01-03",
+   "bis": "2027-01-03",
+   "ort": "",
+   "veranstalter": "",
+   "time": "17.00 - 18.00",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1772"
   },
   {
    "gemeinden": [
@@ -17580,6 +18630,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8734/eventdate/8222"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006422",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-04",
+   "bis": "2027-01-04",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-04/"
   },
   {
    "gemeinden": [
@@ -17803,6 +18867,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006423",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-07/"
+  },
+  {
+   "gemeinden": [
     "horgen"
    ],
    "id": "horgen-3735-41604",
@@ -17987,6 +19065,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1727-2027-01-08",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-01-08",
+   "bis": "2027-01-08",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1727"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2011-1475",
@@ -18058,6 +19154,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.oberembrach.ch/_rte/anlass/7655149"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1496-2027-01-09",
+   "name": "Pfadi Orion",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1496"
   },
   {
    "gemeinden": [
@@ -18247,6 +19357,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "maschwanden"
+   ],
+   "id": "maschwanden-1020-2027-01-10",
+   "name": "Sternsinger-Gottesdienst mit Untikindern",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Mettmenstetten",
+   "veranstalter": "",
+   "time": "11.00 - 12.00",
+   "age": null,
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=1020"
+  },
+  {
+   "gemeinden": [
     "u"
    ],
    "id": "u-7795462",
@@ -18276,6 +19400,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8735/eventdate/8221"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006424",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-11",
+   "bis": "2027-01-11",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-11/"
   },
   {
    "gemeinden": [
@@ -18611,6 +19749,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006425",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-14",
+   "bis": "2027-01-14",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-14/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604812",
@@ -18724,6 +19876,42 @@ window.FAMILIENAGENDA = {
    "time": "19.30",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7804201"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1728-2027-01-15",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-01-15",
+   "bis": "2027-01-15",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1728"
+  },
+  {
+   "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2692-2060",
+   "name": "Spaghettiplausch",
+   "von": "2027-01-15",
+   "bis": "2027-01-15",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2692/eventdate/2060"
   },
   {
    "gemeinden": [
@@ -18853,7 +20041,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3653-58497",
+   "id": "horgen-3653-58614",
    "name": "Ausstellung LEGO Stadt",
    "von": "2027-01-17",
    "bis": "2027-01-17",
@@ -18865,7 +20053,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "8 bis 12 Jahre"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3653/eventdate/58497"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3653/eventdate/58614"
   },
   {
    "gemeinden": [
@@ -18991,6 +20179,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006426",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-18",
+   "bis": "2027-01-18",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-18/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604416",
@@ -19076,6 +20278,20 @@ window.FAMILIENAGENDA = {
    "time": "19.30",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7804207"
+  },
+  {
+   "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2861-2146",
+   "name": "Basteln mit alten Heftli",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Bibliothek Aeugst am Albis",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2861/eventdate/2146"
   },
   {
    "gemeinden": [
@@ -19269,6 +20485,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006427",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-21",
+   "bis": "2027-01-21",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-21/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604815",
@@ -19382,6 +20612,24 @@ window.FAMILIENAGENDA = {
    "time": "19.30",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7804222"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1729-2027-01-22",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-01-22",
+   "bis": "2027-01-22",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1729"
   },
   {
    "gemeinden": [
@@ -19673,6 +20921,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006428",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-25",
+   "bis": "2027-01-25",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-25/"
+  },
+  {
+   "gemeinden": [
     "rs"
    ],
    "id": "rs-7808416",
@@ -19801,6 +21063,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006429",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-01-28/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604818",
@@ -19858,6 +21134,24 @@ window.FAMILIENAGENDA = {
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7756408"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1730-2027-01-29",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-01-29",
+   "bis": "2027-01-29",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1730"
   },
   {
    "gemeinden": [
@@ -19964,6 +21258,20 @@ window.FAMILIENAGENDA = {
    "time": "16.30 - 23.00",
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7761352"
+  },
+  {
+   "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2702-2049",
+   "name": "Fasnacht",
+   "von": "2027-01-30",
+   "bis": "2027-01-30",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2702/eventdate/2049"
   },
   {
    "gemeinden": [
@@ -20197,6 +21505,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006430",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-01",
+   "bis": "2027-02-01",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-01/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604422",
@@ -20395,6 +21717,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2862-2140",
+   "name": "Kasperlitheater",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Bibliothek Aeugst am Albis",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2862/eventdate/2140"
+  },
+  {
+   "gemeinden": [
     "wz"
    ],
    "id": "wz-17124-2027-02-03",
@@ -20434,6 +21770,20 @@ window.FAMILIENAGENDA = {
    "time": "19.00",
    "age": null,
    "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6718/eventdate/10380"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006431",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-04/"
   },
   {
    "gemeinden": [
@@ -20568,6 +21918,24 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.hittnau.ch/_rte/anlass/7801159"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1731-2027-02-05",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-02-05",
+   "bis": "2027-02-05",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1731"
   },
   {
    "gemeinden": [
@@ -20833,6 +22201,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006432",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-08",
+   "bis": "2027-02-08",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-08/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604425",
@@ -20957,6 +22339,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006433",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-11",
+   "bis": "2027-02-11",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-11/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604824",
@@ -21032,6 +22428,42 @@ window.FAMILIENAGENDA = {
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7756411"
+  },
+  {
+   "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2863-2142",
+   "name": "Filmabend",
+   "von": "2027-02-12",
+   "bis": "2027-02-12",
+   "ort": "Bibliothek Aeugst am Albis",
+   "veranstalter": "",
+   "time": "",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2863/eventdate/2142"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1732-2027-02-12",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-02-12",
+   "bis": "2027-02-12",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1732"
   },
   {
    "gemeinden": [
@@ -21162,6 +22594,20 @@ window.FAMILIENAGENDA = {
    "time": "8.00 - 12.00",
    "age": null,
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8746/eventdate/8226"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006434",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-15",
+   "bis": "2027-02-15",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-15/"
   },
   {
    "gemeinden": [
@@ -21313,6 +22759,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006435",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-18",
+   "bis": "2027-02-18",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-18/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604827",
@@ -21373,6 +22833,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1733-2027-02-19",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-02-19",
+   "bis": "2027-02-19",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1733"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2014-1472",
@@ -21393,7 +22871,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-4405-58581",
+   "id": "horgen-4405-58698",
    "name": "Winterwoche für Familien mit Kindern, Enkeln und Jugendlichen 2.0",
    "von": "2027-02-19",
    "bis": "2027-02-24",
@@ -21401,7 +22879,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4405/eventdate/58581"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4405/eventdate/58698"
   },
   {
    "gemeinden": [
@@ -21458,6 +22936,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3358/eventdate/6039"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006436",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-22",
+   "bis": "2027-02-22",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-22/"
   },
   {
    "gemeinden": [
@@ -21549,6 +23041,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006437",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-25",
+   "bis": "2027-02-25",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-02-25/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604830",
@@ -21623,6 +23129,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1734-2027-02-26",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-02-26",
+   "bis": "2027-02-26",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1734"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7593181",
@@ -21657,7 +23181,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-4483-58508",
+   "id": "horgen-4483-58625",
    "name": "Kolibri-Familiengottesdienst",
    "von": "2027-02-28",
    "bis": "2027-02-28",
@@ -21665,7 +23189,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4483/eventdate/58508"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4483/eventdate/58625"
   },
   {
    "gemeinden": [
@@ -21716,6 +23240,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556239"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006438",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-01",
+   "bis": "2027-03-01",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-01/"
   },
   {
    "gemeinden": [
@@ -21875,6 +23413,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006439",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-04",
+   "bis": "2027-03-04",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-04/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604833",
@@ -21946,6 +23498,24 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621312"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1735-2027-03-05",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-03-05",
+   "bis": "2027-03-05",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1735"
   },
   {
    "gemeinden": [
@@ -22078,6 +23648,20 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766329"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006440",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-08",
+   "bis": "2027-03-08",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-08/"
   },
   {
    "gemeinden": [
@@ -22341,6 +23925,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006441",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-11",
+   "bis": "2027-03-11",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-11/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604836",
@@ -22402,6 +24000,24 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.seuzach.ch/_rte/anlass/7588021"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1736-2027-03-12",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-03-12",
+   "bis": "2027-03-12",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1736"
   },
   {
    "gemeinden": [
@@ -22574,7 +24190,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3078-58500",
+   "id": "horgen-3078-58617",
    "name": "Ökumenischer Kindergottesdienst",
    "von": "2027-03-14",
    "bis": "2027-03-14",
@@ -22582,7 +24198,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3078/eventdate/58500"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3078/eventdate/58617"
   },
   {
    "gemeinden": [
@@ -22618,6 +24234,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006442",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-15",
+   "bis": "2027-03-15",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-15/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604443",
@@ -22629,6 +24259,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604443"
+  },
+  {
+   "gemeinden": [
+    "maschwanden"
+   ],
+   "id": "maschwanden-1002-2027-03-15",
+   "name": "Projektwoche Zirkus",
+   "von": "2027-03-15",
+   "bis": "2027-03-15",
+   "ort": "Maschwanden",
+   "veranstalter": "",
+   "time": "08.00 - 19.03",
+   "age": null,
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=1002"
   },
   {
    "gemeinden": [
@@ -22820,6 +24464,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006443",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-18",
+   "bis": "2027-03-18",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-18/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604839",
@@ -22944,6 +24602,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1737-2027-03-19",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-03-19",
+   "bis": "2027-03-19",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1737"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2015-1471",
@@ -22973,6 +24649,24 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593187"
+  },
+  {
+   "gemeinden": [
+    "aeugst"
+   ],
+   "id": "aeugst-2693-2061",
+   "name": "Spaghettiplausch",
+   "von": "2027-03-19",
+   "bis": "2027-03-19",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2693/eventdate/2061"
   },
   {
    "gemeinden": [
@@ -23206,6 +24900,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006444",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-22",
+   "bis": "2027-03-22",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-22/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604446",
@@ -23340,6 +25048,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006445",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-25",
+   "bis": "2027-03-25",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-25/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604842",
@@ -23365,6 +25087,24 @@ window.FAMILIENAGENDA = {
    "time": "17.30 - 18.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7763656"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1738-2027-03-26",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-03-26",
+   "bis": "2027-03-26",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1738"
   },
   {
    "gemeinden": [
@@ -23397,6 +25137,20 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766341"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006446",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-03-29",
+   "bis": "2027-03-29",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-03-29/"
   },
   {
    "gemeinden": [
@@ -23492,6 +25246,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006447",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-01",
+   "bis": "2027-04-01",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-01/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604845",
@@ -23577,6 +25345,24 @@ window.FAMILIENAGENDA = {
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7756417"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1739-2027-04-02",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-04-02",
+   "bis": "2027-04-02",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1739"
   },
   {
    "gemeinden": [
@@ -23705,6 +25491,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556245"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006448",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-05",
+   "bis": "2027-04-05",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-05/"
   },
   {
    "gemeinden": [
@@ -23886,6 +25686,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006449",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-08",
+   "bis": "2027-04-08",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-08/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604848",
@@ -23968,6 +25782,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1740-2027-04-09",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-04-09",
+   "bis": "2027-04-09",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1740"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7769308",
@@ -24043,6 +25875,20 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766347"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006450",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-12",
+   "bis": "2027-04-12",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-12/"
   },
   {
    "gemeinden": [
@@ -24262,6 +26108,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006451",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-15",
+   "bis": "2027-04-15",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-15/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604851",
@@ -24354,6 +26214,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1741-2027-04-16",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-04-16",
+   "bis": "2027-04-16",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1741"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2017-1469",
@@ -24374,7 +26252,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-4387-58579",
+   "id": "horgen-4387-58696",
    "name": "Städtereise Mailand",
    "von": "2027-04-16",
    "bis": "2027-04-18",
@@ -24386,7 +26264,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 15 Jahren"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4387/eventdate/58579"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4387/eventdate/58696"
   },
   {
    "gemeinden": [
@@ -24479,6 +26357,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 11 Jahren"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7730476"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006452",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-19",
+   "bis": "2027-04-19",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-19/"
   },
   {
    "gemeinden": [
@@ -24652,6 +26544,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006453",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-22",
+   "bis": "2027-04-22",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-22/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604854",
@@ -24698,6 +26604,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1742-2027-04-23",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-04-23",
+   "bis": "2027-04-23",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1742"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7593193",
@@ -24723,6 +26647,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7638784"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006454",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-26",
+   "bis": "2027-04-26",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-26/"
   },
   {
    "gemeinden": [
@@ -24782,6 +26720,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006455",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-04-29",
+   "bis": "2027-04-29",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-04-29/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604857",
@@ -24825,6 +26777,38 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.egg.ch/_rte/anlass/7681435"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1743-2027-04-30",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-04-30",
+   "bis": "2027-04-30",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1743"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006456",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-03",
+   "bis": "2027-05-03",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-03/"
   },
   {
    "gemeinden": [
@@ -24920,6 +26904,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006457",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-06",
+   "bis": "2027-05-06",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-06/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604860",
@@ -24948,6 +26946,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1744-2027-05-07",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-05-07",
+   "bis": "2027-05-07",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1744"
+  },
+  {
+   "gemeinden": [
     "knonau"
    ],
    "id": "knonau-4397-3175",
@@ -24973,6 +26989,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556251"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006458",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-10",
+   "bis": "2027-05-10",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-10/"
   },
   {
    "gemeinden": [
@@ -25154,6 +27184,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006459",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-13",
+   "bis": "2027-05-13",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-13/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604863",
@@ -25214,6 +27258,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1745-2027-05-14",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-05-14",
+   "bis": "2027-05-14",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1745"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2035-1478",
@@ -25229,6 +27291,20 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/2035/eventdate/1478"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006460",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-17",
+   "bis": "2027-05-17",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-17/"
   },
   {
    "gemeinden": [
@@ -25328,6 +27404,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006461",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-20",
+   "bis": "2027-05-20",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-20/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604866",
@@ -25424,6 +27514,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1746-2027-05-21",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-05-21",
+   "bis": "2027-05-21",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1746"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7563871",
@@ -25467,6 +27575,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 4 Jahren"
    },
    "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3162/eventdate/3681"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006462",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-24",
+   "bis": "2027-05-24",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-24/"
   },
   {
    "gemeinden": [
@@ -25572,6 +27694,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006463",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-27",
+   "bis": "2027-05-27",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-27/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604869",
@@ -25615,6 +27751,24 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621342"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1747-2027-05-28",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-05-28",
+   "bis": "2027-05-28",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1747"
   },
   {
    "gemeinden": [
@@ -25703,6 +27857,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7638790"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006464",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-05-31",
+   "bis": "2027-05-31",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-05-31/"
   },
   {
    "gemeinden": [
@@ -25838,6 +28006,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006465",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-03",
+   "bis": "2027-06-03",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-03/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604872",
@@ -25944,6 +28126,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1748-2027-06-04",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-06-04",
+   "bis": "2027-06-04",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1748"
+  },
+  {
+   "gemeinden": [
     "regensdorf"
    ],
    "id": "regensdorf-7614073",
@@ -25969,6 +28169,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556257"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006466",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-07",
+   "bis": "2027-06-07",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-07/"
   },
   {
    "gemeinden": [
@@ -26136,6 +28350,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006467",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-10",
+   "bis": "2027-06-10",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-10/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604875",
@@ -26182,6 +28410,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1749-2027-06-11",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-06-11",
+   "bis": "2027-06-11",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1749"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2019-1467",
@@ -26211,6 +28457,20 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677766"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006468",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-14",
+   "bis": "2027-06-14",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-14/"
   },
   {
    "gemeinden": [
@@ -26342,6 +28602,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006469",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-17",
+   "bis": "2027-06-17",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-17/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604878",
@@ -26416,6 +28690,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1750-2027-06-18",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-06-18",
+   "bis": "2027-06-18",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1750"
+  },
+  {
+   "gemeinden": [
     "f"
    ],
    "id": "f-7700698",
@@ -26441,6 +28733,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4311/eventdate/3105"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006470",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-21",
+   "bis": "2027-06-21",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-21/"
   },
   {
    "gemeinden": [
@@ -26560,6 +28866,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006471",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-24",
+   "bis": "2027-06-24",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-24/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604881",
@@ -26603,6 +28923,24 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621357"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1751-2027-06-25",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-06-25",
+   "bis": "2027-06-25",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1751"
   },
   {
    "gemeinden": [
@@ -26680,6 +29018,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006472",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-06-28",
+   "bis": "2027-06-28",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-06-28/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604488",
@@ -26719,6 +29071,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7822069"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006473",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-01",
+   "bis": "2027-07-01",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-01/"
   },
   {
    "gemeinden": [
@@ -26764,6 +29130,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1752-2027-07-02",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-07-02",
+   "bis": "2027-07-02",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1752"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7778164",
@@ -26775,6 +29159,20 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 10.30",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7778164"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006474",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-05",
+   "bis": "2027-07-05",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-05/"
   },
   {
    "gemeinden": [
@@ -26924,6 +29322,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006475",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-08",
+   "bis": "2027-07-08",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-08/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604887",
@@ -26953,6 +29365,24 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4252/eventdate/3045"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1753-2027-07-09",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-07-09",
+   "bis": "2027-07-09",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1753"
   },
   {
    "gemeinden": [
@@ -26988,6 +29418,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006476",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-12",
+   "bis": "2027-07-12",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-12/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604494",
@@ -26999,6 +29443,52 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604494"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006477",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-15",
+   "bis": "2027-07-15",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-15/"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1754-2027-07-16",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-07-16",
+   "bis": "2027-07-16",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1754"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006478",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-19",
+   "bis": "2027-07-19",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-19/"
   },
   {
    "gemeinden": [
@@ -27088,6 +29578,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006479",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-22",
+   "bis": "2027-07-22",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-22/"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818739",
@@ -27099,6 +29603,38 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7818739"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1755-2027-07-23",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-07-23",
+   "bis": "2027-07-23",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1755"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006480",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-26",
+   "bis": "2027-07-26",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-26/"
   },
   {
    "gemeinden": [
@@ -27116,6 +29652,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006481",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-07-29",
+   "bis": "2027-07-29",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-07-29/"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1756-2027-07-30",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-07-30",
+   "bis": "2027-07-30",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1756"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7681249",
@@ -27127,6 +29695,20 @@ window.FAMILIENAGENDA = {
    "time": "16.00",
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7681249"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006482",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-02",
+   "bis": "2027-08-02",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-02/"
   },
   {
    "gemeinden": [
@@ -27159,6 +29741,98 @@ window.FAMILIENAGENDA = {
    "time": "15.00 - 16.30",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7818781"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006483",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-05",
+   "bis": "2027-08-05",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-05/"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1757-2027-08-06",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-08-06",
+   "bis": "2027-08-06",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1757"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006484",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-09",
+   "bis": "2027-08-09",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-09/"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006485",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-12",
+   "bis": "2027-08-12",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-12/"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1758-2027-08-13",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-08-13",
+   "bis": "2027-08-13",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1758"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006486",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-16",
+   "bis": "2027-08-16",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-16/"
   },
   {
    "gemeinden": [
@@ -27208,6 +29882,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006487",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-19",
+   "bis": "2027-08-19",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-19/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604890",
@@ -27233,6 +29921,38 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7818742"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1759-2027-08-20",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-08-20",
+   "bis": "2027-08-20",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1759"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006488",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-23",
+   "bis": "2027-08-23",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-23/"
   },
   {
    "gemeinden": [
@@ -27278,6 +29998,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006489",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-26",
+   "bis": "2027-08-26",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-26/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604893",
@@ -27289,6 +30023,38 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604893"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1760-2027-08-27",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-08-27",
+   "bis": "2027-08-27",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1760"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-55466",
+   "name": "Pfäffiker Dorfete 2027",
+   "von": "2027-08-27",
+   "bis": "2027-08-28",
+   "ort": "Bahnhofstrasse",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/pfaeffiker-dorfete-2027/"
   },
   {
    "gemeinden": [
@@ -27307,6 +30073,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3056"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006490",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-08-30",
+   "bis": "2027-08-30",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-30/"
   },
   {
    "gemeinden": [
@@ -27356,6 +30136,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006491",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-02",
+   "bis": "2027-09-02",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-02/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604896",
@@ -27367,6 +30161,24 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604896"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1761-2027-09-03",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-09-03",
+   "bis": "2027-09-03",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1761"
   },
   {
    "gemeinden": [
@@ -27399,6 +30211,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.uitikon.ch/_rte/anlass/7792036"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006492",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-06",
+   "bis": "2027-09-06",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-06/"
   },
   {
    "gemeinden": [
@@ -27480,6 +30306,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006493",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-09",
+   "bis": "2027-09-09",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-09/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604899",
@@ -27530,6 +30370,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1762-2027-09-10",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-09-10",
+   "bis": "2027-09-10",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1762"
+  },
+  {
+   "gemeinden": [
     "knonau"
    ],
    "id": "knonau-4367-3222",
@@ -27541,6 +30399,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4367/eventdate/3222"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006494",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-13",
+   "bis": "2027-09-13",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-13/"
   },
   {
    "gemeinden": [
@@ -27658,6 +30530,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006495",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-16",
+   "bis": "2027-09-16",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-16/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604902",
@@ -27700,6 +30586,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1763-2027-09-17",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-09-17",
+   "bis": "2027-09-17",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1763"
+  },
+  {
+   "gemeinden": [
     "niederhasli"
    ],
    "id": "niederhasli-7672843",
@@ -27725,6 +30629,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.benken.ch/_rte/anlass/7789402"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006496",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-20",
+   "bis": "2027-09-20",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-20/"
   },
   {
    "gemeinden": [
@@ -27788,6 +30706,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006497",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-23",
+   "bis": "2027-09-23",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-23/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604905",
@@ -27799,6 +30731,24 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604905"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1764-2027-09-24",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-09-24",
+   "bis": "2027-09-24",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1764"
   },
   {
    "gemeinden": [
@@ -27841,6 +30791,20 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 10.00",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7764067"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006498",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-27",
+   "bis": "2027-09-27",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-27/"
   },
   {
    "gemeinden": [
@@ -27908,6 +30872,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006499",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-09-30",
+   "bis": "2027-09-30",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-30/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604908",
@@ -27937,6 +30915,24 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 3 Jahre"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7730368"
+  },
+  {
+   "gemeinden": [
+    "rickenbach"
+   ],
+   "id": "rickenbach-1765-2027-10-01",
+   "name": "Fussballplausch Rickenbach",
+   "von": "2027-10-01",
+   "bis": "2027-10-01",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.45 - 18.00",
+   "age": {
+    "min": 4,
+    "max": 8,
+    "label": "4 bis 8 Jahre"
+   },
+   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1765"
   },
   {
    "gemeinden": [
@@ -27987,6 +30983,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 5 Jahren"
    },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7289216"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006500",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-04",
+   "bis": "2027-10-04",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-04/"
   },
   {
    "gemeinden": [
@@ -28068,6 +31078,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006501",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-07",
+   "bis": "2027-10-07",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-07/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604911",
@@ -28079,6 +31103,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604911"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006502",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-11",
+   "bis": "2027-10-11",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-11/"
   },
   {
    "gemeinden": [
@@ -28098,7 +31136,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "horgen"
    ],
-   "id": "horgen-3548-58520",
+   "id": "horgen-3548-58637",
    "name": "Chindermusicalwuche 2027",
    "von": "2027-10-12",
    "bis": "2027-10-15",
@@ -28106,7 +31144,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "9.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3548/eventdate/58520"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3548/eventdate/58637"
   },
   {
    "gemeinden": [
@@ -28138,6 +31176,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006503",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-14",
+   "bis": "2027-10-14",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-14/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604914",
@@ -28163,6 +31215,20 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 11.00",
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7818748"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006504",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-18",
+   "bis": "2027-10-18",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-18/"
   },
   {
    "gemeinden": [
@@ -28226,6 +31292,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006505",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-21",
+   "bis": "2027-10-21",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-21/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604917",
@@ -28237,6 +31317,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604917"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006506",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-25",
+   "bis": "2027-10-25",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-25/"
   },
   {
    "gemeinden": [
@@ -28304,6 +31398,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006507",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-10-28",
+   "bis": "2027-10-28",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-28/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604920",
@@ -28351,6 +31459,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4271/eventdate/3058"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006508",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-11-01",
+   "bis": "2027-11-01",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-01/"
   },
   {
    "gemeinden": [
@@ -28432,6 +31554,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006509",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-11-04",
+   "bis": "2027-11-04",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-04/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604923",
@@ -28506,6 +31642,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006510",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-11-08",
+   "bis": "2027-11-08",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-08/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604536",
@@ -28570,6 +31720,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006511",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-11-11",
+   "bis": "2027-11-11",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-11/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604926",
@@ -28631,6 +31795,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7783228"
+  },
+  {
+   "gemeinden": [
+    "pfaeffikon"
+   ],
+   "id": "pfaeffikon-10006512",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-11-15",
+   "bis": "2027-11-15",
+   "ort": "Familienverein Pfäffikon",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-15/"
   },
   {
    "gemeinden": [
