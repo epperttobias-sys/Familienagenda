@@ -46,17 +46,32 @@ const all = Object.values(out).flat(), byId = Object.fromEntries(all.map(p => [p
 let old = {}; try { const t = readFileSync("site/spielplaetze.js", "utf8"); const o = JSON.parse(t.slice(t.indexOf("{"), t.lastIndexOf("}") + 1));
   for (const L of Object.values(o.gemeinden)) for (const p of L) old[p.lat + "," + p.lon] = p; } catch (e) {}
 const [s0, w0, n0, e0] = [47.15, 8.35, 47.70, 9.00], tiles = [];
-for (let i = 0; i < Math.ceil((n0 - s0) / 0.08); i++) for (let j = 0; j < Math.ceil((e0 - w0) / 0.25); j++) tiles.push(`(${(s0 + i * 0.08).toFixed(2)},${(w0 + j * 0.25).toFixed(2)},${(s0 + (i + 1) * 0.08).toFixed(2)},${(w0 + (j + 1) * 0.25).toFixed(2)})`);
+for (let la = s0; la < n0 - 1e-9; la += 0.06) for (let lo = w0; lo < e0 - 1e-9; lo += 0.12) tiles.push([la, lo, Math.min(la + 0.06, n0), Math.min(lo + 0.12, e0)]);
+// einfache Abstandsrechnung in Metern (lokal flach)
+const M = 111320, mx = lat => M * Math.cos(lat * Math.PI / 180);
+const dist = (a, b, c, d) => Math.hypot((d - b) * mx(a), (c - a) * M);
+const segDist = (la, lo, g) => { let best = 1e9; for (let i = 1; i < g.length; i++) { const ax = (g[i - 1].lon - lo) * mx(la), ay = (g[i - 1].lat - la) * M, bx = (g[i].lon - lo) * mx(la), by = (g[i].lat - la) * M;
+  const dx = bx - ax, dy = by - ay, t = Math.max(0, Math.min(1, -(ax * dx + ay * dy) / ((dx * dx + dy * dy) || 1))); best = Math.min(best, Math.hypot(ax + t * dx, ay + t * dy)); } return best; };
+const inPoly = (la, lo, g) => { let c = 0; for (let i = 1; i < g.length; i++) { const x1 = g[i - 1].lon, y1 = g[i - 1].lat, x2 = g[i].lon, y2 = g[i].lat; if ((y1 > la) !== (y2 > la) && lo < (x2 - x1) * (la - y1) / (y2 - y1) + x1) c++; } return c % 2 === 1; };
 let got = 0;
-for (const bb of tiles) {
-  const eq = `[out:json][timeout:600];nwr["leisure"="playground"]${bb}->.all;foreach.all->.p(` +
-    `way(around.p:70)["highway"]["name"]->.s;node(around.p:80)["amenity"~"^(drinking_water|fountain|water_point)$"]->.w;` +
-    `node(around.p:30)["natural"="tree"]->.t;way(around.p:15)["natural"~"^(wood|tree_row)$"]->.wd;way(around.p:15)["landuse"="forest"]->.fo;` +
-    `(.p;node(w.p);)->.pp;.pp is_in->.ia;area.ia["amenity"~"^(school|kindergarten)$"]->.sch;` +
-    `make info ty=p.u(type()),i=p.u(id()),st=s.min(t["name"]),w=w.count(nodes),tr=t.count(nodes),wd=wd.count(ways)+fo.count(ways),sc=sch.count(areas););out;`;
+for (const [la1, lo1, la2, lo2] of tiles) {
+  const mine = all.filter(p => p.lat >= la1 && p.lat < la2 && p.lon >= lo1 && p.lon < lo2); if (!mine.length) continue;
+  const bb = `(${(la1 - 0.002).toFixed(4)},${(lo1 - 0.003).toFixed(4)},${(la2 + 0.002).toFixed(4)},${(lo2 + 0.003).toFixed(4)})`;
+  const eq = `[out:json][timeout:180];(node["amenity"~"^(drinking_water|fountain|water_point)$"]${bb};node["natural"="tree"]${bb};);out;` +
+    `(way["amenity"~"^(school|kindergarten)$"]${bb};way["natural"~"^(wood|tree_row)$"]${bb};way["landuse"="forest"]${bb};way["highway"~"^(residential|living_street|pedestrian|footway|path|tertiary|unclassified|service|secondary)$"]["name"]${bb};);out geom;`;
   const d = await ask(eq); if (!d) continue;
-  for (const e of d.elements) { const t = e.tags || {}; const p = byId[(t.ty || "?")[0] + t.i]; if (!p) continue; got++;
-    if (!p.n && t.st) p.s = t.st; if (+t.w) p.w = 1; if (+t.tr) p.tr = +t.tr; if (+t.wd) p.wd = 1; if (+t.sc) p.sc = 1; }
+  const water = [], trees = [], schools = [], woods = [], streets = [];
+  for (const e of d.elements) { const t = e.tags || {};
+    if (e.type === "node") (t.natural === "tree" ? trees : water).push(e);
+    else if (e.geometry) { if (t.amenity) schools.push(e.geometry); else if (t.highway) streets.push([t.name, e.geometry]); else woods.push(e.geometry); } }
+  for (const p of mine) { got++;
+    if (water.some(w => dist(p.lat, p.lon, w.lat, w.lon) <= 80)) p.w = 1;
+    const tr = trees.filter(t => dist(p.lat, p.lon, t.lat, t.lon) <= 30).length; if (tr) p.tr = tr;
+    if (woods.some(g => segDist(p.lat, p.lon, g) <= 15 || (g.length > 3 && inPoly(p.lat, p.lon, g)))) p.wd = 1;
+    if (schools.some(g => g.length > 3 && inPoly(p.lat, p.lon, g))) p.sc = 1;
+    if (!p.n) { let best = 71, nm = ""; for (const [n, g] of streets) { const x = segDist(p.lat, p.lon, g); if (x < best) { best = x; nm = n; } } if (nm) p.s = nm; }
+  }
+  console.log("gebiet", bb, mine.length, "spielplätze");
 }
 console.log("umgebung:", got, "von", all.length);
 for (const p of all) { const o = old[p.lat + "," + p.lon]; if (!o || p.s || p.w || p.tr || p.wd || p.sc) continue; for (const k of ["s", "w", "tr", "wd", "sc"]) if (o[k]) p[k] = o[k]; }
