@@ -24,7 +24,7 @@ const aerzte = [], apo = [], seen = new Set();
 for (const e of data.elements) {
   const t = e.tags || {}; if (e.type === "relation" && t.boundary) continue; const c = e.center || e; if (c.lat == null || !t.name) continue;
   const isApo = t.amenity === "pharmacy" || t.healthcare === "pharmacy";
-  if (!isApo && /tierarzt|veterin|zahn|dental/i.test(t.name + " " + (t["healthcare:speciality"] || ""))) continue;
+  if (!isApo && /tierarzt|veterin|zahn|dental|kinderwunsch|podolog|physio|cranio|psychiat|psycholog|psychother|frauen|gyn|kjpd|\bpuk\b|kinderspital|permanence|ergo|logop/i.test(t.name + " " + (t["healthcare:speciality"] || ""))) continue;
   const b = bounds.find(b => cross(c.lon, c.lat, b.segs) % 2 === 1); if (!b || !code[b.name]) continue;
   const key = (isApo ? "a" : "k") + t.name + b.name; if (seen.has(key)) continue; seen.add(key);
   const x = { g: code[b.name], n: t.name, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5), w: t.website || t["contact:website"] || "",

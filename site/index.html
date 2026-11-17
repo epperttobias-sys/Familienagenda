@@ -203,7 +203,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .home .tile .ico{margin-bottom:auto}.home .tile .tile-title,.home .tile .tile-text{text-align:left!important;width:100%}
 .home .tile .tile-text{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:0!important}
 .home .tile:hover{transform:translateY(-2px);filter:brightness(1.06)}.home .tile{transition:transform .15s}
-#go-events{--tc:#0a5cb8;order:1}#go-saison{--tc:#d97706;order:2}#go-ausflug{--tc:#0f8a6a;order:3}#go-spiel{--tc:#7c3aed;order:7}#go-essen{--tc:#db2777;order:5}#go-vereine{--tc:#0891b2;order:6}#go-familie{--tc:#4f46e5;order:4}#go-raeume{--tc:#475569;order:8}#go-ferien{--tc:#0284c7;order:9}
+#go-events{--tc:#0a5cb8;order:1}#go-saison{--tc:#d97706;order:2}#go-ausflug{--tc:#0f8a6a;order:3}#go-spiel{--tc:#7c3aed;order:7}#go-essen{--tc:#db2777;order:5}#go-vereine{--tc:#0891b2;order:6}#go-familie{--tc:#4f46e5;order:4}#go-raeume{--tc:#475569;order:8}#go-ferien{--tc:#0284c7;order:9}#go-notfall{--tc:#dc2626;order:10}
 .home .zhband,.home footer.waves{display:none}
 
 /* Startseite: kleine App-Symbole wie Option B, Saison als breite Karte */
@@ -226,7 +226,16 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #go-saison{background:linear-gradient(135deg,#4a3418,#4a2230)!important}:root:not([data-theme="light"]) #go-saison .tile-title{color:#fff!important}:root:not([data-theme="light"]) #go-saison .tile-text{color:#f1dcc6!important}}
 
 /* Unterseiten im Stil der Startseite */
-#view-events{--sec:#0a5cb8}#view-saison{--sec:#d97706}#view-ausflug{--sec:#0f8a6a}#view-spielplaetze{--sec:#7c3aed}#view-essen{--sec:#db2777}#view-vereine{--sec:#0891b2}#view-familie{--sec:#4f46e5}#view-raeume{--sec:#475569}#view-ferien{--sec:#0284c7}
+#view-events{--sec:#0a5cb8}#view-saison{--sec:#d97706}#view-ausflug{--sec:#0f8a6a}#view-spielplaetze{--sec:#7c3aed}#view-essen{--sec:#db2777}#view-vereine{--sec:#0891b2}#view-familie{--sec:#4f46e5}#view-raeume{--sec:#475569}#view-ferien{--sec:#0284c7}#view-notfall{--sec:#dc2626}
+.sos{display:grid;gap:8px}
+.sos a.big{display:flex;align-items:center;gap:14px;background:#dc2626;color:#fff;border-radius:20px;padding:14px 16px;text-decoration:none;box-shadow:0 8px 20px rgba(220,38,38,.3)}
+.sos a.big b{font:800 2rem/1 var(--display)}.sos a.big span{font-weight:700;line-height:1.25}.sos a.big small{display:block;font-weight:500;opacity:.9}
+.sos .row3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.sos .row3 a{background:var(--surface);border-radius:16px;padding:10px 8px;text-align:center;text-decoration:none;color:var(--ink);box-shadow:0 2px 8px rgba(13,35,64,.07);font-size:.78rem;font-weight:600;line-height:1.2}
+.sos .row3 a b{display:block;font:800 .8rem var(--body);color:#dc2626;margin-bottom:3px;white-space:nowrap}
+.wrap.hk2>.sos{margin-top:-30px;position:relative;z-index:1}#view-notfall.hk2>.filters{margin-top:0}.sos .row3 a{min-width:0;font-size:.72rem}
+.evc .open{color:#15803d}.evc .closed{color:#b91c1c}
+.steps{margin:0;padding-left:20px;display:grid;gap:4px;font-size:.92rem}
 .evc.past{opacity:.5}
 .wrap:not(.home){padding-top:0!important;gap:16px!important}
 .wrap:not(.home)>.back,.wrap:not(.home)>.subbrand,.wrap:not(.home)>.zhband{display:none!important}
@@ -301,7 +310,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .wrap:not(.home) .evc{display:flex;gap:12px;background:var(--surface);border-radius:18px;padding:12px;margin-bottom:10px;box-shadow:0 2px 10px rgba(13,35,64,.06);position:relative}
 .evc .em{width:54px;height:54px;flex:none;border-radius:16px;display:grid;place-items:center;font-size:1.7rem;background:color-mix(in srgb,var(--sec) 12%,var(--surface))}
 .evc .bd{min-width:0;flex:1}
-.evc.hk .bd,#view-events .evc .bd{padding-right:44px}
+.evc.hk .bd{padding-right:82px}#view-events .evc .bd{padding-right:44px}
 .evc .bd>a,.evc .bd>.tt{display:block;font-weight:800;font-size:1rem;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
 .evc .bd>a:hover{text-decoration:underline}
 .evc .meta{color:var(--muted);font-size:.88rem;margin-top:2px;overflow-wrap:anywhere}
@@ -359,6 +368,12 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></span>
       <span class="tile-title" id="tile-saison-t">Saison-Highlights</span>
       <span class="tile-text" id="tile-saison">Was gerade Saison hat</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="tile tile-alt" href="#notfall" id="go-notfall">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 7.5v9M7.5 12h9"/></svg></span>
+      <span class="tile-title">Kinderarzt &amp; Notfall</span>
+      <span class="tile-text" id="tile-notfall">Notfall, Kinderärzte, Apotheken</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#ferien" id="go-ferien">
@@ -525,6 +540,27 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <footer>Liste: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Bewertungen und Fotos findest du über den Link zu Google beim Pin. Brunnen, Bäume und Schulgelände stammen aus Einträgen in OpenStreetMap, ohne Schätzung. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
 </div>
 
+<div class="wrap" id="view-notfall" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1>Kinderarzt und Notfall</h1>
+    <p class="lead">Notfallnummern, Kinder-Notfallstationen, Kinderärzte und Apotheken.</p>
+  </header>
+  <div class="sos">
+    <a class="big" href="tel:144"><b>144</b><span>Lebensgefahr? Sofort anrufen<small>Sanität, rund um die Uhr</small></span></a>
+    <div class="row3"><a href="tel:+41800336655"><b>0800 33 66 55</b>Ärztefon, gratis, 24 h</a><a href="tel:145"><b>145</b>Vergiftung, Tox Info</a><a href="tel:+41583877880"><b>058 387 78 80</b>Medgate Kids Line, 24 h</a></div>
+  </div>
+  <section class="filters" aria-label="Filter Kinderarzt und Notfall">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="ng-dd"><summary id="ng-sum">Gemeinde wählen</summary><div class="dd-panel" id="ng-panel"><input type="search" class="dd-search" id="ng-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"></div></details></div>
+    <div class="row"><b>Bereich</b><details class="dd" id="nk-dd"><summary id="nk-sum">Alles</summary><div class="dd-panel" id="nk-panel"></div></details></div>
+    <div class="row"><b>Sortieren</b><details class="dd" id="ns-dd"><summary id="ns-sum">Nach Name</summary><div class="dd-panel" id="ns-panel"></div></details></div>
+  </section>
+  <div class="near"><p class="note" id="nf-near-msg"></p></div>
+  <p id="nfcount" class="count-line"></p>
+  <main id="notfall"></main>
+  <footer>Diese Seite ersetzt keine ärztliche Beratung. Im Zweifel 144 oder das Ärztefon anrufen. Nummern und Notfallstellen: Kanton Zürich, Kinderspital Zürich, Stadtspital Zürich, Spital Zollikerberg, KSW. Kinderarztpraxen und Apotheken: © OpenStreetMap-Mitwirkende, jede Woche aktualisiert, was dort fehlt, fehlt auch hier. Öffnungszeiten bitte vor dem Besuch prüfen. <span id="nfstand"></span></footer>
+</div>
+
 <div class="wrap" id="view-ferien" hidden>
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
@@ -576,6 +612,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="ausflug.js"></script>
 <script src="spielplaetze.js"></script>
 <script src="ferien.js"></script>
+<script src="gesundheit.js"></script>
 <script>
 const AGES=[[0,3],[4,6],[7,9],[10,12]];
 const TIMES=[["all","Alle Termine"],["today","Heute"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
@@ -1237,6 +1274,70 @@ function ferienText(c){const g=ferienFor(c),n=g&&nextFerien(g.f);if(!n)return"Fe
   const t=document.getElementById("tile-ferien");if(t){const n=Object.keys(F.jahre[0].g),m=mode(n.map(c=>F.jahre[0].g[c].f.w));const any=ferienFor(n.find(c=>F.jahre[0].g[c].f.w&&F.jahre[0].g[c].f.w.join()===(m||[]).join())||n[0]);
     const nx=any&&nextFerien(any.f);t.textContent=nx?(nx.now?"Jetzt "+nx.k[2]:"Noch "+daysTo(nx.a)+" Tage bis "+nx.k[2].replace("ferien","")+"ferien"):"Ferien pro Gemeinde"}
 })();
+const NF_ST=[
+  {t:"stat",n:"Universitäts-Kinderspital Zürich, Notfallstation",adr:"Lenggstrasse 30, 8008 Zürich",lat:47.3549,lon:8.5762,h:"Rund um die Uhr, 0 bis 18 Jahre. Mit Notfallpraxis für leichtere Fälle.",w:"https://www.kispi.uzh.ch/en/node/671"},
+  {t:"stat",n:"Stadtspital Zürich Triemli, Kindernotfall",adr:"Birmensdorferstrasse 497, 8063 Zürich",lat:47.3685,lon:8.4977,h:"Rund um die Uhr (24/7).",tel:"+41444162150",w:"https://www.stadt-zuerich.ch/kinderklinik"},
+  {t:"stat",n:"Kantonsspital Winterthur, Notfallzentrum mit Kindernotfall",adr:"Brauerstrasse 15, 8401 Winterthur",lat:47.5077,lon:8.7265,h:"Notfallzentrum des Spitals, der Kindernotfall ist dort integriert.",w:"https://www.ksw.ch"},
+  {t:"perm",n:"Kinderpermanence Circle (Flughafen)",adr:"The Circle, Zürich-Flughafen (Ebene G5)",lat:47.4512,lon:8.5615,h:"Täglich 8.00 bis 22.45 Uhr, bis 16 Jahre. Anrufen empfohlen.",tel:"+41442558112",w:"https://www.kispi.uzh.ch/kinderspital/fachkompetenzen/angebot-fuer-patientinnen-und-patienten/notfallstation/kinderpermanence-circle"},
+  {t:"perm",n:"Kinder-Permanence Spital Zollikerberg",adr:"Trichtenhauserstrasse 20, 8125 Zollikerberg",lat:47.3443,lon:8.6012,h:"Mo–Fr 12 bis 20 Uhr, Sa/So/Feiertage 10 bis 20 Uhr, bis 16 Jahre, ohne Termin.",tel:"+41443972850",w:"https://spitalzollikerberg.ch/en/specialist-areas/childrens-permanence"}];
+const NF_APO24=[{n:"Bahnhof Apotheke Zürich",adr:"Bahnhofplatz 15, 8001 Zürich",lat:47.3779,lon:8.5403},{n:"Bellevue Apotheke",adr:"Theaterstrasse 14, 8001 Zürich",lat:47.3668,lon:8.5455}];
+const NF_TEL=[["144","Sanität, Lebensgefahr","144"],["0800 33 66 55","Ärztefon Kanton Zürich: gratis, rund um die Uhr, auch Zahnarzt-Notfall","+41800336655"],["145","Tox Info Suisse, Vergiftung (Notfall)","145"],["044 251 66 66","Tox Info Suisse, Beratung","+41442516666"],
+  ["058 387 78 80","Medgate Kids Line, ärztliche Beratung rund um die Uhr (über die Krankenkasse)","+41583877880"],["0900 55 35 55","Notfallnummer der Zürcher Apotheken (CHF 1.50/Min.)","+41900553555"],["0848 35 45 55","Elternnotruf, Hilfe für Eltern rund um die Uhr","+41848354555"],
+  ["147","Pro Juventute, Beratung für Kinder und Jugendliche","147"],["117","Polizei","117"],["118","Feuerwehr","118"]];
+function ohOpen(oh){if(!oh)return null;oh=oh.trim();if(oh==="24/7")return true;const D=["Su","Mo","Tu","We","Th","Fr","Sa"],n=new Date(),wd=n.getDay(),mins=n.getHours()*60+n.getMinutes();let res=null;
+  for(const part of oh.split(";")){const m=part.trim().match(/^((?:(?:Mo|Tu|We|Th|Fr|Sa|Su)(?:-(?:Mo|Tu|We|Th|Fr|Sa|Su))?,?)+)\s+(.+)$/);if(!m){if(/^PH/.test(part.trim()))continue;return null}
+    const days=new Set();m[1].split(",").filter(Boolean).forEach(r=>{const[a,b]=r.split("-");let i=D.indexOf(a),j=D.indexOf(b||a);for(let k=0;k<7;k++){days.add(i);if(i===j)break;i=(i+1)%7}});
+    if(!days.has(wd))continue;if(/off|closed/.test(m[2])){res=false;continue}let o=false;
+    for(const t of m[2].split(",")){const x=t.trim().match(/^(\d\d):(\d\d)-(\d\d):(\d\d)$/);if(!x)return null;const a=+x[1]*60+ +x[2],b=+x[3]*60+ +x[4];if(mins>=a&&mins<b)o=true}res=o}
+  return res===null?false:res}
+(function setupNotfall(){
+  const GH=window.GESUNDHEIT||{aerzte:[],apo:[]};GH.aerzte=GH.aerzte.filter(x=>!/kinderwunsch|podolog|physio|cranio|psychiat|psycholog|psychother|frauen|gyn|kjpd|\bpuk\b|kinderspital|permanence|ergo|logop/i.test(x.n));const box=document.getElementById("notfall"),GM=Object.assign({},window.GEMEINDEN||{});
+  if(window.GESUNDHEIT)document.getElementById("nfstand").textContent="Stand: "+GH.stand.split("-").reverse().join(".")+".";
+  let selG=null,kind="all",me=null;const codes=Object.keys(GM).sort((a,b)=>GM[a].name.localeCompare(GM[b].name,"de"));
+  const gp=document.getElementById("ng-panel"),groups={};codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const head=node("div","dd-group"),hb=node("button","","Bezirk "+b);hb.type="button";hb.dataset.group=b;hb.disabled=true;head.append(hb);gp.append(head);
+    groups[b].forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="ng";i.dataset.c=c;l.dataset.name=GM[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{selG=c;render();document.getElementById("ng-dd").open=false});l.append(i,node("span","",GM[c].name));gp.append(l)})});
+  const gs=document.getElementById("ng-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  const syncK=sortDD("nk-panel","nk-dd",[["all","Alles"],["stat","🚑 Notfallstationen"],["arzt","🩺 Kinderärzte"],["apo","💊 Apotheken"],["tel","📞 Telefonnummern"]],()=>kind,v=>{kind=v;render()});
+  const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
+  const msg=document.getElementById("nf-near-msg");
+  const syncS=sortDD("ns-panel","ns-dd",[["name","Nach Name"],["near","Nächste zuerst"]],()=>me?"near":"name",v=>{if(v!=="near"){me=null;msg.parentNode.classList.remove("on");render();return}
+    msg.parentNode.classList.add("on");if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht … Er bleibt auf deinem Gerät.";
+    navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
+      e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
+  const center=()=>{if(me)return me;if(selG){const L=GH.aerzte.concat(GH.apo).filter(x=>x.g===selG);if(L.length)return[L.reduce((s,x)=>s+x.lat,0)/L.length,L.reduce((s,x)=>s+x.lon,0)/L.length];const W=window.WETTER&&WETTER.g[selG];if(W&&W.lat)return[W.lat,W.lon]}return null};
+  const tl=t=>["📞 Anrufen","tel:"+t.replace(/[^+\d]/g,"")];
+  function place(x,em,opts){const st=ohOpen(x.oh);const tags=[];if(st===true)tags.push("🟢 jetzt offen");else if(st===false)tags.push("🔴 jetzt geschlossen");if(x.oh)tags.push("🕒 "+ohDe(x.oh));
+    const links=[];if(x.tel)links.push(tl(x.tel));if(x.w)links.push(["Website",x.w]);links.push(["Route",groute(x.lat,x.lon)]);
+    return mkCard({em,title:x.n,meta:[x.adr,(GM[x.g]||{}).name].filter(Boolean).join(", "),tags,links,km:x._d})}
+  function render(){box.replaceChildren();syncK();syncS();
+    gp.querySelectorAll("input[data-c]").forEach(i=>i.checked=i.dataset.c===selG);document.getElementById("ng-sum").textContent=selG?GM[selG].name:"Gemeinde wählen";
+    const c0=center(),dist=x=>c0?km(c0[0],c0[1],x.lat,x.lon):null,show=k=>kind==="all"||kind===k;let n=0;
+    if(kind==="all"){const g=mkCard({em:"🧭",title:"Was tun bei einem Notfall?"});g.classList.add("info");const ol=node("ol","steps");
+      ["Lebensgefahr, bewusstlos, starke Atemnot: sofort 144.","Vergiftung: 145 anrufen, Packung bereithalten.","Sonst zuerst die Kinderarztpraxis anrufen.","Praxis nicht erreichbar: Ärztefon 0800 33 66 55, gratis und rund um die Uhr."].forEach(t=>ol.append(node("li","",t)));
+      g.querySelector(".bd").append(ol);box.append(g)}
+    if(show("stat")){box.append(node("h2","bez","🚑 Kinder-Notfallstationen und Permanence"));
+      NF_ST.map(x=>Object.assign({_d:dist(x)},x)).sort((a,b)=>c0?a._d-b._d:(a.t>b.t?-1:a.t<b.t?1:0)).forEach(x=>{n++;const links=[];if(x.tel)links.push(tl(x.tel));links.push(["Website",x.w],["Route",groute(x.lat,x.lon)]);
+        box.append(mkCard({em:x.t==="stat"?"🚑":"🩹",title:x.n,meta:x.adr,desc:x.h,tags:[x.t==="stat"?"Notfallstation":"Kinder-Permanence, leichtere Notfälle"],links,km:c0?x._d:null,ap:!me}))})}
+    if(show("arzt")){box.append(node("h2","bez","🩺 Kinderarztpraxen"+(selG?" in "+GM[selG].name:me?" in deiner Nähe":"")));
+      let L=GH.aerzte.map(x=>Object.assign({_d:dist(x)},x));L=selG&&!me?L.filter(x=>x.g===selG):c0?L.sort((a,b)=>a._d-b._d).slice(0,me?15:0):[];
+      if(selG&&!me&&!L.length){box.append(node("p","note","In "+GM[selG].name+" kenne ich keine Kinderarztpraxis. Hier die nächsten in der Umgebung:"));L=GH.aerzte.map(x=>Object.assign({_d:dist(x)},x)).filter(x=>x._d!=null).sort((a,b)=>a._d-b._d).slice(0,6)}
+      if(!selG&&!me)box.append(node("p","note","Wähle oben deine Gemeinde oder «Nächste zuerst». Im ganzen Kanton kenne ich "+GH.aerzte.length+" Kinderarztpraxen."));
+      L.forEach(x=>{n++;box.append(place(x,"🩺"))});if(GH.aerzte.length)box.append(node("p","gsrc","Die Liste stammt aus OpenStreetMap und ist nicht vollständig. Eine vollständige Suche nach Kinderärztinnen und Kinderärzten bietet das Ärzteverzeichnis der FMH: doctorfmh.ch"))}
+    if(show("apo")){box.append(node("h2","bez","💊 Apotheken"+(selG?" in "+GM[selG].name:me?" in deiner Nähe":"")));
+      let L=GH.apo.map(x=>Object.assign({_d:dist(x)},x));L=selG&&!me?L.filter(x=>x.g===selG):c0?L.sort((a,b)=>a._d-b._d).slice(0,me?12:0):[];
+      if(selG&&!me&&!L.length){box.append(node("p","note","In "+GM[selG].name+" kenne ich keine Apotheke. Hier die nächsten:"));L=GH.apo.map(x=>Object.assign({_d:dist(x)},x)).filter(x=>x._d!=null).sort((a,b)=>a._d-b._d).slice(0,5)}
+      if(!selG&&!me)box.append(node("p","note","Wähle oben deine Gemeinde oder «Nächste zuerst»."));
+      L.sort((a,b)=>(ohOpen(b.oh)===true)-(ohOpen(a.oh)===true)).forEach(x=>{n++;box.append(place(x,"💊"))});
+      const k=mkCard({em:"🌙",title:"Apotheke in der Nacht",meta:"Notfallnummer der Zürcher Apotheken: 0900 55 35 55 (CHF 1.50/Min.). Rund um die Uhr offen in Zürich:",tags:NF_APO24.map(a=>a.n+", "+a.adr),links:[["📞 0900 55 35 55","tel:+41900553555"]]});k.classList.add("info");box.append(k)}
+    if(show("tel")){box.append(node("h2","bez","📞 Wichtige Nummern"));NF_TEL.forEach(([nr,t,tel])=>{n++;box.append(mkCard({em:"📞",title:nr,meta:t,links:[["Anrufen","tel:"+tel]]}))})}
+    document.getElementById("nfcount").textContent=selG?"Hilfe in und um "+GM[selG].name:me?"Hilfe in deiner Nähe":"Hilfe im Kanton Zürich"}
+  render();GO.notfall=c=>{if(GM[c])selG=c;render()};RESET.notfall=()=>{selG=null;kind="all";me=null;msg.parentNode.classList.remove("on");render()};
+  const t=document.getElementById("tile-notfall");if(t)t.textContent="144 · Ärztefon · Apotheken";
+})();
 (function zhDesign(){
   const leu=document.querySelector(".brand .leu");if(!leu)return;
   const waves='<svg class="zhwaves" viewBox="0 0 240 24" width="200" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 8c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/><path d="M2 18c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/></svg>';
@@ -1250,13 +1351,13 @@ function ferienText(c){const g=ferienFor(c),n=g&&nextFerien(g.f);if(!n)return"Fe
       ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
       const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
       const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
-      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Mit Spielecke, Kinderstuhl oder Spielplatz"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"]}[w.id];
+      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Mit Spielecke, Kinderstuhl oder Spielplatz"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"]}[w.id];
       const tb=node("b","",KT?KT[0]:"Für Familien in Zürich");if(KT){tb.append(node("small","",KT[1]));w.classList.add("hk2")}
       bar.append(node("span","backc","←"),l2,tb);ss.append(bar);w.prepend(ss)}
-    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien"}[w.id];
+    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall"}[w.id];
     const hd=w.querySelector(":scope>header"),ti=tileId&&document.querySelector("#"+tileId+" .ico svg");
     if(hd&&ti){const ic=node("span","secico");ic.append(ti.cloneNode(true));hd.prepend(ic)}
-    const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen","view-ferien":"ferien"}[w.id],fs=w.querySelector(".filters");
+    const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen","view-ferien":"ferien","view-notfall":"notfall"}[w.id],fs=w.querySelector(".filters");
     if(key&&fs){const rb=document.createElement("button");rb.type="button";rb.className="resetbtn";rb.textContent="↺ Alle Filter zurücksetzen";
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
@@ -1356,9 +1457,9 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   document.getElementById("home-today").addEventListener("click",()=>{setTimeout(()=>{if(RESET.events)RESET.events();state.t="today";update()},0)});
   const CATS=[["events","Events","📅","events anlass anlässe veranstaltung agenda"],["saison","Saison-Highlights","✨","saison samichlaus advent weihnacht fasnacht ostern sommer herbst"],["ausflug","Ausflugsziele","🏰","ausflug zoo tierpark museum burg schloss aussicht"],
     ["spielplaetze","Spielplätze","🛝","spielplatz spielplätze"],["essen","Restaurants","🍝","restaurant café cafe essen spielecke"],["vereine","Vereine","⚽","verein sport fussball judo pfadi musik turnen"],
-    ["familie","Familienangebote","👨‍👩‍👧","familie kita krippe bibliothek ludothek beratung bad hallenbad"],["raeume","Event-Räume","🎂","raum räume saal geburtstag waldhütte fest"],["ferien","Schulferien","🗓️","ferien schulferien sportferien sommerferien herbstferien frühlingsferien weihnachtsferien schulfrei"]];
-  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie",raeume:"raeume",ferien:"ferien"};
-  const TILE={events:"go-events",saison:"go-saison",ausflug:"go-ausflug",spielplaetze:"go-spiel",essen:"go-essen",vereine:"go-vereine",familie:"go-familie",raeume:"go-raeume",ferien:"go-ferien"};
+    ["familie","Familienangebote","👨‍👩‍👧","familie kita krippe bibliothek ludothek beratung bad hallenbad"],["raeume","Event-Räume","🎂","raum räume saal geburtstag waldhütte fest"],["notfall","Kinderarzt & Notfall","🚑","notfall kinderarzt arzt ärztin apotheke spital kinderspital permanence notruf 144 145 krank fieber"],["ferien","Schulferien","🗓️","ferien schulferien sportferien sommerferien herbstferien frühlingsferien weihnachtsferien schulfrei"]];
+  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie",raeume:"raeume",ferien:"ferien",notfall:"notfall"};
+  const TILE={events:"go-events",saison:"go-saison",ausflug:"go-ausflug",spielplaetze:"go-spiel",essen:"go-essen",vereine:"go-vereine",familie:"go-familie",raeume:"go-raeume",ferien:"go-ferien",notfall:"go-notfall"};
   const q=document.getElementById("home-q"),box=document.getElementById("home-sugg"),chip=document.getElementById("home-chip");
   const orig={};let homeG=null;
   const P=(n,a,b)=>n+" "+(n===1?a:b);
@@ -1370,7 +1471,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     r.essen=P(((window.ESSEN||{}).orte||[]).filter(z=>z.g===c).length,"Restaurant","Restaurants");
     r.vereine=P((((window.VEREINE||{}).gemeinden||{})[c]||[]).length,"Verein","Vereine");
     r.familie=P((((window.FAMILIE||{}).gemeinden||{})[c]||[]).length+(((window.VEREINE||{}).gemeinden||{})[c]||[]).filter(v=>v.k==="familie").length,"Angebot","Angebote")+" + Mütterberatung";
-    const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");r.ferien=ferienText(c);return r}
+    const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");r.ferien=ferienText(c);const GH=window.GESUNDHEIT||{aerzte:[],apo:[]};const na=GH.aerzte.filter(x=>x.g===c).length,np=GH.apo.filter(x=>x.g===c).length;r.notfall=(na+np)+" Praxen und Apotheken";return r}
   function todayBand(c){const ev=D.events.filter(e=>e.von<=today&&e.bis>=today&&(!c||e.gemeinden.includes(c))).length;
     document.getElementById("today-n").textContent=P(ev,"Anlass","Anlässe")+" für Kinder";
     document.querySelector("#home-today small").textContent=c?"Heute in "+GM[c].name:"Heute in deiner Region";
@@ -1408,8 +1509,8 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   setTimeout(()=>{if(saved&&GM[saved])setHome(saved)},50);
 })();
 function route(){
-  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien"})[location.hash]||"home";
-  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall"})[location.hash]||"home";
+  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
