@@ -205,6 +205,25 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .home .tile:hover{transform:translateY(-2px);filter:brightness(1.06)}.home .tile{transition:transform .15s}
 #go-events{--tc:#0a5cb8;order:1}#go-saison{--tc:#d97706;order:2}#go-ausflug{--tc:#0f8a6a;order:3}#go-spiel{--tc:#7c3aed;order:4}#go-essen{--tc:#db2777;order:5}#go-vereine{--tc:#0891b2;order:6}#go-familie{--tc:#4f46e5;order:7}#go-raeume{--tc:#475569;order:8}
 .home .zhband,.home footer.waves{display:none}
+
+/* Startseite: kleine App-Symbole wie Option B, Saison als breite Karte */
+.home .tiles{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px 6px!important}
+.home .tile{min-height:0!important;padding:0!important;background:none!important;box-shadow:none!important;color:var(--ink)!important;align-items:center!important;text-align:center!important;gap:6px!important;position:relative;border-radius:0}
+.home .tile .ico{width:60px!important;height:60px!important;border-radius:20px!important;margin:0 auto!important;background:color-mix(in srgb,var(--tc) 15%,var(--surface))!important;color:var(--tc)!important}
+.home .tile .ico svg{width:28px;height:28px}
+.home .tile .tile-title{font-size:.78rem!important;font-weight:700;color:var(--ink)!important;text-align:center!important;line-height:1.2;hyphens:auto;overflow-wrap:anywhere}
+.home .tile .tile-text{display:none!important}
+.home .tile:hover{transform:translateY(-2px)}
+.home .tile .badge{position:absolute;top:-6px;left:calc(50% + 18px);min-width:24px;height:24px;padding:0 6px;border-radius:999px;background:var(--tc);color:#fff;font:800 .75rem/24px var(--body);text-align:center;box-shadow:0 0 0 2px var(--bg)}
+.home .tile.zero .badge{background:var(--muted)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .home .tile .ico{color:color-mix(in srgb,var(--tc) 55%,#fff)!important;background:color-mix(in srgb,var(--tc) 30%,var(--surface))!important}}
+#go-saison{grid-column:1/-1;order:20!important;display:grid!important;grid-template-columns:auto minmax(0,1fr) auto;column-gap:14px!important;row-gap:2px!important;align-items:center!important;text-align:left!important;gap:14px!important;padding:16px 18px!important;border-radius:20px!important;background:linear-gradient(135deg,#fff4e0,#ffe2e2)!important;color:#0d2340!important;margin-top:6px}
+#go-saison .ico{grid-column:1;grid-row:1/3;width:52px!important;height:52px!important;margin:0!important;background:rgba(255,255,255,.7)!important;color:#d97706!important;font-size:1.7rem}
+#go-saison .tile-title{grid-column:2;grid-row:1;align-self:end;font-size:1.1rem!important;text-align:left!important;color:#0d2340!important}
+#go-saison .tile-text{grid-column:2;grid-row:2;align-self:start;display:block!important;-webkit-line-clamp:unset;color:#5a4a3a!important;font-size:.9rem;text-align:left!important}
+#go-saison .tile-arrow{grid-column:3;grid-row:1/3;display:block!important;color:#d97706;font-size:1.6rem}
+#go-saison .badge{display:none}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #go-saison{background:linear-gradient(135deg,#4a3418,#4a2230)!important}:root:not([data-theme="light"]) #go-saison .tile-title{color:#fff!important}:root:not([data-theme="light"]) #go-saison .tile-text{color:#f1dcc6!important}}
 </style>
 
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
@@ -251,7 +270,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     </a>
     <a class="tile tile-alt" href="#familie" id="go-familie">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 21v-3a5 5 0 0110 0v3M14 21v-2a3.5 3.5 0 017 0v2"/></svg></span>
-      <span class="tile-title">Familienangebote</span>
+      <span class="tile-title">Familien&shy;angebote</span>
       <span class="tile-text">Beratung, Spielgruppen, Kitas, Bibliothek, Ludothek und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
@@ -1063,10 +1082,19 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     document.getElementById("today-n").textContent=P(ev,"Anlass","Anlässe")+" für Kinder";
     document.querySelector("#home-today small").textContent=c?"Heute in "+GM[c].name:"Heute in deiner Region";
     const W=window.WETTER;const g=W&&((c&&W.g[c])||W.g.d||W.g.u);if(g){const i=g.d.indexOf(today);if(i>=0){const[ic]=WX(g.c[i]);document.getElementById("today-w").replaceChildren(document.createTextNode(ic),node("small","",g.tn[i]+"°–"+g.tx[i]+"°"))}}}
+  function saisonCard(c){const t=document.getElementById("go-saison");if(!t)return;const m=n.getMonth()+1;
+    const to=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate()+56));
+    const L=D.events.filter(e=>e.bis>=today&&e.von<=to&&(!c||e.gemeinden.includes(c)));
+    const cur=SEASONS.filter(x=>x[3].includes(m)&&x[0]!=="markt").map(x=>[x,L.filter(e=>x[2].test(e.name)).length]).filter(x=>x[1]).sort((a,b)=>b[1]-a[1])[0];
+    const ic=t.querySelector(".ico");if(cur){ic.textContent=cur[0][1].split(" ")[0];t.querySelector(".tile-title").textContent=cur[0][1].replace(/^\S+\s/,"");
+      t.querySelector(".tile-text").textContent=cur[1]+(cur[1]===1?" Anlass":" Anlässe")+(c?" in "+GM[c].name:"")+" in den nächsten 8 Wochen"}
+    else{t.querySelector(".tile-title").textContent="Saisonale Highlights";t.querySelector(".tile-text").textContent="Was gerade Saison hat"}}
   function setHome(c){homeG=c;try{c?localStorage.setItem("fa-home-g",c):localStorage.removeItem("fa-home-g")}catch(e){}
     const r=c?counts(c):null;
     for(const k in TILE){const t=document.getElementById(TILE[k]);if(!t)continue;const tx=t.querySelector(".tile-text");if(!(k in orig))orig[k]=tx.textContent;
-      tx.textContent=r?r[k]:orig[k];t.classList.toggle("zero",!!r&&/^0 /.test(r[k]))}
+      tx.textContent=r?r[k]:orig[k];t.classList.toggle("zero",!!r&&/^0 /.test(r[k]));
+      let bd=t.querySelector(".badge");if(r){if(!bd){bd=node("span","badge");t.append(bd)}bd.textContent=(r[k].match(/^\d+/)||[""])[0]}else if(bd)bd.remove()}
+    saisonCard(c);
     chip.hidden=!c;if(c)document.getElementById("home-chip-t").textContent="📍 "+GM[c].name;todayBand(c)}
   document.getElementById("home-chip-x").addEventListener("click",()=>setHome(null));
   for(const k in TILE){const t=document.getElementById(TILE[k]);if(t)t.addEventListener("click",()=>{if(homeG&&GO[GOKEY[k]]){const c=homeG;setTimeout(()=>GO[GOKEY[k]](c),0)}})}
@@ -1082,6 +1110,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   q.addEventListener("input",show);q.addEventListener("focus",show);
   q.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=box.querySelector("button");if(b)b.click()}if(e.key==="Escape")box.hidden=true});
   document.addEventListener("click",e=>{if(!e.target.closest(".hsearch"))box.hidden=true});
+  saisonCard(null);
   let saved=null;try{saved=localStorage.getItem("fa-home-g")}catch(e){}
   setTimeout(()=>{if(saved&&GM[saved])setHome(saved)},50);
 })();
