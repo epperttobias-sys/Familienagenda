@@ -23,10 +23,12 @@ jobs:
         continue-on-error: true
       - run: node collect/raeume.mjs
         continue-on-error: true
+      - run: node collect/essen.mjs
+        continue-on-error: true
       - run: |
           git config user.name "familienagenda-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/vereine.js site/gemeinden.js; git add site/familie.js 2>/dev/null || true; git add site/ausflug.js 2>/dev/null || true; git add site/raeume.js 2>/dev/null || true
+          git add site/vereine.js site/gemeinden.js; git add site/familie.js 2>/dev/null || true; git add site/ausflug.js 2>/dev/null || true; git add site/raeume.js 2>/dev/null || true; git add site/essen.js 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Vereine und Familienangebote aktualisiert"
           git pull --rebase -X theirs --autostash origin main || (git rebase --abort; git pull --no-rebase -X ours origin main)
           git push
