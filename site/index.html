@@ -294,7 +294,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <div class="near"><button type="button" id="es-near" class="nearbtn">📍 Nach Entfernung sortieren</button><p class="note" id="es-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p></div>
   <p id="escount" class="count-line"></p>
   <main id="essen"></main>
-  <footer>Quelle: OpenStreetMap, jede Woche aktualisiert. Ein Ort erscheint hier, wenn dort eine Spielecke, Kinderstühle oder ein Kindermenü eingetragen sind oder wenn ein Spielplatz höchstens 60 m entfernt liegt. Öffnungszeiten bitte vor dem Besuch prüfen. <span id="esstand"></span></footer>
+  <footer>Quelle: OpenStreetMap, jede Woche aktualisiert. Ein Ort erscheint hier, wenn dort eine Spielecke, Kinderstühle oder ein Kindermenü eingetragen sind oder wenn ein Spielplatz höchstens 60 m entfernt liegt. Orte mit ✅ haben ein ausdrückliches Kinderangebot laut Familien-Ratgebern wie kinderregion.ch, KidZH, Zürich Tourismus, familienleben.ch, lolabrause.ch und femelle.ch, die Quelle ist jeweils verlinkt. Öffnungszeiten bitte vor dem Besuch prüfen. <span id="esstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-familie" hidden>
@@ -370,6 +370,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="gemeinden.js"></script>
 <script src="raeume.js"></script>
 <script src="essen.js"></script>
+<script src="essen-plus.js"></script>
 <script src="wetter.js"></script>
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
@@ -907,12 +908,19 @@ const SEASONS=[
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
-const EFS=[["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"]];
+const EFS=[["geprueft","✅ Ausdrückliches Kinderangebot (geprüft)"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"]];
 const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_cream","Glacé"],["biergarten","Gartenwirtschaften"]];
 (function setupEssen(){
   const E=window.ESSEN,box=document.getElementById("essen"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   if(!E){box.append(node("p","empty","Die Restaurants werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("esstand").textContent="Stand: "+E.stand.split("-").reverse().join(".")+".";
+  const byN={};for(const c in GM)byN[GM[c].name]=c;
+  const simp=x=>x.toLowerCase().replace(/restaurant|ristorante|gasthaus|wirtschaft|kafi|café|cafe|hofrestaurant|gartenrestaurant|landgasthof|[^a-zäöü0-9 ]/g," ").split(/\s+/).filter(w=>w.length>3);
+  (window.ESSEN_PLUS||[]).forEach(p=>{const g=byN[p.gn];if(!g)return;const ws=simp(p.n);
+    const key=[...new Set(ws)].sort().join(" "),m=key&&E.orte.find(z=>z.g===g&&[...new Set(simp(z.n))].sort().join(" ")===key);
+    if(m){m.ok=1;m.t=p.t;m.q=p.q;m.f=[...new Set(["geprueft",...p.f,...m.f])]}
+    else E.orte.push({g,n:p.n,a:"restaurant",f:["geprueft",...p.f],ok:1,t:p.t,q:p.q,lat:p.lat,lon:p.lon,ap:1})});
+  E.orte.sort((a,b)=>(b.ok||0)-(a.ok||0));
   document.getElementById("tile-essen").textContent=E.orte.length+" Orte mit Spielecke, Kinderstuhl oder Spielplatz nebenan";
   const codes=Object.keys(GM).filter(c=>E.orte.some(z=>z.g===c));let selG=null,selF=null,art="all",me=null;
   const FL=Object.fromEntries(EFS),AL={restaurant:"Restaurant",cafe:"Café",ice_cream:"Glacé",biergarten:"Gartenwirtschaft"};
@@ -947,12 +955,15 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     EFS.forEach(([k])=>document.getElementById("ef-"+k).checked=!!selF&&selF.has(k));
     const fs=selF?EFS.filter(([k])=>selF.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ef-sum").textContent=!selF?"Alle Merkmale":fs.length===1?fs[0]:fs.length+" Merkmale";
     EAS.forEach(([v,t])=>{document.getElementById("ea-"+v).checked=art===v;if(art===v)document.getElementById("ea-sum").textContent=t})}
-  function li(z){const l=document.createElement("li");const t=node("span","t",z.n);if(z._d!=null)t.append(node("span","dist"," · "+(z._d<1?Math.round(z._d*100)*10+" m":z._d.toFixed(1).replace(".",",")+" km")));l.append(t);
+  function li(z){const l=document.createElement("li");const t=node("span","t",z.n);if(z._d!=null)t.append(node("span","dist"," · "+(z.ap?"ca. ":"")+(z._d<1?Math.round(z._d*100)*10+" m":z._d.toFixed(1).replace(".",",")+" km")));l.append(t);
     l.append(node("span","m",[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · ")));
-    const ch=node("div","chips");z.f.forEach(k=>ch.append(node("span","",k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":FL[k])));l.append(ch);
+    if(z.t)l.append(node("span","d","✅ "+z.t));
+    const ch=node("div","chips");z.f.filter(k=>k!=="geprueft").forEach(k=>ch.append(node("span","",k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":k==="spielplatz"&&z.ok?"🛝 Spielplatz":FL[k])));l.append(ch);
     if(z.oh)l.append(node("span","m","🕒 "+ohDe(z.oh)));
-    const vl=node("div","vl");if(z.w)vl.append(lk("Website",z.w));
-    vl.append(lk("Karte","https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(z.n)+"&query="+z.lat+","+z.lon),lk("Route","https://www.google.com/maps/dir/?api=1&destination="+z.lat+","+z.lon));l.append(vl);return l}
+    const vl=node("div","vl");if(z.w)vl.append(lk("Website",z.w));if(z.q)vl.append(lk("Quelle",z.q));
+    const gq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));
+    vl.append(z.ap?lk("Karte","https://www.google.com/maps/search/?api=1&query="+gq):lk("Karte","https://www.google.com/maps/search/?api=1&query="+z.lat+","+z.lon),
+      z.ap?lk("Route","https://www.google.com/maps/dir/?api=1&destination="+gq):lk("Route","https://www.google.com/maps/dir/?api=1&destination="+z.lat+","+z.lon));l.append(vl);return l}
   function render(){sync();box.replaceChildren();
     let L=E.orte.filter(z=>(!selG||selG.has(z.g))&&(!selF||[...selF].every(k=>z.f.includes(k)))&&(art==="all"||z.a===art)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
     document.getElementById("escount").textContent=L.length===1?"1 Ort":L.length+" Orte";
