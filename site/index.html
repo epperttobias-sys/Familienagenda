@@ -648,6 +648,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="raeume.js"></script>
 <script src="essen.js"></script>
 <script src="essen-plus.js"></script>
+<script src="essen-web.js"></script>
 <script src="wetter.js"></script>
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
@@ -1553,6 +1554,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     const key=[...new Set(ws)].sort().join(" "),m=key&&E.orte.find(z=>z.g===g&&[...new Set(simp(z.n))].sort().join(" ")===key);
     if(m){m.ok=1;m.t=p.t;m.q=p.q;if(p.w&&!m.w)m.w=p.w;m.f=[...new Set(["geprueft",...p.f,...m.f])]}
     else E.orte.push({g,n:p.n,a:"restaurant",f:["geprueft",...p.f],ok:1,t:p.t,q:p.q,w:p.w||"",lat:p.lat,lon:p.lon,ap:1})});
+  const EW=window.ESSEN_WEB||{};E.orte.forEach(z=>{if(!z.w){const u=EW[z.n+"|"+((GM[z.g]||{}).name||"")];if(u)z.w=u}});
   E.orte.sort((a,b)=>(b.ok||0)-(a.ok||0));
   document.getElementById("tile-essen").textContent=E.orte.length+" Orte mit Spielecke, Kinderstuhl oder Spielplatz nebenan";
   const codes=Object.keys(GM).filter(c=>E.orte.some(z=>z.g===c));let selG=null,selF=null,art="all",me=null;
