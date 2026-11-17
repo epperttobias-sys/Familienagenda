@@ -190,6 +190,9 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .sugg{position:absolute;z-index:30;left:0;right:0;top:calc(100% + 6px);background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 28px rgba(0,0,0,.16);padding:6px;display:grid;gap:2px;max-height:60vh;overflow:auto}
 .sugg a,.sugg button{display:flex;gap:10px;align-items:center;text-align:left;font:600 1rem var(--body);padding:11px 12px;border-radius:10px;border:0;background:none;color:var(--ink);cursor:pointer;text-decoration:none}
 .sugg a:hover,.sugg button:hover,.sugg .on{background:var(--soft)}.sugg .h{font-size:.75rem;font-weight:800;color:var(--muted);padding:8px 12px 2px;text-transform:uppercase;letter-spacing:.05em}
+.hchip{display:flex;align-items:center;gap:10px;justify-self:start;margin-top:-6px;background:var(--accent);color:var(--accent-ink);font-weight:800;padding:8px 8px 8px 16px;border-radius:999px;box-shadow:0 4px 12px rgba(10,92,184,.25)}
+.hchip button{border:0;background:rgba(255,255,255,.25);color:inherit;width:30px;height:30px;border-radius:50%;font-size:1rem;cursor:pointer}
+.home .tile.zero{opacity:.55}
 .today{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 18px;border-radius:20px;background:linear-gradient(135deg,#0a5cb8,#3d8ae6);color:#fff;text-decoration:none;box-shadow:0 8px 20px rgba(10,92,184,.25)}
 .today small{display:block;opacity:.9;font-size:.85rem}.today b{display:block;font-size:1.15rem;margin:2px 0}.today .tw{font-size:2.2rem;text-align:center;line-height:1}.today .tw small{font-size:.8rem;margin-top:4px}
 .home .tiles{grid-template-columns:1fr 1fr;gap:12px}
@@ -213,6 +216,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <div><h1>Für Familien in Zürich <span class="heart" aria-label="Herz">♥</span></h1><p class="claim">Was machen wir heute?</p></div>
   </header>
   <div class="hsearch"><input type="search" id="home-q" placeholder="🔍 Gemeinde oder Thema suchen …" aria-label="Gemeinde oder Thema suchen" autocomplete="off"><div id="home-sugg" class="sugg" hidden></div></div>
+  <div id="home-chip" class="hchip" hidden><span id="home-chip-t"></span><button type="button" id="home-chip-x" aria-label="Gemeinde-Auswahl aufheben">✕</button></div>
   <a class="today" href="#events" id="home-today"><div><small>Heute in deiner Region</small><b id="today-n">Anlässe für Kinder</b><small id="today-s"></small></div><div class="tw" id="today-w"></div></a>
   <nav class="tiles" aria-label="Bereiche">
     <a class="tile" href="#events" id="go-events">
@@ -574,6 +578,7 @@ function roomCard(r,showB){
   if(r.rooms.length){const ul=document.createElement("ul");r.rooms.forEach(t=>ul.append(roomLi(t)));c.append(ul)}
   if(r.note)c.append(node("p","note",r.note));
   const ls=node("div","links");r.links.forEach(([t,u])=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";ls.append(a)});c.append(ls);return c}
+GO.raeume=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];rstate.sel=new Set(g?[g.name]:[]);renderRooms()};
 RESET.raeume=()=>{rstate.sel=null;rstate.sort="name";renderRooms()};
 function renderRooms(){
   const box=document.getElementById("rooms");box.replaceChildren();
@@ -1040,19 +1045,45 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   const CATS=[["events","Events","📅","events anlass anlässe veranstaltung agenda"],["saison","Saison-Highlights","✨","saison samichlaus advent weihnacht fasnacht ostern sommer herbst"],["ausflug","Ausflugsziele","🏰","ausflug zoo tierpark museum burg schloss aussicht"],
     ["spielplaetze","Spielplätze","🛝","spielplatz spielplätze"],["essen","Restaurants","🍝","restaurant café cafe essen spielecke"],["vereine","Vereine","⚽","verein sport fussball judo pfadi musik turnen"],
     ["familie","Familienangebote","👨‍👩‍👧","familie kita krippe bibliothek ludothek beratung bad hallenbad"],["raeume","Event-Räume","🎂","raum räume saal geburtstag waldhütte fest"]];
-  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie"};
-  const q=document.getElementById("home-q"),box=document.getElementById("home-sugg");
-  const go=(view,code)=>{box.hidden=true;q.value="";location.hash="#"+view;if(code&&GO[GOKEY[view]])setTimeout(()=>GO[GOKEY[view]](code),0)};
+  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie",raeume:"raeume"};
+  const TILE={events:"go-events",saison:"go-saison",ausflug:"go-ausflug",spielplaetze:"go-spiel",essen:"go-essen",vereine:"go-vereine",familie:"go-familie",raeume:"go-raeume"};
+  const q=document.getElementById("home-q"),box=document.getElementById("home-sugg"),chip=document.getElementById("home-chip");
+  const orig={};let homeG=null;
+  const P=(n,a,b)=>n+" "+(n===1?a:b);
+  function counts(c){const g=GM[c],nm=g.name,r={};
+    r.events=P(D.events.filter(e=>e.bis>=today&&e.gemeinden.includes(c)).length,"Anlass","Anlässe")+" in "+nm;
+    r.saison=P(D.events.filter(e=>e.bis>=today&&e.gemeinden.includes(c)&&SEASONS.some(x=>x[2].test(e.name))).length,"Highlight","Highlights")+" in "+nm;
+    r.ausflug=P(((window.AUSFLUG||{}).ziele||[]).filter(z=>z.g===c).length,"Ausflugsziel","Ausflugsziele");
+    r.spielplaetze=P((((window.SPIELPLAETZE||{}).gemeinden||{})[nm]||[]).length,"Spielplatz","Spielplätze");
+    r.essen=P(((window.ESSEN||{}).orte||[]).filter(z=>z.g===c).length,"Restaurant","Restaurants");
+    r.vereine=P((((window.VEREINE||{}).gemeinden||{})[c]||[]).length,"Verein","Vereine");
+    r.familie=P((((window.FAMILIE||{}).gemeinden||{})[c]||[]).length+(((window.VEREINE||{}).gemeinden||{})[c]||[]).filter(v=>v.k==="familie").length,"Angebot","Angebote")+" + Mütterberatung";
+    const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");return r}
+  function todayBand(c){const ev=D.events.filter(e=>e.von<=today&&e.bis>=today&&(!c||e.gemeinden.includes(c))).length;
+    document.getElementById("today-n").textContent=P(ev,"Anlass","Anlässe")+" für Kinder";
+    document.querySelector("#home-today small").textContent=c?"Heute in "+GM[c].name:"Heute in deiner Region";
+    const W=window.WETTER;const g=W&&((c&&W.g[c])||W.g.d||W.g.u);if(g){const i=g.d.indexOf(today);if(i>=0){const[ic]=WX(g.c[i]);document.getElementById("today-w").replaceChildren(document.createTextNode(ic),node("small","",g.tn[i]+"°–"+g.tx[i]+"°"))}}}
+  function setHome(c){homeG=c;try{c?localStorage.setItem("fa-home-g",c):localStorage.removeItem("fa-home-g")}catch(e){}
+    const r=c?counts(c):null;
+    for(const k in TILE){const t=document.getElementById(TILE[k]);if(!t)continue;const tx=t.querySelector(".tile-text");if(!(k in orig))orig[k]=tx.textContent;
+      tx.textContent=r?r[k]:orig[k];t.classList.toggle("zero",!!r&&/^0 /.test(r[k]))}
+    chip.hidden=!c;if(c)document.getElementById("home-chip-t").textContent="📍 "+GM[c].name;todayBand(c)}
+  document.getElementById("home-chip-x").addEventListener("click",()=>setHome(null));
+  for(const k in TILE){const t=document.getElementById(TILE[k]);if(t)t.addEventListener("click",()=>{if(homeG&&GO[GOKEY[k]]){const c=homeG;setTimeout(()=>GO[GOKEY[k]](c),0)}})}
+  document.getElementById("home-today").addEventListener("click",()=>{if(homeG){const c=homeG;setTimeout(()=>{state.g=new Set([c]);update()},10)}});
+  const go=(view)=>{box.hidden=true;q.value="";location.hash="#"+view};
   function show(){const v=q.value.trim().toLowerCase();box.replaceChildren();if(v.length<2){box.hidden=true;return}
     const cats=CATS.filter(c=>c[1].toLowerCase().includes(v)||c[3].split(" ").some(w=>w.startsWith(v)||v.startsWith(w)));
-    const gs=Object.keys(GM).filter(c=>GM[c].name.toLowerCase().startsWith(v)).concat(Object.keys(GM).filter(c=>!GM[c].name.toLowerCase().startsWith(v)&&GM[c].name.toLowerCase().includes(v))).slice(0,4);
-    gs.forEach(c=>{box.append(node("div","h",GM[c].name+" · Bezirk "+(GM[c].bezirk||"")));
-      CATS.filter(x=>x[0]!=="raeume").forEach(([k,t,ic])=>{const b=document.createElement("button");b.type="button";b.textContent=ic+" "+t+" in "+GM[c].name;b.addEventListener("click",()=>go(k,c));box.append(b)})});
+    const gs=Object.keys(GM).filter(c=>GM[c].name.toLowerCase().startsWith(v)).concat(Object.keys(GM).filter(c=>!GM[c].name.toLowerCase().startsWith(v)&&GM[c].name.toLowerCase().includes(v))).slice(0,6);
+    if(gs.length){box.append(node("div","h","Gemeinde wählen"));gs.forEach(c=>{const b=document.createElement("button");b.type="button";b.textContent="📍 "+GM[c].name+" · Bezirk "+(GM[c].bezirk||"");
+      b.addEventListener("click",()=>{box.hidden=true;q.value="";q.blur();setHome(c)});box.append(b)})}
     if(cats.length){box.append(node("div","h","Bereiche"));cats.forEach(([k,t,ic])=>{const b=document.createElement("button");b.type="button";b.textContent=ic+" "+t;b.addEventListener("click",()=>go(k));box.append(b)})}
     if(!box.childNodes.length)box.append(node("div","h","Nichts gefunden"));box.hidden=false}
   q.addEventListener("input",show);q.addEventListener("focus",show);
   q.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=box.querySelector("button");if(b)b.click()}if(e.key==="Escape")box.hidden=true});
   document.addEventListener("click",e=>{if(!e.target.closest(".hsearch"))box.hidden=true});
+  let saved=null;try{saved=localStorage.getItem("fa-home-g")}catch(e){}
+  setTimeout(()=>{if(saved&&GM[saved])setHome(saved)},50);
 })();
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen"})[location.hash]||"home";
