@@ -204,6 +204,12 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
       <span class="tile-text" id="tile-ausflug">Tierparks, Museen, Burgen, Aussichtstürme und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
+    <a class="tile tile-alt" href="#essen" id="go-essen">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v8M4 3v5a3 3 0 006 0V3M7 11v10M17 3c-2 2-3 4-3 7h3v11"/></svg></span>
+      <span class="tile-title">Kinderfreundliche Restaurants</span>
+      <span class="tile-text" id="tile-essen">Mit Spielecke, Kinderstuhl oder Spielplatz nebenan</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
     <a class="tile tile-alt" href="#familie" id="go-familie">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 21v-3a5 5 0 0110 0v3M14 21v-2a3.5 3.5 0 017 0v2"/></svg></span>
       <span class="tile-title">Familienangebote der Gemeinde</span>
@@ -272,6 +278,23 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <p id="aucount" class="count-line"></p>
   <main id="ausflug"></main>
   <footer>Quelle: OpenStreetMap, jede Woche aktualisiert. Öffnungszeiten und Preise bitte vor dem Besuch auf der Website prüfen. «Auch bei Regen» gilt für Museen und Hallen. <span id="austand"></span></footer>
+</div>
+
+<div class="wrap" id="view-essen" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header>
+    <h1>Kinderfreundliche Restaurants</h1>
+    <p class="lead">Restaurants, Cafés und Glacé-Stände mit Spielecke, Kinderstuhl, Kindermenü oder einem Spielplatz direkt nebenan.</p>
+  </header>
+  <section class="filters" aria-label="Filter Restaurants">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="eg-dd"><summary id="eg-sum">Alle Gemeinden</summary><div class="dd-panel" id="eg-panel"><input type="search" class="dd-search" id="eg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="eg-all">Alle</button><button type="button" id="eg-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Merkmal</b><details class="dd" id="ef-dd"><summary id="ef-sum">Alle Merkmale</summary><div class="dd-panel" id="ef-panel"><div class="dd-actions"><button type="button" id="ef-all">Alle Merkmale</button></div></div></details></div>
+    <div class="row"><b>Art</b><details class="dd" id="ea-dd"><summary id="ea-sum">Alle</summary><div class="dd-panel" id="ea-panel"></div></details></div>
+  </section>
+  <div class="near"><button type="button" id="es-near" class="nearbtn">📍 Nach Entfernung sortieren</button><p class="note" id="es-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p></div>
+  <p id="escount" class="count-line"></p>
+  <main id="essen"></main>
+  <footer>Quelle: OpenStreetMap, jede Woche aktualisiert. Ein Ort erscheint hier, wenn dort eine Spielecke, Kinderstühle oder ein Kindermenü eingetragen sind oder wenn ein Spielplatz höchstens 60 m entfernt liegt. Öffnungszeiten bitte vor dem Besuch prüfen. <span id="esstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-familie" hidden>
@@ -346,6 +369,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="events.js"></script>
 <script src="gemeinden.js"></script>
 <script src="raeume.js"></script>
+<script src="essen.js"></script>
 <script src="wetter.js"></script>
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
@@ -878,14 +902,72 @@ const SEASONS=[
     const l=leu.cloneNode(true);l.setAttribute("aria-hidden","true");l.removeAttribute("role");a.append(l,document.createTextNode("Für Familien in Zürich"));
     const band=document.createElement("div");band.className="zhband";band.setAttribute("aria-hidden","true");
     w.prepend(a,band);
-    const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel"}[w.id],fs=w.querySelector(".filters");
+    const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen"}[w.id],fs=w.querySelector(".filters");
     if(key&&fs){const rb=document.createElement("button");rb.type="button";rb.className="resetbtn";rb.textContent="↺ Alle Filter zurücksetzen";
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
+const EFS=[["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"]];
+const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_cream","Glacé"],["biergarten","Gartenwirtschaften"]];
+(function setupEssen(){
+  const E=window.ESSEN,box=document.getElementById("essen"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
+  if(!E){box.append(node("p","empty","Die Restaurants werden gerade gesammelt. Schau bald wieder vorbei."));return}
+  document.getElementById("esstand").textContent="Stand: "+E.stand.split("-").reverse().join(".")+".";
+  document.getElementById("tile-essen").textContent=E.orte.length+" Orte mit Spielecke, Kinderstuhl oder Spielplatz nebenan";
+  const codes=Object.keys(GM).filter(c=>E.orte.some(z=>z.g===c));let selG=null,selF=null,art="all",me=null;
+  const FL=Object.fromEntries(EFS),AL={restaurant:"Restaurant",cafe:"Café",ice_cream:"Glacé",biergarten:"Gartenwirtschaft"};
+  const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
+  const gp=document.getElementById("eg-panel"),groups={};codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  const curG=()=>new Set(selG||codes),setG=set=>{selG=set.size===codes.length?null:set;render()};
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const list=groups[b].sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de"));
+    const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.addEventListener("click",()=>{const c=curG(),on=!list.every(x=>c.has(x));list.forEach(x=>on?c.add(x):c.delete(x));setG(c)});head.append(hb);gp.append(head);
+    list.forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="eg-"+c;l.dataset.name=GM[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const s=curG();i.checked?s.add(c):s.delete(c);setG(s)});l.append(i,node("span","",GM[c].name),node("span","n",String(E.orte.filter(z=>z.g===c).length)));gp.append(l)})});
+  document.getElementById("eg-all").addEventListener("click",()=>setG(new Set(codes)));
+  document.getElementById("eg-none").addEventListener("click",()=>{selG=new Set();render()});
+  const gs=document.getElementById("eg-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  const fp=document.getElementById("ef-panel");
+  EFS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="ef-"+k;
+    i.addEventListener("change",()=>{const s=new Set(selF||[]);i.checked?s.add(k):s.delete(k);selF=s.size?s:null;render()});l.append(i,node("span","",t+" ("+E.orte.filter(z=>z.f.includes(k)).length+")"));fp.append(l)});
+  document.getElementById("ef-all").addEventListener("click",()=>{selF=null;render()});
+  const ap=document.getElementById("ea-panel");
+  EAS.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="ea";i.id="ea-"+v;
+    i.addEventListener("change",()=>{art=v;render();document.getElementById("ea-dd").open=false});l.append(i,node("span","",t));ap.append(l)});
+  const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
+  document.getElementById("es-near").addEventListener("click",()=>{const msg=document.getElementById("es-near-msg");
+    if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht …";
+    navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
+      e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
+  RESET.essen=()=>{selG=null;selF=null;art="all";me=null;document.getElementById("es-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
+  function sync(){codes.forEach(c=>{const i=document.getElementById("eg-"+c);if(i)i.checked=!selG||selG.has(c)});
+    const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("eg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
+    EFS.forEach(([k])=>document.getElementById("ef-"+k).checked=!!selF&&selF.has(k));
+    const fs=selF?EFS.filter(([k])=>selF.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ef-sum").textContent=!selF?"Alle Merkmale":fs.length===1?fs[0]:fs.length+" Merkmale";
+    EAS.forEach(([v,t])=>{document.getElementById("ea-"+v).checked=art===v;if(art===v)document.getElementById("ea-sum").textContent=t})}
+  function li(z){const l=document.createElement("li");const t=node("span","t",z.n);if(z._d!=null)t.append(node("span","dist"," · "+(z._d<1?Math.round(z._d*100)*10+" m":z._d.toFixed(1).replace(".",",")+" km")));l.append(t);
+    l.append(node("span","m",[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · ")));
+    const ch=node("div","chips");z.f.forEach(k=>ch.append(node("span","",k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":FL[k])));l.append(ch);
+    if(z.oh)l.append(node("span","m","🕒 "+ohDe(z.oh)));
+    const vl=node("div","vl");if(z.w)vl.append(lk("Website",z.w));
+    vl.append(lk("Karte","https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(z.n)+"&query="+z.lat+","+z.lon),lk("Route","https://www.google.com/maps/dir/?api=1&destination="+z.lat+","+z.lon));l.append(vl);return l}
+  function render(){sync();box.replaceChildren();
+    let L=E.orte.filter(z=>(!selG||selG.has(z.g))&&(!selF||[...selF].every(k=>z.f.includes(k)))&&(art==="all"||z.a===art)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
+    document.getElementById("escount").textContent=L.length===1?"1 Ort":L.length+" Orte";
+    if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es keine Einträge."));return}
+    if(me){L.sort((a,b)=>a._d-b._d);const ul=node("ul","au");L.slice(0,60).forEach(z=>ul.append(li(z)));box.append(ul);return}
+    const byB={};L.forEach(z=>{const g=GM[z.g]||{};(byB[g.bezirk||"Weitere"]=byB[g.bezirk||"Weitere"]||{});(byB[g.bezirk||"Weitere"][z.g]=byB[g.bezirk||"Weitere"][z.g]||[]).push(z)});
+    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
+      Object.keys(byB[b]).sort((x,y)=>GM[x].name.localeCompare(GM[y].name,"de")).forEach(c=>{const S=byB[b][c];const d=node("details","spg"),su=document.createElement("summary");
+        su.append(node("span","",GM[c].name),node("span","n",S.length===1?"1 Ort":S.length+" Orte"));d.append(su);if(selF||art!=="all"||(selG&&selG.size<=3))d.open=true;
+        let done=false;const fill=()=>{if(done)return;done=true;const ul=node("ul","au");S.forEach(z=>ul.append(li(z)));d.append(ul)};if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})})}
+  render();
+})();
 function route(){
-  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison"})[location.hash]||"home";
-  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen"})[location.hash]||"home";
+  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
