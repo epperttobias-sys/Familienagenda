@@ -246,8 +246,10 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <p class="lead" id="saison-lead">Was gerade Saison hat, aus den Agenden aller Gemeinden.</p>
   </header>
   <section class="filters" aria-label="Filter Highlights">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="sg-dd"><summary id="sg-sum">Alle Gemeinden</summary><div class="dd-panel" id="sg-panel"><input type="search" class="dd-search" id="sg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="sg-all">Alle</button><button type="button" id="sg-none">Keine</button></div></div></details></div>
     <div class="row"><b>Thema</b><details class="dd" id="sk-dd"><summary id="sk-sum">Alle Themen</summary><div class="dd-panel" id="sk-panel"></div></details></div>
     <div class="row"><b>Wann</b><details class="dd" id="st-dd"><summary id="st-sum">Nächste 8 Wochen</summary><div class="dd-panel" id="st-panel"></div></details></div>
+    <div class="row"><b>Ordnen nach</b><details class="dd" id="so-dd"><summary id="so-sum">Thema</summary><div class="dd-panel" id="so-panel"></div></details></div>
   </section>
   <p id="sacount" class="count-line"></p>
   <main id="saison"></main>
@@ -792,7 +794,26 @@ const SEASONS=[
   const ALL=D.events.filter(e=>e.bis>=today).map(e=>({e,k:theme(e),show:e.von>today?e.von:today})).filter(x=>x.k);
   const order=SEASONS.slice().sort((a,b)=>(b[3].includes(m)?1:0)-(a[3].includes(m)?1:0)).map(x=>x[0]);
   const TL=Object.fromEntries(SEASONS.map(([k,t])=>[k,t]));
-  let selK=null,weeks=8;
+  let selK=null,weeks=8,selG=null,ord="thema";
+  const GN=c=>(D.gemeinden[c]||{}).name||c;
+  const codes=Object.keys(D.gemeinden).filter(c=>ALL.some(x=>x.e.gemeinden.includes(c)));
+  const gp=document.getElementById("sg-panel"),groups={};
+  codes.forEach(c=>{const b=D.gemeinden[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  const curG=()=>new Set(selG||codes),setG=set=>{selG=set.size===codes.length?null:set;render()};
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const list=groups[b].sort((x,y)=>GN(x).localeCompare(GN(y),"de"));
+    const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.addEventListener("click",()=>{const c=curG(),on=!list.every(x=>c.has(x));list.forEach(x=>on?c.add(x):c.delete(x));setG(c)});head.append(hb);gp.append(head);
+    list.forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="sg-"+c;l.dataset.name=GN(c).toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const s=curG();i.checked?s.add(c):s.delete(c);setG(s)});
+      l.append(i,node("span","",GN(c)),node("span","n",String(ALL.filter(x=>x.e.gemeinden.includes(c)).length)));gp.append(l)})});
+  document.getElementById("sg-all").addEventListener("click",()=>setG(new Set(codes)));
+  document.getElementById("sg-none").addEventListener("click",()=>{selG=new Set();render()});
+  const gs=document.getElementById("sg-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  const OP=[["thema","Thema"],["gemeinde","Gemeinde (A–Z)"],["datum","Datum"]],op=document.getElementById("so-panel");
+  OP.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="so";i.id="so-"+v;
+    i.addEventListener("change",()=>{ord=v;render();document.getElementById("so-dd").open=false});l.append(i,node("span","",t));op.append(l)});
   const cur=SEASONS.filter(([k,,,ms])=>ms.includes(m)&&k!=="markt"&&ALL.some(x=>x.k===k)).map(([,t])=>t.replace(/^\S+\s/,""));
   document.getElementById("tile-saison").textContent=cur.length?"Jetzt: "+cur.join(", "):"Was gerade Saison hat";
   document.getElementById("saison-lead").textContent=(cur.length?"Gerade Saison: "+cur.join(", ")+". ":"")+"Die Highlights stammen aus den Agenden aller Gemeinden.";
@@ -808,15 +829,24 @@ const SEASONS=[
     const to=weeks?iso(add(pd(today),weeks*7)):"9999-12-31";
     document.querySelectorAll("#sk-panel input").forEach(i=>i.checked=i.id==="sk-"+(selK||"all"));document.getElementById("sk-sum").textContent=selK?TL[selK].replace(/^\S+\s/,""):"Alle Themen";
     document.querySelectorAll("#st-panel input").forEach(i=>i.checked=i.id==="st-"+weeks);document.getElementById("st-sum").textContent=weeks?"Nächste "+weeks+" Wochen":"Alle Termine";
-    const L=ALL.filter(x=>x.show<=to&&(!selK||x.k===selK));
+    codes.forEach(c=>{const i=document.getElementById("sg-"+c);if(i)i.checked=!selG||selG.has(c)});
+    const names=(selG?[...selG]:codes).map(GN);document.getElementById("sg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
+    OP.forEach(([v,t])=>{document.getElementById("so-"+v).checked=ord===v;if(ord===v)document.getElementById("so-sum").textContent=t});
+    const L=ALL.filter(x=>x.show<=to&&(!selK||x.k===selK)&&(!selG||x.e.gemeinden.some(c=>selG.has(c))));
     document.getElementById("sacount").textContent=L.length===1?"1 Highlight":L.length+" Highlights";
     if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es gerade keine Highlights. Wähle einen längeren Zeitraum."));return}
-    order.forEach(k=>{const S=L.filter(x=>x.k===k).sort((a,b)=>a.show.localeCompare(b.show));if(!S.length)return;
-      box.append(node("h2","bez",TL[k]+" ("+S.length+")"));const ul=node("ul","sa");
-      S.forEach(({e,show})=>{const li=document.createElement("li"),d=pd(show),dt=node("div","dt");dt.append(node("strong","",d.getDate()),node("span","",WD[d.getDay()]+" "+MON[d.getMonth()].slice(0,3)));
+    const sec=[];
+    if(ord==="thema")order.forEach(k=>sec.push([TL[k],L.filter(x=>x.k===k)]));
+    else if(ord==="gemeinde"){const by={};L.forEach(x=>x.e.gemeinden.forEach(c=>{if(!selG||selG.has(c))(by[c]=by[c]||[]).push(x)}));
+      Object.keys(by).sort((a,b)=>GN(a).localeCompare(GN(b),"de")).forEach(c=>sec.push([GN(c),by[c]]))}
+    else{const by={};L.forEach(x=>{const d=pd(x.show),k=MON[d.getMonth()]+" "+d.getFullYear();(by[x.show.slice(0,7)]=by[x.show.slice(0,7)]||[k,[]])[1].push(x)});
+      Object.keys(by).sort().forEach(k=>sec.push(by[k]))}
+    sec.forEach(([title,S0])=>{const S=S0.slice().sort((a,b)=>a.show.localeCompare(b.show));if(!S.length)return;
+      box.append(node("h2","bez",title+" ("+S.length+")"));const ul=node("ul","sa");
+      S.forEach(({e,show,k})=>{const li=document.createElement("li"),d=pd(show),dt=node("div","dt");dt.append(node("strong","",d.getDate()),node("span","",WD[d.getDay()]+" "+MON[d.getMonth()].slice(0,3)));
         const body=node("div"),a=node("a","t",e.name);a.href=e.url||("https://"+(D.gemeinden[e.gemeinden[0]]||{}).domain+"/_rte/anlass/"+e.id);a.target="_blank";a.rel="noopener";body.append(a);
         const bits=[e.gemeinden.map(c=>(D.gemeinden[c]||{}).name).filter(Boolean).join(", ")];if(e.time)bits.push(e.time+" Uhr");if(e.ort)bits.push(e.ort);if(e.age)bits.push(e.age.label);
-        const pl=place(e);if(pl)bits.push(pl==="in"?"Drinnen":"Draussen");body.append(node("div","m",bits.join(" · ")));
+        const pl=place(e);if(pl)bits.push(pl==="in"?"Drinnen":"Draussen");if(ord!=="thema")bits.unshift(TL[k].split(" ")[0]);body.append(node("div","m",bits.join(" · ")));
         const w=wxFor(e,show);if(w){const[ic,tx]=WX(w.c);body.append(node("div","m",ic+" "+tx+", "+w.tn+"° bis "+w.tx+"°"))}
         li.append(dt,body);ul.append(li)});box.append(ul)})}
   render();
