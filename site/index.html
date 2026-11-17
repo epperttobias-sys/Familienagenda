@@ -268,7 +268,10 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 /* ohne Kopfkarte (Variante K2) */
 .wrap.hk2>header{display:none!important}
 .wrap.hk2 .subbar b{font-size:1.25rem}
-.wrap.hk2 .subbar b small{display:block;font:600 .78rem var(--body);color:#2c4a70}
+.wrap.hk2 .subbar{right:16%}
+.wrap.hk2 .subbar b small{display:block;font:600 .8rem/1.25 var(--body);color:#2c4a70;margin-top:2px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .wrap.hk2 .subbar b small{color:#cfe0f7}}
+:root[data-theme="dark"] .wrap.hk2 .subbar b small{color:#cfe0f7}
 .wrap.hk2>.filters{margin-top:-30px;position:relative}
 /* Unterseiten: Variante A1 */
 .wrap:not(.home) .filters{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:8px;background:none!important;box-shadow:none!important;padding:0!important}
@@ -1124,7 +1127,9 @@ const SEASONS=[
       ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
       const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
       const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
-      bar.append(node("span","backc","←"),l2,node("b","","Für Familien in Zürich"));ss.append(bar);w.prepend(ss)}
+      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Mit Spielecke, Kinderstuhl oder Spielplatz"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"]}[w.id];
+      const tb=node("b","",KT?KT[0]:"Für Familien in Zürich");if(KT){tb.append(node("small","",KT[1]));w.classList.add("hk2")}
+      bar.append(node("span","backc","←"),l2,tb);ss.append(bar);w.prepend(ss)}
     const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen"}[w.id];
     const hd=w.querySelector(":scope>header"),ti=tileId&&document.querySelector("#"+tileId+" .ico svg");
     if(hd&&ti){const ic=node("span","secico");ic.append(ti.cloneNode(true));hd.prepend(ic)}
