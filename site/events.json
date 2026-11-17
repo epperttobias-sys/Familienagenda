@@ -15,13 +15,6 @@
    "ok": true,
    "count": 8
   },
-  "hedingen": {
-   "name": "Hedingen",
-   "bezirk": "Affoltern",
-   "domain": "www.hedingen.ch",
-   "ok": true,
-   "count": 5
-  },
   "kappelamalbis": {
    "name": "Kappel am Albis",
    "bezirk": "Affoltern",
@@ -29,40 +22,12 @@
    "ok": true,
    "count": 7
   },
-  "knonau": {
-   "name": "Knonau",
-   "bezirk": "Affoltern",
-   "domain": "www.knonau.ch",
-   "ok": true,
-   "count": 36
-  },
-  "mettmenstetten": {
-   "name": "Mettmenstetten",
-   "bezirk": "Affoltern",
-   "domain": "www.mettmenstetten.ch",
-   "ok": true,
-   "count": 32
-  },
-  "obfelden": {
-   "name": "Obfelden",
-   "bezirk": "Affoltern",
-   "domain": "www.obfelden.ch",
-   "ok": true,
-   "count": 0
-  },
   "rifferswil": {
    "name": "Rifferswil",
    "bezirk": "Affoltern",
    "domain": "www.rifferswil.ch",
    "ok": true,
    "count": 0
-  },
-  "stallikon": {
-   "name": "Stallikon",
-   "bezirk": "Affoltern",
-   "domain": "www.stallikon.ch",
-   "ok": true,
-   "count": 32
   },
   "andelfingen": {
    "name": "Andelfingen",
@@ -92,13 +57,6 @@
    "ok": true,
    "count": 4
   },
-  "feuerthalen": {
-   "name": "Feuerthalen",
-   "bezirk": "Andelfingen",
-   "domain": "www.feuerthalen.ch",
-   "ok": false,
-   "count": 3
-  },
   "flaach": {
    "name": "Flaach",
    "bezirk": "Andelfingen",
@@ -118,20 +76,6 @@
    "bezirk": "Andelfingen",
    "domain": "www.henggart.ch",
    "ok": true,
-   "count": 2
-  },
-  "kleinandelfingen": {
-   "name": "Kleinandelfingen",
-   "bezirk": "Andelfingen",
-   "domain": "www.kleinandelfingen.ch",
-   "ok": false,
-   "count": 5
-  },
-  "laufenuhwiesen": {
-   "name": "Laufen-Uhwiesen",
-   "bezirk": "Andelfingen",
-   "domain": "www.uhwiesen.ch",
-   "ok": false,
    "count": 2
   },
   "marthalen": {
@@ -176,20 +120,6 @@
    "ok": true,
    "count": 0
   },
-  "bachenbuelach": {
-   "name": "Bachenbülach",
-   "bezirk": "Bülach",
-   "domain": "www.bachenbuelach.ch",
-   "ok": true,
-   "count": 1
-  },
-  "bassersdorf": {
-   "name": "Bassersdorf",
-   "bezirk": "Bülach",
-   "domain": "www.bassersdorf.ch",
-   "ok": true,
-   "count": 5
-  },
   "buelach": {
    "name": "Bülach",
    "bezirk": "Bülach",
@@ -197,31 +127,10 @@
    "ok": true,
    "count": 29
   },
-  "dietlikon": {
-   "name": "Dietlikon",
-   "bezirk": "Bülach",
-   "domain": "www.dietlikon.ch",
-   "ok": true,
-   "count": 9
-  },
   "embrach": {
    "name": "Embrach",
    "bezirk": "Bülach",
    "domain": "www.embrach.ch",
-   "ok": true,
-   "count": 0
-  },
-  "freiensteinteufen": {
-   "name": "Freienstein-Teufen",
-   "bezirk": "Bülach",
-   "domain": "www.freienstein-teufen.ch",
-   "ok": true,
-   "count": 0
-  },
-  "hoeri": {
-   "name": "Höri",
-   "bezirk": "Bülach",
-   "domain": "www.hoeri.ch",
    "ok": true,
    "count": 0
   },
@@ -267,13 +176,6 @@
    "ok": true,
    "count": 17
   },
-  "wasterkingen": {
-   "name": "Wasterkingen",
-   "bezirk": "Bülach",
-   "domain": "www.wasterkingen.ch",
-   "ok": true,
-   "count": 0
-  },
   "wil": {
    "name": "Wil",
    "bezirk": "Bülach",
@@ -302,33 +204,12 @@
    "ok": true,
    "count": 2
   },
-  "daenikon": {
-   "name": "Dänikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.daenikon.ch",
-   "ok": true,
-   "count": 0
-  },
   "dielsdorf": {
    "name": "Dielsdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.dielsdorf.ch",
    "ok": true,
    "count": 2
-  },
-  "huettikon": {
-   "name": "Hüttikon",
-   "bezirk": "Dielsdorf",
-   "domain": "www.huettikon.ch",
-   "ok": true,
-   "count": 0
-  },
-  "neerach": {
-   "name": "Neerach",
-   "bezirk": "Dielsdorf",
-   "domain": "www.neerach.ch",
-   "ok": true,
-   "count": 4
   },
   "niederglatt": {
    "name": "Niederglatt",
@@ -344,33 +225,12 @@
    "ok": true,
    "count": 6
   },
-  "niederweningen": {
-   "name": "Niederweningen",
-   "bezirk": "Dielsdorf",
-   "domain": "www.niederweningen.ch",
-   "ok": true,
-   "count": 5
-  },
   "oberweningen": {
    "name": "Oberweningen",
    "bezirk": "Dielsdorf",
    "domain": "www.oberweningen.ch",
    "ok": true,
    "count": 2
-  },
-  "otelfingen": {
-   "name": "Otelfingen",
-   "bezirk": "Dielsdorf",
-   "domain": "www.otelfingen.ch",
-   "ok": true,
-   "count": 8
-  },
-  "regensberg": {
-   "name": "Regensberg",
-   "bezirk": "Dielsdorf",
-   "domain": "www.regensberg.ch",
-   "ok": true,
-   "count": 0
   },
   "regensdorf": {
    "name": "Regensdorf",
@@ -414,13 +274,6 @@
    "ok": true,
    "count": 1
   },
-  "weiach": {
-   "name": "Weiach",
-   "bezirk": "Dielsdorf",
-   "domain": "www.weiach.ch",
-   "ok": true,
-   "count": 1
-  },
   "aesch": {
    "name": "Aesch",
    "bezirk": "Dietikon",
@@ -441,13 +294,6 @@
    "domain": "www.dietikon.ch",
    "ok": true,
    "count": 28
-  },
-  "geroldswil": {
-   "name": "Geroldswil",
-   "bezirk": "Dietikon",
-   "domain": "www.geroldswil.ch",
-   "ok": true,
-   "count": 1
   },
   "oberengstringen": {
    "name": "Oberengstringen",
@@ -484,6 +330,272 @@
    "ok": true,
    "count": 2
   },
+  "hedingen": {
+   "name": "Hedingen",
+   "bezirk": "Affoltern",
+   "domain": "www.hedingen.ch",
+   "ok": true,
+   "count": 5
+  },
+  "knonau": {
+   "name": "Knonau",
+   "bezirk": "Affoltern",
+   "domain": "www.knonau.ch",
+   "ok": true,
+   "count": 36
+  },
+  "mettmenstetten": {
+   "name": "Mettmenstetten",
+   "bezirk": "Affoltern",
+   "domain": "www.mettmenstetten.ch",
+   "ok": true,
+   "count": 32
+  },
+  "obfelden": {
+   "name": "Obfelden",
+   "bezirk": "Affoltern",
+   "domain": "www.obfelden.ch",
+   "ok": true,
+   "count": 0
+  },
+  "stallikon": {
+   "name": "Stallikon",
+   "bezirk": "Affoltern",
+   "domain": "www.stallikon.ch",
+   "ok": true,
+   "count": 32
+  },
+  "feuerthalen": {
+   "name": "Feuerthalen",
+   "bezirk": "Andelfingen",
+   "domain": "www.feuerthalen.ch",
+   "ok": true,
+   "count": 3
+  },
+  "kleinandelfingen": {
+   "name": "Kleinandelfingen",
+   "bezirk": "Andelfingen",
+   "domain": "www.kleinandelfingen.ch",
+   "ok": true,
+   "count": 5
+  },
+  "laufenuhwiesen": {
+   "name": "Laufen-Uhwiesen",
+   "bezirk": "Andelfingen",
+   "domain": "www.uhwiesen.ch",
+   "ok": true,
+   "count": 2
+  },
+  "bachenbuelach": {
+   "name": "Bachenbülach",
+   "bezirk": "Bülach",
+   "domain": "www.bachenbuelach.ch",
+   "ok": true,
+   "count": 1
+  },
+  "bassersdorf": {
+   "name": "Bassersdorf",
+   "bezirk": "Bülach",
+   "domain": "www.bassersdorf.ch",
+   "ok": true,
+   "count": 5
+  },
+  "dietlikon": {
+   "name": "Dietlikon",
+   "bezirk": "Bülach",
+   "domain": "www.dietlikon.ch",
+   "ok": true,
+   "count": 9
+  },
+  "freiensteinteufen": {
+   "name": "Freienstein-Teufen",
+   "bezirk": "Bülach",
+   "domain": "www.freienstein-teufen.ch",
+   "ok": true,
+   "count": 0
+  },
+  "hoeri": {
+   "name": "Höri",
+   "bezirk": "Bülach",
+   "domain": "www.hoeri.ch",
+   "ok": true,
+   "count": 0
+  },
+  "wasterkingen": {
+   "name": "Wasterkingen",
+   "bezirk": "Bülach",
+   "domain": "www.wasterkingen.ch",
+   "ok": true,
+   "count": 0
+  },
+  "daenikon": {
+   "name": "Dänikon",
+   "bezirk": "Dielsdorf",
+   "domain": "www.daenikon.ch",
+   "ok": true,
+   "count": 0
+  },
+  "huettikon": {
+   "name": "Hüttikon",
+   "bezirk": "Dielsdorf",
+   "domain": "www.huettikon.ch",
+   "ok": true,
+   "count": 0
+  },
+  "neerach": {
+   "name": "Neerach",
+   "bezirk": "Dielsdorf",
+   "domain": "www.neerach.ch",
+   "ok": true,
+   "count": 4
+  },
+  "niederweningen": {
+   "name": "Niederweningen",
+   "bezirk": "Dielsdorf",
+   "domain": "www.niederweningen.ch",
+   "ok": true,
+   "count": 5
+  },
+  "otelfingen": {
+   "name": "Otelfingen",
+   "bezirk": "Dielsdorf",
+   "domain": "www.otelfingen.ch",
+   "ok": true,
+   "count": 8
+  },
+  "regensberg": {
+   "name": "Regensberg",
+   "bezirk": "Dielsdorf",
+   "domain": "www.regensberg.ch",
+   "ok": true,
+   "count": 0
+  },
+  "weiach": {
+   "name": "Weiach",
+   "bezirk": "Dielsdorf",
+   "domain": "www.weiach.ch",
+   "ok": true,
+   "count": 1
+  },
+  "geroldswil": {
+   "name": "Geroldswil",
+   "bezirk": "Dietikon",
+   "domain": "www.geroldswil.ch",
+   "ok": true,
+   "count": 1
+  },
+  "gr": {
+   "name": "Grüningen",
+   "bezirk": "Hinwil",
+   "domain": "www.grueningen.ch",
+   "ok": true,
+   "count": 1
+  },
+  "ru": {
+   "name": "Rüti",
+   "bezirk": "Hinwil",
+   "domain": "www.rueti.ch",
+   "ok": true,
+   "count": 11
+  },
+  "horgen": {
+   "name": "Horgen",
+   "bezirk": "Horgen",
+   "domain": "www.horgen.ch",
+   "ok": true,
+   "count": 52
+  },
+  "l": {
+   "name": "Herrliberg",
+   "bezirk": "Meilen",
+   "domain": "www.herrliberg.ch",
+   "ok": true,
+   "count": 28
+  },
+  "hb": {
+   "name": "Hombrechtikon",
+   "bezirk": "Meilen",
+   "domain": "www.hombrechtikon.ch",
+   "ok": true,
+   "count": 14
+  },
+  "n": {
+   "name": "Küsnacht",
+   "bezirk": "Meilen",
+   "domain": "www.kuesnacht.ch",
+   "ok": true,
+   "count": 28
+  },
+  "o": {
+   "name": "Oetwil am See",
+   "bezirk": "Meilen",
+   "domain": "www.oetwil.ch",
+   "ok": true,
+   "count": 27
+  },
+  "wi": {
+   "name": "Wila",
+   "bezirk": "Pfäffikon",
+   "domain": "www.wila.ch",
+   "ok": true,
+   "count": 7
+  },
+  "r": {
+   "name": "Maur",
+   "bezirk": "Uster",
+   "domain": "www.maur.ch",
+   "ok": true,
+   "count": 19
+  },
+  "v": {
+   "name": "Volketswil",
+   "bezirk": "Uster",
+   "domain": "www.volketswil.ch",
+   "ok": true,
+   "count": 21
+  },
+  "altikon": {
+   "name": "Altikon",
+   "bezirk": "Winterthur",
+   "domain": "www.altikon.ch",
+   "ok": true,
+   "count": 1
+  },
+  "dinhard": {
+   "name": "Dinhard",
+   "bezirk": "Winterthur",
+   "domain": "www.dinhard.ch",
+   "ok": true,
+   "count": 5
+  },
+  "elgg": {
+   "name": "Elgg",
+   "bezirk": "Winterthur",
+   "domain": "www.elgg.ch",
+   "ok": true,
+   "count": 7
+  },
+  "ellikonanderthur": {
+   "name": "Ellikon an der Thur",
+   "bezirk": "Winterthur",
+   "domain": "www.ellikonanderthur.ch",
+   "ok": true,
+   "count": 1
+  },
+  "hagenbuch": {
+   "name": "Hagenbuch",
+   "bezirk": "Winterthur",
+   "domain": "www.hagenbuch-zh.ch",
+   "ok": true,
+   "count": 2
+  },
+  "turbenthal": {
+   "name": "Turbenthal",
+   "bezirk": "Winterthur",
+   "domain": "www.turbenthal.ch",
+   "ok": true,
+   "count": 6
+  },
   "baeretswil": {
    "name": "Bäretswil",
    "bezirk": "Hinwil",
@@ -505,26 +617,12 @@
    "ok": true,
    "count": 28
   },
-  "gr": {
-   "name": "Grüningen",
-   "bezirk": "Hinwil",
-   "domain": "www.grueningen.ch",
-   "ok": true,
-   "count": 1
-  },
   "hw": {
    "name": "Hinwil",
    "bezirk": "Hinwil",
    "domain": "www.hinwil.ch",
    "ok": true,
    "count": 10
-  },
-  "ru": {
-   "name": "Rüti",
-   "bezirk": "Hinwil",
-   "domain": "www.rueti.ch",
-   "ok": true,
-   "count": 11
   },
   "sg": {
    "name": "Seegräben",
@@ -553,13 +651,6 @@
    "domain": "www.adliswil.ch",
    "ok": true,
    "count": 10
-  },
-  "horgen": {
-   "name": "Horgen",
-   "bezirk": "Horgen",
-   "domain": "www.horgen.ch",
-   "ok": true,
-   "count": 52
   },
   "langnauamalbis": {
    "name": "Langnau am Albis",
@@ -603,27 +694,6 @@
    "ok": true,
    "count": 5
   },
-  "l": {
-   "name": "Herrliberg",
-   "bezirk": "Meilen",
-   "domain": "www.herrliberg.ch",
-   "ok": false,
-   "count": 28
-  },
-  "hb": {
-   "name": "Hombrechtikon",
-   "bezirk": "Meilen",
-   "domain": "www.hombrechtikon.ch",
-   "ok": false,
-   "count": 14
-  },
-  "n": {
-   "name": "Küsnacht",
-   "bezirk": "Meilen",
-   "domain": "www.kuesnacht.ch",
-   "ok": false,
-   "count": 23
-  },
   "a": {
    "name": "Männedorf",
    "bezirk": "Meilen",
@@ -637,13 +707,6 @@
    "domain": "www.meilen.ch",
    "ok": true,
    "count": 17
-  },
-  "o": {
-   "name": "Oetwil am See",
-   "bezirk": "Meilen",
-   "domain": "www.oetwil.ch",
-   "ok": false,
-   "count": 26
   },
   "t": {
    "name": "Uetikon am See",
@@ -715,13 +778,6 @@
    "ok": true,
    "count": 23
   },
-  "wi": {
-   "name": "Wila",
-   "bezirk": "Pfäffikon",
-   "domain": "www.wila.ch",
-   "ok": true,
-   "count": 6
-  },
   "wd": {
    "name": "Wildberg",
    "bezirk": "Pfäffikon",
@@ -757,13 +813,6 @@
    "ok": true,
    "count": 3
   },
-  "r": {
-   "name": "Maur",
-   "bezirk": "Uster",
-   "domain": "www.maur.ch",
-   "ok": true,
-   "count": 19
-  },
   "m": {
    "name": "Mönchaltorf",
    "bezirk": "Uster",
@@ -785,26 +834,12 @@
    "ok": true,
    "count": 41
   },
-  "v": {
-   "name": "Volketswil",
-   "bezirk": "Uster",
-   "domain": "www.volketswil.ch",
-   "ok": true,
-   "count": 21
-  },
   "wb": {
    "name": "Wangen-Brüttisellen",
    "bezirk": "Uster",
    "domain": "www.wangen-bruettisellen.ch",
    "ok": true,
    "count": 27
-  },
-  "altikon": {
-   "name": "Altikon",
-   "bezirk": "Winterthur",
-   "domain": "www.altikon.ch",
-   "ok": true,
-   "count": 1
   },
   "bruetten": {
    "name": "Brütten",
@@ -827,40 +862,12 @@
    "ok": true,
    "count": 0
   },
-  "dinhard": {
-   "name": "Dinhard",
-   "bezirk": "Winterthur",
-   "domain": "www.dinhard.ch",
-   "ok": true,
-   "count": 5
-  },
-  "elgg": {
-   "name": "Elgg",
-   "bezirk": "Winterthur",
-   "domain": "www.elgg.ch",
-   "ok": true,
-   "count": 7
-  },
-  "ellikonanderthur": {
-   "name": "Ellikon an der Thur",
-   "bezirk": "Winterthur",
-   "domain": "www.ellikonanderthur.ch",
-   "ok": true,
-   "count": 1
-  },
   "elsau": {
    "name": "Elsau",
    "bezirk": "Winterthur",
    "domain": "www.elsau.ch",
    "ok": true,
    "count": 40
-  },
-  "hagenbuch": {
-   "name": "Hagenbuch",
-   "bezirk": "Winterthur",
-   "domain": "www.hagenbuch-zh.ch",
-   "ok": true,
-   "count": 2
   },
   "hettlingen": {
    "name": "Hettlingen",
@@ -889,13 +896,6 @@
    "domain": "www.seuzach.ch",
    "ok": true,
    "count": 30
-  },
-  "turbenthal": {
-   "name": "Turbenthal",
-   "bezirk": "Winterthur",
-   "domain": "www.turbenthal.ch",
-   "ok": true,
-   "count": 6
   },
   "wiesendangen": {
    "name": "Wiesendangen",
@@ -1324,6 +1324,7 @@
   {
    "gemeinden": [
     "e",
+    "o",
     "r"
    ],
    "id": "e-7760953",
@@ -15907,6 +15908,24 @@
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.ruemlang.ch/_rte/anlass/7232171"
+  },
+  {
+   "gemeinden": [
+    "wi"
+   ],
+   "id": "wi-5225-5861",
+   "name": "Mütter- und Väterberatung",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Schreinerei Furrer, Mehrzwecksaal",
+   "veranstalter": "",
+   "time": "9.30 - 11.00",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "0 bis 4 Jahre"
+   },
+   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5225/eventdate/5861"
   },
   {
    "gemeinden": [
