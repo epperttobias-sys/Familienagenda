@@ -203,7 +203,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .home .tile .ico{margin-bottom:auto}.home .tile .tile-title,.home .tile .tile-text{text-align:left!important;width:100%}
 .home .tile .tile-text{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:0!important}
 .home .tile:hover{transform:translateY(-2px);filter:brightness(1.06)}.home .tile{transition:transform .15s}
-#go-events{--tc:#0a5cb8;order:1}#go-saison{--tc:#d97706;order:2}#go-ausflug{--tc:#0f8a6a;order:3}#go-spiel{--tc:#7c3aed;order:7}#go-essen{--tc:#db2777;order:5}#go-vereine{--tc:#0891b2;order:6}#go-familie{--tc:#4f46e5;order:4}#go-raeume{--tc:#475569;order:8}#go-ferien{--tc:#0284c7;order:9}#go-notfall{--tc:#dc2626;order:10}
+#go-events{--tc:#0a5cb8;order:1}#go-saison{--tc:#d97706;order:2}#go-ausflug{--tc:#0f8a6a;order:3}#go-spiel{--tc:#7c3aed;order:7}#go-essen{--tc:#db2777;order:5}#go-vereine{--tc:#0891b2;order:6}#go-familie{--tc:#4f46e5;order:4}#go-raeume{--tc:#475569;order:8}#go-ferien{--tc:#0284c7;order:9}#go-notfall{--tc:#dc2626;order:10}#go-kurse{--tc:#65a30d;order:11}#go-geburtstag{--tc:#c026d3;order:12}
 .home .zhband,.home footer.waves{display:none}
 
 /* Startseite: kleine App-Symbole wie Option B, Saison als breite Karte */
@@ -226,7 +226,8 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #go-saison{background:linear-gradient(135deg,#4a3418,#4a2230)!important}:root:not([data-theme="light"]) #go-saison .tile-title{color:#fff!important}:root:not([data-theme="light"]) #go-saison .tile-text{color:#f1dcc6!important}}
 
 /* Unterseiten im Stil der Startseite */
-#view-events{--sec:#0a5cb8}#view-saison{--sec:#d97706}#view-ausflug{--sec:#0f8a6a}#view-spielplaetze{--sec:#7c3aed}#view-essen{--sec:#db2777}#view-vereine{--sec:#0891b2}#view-familie{--sec:#4f46e5}#view-raeume{--sec:#475569}#view-ferien{--sec:#0284c7}#view-notfall{--sec:#dc2626}
+#view-events{--sec:#0a5cb8}#view-saison{--sec:#d97706}#view-ausflug{--sec:#0f8a6a}#view-spielplaetze{--sec:#7c3aed}#view-essen{--sec:#db2777}#view-vereine{--sec:#0891b2}#view-familie{--sec:#4f46e5}#view-raeume{--sec:#475569}#view-ferien{--sec:#0284c7}#view-notfall{--sec:#dc2626}#view-kurse{--sec:#65a30d}#view-geburtstag{--sec:#c026d3}
+.evc .checks{margin:6px 0 0;padding-left:18px;display:grid;gap:3px;font-size:.9rem}
 .sos{display:grid;gap:8px}
 .sos a.big{display:flex;align-items:center;gap:14px;background:#dc2626;color:#fff;border-radius:20px;padding:14px 16px;text-decoration:none;box-shadow:0 8px 20px rgba(220,38,38,.3)}
 .sos a.big b{font:800 2rem/1 var(--display)}.sos a.big span{font-weight:700;line-height:1.25}.sos a.big small{display:block;font-weight:500;opacity:.9}
@@ -374,6 +375,18 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 7.5v9M7.5 12h9"/></svg></span>
       <span class="tile-title">Kinderarzt &amp; Notfall</span>
       <span class="tile-text" id="tile-notfall">Notfall, Kinderärzte, Apotheken</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="tile tile-alt" href="#kurse" id="go-kurse">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M12 4 4 20M12 4l8 16"/><path d="M12 13l-3 7M12 13l3 7"/></svg></span>
+      <span class="tile-title">Ferien&shy;kurse</span>
+      <span class="tile-text" id="tile-kurse">Ferienpass und Kurse</span>
+      <span class="tile-arrow" aria-hidden="true">→</span>
+    </a>
+    <a class="tile tile-alt" href="#geburtstag" id="go-geburtstag">
+      <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21h16v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2z"/><path d="M4 16c2 1.5 4 1.5 6 0s4-1.5 6 0 3 1 4 .5"/><path d="M12 11V7"/><path d="M12 4.5c.8-.8.8-1.7 0-2.5-.8.8-.8 1.7 0 2.5z"/></svg></span>
+      <span class="tile-title">Kinder&shy;geburtstag</span>
+      <span class="tile-text" id="tile-geburtstag">Orte und Ideen zum Feiern</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#ferien" id="go-ferien">
@@ -559,6 +572,35 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <p id="nfcount" class="count-line"></p>
   <main id="notfall"></main>
   <footer>Diese Seite ersetzt keine ärztliche Beratung. Im Zweifel 144 oder das Ärztefon anrufen. Nummern und Notfallstellen: Kanton Zürich, Kinderspital Zürich, Stadtspital Zürich, Spital Zollikerberg, KSW. Kinderarztpraxen und Apotheken: © OpenStreetMap-Mitwirkende, jede Woche aktualisiert, was dort fehlt, fehlt auch hier. Öffnungszeiten bitte vor dem Besuch prüfen. <span id="nfstand"></span></footer>
+</div>
+
+<div class="wrap" id="view-kurse" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header><h1>Ferienkurse und Ferienpass</h1><p class="lead">Kurse, Lager und Anlässe in den Schulferien.</p></header>
+  <section class="filters" aria-label="Filter Ferienkurse">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="kg-dd"><summary id="kg-sum">Gemeinde wählen</summary><div class="dd-panel" id="kg-panel"><input type="search" class="dd-search" id="kg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"></div></details></div>
+    <div class="row"><b>Ferien</b><details class="dd" id="kf-dd"><summary id="kf-sum">Nächste Ferien</summary><div class="dd-panel" id="kf-panel"></div></details></div>
+    <div class="row"><b>Art</b><details class="dd" id="kk-dd"><summary id="kk-sum">Alle Arten</summary><div class="dd-panel" id="kk-panel"></div></details></div>
+    <div class="row"><b>Umkreis</b><details class="dd" id="ku-dd"><summary id="ku-sum">Bezirk</summary><div class="dd-panel" id="ku-panel"></div></details></div>
+  </section>
+  <p id="kucount" class="count-line"></p>
+  <main id="kurse"></main>
+  <footer>Ferienangebote: ZVV, Pro Juventute, Sportamt Kanton Zürich, Gemeinschaftszentren und Sportamt der Stadt Zürich, Stadt Winterthur. Die Anlässe stammen aus den Agenden der Gemeinden. Daten, Preise und Anmeldung bitte auf der Website des Angebots prüfen.</footer>
+</div>
+
+<div class="wrap" id="view-geburtstag" hidden>
+  <a class="back" href="#" data-back>← Übersicht</a>
+  <header><h1>Kindergeburtstag</h1><p class="lead">Orte mit Geburtstagsangebot und Ideen zum selber Feiern.</p></header>
+  <section class="filters" aria-label="Filter Kindergeburtstag">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="bg-dd"><summary id="bg-sum">Gemeinde wählen</summary><div class="dd-panel" id="bg-panel"><input type="search" class="dd-search" id="bg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"></div></details></div>
+    <div class="row"><b>Art</b><details class="dd" id="bk-dd"><summary id="bk-sum">Alle Arten</summary><div class="dd-panel" id="bk-panel"></div></details></div>
+    <div class="row"><b>Alter</b><details class="dd" id="ba-dd"><summary id="ba-sum">Jedes Alter</summary><div class="dd-panel" id="ba-panel"></div></details></div>
+    <div class="row"><b>Sortieren</b><details class="dd" id="bs-dd"><summary id="bs-sum">Nach Name</summary><div class="dd-panel" id="bs-panel"></div></details></div>
+  </section>
+  <div class="near"><p class="note" id="bg-near-msg"></p></div>
+  <p id="bgcount" class="count-line"></p>
+  <main id="geburtstag"></main>
+  <footer>Die Orte stammen aus Familien-Ratgebern wie momizen.com, swissfamilyfun.com und gameplaza.ch sowie von den Websites der Anbieter. Ohne eigene Website führt der Knopf zu einer Websuche. Preise, Alter und Reservation bitte direkt beim Anbieter prüfen. Waldhütten, Säle und Feuerstellen stammen aus den Bereichen Event-Räume und Ausflugsziele.</footer>
 </div>
 
 <div class="wrap" id="view-ferien" hidden>
@@ -1338,6 +1380,131 @@ function ohOpen(oh){if(!oh)return null;oh=oh.trim();if(oh==="24/7")return true;c
   render();GO.notfall=c=>{if(GM[c])selG=c;render()};RESET.notfall=()=>{selG=null;kind="all";me=null;msg.parentNode.classList.remove("on");render()};
   const t=document.getElementById("tile-notfall");if(t)t.textContent="144 · Ärztefon · Apotheken";
 })();
+
+function gdd(pre,codes,GM,onPick){const gp=document.getElementById(pre+"g-panel"),groups={};codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const head=node("div","dd-group"),hb=node("button","","Bezirk "+b);hb.type="button";hb.dataset.group=b;hb.disabled=true;head.append(hb);gp.append(head);
+    groups[b].forEach(c=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name=pre+"g";i.dataset.c=c;l.dataset.name=GM[c].name.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{onPick(c);document.getElementById(pre+"g-dd").open=false});l.append(i,node("span","",GM[c].name));gp.append(l)})});
+  const gs=document.getElementById(pre+"g-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  return sel=>{gp.querySelectorAll("input[data-c]").forEach(i=>i.checked=i.dataset.c===sel);document.getElementById(pre+"g-sum").textContent=sel?GM[sel].name:"Gemeinde wählen"}}
+function gCenter(c){const W=window.WETTER&&WETTER.g[c];if(W&&W.lat)return[W.lat,W.lon];const GM=Object.assign({},window.GEMEINDEN||{});const nm=(GM[c]||{}).name;const L=nm&&window.SPIELPLAETZE&&SPIELPLAETZE.gemeinden[nm];
+  if(L&&L.length)return[L.reduce((s,p)=>s+p.lat,0)/L.length,L.reduce((s,p)=>s+p.lon,0)/L.length];return null}
+const kmD=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
+// ---------- Ferienkurse
+const KURS_OFF=[
+  {n:"ZVV-FerienPass",em:"🎫",s:["so"],d:"Für Kinder und Jugendliche von 6 bis 16 Jahren: 5 Wochen freie Fahrt im ganzen ZVV-Netz in den Sommerferien, dazu Gratiseintritt in über 130 Badis und Rabatte, etwa für den Zoo. Kostet 30 Franken, Verkauf ab Mitte Juni.",t:["6–16 Jahre","CHF 30","ganzer Kanton"],w:"https://www.zvv.ch/de/freizeit-und-events/ferienpass.html"},
+  {n:"Pro Juventute Ferienplausch",em:"🎪",s:["so"],d:"Über 300 betreute Kurse in den Sommerferien, von Zaubern über Segeln bis Zeltlager, halb-, ganz- oder mehrtägig. Buchung ab Anfang Mai. Kinder aus Familien mit wenig Geld zahlen dank der Winterhilfe den halben Preis.",t:["6–16 Jahre","Kanton Zürich"],w:"https://ferienplausch.feriennet.projuventute.ch/activities"},
+  {n:"Jugendsportcamps Kanton Zürich",em:"⛷️",s:["h","w","s","f","so"],d:"Rund 30 Sportlager des kantonalen Sportamts im Schnee, in der Halle oder auf dem Wasser, mit Reise, Unterkunft, Essen und Leitung. Plätze nach Eingang der Anmeldung, mit KulturLegi 50 % günstiger.",t:["Jahrgänge je Lager","Kanton Zürich"],w:"https://www.jugendsportcamps.ch/zh"},
+  {n:"Ferienprogramme der Gemeinschaftszentren",em:"🎨",g:["zuerich"],s:["h","s","f","so"],d:"Die Zürcher GZ bieten in den Ferien Zirkuswochen, Theater, Coding-Camps, Tierpflege, Keramik und mehr an, meist mit Anmeldung beim jeweiligen GZ.",t:["ca. 5–12 Jahre","Stadt Zürich"],w:"https://gz-zh.ch"},
+  {n:"Sportamt Stadt Zürich: Ferien-Sportkurse",em:"🏀",g:["zuerich"],s:["h","s","f","so"],d:"Sportkurse und Camps für Kinder in den Schulferien, zum Beispiel Basketball, Unihockey, Eislaufen oder Zirkus.",t:["Stadt Zürich"],w:"https://www.stadt-zuerich.ch/ssd/de/index/sport.html"},
+  {n:"Feriensport Winterthur",em:"🚴",g:["winterthur"],s:["h","s","f","so"],d:"Sportangebote und Lager der Stadt Winterthur für Kinder und Jugendliche in den Ferien.",t:["Stadt Winterthur"],w:"https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/sport/feriensport-fuer-jugendliche"},
+  {n:"Ferienbetreuung Stadt Winterthur",em:"🏫",g:["winterthur"],s:["h","s","f","so"],d:"Betreuung für Schulkinder während der Schulferien, Anmeldung mit Formular pro Ferien.",t:["Schulkinder"],w:"https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung/ferienbetreuung"}];
+const KURS_RE=/kurs|lager|camp|ferien|workshop|atelier|woche|plausch|programm|schnupper/i;
+function kurseHoliday(c){const F=window.FERIEN;if(!F)return null;const g=c?ferienFor(c):null;if(g)return nextFerien(g.f);const n=Object.keys(F.jahre[0].g);for(const x of n){const nx=nextFerien(F.jahre[0].g[x].f);if(nx&&nx.k[0]!=="s")return nx}return null}
+function kurseText(c){const nx=kurseHoliday(c),E=(window.FAMILIENAGENDA||{events:[]}).events;if(!nx)return"Ferienpass und Kurse";
+  const n=E.filter(e=>e.gemeinden.includes(c)&&e.von<=nx.b&&e.bis>=nx.a).length;return n+(n===1?" Anlass":" Anlässe")+" in den "+nx.k[2]}
+(function setupKurse(){
+  const box=document.getElementById("kurse"),GM=Object.assign({},window.GEMEINDEN||{}),E=(window.FAMILIENAGENDA||{events:[]}).events,GA=(window.FAMILIENAGENDA||{}).gemeinden||{};
+  const codes=Object.keys(GM).sort((a,b)=>GM[a].name.localeCompare(GM[b].name,"de"));let selG=null,fk=null,art=null,um="bezirk";
+  const syncG=gdd("k",codes,GM,c=>{selG=c;fk=null;render()});
+  function holidays(){const F=window.FERIEN;if(!F)return[];let f=null;if(selG){const g=ferienFor(selG);f=g&&g.f}
+    if(!f){const n=Object.keys(F.jahre[0].g),m={};FK.forEach(k=>{const c={};n.forEach(x=>{const r=F.jahre[0].g[x].f[k[0]];if(r){const kk=r.join();c[kk]=(c[kk]||0)+1}});const best=Object.keys(c).sort((a,b)=>c[b]-c[a])[0];if(best)m[k[0]]=best.split(",")});f=m}
+    return FK.filter(k=>f[k[0]]&&daysTo(iso(add(pd(f[k[0]][1]),2)))>=0).map(k=>({k,a:f[k[0]][0],b:f[k[0]][1]})).sort((x,y)=>x.a.localeCompare(y.a))}
+  const fp=document.getElementById("kf-panel");
+  function buildF(){fp.replaceChildren();const H=holidays();if(!fk&&H.length)fk=H[0].k[0];H.forEach(h=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="kf";i.checked=h.k[0]===fk;
+    i.addEventListener("change",()=>{fk=h.k[0];render();document.getElementById("kf-dd").open=false});l.append(i,node("span","",h.k[1]+" "+h.k[2]+" ("+fShort(h.a,h.b)+")"));fp.append(l)});return H}
+  const syncA=sortDD("kk-panel","kk-dd",[["all","Alle Arten"],["kurs","🏕️ Kurse, Lager, Workshops"]].concat(ARTS.map(a=>[a[0],a[1]+" "+a[2]])),()=>art||"all",v=>{art=v==="all"?null:v;render()});
+  const syncU=sortDD("ku-panel","ku-dd",[["gemeinde","Nur meine Gemeinde"],["bezirk","Mein Bezirk"],["kanton","Ganzer Kanton"]],()=>um,v=>{um=v;render()});
+  function render(){box.replaceChildren();syncG(selG);syncA();syncU();const H=buildF(),h=H.find(x=>x.k[0]===fk)||H[0];
+    document.getElementById("kf-sum").textContent=h?h.k[2]:"Keine Ferien";
+    if(!h){box.append(node("p","empty","Für dieses Schuljahr sind keine weiteren Ferien bekannt."));return}
+    const t=daysTo(h.a);const info=mkCard({em:h.k[1],title:h.k[2]+(selG?" in "+GM[selG].name:" (bei den meisten Gemeinden)"),meta:fDay(h.a)+" bis "+fDay(h.b)+(t>0?" · in "+t+" Tagen":" · jetzt")});info.classList.add("info");box.append(info);
+    if(!selG)box.append(node("p","note","Wähle oben deine Gemeinde: Dann stimmen die Feriendaten und du siehst die Anlässe in deiner Nähe."));
+    const off=KURS_OFF.filter(o=>o.s.includes(h.k[0])&&(!o.g||(selG&&o.g.includes(selG))||(!selG&&um==="kanton")));
+    if(off.length){box.append(node("h2","bez","🏕️ Ferienangebote"));off.forEach(o=>box.append(mkCard({em:o.em,title:o.n,desc:o.d,tags:o.t,links:[["Zum Angebot",o.w]]})))}
+    const bz=selG?GM[selG].bezirk:null;
+    let L=E.filter(e=>e.von<=h.b&&e.bis>=h.a&&(um==="kanton"||!selG||(um==="gemeinde"?e.gemeinden.includes(selG):e.gemeinden.some(c=>(GA[c]||GM[c]||{}).bezirk===bz))));
+    if(art)L=L.filter(e=>art==="kurs"?KURS_RE.test(e.name):arts(e).includes(art));
+    L.sort((a,b)=>(KURS_RE.test(b.name)-KURS_RE.test(a.name))||a.von.localeCompare(b.von)||a.name.localeCompare(b.name,"de"));
+    box.append(node("h2","bez","📅 Anlässe in diesen Ferien ("+L.length+")"));
+    if(!L.length)box.append(node("p","note","Noch keine Anlässe in diesem Zeitraum. Viele Gemeinden tragen ihre Ferienangebote erst kurz vorher ein. Wähle einen grösseren Umkreis oder schau später wieder vorbei."));
+    L.slice(0,150).forEach(e=>{const[ic,col]=artIcon(e);const d=pd(e.von>h.a?e.von:h.a);const bits=[e.von!==e.bis?fShort(e.von,e.bis):WD[d.getDay()]+" "+d.getDate()+". "+MON[d.getMonth()].slice(0,3)+"."];if(e.time)bits.push(e.time+" Uhr");
+      bits.push([e.ort,e.gemeinden.map(c=>(GA[c]||GM[c]||{}).name).filter(Boolean).join(", ")].filter(Boolean).join(", "));const tags=[e.age?e.age.label:"Alter offen"];if(KURS_RE.test(e.name))tags.unshift("🏕️ Kurs/Ferienangebot");
+      const pl=place(e);if(pl)tags.push(pl==="in"?"🏠 Drinnen":"🌳 Draussen");
+      box.append(mkCard({em:ic,bg:col+"1f",title:e.name,href:e.url||("https://"+((GA[e.gemeinden[0]]||{}).domain||"")+"/_rte/anlass/"+e.id),meta:bits.join(" · "),tags}))});
+    if(L.length>150)box.append(node("p","note","Es werden die ersten 150 Anlässe gezeigt."));
+    if(selG){const tip=mkCard({em:"🏫",title:"Ferienbetreuung der Schule",meta:"Viele Schulen bieten in den Ferien eine Betreuung an, oft mit Anmeldung einige Wochen vorher. Frag bei der Schule oder schau auf der Website der Gemeinde nach.",links:[["Website der Gemeinde","https://"+(GM[selG].domain||"")]]});box.append(tip)}
+    document.getElementById("kucount").textContent=(off.length===1?"1 Angebot":off.length+" Angebote")+", "+(L.length===1?"1 Anlass":L.length+" Anlässe")}
+  render();GO.kurse=c=>{if(GM[c]){selG=c;fk=null}render()};RESET.kurse=()=>{selG=null;fk=null;art=null;um="bezirk";render()};
+  const tt=document.getElementById("tile-kurse");if(tt){const nx=kurseHoliday(null);if(nx)tt.textContent="Ideen für die "+nx.k[2]}
+})();
+// ---------- Kindergeburtstag
+const GEB_K=[["indoor","🤸","Indoor-Spielplatz und Trampolin"],["action","🎯","Action, Spiele und Sport"],["wissen","🔬","Museum, Wissen und Workshop"],["tiere","🐐","Tiere und Bauernhof"],["kreativ","🎨","Kreativ und Basteln"],["selber","🔥","Selber feiern: Waldhütte, Feuerstelle"]];
+const GEB=[
+  {n:"Zoo Zürich: Kindergeburtstag",g:"zuerich",k:"tiere",a:[6,10],d:"Geführtes Erlebnis für 5 bis 10 Kinder, Mi–Sa nachmittags, CHF 38 pro Kind inkl. Eintritt. Mindestens 3 Wochen vorher buchen, oft lange vorher ausgebucht.",w:"https://www.zoo.ch/de/erlebnisse-im-zoo/erlebnisse/kindergeburtstag"},
+  {n:"Wildnispark Zürich Langenberg",g:"langnauamalbis",k:"tiere",a:[4,12],d:"Wildtierpark mit Programmen für Gruppen, zum Beispiel «Echt tierisch» für Kinder.",w:"https://www.wildnispark.ch/en/explore-offers/program-for-you/for-groups/really-beastly"},
+  {n:"Erlebnishof Tüfi",g:"adliswil",k:"tiere",a:[3,10],d:"Erlebnisbauernhof mit Tieren, beliebt für Geburtstage im Grünen."},
+  {n:"Hof zur Matte",g:"horgen",k:"tiere",a:[3,10],d:"Bauernhof mit Tieren in Horgen."},
+  {n:"Juckerhof",g:"sg",k:"tiere",a:[3,12],d:"Erlebnisbauernhof am Pfäffikersee mit Spielplatz, Tieren und saisonalen Attraktionen."},
+  {n:"Sauriermuseum Aathal",g:"sg",k:"wissen",a:[5,12],d:"Saurierskelette und Fossilien, mit Angeboten für Kindergeburtstage."},
+  {n:"Swiss Science Center Technorama",g:"winterthur",k:"wissen",a:[6,16],d:"Über 500 Experimente zum Ausprobieren, mit Angeboten für Gruppen und Geburtstage.",w:"https://www.technorama.ch"},
+  {n:"X Labs: Science-Geburtstag",g:"zuerich",k:"wissen",a:[6,12],d:"Geburtstag mit Experimenten und Forschen.",w:"https://xlabs.ch/en/zurich/birthdays"},
+  {n:"Kunsthaus Zürich: Kunst für Familien",g:"zuerich",k:"wissen",a:[7,14],d:"Kunstmuseum mit Angeboten für Kinder und Familien."},
+  {n:"Sternwarte Urania",g:"zuerich",k:"wissen",a:[7,16],d:"Sternwarte mitten in Zürich, für Gruppen buchbar."},
+  {n:"GamePlaza",g:"zuerich",k:"action",a:[5,15],d:"Spielmuseum in Altstetten mit Arcade, Konsolen und VR, eigenes Geburtstagspaket.",w:"https://gameplaza.ch/"},
+  {n:"Laser Arena Zürich",g:"zuerich",k:"action",a:[10,16],d:"Lasertag in der Halle, eher für grössere Kinder.",w:"https://laser-arena.ch/en"},
+  {n:"Action World",g:"obfelden",k:"action",a:[8,16],d:"Escape Rooms und Lasertag.",w:"https://www.actionworld.ch/escape-rooms"},
+  {n:"Fun Bowl Stockmatt",g:"affolternamalbis",k:"action",a:[6,16],d:"Bowling für Kindergeburtstage.",w:"http://www.funbowl.ch/"},
+  {n:"Minimum Boulderhalle: Kindergeburtstag",g:"zuerich",k:"action",a:[6,14],d:"Bouldern mit Betreuung, eigenes Geburtstagsangebot.",w:"https://minimum.ch/kurs/kindergeburtstag/"},
+  {n:"Kletterzentrum Greifensee",g:"g",k:"action",a:[6,16],d:"Kletterhalle mit Angeboten für Kindergruppen.",w:"https://www.kletterzentrum.com/"},
+  {n:"Kletterzentrum Gaswerk Schlieren",g:"schlieren",k:"action",a:[6,16],d:"Grosse Kletterhalle mit Angeboten für Kindergruppen.",w:"https://www.kletterzentrum.com/"},
+  {n:"Windwerk Indoor-Skydiving",g:"winterthur",k:"action",a:[4,16],d:"Fliegen im Windkanal, auch als Kinderparty.",w:"https://www.windwerk.ch/en/"},
+  {n:"Skills Park Winterthur",g:"winterthur",k:"action",a:[6,16],d:"Halle für Skateboard, Scooter, BMX und Trampolin."},
+  {n:"Seilpark Zürich",g:"zuerich",k:"action",a:[7,16],d:"Kletterparcours im Wald, im Frühling und Sommer."},
+  {n:"Trampolino",g:"dietikon",k:"indoor",a:[2,12],d:"Grosser Indoor-Spielplatz mit Trampolinen.",w:"https://www.trampolino.info"},
+  {n:"Starbie Spielhalle",g:"dietikon",k:"indoor",a:[2,9],d:"Indoor-Spielhalle für jüngere Kinder."},
+  {n:"Formel Fun",g:"buelach",k:"indoor",a:[2,8],d:"Indoor-Spielplatz für kleinere Kinder."},
+  {n:"Flip Lab Trampolinpark",g:"d",k:"indoor",a:[4,16],d:"Trampolinpark in Dübendorf."},
+  {n:"BounceLab Trampolinhalle",g:"ru",k:"indoor",a:[4,16],d:"Trampolinhalle in Rüti."},
+  {n:"Minicity Sihlcity",g:"zuerich",k:"indoor",a:[3,9],d:"Indoor-Spielplatz im Einkaufszentrum Sihlcity, günstig."},
+  {n:"Storycraft",g:"rueschlikon",k:"kreativ",a:[5,10],d:"Kreative Geburtstagsfeiern mit Geschichten und Basteln."},
+  {n:"Kikuka Kindergeburtstage",g:"zuerich",k:"kreativ",a:[4,10],d:"Kindergeburtstage mit kreativem Programm.",w:"https://kikuka.ch/kindergeburtstage"}];
+function gebText(c){const n=GEB.filter(x=>x.g===c).length;const R=ROOMS.find(r=>r.name===(GEMEINDEN[c]||{}).name);const h=R?R.rooms.filter(t=>typeof t!=="string"&&roomKind(t)==="huette").length:0;return n?n+(n===1?" Ort":" Orte")+" mit Geburtstagsangebot":h?h+(h===1?" Waldhütte":" Waldhütten")+" zum Feiern":"Orte und Ideen zum Feiern"}
+(function setupGeb(){
+  const box=document.getElementById("geburtstag"),GM=Object.assign({},window.GEMEINDEN||{});const codes=Object.keys(GM).sort((a,b)=>GM[a].name.localeCompare(GM[b].name,"de"));
+  let selG=null,kind=null,age="all",me=null;const syncG=gdd("b",codes,GM,c=>{selG=c;render()});
+  const syncK=sortDD("bk-panel","bk-dd",[["all","Alle Arten"]].concat(GEB_K.map(k=>[k[0],k[1]+" "+k[2]])),()=>kind||"all",v=>{kind=v==="all"?null:v;render()});
+  const AG=[["all","Jedes Alter"],["klein","3–5 Jahre"],["mittel","6–9 Jahre"],["gross","10 Jahre und älter"]],AR={klein:[3,5],mittel:[6,9],gross:[10,16]};
+  const syncA=sortDD("ba-panel","ba-dd",AG,()=>age,v=>{age=v;render()});
+  const msg=document.getElementById("bg-near-msg");
+  const syncS=sortDD("bs-panel","bs-dd",[["name","Nach Name"],["near","Nächste zuerst"]],()=>me||(selG&&sortNear)?"near":"name",v=>{if(v!=="near"){me=null;sortNear=false;msg.parentNode.classList.remove("on");render();return}
+    if(selG){sortNear=true;render();return}msg.parentNode.classList.add("on");if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht … Er bleibt auf deinem Gerät.";
+    navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
+  let sortNear=false;
+  const search=x=>"https://www.google.com/search?q="+encodeURIComponent(x.n+" "+GM[x.g].name+" Kindergeburtstag");
+  function render(){box.replaceChildren();syncG(selG);syncK();syncA();syncS();
+    const c0=me||(selG?gCenter(selG):null);
+    if(!kind||kind==="selber"){}
+    if(!kind){const tip=mkCard({em:"💡",title:"Tipps für den Kindergeburtstag"});tip.classList.add("info");const ul=node("ul","checks");
+      ["Einladen etwa 2 bis 3 Wochen vorher, beliebte Orte wie den Zoo noch früher reservieren.","Faustregel für die Anzahl Gäste: so viele Kinder wie das Alter des Geburtstagskindes.","2 bis 3 Stunden reichen, bei kleinen Kindern lieber kürzer.","Allergien und Abholzeit bei den Eltern erfragen.","Draussen feiern: einen Plan B für Regen bereithalten."].forEach(t=>ul.append(node("li","",t)));tip.querySelector(".bd").append(ul);box.append(tip)}
+    let L=GEB.filter(x=>(!kind||x.k===kind)&&(age==="all"||(x.a[0]<=AR[age][1]&&x.a[1]>=AR[age][0]))).map(x=>{const c=gCenter(x.g);return Object.assign({_d:c0&&c?kmD(c0[0],c0[1],c[0],c[1]):null},x)});
+    if(c0&&(me||sortNear||selG))L.sort((a,b)=>(a._d??999)-(b._d??999));else L.sort((a,b)=>a.n.localeCompare(b.n,"de"));
+    if(kind!=="selber"){box.append(node("h2","bez","🎂 Orte mit Geburtstagsangebot ("+L.length+")"));
+      L.forEach(x=>{const K=GEB_K.find(k=>k[0]===x.k);box.append(mkCard({em:K[1],title:x.n,meta:GM[x.g].name+" · "+K[2],desc:x.d,tags:(x.g===selG?["📍 in "+GM[selG].name]:[]).concat([x.a[0]+"–"+x.a[1]+" Jahre"]),links:[x.w?["Website",x.w]:["Im Web suchen",search(x)]],km:c0&&x.g!==selG?x._d:null,ap:true}))})}
+    if(!kind||kind==="selber"){box.append(node("h2","bez","🔥 Selber feiern"+(selG?" in "+GM[selG].name:"")));
+      if(!selG)box.append(node("p","note","Wähle oben deine Gemeinde: Dann siehst du Waldhütten, Säle und Feuerstellen in deiner Nähe."));
+      else{const R=ROOMS.find(r=>r.name===GM[selG].name);const rooms=R?R.rooms.map(t=>typeof t==="string"?{n:t}:t).filter(t=>["huette","saal","zentrum"].includes(roomKind(t))):[];
+        rooms.forEach(r=>{const K=RK.find(k=>k[0]===roomKind(r));const links=[];if(r.w)links.push(["Website",r.w]);if(r.lat)links.push(["Karte",gmaps(r.lat,r.lon)]);(R.links||[]).slice(0,1).forEach(l=>links.push(["Reservation bei der Gemeinde",l[1]]));
+          box.append(mkCard({em:K[1],title:r.n,meta:K[2]+(r.p?" · bis "+r.p+" Personen":""),links}))});
+        const fe=((window.AUSFLUG||{}).ziele||[]).filter(z=>z.g===selG&&z.k==="feuer");fe.forEach(z=>box.append(mkCard({em:"🔥",title:z.n,meta:"Feuerstelle"+(z.d?" · "+z.d:""),links:[["Karte",gmaps(z.lat,z.lon)],["Route",groute(z.lat,z.lon)]]})));
+        const sp=(((window.SPIELPLAETZE||{}).gemeinden||{})[GM[selG].name]||[]).length;
+        if(!rooms.length&&!fe.length)box.append(node("p","note","Zu "+GM[selG].name+" kenne ich noch keine Waldhütte, keinen Saal und keine Feuerstelle. Schau bei den Event-Räumen der Nachbargemeinden."));
+        if(sp){const c=mkCard({em:"🛝",title:sp+" Spielplätze in "+GM[selG].name,meta:"Für einen Geburtstag mit Picknick draussen."});const a=node("a","","Zu den Spielplätzen");a.href="#spielplaetze";a.addEventListener("click",()=>{const g=selG;setTimeout(()=>GO.spiel&&GO.spiel(g),0)});const lk=node("div","lk");lk.append(a);c.querySelector(".bd").append(lk);box.append(c)}}}
+    document.getElementById("bgcount").textContent=(kind==="selber"?"":L.length+(L.length===1?" Ort":" Orte"))+(selG?(kind==="selber"?"Selber feiern in ":" · nahe ")+GM[selG].name:"")}
+  render();GO.geburtstag=c=>{if(GM[c])selG=c;render()};RESET.geburtstag=()=>{selG=null;kind=null;age="all";me=null;sortNear=false;msg.parentNode.classList.remove("on");render()};
+})();
 (function zhDesign(){
   const leu=document.querySelector(".brand .leu");if(!leu)return;
   const waves='<svg class="zhwaves" viewBox="0 0 240 24" width="200" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 8c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/><path d="M2 18c20-8 40 8 60 0s40 8 60 0 40 8 60 0 40 8 56 0"/></svg>';
@@ -1351,18 +1518,18 @@ function ohOpen(oh){if(!oh)return null;oh=oh.trim();if(oh==="24/7")return true;c
       ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
       const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
       const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
-      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Mit Spielecke, Kinderstuhl oder Spielplatz"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"]}[w.id];
+      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Mit Spielecke, Kinderstuhl oder Spielplatz"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"]}[w.id];
       const tb=node("b","",KT?KT[0]:"Für Familien in Zürich");if(KT){tb.append(node("small","",KT[1]));w.classList.add("hk2")}
       bar.append(node("span","backc","←"),l2,tb);ss.append(bar);w.prepend(ss)}
-    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall"}[w.id];
+    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall","view-kurse":"go-kurse","view-geburtstag":"go-geburtstag"}[w.id];
     const hd=w.querySelector(":scope>header"),ti=tileId&&document.querySelector("#"+tileId+" .ico svg");
     if(hd&&ti){const ic=node("span","secico");ic.append(ti.cloneNode(true));hd.prepend(ic)}
-    const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen","view-ferien":"ferien","view-notfall":"notfall"}[w.id],fs=w.querySelector(".filters");
+    const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen","view-ferien":"ferien","view-notfall":"notfall","view-kurse":"kurse","view-geburtstag":"geburtstag"}[w.id],fs=w.querySelector(".filters");
     if(key&&fs){const rb=document.createElement("button");rb.type="button";rb.className="resetbtn";rb.textContent="↺ Alle Filter zurücksetzen";
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
-(function a1(){const EMO={Gemeinde:"📍",Alter:"🧒",Art:"🏷️",Thema:"🏷️",Wetter:"☁️",Bereich:"🏷️",Angebot:"🏷️",Merkmal:"✨",Sortieren:"↕️",Wann:"📅","Ordnen nach":"↕️",Suche:"🔍",Ausstattung:"🛝","Grösse":"👥",Schuljahr:"📅"};
+(function a1(){const EMO={Gemeinde:"📍",Alter:"🧒",Art:"🏷️",Thema:"🏷️",Wetter:"☁️",Bereich:"🏷️",Angebot:"🏷️",Merkmal:"✨",Sortieren:"↕️",Wann:"📅","Ordnen nach":"↕️",Suche:"🔍",Ausstattung:"🛝","Grösse":"👥",Schuljahr:"📅",Ferien:"🏖️",Umkreis:"🧭"};
   document.querySelectorAll(".wrap:not(.home)").forEach(w=>{
     w.querySelectorAll(".filters .row>b").forEach(b=>{const e=EMO[b.textContent.trim()];if(e)b.textContent=e+" "+b.textContent.trim()});
     const rb=w.querySelector(".filters .resetbtn"),c=w.querySelector(".count-line,#count");if(rb&&c){let cr=c.closest(".cntrow");if(!cr){cr=node("div","cntrow");c.before(cr);cr.append(c)}
@@ -1457,9 +1624,9 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   document.getElementById("home-today").addEventListener("click",()=>{setTimeout(()=>{if(RESET.events)RESET.events();state.t="today";update()},0)});
   const CATS=[["events","Events","📅","events anlass anlässe veranstaltung agenda"],["saison","Saison-Highlights","✨","saison samichlaus advent weihnacht fasnacht ostern sommer herbst"],["ausflug","Ausflugsziele","🏰","ausflug zoo tierpark museum burg schloss aussicht"],
     ["spielplaetze","Spielplätze","🛝","spielplatz spielplätze"],["essen","Restaurants","🍝","restaurant café cafe essen spielecke"],["vereine","Vereine","⚽","verein sport fussball judo pfadi musik turnen"],
-    ["familie","Familienangebote","👨‍👩‍👧","familie kita krippe bibliothek ludothek beratung bad hallenbad"],["raeume","Event-Räume","🎂","raum räume saal geburtstag waldhütte fest"],["notfall","Kinderarzt & Notfall","🚑","notfall kinderarzt arzt ärztin apotheke spital kinderspital permanence notruf 144 145 krank fieber"],["ferien","Schulferien","🗓️","ferien schulferien sportferien sommerferien herbstferien frühlingsferien weihnachtsferien schulfrei"]];
-  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie",raeume:"raeume",ferien:"ferien",notfall:"notfall"};
-  const TILE={events:"go-events",saison:"go-saison",ausflug:"go-ausflug",spielplaetze:"go-spiel",essen:"go-essen",vereine:"go-vereine",familie:"go-familie",raeume:"go-raeume",ferien:"go-ferien",notfall:"go-notfall"};
+    ["familie","Familienangebote","👨‍👩‍👧","familie kita krippe bibliothek ludothek beratung bad hallenbad"],["raeume","Event-Räume","🎂","raum räume saal geburtstag waldhütte fest"],["notfall","Kinderarzt & Notfall","🚑","notfall kinderarzt arzt ärztin apotheke spital kinderspital permanence notruf 144 145 krank fieber"],["kurse","Ferienkurse","🏕️","ferienkurs ferienpass ferienplausch lager kurs camp ferienangebot ferienbetreuung"],["geburtstag","Kindergeburtstag","🎂","geburtstag geburi party feiern fest"],["ferien","Schulferien","🗓️","ferien schulferien sportferien sommerferien herbstferien frühlingsferien weihnachtsferien schulfrei"]];
+  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie",raeume:"raeume",ferien:"ferien",notfall:"notfall",kurse:"kurse",geburtstag:"geburtstag"};
+  const TILE={events:"go-events",saison:"go-saison",ausflug:"go-ausflug",spielplaetze:"go-spiel",essen:"go-essen",vereine:"go-vereine",familie:"go-familie",raeume:"go-raeume",ferien:"go-ferien",notfall:"go-notfall",kurse:"go-kurse",geburtstag:"go-geburtstag"};
   const q=document.getElementById("home-q"),box=document.getElementById("home-sugg"),chip=document.getElementById("home-chip");
   const orig={};let homeG=null;
   const P=(n,a,b)=>n+" "+(n===1?a:b);
@@ -1471,7 +1638,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     r.essen=P(((window.ESSEN||{}).orte||[]).filter(z=>z.g===c).length,"Restaurant","Restaurants");
     r.vereine=P((((window.VEREINE||{}).gemeinden||{})[c]||[]).length,"Verein","Vereine");
     r.familie=P((((window.FAMILIE||{}).gemeinden||{})[c]||[]).length+(((window.VEREINE||{}).gemeinden||{})[c]||[]).filter(v=>v.k==="familie").length,"Angebot","Angebote")+" + Mütterberatung";
-    const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");r.ferien=ferienText(c);const GH=window.GESUNDHEIT||{aerzte:[],apo:[]};const na=GH.aerzte.filter(x=>x.g===c).length,np=GH.apo.filter(x=>x.g===c).length;r.notfall=(na+np)+" Praxen und Apotheken";return r}
+    const rm=ROOMS.find(x=>x.name===nm);r.raeume=P(rm?rm.rooms.length:0,"Raum","Räume");r.ferien=ferienText(c);const GH=window.GESUNDHEIT||{aerzte:[],apo:[]};const na=GH.aerzte.filter(x=>x.g===c).length,np=GH.apo.filter(x=>x.g===c).length;r.notfall=(na+np)+" Praxen und Apotheken";r.kurse=kurseText(c);r.geburtstag=gebText(c);return r}
   function todayBand(c){const ev=D.events.filter(e=>e.von<=today&&e.bis>=today&&(!c||e.gemeinden.includes(c))).length;
     document.getElementById("today-n").textContent=P(ev,"Anlass","Anlässe")+" für Kinder";
     document.querySelector("#home-today small").textContent=c?"Heute in "+GM[c].name:"Heute in deiner Region";
@@ -1509,8 +1676,8 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   setTimeout(()=>{if(saved&&GM[saved])setHome(saved)},50);
 })();
 function route(){
-  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall"})[location.hash]||"home";
-  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
+  const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen","#ferien":"ferien","#notfall":"notfall","#kurse":"kurse","#geburtstag":"geburtstag"})[location.hash]||"home";
+  ["home","events","raeume","spielplaetze","vereine","familie","ausflug","saison","essen","ferien","notfall","kurse","geburtstag"].forEach(x=>document.getElementById("view-"+x).hidden=x!==v);
   window.scrollTo(0,0);
 }
 window.addEventListener("hashchange",route);
