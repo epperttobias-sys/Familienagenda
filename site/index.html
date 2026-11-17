@@ -257,6 +257,51 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .wrap:not(.home) footer .zhwaves{color:var(--sec)}
 </style>
 
+
+<style>
+/* Events: Variante A1 */
+#view-events .filters{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:8px;background:none!important;box-shadow:none!important;padding:0!important}
+#view-events .filters .row{position:static;display:block}
+#view-events #f-t{display:none}
+#view-events .filters .row>b{position:absolute;margin:8px 0 0 14px;font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);pointer-events:none;z-index:1}
+#view-events .filters .row{position:relative}
+#view-events .filters{position:relative}
+#view-events .dd{display:block}
+#view-events .dd>summary{display:flex;width:100%;justify-content:space-between;border-radius:14px!important;padding:24px 14px 8px;min-height:58px;font-weight:700;font-size:.95rem;background:var(--surface);border:1px solid var(--line)}
+#view-events .dd>summary span,#view-events .dd>summary{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+#view-events .dd>summary::after{flex:none;color:var(--sec);margin-left:6px}
+#view-events .dd.set>summary{border-color:var(--sec);background:color-mix(in srgb,var(--sec) 9%,var(--surface))}
+#view-events .filters .row:nth-child(even) .dd-panel{left:auto;right:0}
+#view-events .dd-panel{width:min(340px,calc(100vw - 32px))}
+#view-events .filters .resetbtn{display:none}
+.cntrow{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:-6px}
+.cntrow #count{margin:0;font-weight:700;color:var(--sec)}
+.cntrow .resetbtn{margin:0;border:0;background:none;padding:4px 0;color:var(--sec)}
+.dstrip{display:flex;gap:8px;overflow-x:auto;padding:2px 2px 8px;scrollbar-width:none;margin:0 -2px}
+.dstrip::-webkit-scrollbar{display:none}
+.dchip{flex:none;min-width:52px;padding:8px 6px;border-radius:14px;border:0;background:var(--surface);color:var(--muted);font:700 .75rem/1.2 var(--body);text-align:center;cursor:pointer;box-shadow:0 2px 8px rgba(13,35,64,.06)}
+.dchip b{display:block;font-size:1.15rem;color:var(--ink)}
+.dchip i{display:block;font-style:normal;font-size:.66rem;color:var(--sec);margin-top:2px}
+.dchip.txt{padding:8px 12px}.dchip.txt b{font-size:.95rem;line-height:1.45rem}
+.dchip.zero{opacity:.45}
+.dchip[aria-pressed=true]{background:#0d2340;color:#cfe0f7}.dchip[aria-pressed=true] b{color:#fff}.dchip[aria-pressed=true] i{color:#9cc8f2}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .dchip[aria-pressed=true]{background:var(--sec);color:#dbe9fb}}
+:root[data-theme="dark"] .dchip[aria-pressed=true]{background:var(--sec);color:#dbe9fb}
+.evc .tag.kids{background:#fff1c2;color:#5c4100}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .evc .tag.kids{background:#4a3a10;color:#ffe08a}}
+:root[data-theme="dark"] .evc .tag.kids{background:#4a3a10;color:#ffe08a}
+.dayh{margin:14px 2px 4px;font:800 1rem var(--display);color:var(--ink)}
+#view-events #list .evc{display:flex;gap:12px;background:var(--surface);border-radius:18px;padding:12px;margin-bottom:10px;box-shadow:0 2px 10px rgba(13,35,64,.06);position:relative}
+.evc .em{width:54px;height:54px;flex:none;border-radius:16px;display:grid;place-items:center;font-size:1.7rem}
+.evc .bd{min-width:0;flex:1;padding-right:30px}
+.evc .bd>a{display:block;font-weight:800;font-size:1rem;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.evc .bd>a:hover{text-decoration:underline}
+.evc .meta{color:var(--muted);font-size:.88rem;margin-top:2px}
+.evc .tags{margin-top:7px;display:flex;flex-wrap:wrap;gap:5px}
+.evc .tag{border-radius:999px;padding:3px 9px;background:var(--soft)}
+.evc .fav{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;background:none;font-size:1.3rem;color:#b9c8dc;cursor:pointer;border-radius:50%}
+.evc .fav[aria-pressed=true]{color:#e0245e}
+</style>
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
 </head>
 <body>
@@ -442,11 +487,13 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <section class="filters" aria-label="Filter">
     <div class="row" id="f-g"><b>Gemeinde</b><details class="dd" id="g-dd"><summary id="g-sum">Alle Gemeinden</summary><div class="dd-panel" id="g-panel"><div class="dd-actions"><button type="button" id="g-all">Alle</button><button type="button" id="g-none">Keine</button></div></div></details></div>
     <div class="row" id="f-a"><b>Alter</b><details class="dd" id="a-dd"><summary id="a-sum">Jedes Alter</summary><div class="dd-panel" id="a-panel"><div class="dd-actions"><button type="button" id="a-all">Jedes Alter</button></div></div></details></div>
+    <div class="row" id="f-k"><b>Art</b><details class="dd" id="k-dd"><summary id="k-sum">Alle Arten</summary><div class="dd-panel" id="k-panel"><div class="dd-actions"><button type="button" id="k-all">Alle Arten</button></div></div></details></div>
     <div class="row" id="f-w"><b>Wetter</b><details class="dd" id="w-dd"><summary id="w-sum">Alle Anlässe</summary><div class="dd-panel" id="w-panel"></div></details></div>
     <div class="row" id="f-t"><b>Wann</b><details class="dd" id="t-dd"><summary id="t-sum">Alle Termine</summary><div class="dd-panel" id="t-panel"></div></details></div>
   </section>
 
-  <p id="count" aria-live="polite"></p>
+  <div class="cntrow"><p id="count" aria-live="polite"></p></div>
+  <div class="dstrip" id="dstrip" role="group" aria-label="Tag wählen"></div>
   <main id="list"></main>
 
   <footer>
@@ -470,7 +517,22 @@ const AGES=[[0,3],[4,6],[7,9],[10,12]];
 const TIMES=[["all","Alle Termine"],["today","Heute"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
 let SITES={},EVENTS=[];
 const RESET={},GO={};
-const state={g:new Set(),a:new Set(),open:true,t:"all",w:"all"};
+const state={g:new Set(),a:new Set(),k:new Set(),open:true,t:"all",w:"all"};
+const ARTS=[["basteln","🎨","Basteln & Gestalten",/bastel|kerzenzieh|kerzen|töpfer|werk|atelier|kreativ|malen|mal-|zeichn|näh|filz|kranz|guetzli|back|koch|schmuck|gestalt|druck|lego/i],
+ ["buecher","📚","Bücher & Geschichten",/bibliothek|buch|bücher|vorles|gschicht|geschicht|erzähl|märli|märchen|bilderbuch|lesen|lese|verslispiel|reim/i],
+ ["buehne","🎭","Theater, Kino & Musik",/theater|kino|film|zauber|puppen|kasperli|figuren|clown|zirkus|circus|musik|konzert|sing|chor|lieder|tanz|disco|ballett/i],
+ ["feste","🎉","Feste, Märkte & Brauchtum",/fest\b|fest |fäscht|märt|markt|chilbi|samichlaus|nikolaus|advent|weihnacht|wienacht|räbe|laterne|lampion|fasnacht|ostern|oster|umzug|basar|bazar|flohmi|halloween|sankt|st\. ?martin|1\. ?august|bundesfeier/i],
+ ["sport","⚽","Sport & Bewegung",/turn|sport|lauf|velo|schwimm|tanz|yoga|fussball|eislauf|eisbahn|schlittsch|ski\b|kletter|ball\b|pumptrack|bewegung|olympi|parkour|judo|karate|unihockey|tennis/i],
+ ["natur","🌳","Natur & Tiere",/wald|natur|tier|zoo|bauernhof|hof\b|garten|exkursion|vogel|wander|pilz|biene|pony|pferd|esel|ziege|insekt|bach\b|weiher/i],
+ ["treff","🧸","Spielgruppen & Treffpunkte",/spielgruppe|krabbel|chrabbel|treff|eltern|kafi|café|cafe|ludothek|spielnachmittag|spielmorgen|spielplatz|fiire|gottesdienst|chinder|spielen|mütter|väter/i],
+ ["entdecken","🔬","Kurse & Entdecken",/kurs|workshop|forsch|experiment|robot|programm|museum|führung|entdeck|wissen|technik|erste hilfe|babysitter/i]];
+const ARTX=new Map();
+function arts(e){let r=ARTX.get(e);if(!r){r=ARTS.filter(a=>a[3].test(e.name)).map(a=>a[0]);ARTX.set(e,r)}return r}
+function artIcon(e){if(/samichlaus|nikolaus/i.test(e.name))return["🎅","#dc2626"];const a=arts(e)[0];
+  return a?[ARTS.find(x=>x[0]===a)[1],{feste:"#d97706",buecher:"#0a5cb8",buehne:"#7c3aed",basteln:"#db2777",sport:"#0f8a6a",natur:"#16a34a",treff:"#0891b2",entdecken:"#4f46e5"}[a]]:["🎈","#0a5cb8"]}
+const favKey=e=>(e.gemeinden[0]||"")+":"+(e.id||e.name+e.von);
+let FAVS=new Set();try{FAVS=new Set(JSON.parse(localStorage.getItem("fa-fav")||"[]"))}catch(e){}
+const saveFav=()=>{try{localStorage.setItem("fa-fav",JSON.stringify([...FAVS]))}catch(e){}};
 const WOPTS=[["all","Alle Anlässe"],["fit","Passend zum Wetter"],["in","Drinnen (auch bei Regen)"],["out","Draussen (bei schönem Wetter)"]];
 const IN_RE=/bibliothek|museum|saal|kino|turnhalle|hallenbad|kirche|chile|pfarrei|kirchgemeindehaus|familienzentrum|gemeinschaftszentrum|freizeitanlage|freizeithaus|jugendhaus|aula|ludothek|hotel|restaurant|caf[eé]|kafi|bastel|kerzenziehen|theater|gschicht|geschicht|bilderbuch|vorles|spielgruppe|krabbel|töpfer|werkstatt|atelier|indoor|halle\b|zentrum|stube|schulhaus|kurs\b|konzert|singe|fiire|gottesdienst|spielzimmer|kreativ/i;
 const OUT_RE=/wald|spielplatz|wanderung|exkursion|natur(?!hist)|märt|markt|badi|strandbad|seeufer|feuer(?!wehr)|laternen|lampion|räbe|umzug|velo|\blauf|orientierungslauf|garten|bauernhof|biohof|\bhof\b|\bstall|open.?air|im freien|draussen|\bpark|pumptrack|eisbahn|schlitt|\bzoo\b|tierpark|naturstation|rundgang|spaziergang|grill|picknick|fasnacht|chilbi|weiher|weg\b/i;
@@ -488,6 +550,7 @@ const MON=["Januar","Februar","März","April","Mai","Juni","Juli","August","Sept
 const fmt=d=>d.getDate()+". "+MON[d.getMonth()];
 const node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
 function range(today){
+  if(state.t.startsWith("d:"))return[state.t.slice(2),state.t.slice(2)];
   if(state.t==="today")return[iso(today),iso(today)];
   if(state.t==="30")return[iso(today),iso(add(today,30))];
   if(state.t==="we"){const w=today.getDay();const sat=w===0?add(today,-1):add(today,6-w);return[iso(sat),iso(add(sat,1))];}
@@ -504,34 +567,50 @@ function wOk(e,show){if(state.w==="all")return true;const pl=place(e);
 function select(today){
   const[from,to]=range(today);
   return EVENTS.filter(e=>e.bis>=from&&e.von<=to&&(!state.g.size||e.gemeinden.some(c=>state.g.has(c)))&&ageOk(e))
+    .filter(e=>(!state.k.size||arts(e).some(a=>state.k.has(a))||(state.k.has("sonst")&&!arts(e).length))&&(state.t!=="fav"||FAVS.has(favKey(e))))
     .map(e=>({e,show:e.von>from?e.von:from})).filter(x=>wOk(x.e,x.show))
     .sort((a,b)=>a.show.localeCompare(b.show)||a.e.name.localeCompare(b.e.name,"de"));
 }
+const SWD=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"];
+const MS=["Jan","Feb","März","Apr","Mai","Juni","Juli","Aug","Sep","Okt","Nov","Dez"];
+function strip(today){const box=document.getElementById("dstrip");if(!box)return;box.replaceChildren();
+  const ti=iso(today),cur=state.t==="today"?"d:"+ti:state.t;
+  const base=EVENTS.filter(e=>(!state.g.size||e.gemeinden.some(c=>state.g.has(c)))&&ageOk(e)&&(!state.k.size||arts(e).some(a=>state.k.has(a))||(state.k.has("sonst")&&!arts(e).length)));
+  const mk=(v,top,big,small,txt)=>{const b=node("button","dchip"+(txt?" txt":""));b.type="button";b.append(document.createTextNode(top),node("b","",big));if(small!=null)b.append(node("i","",small));
+    b.setAttribute("aria-pressed",String(cur===v));b.addEventListener("click",()=>{state.t=cur===v&&v!=="all"?"all":v;update()});box.append(b);return b};
+  mk("all","Alle","∞",null,1);
+  const nf=base.filter(e=>FAVS.has(favKey(e))&&e.bis>=ti).length;mk("fav","Gemerkt","♥",nf?String(nf):null,1);
+  mk("we","Nächstes","Wochenende",null,1);
+  for(let k=0;k<21;k++){const d=add(today,k),di=iso(d);const n=base.filter(e=>e.von<=di&&e.bis>=di&&wOk(e,di)).length;
+    const b=mk("d:"+di,k===0?"Heute":WD[d.getDay()],String(d.getDate()),n?String(n):"–");if(!n)b.classList.add("zero");
+    b.setAttribute("aria-label",SWD[d.getDay()]+", "+fmt(d)+": "+n+" Anlässe")}
+  const on=box.querySelector("[aria-pressed=true]");if(on&&on.offsetLeft>box.clientWidth-60)box.scrollLeft=on.offsetLeft-box.clientWidth/2}
 function render(){
-  const n=new Date(),items=select(new Date(n.getFullYear(),n.getMonth(),n.getDate()));
+  const n=new Date(),today=new Date(n.getFullYear(),n.getMonth(),n.getDate()),items=select(today);strip(today);
   const list=document.getElementById("list");list.replaceChildren();
-  document.getElementById("count").textContent=items.length===1?"1 Anlass":items.length+" Anlässe";
-  if(!items.length){list.append(node("p","empty","Für diese Auswahl gibt es keine Anlässe. Wähle einen längeren Zeitraum, mehr Gemeinden oder ein anderes Alter."));return}
-  let month="",day="",box=null;
-  for(const{e,show}of items){
-    const d=pd(show),m=MON[d.getMonth()]+" "+d.getFullYear();
-    if(m!==month){month=m;day="";list.append(node("h2","month",m))}
-    if(show!==day){day=show;const row=node("div","day"),date=node("div","date");
-      date.append(node("strong","",d.getDate()),node("span","",WD[d.getDay()]));
-      box=node("div","events");row.append(date,box);list.append(row)}
-    const ev=node("article","ev"),a=node("a","",e.name),h=node("div");
-    a.href=e.url||("https://"+SITES[e.gemeinden[0]].domain+"/_rte/anlass/"+e.id);a.target="_blank";a.rel="noopener";h.append(a);
-    const bits=[];if(e.von!==e.bis)bits.push(fmt(pd(e.von))+" bis "+fmt(pd(e.bis)));if(e.time)bits.push(e.time+" Uhr");if(e.ort)bits.push(e.ort);
+  document.getElementById("count").textContent=(items.length===1?"1 Anlass":items.length+" Anlässe")+" gefunden";
+  if(!items.length){list.append(node("p","empty",state.t==="fav"?"Du hast noch keine Anlässe gemerkt. Tippe bei einem Anlass auf das Herz ♡.":"Für diese Auswahl gibt es keine Anlässe. Wähle einen anderen Tag, mehr Gemeinden oder ein anderes Alter."));return}
+  const one=state.t.startsWith("d:")||state.t==="today";let day="";
+  for(const{e,show}of items.slice(0,400)){
+    const d=pd(show);
+    if(show!==day){day=show;list.append(node("h3","dayh",(show===iso(today)?"Heute, ":"")+SWD[d.getDay()]+", "+fmt(d)))}
+    const ev=node("article","evc"),[ic,col]=artIcon(e),em=node("div","em",ic);em.style.background=col+"1f";
+    const bd=node("div","bd"),a=node("a","",e.name);
+    a.href=e.url||("https://"+SITES[e.gemeinden[0]].domain+"/_rte/anlass/"+e.id);a.target="_blank";a.rel="noopener";
+    const bits=[];if(e.von!==e.bis)bits.push(fmt(pd(e.von))+" bis "+fmt(pd(e.bis)));else bits.push(WD[d.getDay()]+" "+d.getDate()+". "+MS[d.getMonth()]);
+    if(e.time)bits.push(e.time+" Uhr");const where=[e.ort,e.gemeinden.map(c=>SITES[c]&&SITES[c].name).filter(Boolean).join(", ")].filter(Boolean);
+    if(where.length)bits.push(where.join(", "));
     const tags=node("div","tags");
     tags.append(node("span","tag"+(e.age?" kids":""),e.age?e.age.label:"Alter offen"));
     const pl=place(e),w=wxFor(e,show);
-    if(pl==="in")tags.append(node("span","tag in","Drinnen"));if(pl==="out")tags.append(node("span","tag out","Draussen"));
+    if(pl==="in")tags.append(node("span","tag in","🏠 Drinnen"));if(pl==="out")tags.append(node("span","tag out","🌳 Draussen"));
+    if(w){const[wi,wt]=WX(w.c);const t=node("span","tag",wi+" "+w.tx+"°");t.title=wt+", "+w.tn+"° bis "+w.tx+"°"+(w.p!=null?", Regen "+w.p+" %":"");tags.append(t)}
     if(pl==="out"&&wet(w))tags.append(node("span","tag warn","Regen möglich"));
-    e.gemeinden.forEach(c=>SITES[c]&&tags.append(node("span","tag",SITES[c].name)));
-    ev.append(h,node("div","meta",bits.join(" · ")));
-    if(w){const[ic,tx]=WX(w.c);ev.append(node("div","wx",ic+" "+tx+", "+w.tn+"° bis "+w.tx+"°"+(w.p!=null?", Regen "+w.p+" %":"")))}
-    ev.append(tags);box.append(ev);
+    const fk=favKey(e),fb=node("button","fav",FAVS.has(fk)?"♥":"♡");fb.type="button";fb.setAttribute("aria-pressed",String(FAVS.has(fk)));fb.setAttribute("aria-label","Merken");
+    fb.addEventListener("click",()=>{FAVS.has(fk)?FAVS.delete(fk):FAVS.add(fk);saveFav();render()});
+    bd.append(a,node("div","meta",bits.join(" · ")),tags);ev.append(em,bd,fb);list.append(ev);
   }
+  if(items.length>400)list.append(node("p","empty","Es werden die ersten 400 Anlässe gezeigt. Wähle einen Tag oder eine Gemeinde, um die Liste einzugrenzen."));
 }
 function btn(id,text,fn){const b=node("button","",text);b.id=id;b.setAttribute("aria-pressed","false");b.addEventListener("click",fn);return b}
 function save(){try{localStorage.setItem("familienagenda2",JSON.stringify({g:[...state.g],a:[...state.a]}))}catch(e){}}
@@ -545,11 +624,16 @@ function sync(){
   const ages=[...state.a].sort().map(i=>AGES[i][0]+"–"+AGES[i][1]);
   document.getElementById("a-sum").textContent=ages.length?ages.join(", ")+" Jahre":"Jedes Alter";
   WOPTS.forEach(([v,l])=>{document.getElementById("w-"+v).checked=state.w===v;if(state.w===v)document.getElementById("w-sum").textContent=l.replace(/ \(.*\)/,"")});
+  const ks=[...state.k].map(k=>k==="sonst"?"Weitere":ARTS.find(a=>a[0]===k)[2].split(/ [&,]/)[0]);
+  document.getElementById("k-sum").textContent=!ks.length?"Alle Arten":ks.length<=2?ks.join(", "):ks.length+" Arten";
+  ARTS.forEach(a=>document.getElementById("k-"+a[0]).checked=state.k.has(a[0]));document.getElementById("k-sonst").checked=state.k.has("sonst");
+  document.getElementById("g-dd").classList.toggle("set",state.g.size>0);document.getElementById("a-dd").classList.toggle("set",state.a.size>0);
+  document.getElementById("k-dd").classList.toggle("set",state.k.size>0);document.getElementById("w-dd").classList.toggle("set",state.w!=="all");
   TIMES.forEach(([v,l])=>{document.getElementById("t-"+v).checked=state.t===v;if(state.t===v)document.getElementById("t-sum").textContent=l});
 }
 const update=()=>{sync();render();save()};
 GO.events=c=>{state.g=new Set([c]);update()};
-RESET.events=()=>{state.g.clear();state.a.clear();state.open=true;state.t="all";state.w="all";update()};
+RESET.events=()=>{state.g.clear();state.a.clear();state.k.clear();state.open=true;state.t="all";state.w="all";update()};
 const toggle=(s,v)=>{s.has(v)?s.delete(v):s.add(v);update()};
 async function start(){
   let data=window.FAMILIENAGENDA;
@@ -596,6 +680,10 @@ async function start(){
   AGES.forEach((r,i)=>ap.append(check("a-"+i,r[0]+"–"+r[1]+" Jahre",()=>toggle(state.a,i))));
   ap.append(node("div","sep"),check("a-open","Auch Anlässe ohne Altersangabe",inp=>{state.open=inp.checked;update()}));
   document.getElementById("a-all").addEventListener("click",()=>{state.a.clear();update()});
+  const kp=document.getElementById("k-panel");
+  ARTS.forEach(a=>kp.append(check("k-"+a[0],a[1]+" "+a[2],()=>toggle(state.k,a[0]))));
+  kp.append(check("k-sonst","🎈 Weitere Anlässe",()=>toggle(state.k,"sonst")));
+  document.getElementById("k-all").addEventListener("click",()=>{state.k.clear();update()});
   const tp=document.getElementById("t-panel");
   TIMES.forEach(([v,l])=>tp.append(check("t-"+v,l,()=>{state.t=v;update();document.getElementById("t-dd").open=false},"radio","wann")));
   const wp=document.getElementById("w-panel");
@@ -1014,6 +1102,8 @@ const SEASONS=[
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
+(function(){const rb=document.querySelector("#view-events .filters .resetbtn"),cr=document.querySelector("#view-events .cntrow");
+  if(rb&&cr){const b=rb.cloneNode(true);b.textContent="↺ Zurücksetzen";b.addEventListener("click",()=>rb.click());cr.append(b)}})();
 const EFS=[["geprueft","✅ Ausdrückliches Kinderangebot (geprüft)"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"]];
 const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_cream","Glacé"],["biergarten","Gartenwirtschaften"]];
 (function setupEssen(){
