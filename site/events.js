@@ -379,13 +379,6 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 32
   },
-  "dorf": {
-   "name": "Dorf",
-   "bezirk": "Andelfingen",
-   "domain": "www.dorf.ch",
-   "ok": true,
-   "count": 0
-  },
   "feuerthalen": {
    "name": "Feuerthalen",
    "bezirk": "Andelfingen",
@@ -435,24 +428,10 @@ window.FAMILIENAGENDA = {
    "ok": true,
    "count": 0
   },
-  "glattfelden": {
-   "name": "Glattfelden",
-   "bezirk": "Bülach",
-   "domain": "www.glattfelden.ch",
-   "ok": true,
-   "count": 0
-  },
   "hoeri": {
    "name": "Höri",
    "bezirk": "Bülach",
    "domain": "www.hoeri.ch",
-   "ok": true,
-   "count": 0
-  },
-  "nuerensdorf": {
-   "name": "Nürensdorf",
-   "bezirk": "Bülach",
-   "domain": "www.nuerensdorf.ch",
    "ok": true,
    "count": 0
   },
@@ -490,13 +469,6 @@ window.FAMILIENAGENDA = {
    "domain": "www.niederweningen.ch",
    "ok": true,
    "count": 5
-  },
-  "oberglatt": {
-   "name": "Oberglatt",
-   "bezirk": "Dielsdorf",
-   "domain": "www.oberglatt.ch",
-   "ok": true,
-   "count": 0
   },
   "otelfingen": {
    "name": "Otelfingen",
@@ -838,36 +810,36 @@ window.FAMILIENAGENDA = {
    "name": "Dübendorf",
    "bezirk": "Uster",
    "domain": "www.duebendorf.ch",
-   "ok": false,
-   "count": 91
+   "ok": true,
+   "count": 93
   },
   "e": {
    "name": "Egg",
    "bezirk": "Uster",
    "domain": "www.egg.ch",
-   "ok": false,
+   "ok": true,
    "count": 11
   },
   "f": {
    "name": "Fällanden",
    "bezirk": "Uster",
    "domain": "www.faellanden.ch",
-   "ok": false,
+   "ok": true,
    "count": 8
   },
   "g": {
    "name": "Greifensee",
    "bezirk": "Uster",
    "domain": "www.greifensee.ch",
-   "ok": false,
-   "count": 2
+   "ok": true,
+   "count": 3
   },
   "m": {
    "name": "Mönchaltorf",
    "bezirk": "Uster",
    "domain": "www.moenchaltorf.ch",
-   "ok": false,
-   "count": 7
+   "ok": true,
+   "count": 8
   },
   "s": {
    "name": "Schwerzenbach",
@@ -880,15 +852,15 @@ window.FAMILIENAGENDA = {
    "name": "Uster",
    "bezirk": "Uster",
    "domain": "www.uster.ch",
-   "ok": false,
-   "count": 33
+   "ok": true,
+   "count": 41
   },
   "wb": {
    "name": "Wangen-Brüttisellen",
    "bezirk": "Uster",
    "domain": "www.wangen-bruettisellen.ch",
-   "ok": false,
-   "count": 26
+   "ok": true,
+   "count": 27
   },
   "bruetten": {
    "name": "Brütten",
