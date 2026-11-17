@@ -224,6 +224,37 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 #go-saison .tile-arrow{grid-column:3;grid-row:1/3;display:block!important;color:#d97706;font-size:1.6rem}
 #go-saison .badge{display:none}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #go-saison{background:linear-gradient(135deg,#4a3418,#4a2230)!important}:root:not([data-theme="light"]) #go-saison .tile-title{color:#fff!important}:root:not([data-theme="light"]) #go-saison .tile-text{color:#f1dcc6!important}}
+
+/* Unterseiten im Stil der Startseite */
+#view-events{--sec:#0a5cb8}#view-saison{--sec:#d97706}#view-ausflug{--sec:#0f8a6a}#view-spielplaetze{--sec:#7c3aed}#view-essen{--sec:#db2777}#view-vereine{--sec:#0891b2}#view-familie{--sec:#4f46e5}#view-raeume{--sec:#475569}
+.wrap:not(.home){padding-top:0!important;gap:16px!important}
+.wrap:not(.home)>.back,.wrap:not(.home)>.subbrand,.wrap:not(.home)>.zhband{display:none!important}
+.subscene{position:relative;margin:0 calc(-1*max(16px,env(safe-area-inset-left,0px)));height:128px;overflow:hidden}
+.subscene svg{width:100%;height:128px;display:block}
+.subscene .sun{position:absolute;top:14px;right:9%;width:32px;height:32px;border-radius:50%;background:#ffd666;box-shadow:0 0 0 6px rgba(255,214,102,.25)}
+.subbar{position:absolute;top:14px;left:max(16px,env(safe-area-inset-left,0px));right:20%;display:flex;align-items:center;gap:10px;text-decoration:none}
+.subbar .backc{width:42px;height:42px;flex:none;border-radius:50%;background:#fff;display:grid;place-items:center;color:#0a5cb8;font:800 1.3rem/1 var(--body);box-shadow:0 3px 10px rgba(13,35,64,.18)}
+.subbar .leu{width:38px;height:38px;flex:none;background:#fff;border-radius:50%;padding:2px;filter:none}
+.subbar b{color:#0d2340;font:800 1rem/1.15 var(--display)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .subbar b{color:#fff}}
+.wrap:not(.home)>header{position:relative;margin-top:-46px;background:var(--surface);border-radius:22px;padding:16px;box-shadow:0 8px 22px rgba(13,35,64,.12);display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px;align-items:center}
+.wrap:not(.home)>header .secico{grid-row:1;width:56px;height:56px;border-radius:18px;background:var(--sec);color:#fff;display:grid;place-items:center}
+.wrap:not(.home)>header .secico svg{width:30px;height:30px}
+.wrap:not(.home)>header h1{grid-column:2;font-size:clamp(1.45rem,6vw,2rem)!important}
+.wrap:not(.home)>header h1::after{display:none!important}
+.wrap:not(.home)>header .lead{grid-column:1/-1;margin:4px 0 0;font-size:.95rem}
+.wrap:not(.home) .filters{background:var(--surface);border-radius:20px;padding:14px;box-shadow:0 4px 14px rgba(13,35,64,.07);border:0!important}
+.wrap:not(.home) .bez,.wrap:not(.home) .month{border-left-color:var(--sec)!important}
+.wrap:not(.home) .nearbtn{background:var(--sec)}
+.wrap:not(.home) .resetbtn{color:var(--sec)}
+.wrap:not(.home) .spg{background:var(--surface);border:0!important;border-radius:16px;padding:0 14px;margin-bottom:8px;box-shadow:0 2px 8px rgba(13,35,64,.06)}
+.wrap:not(.home) .spg[open]>summary{border-left-color:var(--sec)}
+.wrap:not(.home) .spg>summary::after{color:var(--sec)}
+.wrap:not(.home) .day{background:var(--surface);border:0!important;border-radius:16px;padding:12px;margin-bottom:8px;box-shadow:0 2px 8px rgba(13,35,64,.06)}
+.wrap:not(.home) .date strong{color:var(--sec)}
+.wrap:not(.home) .room{background:var(--surface);border-radius:16px;box-shadow:0 2px 8px rgba(13,35,64,.06)}
+.wrap:not(.home) .dd>summary{border-radius:999px}
+.wrap:not(.home) footer .zhwaves{color:var(--sec)}
 </style>
 
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
@@ -969,6 +1000,15 @@ const SEASONS=[
     const l=leu.cloneNode(true);l.setAttribute("aria-hidden","true");l.removeAttribute("role");a.append(l,document.createTextNode("Für Familien in Zürich"));
     const band=document.createElement("div");band.className="zhband";band.setAttribute("aria-hidden","true");
     w.prepend(a,band);
+    const sc=document.querySelector(".home .scene");
+    if(sc){const ss=document.createElement("div");ss.className="subscene";ss.setAttribute("aria-hidden","false");
+      ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
+      const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
+      const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
+      bar.append(node("span","backc","←"),l2,node("b","","Für Familien in Zürich"));ss.append(bar);w.prepend(ss)}
+    const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen"}[w.id];
+    const hd=w.querySelector(":scope>header"),ti=tileId&&document.querySelector("#"+tileId+" .ico svg");
+    if(hd&&ti){const ic=node("span","secico");ic.append(ti.cloneNode(true));hd.prepend(ic)}
     const key={"view-events":"events","view-raeume":"raeume","view-saison":"saison","view-ausflug":"ausflug","view-familie":"familie","view-vereine":"vereine","view-spielplaetze":"spiel","view-essen":"essen"}[w.id],fs=w.querySelector(".filters");
     if(key&&fs){const rb=document.createElement("button");rb.type="button";rb.className="resetbtn";rb.textContent="↺ Alle Filter zurücksetzen";
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
