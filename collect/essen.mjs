@@ -1,6 +1,7 @@
 // Kinderfreundliche Restaurants und Cafés aus OpenStreetMap: Spielecke, Kinderstuhl, Kindermenü oder Spielplatz direkt nebenan
 import { readFileSync, writeFileSync } from "node:fs";
 import { alleGemeinden } from "./alle.mjs";
+import { wdTags, fillSites } from "./web.mjs";
 const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
@@ -40,10 +41,11 @@ for (const e of data.elements) {
   const b = bounds.find(b => cross(c.lon, c.lat, b.segs) % 2 === 1); if (!b || !code[b.name]) continue;
   const key = t.name + b.name; if (seen.has(key)) continue; seen.add(key);
   out.push({ g: code[b.name], n: t.name, a: t.amenity, f, d: d <= 60 ? Math.round(d) : undefined, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5),
-    w: t.website || t["contact:website"] || "", oh: t.opening_hours || "", cu: (t.cuisine || "").split(";").slice(0, 2).join(", "),
+    w: t.website || t["contact:website"] || t.url || "", _wd: wdTags(t), oh: t.opening_hours || "", cu: (t.cuisine || "").split(";").slice(0, 2).join(", "),
     adr: [[t["addr:street"], t["addr:housenumber"]].filter(Boolean).join(" ")].filter(Boolean).join("") });
 }
 out.sort((a, b) => b.f.length - a.f.length || a.n.localeCompare(b.n, "de"));
 const cnt = {}; out.forEach(x => x.f.forEach(k => cnt[k] = (cnt[k] || 0) + 1));
 console.log("restaurants:", out.length, JSON.stringify(cnt), "spielplätze:", plays.length);
+await fillSites(out);
 writeFileSync("site/essen.js", "window.ESSEN=" + JSON.stringify({ stand: new Date().toISOString().slice(0, 10), orte: out }) + ";\n");

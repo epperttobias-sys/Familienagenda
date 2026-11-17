@@ -1,6 +1,7 @@
 // Kinderarztpraxen und Apotheken aus OpenStreetMap, pro Gemeinde (Kanton Zürich)
 import { writeFileSync } from "node:fs";
 import { alleGemeinden } from "./alle.mjs";
+import { wdTags, fillSites } from "./web.mjs";
 const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
@@ -27,10 +28,11 @@ for (const e of data.elements) {
   if (!isApo && /tierarzt|veterin|zahn|dental|kinderwunsch|podolog|physio|cranio|psychiat|psycholog|psychother|frauen|gyn|kjpd|\bpuk\b|kinderspital|permanence|ergo|logop/i.test(t.name + " " + (t["healthcare:speciality"] || ""))) continue;
   const b = bounds.find(b => cross(c.lon, c.lat, b.segs) % 2 === 1); if (!b || !code[b.name]) continue;
   const key = (isApo ? "a" : "k") + t.name + b.name; if (seen.has(key)) continue; seen.add(key);
-  const x = { g: code[b.name], n: t.name, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5), w: t.website || t["contact:website"] || "",
+  const x = { g: code[b.name], n: t.name, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5), w: t.website || t["contact:website"] || t.url || "", _wd: wdTags(t),
     tel: t.phone || t["contact:phone"] || "", oh: t.opening_hours || "", adr: [t["addr:street"], t["addr:housenumber"]].filter(Boolean).join(" ") };
   (isApo ? apo : aerzte).push(x);
 }
 aerzte.sort((a, b) => a.n.localeCompare(b.n, "de")); apo.sort((a, b) => a.n.localeCompare(b.n, "de"));
 console.log("kinderärzte:", aerzte.length, "apotheken:", apo.length);
+await fillSites(aerzte.concat(apo));
 writeFileSync("site/gesundheit.js", "window.GESUNDHEIT=" + JSON.stringify({ stand: new Date().toISOString().slice(0, 10), aerzte, apo }) + ";\n");

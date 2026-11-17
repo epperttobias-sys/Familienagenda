@@ -1,6 +1,7 @@
 // Ausflugsziele aus OpenStreetMap für die Region (Bezirke Uster, Meilen, Pfäffikon, Hinwil)
 import { readFileSync, writeFileSync } from "node:fs";
 import { alleGemeinden } from "./alle.mjs";
+import { wdTags, fillSites } from "./web.mjs";
 const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
@@ -52,9 +53,10 @@ for (const e of data.elements) {
   const wp = t.wikipedia && /^de:/.test(t.wikipedia) ? "https://de.wikipedia.org/wiki/" + encodeURIComponent(t.wikipedia.slice(3).replace(/ /g, "_")) : "";
   const indoor = INDOOR.has(k) || t.indoor === "yes" || t.leisure === "trampoline_park" || t.leisure === "amusement_arcade" || t.leisure === "sports_centre" || t.leisure === "ice_rink" ? 1 : 0;
   out.push({ g: code[b.name], k, n: name, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5), d: (t.description || "").slice(0, 200),
-    w: t.website || t["contact:website"] || "", wp, oh: t.opening_hours || "", in: indoor, fee: t.fee === "no" ? 0 : t.fee === "yes" ? 1 : null });
+    w: t.website || t["contact:website"] || t.url || "", _wd: wdTags(t), wp, oh: t.opening_hours || "", in: indoor, fee: t.fee === "no" ? 0 : t.fee === "yes" ? 1 : null });
 }
 out.sort((a, b) => a.k.localeCompare(b.k) || a.n.localeCompare(b.n, "de"));
 const cnt = {}; out.forEach(x => cnt[x.k] = (cnt[x.k] || 0) + 1);
 console.log("ausflugsziele:", out.length, JSON.stringify(cnt));
+await fillSites(out);
 writeFileSync("site/ausflug.js", "window.AUSFLUG=" + JSON.stringify({ stand: new Date().toISOString().slice(0, 10), ziele: out }) + ";\n");

@@ -1,6 +1,7 @@
 // Familienangebote aus OpenStreetMap: Kitas, Bibliotheken, Ludotheken, Bäder, Familienzentren
 import { readFileSync, writeFileSync } from "node:fs";
 import { alleGemeinden } from "./alle.mjs";
+import { wdTags, fillSites } from "./web.mjs";
 const G = alleGemeinden();
 const names = Object.values(G).map(g => g.name), code = Object.fromEntries(Object.entries(G).map(([c, g]) => [g.name, c]));
 const esc = s => s.replace(/[.*+?^${}()|[\]\\]/g, "\\\\$&");
@@ -46,9 +47,10 @@ for (const e of data.elements) {
   const key = k + t.name + b.name; if (seen.has(key)) continue; seen.add(key);
   const addr = [[t["addr:street"], t["addr:housenumber"]].filter(Boolean).join(" "), t["addr:city"] || ""].filter(Boolean).join(", ");
   (out[code[b.name]] = out[code[b.name]] || []).push({ k, n: t.name, lat: +c.lat.toFixed(5), lon: +c.lon.toFixed(5), a: addr,
-    w: t.website || t["contact:website"] || "", oh: t.opening_hours || "" });
+    w: t.website || t["contact:website"] || t.url || "", _wd: wdTags(t), oh: t.opening_hours || "" });
 }
 for (const c in out) out[c].sort((a, b) => a.k.localeCompare(b.k) || a.n.localeCompare(b.n, "de"));
 const cnt = {}; Object.values(out).flat().forEach(x => cnt[x.k] = (cnt[x.k] || 0) + 1);
 console.log("familienangebote:", JSON.stringify(cnt), "gemeinden:", Object.keys(out).length);
+await fillSites(Object.values(out).flat());
 writeFileSync("site/familie.js", "window.FAMILIE=" + JSON.stringify({ stand: new Date().toISOString().slice(0, 10), gemeinden: out }) + ";\n");

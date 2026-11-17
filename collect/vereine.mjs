@@ -1,6 +1,7 @@
 // Holt die Vereinslisten der Gemeinden (i-web) und behält Angebote für Kinder
 import { readFileSync, writeFileSync } from "node:fs";
 import { decode, strip, classifyClub } from "./lib.mjs";
+import { siteFromMail } from "./web.mjs";
 const G = JSON.parse(readFileSync(new URL("./gemeinden.json", import.meta.url)));
 const PATHS = ["/vereinsliste", "/vereine", "/vereineliste", "/vereinsverzeichnis"];
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -32,7 +33,10 @@ for (const [code, g] of Object.entries(G)) {
     try {
       const r = await fetch(v.u, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt)" }, signal: AbortSignal.timeout(20000) });
       if (r.ok) { const h = await r.text(); const re = /<a\b[^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi; let m;
-        while ((m = re.exec(h))) { if (/^\s*(website|webseite|homepage|internet)/i.test(strip(decode(m[2])))) { v.w = decode(m[1]); break; } } }
+        while ((m = re.exec(h))) { if (/^\s*(website|webseite|homepage|internet)/i.test(strip(decode(m[2])))) { v.w = decode(m[1]); break; } }
+        if (!v.w) { const main = (h.match(/<main[\s\S]*?<\/main>/i) || [""])[0]; const ext = [...main.matchAll(/href="(https?:\/\/[^"]+)"/gi)].map(x => decode(x[1]))
+            .find(u => !u.includes(g.domain.replace(/^www\./, "")) && !/i-web|google|maps|map\.|admin\.ch|zh\.ch|twitter|x\.com|linkedin|youtube|wikipedia|apple\.com|search\.ch|local\.ch/i.test(u)); if (ext) v.w = ext; }
+        if (!v.w) { const mm = h.match(/mailto:([^"?]+)/i); if (mm) { const u = await siteFromMail(decode(mm[1]), g.domain); if (u) v.w = u; } } }
     } catch {}
     await sleep(300);
   }

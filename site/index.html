@@ -699,6 +699,7 @@ function mkCard(o){const ev=node("article","evc"),em=node("div","em",o.em||"📍
   if(o.tags&&o.tags.length){const tg=node("div","tags");o.tags.forEach(x=>tg.append(node("span","tag",x)));bd.append(tg)}
   if(o.links&&o.links.length){const lk=node("div","lk");o.links.forEach(([tx,u])=>{const a=node("a","",tx);a.href=u;a.target="_blank";a.rel="noopener";lk.append(a)});bd.append(lk)}
   ev.append(em,bd);if(o.km!=null){ev.classList.add("hk");ev.append(node("span","km",(o.ap?"ca. ":"")+fmtKm(o.km)))}return ev}
+const wsearch=(n,ort)=>["🔎 Website suchen","https://www.google.com/search?q="+encodeURIComponent(n+" "+(ort||""))];
 const gmaps=(lat,lon)=>"https://www.google.com/maps/search/?api=1&query="+lat+","+lon,groute=(lat,lon)=>"https://www.google.com/maps/dir/?api=1&destination="+lat+","+lon;
 function sortDD(pid,did,opts,get,set){const pnl=document.getElementById(pid);
   opts.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name=pid;i.dataset.v=v;
@@ -1058,7 +1059,7 @@ const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","P
       if(L.length)rows.push([GM[c].name,L])});
     rows.sort((x,y)=>x[0].localeCompare(y[0],"de"));
     rows.forEach(([g,L])=>{nG++;nV+=L.length;if(shown>=MAX)return;if(rows.length>1)box.append(node("h2","bez",g+" ("+L.length+")"));
-      L.slice().sort((a,b)=>a.n.localeCompare(b.n,"de")).forEach(v=>{if(shown>=MAX)return;shown++;const links=[];if(v.w)links.push(["Website des Vereins",v.w]);links.push([v.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",v.u]);
+      L.slice().sort((a,b)=>a.n.localeCompare(b.n,"de")).forEach(v=>{if(shown>=MAX)return;shown++;const links=[];if(v.w)links.push(["Website des Vereins",v.w]);else links.push(wsearch(v.n,g));links.push([v.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",v.u]);
         box.append(mkCard({em:vIcon(v),title:v.n,meta:[GL[v.k].replace(/^\S+\s/,""),v.o].filter(Boolean).join(" · "),links}))})});
     document.getElementById("vrcount").textContent=(nV===1?"1 Verein":nV+" Vereine")+(nG===1?" in "+rows[0][0]:" in "+nG+" Gemeinden");
     if(nV>shown)box.append(node("p","note","Es werden die ersten "+MAX+" Vereine gezeigt. Wähle oben eine Gemeinde oder einen Bereich."));
@@ -1119,7 +1120,7 @@ const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","�
     rows.forEach(([c,g,L,bera])=>{nG++;nA+=L.length+(bera?1:0);if(shown>=MAX)return;
       if(rows.length>1)box.append(node("h2","bez",g.name+" ("+(L.length+(bera?1:0))+")"));
       if(bera){const k=KJZ[g.bezirk]||KJZ.Hinwil;shown++;box.append(mkCard({em:"👶",title:"Mütter- und Väterberatung",meta:"Kostenlos für Eltern mit Kindern bis 5 Jahre: Stillen, Ernährung, Schlaf, Entwicklung",links:[[k[0],k[1]]]}))}
-      FAK.forEach(([kk,title])=>L.filter(x=>x.k===kk).forEach(x=>{if(shown>=MAX)return;shown++;const links=[];if(x.w)links.push(["Website",x.w]);if(x.u)links.push([x.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",x.u]);
+      FAK.forEach(([kk,title])=>L.filter(x=>x.k===kk).forEach(x=>{if(shown>=MAX)return;shown++;const links=[];if(x.w)links.push(["Website",x.w]);else links.push(wsearch(x.n,g.name));if(x.u)links.push([x.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",x.u]);
         if(x.lat)links.push(["Karte",gmaps(x.lat,x.lon)]);box.append(mkCard({em:FIC[kk],title:x.n,meta:[title.replace(/^\S+\s/,""),x.a].filter(Boolean).join(" · "),tags:x.oh?["🕒 "+ohDe(x.oh)]:[],links}))}));
       if(!L.length&&!bera)box.append(node("p","note","Zu dieser Gemeinde habe ich noch keine Einträge gefunden."));
       if(rows.length<=3){const src=node("p","gsrc");const parts=[];if(BEZPDF[g.bezirk])parts.push(lk("Übersicht Familienangebote Bezirk "+g.bezirk+" (Kanton, PDF)",BEZPDF[g.bezirk]));
@@ -1170,7 +1171,7 @@ const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["er
     const ks=selK?AKS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];document.getElementById("ak-sum").textContent=!selK?"Alle Themen":ks.length===1?ks[0]:ks.length+" Themen";
     document.getElementById("aw-all").checked=!rain;document.getElementById("aw-rain").checked=rain;document.getElementById("aw-sum").textContent=rain?"Auch bei Regen":"Bei jedem Wetter";syncS()}
   function li(z){const tags=[];if(z.fee===0)tags.push("gratis");if(z.oh)tags.push("🕒 "+ohDe(z.oh));if(z.in)tags.push("🏠 Auch bei Regen");
-    const links=[];if(z.w)links.push(["Website",z.w]);if(z.wp)links.push(["Wikipedia",z.wp]);links.push(["Karte",gmaps(z.lat,z.lon)],["Route",groute(z.lat,z.lon)]);
+    const links=[];if(z.w)links.push(["Website",z.w]);else if(!["feuer","aussicht"].includes(z.k))links.push(wsearch(z.n,(GM[z.g]||{}).name));if(z.wp)links.push(["Wikipedia",z.wp]);links.push(["Karte",gmaps(z.lat,z.lon)],["Route",groute(z.lat,z.lon)]);
     return mkCard({em:(KL[z.k]||"📍").split(" ")[0],title:z.n,meta:[(GM[z.g]||{}).name,z.d||(KL[z.k]||"").replace(/^\S+\s/,"")].filter(Boolean).join(" · "),tags,links,km:z._d})}
   function render(){sync();box.replaceChildren();
     let L=A.ziele.filter(z=>(!selG||selG.has(z.g))&&(!selK||selK.has(z.k))&&(!rain||z.in)).map(z=>Object.assign({},z,{_d:me?km(me[0],me[1],z.lat,z.lon):null}));
@@ -1550,8 +1551,8 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
   const simp=x=>x.toLowerCase().replace(/restaurant|ristorante|gasthaus|wirtschaft|kafi|café|cafe|hofrestaurant|gartenrestaurant|landgasthof|[^a-zäöü0-9 ]/g," ").split(/\s+/).filter(w=>w.length>3);
   (window.ESSEN_PLUS||[]).forEach(p=>{const g=byN[p.gn];if(!g)return;const ws=simp(p.n);
     const key=[...new Set(ws)].sort().join(" "),m=key&&E.orte.find(z=>z.g===g&&[...new Set(simp(z.n))].sort().join(" ")===key);
-    if(m){m.ok=1;m.t=p.t;m.q=p.q;m.f=[...new Set(["geprueft",...p.f,...m.f])]}
-    else E.orte.push({g,n:p.n,a:"restaurant",f:["geprueft",...p.f],ok:1,t:p.t,q:p.q,lat:p.lat,lon:p.lon,ap:1})});
+    if(m){m.ok=1;m.t=p.t;m.q=p.q;if(p.w&&!m.w)m.w=p.w;m.f=[...new Set(["geprueft",...p.f,...m.f])]}
+    else E.orte.push({g,n:p.n,a:"restaurant",f:["geprueft",...p.f],ok:1,t:p.t,q:p.q,w:p.w||"",lat:p.lat,lon:p.lon,ap:1})});
   E.orte.sort((a,b)=>(b.ok||0)-(a.ok||0));
   document.getElementById("tile-essen").textContent=E.orte.length+" Orte mit Spielecke, Kinderstuhl oder Spielplatz nebenan";
   const codes=Object.keys(GM).filter(c=>E.orte.some(z=>z.g===c));let selG=null,selF=null,art="all",me=null;
@@ -1591,7 +1592,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     EAS.forEach(([v,t])=>{document.getElementById("ea-"+v).checked=art===v;if(art===v)document.getElementById("ea-sum").textContent=t});syncS()}
   const AIC={restaurant:"🍽️",cafe:"☕",ice_cream:"🍦",biergarten:"🍺"};
   function li(z){const tags=z.f.filter(k=>k!=="geprueft").map(k=>k==="spielplatz"&&z.d!=null?"🛝 Spielplatz "+z.d+" m":k==="spielplatz"?"🛝 Spielplatz":FL[k]);if(z.oh)tags.push("🕒 "+ohDe(z.oh));
-    const links=[];if(z.w)links.push(["Website",z.w]);if(z.q)links.push(["Quelle",z.q]);const gq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));
+    const links=[];if(z.w)links.push(["Website",z.w]);else links.push(wsearch(z.n,(GM[z.g]||{}).name));if(z.q)links.push(["Quelle",z.q]);const gq=encodeURIComponent(z.n+" "+((GM[z.g]||{}).name||""));
     links.push(["Karte",z.ap?"https://www.google.com/maps/search/?api=1&query="+gq:gmaps(z.lat,z.lon)],["Route",z.ap?"https://www.google.com/maps/dir/?api=1&destination="+gq:groute(z.lat,z.lon)]);
     return mkCard({em:AIC[z.a]||"🍽️",title:z.n,meta:[AL[z.a]||"",(GM[z.g]||{}).name||"",z.adr,z.cu].filter(Boolean).join(" · "),desc:z.t?"✅ "+z.t:"",tags,links,km:z._d,ap:z.ap})}
   function render(){sync();box.replaceChildren();
