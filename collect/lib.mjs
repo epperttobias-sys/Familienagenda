@@ -241,6 +241,23 @@ export const SYSTEMS = {
     return items;
   },
 
+  // WordPress «The Events Calendar» mit JSON-Schnittstelle (Pfäffikon ZH).
+  async tribe(site, get) {
+    const items = [], today = new Date().toISOString().slice(0, 10);
+    for (let page = 1; page <= 8; page++) {
+      const j = JSON.parse(await get(`https://${site.domain}/wp-json/tribe/events/v1/events?per_page=50&page=${page}&start_date=${today}`));
+      for (const e of j.events || []) {
+        const hm = d => d.slice(11, 16).replace(":", ".");
+        const time = e.all_day ? "" : (e.end_date && e.end_date !== e.start_date ? `${hm(e.start_date)} - ${hm(e.end_date)}` : hm(e.start_date));
+        items.push({ id: String(e.id), name: strip(decode(e.title || "")), von: e.start_date.slice(0, 10), bis: (e.end_date || e.start_date).slice(0, 10),
+          ort: strip(decode((e.venue && e.venue.venue) || "")), veranstalter: "", kategorie: "", hint: strip(decode(e.description || "")).slice(0, 800),
+          url: e.url, detailKey: null, time });
+      }
+      if (!j.total_pages || page >= j.total_pages) break;
+    }
+    return items;
+  },
+
   // Kacheln mit Datum und Titel (Erlenbach).
   async tiles(site, get) {
     const listUrl = `https://${site.domain}${site.path}`;
