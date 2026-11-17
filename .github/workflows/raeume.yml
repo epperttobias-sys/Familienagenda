@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  actions: write
 jobs:
   holen:
     runs-on: ubuntu-latest
@@ -23,3 +24,7 @@ jobs:
           git diff --cached --quiet || git commit -m "Räume aktualisiert"
           git pull --rebase -X theirs --autostash origin main || (git rebase --abort; git pull --no-rebase -X ours origin main)
           git push
+      - name: Seite veröffentlichen
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
