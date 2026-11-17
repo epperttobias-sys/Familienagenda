@@ -653,6 +653,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
 <script src="ausflug.js"></script>
+<script src="ausflug-web.js"></script>
 <script src="spielplaetze.js"></script>
 <script src="ferien.js"></script>
 <script src="gesundheit.js"></script>
@@ -1136,6 +1137,7 @@ const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["er
   const A=window.AUSFLUG,box=document.getElementById("ausflug"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   if(!A){box.append(node("p","empty","Die Ausflugsziele werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("austand").textContent="Stand: "+A.stand.split("-").reverse().join(".")+".";
+  const AW=window.AUSFLUG_WEB||{};A.ziele.forEach(z=>{if(!z.w){const u=AW[z.n+"|"+((GM[z.g]||{}).name||"")];if(u)z.w=u}});
   document.getElementById("tile-ausflug").textContent=A.ziele.length+" Ziele: Tierparks, Museen, Burgen, Aussichtstürme und mehr";
   const codes=Object.keys(GM).filter(c=>A.ziele.some(z=>z.g===c));let selG=null,selK=null,rain=false,me=null;
   const KL=Object.fromEntries(AKS);const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
