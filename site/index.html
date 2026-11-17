@@ -207,14 +207,14 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .home .zhband,.home footer.waves{display:none}
 
 /* Startseite: kleine App-Symbole wie Option B, Saison als breite Karte */
-.home .tiles{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:14px 6px!important}
+.home .tiles{grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:18px 8px!important}
 .home .tile{min-height:0!important;padding:0!important;background:none!important;box-shadow:none!important;color:var(--ink)!important;align-items:center!important;text-align:center!important;gap:6px!important;position:relative;border-radius:0}
-.home .tile .ico{width:60px!important;height:60px!important;border-radius:20px!important;margin:0 auto!important;background:color-mix(in srgb,var(--tc) 15%,var(--surface))!important;color:var(--tc)!important}
-.home .tile .ico svg{width:28px;height:28px}
-.home .tile .tile-title{font-size:.78rem!important;font-weight:700;color:var(--ink)!important;text-align:center!important;line-height:1.2;hyphens:auto;overflow-wrap:anywhere}
+.home .tile .ico{width:min(78px,19vw)!important;height:min(78px,19vw)!important;border-radius:24px!important;margin:0 auto!important;background:color-mix(in srgb,var(--tc) 15%,var(--surface))!important;color:var(--tc)!important}
+.home .tile .ico svg{width:36px;height:36px}
+.home .tile .tile-title{font-size:.88rem!important;font-weight:700;color:var(--ink)!important;text-align:center!important;line-height:1.2;hyphens:manual}
 .home .tile .tile-text{display:none!important}
 .home .tile:hover{transform:translateY(-2px)}
-.home .tile .badge{position:absolute;top:-6px;left:calc(50% + 18px);min-width:24px;height:24px;padding:0 6px;border-radius:999px;background:var(--tc);color:#fff;font:800 .75rem/24px var(--body);text-align:center;box-shadow:0 0 0 2px var(--bg)}
+.home .tile .badge{position:absolute;top:-6px;left:calc(50% + 22px);min-width:24px;height:24px;padding:0 6px;border-radius:999px;background:var(--tc);color:#fff;font:800 .75rem/24px var(--body);text-align:center;box-shadow:0 0 0 2px var(--bg)}
 .home .tile.zero .badge{background:var(--muted)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .home .tile .ico{color:color-mix(in srgb,var(--tc) 55%,#fff)!important;background:color-mix(in srgb,var(--tc) 30%,var(--surface))!important}}
 #go-saison{grid-column:1/-1;order:20!important;display:grid!important;grid-template-columns:auto minmax(0,1fr) auto;column-gap:14px!important;row-gap:2px!important;align-items:center!important;text-align:left!important;gap:14px!important;padding:16px 18px!important;border-radius:20px!important;background:linear-gradient(135deg,#fff4e0,#ffe2e2)!important;color:#0d2340!important;margin-top:6px}
@@ -258,13 +258,13 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     </a>
     <a class="tile tile-alt" href="#ausflug" id="go-ausflug">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-10 4 6 3-4 5 8z"/><circle cx="17" cy="6" r="2"/></svg></span>
-      <span class="tile-title">Ausflugsziele</span>
+      <span class="tile-title">Ausflugs&shy;ziele</span>
       <span class="tile-text" id="tile-ausflug">Tierparks, Museen, Burgen, Aussichtstürme und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#essen" id="go-essen">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v8M4 3v5a3 3 0 006 0V3M7 11v10M17 3c-2 2-3 4-3 7h3v11"/></svg></span>
-      <span class="tile-title">Restaurants</span>
+      <span class="tile-title">Restau&shy;rants</span>
       <span class="tile-text" id="tile-essen">Mit Spielecke, Kinderstuhl oder Spielplatz nebenan</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
@@ -282,7 +282,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     </a>
     <a class="tile tile-alt" href="#spielplaetze" id="go-spiel">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21l6-10M5 13h4"/></svg></span>
-      <span class="tile-title">Spielplätze</span>
+      <span class="tile-title">Spiel&shy;plätze</span>
       <span class="tile-text">Spielplätze in deiner Gemeinde</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
