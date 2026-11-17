@@ -290,8 +290,12 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .wrap:not(.home) .filters .row:nth-of-type(even) .dd-panel{left:auto;right:0}
 .wrap:not(.home) .filters .dd-panel{width:min(340px,calc(100vw - 32px))}
 .wrap:not(.home) .filters .resetbtn{display:none}
-.wrap:not(.home):not(#view-spielplaetze) .near .nearbtn{display:none}
-.wrap:not(.home):not(#view-spielplaetze) .near:not(.on){display:none}
+.wrap:not(.home) .near .nearbtn{display:none}
+.wrap:not(.home) .near:not(.on){display:none}
+.wrap:not(.home) .spmap{height:260px;border-radius:18px;border:0;box-shadow:0 4px 14px rgba(13,35,64,.1);margin:0 0 12px}
+.gpick{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 14px}.gpick button{font:700 .85rem var(--body);padding:7px 12px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}.gpick button span{color:var(--sec);margin-left:5px}
+.wrap:not(.home) .evc.info{background:color-mix(in srgb,var(--sec) 6%,var(--surface));border:1px dashed color-mix(in srgb,var(--sec) 45%,transparent);box-shadow:none}
+.evc.info .em{background:var(--surface)}.evc.info .lk a:first-child{background:var(--sec);color:#fff}
 .wrap:not(.home) .near .note{margin:0}
 .wrap:not(.home) .evc{display:flex;gap:12px;background:var(--surface);border-radius:18px;padding:12px;margin-bottom:10px;box-shadow:0 2px 10px rgba(13,35,64,.06);position:relative}
 .evc .em{width:54px;height:54px;flex:none;border-radius:16px;display:grid;place-items:center;font-size:1.7rem;background:color-mix(in srgb,var(--sec) 12%,var(--surface))}
@@ -400,10 +404,12 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
     <h1>Event-Räume</h1>
-    <p class="lead">Räume für Feste und Anlässe zum mieten, nach Gemeinden geordnet. Preise, freie Termine und Reservation findest du jeweils über den Link der Gemeinde.</p>
+    <p class="lead">Räume für Feste und Anlässe zum Mieten. Preise, freie Termine und Reservation findest du über den Link der Gemeinde.</p>
   </header>
   <section class="filters" aria-label="Filter Räume">
     <div class="row"><b>Gemeinde</b><details class="dd" id="rg-dd"><summary id="rg-sum">Alle Gemeinden</summary><div class="dd-panel" id="rg-panel"><input type="search" class="dd-search" id="rg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="rg-all">Alle</button><button type="button" id="rg-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Art</b><details class="dd" id="rk-dd"><summary id="rk-sum">Alle Räume</summary><div class="dd-panel" id="rk-panel"><div class="dd-actions"><button type="button" id="rk-all">Alle Räume</button></div></div></details></div>
+    <div class="row"><b>Grösse</b><details class="dd" id="rp-dd"><summary id="rp-sum">Alle</summary><div class="dd-panel" id="rp-panel"></div></details></div>
     <div class="row"><b>Sortieren</b><details class="dd" id="rs-dd"><summary id="rs-sum">Nach Gemeinde</summary><div class="dd-panel" id="rs-panel"></div></details></div>
   </section>
   <p id="rcount" class="count-line"></p>
@@ -498,12 +504,15 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
     <h1>Spielplätze</h1>
-    <p class="lead">Öffentliche Spielplätze, nach Gemeinden geordnet. Tippe auf eine Gemeinde, um ihre Spielplätze zu sehen.</p>
+    <p class="lead">Öffentliche Spielplätze mit Karte. Wähle oben deine Gemeinde.</p>
   </header>
-  <section class="filters" aria-label="Suche Spielplätze">
-    <div class="row"><b>Suche</b><input type="search" class="dd-search sp-search" id="sp-search" placeholder="🔍 Gemeinde oder Spielplatz suchen" aria-label="Gemeinde oder Spielplatz suchen"></div>
+  <section class="filters" aria-label="Filter Spielplätze">
+    <div class="row"><b>Gemeinde</b><details class="dd" id="pg-dd"><summary id="pg-sum">Gemeinde wählen</summary><div class="dd-panel" id="pg-panel"><input type="search" class="dd-search" id="pg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="pg-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Ausstattung</b><details class="dd" id="pf-dd"><summary id="pf-sum">Alle</summary><div class="dd-panel" id="pf-panel"><div class="dd-actions"><button type="button" id="pf-all">Alle</button></div></div></details></div>
+    <div class="row"><b>Alter</b><details class="dd" id="pa-dd"><summary id="pa-sum">Alle</summary><div class="dd-panel" id="pa-panel"></div></details></div>
+    <div class="row"><b>Sortieren</b><details class="dd" id="ps-dd"><summary id="ps-sum">Nach Name</summary><div class="dd-panel" id="ps-panel"></div></details></div>
   </section>
-  <div class="near"><button type="button" id="sp-near" class="nearbtn">📍 Spielplätze in meiner Nähe</button><p class="note" id="sp-near-msg">Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.</p><div id="sp-near-box"></div></div>
+  <div class="near"><p class="note" id="sp-near-msg"></p></div>
   <p id="spcount" class="count-line"></p>
   <main id="spiel"></main>
   <footer>Liste: © OpenStreetMap-Mitwirkende (ODbL), jede Woche aktualisiert. Bewertungen und Fotos findest du über den Link zu Google beim Pin. Brunnen, Bäume und Schulgelände stammen aus Einträgen in OpenStreetMap, ohne Schätzung. Viele Spielplätze haben dort keinen Namen, dann steht «Spielplatz» und die Lage auf der Karte. Fehlt einer, kann man ihn auf openstreetmap.org selbst eintragen. <span id="spstand"></span></footer>
@@ -743,42 +752,52 @@ async function liveWeather(){const W=window.WETTER;if(!W)return;const codes=Obje
 const ROOMS=[{"bezirk": "Uster", "name": "Uster", "rooms": ["Viele Kulturräume, für Kulturveranstaltende oft vergünstigt", "Ateliers im Zeughausareal", "Schulsportanlagen"], "links": [["Kulturräume der Stadt Uster", "https://www.uster.ch/kulturfoerderung/4697"], ["Schulsportanlagen", "https://www.uster.ch/anlagen/9532"]], "note": ""}, {"bezirk": "Uster", "name": "Egg", "rooms": ["Hirschensaal", "Dreifach-Turnhalle Kirchwies"], "links": [["Vermietung Hirschensaal", "https://www.egg.ch/dienstleistungen/52169"], ["Dreifach-Turnhalle Kirchwies", "https://www.egg.ch/_rte/sehenswuerdigkeit/18356"]], "note": ""}, {"bezirk": "Uster", "name": "Greifensee", "rooms": ["Raum in der «Limi»", "Schloss Greifensee", "Singsaal Schulhaus Wüeri", "Saal Restaurant «Krone»"], "links": [["Mietlokalitäten Greifensee", "https://www.greifensee.ch/lokalemieten"]], "note": "Weitere Räume auf der Seite der Gemeinde."}, {"bezirk": "Uster", "name": "Mönchaltorf", "rooms": [{"n": "Grosser Saal im Mönchhof", "p": 200}, {"n": "Kleiner Saal im Mönchhof", "p": 50}, {"n": "Ratsstube", "p": 12}, "Aussenplatz Mönchhof", {"n": "Mehrzweckraum Rietwis", "p": 50}, "Pausenhalle und Mehrzweckhalle Rietwis"], "links": [["Raumvermietung Mönchaltorf", "https://www.moenchaltorf.ch/raumvermietung/110455"]], "note": ""}, {"bezirk": "Uster", "name": "Fällanden", "rooms": ["Gemeindesaal", "Zwicky-Fabrik", "GZ Fällanden", "Gemeinschaftszentrum Benglen", "Räume im kath. Pfarreizentrum", "Räume im Alterszentrum Sunnetal", "Turnhalle Schulhaus Buechwis"], "links": [["Räume und Veranstaltungsorte", "https://www.faellanden.ch/raumemain"]], "note": ""}, {"bezirk": "Uster", "name": "Dübendorf", "rooms": ["Mehrzweckgebäude Obere Mühle", "Lazariterkirche im Gfenn", "Theorieraum im Feuerwehrlokal"], "links": [["Obere Mühle", "https://www.duebendorf.ch/stadtentwicklung/1854"], ["Reglement Lazariterkirche (PDF)", "https://www.duebendorf.ch/_docn/3535520/20101201-RE-Reglement_Lazariterkirche.pdf"]], "note": "Eine zentrale Übersicht der Stadt habe ich nicht gefunden."}, {"bezirk": "Uster", "name": "Maur", "rooms": ["Über 20 Säle und Aussenanlagen, online buchbar"], "links": [["Raumreservation Maur", "https://www.maur.ch/themen/freizeit-mobilitaet/raumreservation.html/411"], ["Buchungsportal Raum4you", "https://www.raum4you.ch/index.cfm"]], "note": ""}, {"bezirk": "Uster", "name": "Volketswil", "rooms": ["Gemeinschaftszentrum In der Au", "Kultur- und Sportzentrum Gries (Kuspo)", "Quartieranlagen Chappeli, Kindhausen, Steibrugg und Gutenswil", "Schulhäuser ausserhalb der Schulzeit"], "links": [["Raumvermietung Volketswil", "https://www.volketswil.ch/verwaltung/abteilungen/liegenschaften/raumvermietung-raumbetreuung.html/160/l/de"]], "note": "Mit Online-Reservationssystem."}, {"bezirk": "Uster", "name": "Schwerzenbach", "rooms": ["Gemeindesaal", "Schützenhaus"], "links": [["Reglement Gemeindesaal (PDF)", "https://www.schwerzenbach.ch/fileadmin/user_upload/Rechtssammlung/4_Schule_und_Freizeit/Reglement_f%C3%BCr_die_Vermietung_des_Gemeindesaals_2024__final.pdf"], ["Reglement Schützenhaus (PDF)", "https://www.schwerzenbach.ch/fileadmin/user_upload/Rechtssammlung/4_Schule_und_Freizeit/Reglement_Vermietung_Sch%C3%BCtzenhaus.pdf"]], "note": ""}, {"bezirk": "Uster", "name": "Wangen-Brüttisellen", "rooms": [], "links": [["Website der Gemeinde", "https://www.wangen-bruettisellen.ch/"]], "note": "Keine Seite zur Raumvermietung gefunden. Am besten direkt bei der Gemeinde nachfragen."}, {"bezirk": "Meilen", "name": "Männedorf", "rooms": ["Gemeindesaal (grosser und kleiner Saal)", "Aula Blatten", "Dachstock Villa Liebegg", "Familienzentrum"], "links": [["Merkblatt Gemeindesaal (PDF)", "https://www.maennedorf.ch/_docn/5635603/Merkblatt_Gemeindesaal_-_kleiner_Saal.pdf"], ["Merkblatt Aula Blatten (PDF)", "https://www.maennedorf.ch/_docn/5687605/Merkblatt_Aula_Blatten.pdf"], ["Merkblatt Familienzentrum (PDF)", "https://www.maennedorf.ch/_docn/5638543/Merkblatt_Familienzentrum.pdf"]], "note": ""}, {"bezirk": "Meilen", "name": "Meilen", "rooms": ["Badhüsli", "Festhütten", "Jugendtreff", "Jürg-Wille-Saal im Gasthof Löwen"], "links": [["Raumreservation Meilen", "https://raummiete.meilen.ch/raumangebot.htm"], ["Festhütten", "https://meilen.ch/de/freizeit/badhueslifesthuetten"]], "note": "Mit Online-Reservationsplattform."}, {"bezirk": "Meilen", "name": "Zollikon", "rooms": ["Gemeindesaal", "Villa Meier-Severini", "Geresaal / Quartiertreff (Zollikerberg)", "Gerenhaus (Zollikerberg)", "Turnhalle Schwimmbad Fohrbach (Wochenende, private Anlässe)", "Turnhallen, Aulen und Schulküchen der Schule"], "links": [["Raumangebot Zollikon", "https://www.zollikon.ch/raeume"], ["Gemeindesaal", "https://www.zollikon.ch/aemter/1420"]], "note": "Waldhütten gibt es keine."}, {"bezirk": "Meilen", "name": "Zumikon", "rooms": ["Gemeindesaal (online reservierbar)", "Sporthalle Farlifang (sehr gefragt)"], "links": [["Raumreservation Zumikon", "https://www.zumikon.ch/aemter/13205"], ["Sporthallenbelegungen", "https://www.zumikon.ch/dienstleistungen/29978"]], "note": ""}, {"bezirk": "Meilen", "name": "Uetikon am See", "rooms": ["Riedstegsaal im Riedstegzentrum", "Weitere Räume und Anlagen", "Festbänke"], "links": [["Vermietung Uetikon", "https://www.uetikonamsee.ch/vermietung"], ["Vermietung Räume und Anlagen", "https://www.uetikonamsee.ch/online-schalter/67633/detail"]], "note": ""}, {"bezirk": "Meilen", "name": "Küsnacht", "rooms": [{"n": "HesliHalle (ab 40 Personen)", "p": 750}, {"n": "Seehof (ab 10 Personen)", "p": 200}, {"n": "Gewölbekeller Wangensbach", "p": 100}, {"n": "Mehrzweckraum Familienzentrum", "p": 50}, "Freizeitanlage Sunnemetzg"], "links": [["Raumvermietung Küsnacht", "https://www.kuesnacht.ch/leben-freizeit/raumvermietung.page/814"], ["Mehrzweckraum Familienzentrum", "https://www.kuesnacht.ch/gemeinde/verwaltung/abteilungen/gesellschaft/familienzentrum/mehrzweckraum.page/979"]], "note": ""}, {"bezirk": "Meilen", "name": "Herrliberg", "rooms": [{"n": "Vogtei: Zehntensaal", "p": 280}, {"n": "Vogtei: Trotte", "p": 100}, {"n": "Vogtei: Festsaal", "p": 50}, {"n": "Vogtei: Gartensaal", "p": 40}, {"n": "Vogtei: Foyer Zehntenscheune", "p": 30}, "Jugendhaus", "Baadhüüsli", "Sportanlage Langacker"], "links": [["Raumangebot Herrliberg", "https://www.herrliberg.ch/themen-a-z/thema-i.html/440"], ["Vogtei", "https://www.herrliberg.ch/verwaltung/dienstleistungen-a-z.html/217/egov_service/392"]], "note": ""}, {"bezirk": "Meilen", "name": "Oetwil am See", "rooms": [], "links": [["Gebühren für Räume und Plätze (PDF)", "https://www.oetwil.ch/public/upload/assets/1192/Ben%C3%BCtzungsgeb%C3%BChren%20f%C3%BCr%20R%C3%A4ume%20und%20Pl%C3%A4tze.pdf"], ["Bau und Liegenschaften", "https://www.oetwil.ch/verwaltung/abteilungen-amtsstellen/bau-und-liegenschaften.html/32"]], "note": "Nur eine Gebührenliste gefunden. Für die Reservation bei der Abteilung Bau und Liegenschaften nachfragen."}, {"bezirk": "Meilen", "name": "Hombrechtikon", "rooms": ["Gemeindesaal: Grosser Saal", "Gemeindesaal: Kleiner Saal", "Beide Säle zusammen, Foyer für Apéros"], "links": [["Raumreservation Hombrechtikon", "https://www.hombrechtikon.ch/leben/raumreservationen/raumreservation.html/247"]], "note": ""}, {"bezirk": "Meilen", "name": "Erlenbach", "rooms": ["Erlengut", "Turmgut", "Forsthaus / Waldhütte"], "links": [["Erlengut", "https://www.erlenbach.ch/de/leben/lokalitaeten/erlengut/"], ["Turmgut", "https://erlenbach.ch/turmgut"], ["Forsthaus / Waldhütte", "https://www.erlenbach.ch/de/leben/lokalitaeten/forsthaus-waldhuette/"]], "note": ""}, {"bezirk": "Pfäffikon", "name": "Fehraltorf", "rooms": ["Räume der Gemeinde", "Coworking"], "links": [["Raumreservation / Coworking", "https://www.fehraltorf.ch/raumreservation-coworking"]], "note": ""}, {"bezirk": "Pfäffikon", "name": "Bauma", "rooms": ["Liegenschaften der Gemeinde und der Schule"], "links": [["Liegenschaften Bauma", "https://www.bauma.ch/dienstleistungen/26776"]], "note": "Keine Liste einzelner Räume gefunden."}, {"bezirk": "Pfäffikon", "name": "Hittnau", "rooms": ["Schützenstube im Schützenhaus"], "links": [["Tarif Schützenstube (PDF)", "https://www.hittnau.ch/_docn/4905604/Tarif_Ben%C3%BCtzung_Sch%C3%BCtzenstube_im_Sch%C3%BCtzenhaus_Hittnau.pdf"]], "note": "Eine Übersicht weiterer Räume habe ich nicht gefunden."}, {"bezirk": "Pfäffikon", "name": "Illnau-Effretikon", "rooms": ["Städtische Säle und Räume", "Sportzentrum"], "links": [["Raum- und Saalangebot", "https://www.ilef.ch/dienstleistungen/75505"], ["Raumvermietung", "https://www.ilef.ch/raumvermietung"]], "note": ""}, {"bezirk": "Pfäffikon", "name": "Lindau", "rooms": [{"n": "Mehrzweckraum Wohnen im Buck, Tagelswangen", "p": 50}], "links": [["Weitere Räume", "https://www.lindau.ch/weitereraeume"]], "note": "Räume der Gemeinde nur für Einwohnerinnen, Einwohner und Dorfvereine."}, {"bezirk": "Pfäffikon", "name": "Russikon", "rooms": [], "links": [["Liegenschaften Russikon", "https://www.russikon.ch/aemter/6362"]], "note": "Keine Seite zur Raumvermietung gefunden. Am besten bei der Abteilung Liegenschaften nachfragen."}, {"bezirk": "Pfäffikon", "name": "Weisslingen", "rooms": [], "links": [["Liegenschaften Weisslingen", "https://www.weisslingen.ch/ressorts/26509"]], "note": "Keine Seite zur Raumvermietung gefunden. Am besten bei der Abteilung Liegenschaften nachfragen."}, {"bezirk": "Pfäffikon", "name": "Wildberg", "rooms": [{"n": "Gemeindesaal (ca. 25 sitzend, Küche für 50)", "p": 50}, {"n": "Chilestube (ca. 25 sitzend, über ref. Kirche)", "p": 50}], "links": [["Lokale mieten", "https://www.wildberg.ch/lokalemiete"]], "note": ""}, {"bezirk": "Pfäffikon", "name": "Wila", "rooms": ["Altes Primarschulhaus Stationsstrasse", "Weitere Räume laut Raumverzeichnis"], "links": [["Raumverzeichnis (PDF)", "https://www.wila.ch/public/upload/assets/1342/Raumverzeichnis%202024.pdf?fp=1705475546132"], ["Vermietung Primarschulhaus", "https://www.wila.ch/verwaltung/dienstleistungen.html/42/egov_service/492"]], "note": ""}, {"bezirk": "Hinwil", "name": "Wetzikon", "rooms": ["Räume der Schule", "Schützenstube Erlosen", "Eventareal Mattacher"], "links": [["Raumvermietung Schule", "https://www.wetzikon.ch/schule/schul-abc/entries/Raumvermietung.php"], ["Schützenstube Erlosen", "https://www.wetzikon.ch/de/verwaltung/dienstleistungen/126_sch%C3%BCtzenstube-erlosen-mieten"], ["Eventareal Mattacher", "https://www.wetzikon.ch/de/ueber-wetzikon/sport-und-freizeit/eventareal-mattacher/"]], "note": ""}, {"bezirk": "Hinwil", "name": "Bubikon", "rooms": [], "links": [["Mitteilung zum Nutzungsreglement", "https://www.bubikon.ch/aktuellesinformationen/2828272"]], "note": "Die Gemeinde überarbeitet gerade das Reglement für ihre Räume. Am besten direkt nachfragen."}, {"bezirk": "Hinwil", "name": "Dürnten", "rooms": ["Mehrzweckhalle Blatt (verschiedene Räume)", "Singsaal Nauen", "Schulungsraum im FeuerWerkWasser-Gebäude", "Hessenhügel", "Festtischgarnituren"], "links": [["Raum-Reservationen", "https://www.duernten.ch/dienstleistungen/104122"], ["Mehrzweckhalle Blatt", "https://www.duernten.ch/sportanlagen/30913"]], "note": ""}, {"bezirk": "Hinwil", "name": "Hinwil", "rooms": ["Räume im Mehrzweckgebäude Eisweiher", "Sportanlagen und Sporthallen", "Singsäle und Mehrzweckräume", "Schulräume", "Gemeindeplatz (öffentliche Anlässe)"], "links": [["Reservationen Hinwil", "https://www.hinwil.ch/dienstleistungen/21692"]], "note": ""}, {"bezirk": "Hinwil", "name": "Seegräben", "rooms": ["Mehrzweckraum Buechwäid", "Turnhalle Primarschulanlage", "Waldschulhaus"], "links": [["Raumreservation Seegräben", "https://www.seegraeben.ch/raumreservation"]], "note": ""}, {"bezirk": "Hinwil", "name": "Wald", "rooms": ["Schwertsaal"], "links": [["Schwertsaal-Reservation", "https://www.wald-zh.ch/dienstleistungen/23044"]], "note": ""}, {"bezirk": "Hinwil", "name": "Grüningen", "rooms": ["Werkhofsaal", "Wehrstübli", "Tannsbergstübli", "Mehrzweckhalle Aussergass", "Schloss Grüningen", "Festbestuhlung, Marktstände, Toilettenwagen"], "links": [["Reservationen Grüningen", "https://www.grueningen.ch/dorfleben/infrastruktur/reservationen.html/163"], ["Schloss Grüningen", "https://www.grueningen.ch/gemeinde-grueningen/dorfleben/gesellschaft/heiraten/schloss-grueningen.html/160"]], "note": ""}, {"bezirk": "Hinwil", "name": "Rüti", "rooms": ["Amthaus", "Löwensaal", "Gemeinschaftszentrum", "Sporthallen", "Lehrschwimmbecken Widacher", "Sportwiesen", "Räume der Rütner Schulen"], "links": [["Raumreservationen Rüti", "https://www.rueti.ch/freizeit-kultur/raumreservationen.html/275"]], "note": "Online buchbar über die Plattform Locaboo."}];
 (function addAutoRooms(){const R=window.RAEUME,GA=window.GEMEINDEN||{};if(!R)return;
   const KL={huette:"Waldhütte",kirche:"Kirchgemeinde",halle:"Halle",zentrum:"Zentrum, Treffpunkt",saal:"Saal"},byName={};ROOMS.forEach(r=>byName[r.name]=r);
-  const conv=x=>({n:x.n+" ("+KL[x.k]+")",p:x.p});
+  const conv=x=>({n:x.n,k:x.k,p:x.p,lat:x.lat,lon:x.lon,w:x.w});
   for(const [c,g] of Object.entries(GA)){const auto=(R.raeume[c]||[]),r=byName[g.name];
     if(r){const known=JSON.stringify(r.rooms).toLowerCase();const extra=auto.filter(x=>!known.includes(x.n.toLowerCase().split(" ")[0]));
-      if(extra.length){r.rooms=r.rooms.concat(extra.map(conv));r.note=(r.note?r.note+" ":"")+"Räume mit Typ in Klammern stammen aus OpenStreetMap."}continue}
+      if(extra.length){r.rooms=r.rooms.concat(extra.map(conv))}continue}
     const links=[];if(R.links[c])links.push(["Raumvermietung der Gemeinde",R.links[c]]);if(g.domain)links.push(["Website der Gemeinde","https://"+g.domain]);
     ROOMS.push({bezirk:g.bezirk,name:g.name,rooms:auto.map(conv),links,note:auto.length?"Automatisch aus OpenStreetMap gesammelt. Ob und wie ein Raum gemietet werden kann, steht auf der Website der Gemeinde oder des Betreibers.":"Zu dieser Gemeinde habe ich noch keine Räume gefunden. Schau auf der Website der Gemeinde nach."})}
 })();
-const RSORTS=[["name","Nach Gemeinde (A–Z)"],["bezirk","Nach Bezirk"],["size","Nach Grösse (Personen)"]];
+const RSORTS=[["name","Nach Gemeinde"],["size","Nach Grösse"]];
 function roomLi(t){const r=typeof t==="string"?{n:t}:t,li=node("li","",r.n);
   if(r.p)li.append(node("span","cap","bis "+r.p+" Pers."));if(r.u)li.append(node("span","cap",r.u));return li}
-const rstate={sel:null,sort:"name"};
+const rstate={sel:null,sort:"name",k:null,p:0};
+const RK=[["huette","🌲","Waldhütte",/hütte|huette|forsthaus|feuerstelle|wald/i],["saal","🏛️","Saal",/saal|aula|stube|keller|trotte|villa|schloss|vogtei|gut\b|seehof|mühle|kirche\b(?!gemeinde)/i],["halle","🏟️","Halle",/halle|sport|turn|schwimm|sportanlage/i],["kirche","⛪","Kirchgemeinde",/kirchgemeinde|pfarr|chile|kirche/i],["zentrum","🏠","Zentrum, Treffpunkt",/zentrum|treff|gz\b|jugend|familien|quartier|freizeit|gemeinschaft|mehrzweck/i],["weitere","🏢","Weitere",/./]];
+const roomKind=t=>t.k||(RK.find(x=>x[3].test(t.n))||RK[5])[0];
 function roomCard(r,showB){
   const c=node("section","room");if(showB)c.append(node("span","bz","Bezirk "+r.bezirk));c.append(node("h3","",r.name));
   if(r.rooms.length){const ul=document.createElement("ul");r.rooms.forEach(t=>ul.append(roomLi(t)));c.append(ul)}
   if(r.note)c.append(node("p","note",r.note));
   const ls=node("div","links");r.links.forEach(([t,u])=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";ls.append(a)});c.append(ls);return c}
 GO.raeume=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];rstate.sel=new Set(g?[g.name]:[]);renderRooms()};
-RESET.raeume=()=>{rstate.sel=null;rstate.sort="name";renderRooms()};
+RESET.raeume=()=>{rstate.sel=null;rstate.sort="name";rstate.k=null;rstate.p=0;renderRooms()};
 function renderRooms(){
   const box=document.getElementById("rooms");box.replaceChildren();
   const list=ROOMS.filter(r=>!rstate.sel||rstate.sel.has(r.name)).sort((x,y)=>x.name.localeCompare(y.name,"de"));
-  document.getElementById("rcount").textContent=list.length===1?"1 Gemeinde":list.length+" Gemeinden";
-  if(!list.length){box.append(node("p","empty","Keine Gemeinde gewählt."));}
-  else if(rstate.sort==="bezirk"){const byB={};list.forEach(r=>(byB[r.bezirk]=byB[r.bezirk]||[]).push(r));
-    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));byB[b].forEach(r=>box.append(roomCard(r,false)))})}
-  else if(rstate.sort==="size"){const rows=[];list.forEach(g=>g.rooms.forEach(t=>{if(t.p)rows.push([t,g])}));
-    rows.sort((a,b)=>b[0].p-a[0].p);
-    const c=node("section","room");c.append(node("h3","","Räume mit bekannter Grösse"));const ul=document.createElement("ul");
-    rows.forEach(([t,g])=>{const li=roomLi(t);li.prepend(node("b","",g.name+": "));ul.append(li)});
-    if(rows.length)c.append(ul);else c.append(node("p","note","Für die gewählten Gemeinden kenne ich noch keine Grössen."));
-    c.append(node("p","note","Bei den übrigen Räumen steht die Personenzahl nicht auf der Website der Gemeinde. Sie erscheinen unten unter «Nach Gemeinde»."));box.append(c)}
-  else list.forEach(r=>box.append(roomCard(r,true)));
-  const all=ROOMS.map(r=>r.name),sel=rstate.sel?[...rstate.sel]:all;
-  ROOMS.forEach(r=>{const i=document.getElementById("rg-"+r.slug);if(i)i.checked=sel.includes(r.name)});
+  const okR=t=>(!rstate.k||rstate.k.has(roomKind(t)))&&(!rstate.p||(t.p&&(rstate.p<0?t.p<=30:t.p>=rstate.p)));
+  const rc=(t,g)=>{const r=typeof t==="string"?{n:t}:t,k=roomKind(r),K=RK.find(x=>x[0]===k);const tags=[];if(r.p)tags.push("bis "+r.p+" Pers.");if(r.u)tags.push(r.u);
+    const links=[];if(r.w)links.push(["Website",r.w]);if(r.lat)links.push(["Karte",gmaps(r.lat,r.lon)],["Route",groute(r.lat,r.lon)]);
+    return mkCard({em:K[1],title:r.n,meta:g.name+" · "+K[2],tags,links})};
+  const info=g=>{const c=mkCard({em:"🏛️",title:"Raumvermietung "+g.name,meta:g.note&&!/^Automatisch/.test(g.note)?g.note:"Preise, freie Termine und Reservation bei der Gemeinde",links:g.links});c.classList.add("info");return c};
+  let nR=0,nG=0,shown=0;const MAX=300,filt=rstate.k||rstate.p;
+  if(rstate.sort==="size"){const rows=[];list.forEach(g=>g.rooms.forEach(t=>{const r=typeof t==="string"?{n:t}:t;if(r.p&&okR(r))rows.push([r,g])}));rows.sort((a,b)=>b[0].p-a[0].p);
+    nR=rows.length;rows.slice(0,MAX).forEach(([r,g])=>box.append(rc(r,g)));shown=Math.min(nR,MAX);
+    box.append(node("p","note","Hier stehen nur Räume, deren Personenzahl bekannt ist."))}
+  else list.forEach(g=>{const R=g.rooms.map(t=>typeof t==="string"?{n:t}:t).filter(okR);if(filt&&!R.length)return;nR+=R.length;nG++;if(shown>=MAX)return;
+    if(list.length>1)box.append(node("h2","bez",g.name+(R.length?" ("+R.length+")":"")));box.append(info(g));R.forEach(r=>{if(shown++<MAX)box.append(rc(r,g))})});
+  const sel=rstate.sel?[...rstate.sel]:[];
+  document.getElementById("rcount").textContent=(nR===1?"1 Raum":nR+" Räume")+(sel.length===1?" in "+sel[0]:rstate.sort==="size"?"":" in "+nG+" Gemeinden");
+  if(!list.length)box.append(node("p","empty","Keine Gemeinde gewählt."));else if(!nR&&filt)box.append(node("p","empty","Für diese Auswahl kenne ich keine Räume."));
+  if(nR>shown&&shown>=MAX)box.append(node("p","note","Es werden die ersten "+MAX+" Räume gezeigt. Wähle oben eine Gemeinde."));
+  const all=ROOMS.map(r=>r.name);
+  ROOMS.forEach(r=>{const i=document.getElementById("rg-"+r.slug);if(i)i.checked=!rstate.sel||rstate.sel.has(r.name)});
   document.getElementById("rg-sum").textContent=!rstate.sel?"Alle Gemeinden":!sel.length?"Keine Gemeinde":sel.length<=2?sel.join(", "):sel.length+" Gemeinden";
-  RSORTS.forEach(([v,l])=>{const i=document.getElementById("rs-"+v);i.checked=rstate.sort===v;if(i.checked)document.getElementById("rs-sum").textContent=l.replace(" (A–Z)","").replace(" (Personen)","")});
+  RSORTS.forEach(([v,l])=>{const i=document.getElementById("rs-"+v);i.checked=rstate.sort===v;if(i.checked)document.getElementById("rs-sum").textContent=l});
+  RK.forEach(([k])=>{const i=document.getElementById("rk-"+k);if(i)i.checked=!!rstate.k&&rstate.k.has(k)});
+  const ks=rstate.k?RK.filter(x=>rstate.k.has(x[0])).map(x=>x[2].split(",")[0]):[];document.getElementById("rk-sum").textContent=!ks.length?"Alle Räume":ks.length<=2?ks.join(", "):ks.length+" Arten";
+  const PS=[[0,"Alle"],[-1,"Bis 30 Personen"],[50,"Ab 50 Personen"],[100,"Ab 100 Personen"],[200,"Ab 200 Personen"]];
+  PS.forEach(([v,l])=>{const i=document.getElementById("rp-"+v);if(i)i.checked=rstate.p===v;if(rstate.p===v)document.getElementById("rp-sum").textContent=l});
 }
 (function setupRooms(){
   const panel=document.getElementById("rg-panel"),names=ROOMS.map(r=>r.name);
@@ -800,52 +819,72 @@ function renderRooms(){
     panel.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
     panel.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
   const sp=document.getElementById("rs-panel");
+  const kp=document.getElementById("rk-panel");
+  RK.forEach(([k,ic,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="rk-"+k;i.addEventListener("change",()=>{const c=new Set(rstate.k||[]);i.checked?c.add(k):c.delete(k);rstate.k=c.size?c:null;renderRooms()});l.append(i,node("span","",ic+" "+t));kp.append(l)});
+  document.getElementById("rk-all").addEventListener("click",()=>{rstate.k=null;renderRooms()});
+  const pp=document.getElementById("rp-panel");
+  [[0,"Alle"],[-1,"Bis 30 Personen"],[50,"Ab 50 Personen"],[100,"Ab 100 Personen"],[200,"Ab 200 Personen"]].forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="rp";i.id="rp-"+v;
+    i.addEventListener("change",()=>{rstate.p=v;renderRooms();document.getElementById("rp-dd").open=false});l.append(i,node("span","",t));pp.append(l)});
   RSORTS.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="rsort";i.id="rs-"+v;
     i.addEventListener("change",()=>{rstate.sort=v;renderRooms();document.getElementById("rs-dd").open=false});l.append(i,node("span","",t));sp.append(l)});
   renderRooms();
 })();
 const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpit:"Sandkasten",climbingframe:"Klettergerüst",seesaw:"Wippe",springy:"Federtier",roundabout:"Karussell",water:"Wasser",water_pump:"Wasserpumpe",zipwire:"Seilbahn",playhouse:"Spielhaus",trampoline:"Trampolin",balancebeam:"Balancierbalken",structure:"Spielturm",tower:"Turm",table_tennis:"Pingpong"};
 (function setupSpiel(){
-  const D=window.SPIELPLAETZE,box=document.getElementById("spiel"),inp=document.getElementById("sp-search");
+  const D=window.SPIELPLAETZE,box=document.getElementById("spiel");
   if(!D){box.append(node("p","empty","Die Spielplätze werden gerade gesammelt. Schau bald wieder vorbei."));return}
   document.getElementById("spstand").textContent="Stand: "+D.stand.split("-").reverse().join(".")+".";
   const BZ={};ROOMS.forEach(r=>BZ[r.name]=r.bezirk);Object.values(Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA||{}).gemeinden||{})).forEach(g=>{if(g.bezirk)BZ[g.name]=g.bezirk});
-  function item(p){const li=document.createElement("li");li.append(node("span","t",pname(p)));
-    const ch=node("div","chips");p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).forEach(t=>ch.append(node("span","",t)));
-    if(p.min||p.max)ch.append(node("span","",p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre"));
-    if(p.rs)ch.append(node("span","","rollstuhlgängig"));if(p.sc)ch.append(node("span","","🏫 Schulgelände"));if(p.w||p.dw)ch.append(node("span","","💧 Brunnen"));
-    if(p.sh)ch.append(node("span","","⛱️ Schatten"));if(p.wd)ch.append(node("span","","🌲 Waldrand"));else if(p.tr)ch.append(node("span","","🌳 "+p.tr+(p.tr===1?" Baum":" Bäume")));
-    if(ch.childNodes.length)li.append(ch);
-    if(p.desc)li.append(node("span","note",p.desc));
-    const a=node("a","","Auf der Karte zeigen");a.href="https://www.google.com/maps/search/?api=1&query="+p.lat+","+p.lon;a.target="_blank";a.rel="noopener";li.append(a);return li}
-  function render(){const q=inp.value.trim().toLowerCase();box.replaceChildren();let nG=0,nP=0;const byB={};
-    Object.keys(D.gemeinden).sort((a,b)=>a.localeCompare(b,"de")).forEach(g=>{let L=D.gemeinden[g];
-      if(q&&!g.toLowerCase().includes(q))L=L.filter(p=>(p.n+" "+(p.s||"")).toLowerCase().includes(q));if(!L.length)return;
-      (byB[BZ[g]||"Andere"]=byB[BZ[g]||"Andere"]||[]).push([g,L])});
-    Object.keys(byB).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));
-      byB[b].forEach(([g,L])=>{nG++;nP+=L.length;const d=node("details","spg"),su=document.createElement("summary");
-        su.append(node("span","",g),node("span","n",L.length===1?"1 Spielplatz":L.length+" Spielplätze"));d.append(su);
-        if(q)d.open=true;let done=false;const fill=()=>{if(done)return;done=true;const m=node("div","spmap");m.setAttribute("aria-label","Karte der Spielplätze in "+g);d.append(m);const ul=document.createElement("ul");L.forEach(p=>ul.append(item(p)));d.append(ul)};
-        if(d.open)fill();d.addEventListener("toggle",()=>{fill();if(d.open)showMap(d,L,g)});box.append(d)})});
-    document.getElementById("spcount").textContent=(nP===1?"1 Spielplatz":nP+" Spielplätze")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
-    if(!nG)box.append(node("p","empty","Nichts gefunden."))}
-  inp.addEventListener("input",render);render();
-  GO.spiel=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];inp.value=g?g.name:"";render()};
-  RESET.spiel=()=>{inp.value="";render();document.getElementById("sp-near-box").replaceChildren();document.getElementById("sp-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert."};
-  const nb=document.getElementById("sp-near"),msg=document.getElementById("sp-near-msg"),box2=document.getElementById("sp-near-box");
-  nb.addEventListener("click",()=>{
-    if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}
-    msg.textContent="Standort wird gesucht …";
-    navigator.geolocation.getCurrentPosition(pos=>{const me=[pos.coords.latitude,pos.coords.longitude];
-      const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
-      const all=[];for(const g in D.gemeinden)D.gemeinden[g].forEach(p=>all.push(Object.assign({g,km:km(me[0],me[1],p.lat,p.lon)},p)));
-      all.sort((a,b)=>a.km-b.km);const top=all.slice(0,10);
-      if(!top.length||top[0].km>15){msg.textContent="In deiner Nähe (15 km) kenne ich keine Spielplätze. Die Liste umfasst den Kanton Zürich.";box2.replaceChildren();return}
-      msg.textContent="Die 10 nächsten Spielplätze, Luftlinie ab deinem Standort:";
-      box2.replaceChildren();const m=node("div","spmap");box2.append(m);const ul=document.createElement("ul");
-      top.forEach(p=>{const li=item(p),t=li.querySelector(".t");t.append(node("span","dist"," · "+(p.km<1?Math.round(p.km*1000/10)*10+" m":p.km.toFixed(1).replace(".",",")+" km")+" · "+p.g));ul.append(li)});box2.append(ul);
-      showMap(box2,top,"deiner Nähe",me)},
-    err=>{msg.textContent=err.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{enableHighAccuracy:true,timeout:15000,maximumAge:60000})});
+  const names=Object.keys(D.gemeinden).filter(g=>D.gemeinden[g].length).sort((a,b)=>a.localeCompare(b,"de"));let selG=null,selF=null,age="all",me=null;
+  const has=(p,...f)=>f.some(x=>p.f.includes(x));
+  const PF=[["wasser","💧 Wasser oder Brunnen",p=>p.w||p.dw||has(p,"water","water_pump")],["schatten","⛱️ Schatten oder Bäume",p=>p.sh||p.wd||p.tr],["wald","🌲 Am Waldrand",p=>p.wd],["schule","🏫 Auf dem Schulgelände",p=>p.sc],["rollstuhl","♿ Rollstuhlgängig",p=>p.rs],
+    ["schaukel","Schaukel",p=>has(p,"swing","basketswing")],["rutsche","Rutschbahn",p=>has(p,"slide")],["sand","Sandkasten",p=>has(p,"sandpit")],["klettern","Klettergerüst",p=>has(p,"climbingframe","structure","tower")],["seilbahn","Seilbahn",p=>has(p,"zipwire")]];
+  const PA=[["all","Alle"],["klein","0–3 Jahre"],["mittel","4–6 Jahre"],["gross","7–12 Jahre"]];
+  const ageOk=p=>{if(age==="all"||(!p.min&&!p.max))return true;const r={klein:[0,3],mittel:[4,6],gross:[7,12]}[age],mn=+p.min||0,mx=+p.max||99;return mn<=r[1]&&mx>=r[0]};
+  const km=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
+  // Gemeinde-Auswahl
+  const gp=document.getElementById("pg-panel"),groups={};names.forEach(g=>{const b=BZ[g]||"Weitere";(groups[b]=groups[b]||[]).push(g)});
+  Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{const head=node("div","dd-group"),hb=document.createElement("button");hb.type="button";hb.textContent="Bezirk "+b;hb.dataset.group=b;
+    hb.addEventListener("click",()=>{const c=new Set(selG||[]),on=!groups[b].every(x=>c.has(x));groups[b].forEach(x=>on?c.add(x):c.delete(x));selG=c.size?c:null;render()});head.append(hb);gp.append(head);
+    groups[b].forEach(g=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.dataset.g=g;l.dataset.name=g.toLowerCase();l.dataset.group=b;
+      i.addEventListener("change",()=>{const c=new Set(selG||[]);i.checked?c.add(g):c.delete(g);selG=c.size?c:null;render()});l.append(i,node("span","",g),node("span","n",String(D.gemeinden[g].length)));gp.append(l)})});
+  document.getElementById("pg-none").addEventListener("click",()=>{selG=null;render()});
+  const gs=document.getElementById("pg-search");gs.addEventListener("input",()=>{const q=gs.value.trim().toLowerCase(),shown=new Set();
+    gp.querySelectorAll("label[data-name]").forEach(l=>{const ok=!q||l.dataset.name.includes(q);l.hidden=!ok;if(ok)shown.add(l.dataset.group)});
+    gp.querySelectorAll(".dd-group").forEach(h=>h.hidden=!shown.has(h.firstChild.dataset.group))});
+  const fp=document.getElementById("pf-panel");
+  PF.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.dataset.k=k;i.addEventListener("change",()=>{const c=new Set(selF||[]);i.checked?c.add(k):c.delete(k);selF=c.size?c:null;render()});l.append(i,node("span","",t));fp.append(l)});
+  document.getElementById("pf-all").addEventListener("click",()=>{selF=null;render()});
+  const syncA=sortDD("pa-panel","pa-dd",PA,()=>age,v=>{age=v;render()});
+  const msg=document.getElementById("sp-near-msg");
+  const syncS=sortDD("ps-panel","ps-dd",[["name","Nach Name"],["near","Nächste zuerst"]],()=>me?"near":"name",v=>{if(v!=="near"){me=null;msg.parentNode.classList.remove("on");render();return}
+    msg.parentNode.classList.add("on");if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";render();return}msg.textContent="Standort wird gesucht … Dein Standort bleibt auf deinem Gerät.";
+    navigator.geolocation.getCurrentPosition(pos=>{me=[pos.coords.latitude,pos.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort. Er bleibt auf deinem Gerät.";render()},
+      err=>{msg.textContent=err.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden.";render()},{enableHighAccuracy:true,timeout:15000,maximumAge:60000})});
+  function sync(){gp.querySelectorAll("input[data-g]").forEach(i=>i.checked=!!selG&&selG.has(i.dataset.g));const sg=selG?[...selG]:[];
+    document.getElementById("pg-sum").textContent=!sg.length?"Gemeinde wählen":sg.length<=2?sg.join(", "):sg.length+" Gemeinden";
+    fp.querySelectorAll("input[data-k]").forEach(i=>i.checked=!!selF&&selF.has(i.dataset.k));const fs=selF?PF.filter(x=>selF.has(x[0])).map(x=>x[1].replace(/^[^A-Za-zÄÖÜäöü]+/,"").split(" ")[0]):[];
+    document.getElementById("pf-sum").textContent=!fs.length?"Alle":fs.length<=2?fs.join(", "):fs.length+" Merkmale";syncA();syncS()}
+  function card(p){const tags=[];if(p.w||p.dw)tags.push("💧 Brunnen");if(p.sh)tags.push("⛱️ Schatten");if(p.wd)tags.push("🌲 Waldrand");else if(p.tr)tags.push("🌳 "+(p.tr===1?"1 Baum":p.tr+" Bäume"));
+    p.f.map(f=>SPF[f]).filter(Boolean).filter((x,i,a)=>a.indexOf(x)===i).slice(0,5).forEach(t=>tags.push(t));
+    if(p.min||p.max)tags.push(p.min&&p.max?p.min+"–"+p.max+" Jahre":p.min?"ab "+p.min+" Jahren":"bis "+p.max+" Jahre");if(p.rs)tags.push("♿ Rollstuhlgängig");
+    const meta=[p.g,p.sc?"auf dem Schulgelände":"",p.n&&p.s?"bei "+p.s:"",p.oh?"🕒 "+ohDe(p.oh):""].filter(Boolean).join(" · ");
+    return mkCard({em:p.sc?"🏫":"🛝",title:pname(p),meta,desc:p.desc||"",tags,links:[["Route",groute(p.lat,p.lon)],["Fotos und Bewertungen auf Google",gmaps(p.lat,p.lon)]],km:p._d})}
+  function render(){sync();box.replaceChildren();
+    if(!selG&&!me){document.getElementById("spcount").textContent=names.reduce((n,g)=>n+D.gemeinden[g].length,0)+" Spielplätze in "+names.length+" Gemeinden";
+      box.append(node("p","note","Wähle oben deine Gemeinde oder «Sortieren: Nächste zuerst». Oder tippe hier auf eine Gemeinde:"));
+      Object.keys(groups).sort((a,b)=>a.localeCompare(b,"de")).forEach(b=>{box.append(node("h2","bez","Bezirk "+b));const w=node("div","gpick");
+        groups[b].forEach(g=>{const bt=document.createElement("button");bt.type="button";bt.append(g,node("span","",String(D.gemeinden[g].length)));bt.addEventListener("click",()=>{selG=new Set([g]);render();scrollTo({top:0,behavior:"smooth"})});w.append(bt)});box.append(w)});return}
+    let L=[];(selG?[...selG]:names).forEach(g=>D.gemeinden[g].forEach(p=>L.push(Object.assign({g},p))));
+    L=L.filter(p=>ageOk(p)&&(!selF||[...selF].every(k=>PF.find(x=>x[0]===k)[2](p))));
+    if(me){L.forEach(p=>p._d=km(me[0],me[1],p.lat,p.lon));L.sort((a,b)=>a._d-b._d);if(!selG)L=L.slice(0,30)}else L.sort((a,b)=>a.g.localeCompare(b.g,"de")||pname(a).localeCompare(pname(b),"de"));
+    const sg=selG?[...selG]:[];document.getElementById("spcount").textContent=(L.length===1?"1 Spielplatz":L.length+" Spielplätze")+(me&&!selG?" in deiner Nähe":sg.length===1?" in "+sg[0]:" in "+sg.length+" Gemeinden");
+    if(!L.length){box.append(node("p","empty","Für diese Auswahl gibt es keine Spielplätze. Wähle weniger Merkmale."));return}
+    const holder=node("div");const m=node("div","spmap");m.setAttribute("aria-label","Karte der Spielplätze");holder.append(m);box.append(holder);showMap(holder,L.slice(0,200),sg.join(", ")||"deiner Nähe",me||undefined);
+    L.slice(0,200).forEach(p=>box.append(card(p)));if(L.length>200)box.append(node("p","note","Es werden die ersten 200 Spielplätze gezeigt."))}
+  render();
+  GO.spiel=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];selG=g&&D.gemeinden[g.name]?new Set([g.name]):null;render()};
+  RESET.spiel=()=>{selG=null;selF=null;age="all";me=null;msg.parentNode.classList.remove("on");render()};
 })();
 function facts(p){const f=[];
   if(p.sc)f.push("🏫 Auf einem Schul- oder Kindergartengelände");
@@ -1138,7 +1177,7 @@ const SEASONS=[
       rb.addEventListener("click",()=>{w.querySelectorAll("input[type=search]").forEach(i=>{i.value="";i.dispatchEvent(new Event("input"))});w.querySelectorAll("details.dd").forEach(d=>d.open=false);if(RESET[key])RESET[key]()});
       fs.append(rb)}const f=w.querySelector("footer");if(f)f.insertAdjacentHTML("beforeend",waves);});
 })();
-(function a1(){const EMO={Gemeinde:"📍",Alter:"🧒",Art:"🏷️",Thema:"🏷️",Wetter:"☁️",Bereich:"🏷️",Angebot:"🏷️",Merkmal:"✨",Sortieren:"↕️",Wann:"📅","Ordnen nach":"↕️",Suche:"🔍"};
+(function a1(){const EMO={Gemeinde:"📍",Alter:"🧒",Art:"🏷️",Thema:"🏷️",Wetter:"☁️",Bereich:"🏷️",Angebot:"🏷️",Merkmal:"✨",Sortieren:"↕️",Wann:"📅","Ordnen nach":"↕️",Suche:"🔍",Ausstattung:"🛝","Grösse":"👥"};
   document.querySelectorAll(".wrap:not(.home)").forEach(w=>{
     w.querySelectorAll(".filters .row>b").forEach(b=>{const e=EMO[b.textContent.trim()];if(e)b.textContent=e+" "+b.textContent.trim()});
     const rb=w.querySelector(".filters .resetbtn"),c=w.querySelector(".count-line,#count");if(rb&&c){let cr=c.closest(".cntrow");if(!cr){cr=node("div","cntrow");c.before(cr);cr.append(c)}
