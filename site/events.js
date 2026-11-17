@@ -5,21 +5,21 @@ window.FAMILIENAGENDA = {
    "name": "Affoltern am Albis",
    "bezirk": "Affoltern",
    "domain": "www.stadtaffoltern.ch",
-   "ok": true,
-   "count": 17
+   "ok": false,
+   "count": 16
   },
   "bonstetten": {
    "name": "Bonstetten",
    "bezirk": "Affoltern",
    "domain": "www.bonstetten.ch",
-   "ok": true,
+   "ok": false,
    "count": 8
   },
   "kappelamalbis": {
    "name": "Kappel am Albis",
    "bezirk": "Affoltern",
    "domain": "www.kappel-am-albis.ch",
-   "ok": true,
+   "ok": false,
    "count": 7
   },
   "maschwanden": {
@@ -33,7 +33,7 @@ window.FAMILIENAGENDA = {
    "name": "Rifferswil",
    "bezirk": "Affoltern",
    "domain": "www.rifferswil.ch",
-   "ok": true,
+   "ok": false,
    "count": 0
   },
   "andelfingen": {
