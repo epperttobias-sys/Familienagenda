@@ -170,16 +170,49 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 .pin{width:28px;height:28px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#e5484d;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.35);display:grid;place-items:center}
 .pin span{transform:rotate(45deg);font-size:13px;line-height:1}
 .pin.sc{background:#3b82f6}
+
+/* Startseite Version A mit Landschaft */
+:root{--sky:#cfe4fb;--hill1:#9cc8f2;--hill2:#6aa9e8}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--sky:#173457;--hill1:#1f4a7a;--hill2:#2a5f99}}
+:root[data-theme="dark"]{--sky:#173457;--hill1:#1f4a7a;--hill2:#2a5f99}
+.home{padding-top:0!important;gap:16px!important}
+.home .scene{margin:0 calc(-1*max(16px,env(safe-area-inset-left,0px))) -96px;height:190px;overflow:hidden}
+.home .scene svg{width:100%;height:190px;display:block}
+.home .brand{position:relative;margin-top:-80px;padding:0 2px;align-items:flex-start}
+.home .brand .leu{width:62px;height:62px;background:#fff;border-radius:50%;padding:3px}
+.home .brand h1{font-size:clamp(1.55rem,6.4vw,2.2rem);color:#0d2340;text-shadow:0 1px 0 rgba(255,255,255,.6)}
+.home .claim{margin:4px 0 0;font-weight:700;color:#36507a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .home .brand h1{color:#fff;text-shadow:none}:root:not([data-theme="light"]) .home .claim{color:#cfe0f7}}
+.hsearch{position:relative;margin-top:40px}
+.hsearch input{width:100%;min-height:56px;font:500 1.1rem var(--body);padding:14px 18px;border:2px solid var(--line);border-radius:18px;background:var(--surface);color:var(--ink);box-shadow:0 8px 22px rgba(13,35,64,.10)}
+.hsearch input:focus{outline:none;border-color:var(--accent)}
+.sugg{position:absolute;z-index:30;left:0;right:0;top:calc(100% + 6px);background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 28px rgba(0,0,0,.16);padding:6px;display:grid;gap:2px;max-height:60vh;overflow:auto}
+.sugg a,.sugg button{display:flex;gap:10px;align-items:center;text-align:left;font:600 1rem var(--body);padding:11px 12px;border-radius:10px;border:0;background:none;color:var(--ink);cursor:pointer;text-decoration:none}
+.sugg a:hover,.sugg button:hover,.sugg .on{background:var(--soft)}.sugg .h{font-size:.75rem;font-weight:800;color:var(--muted);padding:8px 12px 2px;text-transform:uppercase;letter-spacing:.05em}
+.today{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:16px 18px;border-radius:20px;background:linear-gradient(135deg,#0a5cb8,#3d8ae6);color:#fff;text-decoration:none;box-shadow:0 8px 20px rgba(10,92,184,.25)}
+.today small{display:block;opacity:.9;font-size:.85rem}.today b{display:block;font-size:1.15rem;margin:2px 0}.today .tw{font-size:2.2rem;text-align:center;line-height:1}.today .tw small{font-size:.8rem;margin-top:4px}
+.home .tiles{grid-template-columns:1fr 1fr;gap:12px}
+.home .tile{display:flex!important;flex-direction:column;justify-content:space-between;gap:10px;min-height:132px;padding:16px 14px!important;border:0!important;border-radius:22px;color:#fff!important;background:var(--tc)!important;box-shadow:0 8px 18px rgba(13,35,64,.16)!important;background-image:none}
+.home .tile .ico{background:rgba(255,255,255,.22)!important;color:#fff!important;width:44px;height:44px}
+.home .tile .tile-title{font-size:1.08rem!important;line-height:1.15;color:#fff}.home .tile .tile-text{font-size:.8rem;opacity:.92;color:#fff;margin-top:-6px}.home .tile .tile-arrow{display:none}
+.home .tile{align-items:flex-start!important;justify-content:flex-start!important;text-align:left!important}
+.home .tile .ico{margin-bottom:auto}.home .tile .tile-title,.home .tile .tile-text{text-align:left!important;width:100%}
+.home .tile .tile-text{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-top:0!important}
+.home .tile:hover{transform:translateY(-2px);filter:brightness(1.06)}.home .tile{transition:transform .15s}
+#go-events{--tc:#0a5cb8;order:1}#go-saison{--tc:#d97706;order:2}#go-ausflug{--tc:#0f8a6a;order:3}#go-spiel{--tc:#7c3aed;order:4}#go-essen{--tc:#db2777;order:5}#go-vereine{--tc:#0891b2;order:6}#go-familie{--tc:#4f46e5;order:7}#go-raeume{--tc:#475569;order:8}
+.home .zhband,.home footer.waves{display:none}
 </style>
 
 <style>body{margin:0}[hidden]{display:none!important}*{box-sizing:border-box}</style>
 </head>
 <body>
 <div class="wrap home" id="view-home">
-  <div class="zhband" aria-hidden="true"></div>
+  <div class="scene" aria-hidden="true"><svg viewBox="0 0 390 190" preserveAspectRatio="xMidYMax slice"><rect width="390" height="190" fill="var(--sky)"/><circle cx="330" cy="46" r="22" fill="#ffd666"/><path d="M0 118 Q60 66 122 102 T252 86 T390 98 V190 H0Z" fill="var(--hill1)"/><path d="M0 136 Q82 98 162 128 T332 116 T390 124 V190 H0Z" fill="var(--hill2)"/><path d="M56 106 v-20 l7 20z M78 109 v-26 l8 26z M300 112 v-18 l6 18z" fill="#3d7a3d"/><path d="M0 150 H390 V190 H0Z" fill="var(--zh)"/><path d="M14 164c15-6 30 6 45 0s30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0" stroke="#fff" stroke-width="2" fill="none" opacity=".55"/><path d="M14 176c15-6 30 6 45 0s30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0 30 6 45 0" stroke="#fff" stroke-width="2" fill="none" opacity=".3"/><path d="M244 145 h24 l-5 7 h-14z" fill="#fff"/><path d="M256 145 v-17 l10 15z" fill="#fff"/></svg></div>
   <header class="brand"><svg class="leu" viewBox="0 0 100 100" role="img" aria-label="Löwe"><path d="M86.0 50.0 Q92.9 59.8 82.4 65.6 Q84.4 77.4 72.4 78.1 Q69.1 89.6 58.0 85.1 Q50.0 94.0 42.0 85.1 Q30.9 89.6 27.6 78.1 Q15.6 77.4 17.6 65.6 Q7.1 59.8 14.0 50.0 Q7.1 40.2 17.6 34.4 Q15.6 22.6 27.6 21.9 Q30.9 10.4 42.0 14.9 Q50.0 6.0 58.0 14.9 Q69.1 10.4 72.4 21.9 Q84.4 22.6 82.4 34.4 Q92.9 40.2 86.0 50.0Z" fill="var(--zh)"/><circle cx="50" cy="52" r="27" fill="#fff"/><circle cx="31" cy="30" r="7" fill="#fff" stroke="var(--zh)" stroke-width="3"/><circle cx="69" cy="30" r="7" fill="#fff" stroke="var(--zh)" stroke-width="3"/><circle cx="41" cy="47" r="3.6" fill="#0d2340"/><circle cx="59" cy="47" r="3.6" fill="#0d2340"/><path d="M45 57h10l-5 5z" fill="var(--zh)"/><path d="M50 62v4M42 66c4 4 12 4 16 0" fill="none" stroke="#0d2340" stroke-width="2.6" stroke-linecap="round"/><path d="M33 59l-8-1M33 63l-8 2M67 59l8-1M67 63l8 2" stroke="var(--zh)" stroke-width="2" stroke-linecap="round"/></svg>
-    <h1>Für Familien in Zürich <span class="heart" aria-label="Herz">♥</span></h1>
+    <div><h1>Für Familien in Zürich <span class="heart" aria-label="Herz">♥</span></h1><p class="claim">Was machen wir heute?</p></div>
   </header>
+  <div class="hsearch"><input type="search" id="home-q" placeholder="🔍 Gemeinde oder Thema suchen …" aria-label="Gemeinde oder Thema suchen" autocomplete="off"><div id="home-sugg" class="sugg" hidden></div></div>
+  <a class="today" href="#events" id="home-today"><div><small>Heute in deiner Region</small><b id="today-n">Anlässe für Kinder</b><small id="today-s"></small></div><div class="tw" id="today-w"></div></a>
   <nav class="tiles" aria-label="Bereiche">
     <a class="tile" href="#events" id="go-events">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/><circle cx="12" cy="15" r="2"/></svg></span>
@@ -189,7 +222,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     </a>
     <a class="tile tile-alt tile-season" href="#saison" id="go-saison">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-3-5.3 3 1.1-6L3.4 9.4l6-.8z"/></svg></span>
-      <span class="tile-title" id="tile-saison-t">Saisonale Highlights</span>
+      <span class="tile-title" id="tile-saison-t">Saison-Highlights</span>
       <span class="tile-text" id="tile-saison">Was gerade Saison hat</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
@@ -201,19 +234,19 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     </a>
     <a class="tile tile-alt" href="#ausflug" id="go-ausflug">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20l6-10 4 6 3-4 5 8z"/><circle cx="17" cy="6" r="2"/></svg></span>
-      <span class="tile-title">Ausflugsziele in der Region</span>
+      <span class="tile-title">Ausflugsziele</span>
       <span class="tile-text" id="tile-ausflug">Tierparks, Museen, Burgen, Aussichtstürme und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#essen" id="go-essen">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v8M4 3v5a3 3 0 006 0V3M7 11v10M17 3c-2 2-3 4-3 7h3v11"/></svg></span>
-      <span class="tile-title">Kinderfreundliche Restaurants</span>
+      <span class="tile-title">Restaurants</span>
       <span class="tile-text" id="tile-essen">Mit Spielecke, Kinderstuhl oder Spielplatz nebenan</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#familie" id="go-familie">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="7" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3 21v-3a5 5 0 0110 0v3M14 21v-2a3.5 3.5 0 017 0v2"/></svg></span>
-      <span class="tile-title">Familienangebote der Gemeinde</span>
+      <span class="tile-title">Familienangebote</span>
       <span class="tile-text">Beratung, Spielgruppen, Kitas, Bibliothek, Ludothek und mehr</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
@@ -379,9 +412,9 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="spielplaetze.js"></script>
 <script>
 const AGES=[[0,3],[4,6],[7,9],[10,12]];
-const TIMES=[["all","Alle Termine"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
+const TIMES=[["all","Alle Termine"],["today","Heute"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
 let SITES={},EVENTS=[];
-const RESET={};
+const RESET={},GO={};
 const state={g:new Set(),a:new Set(),open:true,t:"all",w:"all"};
 const WOPTS=[["all","Alle Anlässe"],["fit","Passend zum Wetter"],["in","Drinnen (auch bei Regen)"],["out","Draussen (bei schönem Wetter)"]];
 const IN_RE=/bibliothek|museum|saal|kino|turnhalle|hallenbad|kirche|chile|pfarrei|kirchgemeindehaus|familienzentrum|gemeinschaftszentrum|freizeitanlage|freizeithaus|jugendhaus|aula|ludothek|hotel|restaurant|caf[eé]|kafi|bastel|kerzenziehen|theater|gschicht|geschicht|bilderbuch|vorles|spielgruppe|krabbel|töpfer|werkstatt|atelier|indoor|halle\b|zentrum|stube|schulhaus|kurs\b|konzert|singe|fiire|gottesdienst|spielzimmer|kreativ/i;
@@ -400,6 +433,7 @@ const MON=["Januar","Februar","März","April","Mai","Juni","Juli","August","Sept
 const fmt=d=>d.getDate()+". "+MON[d.getMonth()];
 const node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n};
 function range(today){
+  if(state.t==="today")return[iso(today),iso(today)];
   if(state.t==="30")return[iso(today),iso(add(today,30))];
   if(state.t==="we"){const w=today.getDay();const sat=w===0?add(today,-1):add(today,6-w);return[iso(sat),iso(add(sat,1))];}
   return[iso(today),"9999-12-31"];
@@ -459,6 +493,7 @@ function sync(){
   TIMES.forEach(([v,l])=>{document.getElementById("t-"+v).checked=state.t===v;if(state.t===v)document.getElementById("t-sum").textContent=l});
 }
 const update=()=>{sync();render();save()};
+GO.events=c=>{state.g=new Set([c]);update()};
 RESET.events=()=>{state.g.clear();state.a.clear();state.open=true;state.t="all";state.w="all";update()};
 const toggle=(s,v)=>{s.has(v)?s.delete(v):s.add(v);update()};
 async function start(){
@@ -468,7 +503,7 @@ async function start(){
   }
   if(!data||!data.events||!data.gemeinden){document.getElementById("count").textContent="Die Anlässe konnten nicht geladen werden. Die Datei events.js fehlt im selben Ordner wie diese Seite.";return}
   SITES=data.gemeinden;EVENTS=data.events;
-  document.getElementById("tile-text").textContent=EVENTS.length+" Anlässe für Kinder aus "+Object.keys(SITES).length+" Gemeinden";
+  document.getElementById("tile-text").textContent=EVENTS.length+" Anlässe aus "+Object.keys(SITES).length+" Gemeinden";
   const names=Object.values(SITES);
   document.getElementById("lead").textContent="Was läuft für Kinder in deiner Region? Anlässe aus "+names.length+" Gemeinde-Agenden, Stand "+fmt(pd(data.stand))+" "+data.stand.slice(0,4)+".";
   const down=names.filter(s=>!s.ok).map(s=>s.name);
@@ -608,6 +643,7 @@ const SPF={swing:"Schaukel",basketswing:"Nestschaukel",slide:"Rutschbahn",sandpi
     document.getElementById("spcount").textContent=(nP===1?"1 Spielplatz":nP+" Spielplätze")+" in "+(nG===1?"1 Gemeinde":nG+" Gemeinden");
     if(!nG)box.append(node("p","empty","Nichts gefunden."))}
   inp.addEventListener("input",render);render();
+  GO.spiel=c=>{const g=(window.GEMEINDEN||{})[c]||(window.FAMILIENAGENDA.gemeinden||{})[c];inp.value=g?g.name:"";render()};
   RESET.spiel=()=>{inp.value="";render();document.getElementById("sp-near-box").replaceChildren();document.getElementById("sp-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert."};
   const nb=document.getElementById("sp-near"),msg=document.getElementById("sp-near-msg"),box2=document.getElementById("sp-near-box");
   nb.addEventListener("click",()=>{
@@ -681,6 +717,7 @@ const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","P
   VGROUPS.forEach(([k,t,ic])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="vk-"+k;
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<VGROUPS.length?s:null;render()});l.append(i,node("span","",ic+" "+t));kp.append(l)});
   document.getElementById("vk-all").addEventListener("click",()=>{selK=null;render()});
+  GO.vereine=c=>{selG=new Set([c]);selK=null;inp.value="";render()};
   RESET.vereine=()=>{selG=null;selK=null;inp.value="";render()};
   function sync(){codes.forEach(c=>{const i=document.getElementById("vg-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("vg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
@@ -741,6 +778,7 @@ const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","�
   KS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="fk-"+k;
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<KS.length?s:null;render()});l.append(i,node("span","",t));kp.append(l)});
   document.getElementById("fk-all").addEventListener("click",()=>{selK=null;render()});
+  GO.familie=c=>{selG=new Set([c]);selK=null;render()};
   RESET.familie=()=>{selG=null;selK=null;render()};
   function sync(){const sg=selG?[...selG]:codes;codes.forEach(c=>{const i=document.getElementById("fg-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=sg.map(c=>GM[c].name);document.getElementById("fg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
@@ -794,6 +832,7 @@ const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["er
   AKS.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id="ak-"+k;
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<AKS.length?s:null;render()});l.append(i,node("span","",t+" ("+A.ziele.filter(z=>z.k===k).length+")"));kp.append(l)});
   document.getElementById("ak-all").addEventListener("click",()=>{selK=null;render()});
+  GO.ausflug=c=>{selG=new Set([c]);selK=null;render()};
   RESET.ausflug=()=>{selG=null;selK=null;rain=false;me=null;document.getElementById("au-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
   const wp=document.getElementById("aw-panel");
   [["all","Bei jedem Wetter"],["rain","Auch bei Regen (drinnen)"]].forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="aw";i.id="aw-"+v;
@@ -858,6 +897,7 @@ const SEASONS=[
   const OP=[["thema","Thema"],["gemeinde","Gemeinde (A–Z)"],["datum","Datum"]],op=document.getElementById("so-panel");
   OP.forEach(([v,t])=>{const l=node("label"),i=document.createElement("input");i.type="radio";i.name="so";i.id="so-"+v;
     i.addEventListener("change",()=>{ord=v;render();document.getElementById("so-dd").open=false});l.append(i,node("span","",t));op.append(l)});
+  GO.saison=c=>{selG=new Set([c]);render()};
   RESET.saison=()=>{selK=null;weeks=8;selG=null;ord="thema";render()};
   const cur=SEASONS.filter(([k,,,ms])=>ms.includes(m)&&k!=="markt"&&ALL.some(x=>x.k===k)).map(([,t])=>t.replace(/^\S+\s/,""));
   document.getElementById("tile-saison").textContent=cur.length?"Jetzt: "+cur.join(", "):"Was gerade Saison hat";
@@ -950,6 +990,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";return}msg.textContent="Standort wird gesucht …";
     navigator.geolocation.getCurrentPosition(p=>{me=[p.coords.latitude,p.coords.longitude];msg.textContent="Sortiert nach Entfernung (Luftlinie) ab deinem Standort.";render()},
       e=>{msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden."},{timeout:15000,maximumAge:60000})});
+  GO.essen=c=>{selG=new Set([c]);selF=null;render()};
   RESET.essen=()=>{selG=null;selF=null;art="all";me=null;document.getElementById("es-near-msg").textContent="Dein Standort bleibt auf deinem Gerät und wird nirgends gespeichert.";render()};
   function sync(){codes.forEach(c=>{const i=document.getElementById("eg-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=(selG?[...selG]:codes).map(c=>GM[c].name);document.getElementById("eg-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
@@ -976,6 +1017,41 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
         su.append(node("span","",GM[c].name),node("span","n",S.length===1?"1 Ort":S.length+" Orte"));d.append(su);if(selF||art!=="all"||(selG&&selG.size<=3))d.open=true;
         let done=false;const fill=()=>{if(done)return;done=true;const ul=node("ul","au");S.forEach(z=>ul.append(li(z)));d.append(ul)};if(d.open)fill();d.addEventListener("toggle",fill);box.append(d)})})}
   render();
+})();
+(function shortTiles(){const S={"tile-essen":t=>t.replace(/ Orte mit.*/," kinderfreundliche Orte"),"tile-vereine":t=>t.replace(/ Vereine für Kinder.*/," Vereine für Kinder"),"tile-ausflug":t=>t.replace(/ Ziele:.*/," Ziele zum Entdecken"),
+  "tile-saison":t=>t.startsWith("Jetzt:")?t.split(",")[0]:t};
+  for(const id in S){const el=document.getElementById(id);if(el)el.textContent=S[id](el.textContent)}
+  const ev=document.querySelector("#go-events .tile-text");if(ev)ev.textContent=ev.textContent.replace(/ für Kinder aus /," aus ");
+  const sp=document.querySelector("#go-spiel .tile-text");if(sp&&window.SPIELPLAETZE){let n=0;for(const k in SPIELPLAETZE.gemeinden)n+=SPIELPLAETZE.gemeinden[k].length;sp.textContent=n+" Spielplätze mit Karte"}
+  const fa=document.querySelector("#go-familie .tile-text");if(fa)fa.textContent="Kitas, Ludotheken, Beratung";
+  const ra=document.querySelector("#go-raeume .tile-text");if(ra)ra.textContent="Säle und Waldhütten für Feste";})();
+(function setupHome(){
+  const D=window.FAMILIENAGENDA||{events:[],gemeinden:{}},GM=Object.assign({},window.GEMEINDEN||{},D.gemeinden||{});
+  const n=new Date(),today=iso(new Date(n.getFullYear(),n.getMonth(),n.getDate()));
+  const cnt=D.events.filter(e=>e.von<=today&&e.bis>=today).length;
+  document.getElementById("today-n").textContent=(cnt===1?"1 Anlass":cnt+" Anlässe")+" für Kinder";
+  const st=(document.getElementById("tile-saison")||{}).textContent||"";
+  document.getElementById("today-s").textContent=st.startsWith("Jetzt:")?"✨ Gerade Saison: "+st.slice(7).split(",")[0]:"Tippe hier für alle Anlässe von heute";
+  function wx(){const W=window.WETTER;if(!W)return;const g=W.g.d||W.g.u||Object.values(W.g)[0];if(!g)return;const i=g.d.indexOf(today);if(i<0)return;
+    const[ic]=WX(g.c[i]);const el=document.getElementById("today-w");el.replaceChildren(document.createTextNode(ic),node("small","",g.tn[i]+"°–"+g.tx[i]+"°"))}
+  wx();setTimeout(wx,4000);
+  document.getElementById("home-today").addEventListener("click",()=>{setTimeout(()=>{if(RESET.events)RESET.events();state.t="today";update()},0)});
+  const CATS=[["events","Events","📅","events anlass anlässe veranstaltung agenda"],["saison","Saison-Highlights","✨","saison samichlaus advent weihnacht fasnacht ostern sommer herbst"],["ausflug","Ausflugsziele","🏰","ausflug zoo tierpark museum burg schloss aussicht"],
+    ["spielplaetze","Spielplätze","🛝","spielplatz spielplätze"],["essen","Restaurants","🍝","restaurant café cafe essen spielecke"],["vereine","Vereine","⚽","verein sport fussball judo pfadi musik turnen"],
+    ["familie","Familienangebote","👨‍👩‍👧","familie kita krippe bibliothek ludothek beratung bad hallenbad"],["raeume","Event-Räume","🎂","raum räume saal geburtstag waldhütte fest"]];
+  const GOKEY={events:"events",saison:"saison",ausflug:"ausflug",spielplaetze:"spiel",essen:"essen",vereine:"vereine",familie:"familie"};
+  const q=document.getElementById("home-q"),box=document.getElementById("home-sugg");
+  const go=(view,code)=>{box.hidden=true;q.value="";location.hash="#"+view;if(code&&GO[GOKEY[view]])setTimeout(()=>GO[GOKEY[view]](code),0)};
+  function show(){const v=q.value.trim().toLowerCase();box.replaceChildren();if(v.length<2){box.hidden=true;return}
+    const cats=CATS.filter(c=>c[1].toLowerCase().includes(v)||c[3].split(" ").some(w=>w.startsWith(v)||v.startsWith(w)));
+    const gs=Object.keys(GM).filter(c=>GM[c].name.toLowerCase().startsWith(v)).concat(Object.keys(GM).filter(c=>!GM[c].name.toLowerCase().startsWith(v)&&GM[c].name.toLowerCase().includes(v))).slice(0,4);
+    gs.forEach(c=>{box.append(node("div","h",GM[c].name+" · Bezirk "+(GM[c].bezirk||"")));
+      CATS.filter(x=>x[0]!=="raeume").forEach(([k,t,ic])=>{const b=document.createElement("button");b.type="button";b.textContent=ic+" "+t+" in "+GM[c].name;b.addEventListener("click",()=>go(k,c));box.append(b)})});
+    if(cats.length){box.append(node("div","h","Bereiche"));cats.forEach(([k,t,ic])=>{const b=document.createElement("button");b.type="button";b.textContent=ic+" "+t;b.addEventListener("click",()=>go(k));box.append(b)})}
+    if(!box.childNodes.length)box.append(node("div","h","Nichts gefunden"));box.hidden=false}
+  q.addEventListener("input",show);q.addEventListener("focus",show);
+  q.addEventListener("keydown",e=>{if(e.key==="Enter"){const b=box.querySelector("button");if(b)b.click()}if(e.key==="Escape")box.hidden=true});
+  document.addEventListener("click",e=>{if(!e.target.closest(".hsearch"))box.hidden=true});
 })();
 function route(){
   const v=({"#events":"events","#raeume":"raeume","#spielplaetze":"spielplaetze","#vereine":"vereine","#familie":"familie","#ausflug":"ausflug","#saison":"saison","#essen":"essen"})[location.hash]||"home";
