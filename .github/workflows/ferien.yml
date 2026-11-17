@@ -1,0 +1,38 @@
+name: Schulferien holen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 3 * * 1"
+permissions:
+  contents: write
+  actions: write
+jobs:
+  holen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dateien vom Kanton laden
+        run: |
+          mkdir -p data/ferien
+          B=https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/bildung/bildungssystem/schulferien/volksschulen
+          for y in 2026_2027 2027_2028 2028_2029; do
+            curl -fsSL -A "Mozilla/5.0 Familienseite" "$B/schulferien_ganzer_kanton_$y.xlsx" -o "data/ferien/kanton_$y.xlsx" || rm -f "data/ferien/kanton_$y.xlsx"
+          done
+          curl -fsSL -A "Mozilla/5.0 Familienseite" "$B/feriendaten_empfehlung_bis_2033.pdf" -o data/ferien/empfehlung.pdf || true
+          ls -la data/ferien
+      - name: In Seite umwandeln
+        run: |
+          pip install openpyxl >/dev/null
+          if [ -f collect/ferien.py ]; then python3 collect/ferien.py; fi
+      - run: |
+          git config user.name "familienagenda-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ferien site/ferien.js 2>/dev/null || git add data/ferien
+          git diff --cached --quiet || git commit -m "Schulferien aktualisiert"
+          git pull --rebase -X theirs --autostash origin main || (git rebase --abort; git pull --no-rebase -X ours origin main)
+          git push
+      - name: Seite veröffentlichen
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
