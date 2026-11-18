@@ -1,4 +1,0 @@
-RAW t1 | https://stadt.winterthur.ch/veranstaltungen?targetGroup=330
-RAW t2 | https://stadt.winterthur.ch/veranstaltungen?targetGroup=342
-RAW t3 | https://stadt.winterthur.ch/veranstaltungen?targetGroup=1446
-RAW t4 | https://stadt.winterthur.ch/veranstaltungen?targetGroup=330&dateFrom=2026-11-18&dateTo=2027-05-31

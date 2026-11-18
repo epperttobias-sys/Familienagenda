@@ -282,8 +282,10 @@ export const SYSTEMS = {
   // Stadt Winterthur: Veranstaltungsliste mit Seiten, Kinder-Erkennung über die Detailseite wie bei den anderen Gemeinden.
   async winti(site, get) {
     const base = "https://stadt.winterthur.ch", items = [], seen = new Set();
-    for (let page = 1; page <= (site.maxPages ?? 40); page++) {
-      const html = await get(`${base}/veranstaltungen${page > 1 ? "?page=" + page : ""}`);
+    // zuerst die Zielgruppen Kinder (330), Familien (342) und Kinder/Jugendliche (1446), danach die ganze Liste
+    for (const tg of ["330", "342", "1446", ""]) for (let page = 1; page <= (site.maxPages ?? 40); page++) {
+      const qs = [tg && "targetGroup=" + tg, page > 1 && "page=" + page].filter(Boolean).join("&");
+      const html = await get(`${base}/veranstaltungen${qs ? "?" + qs : ""}`);
       let fresh = 0;
       for (const b of html.split(/<a [^>]*href="\/veranstaltung\//).slice(1)) {
         const slug = b.slice(0, b.indexOf('"'));
@@ -295,9 +297,9 @@ export const SYSTEMS = {
         const ps = [...((b.match(/<div class="mt-2">([\s\S]*?)<\/div>/) || [])[1] ?? "").matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(x => strip(x[1]));
         const tp = ps.find(x => /\d{1,2}:\d{2}/.test(x)) || "";
         const tm = tp.match(/(\d{1,2}):(\d{2})(?:\s*[–-]\s*(\d{1,2}):(\d{2}))?/);
-        const time = tm ? (tm[3] ? `${tm[1]}.${tm[2]} - ${tm[3]}.${tm[4]}` : `${tm[1]}.${tm[2]}`) : "";
+        const time = !tm || (tm[1] === "00" && tm[2] === "00") ? "" : tm[3] ? `${tm[1]}.${tm[2]} - ${tm[3]}.${tm[4]}` : `${tm[1]}.${tm[2]}`;
         const ort = (ps.find(x => x !== tp) || "").split(",")[0].slice(0, 70);
-        items.push({ id: slug, name, ...range, ort, veranstalter: "", kategorie: "", hint: "", url: `${base}/veranstaltung/${slug}`, detailKey: slug, time });
+        items.push({ id: slug, name, ...range, ort, veranstalter: "", kategorie: tg ? "14" : "", hint: "", url: `${base}/veranstaltung/${slug}`, detailKey: slug, time });
       }
       if (!fresh) break;
     }
