@@ -1,0 +1,4645 @@
+[
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Flussbad Oberer Letten",
+  "lat": 47.38445,
+  "lon": 8.53646,
+  "osm": {
+   "ts": "2026-03-18T17:13:39Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Freibad Allenmoos",
+  "lat": 47.40447,
+  "lon": 8.53892,
+  "osm": {
+   "ts": "2026-05-31T11:27:45Z",
+   "v": 17,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 315 50 00",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Freibad Heuried",
+  "lat": 47.36709,
+  "lon": 8.50534,
+  "osm": {
+   "ts": "2025-06-24T08:46:59Z",
+   "v": 20,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 95 30",
+   "oh": "week 20-37 Mo-Su,PH 08:00-11:00, Mo-Su,PH 11:00-20:00 unknown \"bei gutem Wetter\"",
+   "op": "Stadt Zürich, SSD, Sportamt",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Freibad Letzigraben",
+  "lat": 47.37941,
+  "lon": 8.4997,
+  "osm": {
+   "ts": "2025-06-24T08:46:59Z",
+   "v": 22,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "May-Sep 07:00-20:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Hallenbad Leimbach",
+  "lat": 47.32645,
+  "lon": 8.51369,
+  "osm": {
+   "ts": "2025-06-24T08:46:59Z",
+   "v": 9,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo,We 12:00-22:00; Tu,Th 06:30-21:00; Fr 06:30-22:00; Sa-Su 09:00-18:00",
+   "op": "Stadt Zürich, SSD, Sportamt",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Männerbad Schanzengraben",
+  "lat": 47.37128,
+  "lon": 8.53272,
+  "osm": null
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Schulschwimm- und Turnhalle Riedtli",
+  "lat": 47.38864,
+  "lon": 8.54305,
+  "osm": {
+   "ts": "2026-03-21T16:00:27Z",
+   "v": 15,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bad",
+  "n": "Sport-/Turnhalle Stettbach",
+  "lat": 47.40153,
+  "lon": 8.58078,
+  "osm": {
+   "ts": "2023-03-16T19:52:35Z",
+   "v": 9,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "Baubibliothek (1. OG)",
+  "lat": 47.40864,
+  "lon": 8.50746,
+  "osm": {
+   "ts": "2025-08-05T15:26:24Z",
+   "v": 5,
+   "check": "2025-08-05",
+   "mail": "baubib@library.ethz.ch",
+   "tel": "",
+   "oh": "Mo-Fr 08:00-21:00",
+   "op": "ETH Bibliothek",
+   "disused": false
+  },
+  "found": "https://library.ethz.ch/",
+  "via": "mail"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "Bibliothek Ostasien",
+  "lat": 47.37225,
+  "lon": 8.55018,
+  "osm": {
+   "ts": "2019-11-13T23:40:30Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 09:00-17:00",
+   "op": "Universität Zürich, Ostasiatisches Seminar",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "Deutsches Seminar Bibliothek",
+  "lat": 47.3731,
+  "lon": 8.54937,
+  "osm": {
+   "ts": "2026-02-14T10:58:51Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 09:00-17:00",
+   "op": "Universität Zürich",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "Fermento",
+  "lat": 47.3727,
+  "lon": 8.52474,
+  "osm": {
+   "ts": "2024-03-07T13:31:43Z",
+   "v": 3,
+   "check": "2023-04-10",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://ilfermento.ch/it",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "Kinderbibliothek Friesenberg",
+  "lat": 47.36047,
+  "lon": 8.50508,
+  "osm": {
+   "ts": "2024-07-10T15:36:56Z",
+   "v": 3,
+   "check": "",
+   "mail": "kinderbibliothek@friesi.ch",
+   "tel": "",
+   "oh": "Tu 09:30-11:00,15:00-18:00; Fr 15:00-18:00",
+   "op": "reformierte kirche zürich friesenberg",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "Krimi- und Romanbibliothek",
+  "lat": 47.36748,
+  "lon": 8.50387,
+  "osm": {
+   "ts": "2022-10-13T09:17:27Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Tu-Fr 14:00-18:00",
+   "op": "Sekretariat von GZ-Heuried",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "PBZ Bibliothek Schütze",
+  "lat": 47.38876,
+  "lon": 8.52327,
+  "osm": {
+   "ts": "2026-07-07T11:08:04Z",
+   "v": 5,
+   "check": "2026-07-07",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 11:00-19:00; Sa 10:00-16:00",
+   "op": "Pestalozzi-Bibliothek Zürich",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "bib",
+  "n": "UB Naturwissenschaften",
+  "lat": 47.39736,
+  "lon": 8.54983,
+  "osm": {
+   "ts": "2026-05-12T20:50:48Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 09:00-17:00",
+   "op": "Universität Zürich",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Allenmoos 3 Mittag und Abendhort",
+  "lat": 47.40212,
+  "lon": 8.53924,
+  "osm": {
+   "ts": "2026-02-01T10:37:02Z",
+   "v": 2,
+   "check": "2026-02-01",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Apfelbaum 2-3-4-5 (Mittag-/Abendhort)",
+  "lat": 47.40668,
+  "lon": 8.55544,
+  "osm": {
+   "ts": "2021-10-21T14:41:20Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 28 22",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Glatttal, Schuleinheit Apfelbaum",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Auhof 1+2 - Morgentisch, Mittag-/Abendhort",
+  "lat": 47.40741,
+  "lon": 8.56984,
+  "osm": {
+   "ts": "2021-10-22T07:03:01Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Bambi",
+  "lat": 47.41923,
+  "lon": 8.54561,
+  "osm": {
+   "ts": "2024-09-04T06:37:24Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Bambis Chinderland",
+  "lat": 47.36476,
+  "lon": 8.53305,
+  "osm": {
+   "ts": "2025-06-12T18:23:06Z",
+   "v": 1,
+   "check": "2025-06-12",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Betreuung am Guggenberg",
+  "lat": 47.35814,
+  "lon": 8.58419,
+  "osm": {
+   "ts": "2022-08-04T15:53:24Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Chinderstern",
+  "lat": 47.38426,
+  "lon": 8.49544,
+  "osm": {
+   "ts": "2025-05-11T08:33:04Z",
+   "v": 3,
+   "check": "2025-05-11",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Kita Chinderstern GmbH Zürich",
+   "disused": false
+  },
+  "found": "https://www.chinderstern.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Goldräge",
+  "lat": 47.40985,
+  "lon": 8.53337,
+  "osm": {
+   "ts": "2025-02-09T12:37:07Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Hort Allenmoos 1 & 2",
+  "lat": 47.40319,
+  "lon": 8.53978,
+  "osm": {
+   "ts": "2024-02-05T21:04:09Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Waidberg",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Hort Allenmoos 3",
+  "lat": 47.40224,
+  "lon": 8.5396,
+  "osm": {
+   "ts": "2026-02-01T10:36:59Z",
+   "v": 4,
+   "check": "2026-02-01",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Waidberg",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Hort Altweg",
+  "lat": 47.3729,
+  "lon": 8.49207,
+  "osm": {
+   "ts": "2025-07-20T11:31:04Z",
+   "v": 4,
+   "check": "2025-07-20",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Hort Altweg 3",
+  "lat": 47.37155,
+  "lon": 8.4908,
+  "osm": {
+   "ts": "2025-09-12T16:12:58Z",
+   "v": 3,
+   "check": "2025-08-23",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Hort Untermoos 7",
+  "lat": 47.37956,
+  "lon": 8.48922,
+  "osm": {
+   "ts": "2023-04-25T13:49:11Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Ilgen Hort",
+  "lat": 47.37028,
+  "lon": 8.5595,
+  "osm": {
+   "ts": "2023-09-12T09:01:04Z",
+   "v": 11,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 00 98",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Katzenbach I + II Morgen-Mittag-Abendhort",
+  "lat": 47.42312,
+  "lon": 8.54652,
+  "osm": {
+   "ts": "2025-10-30T13:16:08Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 78 62",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Glatttal",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "kihz Feyerabend",
+  "lat": 47.40734,
+  "lon": 8.50527,
+  "osm": {
+   "ts": "2025-08-09T21:21:07Z",
+   "v": 3,
+   "check": "2025-08-09",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinder Kids",
+  "lat": 47.37234,
+  "lon": 8.51345,
+  "osm": {
+   "ts": "2024-08-26T11:36:35Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kinderkids.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindergarten & Horte C1 - C3",
+  "lat": 47.40734,
+  "lon": 8.5454,
+  "osm": {
+   "ts": "2024-01-25T20:14:05Z",
+   "v": 2,
+   "check": "2024-01-25",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindergarten Bullingerhof 1+2 und Horte",
+  "lat": 47.37927,
+  "lon": 8.51467,
+  "osm": {
+   "ts": "2024-05-01T11:21:34Z",
+   "v": 11,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindergarten und Hort Brauer 1+2",
+  "lat": 47.379,
+  "lon": 8.52548,
+  "osm": {
+   "ts": "2023-04-21T00:01:06Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindergarten und Hort Guggachpark 1+2",
+  "lat": 47.40227,
+  "lon": 8.53206,
+  "osm": {
+   "ts": "2026-05-17T15:11:25Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Waidberg, Schuleinheit Allenmoos",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindergarten und Hort Neubühl 1+2",
+  "lat": 47.33336,
+  "lon": 8.53268,
+  "osm": {
+   "ts": "2025-11-05T06:35:44Z",
+   "v": 7,
+   "check": "2024-10-09",
+   "mail": "",
+   "tel": "+41 44 413 19 15",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Eichrain 2+3",
+  "lat": 47.42829,
+  "lon": 8.54642,
+  "osm": {
+   "ts": "2024-01-21T14:35:39Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Grosswiesen 1 Mittag-Abend",
+  "lat": 47.40267,
+  "lon": 8.58688,
+  "osm": {
+   "ts": "2022-02-15T12:50:22Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Schwamendingen, Schuleinheit Hirzenbach",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Hans Asper",
+  "lat": 47.34137,
+  "lon": 8.53388,
+  "osm": {
+   "ts": "2026-03-13T16:37:04Z",
+   "v": 3,
+   "check": "2026-03-13",
+   "mail": "",
+   "tel": "+41 44 413 13 38",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Herter Sek",
+  "lat": 47.36206,
+  "lon": 8.56558,
+  "osm": {
+   "ts": "2025-11-15T16:06:28Z",
+   "v": 3,
+   "check": "2025-11-15",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Zürichberg, Schuleinheit Hirslanden",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Honeggerweg",
+  "lat": 47.33836,
+  "lon": 8.53291,
+  "osm": {
+   "ts": "2025-04-27T14:41:22Z",
+   "v": 2,
+   "check": "2025-04-27",
+   "mail": "",
+   "tel": "+41 44 482 06 06",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Leimbach 1, 2 , 3",
+  "lat": 47.33352,
+  "lon": 8.51631,
+  "osm": {
+   "ts": "2022-02-10T11:34:26Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 11 56",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Luegisland 1+2",
+  "lat": 47.40874,
+  "lon": 8.57456,
+  "osm": {
+   "ts": "2023-09-13T08:47:24Z",
+   "v": 10,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Luegisland 3+Morgentisch",
+  "lat": 47.40881,
+  "lon": 8.57404,
+  "osm": {
+   "ts": "2025-03-11T17:06:37Z",
+   "v": 10,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Manegg 1 bis 7",
+  "lat": 47.34812,
+  "lon": 8.52635,
+  "osm": {
+   "ts": "2023-12-01T08:46:18Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 14 51",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Rebhügel - Mittag-Abend",
+  "lat": 47.36513,
+  "lon": 8.51676,
+  "osm": {
+   "ts": "2022-03-01T07:36:25Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 413 32 20",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderhort Unterstufen-Zentrum Neubühl",
+  "lat": 47.33258,
+  "lon": 8.53313,
+  "osm": {
+   "ts": "2024-10-08T22:47:58Z",
+   "v": 2,
+   "check": "2024-10-09",
+   "mail": "",
+   "tel": "+41 44 413 19 15",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderkrippe Bambi",
+  "lat": 47.40599,
+  "lon": 8.48137,
+  "osm": {
+   "ts": "2024-06-14T13:42:02Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kinderkrippe-bambi.ch/de/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderkrippe BAMBI",
+  "lat": 47.40622,
+  "lon": 8.48153,
+  "osm": {
+   "ts": "2024-06-14T13:42:02Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kinderkrippe-bambi.ch/de/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderkrippe Bülachhof",
+  "lat": 47.40158,
+  "lon": 8.54682,
+  "osm": {
+   "ts": "2026-02-07T09:37:26Z",
+   "v": 8,
+   "check": "2026-02-07",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stiftung kihz",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kinderkrippe Schnappi",
+  "lat": 47.41309,
+  "lon": 8.53894,
+  "osm": {
+   "ts": "2026-01-09T14:08:26Z",
+   "v": 5,
+   "check": "2026-01-09",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindertagesstätte Käferhaus",
+  "lat": 47.39865,
+  "lon": 8.51689,
+  "osm": {
+   "ts": "2018-01-11T12:50:05Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kindertagesstätte USZ Huttenstrasse",
+  "lat": 47.38019,
+  "lon": 8.5511,
+  "osm": {
+   "ts": "2023-10-02T14:13:01Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Universitätsspital Zürich",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita Albatros",
+  "lat": 47.35415,
+  "lon": 8.50849,
+  "osm": {
+   "ts": "2023-02-20T16:27:24Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita Beba",
+  "lat": 47.41439,
+  "lon": 8.54533,
+  "osm": {
+   "ts": "2024-10-30T13:10:33Z",
+   "v": 2,
+   "check": "2024-10-30",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita Füessli",
+  "lat": 47.36036,
+  "lon": 8.51829,
+  "osm": {
+   "ts": "2023-02-21T12:00:56Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita In Böden",
+  "lat": 47.41799,
+  "lon": 8.50949,
+  "osm": {
+   "ts": "2023-09-27T13:42:04Z",
+   "v": 2,
+   "check": "2023-09-27",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "KiTa Magdalenenstrasse Oerlikon",
+  "lat": 47.40692,
+  "lon": 8.55363,
+  "osm": {
+   "ts": "2021-12-03T10:20:42Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita tandem",
+  "lat": 47.37252,
+  "lon": 8.52467,
+  "osm": {
+   "ts": "2024-05-13T19:40:41Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kita-tandem.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita Tièchestrasse",
+  "lat": 47.39799,
+  "lon": 8.52766,
+  "osm": {
+   "ts": "2021-04-06T05:34:07Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Kita Wunderland",
+  "lat": 47.38916,
+  "lon": 8.483,
+  "osm": {
+   "ts": "2023-11-04T11:54:13Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://kitawunderland.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "krippe kinderparadies",
+  "lat": 47.41648,
+  "lon": 8.51181,
+  "osm": {
+   "ts": "2026-02-07T16:14:52Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.krippekinderparadies.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Krippe Kinderparadies",
+  "lat": 47.36461,
+  "lon": 8.51113,
+  "osm": {
+   "ts": "2026-02-14T11:50:56Z",
+   "v": 4,
+   "check": "2026-02-14",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.krippekinderparadies.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Krippe Windrädli",
+  "lat": 47.41227,
+  "lon": 8.53311,
+  "osm": {
+   "ts": "2024-01-21T16:26:12Z",
+   "v": 6,
+   "check": "2024-01-21",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Little Learners",
+  "lat": 47.3579,
+  "lon": 8.58803,
+  "osm": {
+   "ts": "2025-03-24T22:38:15Z",
+   "v": 3,
+   "check": "2025-03-24",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://littlelearners.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Altweg 4",
+  "lat": 47.37509,
+  "lon": 8.49649,
+  "osm": {
+   "ts": "2021-10-21T09:11:33Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Brahms 2",
+  "lat": 47.3781,
+  "lon": 8.50473,
+  "osm": {
+   "ts": "2020-06-10T15:37:59Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Limmattal",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Rütihof 2",
+  "lat": 47.41309,
+  "lon": 8.47606,
+  "osm": {
+   "ts": "2025-01-17T10:15:45Z",
+   "v": 2,
+   "check": "2025-01-17",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Waidberg",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Sihlweid 3",
+  "lat": 47.32654,
+  "lon": 8.51623,
+  "osm": {
+   "ts": "2021-10-19T12:09:36Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Uto",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Triemli 1",
+  "lat": 47.37281,
+  "lon": 8.48633,
+  "osm": {
+   "ts": "2025-01-11T14:35:32Z",
+   "v": 3,
+   "check": "2025-01-10",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Triemli 2",
+  "lat": 47.36819,
+  "lon": 8.49148,
+  "osm": {
+   "ts": "2019-07-19T15:03:59Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/Abendhort Triemli 3",
+  "lat": 47.36817,
+  "lon": 8.49386,
+  "osm": {
+   "ts": "2019-07-19T15:03:59Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittag-/AbendhortAltstetter 4",
+  "lat": 47.38415,
+  "lon": 8.48952,
+  "osm": {
+   "ts": "2026-01-07T14:24:48Z",
+   "v": 3,
+   "check": "2026-01-07",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Letzi",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittaghort Ahorn/Friedrich 2 A",
+  "lat": 47.40493,
+  "lon": 8.56842,
+  "osm": {
+   "ts": "2022-03-25T14:12:08Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittaghort Albisriederplatz",
+  "lat": 47.38017,
+  "lon": 8.50868,
+  "osm": {
+   "ts": "2023-03-20T11:45:31Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittaghort Entlisberg 1",
+  "lat": 47.33765,
+  "lon": 8.52447,
+  "osm": {
+   "ts": "2019-07-20T14:29:23Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Uto",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittaghort Herzli-Träff",
+  "lat": 47.40774,
+  "lon": 8.57334,
+  "osm": {
+   "ts": "2022-02-15T11:29:57Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Schwamendingen, Schuleinheit Herzogenmühle",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Mittaghort Pflegi",
+  "lat": 47.36849,
+  "lon": 8.56232,
+  "osm": {
+   "ts": "2019-07-21T06:24:49Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Zürich, SSD, Schulkreis Zürichberg",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Morgentisch Sihlweid 4, Mittag-/Abendhort Sihlweid 2A + 2B",
+  "lat": 47.32878,
+  "lon": 8.51302,
+  "osm": {
+   "ts": "2025-01-31T19:08:36Z",
+   "v": 3,
+   "check": "2025-01-31",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Musische Kindertagesstätte MUKITA",
+  "lat": 47.37711,
+  "lon": 8.50913,
+  "osm": {
+   "ts": "2025-05-11T08:14:23Z",
+   "v": 3,
+   "check": "2025-05-11",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Rumpelkiste",
+  "lat": 47.35588,
+  "lon": 8.5537,
+  "osm": {
+   "ts": "2024-07-06T09:39:20Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Schildchrötli",
+  "lat": 47.38823,
+  "lon": 8.49408,
+  "osm": {
+   "ts": "2025-02-09T13:04:29Z",
+   "v": 1,
+   "check": "2025-02-09",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Waldkindertagesbetreuung WaKiTa",
+  "lat": 47.36005,
+  "lon": 8.57282,
+  "osm": {
+   "ts": "2019-11-25T01:29:52Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "kita",
+  "n": "Yemayá",
+  "lat": 47.41559,
+  "lon": 8.54549,
+  "osm": {
+   "ts": "2024-01-18T15:50:51Z",
+   "v": 2,
+   "check": "2024-01-18",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "ludo",
+  "n": "Ludothek Kreis 2",
+  "lat": 47.34358,
+  "lon": 8.53574,
+  "osm": {
+   "ts": "2019-11-19T23:25:31Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "ludo",
+  "n": "Ludothek Schwamendingen",
+  "lat": 47.40376,
+  "lon": 8.56848,
+  "osm": {
+   "ts": "2025-10-26T12:57:31Z",
+   "v": 3,
+   "check": "2025-10-26",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://ludothek-schwamendingen.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "spiel",
+  "n": "Spielgruppe Friesi",
+  "lat": 47.35962,
+  "lon": 8.50713,
+  "osm": {
+   "ts": "2023-08-27T19:49:54Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "spiel",
+  "n": "Waldspielgruppe Hürstzwergli",
+  "lat": 47.41944,
+  "lon": 8.51957,
+  "osm": {
+   "ts": "2020-01-13T09:13:34Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "zentrum",
+  "n": "GZ Leimbach",
+  "lat": 47.33909,
+  "lon": 8.52057,
+  "osm": {
+   "ts": "2023-09-23T13:33:48Z",
+   "v": 1,
+   "check": "2023-09-23",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Tu,Th,Sa-Su off; We 14:00-19:00; Fr 14:00-18:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "zentrum",
+  "n": "Kinderparadies",
+  "lat": 47.38666,
+  "lon": 8.49848,
+  "osm": {
+   "ts": "2024-03-13T23:58:25Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Sa 09:00-18:45",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "zentrum",
+  "n": "Kindertreff Viadukt",
+  "lat": 47.38656,
+  "lon": 8.52292,
+  "osm": {
+   "ts": "2023-08-08T06:51:51Z",
+   "v": 8,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 15:00-18:00; We 13:00-17:00",
+   "op": "Stadt Zürich, Sozialdepartement",
+   "disused": false
+  }
+ },
+ {
+  "c": "zuerich",
+  "g": "Zürich",
+  "k": "zentrum",
+  "n": "Quartierhof Höngg",
+  "lat": 47.41193,
+  "lon": 8.48332,
+  "osm": null,
+  "found": "https://quartierhof-hoengg.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "u",
+  "g": "Uster",
+  "k": "kita",
+  "n": "Kinderhüeti Trückli",
+  "lat": 47.34977,
+  "lon": 8.7177,
+  "osm": null
+ },
+ {
+  "c": "u",
+  "g": "Uster",
+  "k": "kita",
+  "n": "Kita fugu",
+  "lat": 47.34855,
+  "lon": 8.72007,
+  "osm": {
+   "ts": "2025-03-10T15:12:14Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kitafugu.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "u",
+  "g": "Uster",
+  "k": "zentrum",
+  "n": "Familienzentrum Uster",
+  "lat": 47.34696,
+  "lon": 8.71663,
+  "osm": {
+   "ts": "2025-05-13T08:36:33Z",
+   "v": 3,
+   "check": "2025-05-13",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 08:30-11:30,14:00-17:00",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://familienzentrum-uster.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "u",
+  "g": "Uster",
+  "k": "zentrum",
+  "n": "Jugend Treff Uster",
+  "lat": 47.35151,
+  "lon": 8.71122,
+  "osm": {
+   "ts": "2026-04-09T16:57:05Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "u",
+  "g": "Uster",
+  "k": "zentrum",
+  "n": "Jugendtreff Bumi",
+  "lat": 47.3462,
+  "lon": 8.71617,
+  "osm": {
+   "ts": "2025-05-22T17:20:05Z",
+   "v": 3,
+   "check": "2025-05-22",
+   "mail": "",
+   "tel": "",
+   "oh": "Th 19:00-23:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "richterswil",
+  "g": "Richterswil",
+  "k": "kita",
+  "n": "Kindertagesstätte",
+  "lat": 47.20646,
+  "lon": 8.70205,
+  "osm": {
+   "ts": "2026-01-04T20:39:49Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "richterswil",
+  "g": "Richterswil",
+  "k": "kita",
+  "n": "Zauberflöte KiTa & KiGa",
+  "lat": 47.20483,
+  "lon": 8.70587,
+  "osm": {
+   "ts": "2026-01-04T20:39:49Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "f",
+  "g": "Fällanden",
+  "k": "zentrum",
+  "n": "GZ Fällanden",
+  "lat": 47.372,
+  "lon": 8.64265,
+  "osm": {
+   "ts": "2024-04-12T07:25:56Z",
+   "v": 6,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Tu 09:30-11:30, 14:30-17:30; We-Fr 09:30-11:30",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.faellanden.ch/gz-faellanden",
+  "via": "domain"
+ },
+ {
+  "c": "waedenswil",
+  "g": "Wädenswil",
+  "k": "bad",
+  "n": "Seebad Naglikon",
+  "lat": 47.24995,
+  "lon": 8.6325,
+  "osm": {
+   "ts": "2024-03-29T06:32:57Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "langnauamalbis",
+  "g": "Langnau am Albis",
+  "k": "bad",
+  "n": "Hallenbad Langnau",
+  "lat": 47.29098,
+  "lon": 8.53984,
+  "osm": {
+   "ts": "2023-08-05T11:03:45Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "r",
+  "g": "Maur",
+  "k": "kita",
+  "n": "Kids Club Moonlight",
+  "lat": 47.35215,
+  "lon": 8.63765,
+  "osm": null
+ },
+ {
+  "c": "kloten",
+  "g": "Kloten",
+  "k": "kita",
+  "n": "Kita Chiselschtei",
+  "lat": 47.44542,
+  "lon": 8.58783,
+  "osm": {
+   "ts": "2019-05-25T14:39:49Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "affolternamalbis",
+  "g": "Affoltern am Albis",
+  "k": "zentrum",
+  "n": "GZB Gemeinschaftszentrum / Bauspielplatz",
+  "lat": 47.27526,
+  "lon": 8.45714,
+  "osm": {
+   "ts": "2023-05-20T08:03:41Z",
+   "v": 6,
+   "check": "2023-05-20",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "mettmenstetten",
+  "g": "Mettmenstetten",
+  "k": "bib",
+  "n": "Bibliothek Mettmenstetten",
+  "lat": 47.24589,
+  "lon": 8.46593,
+  "osm": {
+   "ts": "2019-07-06T15:48:23Z",
+   "v": 5,
+   "check": "",
+   "mail": "bibliothek.mettmenstetten@bluewin.ch",
+   "tel": "+41 44 767 93 80",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "mettmenstetten",
+  "g": "Mettmenstetten",
+  "k": "kita",
+  "n": "Kinderkrippe Knirpsenvilla",
+  "lat": 47.24415,
+  "lon": 8.46509,
+  "osm": {
+   "ts": "2025-05-30T11:56:22Z",
+   "v": 4,
+   "check": "2025-05-29",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "horgen",
+  "g": "Horgen",
+  "k": "bib",
+  "n": "Schulbibliothek Hirzel",
+  "lat": 47.2161,
+  "lon": 8.60746,
+  "osm": {
+   "ts": "2019-06-21T05:59:10Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "horgen",
+  "g": "Horgen",
+  "k": "kita",
+  "n": "Glückspilze Kinderkrippe",
+  "lat": 47.26106,
+  "lon": 8.58523,
+  "osm": {
+   "ts": "2025-03-08T16:54:26Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "horgen",
+  "g": "Horgen",
+  "k": "kita",
+  "n": "Kinderkrippe Seestern",
+  "lat": 47.25546,
+  "lon": 8.61062,
+  "osm": {
+   "ts": "2019-03-07T07:18:57Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "horgen",
+  "g": "Horgen",
+  "k": "kita",
+  "n": "Kita Stockerstrasse",
+  "lat": 47.2607,
+  "lon": 8.59385,
+  "osm": {
+   "ts": "2026-01-23T10:02:42Z",
+   "v": 2,
+   "check": "2026-01-23",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "horgen",
+  "g": "Horgen",
+  "k": "kita",
+  "n": "Kita Wunderfitz",
+  "lat": 47.25469,
+  "lon": 8.61409,
+  "osm": {
+   "ts": "2018-12-24T16:34:57Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kita-wunderfitz.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "thalwil",
+  "g": "Thalwil",
+  "k": "kita",
+  "n": "Hort Schwandel",
+  "lat": 47.29386,
+  "lon": 8.56436,
+  "osm": null
+ },
+ {
+  "c": "thalwil",
+  "g": "Thalwil",
+  "k": "kita",
+  "n": "Kita Trauminsel",
+  "lat": 47.29321,
+  "lon": 8.56422,
+  "osm": {
+   "ts": "2022-10-18T16:53:47Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "thalwil",
+  "g": "Thalwil",
+  "k": "ludo",
+  "n": "Ludothek",
+  "lat": 47.28649,
+  "lon": 8.56406,
+  "osm": {
+   "ts": "2022-05-07T10:28:16Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://ludothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "i",
+  "g": "Meilen",
+  "k": "bad",
+  "n": "Hallenbad Meilen",
+  "lat": 47.27331,
+  "lon": 8.64851,
+  "osm": {
+   "ts": "2024-01-12T18:28:32Z",
+   "v": 11,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 923 33 70",
+   "oh": "",
+   "op": "Gemeinde Meilen",
+   "disused": false
+  }
+ },
+ {
+  "c": "i",
+  "g": "Meilen",
+  "k": "kita",
+  "n": "Kindertraum-Haus",
+  "lat": 47.27523,
+  "lon": 8.65464,
+  "osm": {
+   "ts": "2019-10-02T05:39:10Z",
+   "v": 6,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://kindertraum-haus.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wa",
+  "g": "Wald",
+  "k": "bad",
+  "n": "Hallenbad Wald",
+  "lat": 47.27677,
+  "lon": 8.91986,
+  "osm": {
+   "ts": "2023-05-14T18:39:17Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "+41 55 246 38 00",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Betreuung Alte Feuerwehr",
+  "lat": 47.50181,
+  "lon": 8.73104,
+  "osm": {
+   "ts": "2023-11-03T08:57:31Z",
+   "v": 3,
+   "check": "2023-04-08",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Winterthur",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Betreuung Feldstrasse",
+  "lat": 47.5082,
+  "lon": 8.71744,
+  "osm": {
+   "ts": "2024-06-23T06:32:44Z",
+   "v": 3,
+   "check": "2024-06-22",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Betreuung Grünmatt",
+  "lat": 47.48164,
+  "lon": 8.7671,
+  "osm": {
+   "ts": "2022-09-20T12:21:32Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 11:50-18:00",
+   "op": "Schule Oberseen",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Betreuung Neuwiesen",
+  "lat": 47.50218,
+  "lon": 8.71964,
+  "osm": {
+   "ts": "2023-11-04T11:15:43Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Winterthur",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Betreuung Schachen",
+  "lat": 47.51674,
+  "lon": 8.71787,
+  "osm": {
+   "ts": "2026-07-07T20:40:55Z",
+   "v": 5,
+   "check": "2026-07-07",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Schule Schachen",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Betreuung Talhof-Erlen",
+  "lat": 47.51061,
+  "lon": 8.70321,
+  "osm": {
+   "ts": "2023-11-07T12:17:36Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Stadt Winterthur",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Kinderhort Wässerwiesen",
+  "lat": 47.50977,
+  "lon": 8.6865,
+  "osm": {
+   "ts": "2024-08-30T10:59:24Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "kita",
+  "n": "Kindertagesstätte KIKRI",
+  "lat": 47.51379,
+  "lon": 8.75468,
+  "osm": {
+   "ts": "2013-01-12T19:29:17Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "ludo",
+  "n": "Ludothek Oberi",
+  "lat": 47.50704,
+  "lon": 8.75332,
+  "osm": {
+   "ts": "2023-12-23T13:22:46Z",
+   "v": 2,
+   "check": "2023-12-23",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://ludothek-oberi.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Akompa",
+  "lat": 47.50041,
+  "lon": 8.7328,
+  "osm": {
+   "ts": "2025-02-16T12:17:48Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "akompa GmbH",
+   "disused": false
+  },
+  "found": "https://www.akompa.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Gemeinschaftszentrum Bahnhof Töss",
+  "lat": 47.48984,
+  "lon": 8.70926,
+  "osm": {
+   "ts": "2026-06-15T00:07:24Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Trägerverein GZ Bahnhof Töss",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Jugendhaus",
+  "lat": 47.49816,
+  "lon": 8.72882,
+  "osm": {
+   "ts": "2024-12-27T09:53:02Z",
+   "v": 4,
+   "check": "2024-12-27",
+   "mail": "",
+   "tel": "",
+   "oh": "We,Th 17:00-23:00; Fr,Sa 17:00-24:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Kinder- und Jugendhilfezentrum (kjz)",
+  "lat": 47.49792,
+  "lon": 8.73888,
+  "osm": {
+   "ts": "2022-04-27T09:08:06Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Kanton Zürich",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Quartierraum Halle 710",
+  "lat": 47.50458,
+  "lon": 8.76305,
+  "osm": {
+   "ts": "2025-03-23T17:28:13Z",
+   "v": 5,
+   "check": "2025-03-23",
+   "mail": "",
+   "tel": "",
+   "oh": "\"Vermietung: Ortsverein Hegi\"",
+   "op": "Ortsverein Hegi",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Quartiertreff Schützehüsli",
+  "lat": 47.51892,
+  "lon": 8.71529,
+  "osm": {
+   "ts": "2023-04-16T07:06:21Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Quartiertreff Stadel",
+  "lat": 47.53443,
+  "lon": 8.7628,
+  "osm": {
+   "ts": "2024-08-30T07:29:22Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Quartiertreff Stadtrain",
+  "lat": 47.50082,
+  "lon": 8.74727,
+  "osm": {
+   "ts": "2025-04-17T03:32:02Z",
+   "v": 6,
+   "check": "2024-05-05",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "winterthur",
+  "g": "Winterthur",
+  "k": "zentrum",
+  "n": "Quartierzentrum Gutschick-Mattenbach",
+  "lat": 47.4932,
+  "lon": 8.75,
+  "osm": {
+   "ts": "2026-04-03T06:02:24Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Quartierverein Gutschick-Mattenbach",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "bad",
+  "n": "Hallenbad Stägenbuck",
+  "lat": 47.40281,
+  "lon": 8.62208,
+  "osm": {
+   "ts": "2023-07-24T07:12:46Z",
+   "v": 11,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "bib",
+  "n": "Bibliothek der Sekundarschule Stägenbuck",
+  "lat": 47.40302,
+  "lon": 8.62003,
+  "osm": {
+   "ts": "2011-01-01T14:18:55Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Fugu Kinderkrippe",
+  "lat": 47.39736,
+  "lon": 8.61814,
+  "osm": {
+   "ts": "2024-03-05T16:11:46Z",
+   "v": 2,
+   "check": "2024-03-05",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Hort und Krippe Zwinggarten",
+  "lat": 47.40319,
+  "lon": 8.61851,
+  "osm": {
+   "ts": "2023-12-06T09:00:23Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Joey's Kinderkrippe",
+  "lat": 47.39873,
+  "lon": 8.60071,
+  "osm": {
+   "ts": "2026-01-21T17:59:26Z",
+   "v": 5,
+   "check": "2025-12-10",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Kinder Loft Zwicky",
+  "lat": 47.40357,
+  "lon": 8.60419,
+  "osm": {
+   "ts": "2016-05-27T11:28:45Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Kinderhaus Imago",
+  "lat": 47.39497,
+  "lon": 8.6007,
+  "osm": {
+   "ts": "2025-04-18T11:10:44Z",
+   "v": 4,
+   "check": "2025-04-18",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Kinderpavillon Empa Eawag",
+  "lat": 47.40397,
+  "lon": 8.60856,
+  "osm": {
+   "ts": "2025-10-26T08:02:42Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "d",
+  "g": "Dübendorf",
+  "k": "kita",
+  "n": "Zwerglinge",
+  "lat": 47.3999,
+  "lon": 8.59933,
+  "osm": null
+ },
+ {
+  "c": "il",
+  "g": "Illnau-Effretikon",
+  "k": "kita",
+  "n": "Hands-on-Kids",
+  "lat": 47.4244,
+  "lon": 8.68836,
+  "osm": {
+   "ts": "2025-04-23T14:25:18Z",
+   "v": 2,
+   "check": "2025-04-23",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "il",
+  "g": "Illnau-Effretikon",
+  "k": "kita",
+  "n": "Kindertagesstätte Effretikon",
+  "lat": 47.42653,
+  "lon": 8.68468,
+  "osm": {
+   "ts": "2025-08-17T13:06:09Z",
+   "v": 4,
+   "check": "2025-08-17",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 06:30-18:00",
+   "op": "Stadt Illnau-Effretikon",
+   "disused": false
+  }
+ },
+ {
+  "c": "l",
+  "g": "Herrliberg",
+  "k": "kita",
+  "n": "Kita",
+  "lat": 47.28849,
+  "lon": 8.61235,
+  "osm": {
+   "ts": "2023-09-08T08:14:20Z",
+   "v": 3,
+   "check": "2023-09-08",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "rickenbach",
+  "g": "Rickenbach",
+  "k": "bib",
+  "n": "Gemeindebibliothek",
+  "lat": 47.55059,
+  "lon": 8.79323,
+  "osm": {
+   "ts": "2012-05-27T21:43:04Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://gemeindebibliothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "buelach",
+  "g": "Bülach",
+  "k": "kita",
+  "n": "Kinderkrippe Lichtpunkt",
+  "lat": 47.52625,
+  "lon": 8.53632,
+  "osm": {
+   "ts": "2024-12-10T10:05:20Z",
+   "v": 1,
+   "check": "2024-12-10",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "o",
+  "g": "Oetwil am See",
+  "k": "zentrum",
+  "n": "Jugendtreff Oetwil am See",
+  "lat": 47.26989,
+  "lon": 8.72215,
+  "osm": {
+   "ts": "2024-12-27T16:56:47Z",
+   "v": 6,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "birmensdorf",
+  "g": "Birmensdorf",
+  "k": "bib",
+  "n": "Lib4RI WSL",
+  "lat": 47.36087,
+  "lon": 8.45552,
+  "osm": {
+   "ts": "2026-03-26T22:54:32Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Th 09:30-11:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "birmensdorf",
+  "g": "Birmensdorf",
+  "k": "zentrum",
+  "n": "Familienzentrum Birmensdorf",
+  "lat": 47.35102,
+  "lon": 8.43723,
+  "osm": {
+   "ts": "2025-01-12T13:31:31Z",
+   "v": 5,
+   "check": "2025-01-12",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "bonstetten",
+  "g": "Bonstetten",
+  "k": "spiel",
+  "n": "Gartenspielgruppe Paradiesli",
+  "lat": 47.32264,
+  "lon": 8.45977,
+  "osm": {
+   "ts": "2023-12-25T19:26:42Z",
+   "v": 3,
+   "check": "2023-12-25",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "bonstetten",
+  "g": "Bonstetten",
+  "k": "spiel",
+  "n": "Kinderatelier - Spielgruppe",
+  "lat": 47.32581,
+  "lon": 8.46887,
+  "osm": {
+   "ts": "2018-01-23T18:42:08Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Verein Kinderatelier Bonstetten",
+   "disused": false
+  }
+ },
+ {
+  "c": "bonstetten",
+  "g": "Bonstetten",
+  "k": "spiel",
+  "n": "Spielgruppe Sunneschii",
+  "lat": 47.31506,
+  "lon": 8.4665,
+  "osm": {
+   "ts": "2020-10-24T12:31:36Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 08:45-11:15; SH off; PH off",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://spielgruppe-sunneschii.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wb",
+  "g": "Wangen-Brüttisellen",
+  "k": "kita",
+  "n": "CocoBello",
+  "lat": 47.42355,
+  "lon": 8.63063,
+  "osm": {
+   "ts": "2021-10-07T11:52:58Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.cocobello.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wb",
+  "g": "Wangen-Brüttisellen",
+  "k": "kita",
+  "n": "Würmli",
+  "lat": 47.42025,
+  "lon": 8.62991,
+  "osm": {
+   "ts": "2020-01-27T16:13:05Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.wuermli.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "adliswil",
+  "g": "Adliswil",
+  "k": "bad",
+  "n": "Hallen- und Freibad Tal",
+  "lat": 47.31227,
+  "lon": 8.53476,
+  "osm": {
+   "ts": "2024-12-07T12:24:36Z",
+   "v": 8,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo-Fr 06:30-20:30; Sa,Su 08:00-18:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "adliswil",
+  "g": "Adliswil",
+  "k": "kita",
+  "n": "Kinderhaus Werd",
+  "lat": 47.31616,
+  "lon": 8.52691,
+  "osm": {
+   "ts": "2023-04-28T10:00:23Z",
+   "v": 2,
+   "check": "2023-04-28",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "buchs",
+  "g": "Buchs",
+  "k": "bib",
+  "n": "Schul- und Gemeindebibliothek Buchs",
+  "lat": 47.45984,
+  "lon": 8.43345,
+  "osm": {
+   "ts": "2026-03-28T07:24:40Z",
+   "v": 6,
+   "check": "",
+   "mail": "bibliothek@buchs.zh.ch",
+   "tel": "+41 44 8440556",
+   "oh": "",
+   "op": "Gemeinde Buchs",
+   "disused": false
+  }
+ },
+ {
+  "c": "buchs",
+  "g": "Buchs",
+  "k": "kita",
+  "n": "Chinderhuus Wirbelwind",
+  "lat": 47.45353,
+  "lon": 8.43762,
+  "osm": {
+   "ts": "2024-08-06T09:29:41Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "+41 43 495 38 33",
+   "oh": "",
+   "op": "Chinderhuus Wirbelwind GmbH",
+   "disused": false
+  },
+  "found": "https://www.chinderhuus-wirbelwind.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "daellikon",
+  "g": "Dällikon",
+  "k": "bad",
+  "n": "Hallenbad Leepünt",
+  "lat": 47.43876,
+  "lon": 8.43938,
+  "osm": {
+   "ts": "2017-04-30T11:30:48Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "urdorf",
+  "g": "Urdorf",
+  "k": "bad",
+  "n": "Hallenbad Urdorf",
+  "lat": 47.38559,
+  "lon": 8.42187,
+  "osm": {
+   "ts": "2020-10-07T10:03:56Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "urdorf",
+  "g": "Urdorf",
+  "k": "kita",
+  "n": "Kinderkrippe Huetiberg",
+  "lat": 47.38026,
+  "lon": 8.42173,
+  "osm": {
+   "ts": "2024-12-08T23:07:20Z",
+   "v": 7,
+   "check": "2024-12-09",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "urdorf",
+  "g": "Urdorf",
+  "k": "zentrum",
+  "n": "Familienzentrum Urdorf",
+  "lat": 47.38761,
+  "lon": 8.42552,
+  "osm": {
+   "ts": "2020-10-08T16:07:51Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "elsau",
+  "g": "Elsau",
+  "k": "kita",
+  "n": "Kinderclub Jojo Elsau",
+  "lat": 47.50384,
+  "lon": 8.80116,
+  "osm": {
+   "ts": "2018-01-07T09:08:35Z",
+   "v": 4,
+   "check": "",
+   "mail": "kinderclub.jojo@ps-elsau.ch",
+   "tel": "+41 52 363 18 71",
+   "oh": "Mo-Fr 7:00-8:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "embrach",
+  "g": "Embrach",
+  "k": "bad",
+  "n": "Hallen- und Freibad Embrach",
+  "lat": 47.50949,
+  "lon": 8.59896,
+  "osm": {
+   "ts": "2022-11-07T08:30:54Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "embrach",
+  "g": "Embrach",
+  "k": "bib",
+  "n": "Bibliothek Embrach",
+  "lat": 47.51769,
+  "lon": 8.58839,
+  "osm": {
+   "ts": "2017-11-12T13:33:20Z",
+   "v": 2,
+   "check": "",
+   "mail": "bibliothek_embrach@bluewin.ch",
+   "tel": "+41 44 8653340",
+   "oh": "Mo 15:00-19:30; We,Fr 16:30-20:00; Th 09:00-11:00,15:00-19:30; Sa 10:00-12:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "embrach",
+  "g": "Embrach",
+  "k": "ludo",
+  "n": "Ludothek",
+  "lat": 47.51756,
+  "lon": 8.58824,
+  "osm": {
+   "ts": "2021-04-25T12:28:43Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://ludothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "hausenamalbis",
+  "g": "Hausen am Albis",
+  "k": "bad",
+  "n": "Strandbad Türlersee",
+  "lat": 47.26652,
+  "lon": 8.5106,
+  "osm": null
+ },
+ {
+  "c": "knonau",
+  "g": "Knonau",
+  "k": "bib",
+  "n": "Bibliothek Knonau",
+  "lat": 47.22419,
+  "lon": 8.46223,
+  "osm": {
+   "ts": "2025-01-03T08:51:03Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "kilchberg",
+  "g": "Kilchberg",
+  "k": "bad",
+  "n": "Hallenbad Kilchberg",
+  "lat": 47.31945,
+  "lon": 8.53935,
+  "osm": {
+   "ts": "2025-05-08T06:46:52Z",
+   "v": 6,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.kilchberg.ch/themen/sport-kultur-freizeit/sport-und-freizeitanlagen-baeder/hallenbad",
+  "via": "domain"
+ },
+ {
+  "c": "rheinau",
+  "g": "Rheinau",
+  "k": "kita",
+  "n": "Im Chorb",
+  "lat": 47.6438,
+  "lon": 8.60654,
+  "osm": {
+   "ts": "2026-03-04T16:11:40Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "schlieren",
+  "g": "Schlieren",
+  "k": "bib",
+  "n": "Bibliothek Schlieren",
+  "lat": 47.3984,
+  "lon": 8.44839,
+  "osm": {
+   "ts": "2026-06-28T08:42:56Z",
+   "v": 8,
+   "check": "2025-03-23",
+   "mail": "bibliothek@schlieren.ch",
+   "tel": "+41 44 730 77 77",
+   "oh": "Mo 09:00-18:00; Tu 09:00-12:00, 14:00-20:00; We-Fr 09:00-12:00, 14:00-18:00; Sa 09:00-13:00",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.schlieren.ch/",
+  "via": "mail"
+ },
+ {
+  "c": "schlieren",
+  "g": "Schlieren",
+  "k": "kita",
+  "n": "Kinderhort Schärerwiese",
+  "lat": 47.39635,
+  "lon": 8.44996,
+  "osm": {
+   "ts": "2024-01-23T11:18:46Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "schlieren",
+  "g": "Schlieren",
+  "k": "kita",
+  "n": "Kinderkrippe am Rietpark",
+  "lat": 47.40011,
+  "lon": 8.44266,
+  "osm": {
+   "ts": "2025-04-02T13:06:35Z",
+   "v": 2,
+   "check": "2025-04-02",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "schlieren",
+  "g": "Schlieren",
+  "k": "kita",
+  "n": "Krippe KiMi",
+  "lat": 47.40299,
+  "lon": 8.4471,
+  "osm": {
+   "ts": "2024-06-09T10:45:40Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "schlieren",
+  "g": "Schlieren",
+  "k": "kita",
+  "n": "Teddybär",
+  "lat": 47.39554,
+  "lon": 8.44449,
+  "osm": {
+   "ts": "2025-11-28T14:57:36Z",
+   "v": 3,
+   "check": "2025-11-28",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://teddybaer.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "schlieren",
+  "g": "Schlieren",
+  "k": "ludo",
+  "n": "Ludothek Schlieren",
+  "lat": 47.39704,
+  "lon": 8.445,
+  "osm": {
+   "ts": "2026-07-11T13:32:32Z",
+   "v": 3,
+   "check": "2026-07-06",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "rs",
+  "g": "Russikon",
+  "k": "kita",
+  "n": "Babysitter-Kurs und Babysittervermittlung",
+  "lat": 47.39844,
+  "lon": 8.77397,
+  "osm": {
+   "ts": "2026-02-13T11:34:25Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 955 00 20",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "rs",
+  "g": "Russikon",
+  "k": "kita",
+  "n": "Russiker Kinderlager (RUKILA)",
+  "lat": 47.39385,
+  "lon": 8.77626,
+  "osm": {
+   "ts": "2026-02-14T03:47:26Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 954 10 25",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "schlatt",
+  "g": "Schlatt",
+  "k": "bib",
+  "n": "Schul- und Gemeindebibliothek Schlatt",
+  "lat": 47.47381,
+  "lon": 8.82699,
+  "osm": {
+   "ts": "2021-10-04T11:54:42Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo 15:30-16:45,19:30-20:30; Th 15:30-16:45",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wallisellen",
+  "g": "Wallisellen",
+  "k": "bad",
+  "n": "Wellness World Wallisellen",
+  "lat": 47.41793,
+  "lon": 8.59492,
+  "osm": {
+   "ts": "2026-06-30T12:24:39Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wallisellen",
+  "g": "Wallisellen",
+  "k": "bib",
+  "n": "Mediathek",
+  "lat": 47.4127,
+  "lon": 8.59359,
+  "osm": {
+   "ts": "2026-04-01T15:13:53Z",
+   "v": 4,
+   "check": "2026-04-01",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Schulgemeinde Wallisellen",
+   "disused": false
+  },
+  "found": "https://www.mediathek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wallisellen",
+  "g": "Wallisellen",
+  "k": "kita",
+  "n": "Globegarden",
+  "lat": 47.41152,
+  "lon": 8.59369,
+  "osm": {
+   "ts": "2024-09-14T14:47:33Z",
+   "v": 4,
+   "check": "2024-09-14",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.globegarden.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wallisellen",
+  "g": "Wallisellen",
+  "k": "zentrum",
+  "n": "Jugendhaus Rotacker",
+  "lat": 47.4149,
+  "lon": 8.58998,
+  "osm": {
+   "ts": "2025-09-18T17:10:31Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "+41 44 830 03 26",
+   "oh": "We 15:00-22:00; Fr 18:00-23:00; Su 15:00-21:00; Nov-Mar Sa 15:00-18:00",
+   "op": "Jugendarbeit Wallisellen",
+   "disused": false
+  }
+ },
+ {
+  "c": "wd",
+  "g": "Wildberg",
+  "k": "kita",
+  "n": "Mittagstisch Wildberg",
+  "lat": 47.41867,
+  "lon": 8.80884,
+  "osm": {
+   "ts": "2015-10-04T16:45:47Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 52 394 26 06",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wd",
+  "g": "Wildberg",
+  "k": "spiel",
+  "n": "Spielgruppenverein Wildberg",
+  "lat": 47.42789,
+  "lon": 8.81493,
+  "osm": {
+   "ts": "2026-07-02T06:10:51Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "+41 52 385 22 69",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "ru",
+  "g": "Rüti",
+  "k": "bad",
+  "n": "Lehrschwimmbad Widacher",
+  "lat": 47.25219,
+  "lon": 8.8504,
+  "osm": null
+ },
+ {
+  "c": "ru",
+  "g": "Rüti",
+  "k": "zentrum",
+  "n": "Gemeinschaftszentrum",
+  "lat": 47.25547,
+  "lon": 8.85198,
+  "osm": {
+   "ts": "2015-10-03T14:24:37Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wiesendangen",
+  "g": "Wiesendangen",
+  "k": "bib",
+  "n": "Bibliothek",
+  "lat": 47.54006,
+  "lon": 8.82657,
+  "osm": {
+   "ts": "2015-06-17T18:57:49Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Tu 18:30-20:30; Th 09:00-11:00,18:00-20:00; SH Th 18:00-20:00",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://bibliothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wiesendangen",
+  "g": "Wiesendangen",
+  "k": "kita",
+  "n": "Kindertagesstätte KiWi",
+  "lat": 47.52354,
+  "lon": 8.79209,
+  "osm": {
+   "ts": "2016-08-25T19:39:17Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://kindertagesstaette-kiwi.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "pfaeffikon",
+  "g": "Pfäffikon",
+  "k": "kita",
+  "n": "Joey",
+  "lat": 47.36418,
+  "lon": 8.78274,
+  "osm": {
+   "ts": "2021-02-06T12:16:06Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "du",
+  "g": "Dürnten",
+  "k": "kita",
+  "n": "Spatzennest",
+  "lat": 47.27853,
+  "lon": 8.86494,
+  "osm": {
+   "ts": "2018-01-09T01:11:48Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "+41 55 251 42 15",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.spatzennest.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "du",
+  "g": "Dürnten",
+  "k": "kita",
+  "n": "Sternschnuppe",
+  "lat": 47.27859,
+  "lon": 8.86484,
+  "osm": {
+   "ts": "2018-01-09T01:11:56Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 55 251 42 16",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://sternschnuppe.ch/de/",
+  "via": "domain"
+ },
+ {
+  "c": "unterengstringen",
+  "g": "Unterengstringen",
+  "k": "kita",
+  "n": "globegarden childcare",
+  "lat": 47.41367,
+  "lon": 8.44817,
+  "osm": {
+   "ts": "2025-08-07T14:33:03Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wz",
+  "g": "Wetzikon",
+  "k": "bib",
+  "n": "Mediothek",
+  "lat": 47.31794,
+  "lon": 8.796,
+  "osm": {
+   "ts": "2023-08-26T12:05:25Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://suchtpraevention-aargau.ch/mediothek/",
+  "via": "domain"
+ },
+ {
+  "c": "wz",
+  "g": "Wetzikon",
+  "k": "kita",
+  "n": "GZO",
+  "lat": 47.3199,
+  "lon": 8.80417,
+  "osm": {
+   "ts": "2022-03-12T15:12:38Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wz",
+  "g": "Wetzikon",
+  "k": "kita",
+  "n": "Kinderhort",
+  "lat": 47.3254,
+  "lon": 8.79318,
+  "osm": {
+   "ts": "2025-08-27T07:41:44Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wz",
+  "g": "Wetzikon",
+  "k": "spiel",
+  "n": "Spielgruppe Wunderland",
+  "lat": 47.33266,
+  "lon": 8.80576,
+  "osm": {
+   "ts": "2024-09-22T16:56:49Z",
+   "v": 5,
+   "check": "2024-09-22",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://spielgruppe-wunderland.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "wz",
+  "g": "Wetzikon",
+  "k": "spiel",
+  "n": "Spielgruppenhaus",
+  "lat": 47.33199,
+  "lon": 8.81298,
+  "osm": {
+   "ts": "2023-11-11T13:21:24Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wz",
+  "g": "Wetzikon",
+  "k": "spiel",
+  "n": "Waldspielgruppe Ambitgzi Treffpunkt",
+  "lat": 47.30866,
+  "lon": 8.79712,
+  "osm": {
+   "ts": "2021-12-08T08:35:50Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "ba",
+  "g": "Bauma",
+  "k": "bib",
+  "n": "Schulbibliothek",
+  "lat": 47.38512,
+  "lon": 8.92028,
+  "osm": {
+   "ts": "2016-12-23T21:05:32Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.mediathek-online.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "ba",
+  "g": "Bauma",
+  "k": "spiel",
+  "n": "Sabrinas Kinder- und Waldspielgruppe",
+  "lat": 47.38587,
+  "lon": 8.85876,
+  "osm": {
+   "ts": "2025-01-24T06:49:26Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "ba",
+  "g": "Bauma",
+  "k": "zentrum",
+  "n": "Jugendkafi Werchstatt",
+  "lat": 47.36771,
+  "lon": 8.87676,
+  "osm": {
+   "ts": "2025-03-28T14:37:56Z",
+   "v": 9,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "dietikon",
+  "g": "Dietikon",
+  "k": "bad",
+  "n": "Frei- und Hallenbad Fondli",
+  "lat": 47.40683,
+  "lon": 8.38907,
+  "osm": {
+   "ts": "2024-05-02T12:18:12Z",
+   "v": 11,
+   "check": "",
+   "mail": "schwimmbad@dietikon.ch",
+   "tel": "+41 44 744 29 89",
+   "oh": "",
+   "op": "Stadt Dietikon",
+   "disused": false
+  },
+  "found": "https://www.dietikon.ch/",
+  "via": "mail"
+ },
+ {
+  "c": "dietikon",
+  "g": "Dietikon",
+  "k": "kita",
+  "n": "Kita Chinderstern",
+  "lat": 47.40887,
+  "lon": 8.40715,
+  "osm": {
+   "ts": "2017-08-23T13:24:09Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wettswilamalbis",
+  "g": "Wettswil am Albis",
+  "k": "kita",
+  "n": "Hort Ägerten",
+  "lat": 47.33938,
+  "lon": 8.47563,
+  "osm": {
+   "ts": "2023-06-10T17:56:02Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "wettswilamalbis",
+  "g": "Wettswil am Albis",
+  "k": "kita",
+  "n": "Hort Wolfetsloh",
+  "lat": 47.33245,
+  "lon": 8.47719,
+  "osm": {
+   "ts": "2018-11-14T19:40:23Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "stallikon",
+  "g": "Stallikon",
+  "k": "kita",
+  "n": "Kinderkrippe Coccolino",
+  "lat": 47.32811,
+  "lon": 8.48994,
+  "osm": {
+   "ts": "2023-08-08T20:12:47Z",
+   "v": 5,
+   "check": "2023-08-08",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "stallikon",
+  "g": "Stallikon",
+  "k": "kita",
+  "n": "Kita Kiddi 5",
+  "lat": 47.34451,
+  "lon": 8.48051,
+  "osm": {
+   "ts": "2018-11-10T14:34:04Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "oberglatt",
+  "g": "Oberglatt",
+  "k": "bib",
+  "n": "Gemeindebibliothek Oberglatt",
+  "lat": 47.47601,
+  "lon": 8.51995,
+  "osm": {
+   "ts": "2023-06-24T14:09:29Z",
+   "v": 3,
+   "check": "2023-06-24",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo,We 15:00-17:00; Tu,Fr 09:30-11:30; Th 18:00-20:00; Sa 09:00-11:30; Su off",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "a",
+  "g": "Männedorf",
+  "k": "bib",
+  "n": "Gemeindebibliothek",
+  "lat": 47.25445,
+  "lon": 8.69565,
+  "osm": {
+   "ts": "2018-05-27T14:56:47Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Schule Männedorf",
+   "disused": false
+  },
+  "found": "https://gemeindebibliothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "a",
+  "g": "Männedorf",
+  "k": "kita",
+  "n": "Kinderkrippe Zauberloki",
+  "lat": 47.25341,
+  "lon": 8.69328,
+  "osm": {
+   "ts": "2023-11-19T11:54:28Z",
+   "v": 8,
+   "check": "2023-11-19",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "thalheimanderthur",
+  "g": "Thalheim an der Thur",
+  "k": "bib",
+  "n": "Bänkli-Bibliothek",
+  "lat": 47.59169,
+  "lon": 8.73328,
+  "osm": {
+   "ts": "2020-09-09T13:34:14Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "24/7",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "e",
+  "g": "Egg",
+  "k": "bad",
+  "n": "Schwimmbad",
+  "lat": 47.29928,
+  "lon": 8.69175,
+  "osm": {
+   "ts": "2025-11-03T13:15:23Z",
+   "v": 7,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "e",
+  "g": "Egg",
+  "k": "kita",
+  "n": "Kinderkrippe Esslinäscht",
+  "lat": 47.28868,
+  "lon": 8.71128,
+  "osm": {
+   "ts": "2023-08-24T10:00:03Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "e",
+  "g": "Egg",
+  "k": "kita",
+  "n": "Tagesstrukturen Rietwies",
+  "lat": 47.30315,
+  "lon": 8.68942,
+  "osm": {
+   "ts": "2026-05-01T12:29:43Z",
+   "v": 8,
+   "check": "2026-05-01",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "e",
+  "g": "Egg",
+  "k": "spiel",
+  "n": "Spielgruppe Sunneschii",
+  "lat": 47.28825,
+  "lon": 8.70987,
+  "osm": {
+   "ts": "2023-08-24T10:00:03Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://spielgruppe-sunneschii.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "gr",
+  "g": "Grüningen",
+  "k": "zentrum",
+  "n": "Jugendtreff",
+  "lat": 47.2838,
+  "lon": 8.75699,
+  "osm": {
+   "ts": "2019-05-24T20:25:00Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "bachenbuelach",
+  "g": "Bachenbülach",
+  "k": "bib",
+  "n": "Gemeindebibliothek Bachenbülach",
+  "lat": 47.50266,
+  "lon": 8.54831,
+  "osm": {
+   "ts": "2020-09-02T12:41:53Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Gemeinde Bachenbülach",
+   "disused": false
+  }
+ },
+ {
+  "c": "oberengstringen",
+  "g": "Oberengstringen",
+  "k": "bib",
+  "n": "Badilektüre",
+  "lat": 47.40914,
+  "lon": 8.47375,
+  "osm": {
+   "ts": "2022-10-06T11:07:36Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "May-Sep 09:00-20:00",
+   "op": "Bibliothek Oberengstringen",
+   "disused": false
+  }
+ },
+ {
+  "c": "eglisau",
+  "g": "Eglisau",
+  "k": "bad",
+  "n": "Flussbadi Eglisau",
+  "lat": 47.57423,
+  "lon": 8.52871,
+  "osm": null
+ },
+ {
+  "c": "eglisau",
+  "g": "Eglisau",
+  "k": "kita",
+  "n": "Chinderhort Chugle Städtli",
+  "lat": 47.57578,
+  "lon": 8.52489,
+  "osm": {
+   "ts": "2019-09-24T08:56:20Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "s",
+  "g": "Schwerzenbach",
+  "k": "bib",
+  "n": "Bibliothek",
+  "lat": 47.38504,
+  "lon": 8.65872,
+  "osm": {
+   "ts": "2019-08-17T13:05:37Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "Gemeinde Schwerzenbach",
+   "disused": false
+  },
+  "found": "https://bibliothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "ottenbach",
+  "g": "Ottenbach",
+  "k": "spiel",
+  "n": "Spielgruppe",
+  "lat": 47.28184,
+  "lon": 8.40702,
+  "osm": {
+   "ts": "2019-08-31T14:47:39Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "obfelden",
+  "g": "Obfelden",
+  "k": "zentrum",
+  "n": "O2JUGEND",
+  "lat": 47.2628,
+  "lon": 8.42339,
+  "osm": {
+   "ts": "2019-09-07T15:28:18Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "n",
+  "g": "Küsnacht",
+  "k": "bad",
+  "n": "Hallenbad Heslibach",
+  "lat": 47.31361,
+  "lon": 8.58536,
+  "osm": {
+   "ts": "2026-07-09T18:25:48Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Tu 17:00-19:00; We 19:00-21:15; Th 18:00-20:15; Fr 17:00-19:00; Sa 14:00-16:30",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "n",
+  "g": "Küsnacht",
+  "k": "bad",
+  "n": "Strandbad Küsnacht",
+  "lat": 47.30991,
+  "lon": 8.5835,
+  "osm": {
+   "ts": "2018-02-28T08:16:27Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "n",
+  "g": "Küsnacht",
+  "k": "kita",
+  "n": "Kindertagesstätte LIFE",
+  "lat": 47.31554,
+  "lon": 8.59838,
+  "osm": {
+   "ts": "2022-07-26T11:51:31Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "n",
+  "g": "Küsnacht",
+  "k": "ludo",
+  "n": "Ludothek Küsnacht",
+  "lat": 47.31759,
+  "lon": 8.58369,
+  "osm": {
+   "ts": "2019-11-19T23:29:12Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://ludothekkuesnacht.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "t",
+  "g": "Uetikon am See",
+  "k": "kita",
+  "n": "Memory Elternkindzentrum",
+  "lat": 47.2632,
+  "lon": 8.67707,
+  "osm": {
+   "ts": "2024-01-10T22:49:01Z",
+   "v": 7,
+   "check": "2024-01-10",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "andelfingen",
+  "g": "Andelfingen",
+  "k": "kita",
+  "n": "Hurrlibutz",
+  "lat": 47.5949,
+  "lon": 8.67407,
+  "osm": {
+   "ts": "2025-04-04T19:04:17Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://hurrlibutz.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "andelfingen",
+  "g": "Andelfingen",
+  "k": "kita",
+  "n": "Windrädli",
+  "lat": 47.59398,
+  "lon": 8.6792,
+  "osm": {
+   "ts": "2023-11-08T13:07:15Z",
+   "v": 2,
+   "check": "2023-11-08",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.windraedli.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "hedingen",
+  "g": "Hedingen",
+  "k": "kita",
+  "n": "Hort und Mittagstisch",
+  "lat": 47.29701,
+  "lon": 8.44447,
+  "osm": {
+   "ts": "2020-06-06T16:20:13Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "hedingen",
+  "g": "Hedingen",
+  "k": "zentrum",
+  "n": "Jugendtreff",
+  "lat": 47.29813,
+  "lon": 8.44724,
+  "osm": {
+   "ts": "2020-06-06T09:48:31Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mo 15:30-18:30; We 14:00-18:00; Fr 16:00-20:00",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "m",
+  "g": "Mönchaltorf",
+  "k": "bib",
+  "n": "Bibliothek",
+  "lat": 47.32268,
+  "lon": 8.70688,
+  "osm": {
+   "ts": "2022-06-04T09:57:14Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "Mar-Oct We,Fr-Su 10:00-18:00",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://bibliothek.ch/",
+  "via": "domain"
+ },
+ {
+  "c": "dachsen",
+  "g": "Dachsen",
+  "k": "kita",
+  "n": "Kita & Hort Dachsen",
+  "lat": 47.66853,
+  "lon": 8.61178,
+  "osm": {
+   "ts": "2026-03-15T17:01:13Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "ossingen",
+  "g": "Ossingen",
+  "k": "bad",
+  "n": "Badesee Husemersee",
+  "lat": 47.62067,
+  "lon": 8.70272,
+  "osm": {
+   "ts": "2024-03-28T08:46:12Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "regensdorf",
+  "g": "Regensdorf",
+  "k": "ludo",
+  "n": "Ludothek Regensdorf",
+  "lat": 47.43131,
+  "lon": 8.47158,
+  "osm": {
+   "ts": "2023-09-09T10:04:03Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "We 14:00-16:00; Fr 09:30-11:30; Sa 10:00-12:00",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.ludothek-regensdorf.ch/index.html",
+  "via": "domain"
+ },
+ {
+  "c": "neftenbach",
+  "g": "Neftenbach",
+  "k": "bad",
+  "n": "Schwimmbad Neftenbach",
+  "lat": 47.53113,
+  "lon": 8.67205,
+  "osm": {
+   "ts": "2025-07-09T12:51:23Z",
+   "v": 10,
+   "check": "2025-05-11",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "neftenbach",
+  "g": "Neftenbach",
+  "k": "bib",
+  "n": "Bibliothek Neftenbach",
+  "lat": 47.52572,
+  "lon": 8.66533,
+  "osm": {
+   "ts": "2025-08-20T12:45:48Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  },
+  "found": "https://www.neftenbach.ch/oeffnungszeitenadresse",
+  "via": "domain"
+ },
+ {
+  "c": "gossau",
+  "g": "Gossau",
+  "k": "kita",
+  "n": "Babysitter Vermittlung",
+  "lat": 47.31134,
+  "lon": 8.77995,
+  "osm": {
+   "ts": "2015-11-12T12:18:38Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "gossau",
+  "g": "Gossau",
+  "k": "kita",
+  "n": "Mittagstisch",
+  "lat": 47.30304,
+  "lon": 8.76137,
+  "osm": {
+   "ts": "2015-11-10T12:42:32Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "v",
+  "g": "Volketswil",
+  "k": "kita",
+  "n": "Kinderkrippe Avalon",
+  "lat": 47.39052,
+  "lon": 8.67221,
+  "osm": {
+   "ts": "2020-05-16T18:56:47Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "aesch",
+  "g": "Aesch",
+  "k": "bib",
+  "n": "Bibliothek Aesch",
+  "lat": 47.33718,
+  "lon": 8.43884,
+  "osm": {
+   "ts": "2020-07-02T14:44:06Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "aesch",
+  "g": "Aesch",
+  "k": "kita",
+  "n": "Hort Nessi",
+  "lat": 47.33623,
+  "lon": 8.43319,
+  "osm": {
+   "ts": "2026-07-13T14:37:50Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "flaach",
+  "g": "Flaach",
+  "k": "bad",
+  "n": "Worbighalle",
+  "lat": 47.57751,
+  "lon": 8.61279,
+  "osm": {
+   "ts": "2025-04-27T19:36:30Z",
+   "v": 5,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "\"Offen je nach Anlass.\"",
+   "op": "Gemeindeverwaltung Flaach",
+   "disused": false
+  }
+ },
+ {
+  "c": "turbenthal",
+  "g": "Turbenthal",
+  "k": "kita",
+  "n": "Chinderhüeti Sunnewirbel",
+  "lat": 47.43399,
+  "lon": 8.85638,
+  "osm": {
+   "ts": "2023-06-26T19:03:26Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 52 385 38 34",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "turbenthal",
+  "g": "Turbenthal",
+  "k": "spiel",
+  "n": "Spielgruppe Sunnewirbel Turbenthal",
+  "lat": 47.43337,
+  "lon": 8.84561,
+  "osm": {
+   "ts": "2015-09-09T12:34:30Z",
+   "v": 3,
+   "check": "",
+   "mail": "",
+   "tel": "+41 52 203 58 05",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "li",
+  "g": "Lindau",
+  "k": "spiel",
+  "n": "Spielgruppe Winterberg",
+  "lat": 47.45561,
+  "lon": 8.69038,
+  "osm": {
+   "ts": "2026-06-06T06:49:58Z",
+   "v": 9,
+   "check": "2026-06-05",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "oberrieden",
+  "g": "Oberrieden",
+  "k": "bad",
+  "n": "Hallenbad Pünt",
+  "lat": 47.27416,
+  "lon": 8.5766,
+  "osm": {
+   "ts": "2022-08-03T12:21:57Z",
+   "v": 4,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "feuerthalen",
+  "g": "Feuerthalen",
+  "k": "bad",
+  "n": "Hallenbad Stumpenboden",
+  "lat": 47.68742,
+  "lon": 8.64792,
+  "osm": {
+   "ts": "2022-06-28T07:44:17Z",
+   "v": 1,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ },
+ {
+  "c": "stammheim",
+  "g": "Stammheim",
+  "k": "bad",
+  "n": "Badeplatz Nussbaumersee",
+  "lat": 47.61559,
+  "lon": 8.81052,
+  "osm": {
+   "ts": "2020-11-27T14:41:10Z",
+   "v": 2,
+   "check": "",
+   "mail": "",
+   "tel": "",
+   "oh": "",
+   "op": "",
+   "disused": false
+  }
+ }
+]
