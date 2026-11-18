@@ -1,395 +1,1010 @@
 [
  {
-  "name": "Aeugst am Albis",
-  "bezirk": "Affoltern",
-  "website": "",
-  "lat": 47.275,
-  "lon": 8.491,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.aeugst-albis.ch gen= links=https://www.aeugst-albis.ch/leben/veranstaltungen.html/97 https://www.aeugst-albis.ch/umwelt-energie/energie/anlaesse.html/631 /leben/kultur-events/veranstaltungen.html/97 https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2754/eventdate/2081 https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2824/eventdate/2119 https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2807/eventdate/2108"
+  "l": "Adlisberg|Zürich#ist",
+  "u": "https://www.adlisberg.ch/",
+  "s": 200,
+  "f": "https://www.adlisberg.ch/",
+  "title": "Adlisberg • Die gute Wald- &amp; Wiesenbeiz • Herzlich willkommen"
+ },
+ {
+  "l": "Adlisberg|Zürich#neu",
+  "u": "https://kinderregion.ch/de/besuchen/restaurant-adlisberg/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/restaurant-adlisberg/",
+  "title": "Restaurant Adlisberg | Kinderregion",
+  "ext": [
+   "https://www.adlisberg.ch/reservieren/",
+   "https://www.adlisberg.ch"
   ]
  },
  {
-  "name": "Bachs",
-  "bezirk": "Dielsdorf",
-  "website": "",
-  "lat": 47.529,
-  "lon": 8.431,
-  "domain": "www.bachs.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.bachs.ch gen= links=https://www.bachs.ch/wp-content/uploads/2026/10/Veranstaltungskalender-2026.11.pdf"
+  "l": "Al Giardino|Winterthur#ist",
+  "u": "https://www.algiardino.ch/",
+  "s": 403,
+  "f": "https://www.algiardino.ch/",
+  "title": "Just a moment..."
+ },
+ {
+  "l": "Bakery Bakery|Zürich#ist",
+  "u": "https://www.bakerybakery.ch/en/standorte/schaffhauserplatz",
+  "s": 200,
+  "f": "https://www.bakerybakery.ch/en/standorte/schaffhauserplatz",
+  "title": "schaffhauserplatz in Zürich | Bakery Bakery | Schweiz"
+ },
+ {
+  "l": "Bakery Bakery|Zürich#neu",
+  "u": "https://www.bakerybakery.ch/standorte/schaffhauserplatz",
+  "s": 200,
+  "f": "https://www.bakerybakery.ch/standorte/schaffhauserplatz",
+  "title": "schaffhauserplatz in Zürich | Bakery Bakery | Schweiz"
+ },
+ {
+  "l": "Bauschänzli|Zürich#ist",
+  "u": "https://www.conviva-plus.ch/?page=1918",
+  "s": 200,
+  "f": "https://www.conviva-plus.ch/?page=1918",
+  "title": "Bauschänzli Zürich - Die Stadt-Insel mit eigenem Biergarten"
+ },
+ {
+  "l": "Bistro uf em Chilehügel|Zürich#ist",
+  "u": "https://reformiert-zuerich.ch/kirchenkreise/neun/bistro-ufem-chilehuegel",
+  "s": 200,
+  "f": "https://reformiert-zuerich.ch/kirchenkreise/neun/bistro-ufem-chilehuegel",
+  "title": "bistro ufem chilehügel – Kaffee, Mittagessen und Snacks"
+ },
+ {
+  "l": "Brasserie Freilager|Zürich#neu",
+  "u": "https://restaurant-freilager.ch/",
+  "s": 200,
+  "f": "https://www.restaurant-freilager.ch/"
+ },
+ {
+  "l": "Bridge|Zürich#neu",
+  "u": "https://kinderregion.ch/de/besuchen/bridge/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/bridge/",
+  "title": "Bridge | Kinderregion",
+  "ext": [
+   "https://www.bridgezurich.ch"
   ]
  },
  {
-  "name": "Berg am Irchel",
-  "bezirk": "Andelfingen",
-  "website": "",
-  "lat": 47.561,
-  "lon": 8.592,
-  "domain": "www.bergamirchel.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.bergamirchel.ch gen=ProcessWire 3.0.229 links=/freizeit-und-kultur/kalender/ /agenda/2026/seniorennachmittag-im-landihaus/ /agenda/2026/kirchgemeindeversammlung-ref-kg-flaachtal/ /agenda/2026/bibliothek-donnerstag-ab-18.00-h-anlass-offenes-adventsfenster-mit-apero-gluhwein-usw/ /agenda/2026/kerzenziehen/ /agenda/"
+  "l": "Bridge|Zürich#neu",
+  "u": "https://www.bridge-zuerich.ch/",
+  "s": -1,
+  "e": "EAI_AGAIN"
+ },
+ {
+  "l": "Bruderhaus|Winterthur#ist",
+  "u": "https://www.restaurant-bruderhaus.ch",
+  "s": 200,
+  "f": "https://restaurant-bruderhaus.ch/",
+  "title": "Home - Restaurant Bruderhaus"
+ },
+ {
+  "l": "Café im Rieterpark|Zürich#ist",
+  "u": "https://www.conviva-plus.ch/?page=1916",
+  "s": 200,
+  "f": "https://www.conviva-plus.ch/?page=1916",
+  "title": "Café Rietberg Zürich: Wintergarten im Rieterpark"
+ },
+ {
+  "l": "Café Lang|Zürich#ist",
+  "u": "https://www.cafe-lang.ch/",
+  "s": 200,
+  "f": "https://www.cafe-lang.ch/",
+  "title": "Cafe Lang Zürich – Café – Limmatplatz"
+ },
+ {
+  "l": "Café Lang|Zürich#neu",
+  "u": "https://www.cafe-lang.ch/",
+  "s": 200,
+  "f": "https://www.cafe-lang.ch/",
+  "title": "Cafe Lang Zürich – Café – Limmatplatz"
+ },
+ {
+  "l": "Cafeteria im Familienzentrum|Winterthur#neu",
+  "u": "https://www.familienzentrum-winterthur.ch/",
+  "s": 200,
+  "f": "https://www.familienzentrum-winterthur.ch/",
+  "title": "Familienzentrum Winterthur"
+ },
+ {
+  "l": "Cafeteria im Familienzentrum|Winterthur#neu",
+  "u": "http://www.familienzentrum-winterthur.ch/cafeteria-c1l7y",
+  "s": 200,
+  "f": "https://www.familienzentrum-winterthur.ch/cafeteria",
+  "title": "Cafeteria | familienzentrum"
+ },
+ {
+  "l": "Casi Casa|Zürich#ist",
+  "u": "https://europaallee.ch/angebot/casi-casa/",
+  "s": 200,
+  "f": "https://europaallee.ch/angebot/casi-casa/",
+  "title": "Casi Casa - Europaallee"
+ },
+ {
+  "l": "Casi Casa|Zürich#neu",
+  "u": "https://kinderregion.ch/de/besuchen/casi-casa/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/casi-casa/",
+  "title": "Casi Casa | Kinderregion",
+  "ext": [
+   "https://www.casicasa.ch"
   ]
  },
  {
-  "name": "Boppelsen",
-  "bezirk": "Dielsdorf",
-  "website": "",
-  "lat": 47.47,
-  "lon": 8.405,
-  "domain": "www.boppelsen.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.boppelsen.ch gen= links="
+  "l": "Chäsalp|Dübendorf#neu",
+  "u": "https://chaesalp.ch/",
+  "s": 200,
+  "f": "https://www.chaesalp.ch/",
+  "title": "Chäsalp Zürich – Fondue, Raclette &amp; Schweizer Restaurant"
+ },
+ {
+  "l": "Chlii und Gross Familienoase|Winterthur#ist",
+  "u": "https://www.chliiundgross-familienoase.ch/",
+  "s": 403,
+  "f": "https://www.chliiundgross-familienoase.ch/",
+  "title": "Attention Required! | Cloudflare"
+ },
+ {
+  "l": "Chlii und Gross|Winterthur#neu",
+  "u": "https://kinderregion.ch/de/besuchen/chlii-und-gross/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/chlii-und-gross/",
+  "title": "Chlii und Gross Familienoase | Kinderregion",
+  "ext": [
+   "https://www.chliiundgross-familienoase.ch/angebot/kindergeburtstage/",
+   "https://www.chliiundgross-familienoase.ch/",
+   "https://www.chliiundgross-familienoase.ch/angebot/preise/"
   ]
  },
  {
-  "name": "Dorf",
-  "bezirk": "Andelfingen",
-  "website": "",
-  "lat": 47.573,
-  "lon": 8.649,
-  "domain": "www.dorf.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.dorf.ch gen= links=https://www.dorf.ch/dorfleben/veranstaltungskalender.html/98 https://www.dorf.ch/dorfleben/veranstaltungskalender.html/104 https://www.dorf.ch/dorfleben/veranstaltungen-im-flaachtal.html/106 https://www.dorf.ch/dorfleben/veranstaltungen-im-zuercher-weinland.html/121 https://www.dorf.ch/services/veranstaltungen.html/17 https://www.dorf.ch/services/veranstaltungen.html/18/event/445/eventdate/1690"
+  "l": "Chrüzi-Kafi|Dietikon#ist",
+  "u": "https://www.dietikon.ch/freizeitanlage-chruezacher",
+  "s": 200,
+  "f": "https://www.dietikon.ch/freizeitanlage-chruezacher",
+  "title": "Dietikon - Freizeitanlage Chrüzacher"
+ },
+ {
+  "l": "Coop Restaurant Grüze|Winterthur#neu",
+  "u": "https://www.coop-restaurant.ch/de/restaurantfinder.html",
+  "s": 200,
+  "f": "https://www.coop-restaurant.ch/de/restaurantfinder.html",
+  "title": "Restaurantfinder"
+ },
+ {
+  "l": "Coop Restaurant St. Annahof|Zürich#ist",
+  "u": "https://www.coop-restaurant.ch/de/restaurantfinder/finderdetailpage.2083.html",
+  "s": 200,
+  "f": "https://www.coop-restaurant.ch/de/restaurantfinder/finderdetailpage.2083.html",
+  "title": "Zürich St. Annahof"
+ },
+ {
+  "l": "Coop Restaurant Stadtgarten|Winterthur#ist",
+  "u": "https://www.coop-restaurant.ch/de/restaurantfinder/finderdetailpage.2140.html",
+  "s": 200,
+  "f": "https://www.coop-restaurant.ch/de/restaurantfinder/finderdetailpage.2140.html",
+  "title": "Winterthur Stadtgarten"
+ },
+ {
+  "l": "Die Waid|Zürich#ist",
+  "u": "https://diewaid.ch",
+  "s": 200,
+  "f": "https://diewaid.ch/",
+  "title": "Restaurant Die Waid Zürich – Genuss &amp; Panorama"
+ },
+ {
+  "l": "eCHo (Zurich Marriott)|Zürich#ist",
+  "u": "https://www.echorestaurant.ch/",
+  "s": 200,
+  "f": "https://www.echorestaurant.ch/",
+  "title": "eCHo Restaurant Zürich | Fondue und Brunch Restaurant"
+ },
+ {
+  "l": "Engitreff|Zürich#ist",
+  "u": "https://www.quartiertreff.ch/cafe",
+  "s": 200,
+  "f": "https://www.quartiertreff.ch/cafe",
+  "title": "Café - Quartiertreff Enge"
+ },
+ {
+  "l": "EPI Park Restaurant|Zürich#ist",
+  "u": "https://www.swissepi.ch/epi-park/epi-park-restaurant.html",
+  "s": 200,
+  "f": "https://www.swissepi.ch/epi-park/epi-park-restaurant.html",
+  "title": "EPI Park Restaurant - EPI Park - swissepi.ch"
+ },
+ {
+  "l": "Eschenberg|Winterthur#neu",
+  "u": "https://www.restaurant-eschenberg.ch/",
+  "s": 404,
+  "f": "https://www.restaurant-eschenberg.ch/",
+  "title": "ConnectYourDomain Error | Wix.com"
+ },
+ {
+  "l": "EXPLORiT Kindercity Restaurant|Volketswil#ist",
+  "u": "https://explorit.ch/de/volketswil/restaurant/",
+  "s": 200,
+  "f": "https://explorit.ch/de/volketswil/restaurant/",
+  "title": "Familienrestaurant in Volketswil Zürich | Explorit"
+ },
+ {
+  "l": "Familiencafé Elch|Zürich#ist",
+  "u": "https://zentrumelch.ch/kafi-plus",
+  "s": 200,
+  "f": "https://zentrumelch.ch/kafi-plus",
+  "title": "Dein Familiencafé im Quartier - Verein ELCH für Eltere &amp; Chind"
+ },
+ {
+  "l": "Familiencafé Elch|Zürich#neu",
+  "u": "https://kinderregion.ch/de/besuchen/familiencafe-elch/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/familiencafe-elch/",
+  "title": "Familiencafé Elch | Kinderregion",
+  "ext": [
+   "https://zentrumelch.ch/familienzentren-zuerich-elch/krokodil/uebersicht",
+   "https://zentrumelch.ch/familienzentren-zuerich-elch/frieden/uebersicht",
+   "https://zentrumelch.ch/familienzentren-zuerich-elch/cece-areal/uebersicht",
+   "https://zentrumelch.ch/familienzentren-zuerich-elch/accu/uebersicht",
+   "https://zentrumelch.ch/familienzentren-zuerich-elch/regensbergstrasse/uebersicht",
+   "https://zentrumelch.ch/"
   ]
  },
  {
-  "name": "Eglisau",
-  "bezirk": "Bülach",
-  "website": "",
-  "lat": 47.572,
-  "lon": 8.517,
-  "domain": "www.eglisau.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.eglisau.ch gen=TYPO3 CMS links=/de/ueber-eglisau/in-eglisau-zu-gast/kultur-veranstaltungen/ /de/kultur-freizeit/mietlokale-fuer-veranstaltungen/ /de/wohnen-gewerbe/richtig-entsorgen/termine-abfallkalender/ https://www.eglisau.ch/de/ueber-eglisau/in-eglisau-zu-gast/kultur-veranstaltungen/"
+  "l": "Fork & Bottle|Zürich#ist",
+  "u": "https://www.forkandbottle.ch/",
+  "s": 200,
+  "f": "https://www.forkandbottle.ch/",
+  "title": "Fork &amp; Bottle"
+ },
+ {
+  "l": "Fork & Bottle|Zürich#neu",
+  "u": "https://kinderregion.ch/de/besuchen/fork-and-bottle/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/fork-and-bottle/",
+  "title": "Fork &amp; Bottle | Kinderregion",
+  "ext": [
+   "https://www.forkandbottle.ch/de/home/kontakt",
+   "http://www.forkandbottle.ch"
   ]
  },
  {
-  "name": "Fischenthal",
-  "bezirk": "Hinwil",
-  "website": "",
-  "lat": 47.341,
-  "lon": 8.937,
-  "domain": "www.fischenthal.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.fischenthal.ch gen=WordPress 7.1.4 links=https://www.fischenthal.ch/leben-familie-anlaesse/ https://www.fischenthal.ch/leben-familie-anlaesse/angebote-fuer-familien-und-kinder/ https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/ https://www.fischenthal.ch/leben-familie-anlaesse/tierschutz-und-hunde/ https://www.fischenthal.ch/leben-familie-anlaesse/wohnen-und-arbeiten/ https://www.fischenthal.ch/leben-familie-anlaesse/zivilstandsaenderungen-und-todesfall/"
+  "l": "Frau Gerolds Garten|Zürich#ist",
+  "u": "https://www.fraugerold.ch/home",
+  "s": 200,
+  "f": "https://www.fraugerold.ch/home",
+  "title": "Frau Gerolds Garten | Winter-Garten, Winterstübli, Sonnenterrasse, Sommerrestaurant, Kunst und Stadtgarten | Geroldareal"
+ },
+ {
+  "l": "Gasthaus Albisgütli|Zürich#ist",
+  "u": "https://www.albisguetli.ch/",
+  "s": 200,
+  "f": "https://www.albisguetli.ch/",
+  "title": "Restaurant, Event Location &amp; Ausflugsziel in Zürich | Gasthaus Albisgütli"
+ },
+ {
+  "l": "Gasthaus Hans im Glück|Kloten#ist",
+  "u": "https://www.hans-im-glueck.ch",
+  "s": 200,
+  "f": "https://www.hans-im-glueck.ch/",
+  "title": "hans-im-glueck.ch: Hans im Glück"
+ },
+ {
+  "l": "Gibswilerstube|Fischenthal#ist",
+  "u": "https://www.gibswilerstube.ch/",
+  "s": 200,
+  "f": "https://www.gibswilerstube.ch/",
+  "title": "Hotel | Restaurant Gibswilerstube | Fischenthal | Gibswil"
+ },
+ {
+  "l": "Gibswilerstube|Fischenthal#neu",
+  "u": "https://kinderregion.ch/de/besuchen/gibswilerstube/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/gibswilerstube/",
+  "title": "Gibswilerstube | Kinderregion",
+  "ext": [
+   "https://www.gibswilerstube.ch/oeffnungszeiten",
+   "https://www.ginto.guide/de/entries/18d656e4-8c04-48a5-95a5-635ea78be59e",
+   "https://www.gibswilerstube.ch/restaurant"
   ]
  },
  {
-  "name": "Glattfelden",
-  "bezirk": "Bülach",
-  "website": "",
-  "lat": 47.56,
-  "lon": 8.493,
-  "domain": "www.glattfelden.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.glattfelden.ch gen= links=https://www.glattfelden.ch/freizeit/veranstaltungen.html/491"
+  "l": "Grünwald|Zürich#ist",
+  "u": "https://www.gruenwald.ch/",
+  "s": 200,
+  "f": "https://gruenwald.ch/",
+  "title": "Restaurant Grünwald"
+ },
+ {
+  "l": "GZ Bistro|Zürich#neu",
+  "u": "https://gz-zh.ch/gz-leimbach/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-leimbach/",
+  "title": "Bei uns - GZ Leimbach - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "GZ Seebach Café am Bach|Zürich#ist",
+  "u": "https://gz-zh.ch/gz-seebach/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-seebach/",
+  "title": "Bei uns - GZ Seebach - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "Hans im Glück|Kloten#neu",
+  "u": "https://kinderregion.ch/de/besuchen/hans-im-glueck/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/fehler-404/",
+  "title": "Fehler 404 | Kinderregion",
+  "ext": []
+ },
+ {
+  "l": "Hiltl|Zürich#ist",
+  "u": "https://hiltl.ch",
+  "s": 200,
+  "f": "https://hiltl.ch/de/",
+  "title": "Startseite | Hiltl"
+ },
+ {
+  "l": "Hilton Zurich Airport (Sonntagsbrunch)|Opfikon#ist",
+  "u": "https://www.hilton.com/en/hotels/zrhhitw-hilton-zurich-airport/",
+  "s": 403,
+  "f": "https://www.hilton.com/en/hotels/zrhhitw-hilton-zurich-airport/",
+  "title": "Hilton Page Reference Code"
+ },
+ {
+  "l": "Hilton|Opfikon#neu",
+  "u": "https://www.hilton.com/de/hotels/zrhhitw-hilton-zurich-airport/dining/",
+  "s": 403,
+  "f": "https://www.hilton.com/de/hotels/zrhhitw-hilton-zurich-airport/dining/",
+  "title": "Hilton Page Reference Code"
+ },
+ {
+  "l": "Hotel Boldern|Männedorf#ist",
+  "u": "https://www.boldern.ch/de/wiki/essen/",
+  "s": 200,
+  "f": "https://www.boldern.ch/de/wiki/essen/",
+  "title": "Boldern Hotel Restaurant AG in Männedorf | Essen"
+ },
+ {
+  "l": "Hotel Zürichberg|Zürich#ist",
+  "u": "https://www.zuerichberg.ch/restaurant",
+  "s": 200,
+  "f": "https://www.zuerichberg.ch/restaurant",
+  "title": "Restaurant &mdash; Restaurant &amp; Bar Zurichberg"
+ },
+ {
+  "l": "Jucker Farm Hofrestaurant|Seegräben#ist",
+  "u": "https://www.juckerfarm.ch/",
+  "s": 200,
+  "f": "https://www.juckerfarm.ch/",
+  "title": "Willkommen auf unseren Erlebnishöfen - Jucker Farm"
+ },
+ {
+  "l": "Jucker Farm|Seegräben#neu",
+  "u": "https://kinderregion.ch/de/besuchen/jucker-farm/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/jucker-farm/",
+  "title": "Jucker Farm Seegräben | Kinderregion",
+  "ext": [
+   "https://www.juckerfarm.ch/hoferlebnis/roemerhof/",
+   "https://www.juckerfarm.ch/hoferlebnis/juckerhof/",
+   "https://www.juckerfarm.ch"
   ]
  },
  {
-  "name": "Gossau",
-  "bezirk": "Hinwil",
-  "website": "",
-  "lat": 47.302,
-  "lon": 8.769,
-  "domain": "www.gossau-zh.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.gossau-zh.ch gen=WordPress 7.1.4 links=https://www.gossau-zh.ch/kalender/ https://www.gossau-zh.ch/aktuell/?ucterms=category:veranstaltungen https://www.gossau-zh.ch/evt-kategorie/entsorgungskalender/ https://www.gossau-zh.ch/evt-kategorie/veranstaltungen/ https://www.gossau-zh.ch/wp-content/uploads/2025/12/Entsorgungskalender_2026.pdf"
+  "l": "Kafi Domino|Uster#ist",
+  "u": "https://www.domino.cafe/",
+  "s": 200,
+  "f": "https://www.domino.cafe/",
+  "title": "Home"
+ },
+ {
+  "l": "Kafi Domino|Uster#neu",
+  "u": "https://kinderregion.ch/de/besuchen/kafi-domino/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/kafi-domino/",
+  "title": "Kafi Domino | Kinderregion",
+  "ext": [
+   "https://www.domino.cafe/"
   ]
  },
  {
-  "name": "Hausen am Albis",
-  "bezirk": "Affoltern",
-  "website": "",
-  "lat": 47.245,
-  "lon": 8.541,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.hausen.ch:-"
+  "l": "Kafi Feld|Wetzikon#ist",
+  "u": "https://www.facebook.com/kafifeld/",
+  "s": 400,
+  "f": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fkafifeld%2F",
+  "title": "Error"
+ },
+ {
+  "l": "Kafi Feld|Wetzikon#neu",
+  "u": "https://kinderregion.ch/de/besuchen/kafi-feld/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/kafi-feld/",
+  "title": "Kafi Feld | Kinderregion",
+  "ext": [
+   "https://kafi-feld.ch"
   ]
  },
  {
-  "name": "Hochfelden",
-  "bezirk": "Bülach",
-  "website": "",
-  "lat": 47.528,
-  "lon": 8.508,
-  "domain": "hochfelden.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "hochfelden.ch gen=Contao Open Source CMS links=/verwaltung/dienstleistungen/dienstleistungen-details/abfallkalender"
+  "l": "Kafi Feld|Wetzikon#neu",
+  "u": "https://kafifeld.ch/",
+  "s": 200,
+  "f": "https://kafi-feld.ch/",
+  "title": "Kafi Feld Wetzikon"
+ },
+ {
+  "l": "Kafi für Dich|Zürich#neu",
+  "u": "https://www.fuerdich.ch",
+  "s": 200,
+  "f": "https://www.fuerdich.ch/"
+ },
+ {
+  "l": "Kafi GZ Heuried|Zürich#ist",
+  "u": "https://gz-zh.ch/gz-heuried/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-heuried/",
+  "title": "Bei uns - GZ Heuried - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "Kafi GZ Schindlergut|Zürich#ist",
+  "u": "https://gz-zh.ch/gz-schindlergut/raeume/schigu-kafi/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-schindlergut/raeume/schigu-kafi/",
+  "title": "SCHIGU KAFI - GZ Schindlergut - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "Kafi Rauke|Winterthur#ist",
+  "u": "https://rauke.ch/",
+  "s": 200,
+  "f": "https://rauke.ch/",
+  "title": "Kafi - Rauke"
+ },
+ {
+  "l": "Kafi Rauke|Winterthur#neu",
+  "u": "https://kinderregion.ch/de/besuchen/kafi-rauke/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/kafi-rauke/",
+  "title": "Kafi Rauke | Kinderregion",
+  "ext": [
+   "https://rauke.ch/"
   ]
  },
  {
-  "name": "Hüntwangen",
-  "bezirk": "Bülach",
-  "website": "",
-  "lat": 47.593,
-  "lon": 8.499,
-  "domain": "www.huentwangen.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.huentwangen.ch gen=WordPress 7.1.4 links=https://www.huentwangen.ch/aktuelles/veranstaltungen/ https://www.huentwangen.ch/events/urnengang-3/ https://www.huentwangen.ch/events/gemeindeversammlung-6/ https://huentwangen.ch/aktuelles/veranstaltungen/"
+  "l": "Kafi Tintenfisch|Zürich#ist",
+  "u": "https://gz-zh.ch/gz-wipkingen/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-wipkingen/",
+  "title": "Bei uns - GZ Wipkingen - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "Kunsthaus-Restaurant|Zürich#ist",
+  "u": "https://www.kunsthaus.ch/en/besuch-planen/gastronomie/",
+  "s": 200,
+  "f": "https://www.kunsthaus.ch/en/besuch-planen/gastronomie/",
+  "title": "Where Art Meets Gastronomy – Dining at Kunsthaus Zürich – KUNSTHAUS"
+ },
+ {
+  "l": "Landgasthof Halbinsel Au|Wädenswil#ist",
+  "u": "https://halbinselau.com",
+  "s": 200,
+  "f": "https://halbinselau.com/",
+  "title": "Willkommen auf der Halbinsel Au - Halbinsel Au Landgasthhof"
+ },
+ {
+  "l": "Latte Stories|Cham#neu",
+  "u": "https://lattestories.ch/",
+  "s": 200,
+  "f": "https://lattestories.ch/",
+  "title": "Latte Stories - Specialty Coffee &amp; Brunch"
+ },
+ {
+  "l": "Loogarten|Zürich#ist",
+  "u": "https://gz-zh.ch/gz-loogarten/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-loogarten/",
+  "title": "Bei uns - GZ Loogarten - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "Lycka|Meilen#ist",
+  "u": "https://www.lyckacoffeebar.com/",
+  "s": 200,
+  "f": "https://www.lyckacoffeebar.com/",
+  "title": "LYCKA Coffee &amp; Bar | Swedish Coffee &amp; Bistro in Meilen"
+ },
+ {
+  "l": "Migros Winterthur|Winterthur#neu",
+  "u": "https://gastro.migros.ch/",
+  "s": 200,
+  "f": "https://gastro.migros.ch/",
+  "title": "Migros-Gastronomie"
+ },
+ {
+  "l": "Migros-Restaurant City|Zürich#ist",
+  "u": "https://www.migros-city.ch",
+  "s": 200,
+  "f": "https://www.migros-city.ch/",
+  "title": "Migros City Zürich – Ihr Shopping-Erlebnis im Herzen der Stadt"
+ },
+ {
+  "l": "Park im Grüene (Migros-Restaurant)|Rüschlikon#ist",
+  "u": "https://www.parkimgruene.ch",
+  "s": 200,
+  "f": "https://www.parkimgruene.ch/",
+  "title": "Herzlich Willkommen im Park im Gr&#xFC;ene"
+ },
+ {
+  "l": "Park im Grüene|Rüschlikon#neu",
+  "u": "https://kinderregion.ch/de/besuchen/park-im-grueene/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/park-im-grueene/",
+  "title": "Park im Grüene | Kinderregion",
+  "ext": [
+   "https://www.parkimgruene.ch/restaurant/murpfi",
+   "https://www.parkimgruene.ch/familienaktivitaeten",
+   "https://www.parkimgruene.ch/informationen/oeffnungszeiten",
+   "https://www.parkimgruene.ch"
   ]
  },
  {
-  "name": "Kilchberg",
-  "bezirk": "Horgen",
-  "website": "",
-  "lat": 47.323,
-  "lon": 8.545,
-  "domain": "www.kilchberg.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.kilchberg.ch gen=TYPO3 CMS links=/typo3temp/assets/css/Events_37792c79643bed13a83d21b7659ad192.1793886412.css /veranstaltungen /veranstaltungen/termin/zaemegolaufe-1-20261116-32 /veranstaltungen/termin/jassclub-kilchberg-differenzler-11-20261116-10 /veranstaltungen/termin/kulturkafi-20261117-4 /veranstaltungen/termin/kulturkafi-20261118-4"
+  "l": "Pavillon / Biergarten Sonne am See|Küsnacht#ist",
+  "u": "https://sonne.ch/",
+  "s": 200,
+  "f": "https://sonne.ch/",
+  "title": "Willkommen in Ihrem Hotel am Zürichsee | Hotel Sonne Küsnacht"
+ },
+ {
+  "l": "Pavillon Sonne|Küsnacht#neu",
+  "u": "https://sonne.ch/pavillon",
+  "s": 200,
+  "f": "https://sonne.ch/restaurants-und-bar/pavillon/",
+  "title": "Restaurant in Küsnacht - Pavillon | Hotel Sonne Küsnacht"
+ },
+ {
+  "l": "Pavillon Sonne|Küsnacht#neu",
+  "u": "https://www.sonne.ch/",
+  "s": 200,
+  "f": "https://sonne.ch/",
+  "title": "Willkommen in Ihrem Hotel am Zürichsee | Hotel Sonne Küsnacht"
+ },
+ {
+  "l": "Pizzeria Molino|Winterthur#ist",
+  "u": "https://molino.ch/en/restaurant/pizzeria-ristorante-molino-winterthur/",
+  "s": 200,
+  "f": "https://molino.ch/en/restaurant/pizzeria-ristorante-molino-winterthur/",
+  "title": "Winterthur – Pizzeria Ristorante Molino"
+ },
+ {
+  "l": "Pizzeria Molino|Winterthur#neu",
+  "u": "http://molino.ch/de/restaurants/winterthur.html",
+  "s": 200,
+  "f": "https://molino.ch/de/",
+  "title": "Italianità per tutti – Pizzeria Ristorante Molino"
+ },
+ {
+  "l": "Portofino|Thalwil#ist",
+  "u": "https://www.portofino-am-see.ch/",
+  "s": 200,
+  "f": "https://www.portofino-am-see.ch/",
+  "title": "Home | Portofino"
+ },
+ {
+  "l": "Portofino|Thalwil#neu",
+  "u": "https://kinderregion.ch/de/besuchen/restaurant-portofino/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/restaurant-portofino/",
+  "title": "Restaurant Portofino | Kinderregion",
+  "ext": [
+   "https://www.portofino-am-see.ch"
   ]
  },
  {
-  "name": "Maschwanden",
-  "bezirk": "Affoltern",
-  "website": "",
-  "lat": 47.235,
-  "lon": 8.431,
-  "domain": "www.maschwanden.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.maschwanden.ch gen=Weblication® CMS links=/de/veranstaltungen/?navid=856581856581 /de/veranstaltungen/?navid=659874659874 /wAssets/docs/GzD_Recyclingkalender.pdf /de/veranstaltungen/"
+  "l": "Quartier Kafi|Horgen#ist",
+  "u": "https://www.quartier-kafi.ch/",
+  "s": 200,
+  "f": "https://www.quartier-kafi.ch/",
+  "title": "Quartier Kafi | Kaffee | Neugasse 35, Horgen, Switzerland"
+ },
+ {
+  "l": "Restaurant Buchenegg|Stallikon#ist",
+  "u": "https://www.buchenegg.ch/",
+  "s": 200,
+  "f": "https://www.buchenegg.ch/",
+  "title": "Home - Meine Webseite",
+  "closed": "September 2022 haben wir unser Restaurant auf der Buchenegg endgültig geschlossen"
+ },
+ {
+  "l": "Restaurant Dieci allo Zoo|Zürich#ist",
+  "u": "https://www.facebook.com/dieciallozoo",
+  "s": 400,
+  "f": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fdieciallozoo",
+  "title": "Error"
+ },
+ {
+  "l": "Restaurant Dieci allo Zoo|Zürich#neu",
+  "u": "https://www.dieci.ch/standorte/dieci-allo-zoo",
+  "s": 404,
+  "f": "https://www.dieci.ch/standorte/dieci-allo-zoo",
+  "title": "Seite nicht gefunden - dieci.ch"
+ },
+ {
+  "l": "Restaurant Dieci allo Zoo|Zürich#neu",
+  "u": "https://www.dieci.ch/",
+  "s": 200,
+  "f": "https://www.dieci.ch/de/",
+  "title": "Pizza online bestellen &amp; Restaurants entdecken - dieci.ch"
+ },
+ {
+  "l": "Restaurant Eulachpark|Winterthur#ist",
+  "u": "https://www.restaurant-eulachpark.ch/",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
+ },
+ {
+  "l": "Restaurant Felsenegg|Stallikon#ist",
+  "u": "https://www.felsenegg.com/",
+  "s": 200,
+  "f": "https://www.felsenegg.com/",
+  "title": "START | Panorama Restaurant | 8143 Stallikon Felsenegg ZH"
+ },
+ {
+  "l": "Restaurant Geerlisburg|Kloten#ist",
+  "u": "https://www.geerlisburg.ch/",
+  "s": 200,
+  "f": "https://www.geerlisburg.ch/"
+ },
+ {
+  "l": "Restaurant Geerlisburg|Kloten#neu",
+  "u": "https://kinderregion.ch/de/besuchen/restaurant-geerlisburg/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/restaurant-geerlisburg/",
+  "title": "Restaurant Geerlisburg | Kinderregion",
+  "ext": [
+   "https://www.geerlisburg.ch/"
   ]
  },
  {
-  "name": "Nürensdorf",
-  "bezirk": "Bülach",
-  "website": "",
-  "lat": 47.457,
-  "lon": 8.651,
-  "domain": "www.nuerensdorf.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.nuerensdorf.ch gen= links=https://www.nuerensdorf.ch/portraet/aktuelles/news-und-eventletter.html/273 https://www.nuerensdorf.ch/portraet/aktuelles/anlaesse-und-termine.html/272/event/37/eventdate/5070 https://www.nuerensdorf.ch/portraet/aktuelles/anlaesse-und-termine.html/272/event/316/eventdate/5486 https://www.nuerensdorf.ch/portraet/aktuelles/anlaesse-und-termine.html/272/event/37/eventdate/5072 https://www.nuerensdorf.ch/portraet/aktuelles/anlaesse-und-termine.html/271"
+  "l": "Restaurant Goldenberg|Winterthur#ist",
+  "u": "https://www.facebook.com/GoldenbergWinterthur/",
+  "s": 400,
+  "f": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FGoldenbergWinterthur%2F",
+  "title": "Error"
+ },
+ {
+  "l": "Restaurant Goldenberg|Winterthur#neu",
+  "u": "https://kinderregion.ch/de/besuchen/restaurant-goldenberg/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/restaurant-goldenberg/",
+  "title": "Restaurant Goldenberg | Kinderregion",
+  "ext": [
+   "https://restaurantgoldenberg.ch/contact/",
+   "https://www.ginto.guide/de/entries/b1bd85e9-5c5d-4c32-941f-639a44bc80b5",
+   "http://www.restaurantgoldenberg.ch"
   ]
  },
  {
-  "name": "Oberglatt",
-  "bezirk": "Dielsdorf",
-  "website": "",
-  "lat": 47.48,
-  "lon": 8.525,
-  "domain": "www.oberglatt.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.oberglatt.ch gen= links=https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2501/eventdate/4575 https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2484/eventdate/4561 https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2082/eventdate/4282 https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2081/eventdate/4296 https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/2491/eventdate/4567 https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87/event/1808/eventdate/4548"
+  "l": "Restaurant Goldenberg|Winterthur#neu",
+  "u": "http://restaurantgoldenberg.ch/",
+  "s": 200,
+  "f": "https://restaurantgoldenberg.ch/",
+  "title": "Restaurant Goldenberg"
+ },
+ {
+  "l": "Restaurant Neubühl|Zürich#ist",
+  "u": "https://www.facebook.com/wirtschaft.neubuehl/",
+  "s": 400,
+  "f": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fwirtschaft.neubuehl%2F",
+  "title": "Error"
+ },
+ {
+  "l": "Restaurant Neubühl|Zürich#neu",
+  "u": "https://www.wirtschaft-neubuehl.ch/",
+  "s": -1,
+  "e": "ENOTFOUND"
+ },
+ {
+  "l": "Restaurant Neubühl|Zürich#neu",
+  "u": "https://www.neubuehl.ch/",
+  "s": 200,
+  "f": "https://neubuehl.ch/",
+  "title": "Portrait &bull; Genossenschaft Neubühl"
+ },
+ {
+  "l": "Restaurant Rhygarten|Marthalen#ist",
+  "u": "https://www.rhygarte.ch/",
+  "s": 200,
+  "f": "https://www.rhygarte.ch/",
+  "title": "Rhygarte"
+ },
+ {
+  "l": "Restaurant Rigiblick|Zürich#ist",
+  "u": "https://www.restaurantrigiblick.ch/start",
+  "s": 200,
+  "f": "https://www.restaurantrigiblick.ch/start"
+ },
+ {
+  "l": "Restaurant Rübis & Stübis|Flaach#ist",
+  "u": "https://www.staeubis.ch/st-de/",
+  "s": 200,
+  "f": "https://camping.tcs.ch/de/restaurant/staeubis/",
+  "title": "Stäubis | TCS Camping"
+ },
+ {
+  "l": "Restaurant Schützenhaus|Winterthur#ist",
+  "u": "https://www.tanzhalle-schuetzenhaus.ch/restaurant",
+  "s": 200,
+  "f": "https://www.tanzhalle-schuetzenhaus.ch/restaurant",
+  "title": "Restaurant Schützenhaus | Restaurant &amp; Tanzhalle Schützenhaus"
+ },
+ {
+  "l": "Restaurant Schützenhaus|Winterthur#neu",
+  "u": "https://kinderregion.ch/de/besuchen/restaurant-schuetzenhaus/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/restaurant-schuetzenhaus/",
+  "title": "Restaurant Schützenhaus | Kinderregion",
+  "ext": [
+   "https://www.tanzhalle-schuetzenhaus.ch/restaurant",
+   "http://www.tanzhalle-schuetzenhaus.ch"
   ]
  },
  {
-  "name": "Oberrieden",
-  "bezirk": "Horgen",
-  "website": "",
-  "lat": 47.273,
-  "lon": 8.571,
-  "domain": "www.oberrieden.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.oberrieden.ch gen=Drupal 10 (https://www.drupal. links=/events /leben/suizidpraevention/suizidpraevention-wir-engagieren-uns /index.php/events /form/veranstaltung-melden /events/7339 /events/7294"
+  "l": "Restaurant Sonnental|Dübendorf#neu",
+  "u": "https://www.sonnental.ch/",
+  "s": -1,
+  "e": "ENOTFOUND"
+ },
+ {
+  "l": "Restaurant Sonnental|Dübendorf#neu",
+  "u": "https://www.sorellhotels.com/de/sonnental/restaurant",
+  "s": 404,
+  "f": "https://www.sorellhotels.com/de/sonnental/restaurant",
+  "title": "404 - Seite nicht gefunden | Sorell Hotels"
+ },
+ {
+  "l": "Restaurant Sporrer|Winterthur#ist",
+  "u": "https://www.facebook.com/restaurantsporrer/",
+  "s": 400,
+  "f": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Frestaurantsporrer%2F",
+  "title": "Error"
+ },
+ {
+  "l": "Restaurant Sporrer|Winterthur#neu",
+  "u": "https://kinderregion.ch/de/besuchen/restaurant-sporrer/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/restaurant-sporrer/",
+  "title": "Restaurant Sporrer | Kinderregion",
+  "ext": [
+   "https://sporrer.ch/",
+   "https://www.ginto.guide/de/entries/29337b58-abe7-4808-af16-b6e3d2adf532",
+   "http://www.sporrer.ch"
   ]
  },
  {
-  "name": "Oetwil an der Limmat",
-  "bezirk": "Dietikon",
-  "website": "",
-  "lat": 47.429,
-  "lon": 8.397,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.oetwil-limmat.ch:-",
-   "www.oetwil.ch gen= links=https://www.oetwil.ch/dorfleben/veranstaltungen.html/60 https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3462/eventdate/2039 https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3490/eventdate/2053 https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3437/eventdate/2026 https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3469/eventdate/2051 https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3470/eventdate/2044"
+  "l": "Restaurant Sporrer|Winterthur#neu",
+  "u": "http://www.sporrer.ch/home",
+  "s": 200,
+  "f": "https://sporrer.ch/",
+  "title": "sporrer.ch &#8211; Restaurant Sporrer"
+ },
+ {
+  "l": "Restaurant Zum Reitplatz|Winterthur#ist",
+  "u": "https://www.riitplatz.ch/",
+  "s": 200,
+  "f": "https://www.riitplatz.ch/",
+  "title": "Riitplatz | Dein Ausflugsziel in Winterthur"
+ },
+ {
+  "l": "Restaurant Zum Reitplatz|Winterthur#neu",
+  "u": "http://www.zum-reitplatz.ch/",
+  "s": 200,
+  "f": "https://www.riitplatz.ch/",
+  "title": "Riitplatz | Dein Ausflugsziel in Winterthur"
+ },
+ {
+  "l": "Rigiblick|Zürich#neu",
+  "u": "https://www.restaurantrigiblick.ch/",
+  "s": 200,
+  "f": "https://www.restaurantrigiblick.ch/"
+ },
+ {
+  "l": "Ristorante Pizzeria Barone|Bassersdorf#ist",
+  "u": "https://villa-barone-bassersdorf.ch/",
+  "s": 200,
+  "f": "https://villa-barone-bassersdorf.ch/",
+  "title": "Home - Restaurant Barone Bassersdorf"
+ },
+ {
+  "l": "Ristorante Santa Lucia Paradeplatz|Zürich#ist",
+  "u": "https://www.bindella.ch/en/restaurants/santa-lucia-paradeplatz",
+  "s": 200,
+  "f": "https://www.bindella.ch/en/restaurants/santa-lucia-paradeplatz",
+  "title": "Santa Lucia Paradeplatz – pizza, pasta and Italian ambience on Paradeplatz in Zurich"
+ },
+ {
+  "l": "Ristorante Santa Lucia Paradeplatz|Zürich#neu",
+  "u": "https://kinderregion.ch/de/besuchen/santa-lucia-paradeplatz/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/santa-lucia-paradeplatz/",
+  "title": "Restaurant Santa Lucia Paradeplatz | Kinderregion",
+  "ext": [
+   "https://www.bindella.ch/bankette-und-seminare/kinder-pizzaiolo-kurs-santa-lucia",
+   "https://www.bindella.ch/die-gastronomie/santa-lucia",
+   "https://www.bindella.ch/restaurants/santa-lucia-oerlikon",
+   "https://www.bindella.ch/restaurants/santa-lucia-limmatplatz",
+   "https://www.bindella.ch/restaurants/santa-lucia-niederdorf",
+   "https://www.bindella.ch/restaurants/santa-lucia-altstetten",
+   "https://www.bindella.ch/restaurants/santa-lucia-winterthur",
+   "https://www.bindella.ch/restaurants/santa-lucia-teatro"
   ]
  },
  {
-  "name": "Ossingen",
-  "bezirk": "Andelfingen",
-  "website": "",
-  "lat": 47.611,
-  "lon": 8.721,
-  "domain": "www.ossingen.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.ossingen.ch gen=TYPO3 CMS links=/gemeinde/agenda /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=218&amp;cHash=3cf0203725dfcc49af5ad4d968066fe7 /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=361&amp;cHash=db459bbefe0fb3725e5abbc7d3eef14a /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=347&amp;cHash=4b78dfcde902255fa602e2c4ef9570a7 /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=359&amp;cHash=17838bed6962e8ca27cbd5f1724c3761 /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=284&amp;cHash=688fa37391e3df2eeb7d1f420089d519"
+  "l": "Santa Lucia Wiedikon|Zürich#ist",
+  "u": "https://santalucia.ch/",
+  "s": 200,
+  "f": "https://santalucia.ch/",
+  "title": "Santa Lucia"
+ },
+ {
+  "l": "Santa Lucia Winterthur|Winterthur#ist",
+  "u": "https://www.bindella.ch/en/restaurants/santa-lucia-winterthur",
+  "s": 200,
+  "f": "https://www.bindella.ch/en/restaurants/santa-lucia-winterthur",
+  "title": "Santa Lucia Winterthur – pizza, pasta and Italian flair in Winterthur"
+ },
+ {
+  "l": "Schifflände|Maur#ist",
+  "u": "https://schifflaende.ch",
+  "s": -1,
+  "e": "ECONNREFUSED"
+ },
+ {
+  "l": "Schifflände|Maur#neu",
+  "u": "https://www.schifflaende-maur.ch",
+  "s": 200,
+  "f": "https://www.schifflaende-maur.ch/",
+  "title": "Restaurant Schifflände in Maur | Restaurant Schifflände"
+ },
+ {
+  "l": "Schigu Kafi|Zürich#ist",
+  "u": "https://gz-zh.ch/gz-schindlergut/",
+  "s": 200,
+  "f": "https://gz-zh.ch/gz-schindlergut/",
+  "title": "Bei uns - GZ Schindlergut - Zürcher Gemeinschaftszentren"
+ },
+ {
+  "l": "Schlosshalde Mörsburg|Winterthur#ist",
+  "u": "https://gasthaus-schlosshalde.digitalone.site/",
+  "s": 400,
+  "f": "https://gasthaus-schlosshalde.digitalone.site/"
+ },
+ {
+  "l": "Schlosshalde Mörsburg|Winterthur#neu",
+  "u": "https://kinderregion.ch/de/besuchen/schlosshalde-moersburg/",
+  "s": 200,
+  "f": "https://kinderregion.ch/de/besuchen/schlosshalde-moersburg/",
+  "title": "Schlosshalde Mörsburg | Kinderregion",
+  "ext": [
+   "https://www.moersburg-winterthur.ch/site/kontakt/oeffnungszeiten/",
+   "http://www.moersburg-winterthur.ch"
   ]
  },
  {
-  "name": "Ottenbach",
-  "bezirk": "Affoltern",
-  "website": "",
-  "lat": 47.281,
-  "lon": 8.409,
-  "domain": "www.ottenbach.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.ottenbach.ch gen= links=https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-sicherheit/formulare-merkblaetter/gesuchsformular-veranstaltungen https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie/sucht-praevention https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/abteilung-bau-und-planung/abteilung-tiefbau/formulare-merkblaetter/entsorgungskalender-2026 https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/entsorgung/entsorgungskalender-2026 https://www.ottenbach.ch/events https://www.ottenbach.ch/event/konzert-deutsche-schlager-2026-11-21"
-  ]
+  "l": "Schlosshalde Mörsburg|Winterthur#neu",
+  "u": "https://www.moersburg-winterthur.ch/site/speis-trank/kueche/",
+  "s": 200,
+  "f": "https://www.moersburg-winterthur.ch/site/speis-trank/kueche/",
+  "title": "Mörsburg &#8211; Küche"
  },
  {
-  "name": "Pfäffikon",
-  "bezirk": "Pfäffikon",
-  "website": "",
-  "lat": 47.37,
-  "lon": 8.797,
-  "domain": "www.pfaeffikon.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.pfaeffikon.ch gen= links=https://www.pfaeffikon.ch/wp-json/tribe/events/v1/ https://www.pfaeffikon.ch/kultur-freizeit/events/ /events https://www.pfaeffikon.ch/kultur-freizeit/events/raeume-fuer-anlaesse-mieten/ https://www.pfaeffikon.ch/kultur-freizeit/events/maerkte-in-pfaeffikon-zh/ https://www.pfaeffikon.ch/2026/11/03/dialoganlass-in-wildberg-zusammen-die-staerken-beider-gemeinden-nutzen/"
-  ]
+  "l": "Seeholz Beizli|Regensdorf#ist",
+  "u": "https://www.seeholz-beizli.ch/",
+  "s": 200,
+  "f": "https://seeholz-beizli.ch/",
+  "title": "Seeholz Beizli &#8211; Die Besenbeiz am Katzensee bei Regensdorf"
  },
  {
-  "name": "Rickenbach",
-  "bezirk": "Winterthur",
-  "website": "",
-  "lat": 47.551,
-  "lon": 8.795,
-  "domain": "www.rickenbach.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.rickenbach-zh.ch gen=Weblication® CMS links=/de/veranstaltungen/ /de/aktuelles/meldungen/Saisonkalender-November-2023.php /de/veranstaltungen/rss.php /de/veranstaltungen/1773_seniorenwanderung /de/veranstaltungen/ical.php?i=1773 /de/veranstaltungen/1720_fussballplausch-rickenbach",
-   "www.rickenbach.ch gen=WordPress 7.1.4 links=https://www.rickenbach.ch/aktuell/veranstaltungen/ https://www.rickenbach.ch/events/jahresplan-2026/ https://www.rickenbach.ch/events/polysportcamp-rickenbach-2027/"
-  ]
+  "l": "Seeholz Beizli|Regensdorf#neu",
+  "u": "https://www.seeholz-beizli.ch/",
+  "s": 200,
+  "f": "https://seeholz-beizli.ch/",
+  "title": "Seeholz Beizli &#8211; Die Besenbeiz am Katzensee bei Regensdorf"
  },
  {
-  "name": "Rorbas",
-  "bezirk": "Bülach",
-  "website": "",
-  "lat": 47.534,
-  "lon": 8.569,
-  "domain": "www.rorbas.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.rorbas.ch gen=Contao Open Source CMS links=/agenda-2 /files/rorbas/Agenda/Flyer_Workshop%20mit%20Bev%C3%B6lkerung_Parkieren%20auf%20%C3%B6ffentlichem%20Grund_def.pdf /agenda-lesen/201 /files/rorbas/Agenda/Inserat%20und%20Flyer%20Weihnachtsmarkt%202026%20%282%29.pdf"
-  ]
+  "l": "Seerestaurant Meilibach|Wädenswil#ist",
+  "u": "https://www.restaurant-meilibach.ch/",
+  "s": 200,
+  "f": "https://www.restaurant-meilibach.ch/",
+  "title": "Home - Seerestaurant MEILIBACH"
  },
  {
-  "name": "Schlatt",
-  "bezirk": "Winterthur",
-  "website": "",
-  "lat": 47.471,
-  "lon": 8.828,
-  "domain": "www.schlatt.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.schlatt-zh.ch gen=WordPress 7.1.4 links=https://www.schlatt-zh.ch/kalender/",
-   "www.schlatt.ch gen= links=https://www.schlatt.ch/gesellschaft/freizeit-/veranstaltungen.html/168"
-  ]
+  "l": "Seerose|Zürich#ist",
+  "u": "https://www.seerose.dinning.ch/",
+  "s": 200,
+  "f": "https://www.seerose.dinning.ch/",
+  "title": "Home / Restaurant Seerose"
  },
  {
-  "name": "Schlieren",
-  "bezirk": "Dietikon",
-  "website": "",
-  "lat": 47.395,
-  "lon": 8.45,
-  "domain": "www.schlieren.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.schlieren.ch gen= links=/anlaesseaktuelles"
-  ]
+  "l": "Seerose|Zürich#neu",
+  "u": "https://www.seerose.dinning.ch/",
+  "s": 200,
+  "f": "https://www.seerose.dinning.ch/",
+  "title": "Home / Restaurant Seerose"
  },
  {
-  "name": "Stäfa",
-  "bezirk": "Meilen",
-  "website": "",
-  "lat": 47.249,
-  "lon": 8.741,
-  "domain": "www.staefa.ch",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.staefa.ch gen= links=https://www.staefa.ch/themen/veranstaltungen-bewilligungen.html/404 https://www.staefa.ch/verwaltung/abteilungen/praesidiales/kanzlei/anlaesse-in-der-gemeinde-staefa.html/1000"
-  ]
+  "l": "Seerose|Zürich#neu",
+  "u": "https://www.seerose.ch/",
+  "s": 200,
+  "f": "https://www.seerose.ch/de",
+  "title": "Offizielle Website Seerose Resort &amp; Spa Meisterschwanden   –  Seerose Resort &amp; Spa Hallwilersee"
  },
  {
-  "name": "Thalheim an der Thur",
-  "bezirk": "Andelfingen",
-  "website": "",
-  "lat": 47.582,
-  "lon": 8.743,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.thalheim.ch gen=Joomla! - Open Source Content  links=/index.php/aktuell/veranstaltungen"
-  ]
+  "l": "The Artisan|Zürich#ist",
+  "u": "https://www.theartisan.ch/en/brunch/",
+  "s": 200,
+  "f": "https://www.theartisan.ch/en/brunch/",
+  "title": "Brunch in Zurich | Weekend Garden Brunch | The Artisan"
  },
  {
-  "name": "Wettswil am Albis",
-  "bezirk": "Affoltern",
-  "website": "",
-  "lat": 47.337,
-  "lon": 8.471,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.wettswil.ch gen= links=https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3590/eventdate/9240 https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3588/eventdate/9278 https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4220/eventdate/9920 https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3582/eventdate/8780 https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/428 https://www.wettswil.ch/leben/freizeit/veranstaltungen/eventletter-anmelden.html/859"
-  ]
+  "l": "tibits Oerlikon|Zürich#ist",
+  "u": "https://www.tibits.ch",
+  "s": 200,
+  "f": "https://www.tibits.ch/de/home",
+  "title": "tibits - Vegetarisches und veganes Restaurant - tibits - Vegetarian Restaurant Bar Take Away Catering"
  },
  {
-  "name": "Winterthur",
-  "bezirk": "Winterthur",
-  "website": "",
-  "lat": 47.499,
-  "lon": 8.733,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "stadt.winterthur.ch gen= links=/themen/freizeit-sport/maerkte-veranstaltungen /themen/sicherheit/delikte-praevention /medien/10-jahre-fachstelle-extremismus-und-gewaltpraevention /veranstaltung/huehner-unterschaetztes-federvieh-einfuehrung-fuer-lehrpersonen /veranstaltung/mehr-als-metall-antike-bronzeobjekte-der-antikensammlung-winterthur /veranstaltung/spiele-im-bistro-neuheiten-der-spiele-messe-0"
-  ]
+  "l": "tibits Seefeld|Zürich#ist",
+  "u": "https://www.tibits.ch",
+  "s": 200,
+  "f": "https://www.tibits.ch/de/home",
+  "title": "tibits - Vegetarisches und veganes Restaurant - tibits - Vegetarian Restaurant Bar Take Away Catering"
  },
  {
-  "name": "Zürich",
-  "bezirk": "Zürich",
-  "website": "https://www.stadt-zuerich.ch/",
-  "lat": 47.377,
-  "lon": 8.537,
-  "domain": "",
-  "system": "",
-  "path": "",
-  "info": [
-   "www.stadt-zuerich.ch gen= links=/de/aktuell/veranstaltungen/stadtleben/kultur/kioer/bitnik-gesamte-ausstellung.html /de/aktuell/veranstaltungen/politik-und-verwaltung/berufsmesse.html /de/aktuell/veranstaltungen/lebenslagen/gleichstellung/2026-sexuelle-belaestigung-am-arbeitsplatz.html /de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/sammeln-wissen-handeln.html /de/aktuell/veranstaltungen.html"
-  ]
+  "l": "tibits Winterthur|Winterthur#ist",
+  "u": "https://www.tibits.ch",
+  "s": 200,
+  "f": "https://www.tibits.ch/de/home",
+  "title": "tibits - Vegetarisches und veganes Restaurant - tibits - Vegetarian Restaurant Bar Take Away Catering"
+ },
+ {
+  "l": "tibits Winterthur|Winterthur#neu",
+  "u": "https://www.tibits.ch/de/restaurants.html#tibits-winterthur",
+  "s": 200,
+  "f": "https://www.tibits.ch/de/restaurants/standorte",
+  "title": "Standorte - tibits - Vegetarian Restaurant Bar Take Away Catering"
+ },
+ {
+  "l": "Turbinenhaus|Zürich#ist",
+  "u": "https://www.restaurant-turbinenhaus.ch",
+  "s": 200,
+  "f": "https://www.restaurant-turbinenhaus.ch/",
+  "title": "Restaurant Turbinenhaus"
+ },
+ {
+  "l": "Turbinenhaus|Zürich#neu",
+  "u": "https://www.restaurant-turbinenhaus.ch",
+  "s": 200,
+  "f": "https://www.restaurant-turbinenhaus.ch/",
+  "title": "Restaurant Turbinenhaus"
+ },
+ {
+  "l": "Waldhaus Katzensee|Zürich#ist",
+  "u": "https://waldhaus-katzensee.ch/",
+  "s": 200,
+  "f": "https://waldhaus-katzensee.ch/",
+  "title": "Restaurant im Grünen, gut essen, gemütliche Atmosphäre"
+ },
+ {
+  "l": "Wirtschaft Alter Tobelhof|Zürich#neu",
+  "u": "https://www.tobelhof.ch",
+  "s": 200,
+  "f": "https://www.tobelhof.ch/",
+  "title": "Restaurant mit Aussicht in Zürich – Alter Tobelhof"
+ },
+ {
+  "l": "Wirtschaft Schönegg|Wädenswil#ist",
+  "u": "https://www.schoenegg.ch/",
+  "s": 200,
+  "f": "https://www.schoenegg.ch/",
+  "title": "Restaurant hoch über dem Zürichsee | Wirtschaft Schönegg Wädenswil"
  }
 ]
