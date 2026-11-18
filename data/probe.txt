@@ -1,0 +1,5 @@
+RAW k1 | https://www.kinderthur.ch/agenda/
+RAW p1 | https://www.pfadizueri.ch/
+RAW p2 | https://www.pfadizueri.ch/abteilungen/
+RAW p3 | https://pfadi.swiss/de/pfadi-finden/
+RAW p4 | https://www.pfadi-winterthur.ch/
