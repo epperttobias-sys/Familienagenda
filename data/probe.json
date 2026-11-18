@@ -1,8 +1,23 @@
 [
  {
-  "l": "RAW e",
-  "u": "https://stadt.winterthur.ch/_nuxt/9Z4O1uYE.js",
-  "s": 200,
-  "f": "https://stadt.winterthur.ch/_nuxt/9Z4O1uYE.js"
+  "l": "RAW a1",
+  "u": "https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?text=*&page=1&size=12&targetGroup=330",
+  "s": 503,
+  "f": "https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?text=*&page=1&size=12&targetGroup=330",
+  "title": "Wartungsarbeiten – Stadt Winterthur"
+ },
+ {
+  "l": "RAW a2",
+  "u": "https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?__variables=%7B%22text%22%3A%20%22%2A%22%2C%20%22page%22%3A%201%2C%20%22size%22%3A%2050%2C%20%22targetGroup%22%3A%20%22330%22%7D",
+  "s": 503,
+  "f": "https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?__variables=%7B%22text%22%3A%20%22%2A%22%2C%20%22page%22%3A%201%2C%20%22size%22%3A%2050%2C%20%22targetGroup%22%3A%20%22330%22%7D",
+  "title": "Wartungsarbeiten – Stadt Winterthur"
+ },
+ {
+  "l": "RAW a3",
+  "u": "https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?__variables=%7B%22text%22%3A%20%22%2A%22%2C%20%22page%22%3A%201%2C%20%22size%22%3A%2050%2C%20%22targetGroup%22%3A%20%22342%22%7D",
+  "s": 503,
+  "f": "https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?__variables=%7B%22text%22%3A%20%22%2A%22%2C%20%22page%22%3A%201%2C%20%22size%22%3A%2050%2C%20%22targetGroup%22%3A%20%22342%22%7D",
+  "title": "Wartungsarbeiten – Stadt Winterthur"
  }
 ]

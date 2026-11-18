@@ -1,0 +1,20 @@
+https://stadt.winterthur.ch/api/graphql_middleware/query/typesenseSearchEvents?text=*&page=1&size=12&targetGroup=330
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Wartungsarbeiten – Stadt Winterthur</title>
+<style>
+body{margin:0;padding:4rem 1.5rem;color:#172a3a;background:#fff;text-align:center;
+font-family:'News Gothic Std',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif}
+h1{font-size:2.5rem;line-height:1.1;font-weight:700;margin:0 0 .75rem}
+p{font-size:1.125rem;line-height:1.5;margin:0 auto;max-width:34rem}
+</style>
+</head>
+<body>
+<h1>Die Seite wird gerade gewartet</h1>
+<p>Wir führen zurzeit Wartungsarbeiten durch. Die Seite ist deshalb vorübergehend nicht verfügbar. Bitte versuchen Sie es später wieder. Vielen Dank für Ihr Verständnis.</p>
+</body>
+</html>
