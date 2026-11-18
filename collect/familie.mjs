@@ -53,4 +53,8 @@ for (const c in out) out[c].sort((a, b) => a.k.localeCompare(b.k) || a.n.localeC
 const cnt = {}; Object.values(out).flat().forEach(x => cnt[x.k] = (cnt[x.k] || 0) + 1);
 console.log("familienangebote:", JSON.stringify(cnt), "gemeinden:", Object.keys(out).length);
 await fillSites(Object.values(out).flat());
+// Geprüfte Korrekturen: geschlossene Angebote ausblenden, tote Links ersetzen (data/familie-fix.json)
+try { const FX = JSON.parse(readFileSync("data/familie-fix.json", "utf8"));
+  for (const c in out) { out[c] = out[c].filter(x => !FX.hide.includes(c + "|" + x.n)); out[c].forEach(x => { const k = c + "|" + x.n; if (k in FX.url) x.w = FX.url[k]; }); }
+} catch (e) { console.log("ohne Korrekturen", e.message); }
 writeFileSync("site/familie.js", "window.FAMILIE=" + JSON.stringify({ stand: new Date().toISOString().slice(0, 10), gemeinden: out }) + ";\n");
