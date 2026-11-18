@@ -1,0 +1,3130 @@
+{
+ "stand": "2026-11-18T15:05:24.558Z",
+ "out": [
+  {
+   "src": "osm",
+   "n": "3 Spitz",
+   "g": "Zürich",
+   "u": "https://www.pizzeriadreispitz.ch",
+   "s": 200,
+   "f": "https://www.pizzeriadreispitz.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Accogliente",
+   "g": "Wallisellen",
+   "u": "https://accogliente-bistro.business.site",
+   "s": 404,
+   "f": "https://accogliente-bistro.business.site/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Adlisberg",
+   "g": "Zürich",
+   "u": "https://www.adlisberg.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Aff",
+   "g": "Affoltern am Albis",
+   "u": "https://visit-aff.ch",
+   "s": 200,
+   "f": "https://www.visit-aff.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Al Giardino",
+   "g": "Winterthur",
+   "u": "https://www.algiardino.ch/",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 403,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Al Ponte",
+   "g": "Adliswil",
+   "u": "https://www.alponte-adliswil.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "ALBA",
+   "g": "Zürich",
+   "u": "https://www.alba.pizza/alba-locations/alba-triemli",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Alegria Ceviche Bar",
+   "g": "Wädenswil",
+   "u": "https://www.ceviche-bar.ch/menue",
+   "s": 404,
+   "f": "https://alegria.restaurant/menue",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Amadeus",
+   "g": "Schlieren",
+   "u": "https://restaurantamadeus.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Amici miei",
+   "g": "Rüti",
+   "u": "https://www.amici-miei.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Antica Roma",
+   "g": "Zürich",
+   "u": "https://www.antica-roma.ch/",
+   "s": 200,
+   "f": "https://www.antica-roma.ch/de",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Arche Bistro",
+   "g": "Zürich",
+   "u": "https://www.archezuerich.ch/bistro",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Asialand",
+   "g": "Uster",
+   "u": "https://www.asialand.ch/",
+   "s": 200,
+   "f": "https://asialand.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Aubrey",
+   "g": "Zürich",
+   "u": "https://www.aubrey.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Auenstube",
+   "g": "Bassersdorf",
+   "u": "https://auenstube.ch/",
+   "s": 503,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Ayverdi's",
+   "g": "Zürich",
+   "u": "https://ayverdis.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bachtel-Kulm",
+   "g": "Hinwil",
+   "u": "https://www.bachtel-kulm.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bachtel-Ranch Western Saloon",
+   "g": "Hinwil",
+   "u": "https://bachtelranch.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bäckerei Café Fellenberg",
+   "g": "Zürich",
+   "u": "https://www.quartierbeck.ch/fellenberg.php",
+   "s": 200,
+   "f": "https://quartierbeck.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Bakery Bakery",
+   "g": "Zürich",
+   "u": "https://www.bakerybakery.ch/en/standorte/schaffhauserplatz",
+   "q": "https://kinderregion.ch/de/liste/brunch-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Bauern Schänke",
+   "g": "Zürich",
+   "u": "https://www.bauernschaenke.ch/",
+   "s": 200,
+   "f": "https://bauernschaenke.ch/de/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Bauschänzli",
+   "g": "Zürich",
+   "u": "https://www.conviva-plus.ch/?page=1918",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Beiz 1640 (Löwen)",
+   "g": "Wald",
+   "u": "https://www.beiz1640.ch/",
+   "s": -1,
+   "e": "UND_ERR_CONNECT_TIMEOUT",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bellavista",
+   "g": "Zürich",
+   "u": "https://bellavista-ethz.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Berggasthaus Hörnli",
+   "g": "Fischenthal",
+   "u": "https://berggasthaus-hoernli.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bergstube",
+   "g": "Stallikon",
+   "u": "https://www.bergstube.ch",
+   "s": 200,
+   "f": "https://www.bergstube.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Berrylicious Café",
+   "g": "Wetzikon",
+   "u": "https://berryliciouscafe.ch/",
+   "s": -1,
+   "e": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Bistro Frosch",
+   "g": "Affoltern am Albis",
+   "u": "https://bistrofrosch.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Bistro Im Guss",
+   "g": "Bülach",
+   "u": "https://www.bistro-imguss.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bistro Neuland",
+   "g": "Buchs",
+   "u": "https://neuland-kirche.ch/Neuland-Bistro",
+   "s": 200,
+   "f": "https://neuland-kirche.ch/Neuland-Bistro/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bistro Soligänter",
+   "g": "Bülach",
+   "u": "https://bistro-soligaenter.ch/",
+   "s": 200,
+   "f": "https://www.bistro-soligaenter.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bistro uf em Chilehügel",
+   "g": "Zürich",
+   "u": "https://reformiert-zuerich.ch/kirchenkreise/neun/bistro-ufem-chilehuegel",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bistro ZwiBack",
+   "g": "Dübendorf",
+   "u": "https://zwiback.ch/",
+   "s": 200,
+   "f": "https://www.zwiback.ch/de",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bistroni",
+   "g": "Meilen",
+   "u": "https://burkwil.ch/leben/bistroni",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bode Bäckerei-Konditorei",
+   "g": "Zürich",
+   "u": "https://www.bode-baeckerei.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Brasserie Bits & Bites",
+   "g": "Zürich",
+   "u": "https://www.brasseriebitsandbites.ch/",
+   "s": -1,
+   "e": "ERR_SSL_SSL/TLS_ALERT_HANDSHAKE_FAILURE",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Brasserie Freilager",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://www.zuerich.com/de/besuchen/kinderrestaurants",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Bridge",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Bruderhaus",
+   "g": "Winterthur",
+   "u": "https://www.restaurant-bruderhaus.ch",
+   "s": 200,
+   "f": "https://restaurant-bruderhaus.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Brüelmatt",
+   "g": "Birmensdorf",
+   "u": "https://brueelmatt.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Bund 39",
+   "g": "Zürich",
+   "u": "https://www.bund39.cn/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Buon Appetito Pizzakurier",
+   "g": "Rüti",
+   "u": "https://www.buonappetito2.ch/",
+   "s": 200,
+   "f": "https://buonappetito-rueti.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Café des Amis",
+   "g": "Zürich",
+   "u": "https://www.desamis.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Café im Rieterpark",
+   "g": "Zürich",
+   "u": "https://www.conviva-plus.ch/?page=1916",
+   "q": "https://kidzh.ch/category/cafemitspielecke/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Café Lang",
+   "g": "Zürich",
+   "u": "https://www.cafe-lang.ch/",
+   "q": "https://www.radio-zuerileu.ch/kinderfreundliche-restaurants-in-zuerich-entspannt-essen-mit-der-ganzen-familie/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Café Mélange",
+   "g": "Winterthur",
+   "u": "https://www.cafe-melange.ch/",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Cafe Neumärt",
+   "g": "Zürich",
+   "u": "https://www.cafe-neumaert.ch/",
+   "s": -1,
+   "e": "EAI_AGAIN",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Café Voland",
+   "g": "Bauma",
+   "u": "https://www.facebook.com/p/Voland-B%C3%A4ckerei-Konditorei-Caf%C3%A9-100067456503198/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Café Wyden",
+   "g": "Winterthur",
+   "u": "https://www.xn--brhlgut-o2a.ch/angebot/gastronomie/restaurant-wyden/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Café/Restaurant Oase",
+   "g": "Oetwil am See",
+   "u": "https://oaseoetwilamsee.ch/dienstleistungen/gastronomie/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Cafeteria Buchlern",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-buchlern/",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Cafeteria im Familienzentrum",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Cafeteria Kantonsschule Wiedikon",
+   "g": "Zürich",
+   "u": "https://www.zfv.ch/de/essen-gehen/cafeteria-kantonsschule-wiedikon",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Caffè Spettacolo",
+   "g": "Kloten",
+   "u": "https://www.caffe-spettacolo.ch/",
+   "s": 200,
+   "f": "https://spettacolo.ch/de",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "casacosi",
+   "g": "Opfikon",
+   "u": "https://casacosi.restaurant",
+   "s": 200,
+   "f": "https://casacosi.restaurant/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Casi Casa",
+   "g": "Zürich",
+   "u": "https://europaallee.ch/angebot/casi-casa/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Celia",
+   "g": "Zürich",
+   "u": "https://celia-restaurant.com",
+   "s": 200,
+   "f": "https://celia-restaurant.com/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Central",
+   "g": "Affoltern am Albis",
+   "u": "https://centralaffoltern.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Char",
+   "g": "Zürich",
+   "u": "https://www.char-zurich.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Chäsalp",
+   "g": "Dübendorf",
+   "u": "",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/zuerich/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Chlii & Gross Familienoase",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://kidzh.ch/category/cafemitspielecke/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Chlii und Gross Familienoase",
+   "g": "Winterthur",
+   "u": "https://www.chliiundgross-familienoase.ch/",
+   "s": 403,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Chnuschper-Hüsli",
+   "g": "Stallikon",
+   "u": "https://www.8143.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Chrüzi-Kafi",
+   "g": "Dietikon",
+   "u": "https://www.dietikon.ch/freizeitanlage-chruezacher",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Cinque Terre",
+   "g": "Uetikon am See",
+   "u": "https://www.alsolitoposto.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Commihalle",
+   "g": "Zürich",
+   "u": "https://www.commihalle.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Concept Store & Café BeJu",
+   "g": "Horgen",
+   "u": "https://www.beju-conceptstore.ch/",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Coop Restaurant Grüze",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Coop Restaurant St. Annahof",
+   "g": "Zürich",
+   "u": "https://www.coop-restaurant.ch/de/restaurantfinder/finderdetailpage.2083.html",
+   "q": "https://www.babyahoi.ch/baby/spielen-foerdern/kinder-und-babyfreundliche-restaurants-in-zuerich-in-denen-eltern-verweilen-koennen-345",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Coop Restaurant Stadtgarten",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Crown of India",
+   "g": "Maur",
+   "u": "http://crown-of-india.ch/",
+   "s": 400,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "CTRL Café Bar",
+   "g": "Zürich",
+   "u": "https://www.ctrl-cafe.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Cucina",
+   "g": "Zürich",
+   "u": "https://www.cucinarestaurant.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "D'Aurora",
+   "g": "Zürich",
+   "u": "https://www.daurora.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Da Angela",
+   "g": "Zürich",
+   "u": "https://www.daangela.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Da Cristina",
+   "g": "Winterthur",
+   "u": "https://www.dacristina.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Da Giò",
+   "g": "Embrach",
+   "u": "http://www.dagio.ch/",
+   "s": 200,
+   "f": "https://dagio.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Da Michelangelo",
+   "g": "Zürich",
+   "u": "https://www.da-michelangelo.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "DA NOI",
+   "g": "Zürich",
+   "u": "https://www.danoi.me",
+   "s": 503,
+   "f": "https://www.danoi.me/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Da Pepino",
+   "g": "Wetzikon",
+   "u": "https://dapepino-wetzikon.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Damas",
+   "g": "Zürich",
+   "u": "https://restaurantdamas.ch/",
+   "s": 200,
+   "f": "https://www.restaurantdamas.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Dar",
+   "g": "Zürich",
+   "u": "https://www.restaurantdar.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Die Waid",
+   "g": "Zürich",
+   "u": "https://diewaid.ch",
+   "q": "https://www.zuerich.com/de/besuchen/kinderrestaurants",
+   "s": 200,
+   "f": "https://diewaid.ch/",
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Dogue",
+   "g": "Zürich",
+   "u": "https://dogue.coffee/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Dörfli",
+   "g": "Maur",
+   "u": "http://www.doerfli-maur.ch/",
+   "s": 200,
+   "f": "https://www.doerfli-maur.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Dörfli",
+   "g": "Maur",
+   "u": "https://www.doerfli-maur.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Eatpunk",
+   "g": "Wallisellen",
+   "u": "https://www.eatpunk.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "eCHo (Zurich Marriott)",
+   "g": "Zürich",
+   "u": "https://www.echorestaurant.ch/",
+   "q": "https://kinderregion.ch/de/liste/brunch-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Eclipse Restaurant & Bar",
+   "g": "Zürich",
+   "u": "https://www.eclipsebarlounge.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "El Luchador",
+   "g": "Zürich",
+   "u": "http://www.elluchador.ch",
+   "s": 200,
+   "f": "https://elluchador.ch/home/home/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Engel",
+   "g": "Feuerthalen",
+   "u": "https://www.facebook.com/p/Gasthaus-zum-Engel-Familie-Gisler-100063732562536/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Engitreff",
+   "g": "Zürich",
+   "u": "https://www.quartiertreff.ch/cafe",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Enzian Veggibistro",
+   "g": "Wallisellen",
+   "u": "https://stiftung-enzian.ch/unsere-betriebe/gastronomie/cafebars/",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "EPI Park Restaurant",
+   "g": "Zürich",
+   "u": "https://www.swissepi.ch/epi-park/epi-park-restaurant.html",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Erb",
+   "g": "Winterthur",
+   "u": "https://www.erb-getraenke.ch/",
+   "s": 403,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Erpel",
+   "g": "Hausen am Albis",
+   "u": "https://www.erpel.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Eschenberg",
+   "g": "Winterthur",
+   "u": "https://www.restaurant-eschenberg.ch/",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Etzliberg",
+   "g": "Thalwil",
+   "u": "https://www.etzliberg.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "EXPLORiT Kindercity Restaurant",
+   "g": "Volketswil",
+   "u": "https://explorit.ch/de/volketswil/restaurant/",
+   "q": "https://explorit.ch/de/volketswil/restaurant/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Familiencafé Elch",
+   "g": "Zürich",
+   "u": "https://zentrumelch.ch/kafi-plus",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Föhrewäldli",
+   "g": "Weiningen",
+   "u": "http://www.rest-fw.ch/",
+   "s": 400,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Fork & Bottle",
+   "g": "Zürich",
+   "u": "https://www.forkandbottle.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Fork & Bottle",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Formel Fun",
+   "g": "Bülach",
+   "u": "https://kiddypark.ch/buelach/ueber-uns",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Frau Gerolds Garten",
+   "g": "Zürich",
+   "u": "https://www.fraugerold.ch/home",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Fribourger Stübli",
+   "g": "Zürich",
+   "u": "https://www.fribourger-fondue-stuebli.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Fridies CAFI-BAR",
+   "g": "Uetikon am See",
+   "u": "https://www.fridies.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Frieden",
+   "g": "Wallisellen",
+   "u": "https://rest-frieden.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Frohberg",
+   "g": "Stäfa",
+   "u": "https://frohberg-staefa.ch/",
+   "s": 200,
+   "f": "https://www.frohberg-staefa.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Gartenrestaurant Waldhaus Katzensee",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Gasthaus Adler",
+   "g": "Kappel am Albis",
+   "u": "http://adler-kappel.ch/",
+   "s": 200,
+   "f": "https://adler-kappel.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Gasthaus Albisgütli",
+   "g": "Zürich",
+   "u": "https://www.albisguetli.ch/",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Gasthaus Hans im Glück",
+   "g": "Kloten",
+   "u": "https://www.hans-im-glueck.ch",
+   "q": "https://www.familienleben.ch/ausfluege/restaurant/restaurants-fuer-familien-in-zuerich-1672",
+   "s": 200,
+   "f": "https://www.hans-im-glueck.ch/",
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Gastro am See",
+   "g": "Pfäffikon",
+   "u": "https://www.badiamsee.ch/",
+   "s": 200,
+   "f": "https://www.badiamsee.ch/index.html",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Gastronomie am Gleis",
+   "g": "Winterthur",
+   "u": "https://www.gastronomieamgleiswinterthur.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Gelateria di Berna",
+   "g": "Zürich",
+   "u": "https://gelateriadiberna.ch/laboratori/laboratorio-brupbacherplatz/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Gelateria Fratelli",
+   "g": "Dietikon",
+   "u": "https://gelateria-fratelli.ch",
+   "s": 200,
+   "f": "https://www.gelateria-fratelli.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Gibswilerstube",
+   "g": "Fischenthal",
+   "u": "https://www.gibswilerstube.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Gibswilerstube",
+   "g": "Fischenthal",
+   "u": "",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Ginger",
+   "g": "Zürich",
+   "u": "https://ginger-restaurant.ch/",
+   "s": 200,
+   "f": "https://www.ginger-restaurant.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Glückbar Café",
+   "g": "Zürich",
+   "u": "https://xn--glckbar-o2a.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Grand’in Trattoria & Pizzeria",
+   "g": "Zumikon",
+   "u": "https://grandinpizzeria.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Grotto Reale",
+   "g": "Zürich",
+   "u": "https://grottoreale.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Grünwald",
+   "g": "Zürich",
+   "u": "https://www.gruenwald.ch/",
+   "s": 200,
+   "f": "https://gruenwald.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Gusto Mediterraneo",
+   "g": "Niederglatt",
+   "u": "https://www.gusto-mediterraneo.ch/en",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "GZ Bachwiesen Kafi",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-bachwiesen/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "GZ Hirzenbach Cafeteria",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-hirzenbach/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "GZ Riesbach Cafeteria",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-riesbach/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "GZ Seebach Café am Bach",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-seebach/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "GZ Wollishofen Bistro am See",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-wollishofen/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Hermannseck",
+   "g": "Winterthur",
+   "u": "https://www.hermannseck.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Hiltl",
+   "g": "Zürich",
+   "u": "https://hiltl.ch",
+   "q": "https://www.zuerich.com/de/besuchen/kinderrestaurants",
+   "s": 200,
+   "f": "https://hiltl.ch/de/",
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Hiltl am Strand",
+   "g": "Zürich",
+   "u": "https://hiltl.ch/standorte/uebersicht/#amstrand",
+   "s": 200,
+   "f": "https://hiltl.ch/de/standorte/hiltl-a-la-carte-restaurant/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Hilton Zurich Airport (Sonntagsbrunch)",
+   "g": "Opfikon",
+   "u": "https://www.hilton.com/en/hotels/zrhhitw-hilton-zurich-airport/",
+   "q": "https://swissparents.ch/forums/topic/kinderfreundliches-restaurant-in-zuerich/",
+   "s": 403,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Hirschen",
+   "g": "Uster",
+   "u": "https://www.hirschen-naenikon.ch/",
+   "s": 200,
+   "f": "https://hirschen-naenikon.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Hochwacht",
+   "g": "Egg",
+   "u": "https://www.hochwacht-pfannenstiel.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Höfli",
+   "g": "Thalwil",
+   "u": "https://www.pizza-hoefli.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Hofrestaurant Jucker Farm",
+   "g": "Seegräben",
+   "u": "",
+   "q": "https://www.familienleben.ch/ausfluege/restaurant/restaurants-fuer-familien-in-zuerich-1672",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Hoikoi",
+   "g": "Zürich",
+   "u": "https://hoikoi.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Hotel Boldern",
+   "g": "Männedorf",
+   "u": "https://www.boldern.ch/de/wiki/essen/",
+   "q": "https://kinderregion.ch/de/liste/brunch-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Hotel Zürichberg",
+   "g": "Zürich",
+   "u": "https://www.zuerichberg.ch/restaurant",
+   "q": "https://www.kidscorner.ch/ausflug/berge.html",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Hotz",
+   "g": "Dübendorf",
+   "u": "https://www.konditorei-hotz.ch/duebendorf-marktgasse",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Hotz",
+   "g": "Uster",
+   "u": "https://www.konditorei-hotz.ch/uster",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Ikoo",
+   "g": "Zürich",
+   "u": "https://ikoo.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Intermezzo",
+   "g": "Zürich",
+   "u": "https://www.buckhuser.ch/de/intermezzo",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Italia 2000",
+   "g": "Zumikon",
+   "u": "https://www.ristorante-daremo.ch",
+   "s": 200,
+   "f": "https://www.ristorante-daremo.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Italyco",
+   "g": "Thalwil",
+   "u": "https://www.facebook.com/Italy.co8800/",
+   "s": 200,
+   "f": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FItaly.co8800%2F",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Jacky's im Glattpark",
+   "g": "Opfikon",
+   "u": "https://www.jackysglattpark.ch/",
+   "s": 200,
+   "f": "https://jackysglattpark.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Jucker Farm Hofrestaurant",
+   "g": "Seegräben",
+   "u": "https://www.juckerfarm.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Jungholz",
+   "g": "Zürich",
+   "u": "https://www.zfv.ch/de/essen-gehen/restaurant-akad-jungholz",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Jurt Cafe",
+   "g": "Kloten",
+   "u": "https://www.ref-kloten.ch/content/e12357/e3405/e3893/",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Kafi am Klosterplatz",
+   "g": "Rheinau",
+   "u": "https://fintan.ch/kafi-klosterplatz/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Kafi Baumgärtlihof",
+   "g": "Horgen",
+   "u": "https://www.horgen.ch/leben-in-horgen/alter-und-gesundheit/senioren-begegnungszentrum/kafi-baumgaertlihof.html/196",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kafi Dia",
+   "g": "Winterthur",
+   "u": "https://www.kafidia.wtf/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kafi Dihei",
+   "g": "Zürich",
+   "u": "https://kafidihei.ch",
+   "s": 200,
+   "f": "https://kafidihei.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Kafi Domino",
+   "g": "Uster",
+   "u": "https://www.domino.cafe/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Kafi Feld",
+   "g": "Wetzikon",
+   "u": "https://www.facebook.com/kafifeld/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Kafi für Dich",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://www.zuerich.com/de/besuchen/kinderrestaurants",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Kafi GZ Heuried",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-heuried/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Kafi GZ Schindlergut",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-schindlergut/raeume/schigu-kafi/",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Kafi im Klairs",
+   "g": "Uster",
+   "u": "https://klairs.ch/kafi-im-klairs/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Kafi Rauke",
+   "g": "Winterthur",
+   "u": "https://rauke.ch/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Kafi Seilbahn Rigiblick",
+   "g": "Zürich",
+   "u": "https://gipfeli.ch/standorte/standortkafiseilbahnrigiblick/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kafi Tintefisch",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-wipkingen",
+   "s": 200,
+   "f": "https://gz-zh.ch/gz-wipkingen/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Kafi Tintenfisch",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-wipkingen/",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Kafitreff GZ Affoltern",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-affoltern/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kang In",
+   "g": "Dübendorf",
+   "u": "https://kangin.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kantine F+F",
+   "g": "Zürich",
+   "u": "https://www.ffkantine.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kantorei",
+   "g": "Zürich",
+   "u": "https://restaurantkantorei.ch",
+   "s": 200,
+   "f": "https://www.restaurantkantorei.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kastanie",
+   "g": "Uster",
+   "u": "https://www.restaurant-kastanie.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kesslers Club Social",
+   "g": "Zürich",
+   "u": "https://kesslersclubsocial.ch",
+   "s": 200,
+   "f": "https://kesslersclubsocial.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Kiosk am Katzensee",
+   "g": "Zürich",
+   "u": "https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/seebad_katzensee.html",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Klopstock Cafe Bar",
+   "g": "Zürich",
+   "u": "https://www.klopstock.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Konditorei Café Janz",
+   "g": "Wetzikon",
+   "u": "https://www.konditorei-janz.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Krone Forch",
+   "g": "Küsnacht",
+   "u": "https://forchbier.ch/de/krone-forch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "KulturCafé WHISper",
+   "g": "Zürich",
+   "u": "https://www.whisper.zuerich",
+   "s": 200,
+   "f": "https://www.whisper.zuerich/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Kunsthaus-Restaurant",
+   "g": "Zürich",
+   "u": "https://www.kunsthaus.ch/en/besuch-planen/gastronomie/",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/zuerich/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "L'Adoro",
+   "g": "Zürich",
+   "u": "https://www.ladoro.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "La Mimosa",
+   "g": "Zürich",
+   "u": "http://la-mimosa.ch/",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "La Piazza",
+   "g": "Zürich",
+   "u": "https://www.restaurant-lapiazza.ch",
+   "s": 200,
+   "f": "https://www.restaurant-lapiazza.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Lalin",
+   "g": "Zürich",
+   "u": "https://www.lalintapas.ch/en",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Landgasthof Halbinsel Au",
+   "g": "Wädenswil",
+   "u": "https://halbinselau.com",
+   "s": 200,
+   "f": "https://halbinselau.com/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Landgasthof Halbinsel Au",
+   "g": "Wädenswil",
+   "u": "",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Landgasthof Hasenstrick",
+   "g": "Dürnten",
+   "u": "https://www.landgasthof-hasenstrick.ch/",
+   "s": 200,
+   "f": "https://www.hasenstrick.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Latte Stories",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://kidzh.ch/category/cafemitspielecke/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Le Monde",
+   "g": "Dübendorf",
+   "u": "https://le-monde.ch/",
+   "s": 200,
+   "f": "https://www.le-monde.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Le Petit Marais",
+   "g": "Zürich",
+   "u": "https://www.lepetitmarais.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Lieblingsplatz",
+   "g": "Winterthur",
+   "u": "https://lieblingsplatz-cafe.ch",
+   "s": 200,
+   "f": "https://lieblingsplatz-cafe.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Linde",
+   "g": "Uster",
+   "u": "https://www.linde-uster.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Linde Oberstrass",
+   "g": "Zürich",
+   "u": "https://linde-oberstrass.ch/",
+   "s": 200,
+   "f": "https://www.linde-oberstrass.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Lingo",
+   "g": "Zürich",
+   "u": "https://lingo-zurich.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Lokma",
+   "g": "Wädenswil",
+   "u": "https://www.restaurant-lokma.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Loogarten",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-loogarten/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Lotus Garden",
+   "g": "Schlieren",
+   "u": "https://lotus.garden/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Loving Lanka",
+   "g": "Zürich",
+   "u": "https://www.lovinglanka.ch/",
+   "s": 200,
+   "f": "https://lovinglanka.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Luus Muus",
+   "g": "Egg",
+   "u": "https://www.luusmuus.ch/de/index",
+   "q": "https://www.babyahoi.ch/baby/spielen-foerdern/kinder-und-babyfreundliche-restaurants-in-zuerich-in-denen-eltern-verweilen-koennen-345",
+   "s": 404,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Lycka",
+   "g": "Meilen",
+   "u": "https://www.lyckacoffeebar.com/",
+   "q": "https://kinderregion.ch/de/liste/brunch-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Lycka Coffeebar",
+   "g": "Meilen",
+   "u": "https://www.lyckacoffeebar.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Maison Truffe",
+   "g": "Stäfa",
+   "u": "https://www.maisontruffe.ch/bistro/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Mama Persia",
+   "g": "Rüschlikon",
+   "u": "https://mamapersia.ch/",
+   "s": 200,
+   "f": "https://www.mamapersia.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Mama Shelter Restaurant",
+   "g": "Zürich",
+   "u": "https://mamashelter.com/zurich/eat-drink/restaurant-gf-bar/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "MAME",
+   "g": "Zürich",
+   "u": "https://mame.coffee",
+   "s": 200,
+   "f": "https://mame.coffee/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Marché Kemptthal",
+   "g": "Lindau",
+   "u": "https://www.marche.ch/de/marche_kemptthal.html",
+   "s": 404,
+   "f": "https://www.marche-schweiz.ch/de/marche_kemptthal.html",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Marktlücke",
+   "g": "Zürich",
+   "u": "https://www.markt-luecke.ch/",
+   "s": 200,
+   "f": "https://www.markt-luecke.ch/de",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Märtegge",
+   "g": "Rüti",
+   "u": "https://zentrum-rüti.ch",
+   "s": 200,
+   "f": "https://xn--zentrum-rti-1hb.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Maverick‘s Secret",
+   "g": "Zürich",
+   "u": "https://mavsecret.ch",
+   "s": -1,
+   "e": "ERR_TLS_CERT_ALTNAME_INVALID",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Med D’Oro",
+   "g": "Zürich",
+   "u": "https://meddoro.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Mensa UZH Binzmühle",
+   "g": "Zürich",
+   "u": "https://www.mensa.uzh.ch/de/standorte/mensa-uzh-binzmuehle.html",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Migros Restaurant",
+   "g": "Rüti",
+   "u": "https://filialen.migros.ch/de/migros-restaurant-rueti-zh",
+   "s": 200,
+   "f": "https://filialen.migros.ch/de/migros-restaurant-rueti-zh/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Migros Restaurant",
+   "g": "Illnau-Effretikon",
+   "u": "https://filialen.migros.ch/de/migros-restaurant-effretikon-effi-maert",
+   "s": 200,
+   "f": "https://filialen.migros.ch/de/migros-restaurant-effretikon-effi-maert/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Migros-Restaurant City",
+   "g": "Zürich",
+   "u": "https://www.migros-city.ch",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "f": "https://www.migros-city.ch/",
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Migros-Restaurant Neuwiesen",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Migros-Restaurant Rosenberg",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Migros-Restaurant Shopping Seen",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Miki Ramen",
+   "g": "Zürich",
+   "u": "https://miki.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Molini",
+   "g": "Schlieren",
+   "u": "https://www.molinipizza.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Mona Lisa",
+   "g": "Niederglatt",
+   "u": "https://www.monalisa-niederglatt.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Muggenbühl",
+   "g": "Zürich",
+   "u": "http://www.muggenbuehl.ch/",
+   "s": 200,
+   "f": "https://www.muggenbuehl.ch/index.cfm?",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Museumscafé",
+   "g": "Zürich",
+   "u": "https://museum-gestaltung.ch/de/besuch/museumscafe",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "MyPoké",
+   "g": "Winterthur",
+   "u": "https://mypoke.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "NA081",
+   "g": "Zürich",
+   "u": "https://na081.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Neri",
+   "g": "Zürich",
+   "u": "https://www.neri-cantina.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Nooch",
+   "g": "Zürich",
+   "u": "https://nooch.ch/zuerich-badenerstrasse",
+   "s": 200,
+   "f": "https://www.nooch.ch/de/zuerich-badenerstrasse",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Oberes Triemli",
+   "g": "Zürich",
+   "u": "https://www.oberes-triemli.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Osteria dei Poeti",
+   "g": "Maschwanden",
+   "u": "https://osteria-dei-poeti.netlify.app/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Ototo - Sushi Dining",
+   "g": "Zürich",
+   "u": "https://www.ototo.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Pantanal",
+   "g": "Zürich",
+   "u": "https://www.zoo.ch/de/erlebnisse-im-zoo/ihr-anlass-im-zoo/lokalitaeten/restaurant-pantanal",
+   "s": 200,
+   "f": "https://zoo.ch/erlebnisse-events/event",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Park im Grüene (Migros-Restaurant)",
+   "g": "Rüschlikon",
+   "u": "https://www.parkimgruene.ch",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/zuerich/",
+   "s": 200,
+   "f": "https://www.parkimgruene.ch/",
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Pavillon / Biergarten Sonne am See",
+   "g": "Küsnacht",
+   "u": "https://sonne.ch/",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Peri Peri Kitchen",
+   "g": "Maur",
+   "u": "https://periperi-kitchen.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Pfyl",
+   "g": "Zürich",
+   "u": "https://baeckerei-pfyl.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Pinocchio",
+   "g": "Dübendorf",
+   "u": "https://www.pinocchio-duebendorf.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "PizzaPastaCiao",
+   "g": "Zürich",
+   "u": "http://www.pizzaciao.ch/",
+   "q": "https://swissparents.ch/forums/topic/kinderfreundliches-restaurant-in-zuerich/",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Pizzeria Molino",
+   "g": "Winterthur",
+   "u": "https://molino.ch/en/restaurant/pizzeria-ristorante-molino-winterthur/",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Pizzeria San Marino",
+   "g": "Dachsen",
+   "u": "https://www.pizzeriasanmarino.ch/",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Plüsch",
+   "g": "Zürich",
+   "u": "https://www.cafe-pluesch.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Portofino",
+   "g": "Thalwil",
+   "u": "https://www.portofino-am-see.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Quartier 5 Restaurant & Bar",
+   "g": "Zürich",
+   "u": "https://quartier5.ch/",
+   "s": 200,
+   "f": "https://www.quartier5.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Quartier Kafi",
+   "g": "Horgen",
+   "u": "https://www.quartier-kafi.ch/",
+   "q": "https://kinderregion.ch/de/liste/brunch-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Raumschiff",
+   "g": "Dübendorf",
+   "u": "https://raumschiff.org/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Adlisberg",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://kinderregion.ch/de/liste/brunch-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant B",
+   "g": "Zürich",
+   "u": "http://www.baeckeranlage.ch/restaurant.htm",
+   "s": 404,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Bar Anna",
+   "g": "Zürich",
+   "u": "https://restaurant-anna.ch",
+   "s": 200,
+   "f": "https://www.restaurant-anna.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Blumenrain",
+   "g": "Zollikon",
+   "u": "https://www.blumenrain-zollikon.ch/gastronomie/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Botanica",
+   "g": "Rafz",
+   "u": "https://www.botanica-rafz.ch/home",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Bruderhaus",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Buchenegg",
+   "g": "Stallikon",
+   "u": "http://buchenegg.swiss/",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Buckhuser",
+   "g": "Zürich",
+   "u": "https://www.buckhuser.ch/de",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant connect Pfäffikon",
+   "g": "Pfäffikon",
+   "u": "https://www.restaurant-connect-pfaeffikon.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Dieci allo Zoo",
+   "g": "Zürich",
+   "u": "https://www.facebook.com/dieciallozoo",
+   "q": "https://www.babyahoi.ch/baby/spielen-foerdern/kinder-und-babyfreundliche-restaurants-in-zuerich-in-denen-eltern-verweilen-koennen-345",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Dübi Ice",
+   "g": "Dübendorf",
+   "u": "https://www.sfd-ag.ch/restaurant/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Eichmühle",
+   "g": "Wädenswil",
+   "u": "http://www.eichmuehle.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant EPI Park",
+   "g": "Zürich",
+   "u": "https://www.swissepi.ch/epi-park/epi-park-restaurant.html",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Eschenberg",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Eulachpark",
+   "g": "Winterthur",
+   "u": "https://www.restaurant-eulachpark.ch/",
+   "s": -1,
+   "e": "UND_ERR_CONNECT_TIMEOUT",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Eulachpark",
+   "g": "Winterthur",
+   "u": "",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Felsenegg",
+   "g": "Stallikon",
+   "u": "https://www.felsenegg.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Felsenegg",
+   "g": "Stallikon",
+   "u": "",
+   "q": "https://www.kidscorner.ch/ausflug/berge.html",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Geerlisburg",
+   "g": "Kloten",
+   "u": "https://www.geerlisburg.ch/",
+   "q": "https://kidzh.ch/category/restaurantmitspielplatz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Gertrudhof",
+   "g": "Zürich",
+   "u": "https://www.gertrudhof.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Goldenberg",
+   "g": "Winterthur",
+   "u": "https://www.facebook.com/GoldenbergWinterthur/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Grünwald",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Restaurant Kristallgarten",
+   "g": "Affoltern am Albis",
+   "u": "https://www.seewadel.info/angebot/gastronomie/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Langenberg (Bärentreff)",
+   "g": "Langnau am Albis",
+   "u": "https://www.wildnispark.ch/de/parkbesuch/verpflegung/restaurant-langenberg-",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Langenberg (Jäger- und Ofenstübli)",
+   "g": "Langnau am Albis",
+   "u": "https://www.wildnispark.ch/de/parkbesuch/verpflegung/restaurant-langenberg-",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Matchball",
+   "g": "Kilchberg",
+   "u": "https://tckilchberg.ch/restaurant",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Neubühl",
+   "g": "Zürich",
+   "u": "https://www.facebook.com/wirtschaft.neubuehl/",
+   "q": "https://www.kidscorner.ch/ausflug/berge.html",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Neumarkt",
+   "g": "Winterthur",
+   "u": "https://www.xn--brhlgut-o2a.ch/angebot/gastronomie/restaurant-neumarkt/",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Pizzeria Freihof Ömi's",
+   "g": "Oberengstringen",
+   "u": "https://www.oemis.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Plisi",
+   "g": "Dübendorf",
+   "u": "https://www.plisi.ch/",
+   "s": 403,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Portofino",
+   "g": "Thalwil",
+   "u": "",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Rhygarten",
+   "g": "Marthalen",
+   "u": "https://www.rhygarte.ch/",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/zuerich/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Riedbach",
+   "g": "Zürich",
+   "u": "https://www.restaurant-riedbach.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Rigiblick",
+   "g": "Zürich",
+   "u": "https://www.restaurantrigiblick.ch/start",
+   "q": "https://www.kidscorner.ch/ausflug/berge.html",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Rübis & Stübis",
+   "g": "Flaach",
+   "u": "https://www.tcs.ch/en/camping-travelling/camping/restaurant-staeubis-flaach.php",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/zuerich/",
+   "s": 200,
+   "f": "https://camping.tcs.ch/en/restaurant/staubis/",
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Schloss Laufen",
+   "g": "Laufen-Uhwiesen",
+   "u": "https://www.schlosslaufen.ch/de/restaurant/",
+   "s": 403,
+   "f": "https://schlosslaufen.ch/de/restaurant/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Schützenhaus",
+   "g": "Winterthur",
+   "u": "https://www.tanzhalle-schuetzenhaus.ch/restaurant",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Sonnental",
+   "g": "Dübendorf",
+   "u": "",
+   "q": "https://www.femelle.ch/love/kinderfreundliche-restaurants-hier-koennen-familien-in-zuerich-entspannt-essen-2206",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Sporrer",
+   "g": "Winterthur",
+   "u": "https://www.facebook.com/restaurantsporrer/",
+   "q": "https://www.familienleben.ch/ausfluege/restaurant/restaurants-fuer-familien-in-zuerich-1672",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Turbinenhaus",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/zuerich/",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Restaurant Türlersee",
+   "g": "Hausen am Albis",
+   "u": "https://www.camping-tuerlersee.ch/en/restaurant",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Vereinigung",
+   "g": "Zürich",
+   "u": "http://www.vereinigung-barsol.ch/",
+   "s": 200,
+   "f": "https://restaurant-vereinigung.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Waldmannsburg",
+   "g": "Dübendorf",
+   "u": "https://www.waldmannsburg.ch/",
+   "s": 200,
+   "f": "https://waldmannsburg.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Restaurant Werdinsel",
+   "g": "Zürich",
+   "u": "https://www.werdinsel.com/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Restaurant Zum Reitplatz",
+   "g": "Winterthur",
+   "u": "https://www.riitplatz.ch/",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Ribelli",
+   "g": "Zürich",
+   "u": "https://ribelli-restaurant.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Riitplatz",
+   "g": "Winterthur",
+   "u": "https://www.riitplatz.ch",
+   "s": 200,
+   "f": "https://www.riitplatz.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Ristorante La Filanda",
+   "g": "Zürich",
+   "u": "https://baeckereiwuest.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Ristorante La Rosa",
+   "g": "Winterthur",
+   "u": "https://www.ristorante-larosa.ch/",
+   "s": 200,
+   "f": "https://liman.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Ristorante Pizzeria Barone",
+   "g": "Bassersdorf",
+   "u": "https://villa-barone-bassersdorf.ch/",
+   "q": "https://lolabrause.ch/essen-mit-kindern-in-der-schweiz-kinderfreundliche-restaurant-tipps/ostschweiz/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Ristorante Santa Lucia Paradeplatz",
+   "g": "Zürich",
+   "u": "https://www.bindella.ch/en/restaurants/santa-lucia-paradeplatz",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Ristorante Schönau",
+   "g": "Hombrechtikon",
+   "u": "https://www.restaurantschoenau.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Roots",
+   "g": "Kloten",
+   "u": "https://www.autogrill.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Rosenburg",
+   "g": "Bubikon",
+   "u": "https://rosenburg.ch",
+   "s": 200,
+   "f": "https://rosenburg.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Rosengarten",
+   "g": "Zürich",
+   "u": "https://www.rosengarten.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Rosengarten",
+   "g": "Zollikon",
+   "u": "https://ristoranterosengarten.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Rosinli",
+   "g": "Bäretswil",
+   "u": "https://www.rosinli.ch/",
+   "s": -1,
+   "e": "EAI_AGAIN",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Sagi",
+   "g": "Wiesendangen",
+   "u": "https://www.sagi-bertschikon.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Santa Lucia Wiedikon",
+   "g": "Zürich",
+   "u": "https://santalucia.ch/",
+   "q": "https://zurich.momizen.com/de-ch/blog/top-6-familienrestaurants-in-zurich/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Santa Lucia Winterthur",
+   "g": "Winterthur",
+   "u": "https://www.bindella.ch/en/restaurants/santa-lucia-winterthur",
+   "q": "https://www.kinderthur.ch/essen-mit-kindern/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Schefer",
+   "g": "Wädenswil",
+   "u": "https://www.baeckerei-schefer.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Schifflände",
+   "g": "Maur",
+   "u": "https://schifflaende.ch",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": -1,
+   "e": "ECONNREFUSED",
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Schigu Kafi",
+   "g": "Zürich",
+   "u": "https://gz-zh.ch/gz-schindlergut/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Schlosshalde Mörsburg",
+   "g": "Winterthur",
+   "u": "https://gasthaus-schlosshalde.digitalone.site/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielplaetzen/",
+   "s": 400,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Schönau",
+   "g": "Zürich",
+   "u": "https://www.schoenaubar.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Schürlibeiz Asperhof",
+   "g": "Thalheim an der Thur",
+   "u": "https://www.asperhof.ch/",
+   "s": 200,
+   "f": "https://restaurant-vinum.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Schützenhaus Albisgüetli",
+   "g": "Zürich",
+   "u": "https://www.albisguetli.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Seeholz Beizli",
+   "g": "Regensdorf",
+   "u": "https://www.seeholz-beizli.ch/",
+   "s": 200,
+   "f": "https://seeholz-beizli.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Seerestaurant Meilibach",
+   "g": "Wädenswil",
+   "u": "https://www.restaurant-meilibach.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Seerose",
+   "g": "Zürich",
+   "u": "https://www.seerose.dinning.ch/",
+   "q": "https://kidzh.ch/restaurant-guide/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Seoul Kitchen & BBQ",
+   "g": "Rüti",
+   "u": "https://seoul-kitchen.online.klara.ch/de/home",
+   "s": 500,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Sher-E-Punjab",
+   "g": "Zürich",
+   "u": "http://www.punjab.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Siam Chili",
+   "g": "Winterthur",
+   "u": "https://www.siam-chili.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Simple Steakhouse & Tapas Bar",
+   "g": "Wallisellen",
+   "u": "https://www.simple-steakhouse.ch",
+   "s": 200,
+   "f": "https://www.simple-steakhouse.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Sonnenfeld",
+   "g": "Männedorf",
+   "u": "https://www.sonnen-feld.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Stäubis",
+   "g": "Flaach",
+   "u": "https://www.stauebis.ch",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Steiner",
+   "g": "Bubikon",
+   "u": "https://www.steiner-beck.ch/filialen/wolfhausen/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Steiner",
+   "g": "Wetzikon",
+   "u": "https://www.steiner-beck.ch/filialen/wetzikon-bistro/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Steiner",
+   "g": "Grüningen",
+   "u": "https://www.steiner-beck.ch/filialen/grueningen",
+   "s": 200,
+   "f": "https://www.steiner-beck.ch/filialen/grueningen/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Stellwerk Café Bistro",
+   "g": "Bubikon",
+   "u": "https://www.stellwerk-bistro.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Sternen",
+   "g": "Pfungen",
+   "u": "https://www.sternen-pfungen.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Sternen Da Guido",
+   "g": "Zürich",
+   "u": "http://www.daguido.ch/",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Stürmeierhuus",
+   "g": "Schlieren",
+   "u": "https://www.stuermeierhuus.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Suan Long",
+   "g": "Wetzikon",
+   "u": "https://suanlong1.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Suan Long",
+   "g": "Zürich",
+   "u": "https://suanlong.ch/restaurant/suan-long-altstetten/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Suan Long",
+   "g": "Wädenswil",
+   "u": "https://suan-long.ch/suanlong/",
+   "s": 200,
+   "f": "https://suanlong.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Summergarte im Zeughaushof",
+   "g": "Zürich",
+   "u": "https://www.summergarte.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Sun Garden",
+   "g": "Dielsdorf",
+   "u": "https://www.chinarestaurantsungarden.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Swaad",
+   "g": "Zürich",
+   "u": "http://www.swaad.ch/",
+   "s": 200,
+   "f": "http://swaad.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "SWISS Arrival Lounge",
+   "g": "Kloten",
+   "u": "https://www.swiss.com/ch/en/fly/airport/lounges-zurich",
+   "s": 403,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Täglich Brot",
+   "g": "Zürich",
+   "u": "https://taeglichbrot.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Tandoor Restaurant + Takeaway",
+   "g": "Winterthur",
+   "u": "http://www.indian-supermarket.ch/indian/supermarket",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Tant Pis",
+   "g": "Zürich",
+   "u": "https://www.tantpis.ch/",
+   "s": 200,
+   "f": "https://tantpis.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Tasty Haus",
+   "g": "Zürich",
+   "u": "https://tastyhaus.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Tessin Grotto",
+   "g": "Zürich",
+   "u": "https://www.tessin-grotto.ch/",
+   "s": 200,
+   "f": "https://tessin-grotto.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "The Artisan",
+   "g": "Zürich",
+   "u": "https://www.theartisan.ch/en/brunch/",
+   "q": "https://kidzh.ch/restaurant-guide/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "The Pavilion",
+   "g": "Dübendorf",
+   "u": "https://www.the-pavilion.ch/",
+   "s": 200,
+   "f": "https://the-pavilion.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Tibetasia",
+   "g": "Zürich",
+   "u": "https://tibetasia.ch",
+   "s": 200,
+   "f": "https://www.tibetasia.ch/",
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "tibits Oerlikon",
+   "g": "Zürich",
+   "u": "https://www.tibits.ch",
+   "q": "https://kidzh.ch/category/cafemitspielecke/",
+   "s": 200,
+   "f": "https://www.tibits.ch/de/home",
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "tibits Seefeld",
+   "g": "Zürich",
+   "u": "https://www.tibits.ch",
+   "q": "https://www.zuerich.com/de/besuchen/kinderrestaurants",
+   "s": 200,
+   "f": "https://www.tibits.ch/de/home",
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "tibits Winterthur",
+   "g": "Winterthur",
+   "u": "https://www.tibits.ch",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "f": "https://www.tibits.ch/de/home",
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Tomate",
+   "g": "Uster",
+   "u": "http://www.tomateuster.ch/",
+   "q": "https://swissparents.ch/forums/topic/kinderfreundliches-restaurant-in-zuerich/",
+   "s": -1,
+   "e": "ENOTFOUND",
+   "qs": 200
+  },
+  {
+   "src": "web",
+   "n": "Tonnarello",
+   "g": "Uster",
+   "u": "https://ristorante-tonnarello.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Traube",
+   "g": "Dättlikon",
+   "u": "https://www.gasthoftraube.ch/",
+   "s": 200,
+   "f": "https://www.gasthoftraube.ch/de/home",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Treffcafé",
+   "g": "Zürich",
+   "u": "https://www.quartiertreff.ch/",
+   "s": 200,
+   "f": "https://www.quartiertreff.ch/home",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Turbinenhaus",
+   "g": "Zürich",
+   "u": "https://www.restaurant-turbinenhaus.ch",
+   "s": 200,
+   "f": "https://www.restaurant-turbinenhaus.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Villa Sunneschy",
+   "g": "Stäfa",
+   "u": "https://www.villa-s.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Vorderer Pfannenstiel",
+   "g": "Meilen",
+   "u": "https://www.restaurant-pfannenstiel.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Vulkan",
+   "g": "Zürich",
+   "u": "https://www.restaurant-vulkan.ch",
+   "s": 200,
+   "f": "https://restaurant-vulkan.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Waldhaus Katzensee",
+   "g": "Zürich",
+   "u": "https://waldhaus-katzensee.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Walter’s",
+   "g": "Uster",
+   "u": "http://walters-uster.ch",
+   "s": 200,
+   "f": "https://www.walters-uster.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Wesley's Kitchen",
+   "g": "Zürich",
+   "u": "https://www.wesleys-kitchen.ch/",
+   "s": 200,
+   "f": "https://wesleys-kitchen.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Widenbad",
+   "g": "Männedorf",
+   "u": "https://www.widenbad.ch/",
+   "s": 200,
+   "f": "https://widenbad.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Wild West Steakhouse Texas",
+   "g": "Zürich",
+   "u": "https://www.steakhouse-texas.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "plus",
+   "n": "Wirtschaft Alter Tobelhof",
+   "g": "Zürich",
+   "u": "",
+   "q": "https://www.zuerich.com/de/besuchen/kinderrestaurants",
+   "s": 0,
+   "qs": 200
+  },
+  {
+   "src": "plus",
+   "n": "Wirtschaft Schönegg",
+   "g": "Wädenswil",
+   "u": "https://www.schoenegg.ch/",
+   "q": "https://kinderregion.ch/de/liste/restaurants-mit-spielecken/",
+   "s": 200,
+   "qs": 200
+  },
+  {
+   "src": "osm",
+   "n": "Wirtschaft Unterdorf",
+   "g": "Zürich",
+   "u": "https://wirtschaft-unterdorf.ch/",
+   "s": 200,
+   "f": "https://wirtschaft-unterdorf.ch/de",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Wirtschaft Ziegelhütte",
+   "g": "Zürich",
+   "u": "https://wirtschaft-ziegelhuette.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Wirtschaft Zur Eintracht",
+   "g": "Winterthur",
+   "u": "https://eintracht-reutlingen.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Wöschi",
+   "g": "Zürich",
+   "u": "https://www.woeschi.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Zebra Bistro",
+   "g": "Zürich",
+   "u": "https://www.zebra-bistro.ch/",
+   "s": 200,
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Zen",
+   "g": "Adliswil",
+   "u": "https://www.restaurant-zen.ch/",
+   "s": 403,
+   "f": "https://corestaurant.ch/de/Switzerland/map/restaurant/Z%C3%BCrich",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "Zoo Caffè & Ristorante",
+   "g": "Zürich",
+   "u": "https://www.zoo.ch/de/essen-trinken/zoo-caffe-ristorante",
+   "s": 200,
+   "f": "https://zoo.ch/zoobesuch/essen-trinken/zoo-caffe-ristorante",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Zoocafé",
+   "g": "Zürich",
+   "u": "https://www.zoo.ch",
+   "s": 200,
+   "f": "https://zoo.ch/",
+   "qs": null
+  },
+  {
+   "src": "osm",
+   "n": "zum Grünen Glas",
+   "g": "Zürich",
+   "u": "https://www.gruenesglas.ch/",
+   "s": 200,
+   "f": "https://gruenesglas.ch/",
+   "qs": null
+  },
+  {
+   "src": "web",
+   "n": "Zum Wiistübli",
+   "g": "Erlenbach",
+   "u": "https://www.erlenbach.ch/de/restaurants-und-hotels/zum-wiistuebli/",
+   "s": 200,
+   "qs": null
+  }
+ ]
+}
