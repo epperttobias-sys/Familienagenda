@@ -1,9 +1,15 @@
 [
  {
   "l": "RAW m1",
-  "u": "https://pfadi.swiss/de/finder-embed/?bg=ffffff",
+  "u": "https://pfadi.swiss/de/finder-embed/find/?bg=ffffff",
   "s": 200,
-  "f": "https://pfadi.swiss/de/finder-embed/?bg=ffffff",
-  "title": "Finder Embed"
+  "f": "https://pfadi.swiss/de/finder-embed/find/?bg=ffffff"
+ },
+ {
+  "l": "RAW m2",
+  "u": "https://pfadi.swiss/robots.txt",
+  "s": 404,
+  "f": "https://pfadi.swiss/de/robots.txt/",
+  "title": ""
  }
 ]
