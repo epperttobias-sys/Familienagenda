@@ -1,0 +1,7 @@
+RAW z1 | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung.html
+RAW z2 | https://www.stadt-zuerich.ch/de/lebenslagen/jugend-und-familie.html
+RAW z3 | https://www.stadt-zuerich.ch/stzh/search?lang=de&q=Vereinsverzeichnis
+RAW w1 | https://stadt.winterthur.ch/vereine
+RAW w2 | https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport
+RAW w3 | https://stadt.winterthur.ch/themen/leben-in-winterthur
+RAW w4 | https://stadt.winterthur.ch/suche?q=vereine
