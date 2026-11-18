@@ -1,30 +1,47 @@
 [
  {
-  "l": "RAW t1",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330",
+  "l": "RAW k1",
+  "u": "https://www.kinderthur.ch/agenda/",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "f": "https://www.kinderthur.ch/agenda/",
+  "title": "Was lauft? Agenda und Ferienprogramm - Kinderthur",
+  "ext": [
+   "https://ammannfoundation.ch/en",
+   "https://tube-design.ch/",
+   "https://lerne-gerne.ch/",
+   "https://www.schmidhauser-stiftung.ch/",
+   "https://www.coucoumagazin.ch/de/kalender.html",
+   "https://www.buchamplatz.ch/",
+   "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/fur-lehrpersonen-und-schulklassen/exploratio-begabungs-und-begabtenfoerderung",
+   "https://www.artcoaching-berweger.ch/"
+  ]
  },
  {
-  "l": "RAW t2",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=342",
+  "l": "RAW p1",
+  "u": "https://www.pfadizueri.ch/",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=342",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "f": "https://www.pfadi.zuerich/",
+  "title": "Pfadi Züri &#124; Hier erlebst du Abenteuer"
  },
  {
-  "l": "RAW t3",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=1446",
-  "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=1446",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "l": "RAW p2",
+  "u": "https://www.pfadizueri.ch/abteilungen/",
+  "s": 404,
+  "f": "https://www.pfadi.zuerich/abteilungen/",
+  "title": "Page not found - Pfadi Züri"
  },
  {
-  "l": "RAW t4",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330&dateFrom=2026-11-18&dateTo=2027-05-31",
+  "l": "RAW p3",
+  "u": "https://pfadi.swiss/de/pfadi-finden/",
+  "s": 404,
+  "f": "https://pfadi.swiss/de/pfadi-finden/",
+  "title": ""
+ },
+ {
+  "l": "RAW p4",
+  "u": "https://www.pfadi-winterthur.ch/",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330&dateFrom=2026-11-18&dateTo=2027-05-31",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "f": "https://www.pfadi-winterthur.ch/",
+  "title": "Pfadi Winterthur Handball &#8211; Handball seit 1938"
  }
 ]
