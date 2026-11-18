@@ -251,7 +251,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dielsdorf",
    "domain": "www.ruemlang.ch",
    "ok": true,
-   "count": 68
+   "count": 67
   },
   "schleinikon": {
    "name": "Schleinikon",
@@ -363,7 +363,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Affoltern",
    "domain": "www.mettmenstetten.ch",
    "ok": true,
-   "count": 32
+   "count": 31
   },
   "obfelden": {
    "name": "Obfelden",
@@ -706,7 +706,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Meilen",
    "domain": "www.erlenbach.ch",
    "ok": true,
-   "count": 6
+   "count": 0
   },
   "i": {
    "name": "Meilen",
@@ -853,7 +853,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Uster",
    "domain": "www.uster.ch",
    "ok": true,
-   "count": 46
+   "count": 50
   },
   "wb": {
    "name": "Wangen-Brüttisellen",
@@ -923,7 +923,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "www.seuzach.ch",
    "ok": true,
-   "count": 30
+   "count": 31
   },
   "wiesendangen": {
    "name": "Wiesendangen",
@@ -944,7 +944,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "stadt.winterthur.ch",
    "ok": true,
-   "count": 1
+   "count": 4
   },
   "zuerich": {
    "name": "Zürich",
@@ -1306,20 +1306,6 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.bonstetten.ch/_rte/anlass/7746859"
-  },
-  {
-   "gemeinden": [
-    "b"
-   ],
-   "id": "b-kerzenziehen-in-der-martin-stiftung",
-   "name": "Kerzenziehen in der Martin Stiftung",
-   "von": "2026-11-14",
-   "bis": "2026-11-27",
-   "ort": "",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/kerzenziehen-in-der-martin-stiftung/"
   },
   {
    "gemeinden": [
@@ -1974,24 +1960,6 @@ window.FAMILIENAGENDA = {
    "time": "15.00 - 17.00",
    "age": null,
    "url": "https://www.bonstetten.ch/_rte/anlass/7649341"
-  },
-  {
-   "gemeinden": [
-    "mettmenstetten"
-   ],
-   "id": "mettmenstetten-1918-1413",
-   "name": "Kinderkino",
-   "von": "2026-11-18",
-   "bis": "2026-11-18",
-   "ort": "",
-   "veranstalter": "",
-   "time": "13.30 - 18.00",
-   "age": {
-    "min": 4,
-    "max": 6,
-    "label": "Kindergarten"
-   },
-   "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1918/eventdate/1413"
   },
   {
    "gemeinden": [
@@ -3485,20 +3453,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "b"
-   ],
-   "id": "b-adventsbasteln-in-der-bibliothek-2",
-   "name": "ADVENTSBASTELN in der Bibliothek",
-   "von": "2026-11-21",
-   "bis": "2026-11-21",
-   "ort": "",
-   "veranstalter": "",
-   "time": "09.30 - 11.30",
-   "age": null,
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/adventsbasteln-in-der-bibliothek-2/"
-  },
-  {
-   "gemeinden": [
     "aesch"
    ],
    "id": "aesch-7758814",
@@ -4328,24 +4282,6 @@ window.FAMILIENAGENDA = {
     "label": "3 bis 12 Jahre"
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3440/eventdate/2031"
-  },
-  {
-   "gemeinden": [
-    "b"
-   ],
-   "id": "b-yoga-fuer-mama-kind-10",
-   "name": "Yoga für Mama & Kind",
-   "von": "2026-11-21",
-   "bis": "2026-11-21",
-   "ort": "",
-   "veranstalter": "",
-   "time": "10.45 - 11.45",
-   "age": {
-    "min": 3,
-    "max": 6,
-    "label": "3 bis 6 Jahre"
-   },
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-10/"
   },
   {
    "gemeinden": [
@@ -7971,24 +7907,6 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 23.00",
    "age": null,
    "url": "https://www.fehraltorf.ch/_rte/anlass/7795498"
-  },
-  {
-   "gemeinden": [
-    "b"
-   ],
-   "id": "b-chrabbelfiir-advent",
-   "name": "Chrabbelfiir «Advent»",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "",
-   "veranstalter": "",
-   "time": "16.00 - 18.00",
-   "age": {
-    "min": 0,
-    "max": 5,
-    "label": "0 bis 5 Jahre"
-   },
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/chrabbelfiir-advent/"
   },
   {
    "gemeinden": [
@@ -16873,24 +16791,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "b"
-   ],
-   "id": "b-yoga-fuer-mama-kind-11",
-   "name": "Yoga für Mama & Kind",
-   "von": "2026-12-12",
-   "bis": "2026-12-12",
-   "ort": "",
-   "veranstalter": "",
-   "time": "10.45 - 11.45",
-   "age": {
-    "min": 3,
-    "max": 6,
-    "label": "3 bis 6 Jahre"
-   },
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-11/"
-  },
-  {
-   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-8",
@@ -19468,6 +19368,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-7833559",
+   "name": "NLA Unihockey: UHC Uster - Floorball Köniz Bern",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Sporthalle Buchholz",
+   "veranstalter": "UHC Uster",
+   "time": "18.00 - 20.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.uster.ch/_rte/anlass/7833559"
+  },
+  {
+   "gemeinden": [
     "rickenbach"
    ],
    "id": "rickenbach-1493-2026-12-19",
@@ -19968,6 +19886,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "seuzach"
+   ],
+   "id": "seuzach-7833592",
+   "name": "Familiengottesdienst an Heiligabend",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Reformierte Kirche Seuzach",
+   "veranstalter": "Reformierte Kirchgemeinde Seuzach-Thurtal",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.seuzach.ch/_rte/anlass/7833592"
+  },
+  {
+   "gemeinden": [
     "i"
    ],
    "id": "i-7810177",
@@ -19982,8 +19914,7 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "altikon",
-    "b"
+    "altikon"
    ],
    "id": "altikon-2892-2423",
    "name": "Familienweihnacht",
@@ -22405,6 +22336,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "u"
+   ],
+   "id": "u-7833577",
+   "name": "NLA Unihockey: UHC Uster - Tigers Langnau",
+   "von": "2027-01-16",
+   "bis": "2027-01-16",
+   "ort": "Sporthalle Buchholz",
+   "veranstalter": "UHC Uster",
+   "time": "18.00 - 20.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.uster.ch/_rte/anlass/7833577"
+  },
+  {
+   "gemeinden": [
     "wz"
    ],
    "id": "wz-26455-2027-01-16",
@@ -23382,6 +23331,24 @@ window.FAMILIENAGENDA = {
     "label": "ab 5 Jahren"
    },
    "url": "https://www.russikon.ch/_rte/anlass/6823834"
+  },
+  {
+   "gemeinden": [
+    "u"
+   ],
+   "id": "u-7833619",
+   "name": "NLA Unihockey: UHC Uster - Kloten-Dietlikon Jets",
+   "von": "2027-01-23",
+   "bis": "2027-01-23",
+   "ort": "Sporthalle Buchholz",
+   "veranstalter": "UHC Uster",
+   "time": "18.00 - 20.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.uster.ch/_rte/anlass/7833619"
   },
   {
    "gemeinden": [
@@ -25026,6 +24993,24 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4263/eventdate/3050"
+  },
+  {
+   "gemeinden": [
+    "u"
+   ],
+   "id": "u-7833613",
+   "name": "NLA Unihockey: UHC Uster - HC Rychenberg Winterthur",
+   "von": "2027-02-06",
+   "bis": "2027-02-06",
+   "ort": "Sporthalle Buchholz",
+   "veranstalter": "UHC Uster",
+   "time": "18.00 - 20.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.uster.ch/_rte/anlass/7833613"
   },
   {
    "gemeinden": [
@@ -27710,20 +27695,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-7822861",
-   "name": "Schweizerischer Astronomietag",
-   "von": "2027-03-13",
-   "bis": "2027-03-13",
-   "ort": "Sternwarte Rümlang",
-   "veranstalter": "Sternwarte Rümlang",
-   "time": "19.30 - 21.00",
-   "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7822861"
-  },
-  {
-   "gemeinden": [
     "d"
    ],
    "id": "d-7822882",
@@ -28093,6 +28064,20 @@ window.FAMILIENAGENDA = {
    "time": "14.30 - 16.30",
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7722814"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-spielen-entdecken-und-erforschen-rund-ums-thema-muenzen-und-geld",
+   "name": "SPIELEN, ENTDECKEN UND ERFORSCHEN RUND UMS THEMA MÜNZEN UND GELD",
+   "von": "2027-03-17",
+   "bis": "2027-03-17",
+   "ort": "Münzkabinett Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://stadt.winterthur.ch/veranstaltung/spielen-entdecken-und-erforschen-rund-ums-thema-muenzen-und-geld"
   },
   {
    "gemeinden": [
@@ -30841,6 +30826,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 16.00",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7631140"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-ms-sports-camps-winterthur-2027",
+   "name": "MS Sports Camps Winterthur 2027",
+   "von": "2027-04-26",
+   "bis": "2027-04-26",
+   "ort": "Winterthur",
+   "veranstalter": "",
+   "time": "09.00 - 16.00",
+   "age": null,
+   "url": "https://stadt.winterthur.ch/veranstaltung/ms-sports-camps-winterthur-2027"
   },
   {
    "gemeinden": [
@@ -35176,7 +35175,7 @@ window.FAMILIENAGENDA = {
    "bis": "2027-09-16",
    "ort": "Pfistertreff",
    "veranstalter": "Fachstelle Frühe Förderung",
-   "time": "",
+   "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604902"
   },
@@ -35415,6 +35414,20 @@ window.FAMILIENAGENDA = {
    "time": "9.30",
    "age": null,
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7021/eventdate/12683"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-winti-sola",
+   "name": "Winti-Sola",
+   "von": "2027-09-25",
+   "bis": "2027-09-25",
+   "ort": "MZA Teuchelweiher",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://stadt.winterthur.ch/veranstaltung/winti-sola"
   },
   {
    "gemeinden": [
