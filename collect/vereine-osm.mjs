@@ -23,6 +23,7 @@ const code = Object.fromEntries(Object.entries(CITIES).map(([c, n]) => [n, c]));
 const out = { zuerich: [], winterthur: [] }, seen = new Set();
 for (const e of data.elements) {
   const t = e.tags || {}; if (e.type === "relation" && t.boundary) continue; const c = e.center || e; if (c.lat == null || !t.name) continue;
+  if (/federation|sekretariat|pfadiheim|velove|pro velo|kinderbegleitung|academia|echo eulachpark|eat your sticks|prova$/i.test(t.name)) continue; // Verbände, Werkstätten, Lagerhäuser, Beratungsstellen
   const k = classifyClub(t.name) || (t.club === "scout" ? "pfadi" : t.amenity === "music_school" ? "musik" : null); if (!k) continue;
   const b = bounds.find(b => cross(c.lon, c.lat, b.segs) % 2 === 1); if (!b || !code[b.name]) continue;
   const key = code[b.name] + "|" + t.name.toLowerCase(); if (seen.has(key)) continue; seen.add(key);
