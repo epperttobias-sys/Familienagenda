@@ -1,2 +1,1 @@
-RAW f1 | https://www.pfadi.zuerich/pfadi/finder/
-RAW f2 | https://www.pfadi.zuerich/pfadi/uebersicht/
+RAW m1 | https://pfadi.swiss/de/finder-embed/?bg=ffffff
