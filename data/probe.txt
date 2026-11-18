@@ -1,4 +1,1 @@
-RAW o1 | https://ogc.winterthur.ch/directories/vereinsverzeichnis
-RAW o2 | https://ogc.winterthur.ch/directories/vereinsverzeichnis/+export?format=json
-RAW o3 | https://ogc.winterthur.ch/directories/vereinsverzeichnis/+json
-RAW s1 | https://sportanlagen.winterthur.ch/sportangebote.php
+RAW w1 | https://stadt.winterthur.ch/veranstaltungen
