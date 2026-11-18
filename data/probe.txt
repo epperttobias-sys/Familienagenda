@@ -1,3 +1,2 @@
-RAW e1 | https://www.kinderthur.ch/events/kindermusical-schneewittli-14/
-RAW e2 | https://www.kinderthur.ch/wp-json/wp/v2/ajde_events?per_page=100&_fields=id,link,title,class_list,modified,date&page=1
-RAW p1 | https://www.pfadi.zuerich/sitemap-pages.xml
+RAW f1 | https://www.pfadi.zuerich/pfadi/finder/
+RAW f2 | https://www.pfadi.zuerich/pfadi/uebersicht/

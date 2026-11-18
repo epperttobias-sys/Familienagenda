@@ -306,6 +306,38 @@ export const SYSTEMS = {
     return items;
   },
 
+  // kinderthur.ch (Verein Kinderthur): Kinder-Agenda für Winterthur. Liste über die WordPress-Schnittstelle,
+  // Datum und Ort aus den Event-Daten (JSON-LD) der Anlass-Seite; nur bei Änderungen neu geladen.
+  async kinderthur(site, get, cache, code) {
+    const base = "https://www.kinderthur.ch", items = [], cutoff = new Date(Date.now() - 200 * 864e5).toISOString();
+    const nice = s => s.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    for (let page = 1; page <= 6; page++) {
+      let list; try { list = JSON.parse(await get(`${base}/wp-json/wp/v2/ajde_events?per_page=100&page=${page}&_fields=id,link,title,class_list,modified,date`)); } catch { break; }
+      if (!Array.isArray(list) || !list.length) break;
+      for (const e of list) {
+        const key = `${code}:kt:${e.id}`; let c = cache[key];
+        if (!c || c.mod !== e.modified) {
+          let html; try { html = await get(e.link); } catch { continue; }
+          const dates = [];
+          for (const m of html.matchAll(/"@type":\s*"Event"[\s\S]*?"startDate":\s*"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{1,2}):(\d{2})[^"]*",\s*"endDate":\s*"(\d{4})-(\d{1,2})-(\d{1,2})T(\d{1,2}):(\d{2})/g)) {
+            const d = (y, mo, da) => `${y}-${mo.padStart(2, "0")}-${da.padStart(2, "0")}`, h = (a, b) => `${a.padStart(2, "0")}.${b}`;
+            const von = d(m[1], m[2], m[3]), bis = d(m[6], m[7], m[8]), t1 = h(m[4], m[5]), t2 = h(m[9], m[10]);
+            const time = t1 === "00.00" ? "" : t2 !== "23.59" && t2 !== t1 && von === bis ? `${t1} - ${t2}` : t1;
+            if (!dates.some(x => x.von === von)) dates.push({ von, bis: bis < von ? von : bis, time });
+          }
+          const ort = decode((html.match(/"location":\s*\[\{"@type":"Place","name":"([^"]*)"/) || [])[1] || "");
+          c = cache[key] = { mod: e.modified, dates, ort, seen: new Date().toISOString().slice(0, 10) };
+        } else c.seen = new Date().toISOString().slice(0, 10);
+        const cl = e.class_list || [], age = (cl.find(x => /^event_type_2-ab-\d+-jahr/.test(x)) || "").replace(/^event_type_2-ab-(\d+)-jahr.*/, "ab $1 Jahren");
+        const ort = c.ort || nice((cl.find(x => x.startsWith("event_location-")) || "").replace("event_location-", ""));
+        c.dates.forEach((x, i) => items.push({ id: `kt${e.id}-${i}`, name: strip(decode(e.title?.rendered || "")), ...x, ort: ort.slice(0, 70), veranstalter: "",
+          kategorie: "14", hint: age, url: e.link, detailKey: null }));
+      }
+      if (list[list.length - 1].date < cutoff) break;
+    }
+    return items;
+  },
+
   // Kacheln mit Datum und Titel (Erlenbach).
   async tiles(site, get) {
     const listUrl = `https://${site.domain}${site.path}`;
@@ -332,9 +364,12 @@ function extras(text) {
 // Holt eine Gemeinde. fetchText lädt eine Adresse, cache spart Detailseiten, die schon bekannt sind.
 export async function collectSite(code, site, { fetchText, cache, today, wait = async () => {} }) {
   const get = async url => { const t = await fetchText(url); await wait(); return t; };
-  const system = SYSTEMS[site.system ?? "iweb"];
-  if (!system) throw new Error(`Unbekanntes System: ${site.system}`);
-  const items = await system(site, get);
+  const items = [];
+  for (const name of [site.system ?? "iweb", ...(site.extra ?? [])]) {
+    const system = SYSTEMS[name];
+    if (!system) throw new Error(`Unbekanntes System: ${name}`);
+    items.push(...await system(site, get, cache, code));
+  }
   const result = [];
   for (const ev of items) {
     if (!isCandidate(ev, today)) continue;
