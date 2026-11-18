@@ -347,7 +347,8 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
       if (info !== null) cache[key] = fresh;
       info = fresh;
     }
-    if (info.kids) result.push({
+    // Zielgruppe «Kinder/Familien» in der Agenda gilt immer, auch wenn die Detailseite schon früher anders eingestuft wurde
+    if (info.kids || KIDS_CATEGORIES.has(ev.kategorie)) result.push({
       gemeinden: [code], id: `${code}-${ev.id}`, name: ev.name, von: ev.von, bis: ev.bis,
       ort: ev.ort || info.ort || "", veranstalter: ev.veranstalter || info.veranstalter || "",
       time: ev.time || info.time, age: info.age, url: ev.url,
