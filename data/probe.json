@@ -1,26 +1,9 @@
 [
  {
-  "l": "RAW o1",
-  "u": "https://ogc.winterthur.ch/directories/vereinsverzeichnis",
-  "s": -1,
-  "e": "UND_ERR_CONNECT_TIMEOUT"
- },
- {
-  "l": "RAW o2",
-  "u": "https://ogc.winterthur.ch/directories/vereinsverzeichnis/+export?format=json",
-  "s": -1,
-  "e": "UND_ERR_CONNECT_TIMEOUT"
- },
- {
-  "l": "RAW o3",
-  "u": "https://ogc.winterthur.ch/directories/vereinsverzeichnis/+json",
-  "s": -1,
-  "e": "UND_ERR_CONNECT_TIMEOUT"
- },
- {
-  "l": "RAW s1",
-  "u": "https://sportanlagen.winterthur.ch/sportangebote.php",
-  "s": -1,
-  "e": "UND_ERR_CONNECT_TIMEOUT"
+  "l": "RAW w1",
+  "u": "https://stadt.winterthur.ch/veranstaltungen",
+  "s": 200,
+  "f": "https://stadt.winterthur.ch/veranstaltungen",
+  "title": "Veranstaltungen | Stadt Winterthur"
  }
 ]
