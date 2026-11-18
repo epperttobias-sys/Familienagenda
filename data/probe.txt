@@ -1,1 +1,2 @@
-RAW m1 | https://pfadi.swiss/de/finder-embed/?bg=ffffff
+RAW m1 | https://pfadi.swiss/de/finder-embed/find/?bg=ffffff
+RAW m2 | https://pfadi.swiss/robots.txt
