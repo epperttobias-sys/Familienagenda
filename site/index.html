@@ -410,7 +410,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <a class="tile tile-alt" href="#essen" id="go-essen">
       <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v8M4 3v5a3 3 0 006 0V3M7 11v10M17 3c-2 2-3 4-3 7h3v11"/></svg></span>
       <span class="tile-title">Restau&shy;rants</span>
-      <span class="tile-text" id="tile-essen">Mit Spielecke, Kinderstuhl oder Spielplatz nebenan</span>
+      <span class="tile-text" id="tile-essen">Mit Spielplatz, Spielecke oder Malsachen</span>
       <span class="tile-arrow" aria-hidden="true">→</span>
     </a>
     <a class="tile tile-alt" href="#spielplaetze" id="go-spiel">
@@ -490,7 +490,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <a class="back" href="#" data-back>← Übersicht</a>
   <header>
     <h1>Kinderfreundliche Restaurants</h1>
-    <p class="lead">Restaurants, Cafés und Glacé-Stände mit Spielecke, Kinderstuhl, Kindermenü oder einem Spielplatz direkt nebenan.</p>
+    <p class="lead">Restaurants und Cafés zum Hinsitzen, in denen Kinder etwas zu tun haben: Spielplatz direkt nebenan, Spielecke, Tiere oder Malsachen.</p>
   </header>
   <section class="filters" aria-label="Filter Restaurants">
     <div class="row"><b>Gemeinde</b><details class="dd" id="eg-dd"><summary id="eg-sum">Alle Gemeinden</summary><div class="dd-panel" id="eg-panel"><input type="search" class="dd-search" id="eg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="eg-all">Alle</button><button type="button" id="eg-none">Keine</button></div></div></details></div>
@@ -1522,7 +1522,7 @@ function gebText(c){const n=GEB.filter(x=>x.g===c).length;const R=ROOMS.find(r=>
       ss.innerHTML='<span class="sun"></span>'+sc.querySelector("svg").outerHTML;
       const bar=document.createElement("a");bar.href="#";bar.className="subbar";bar.setAttribute("data-back","");bar.setAttribute("aria-label","Zurück zur Übersicht");
       const l2=leu.cloneNode(true);l2.removeAttribute("role");l2.setAttribute("aria-hidden","true");
-      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Mit Spielecke, Kinderstuhl oder Spielplatz"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"]}[w.id];
+      const KT={"view-events":["Events","Was läuft für Kinder in deiner Region?"],"view-saison":["Saisonale Highlights","Was gerade Saison hat"],"view-ausflug":["Ausflugsziele","Tierparks, Museen, Burgen und mehr"],"view-essen":["Restaurants","Wo Kinder spielen können"],"view-familie":["Familienangebote","Was es in deiner Gemeinde gibt"],"view-vereine":["Vereine","Sport, Musik, Pfadi und mehr"],"view-spielplaetze":["Spielplätze","Mit Karte für jede Gemeinde"],"view-raeume":["Event-Räume","Säle und Waldhütten zum Mieten"],"view-ferien":["Schulferien","Wann ist schulfrei?"],"view-notfall":["Kinderarzt & Notfall","Schnelle Hilfe für dein Kind"],"view-kurse":["Ferienkurse","Was läuft in den Schulferien?"],"view-geburtstag":["Kindergeburtstag","Orte und Ideen zum Feiern"]}[w.id];
       const tb=node("b","",KT?KT[0]:"Für Familien in Zürich");if(KT){tb.append(node("small","",KT[1]));w.classList.add("hk2")}
       bar.append(node("span","backc","←"),l2,tb);ss.append(bar);w.prepend(ss)}
     const tileId={"view-events":"go-events","view-raeume":"go-raeume","view-saison":"go-saison","view-ausflug":"go-ausflug","view-familie":"go-familie","view-vereine":"go-vereine","view-spielplaetze":"go-spiel","view-essen":"go-essen","view-ferien":"go-ferien","view-notfall":"go-notfall","view-kurse":"go-kurse","view-geburtstag":"go-geburtstag"}[w.id];
@@ -1544,8 +1544,8 @@ function gebText(c){const n=GEB.filter(x=>x.g===c).length;const R=ROOMS.find(r=>
   document.querySelectorAll(".wrap:not(.home):not(#view-events) .filters").forEach(fs=>{const dds=[...fs.querySelectorAll("details.dd")];
     dds.forEach(d=>d.addEventListener("toggle",()=>{if(d.open)dds.forEach(x=>{if(x!==d)x.open=false})}))});
   document.addEventListener("click",ev=>document.querySelectorAll(".wrap:not(.home):not(#view-events) details.dd[open]").forEach(d=>{if(!d.contains(ev.target))d.open=false}));})();
-const EFS=[["geprueft","✅ Kinderangebot laut Familien-Ratgeber"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"]];
-const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_cream","Glacé"],["biergarten","Gartenwirtschaften"]];
+const EFS=[["geprueft","✅ Kinderangebot laut Familien-Ratgeber"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"],["malen","🖍️ Malsachen & Spiele"]];
+const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["biergarten","Gartenwirtschaften"]];
 (function setupEssen(){
   const E=window.ESSEN,box=document.getElementById("essen"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   if(!E){box.append(node("p","empty","Die Restaurants werden gerade gesammelt. Schau bald wieder vorbei."));return}
@@ -1558,8 +1558,11 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     else E.orte.push({g,n:p.n,a:"restaurant",f:["geprueft",...p.f],ok:1,t:p.t,q:p.q,w:p.w||"",lat:p.lat,lon:p.lon,ap:1})});
   const EW=window.ESSEN_WEB||{},EF=window.ESSEN_FIX||{hide:[],url:{}},ek=z=>z.n+"|"+((GM[z.g]||{}).name||"");
   E.orte=E.orte.filter(z=>!EF.hide.includes(ek(z)));E.orte.forEach(z=>{const k=ek(z);if(k in EF.url)z.w=EF.url[k];else if(!z.w&&EW[k])z.w=EW[k]});
+  // Nur Lokale zum Hinsitzen, in denen Kinder etwas zu tun haben – keine Take-aways, Glacé-Stände, Bäckerei-Ketten
+  const ACT=["spielplatz","drinnen","draussen","tiere","malen"],TAKE=/kurier|take ?away|imbiss|kiosk|starbucks|mcdonald|burger king|subway|mensa|cafeteria kantonsschule|bäckerei|konditorei|confiserie|^(steiner|hotz|honold|schefer|peter|täglich brot|sprüngli)$|pok[eé]|gelat|glace/i;
+  E.orte=E.orte.filter(z=>z.f.some(k=>ACT.includes(k))&&z.a!=="ice_cream"&&(z.ok||!TAKE.test(z.n)));
   E.orte.sort((a,b)=>(b.ok||0)-(a.ok||0));
-  document.getElementById("tile-essen").textContent=E.orte.length+" Orte mit Spielecke, Kinderstuhl oder Spielplatz nebenan";
+  document.getElementById("tile-essen").textContent=E.orte.length+" Lokale mit Spielplatz, Spielecke oder Malsachen";
   const codes=Object.keys(GM).filter(c=>E.orte.some(z=>z.g===c));let selG=null,selF=null,art="all",me=null;
   const FL=Object.fromEntries(EFS),AL={restaurant:"Restaurant",cafe:"Café",ice_cream:"Glacé",biergarten:"Gartenwirtschaft"};
   const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
@@ -1610,7 +1613,7 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     if(L.length>300)box.append(node("p","note","Es werden die ersten 300 Orte gezeigt. Wähle oben eine Gemeinde."))}
   render();
 })();
-(function shortTiles(){const S={"tile-essen":t=>t.replace(/ Orte mit.*/," kinderfreundliche Orte"),"tile-vereine":t=>t.replace(/ Vereine für Kinder.*/," Vereine für Kinder"),"tile-ausflug":t=>t.replace(/ Ziele:.*/," Ziele zum Entdecken"),
+(function shortTiles(){const S={"tile-essen":t=>t.replace(/ Lokale mit.*/," Lokale mit Spielmöglichkeit"),"tile-vereine":t=>t.replace(/ Vereine für Kinder.*/," Vereine für Kinder"),"tile-ausflug":t=>t.replace(/ Ziele:.*/," Ziele zum Entdecken"),
   "tile-saison":t=>t.startsWith("Jetzt:")?t.split(",")[0]:t};
   for(const id in S){const el=document.getElementById(id);if(el)el.textContent=S[id](el.textContent)}
   const ev=document.querySelector("#go-events .tile-text");if(ev)ev.textContent=ev.textContent.replace(/ für Kinder aus /," aus ");
