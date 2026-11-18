@@ -377,7 +377,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Affoltern",
    "domain": "www.stallikon.ch",
    "ok": true,
-   "count": 33
+   "count": 32
   },
   "feuerthalen": {
    "name": "Feuerthalen",
@@ -685,7 +685,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.rueschlikon.ch",
    "ok": true,
-   "count": 4
+   "count": 5
   },
   "thalwil": {
    "name": "Thalwil",
@@ -706,7 +706,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Meilen",
    "domain": "www.erlenbach.ch",
    "ok": true,
-   "count": 0
+   "count": 6
   },
   "i": {
    "name": "Meilen",
@@ -944,7 +944,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "stadt.winterthur.ch",
    "ok": true,
-   "count": 4
+   "count": 315
   },
   "zuerich": {
    "name": "Zürich",
@@ -1309,6 +1309,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-kerzenziehen-in-der-martin-stiftung",
+   "name": "Kerzenziehen in der Martin Stiftung",
+   "von": "2026-11-14",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/kerzenziehen-in-der-martin-stiftung/"
+  },
+  {
+   "gemeinden": [
     "niederglatt"
    ],
    "id": "niederglatt-7760527",
@@ -1396,24 +1410,6 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6655/eventdate/25467"
-  },
-  {
-   "gemeinden": [
-    "stallikon"
-   ],
-   "id": "stallikon-8679-8184",
-   "name": "Adventsbasteln für Kinder",
-   "von": "2026-11-18",
-   "bis": "2026-11-18",
-   "ort": "Schul- und Gemeindebibliothek Stallikon Massholderenstr. 3",
-   "veranstalter": "Schul- und Gemeindebibliothek Stallikon Seite vorlesen",
-   "time": "15.30 - 19.00",
-   "age": {
-    "min": 4,
-    "max": 12,
-    "label": "ab 4 Jahren"
-   },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8679/eventdate/8184"
   },
   {
    "gemeinden": [
@@ -1566,6 +1562,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 7 Jahre"
    },
    "url": "https://www.opfikon.ch/_rte/anlass/7109285"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32791-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-10/"
   },
   {
    "gemeinden": [
@@ -1935,6 +1945,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt12543-0",
+   "name": "Kerzenziehen Gutschick-Mattenbach",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Quartierzentrum Gutschick-Mattenbach",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-gutschick-mattenbach-5/"
+  },
+  {
+   "gemeinden": [
     "ba"
    ],
    "id": "ba-7759429",
@@ -2109,6 +2133,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33163-0",
+   "name": "Robotik-Lab",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-4/"
+  },
+  {
+   "gemeinden": [
     "elsau"
    ],
    "id": "elsau-7727032",
@@ -2230,6 +2272,38 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 20.00",
    "age": null,
    "url": "https://www.wald-zh.ch/_rte/anlass/7737115"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt22207-0",
+   "name": "Weihnachtlicher Wintermarkt",
+   "von": "2026-11-18",
+   "bis": "2026-12-23",
+   "ort": "Teuchelweiherplatz",
+   "veranstalter": "",
+   "time": "16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/22207/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33537-0",
+   "name": "Weihnachts-Gnom als Box in der Sternen Zauberei",
+   "von": "2026-11-18",
+   "bis": "2026-11-18",
+   "ort": "Sternen Zauberei",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/weihnachts-gnom-als-box-in-der-sternen-zauberei/"
   },
   {
    "gemeinden": [
@@ -2647,6 +2721,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33424-0",
+   "name": "Kerzenziehen in Seen",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Freizeitanlage Kanzleistrasse",
+   "veranstalter": "",
+   "time": "14.00 - 21.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-in-seen-6/"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7660525",
@@ -2940,6 +3028,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32805-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-10/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7588474",
@@ -3161,6 +3263,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.wallisellen.ch/_rte/anlass/7784776"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33425-0",
+   "name": "Kerzenziehen in Seen",
+   "von": "2026-11-20",
+   "bis": "2026-11-20",
+   "ort": "Freizeitanlage Kanzleistrasse",
+   "veranstalter": "",
+   "time": "14.00 - 18.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-in-seen-7/"
   },
   {
    "gemeinden": [
@@ -3453,6 +3569,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-adventsbasteln-in-der-bibliothek-2",
+   "name": "ADVENTSBASTELN in der Bibliothek",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/adventsbasteln-in-der-bibliothek-2/"
+  },
+  {
+   "gemeinden": [
     "aesch"
    ],
    "id": "aesch-7758814",
@@ -3583,6 +3713,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt30935-0",
+   "name": "Bruno Hächler liest und singt",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kinderlesung-bruno-haechler/"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7108535",
@@ -3671,6 +3815,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33374-0",
+   "name": "Familienfilm Kino Cameo: «Die rote Zora»",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-die-rote-zora-2/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-58495",
@@ -3752,6 +3914,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 12 Jahre"
    },
    "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16596/eventdate/16637"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33233-0",
+   "name": "Generationen-Jassturnier",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Klubschule Migros",
+   "veranstalter": "",
+   "time": "13.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/generationen-jassturnier/"
   },
   {
    "gemeinden": [
@@ -3925,6 +4101,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt29101-0",
+   "name": "Kerzenziehen Wildbachstrasse / Langgasse",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Quartiertreff Wildbach",
+   "veranstalter": "",
+   "time": "10.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-wildbachstrasse-langgasse/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7284089",
@@ -3953,6 +4143,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33238-0",
+   "name": "Kindermusical Schellenursli",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Casinotheater Winterthur",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindermusical-schellenursli-4/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-kreativ-zwischen-kakteen-1",
@@ -3964,6 +4172,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 16.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/kreativ-zwischen-kakteen.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33549-0",
+   "name": "LeseZeit Kids: Mitmach-Lesung mit Bruno Hächler",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-katja-alves/"
   },
   {
    "gemeinden": [
@@ -4055,6 +4277,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33179-0",
+   "name": "Robotik-Workshop",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-workshop/"
+  },
+  {
+   "gemeinden": [
     "h"
    ],
    "id": "h-7665976",
@@ -4120,6 +4360,24 @@ window.FAMILIENAGENDA = {
     "label": "ab 11 Jahren"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7730452"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33185-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-2/"
   },
   {
    "gemeinden": [
@@ -4285,6 +4543,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-yoga-fuer-mama-kind-10",
+   "name": "Yoga für Mama & Kind",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "",
+   "veranstalter": "",
+   "time": "10.45 - 11.45",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-10/"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -4329,6 +4605,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 12 Jahren"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7820695"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33292-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Neuwiesen",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Turnhalle Schulhaus Neuwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-neuwiesen/"
   },
   {
    "gemeinden": [
@@ -4568,6 +4858,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33422-0",
+   "name": "Kerzenziehen in Seen",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Freizeitanlage Kanzleistrasse",
+   "veranstalter": "",
+   "time": "11.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-in-seen-4/"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7791232",
@@ -4607,6 +4911,24 @@ window.FAMILIENAGENDA = {
    "time": "15.30 - 16.30",
    "age": null,
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4288/eventdate/58255"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33240-0",
+   "name": "Kindermusical Schellenursli",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Casinotheater Winterthur",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindermusical-schellenursli-6/"
   },
   {
    "gemeinden": [
@@ -5070,6 +5392,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33419-0",
+   "name": "Kerzenziehen Wildbachstrasse / Langgasse",
+   "von": "2026-11-23",
+   "bis": "2026-11-23",
+   "ort": "Quartiertreff Wildbach",
+   "veranstalter": "",
+   "time": "14.00 - 18.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-wildbachstrasse-langgasse-3/"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7734613",
@@ -5342,6 +5678,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33031-0",
+   "name": "Geschichtenkiste Bibliothek Oberwinterthur",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-4/"
+  },
+  {
+   "gemeinden": [
     "n"
    ],
    "id": "n-17359-17267",
@@ -5445,6 +5795,20 @@ window.FAMILIENAGENDA = {
    "time": "15.00 - 16.30",
    "age": null,
    "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1648/eventdate/6380"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt26937-0",
+   "name": "Miniclub Bibliothek Wülflingen",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen-5/"
   },
   {
    "gemeinden": [
@@ -5838,6 +6202,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3473/eventdate/2045"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32817-0",
+   "name": "Eltern-Coaching",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Familienzentrum Winterthur",
+   "veranstalter": "",
+   "time": "09.30 - 11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/eltern-coaching-9/"
   },
   {
    "gemeinden": [
@@ -6319,6 +6697,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32051-0",
+   "name": "Miniclub Bibliothek Töss",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-3/"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7232162",
@@ -6558,6 +6950,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt29196-0",
+   "name": "Das Rösslitram im Advent",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-8/"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565068",
@@ -6625,6 +7031,20 @@ window.FAMILIENAGENDA = {
    "time": "17.30 - 21.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/trotte/2026-11-fondue-raclette-stube.html?calentry=3"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33016-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2026-11-26",
+   "bis": "2026-11-26",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-2/"
   },
   {
    "gemeinden": [
@@ -6890,6 +7310,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt29185-0",
+   "name": "Weihnachtsmarkt Winterthur mit Zauberwald",
+   "von": "2026-11-26",
+   "bis": "2026-12-23",
+   "ort": "Neumarkt Winterthur",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/weihnachtsmarkt-winterthur-14/"
+  },
+  {
+   "gemeinden": [
     "kloten",
     "ruemlang"
    ],
@@ -7035,6 +7469,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33270-0",
+   "name": "Eisdisco",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Eishalle Zielbau-Arena",
+   "veranstalter": "",
+   "time": "20.00 - 23.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/eisdisco-8/"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7740448",
@@ -7164,6 +7612,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 8 Jahre"
    },
    "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1721"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33047-0",
+   "name": "Geschichtenkiste Stadtbibliothek Winterthur",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-3/"
   },
   {
    "gemeinden": [
@@ -7394,6 +7856,20 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.duernten.ch/_rte/anlass/7667125"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33126-0",
+   "name": "Miniclub Bibliothek Töss",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-2/"
   },
   {
    "gemeinden": [
@@ -7786,6 +8262,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32898-0",
+   "name": "Bücherzwerge Bibliothek Seen",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-7/"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-1903-1409",
@@ -7910,6 +8400,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-chrabbelfiir-advent",
+   "name": "Chrabbelfiir «Advent»",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.00 - 18.00",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/chrabbelfiir-advent/"
+  },
+  {
+   "gemeinden": [
     "zell"
    ],
    "id": "zell-7267232",
@@ -7921,6 +8429,20 @@ window.FAMILIENAGENDA = {
    "time": "10.00 - 18.00",
    "age": null,
    "url": "https://www.zell.ch/_rte/anlass/7267232"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33484-0",
+   "name": "Das Rösslitram im Advent",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "13.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-4/"
   },
   {
    "gemeinden": [
@@ -8017,6 +8539,24 @@ window.FAMILIENAGENDA = {
     "label": "3 bis ca. 6 Jahre"
    },
    "url": "https://www.uster.ch/_rte/anlass/7268894"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33372-0",
+   "name": "Familienfilm Kino Cameo: «Pumuckl und das grosse Missverständnis»",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-pumuckl-und-das-grosse-missverstaendnis-3/"
   },
   {
    "gemeinden": [
@@ -8262,6 +8802,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33418-0",
+   "name": "Kerzenziehen Wildbachstrasse / Langgasse",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Quartiertreff Wildbach",
+   "veranstalter": "",
+   "time": "08.00 - 12.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kerzenziehen-wildbachstrasse-langgasse-2/"
+  },
+  {
+   "gemeinden": [
     "rs"
    ],
    "id": "rs-7455226",
@@ -8323,6 +8877,20 @@ window.FAMILIENAGENDA = {
     "label": "Kindergarten bis 2. Klasse"
    },
    "url": "https://www.wiesendangen.ch/_rte/anlass/7794070"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33442-0",
+   "name": "Lebkuchen verzieren am Weihnachtsmarkt Winterthur",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Neumarkt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/lebkuchen-verzieren-am-weihnachtsmarkt-winterthur/"
   },
   {
    "gemeinden": [
@@ -8535,6 +9103,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33208-0",
+   "name": "Stories for little ears",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-2/"
+  },
+  {
+   "gemeinden": [
     "a"
    ],
    "id": "a-7563106",
@@ -8734,6 +9320,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt26552-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Gutschick",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Turnhalle Schulhaus Gutschick",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-bewegungsparcours-gutschick-7/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7822873",
@@ -8851,6 +9451,20 @@ window.FAMILIENAGENDA = {
    "time": "17.30",
    "age": null,
    "url": "https://www.waedenswil.ch/_rte/anlass/7723183"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt12211-0",
+   "name": "Chlauseinzug",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "16.16",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/chlauseinzug/"
   },
   {
    "gemeinden": [
@@ -9105,6 +9719,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "rueschlikon"
+   ],
+   "id": "rueschlikon-7833655",
+   "name": "Lichterweg Thalwil-Oberrieden",
+   "von": "2026-11-29",
+   "bis": "2026-12-31",
+   "ort": "Mettli",
+   "veranstalter": "Wild Boars Oberrieden",
+   "time": "",
+   "age": null,
+   "url": "https://www.rueschlikon.ch/_rte/anlass/7833655"
+  },
+  {
+   "gemeinden": [
     "wb"
    ],
    "id": "wb-7700005",
@@ -9120,6 +9748,20 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 10 Jahre"
    },
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700005"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33348-0",
+   "name": "Museum am Sonntag Kunstmuseum I Villa Flora",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Villa Flora Kunst Museum",
+   "veranstalter": "",
+   "time": "13.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/museum-am-sonntag-kunstmuseum-i-villa-flora/"
   },
   {
    "gemeinden": [
@@ -10033,6 +10675,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33148-0",
+   "name": "Miniclub Bibliothek Veltheim",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim/"
+  },
+  {
+   "gemeinden": [
     "elsau"
    ],
    "id": "elsau-7704259",
@@ -10190,6 +10846,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt31174-0",
+   "name": "Besuch im Chlaushüsli im Wald",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/besuch-im-chlaushuesli-im-wald-5/"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7810834",
@@ -10301,6 +10971,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7598065"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt31243-0",
+   "name": "Chlausbus",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Bankstrasse Winterthur Vor Manor",
+   "veranstalter": "",
+   "time": "17.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/chlausbus/"
   },
   {
    "gemeinden": [
@@ -10592,6 +11276,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt26814-0",
+   "name": "Kamishibai Bibliothek Seen",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-seen-2/"
+  },
+  {
+   "gemeinden": [
     "baeretswil"
    ],
    "id": "baeretswil-7362142",
@@ -10617,6 +11315,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 20.00",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7694992"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33493-0",
+   "name": "Märchenerzähler am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Märliwald",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/maerchenerzaehler-am-weihnachtsmarkt-winterthur/"
   },
   {
    "gemeinden": [
@@ -10783,6 +11495,24 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 4 Jahre"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/7232375"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33164-0",
+   "name": "Robotik-Lab",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-5/"
   },
   {
    "gemeinden": [
@@ -11217,6 +11947,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt28928-0",
+   "name": "Kamishibai Bibliothek Oberwinterthur",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-oberwinterthur/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7621393",
@@ -11310,6 +12054,20 @@ window.FAMILIENAGENDA = {
    "time": "15.30 - 17.00",
    "age": null,
    "url": "https://www.urdorf.ch/_rte/anlass/7638181"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33264-0",
+   "name": "Kreatives Malen",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Anhaltspunkt Neuhegi",
+   "veranstalter": "",
+   "time": "08.30 - 11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kreatives-malen-3/"
   },
   {
    "gemeinden": [
@@ -11606,6 +12364,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt31173-0",
+   "name": "Besuch im Chlaushüsli im Wald",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "",
+   "time": "14.00 - 19.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/besuch-im-chlaushuesli-im-wald-3/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-bilderbuchkino-viadukt-2",
@@ -11834,6 +12606,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt28930-0",
+   "name": "Kamishibai Töss",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-toess/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7832341",
@@ -12016,6 +12802,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33149-0",
+   "name": "Miniclub Bibliothek Veltheim",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-3/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7818826",
@@ -12190,6 +12990,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt31378-0",
+   "name": "Winter Circus",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "19.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-2/"
+  },
+  {
+   "gemeinden": [
     "regensdorf"
    ],
    "id": "regensdorf-7818025",
@@ -12294,6 +13108,34 @@ window.FAMILIENAGENDA = {
    "time": "16.10 - 20.30",
    "age": null,
    "url": "https://www.meilen.ch/_rte/anlass/7825702"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33540-0",
+   "name": "Besuch im Chlaushüsli im Wald",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "",
+   "time": "14.00 - 19.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/besuch-im-chlaushuesli-im-wald-4/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32906-0",
+   "name": "Bücherzwerge Bibliothek Töss",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-4/"
   },
   {
    "gemeinden": [
@@ -12410,6 +13252,24 @@ window.FAMILIENAGENDA = {
    "time": "17.00",
    "age": null,
    "url": "https://www.adliswil.ch/_rte/anlass/7826188"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33375-0",
+   "name": "Familienfilm Kino Cameo: «Die rote Zora»",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-die-rote-zora-3/"
   },
   {
    "gemeinden": [
@@ -12605,6 +13465,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt10169-0",
+   "name": "Kamishibai Stadtbibliothek",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-stadtbibliothek/"
+  },
+  {
+   "gemeinden": [
     "rafz"
    ],
    "id": "rafz-7828609",
@@ -12686,6 +13560,20 @@ window.FAMILIENAGENDA = {
    "time": "10.30 - 11.30",
    "age": null,
    "url": "https://www.uster.ch/_rte/anlass/7826464"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33495-0",
+   "name": "Kinderschminken am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Märliwald",
+   "veranstalter": "",
+   "time": "13.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kinderschminken-am-weihnachtsmarkt-winterthur/"
   },
   {
    "gemeinden": [
@@ -13022,6 +13910,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt22084-0",
+   "name": "Samichlaus-Fiir im Wald",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "",
+   "time": "14.15 - 17.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/samichlaus-fiir-im-wald/"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-7516-11294",
@@ -13160,6 +14062,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33226-0",
+   "name": "Winter Circus",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "15.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-3/"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7738636",
@@ -13186,6 +14102,20 @@ window.FAMILIENAGENDA = {
    "time": "17.00",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7578106"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33299-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Wallrüti",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Schulhaus Wallrüti",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-wallrueti-2/"
   },
   {
    "gemeinden": [
@@ -13256,6 +14186,20 @@ window.FAMILIENAGENDA = {
    "time": "18.00 - 19.00",
    "age": null,
    "url": "https://www.wald-zh.ch/_rte/anlass/7831474"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33541-0",
+   "name": "Besuch im Chlaushüsli im Wald",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/besuch-im-chlaushuesli-im-wald-6/"
   },
   {
    "gemeinden": [
@@ -13447,6 +14391,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2701/eventdate/2048"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt24558-0",
+   "name": "Der Samichlaus kommt nach Seen",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Freizeitanlage Kanzleistrasse",
+   "veranstalter": "",
+   "time": "18.00 - 20.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/samichlaus-kommt-nach-seen/"
   },
   {
    "gemeinden": [
@@ -13913,6 +14871,20 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 17.00",
    "age": null,
    "url": "https://www.egg.ch/_rte/anlass/7290860"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33227-0",
+   "name": "Winter Circus",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-4/"
   },
   {
    "gemeinden": [
@@ -14423,6 +15395,34 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33492-0",
+   "name": "Chlausbus",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Bankstrasse Winterthur Vor Manor",
+   "veranstalter": "",
+   "time": "17.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/chlausbus-2/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33480-0",
+   "name": "Das Rösslitram im Advent",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent/"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565131",
@@ -14466,6 +15466,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 2 Jahren"
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7534234"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt27588-0",
+   "name": "Kamishibai Bibliothek Hegi",
+   "von": "2026-12-08",
+   "bis": "2026-12-08",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-hegi/"
   },
   {
    "gemeinden": [
@@ -14823,6 +15837,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33500-0",
+   "name": "Drehorgel am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Neumarkt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/drehorgel-am-weihnachtsmarkt-winterthur/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7583713",
@@ -15037,6 +16065,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt28932-0",
+   "name": "Kamishibai Bibliothek Wülflingen",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-wuelflingen/"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695016",
@@ -15097,6 +16139,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33499-0",
+   "name": "Märchenerzähler am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Märliwald",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/maerchenerzaehler-am-weihnachtsmarkt-winterthur-4/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-2026-12-marroni-gluehwein-4",
@@ -15108,6 +16164,34 @@ window.FAMILIENAGENDA = {
    "time": "14.30 - 16.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/gesundheitszentren/de/ueber-uns/veranstaltungen/quartier/trotte/2026-12-marroni-gluehwein.html?calentry=4"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33116-0",
+   "name": "Miniclub Bibliothek Seen",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.30 - 11.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-seen-2/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt27701-0",
+   "name": "Miniclub in der Stadtbibliothek",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-in-der-stadtbibliothek-3/"
   },
   {
    "gemeinden": [
@@ -15260,6 +16344,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7774267"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33229-0",
+   "name": "Winter Circus",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "15.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-5/"
   },
   {
    "gemeinden": [
@@ -15553,6 +16651,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33501-0",
+   "name": "Kinder- und Jugendchor am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Neumarkt Winterthur",
+   "veranstalter": "",
+   "time": "17.30 - 18.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kinder-und-jugendchor-am-weihnachtsmarkt-winterthur/"
+  },
+  {
+   "gemeinden": [
     "rs"
    ],
    "id": "rs-7402492",
@@ -15600,6 +16712,20 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7292924"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33108-0",
+   "name": "Miniclub Bibliothek Oberwinterthur",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-2/"
   },
   {
    "gemeinden": [
@@ -15772,6 +16898,20 @@ window.FAMILIENAGENDA = {
    "time": "15.30 - 18.00",
    "age": null,
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4183/eventdate/54503"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33247-0",
+   "name": "Wenn Eltern auseinandergehen",
+   "von": "2026-12-10",
+   "bis": "2026-12-10",
+   "ort": "Familienzentrum Winterthur",
+   "veranstalter": "",
+   "time": "19.00 - 21.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/wenn-eltern-auseinandergehen-2/"
   },
   {
    "gemeinden": [
@@ -16113,6 +17253,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt31512-0",
+   "name": "Miniclub Bibliothek Hegi",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-hegi-4/"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7581322",
@@ -16124,6 +17278,20 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 10.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7581322"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33230-0",
+   "name": "Winter Circus",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "15.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-6/"
   },
   {
    "gemeinden": [
@@ -16451,6 +17619,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33439-0",
+   "name": "Familienfilm Kino Cameo: «Mein Freund Barry»",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-mein-freund-barry/"
+  },
+  {
+   "gemeinden": [
     "hb"
    ],
    "id": "hb-7853-11588",
@@ -16597,6 +17783,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33502-0",
+   "name": "Lebkuchen verzieren am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Neumarkt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/lebkuchen-verzieren-am-weihnachtsmarkt-winterthur-2/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7731898",
@@ -16703,6 +17903,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33186-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-3/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7817776",
@@ -16791,6 +18009,52 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33231-0",
+   "name": "Winter Circus",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "15.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-7/"
+  },
+  {
+   "gemeinden": [
+    "b"
+   ],
+   "id": "b-yoga-fuer-mama-kind-11",
+   "name": "Yoga für Mama & Kind",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "",
+   "veranstalter": "",
+   "time": "10.45 - 11.45",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-11/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33293-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Neuwiesen",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Turnhalle Schulhaus Neuwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-neuwiesen-2/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-8",
@@ -16852,6 +18116,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 3 Jahren"
    },
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7035/eventdate/12697"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33485-0",
+   "name": "Das Rösslitram im Advent",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "13.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-5/"
   },
   {
    "gemeinden": [
@@ -17080,6 +18358,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33349-0",
+   "name": "Museum am Sonntag Kunstmuseum I Villa Flora",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Villa Flora Kunst Museum",
+   "veranstalter": "",
+   "time": "13.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/museum-am-sonntag-kunstmuseum-i-villa-flora-2/"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7769440",
@@ -17187,6 +18479,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 15.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/nonam/de/veranstaltungen/familiennachmittag-eisbaer.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33232-0",
+   "name": "Winter Circus",
+   "von": "2026-12-13",
+   "bis": "2026-12-13",
+   "ort": "Viehmarktplatz Ecke Wildbachstrasse-Reitweg / Reitwegplatz",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/winter-circus-8/"
   },
   {
    "gemeinden": [
@@ -17508,6 +18814,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33481-0",
+   "name": "Das Rösslitram im Advent",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-2/"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565134",
@@ -17601,6 +18921,20 @@ window.FAMILIENAGENDA = {
    "time": "18.30 - 20.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/stadtspital/de/ueber-uns/veranstaltungen/wiederkehrende-veranstaltungen/informationsabend-geburt.html?calentry=12"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt26857-0",
+   "name": "Kamishibai Bibliothek Veltheim",
+   "von": "2026-12-15",
+   "bis": "2026-12-15",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-veltheim-2/"
   },
   {
    "gemeinden": [
@@ -17845,6 +19179,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 7 Jahre"
    },
    "url": "https://www.opfikon.ch/_rte/anlass/7109288"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32792-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-11/"
   },
   {
    "gemeinden": [
@@ -18176,6 +19524,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33286-0",
+   "name": "Kleidung spenden oder günstig kaufen",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Parkarena GVC",
+   "veranstalter": "",
+   "time": "10.30 - 12.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kleidung-spenden-oder-guenstig-kaufen-2/"
+  },
+  {
+   "gemeinden": [
     "aeugst"
    ],
    "id": "aeugst-2851-2133",
@@ -18191,6 +19553,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 6 Jahre"
    },
    "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2851/eventdate/2133"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33503-0",
+   "name": "Märchenerzähler am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Märliwald",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/maerchenerzaehler-am-weihnachtsmarkt-winterthur-5/"
   },
   {
    "gemeinden": [
@@ -18308,6 +19684,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33165-0",
+   "name": "Robotik-Lab",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-6/"
+  },
+  {
+   "gemeinden": [
     "elsau"
    ],
    "id": "elsau-7727041",
@@ -18397,6 +19791,20 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.kloten.ch/_rte/anlass/7718635"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt31562-0",
+   "name": "TierZeit Kids in der Stadtbibliothek: Wildtierspuren",
+   "von": "2026-12-16",
+   "bis": "2026-12-16",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-kaninchen/"
   },
   {
    "gemeinden": [
@@ -18886,6 +20294,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32806-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-11/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7588489",
@@ -18947,6 +20369,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.dietikon.ch/_rte/anlass/7565188"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33271-0",
+   "name": "Eisdisco",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "Eishalle Zielbau-Arena",
+   "veranstalter": "",
+   "time": "20.00 - 23.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/eisdisco-9/"
   },
   {
    "gemeinden": [
@@ -19230,6 +20666,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33440-0",
+   "name": "Familienfilm Kino Cameo: «Mein Freund Barry»",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-mein-freund-barry-2/"
+  },
+  {
+   "gemeinden": [
     "o"
    ],
    "id": "o-3228-1917",
@@ -19351,6 +20805,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7284101"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33504-0",
+   "name": "Kinderschminken am Weihnachtsmarkt Winterthur",
+   "von": "2026-12-19",
+   "bis": "2026-12-19",
+   "ort": "Märliwald",
+   "veranstalter": "",
+   "time": "13.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kinderschminken-am-weihnachtsmarkt-winterthur-3/"
   },
   {
    "gemeinden": [
@@ -19590,6 +21058,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33602-0",
+   "name": "Kindermusical «Schneewittli»",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Casinotheater Winterthur",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindermusical-schneewittli-10/"
+  },
+  {
+   "gemeinden": [
     "stadel"
    ],
    "id": "stadel-7767649",
@@ -19615,6 +21101,20 @@ window.FAMILIENAGENDA = {
    "time": "15.00",
    "age": null,
    "url": "https://www.bonstetten.ch/_rte/anlass/7830721"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33506-0",
+   "name": "Märchen im zauberhaften Märliwald",
+   "von": "2026-12-20",
+   "bis": "2026-12-20",
+   "ort": "Märliwald",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/maerchen-im-zauberhaften-maerliwald-2/"
   },
   {
    "gemeinden": [
@@ -19753,6 +21253,34 @@ window.FAMILIENAGENDA = {
    "time": "09.00 - 17.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=293"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33483-0",
+   "name": "Das Rösslitram im Advent",
+   "von": "2026-12-22",
+   "bis": "2026-12-22",
+   "ort": "Altstadt Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/das-roesslitram-im-advent-3/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33060-0",
+   "name": "Geschichtenkiste Bibliothek Veltheim",
+   "von": "2026-12-22",
+   "bis": "2026-12-22",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-veltheim-2/"
   },
   {
    "gemeinden": [
@@ -19914,7 +21442,8 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "altikon"
+    "altikon",
+    "b"
    ],
    "id": "altikon-2892-2423",
    "name": "Familienweihnacht",
@@ -20171,6 +21700,24 @@ window.FAMILIENAGENDA = {
    "time": "09.00 - 17.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/vernetzte-natur-lebenswerte-stadt.html?calentry=297"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33376-0",
+   "name": "Familienfilm Kino Cameo: «Kung Fu Panda»",
+   "von": "2026-12-26",
+   "bis": "2026-12-26",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-kung-fu-panda/"
   },
   {
    "gemeinden": [
@@ -20754,6 +22301,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33032-0",
+   "name": "Geschichtenkiste Bibliothek Oberwinterthur",
+   "von": "2027-01-05",
+   "bis": "2027-01-05",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-5/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-informationsabend-geburt-13",
@@ -20797,6 +22358,24 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604614"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33040-0",
+   "name": "Geschichtenkiste in der Bibliothek Seen für Kinder von 3 bis 6 Jahren",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-2/"
   },
   {
    "gemeinden": [
@@ -20847,6 +22426,24 @@ window.FAMILIENAGENDA = {
    "time": "14.30 - 16.30",
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7722799"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33166-0",
+   "name": "Robotik-Lab",
+   "von": "2027-01-06",
+   "bis": "2027-01-06",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-7/"
   },
   {
    "gemeinden": [
@@ -20935,6 +22532,20 @@ window.FAMILIENAGENDA = {
    "time": "9.15 - 9.45",
    "age": null,
    "url": "https://www.elsau.ch/_rte/anlass/7778461"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33017-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2027-01-07",
+   "bis": "2027-01-07",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-3/"
   },
   {
    "gemeinden": [
@@ -21218,6 +22829,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32931-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-4/"
+  },
+  {
+   "gemeinden": [
     "zell"
    ],
    "id": "zell-7451158",
@@ -21229,6 +22854,24 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 16.00",
    "age": null,
    "url": "https://www.zell.ch/_rte/anlass/7451158"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33377-0",
+   "name": "Familienfilm Kino Cameo: «Kung Fu Panda»",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "Kino Cameo",
+   "veranstalter": "",
+   "time": "15.45",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/familienfilm-kino-cameo-kung-fu-panda-2/"
   },
   {
    "gemeinden": [
@@ -21271,6 +22914,34 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.oberembrach.ch/_rte/anlass/7655149"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33552-0",
+   "name": "LeseZeit Kids: Mitmach-Lesung mit Andrea Külling",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 15.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33318-0",
+   "name": "Midnight Sports Töss am Samstag",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "Sekundarschule Rosenau",
+   "veranstalter": "",
+   "time": "20.00 - 23.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-5/"
   },
   {
    "gemeinden": [
@@ -21334,6 +23005,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33209-0",
+   "name": "Stories for little ears",
+   "von": "2027-01-09",
+   "bis": "2027-01-09",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-3/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7781167",
@@ -21363,6 +23052,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 4 Jahren"
    },
    "url": "https://www.waedenswil.ch/_rte/anlass/7646170"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33311-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Büelwiesen",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Turnhalle Schulhaus Büelwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-bueelwiesen-4/"
   },
   {
    "gemeinden": [
@@ -21448,6 +23151,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33350-0",
+   "name": "Museum am Sonntag Kunstmuseum I Villa Flora",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Villa Flora Kunst Museum",
+   "veranstalter": "",
+   "time": "13.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/museum-am-sonntag-kunstmuseum-i-villa-flora-3/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7715326",
@@ -21499,6 +23216,34 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766305"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33333-0",
+   "name": "Open Sunday Sennhof",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Schulhaus Sennhof",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/open-sunday-sennhof-3/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33329-0",
+   "name": "Open Sunday Töss",
+   "von": "2027-01-10",
+   "bis": "2027-01-10",
+   "ort": "Schulhaus Gutenberg",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/open-sunday-toess-4/"
   },
   {
    "gemeinden": [
@@ -21757,6 +23502,20 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7870/eventdate/11604"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32793-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-12/"
   },
   {
    "gemeinden": [
@@ -22102,6 +23861,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32807-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2027-01-15",
+   "bis": "2027-01-15",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-12/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7621288",
@@ -22318,6 +24091,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33324-0",
+   "name": "Midnight Sport Gutschick am Samstag",
+   "von": "2027-01-16",
+   "bis": "2027-01-16",
+   "ort": "Turnhalle Schulhaus Gutschick",
+   "veranstalter": "",
+   "time": "19.30 - 23.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/midnight-sport-gutschick-am-samstag-2/"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7744765",
@@ -22354,6 +24141,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33555-0",
+   "name": "TierZeit Kids in der Stadtbibliothek: Wildtierspuren",
+   "von": "2027-01-16",
+   "bis": "2027-01-16",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/"
+  },
+  {
+   "gemeinden": [
     "wz"
    ],
    "id": "wz-26455-2027-01-16",
@@ -22369,6 +24170,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 4 Jahren"
    },
    "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=26455"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33300-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Wallrüti",
+   "von": "2027-01-17",
+   "bis": "2027-01-17",
+   "ort": "Schulhaus Wallrüti",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-wallrueti-3/"
   },
   {
    "gemeinden": [
@@ -22836,6 +24651,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33167-0",
+   "name": "Robotik-Lab",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-8/"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7718638",
@@ -22866,11 +24699,11 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "winterthur"
    ],
-   "id": "winterthur-verstehe-die-huehner-workshop-fuer-kinder",
-   "name": "Verstehe die Hühner - Workshop für Kinder",
+   "id": "winterthur-kt33509-0",
+   "name": "Verstehe die Hühner: Workshop für Kinder im Naturmuseum",
    "von": "2027-01-20",
    "bis": "2027-01-20",
-   "ort": "Museumstrasse 52",
+   "ort": "Naturmuseum Winterthur",
    "veranstalter": "",
    "time": "14.00 - 16.00",
    "age": {
@@ -22878,7 +24711,7 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "6 bis 10 Jahre"
    },
-   "url": "https://stadt.winterthur.ch/veranstaltung/verstehe-die-huehner-workshop-fuer-kinder"
+   "url": "https://www.kinderthur.ch/events/verstehe-die-huehner-workshop-fuer-kinder-im-naturmuseum/"
   },
   {
    "gemeinden": [
@@ -23384,6 +25217,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33187-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-01-23",
+   "bis": "2027-01-23",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-4/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33294-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Neuwiesen",
+   "von": "2027-01-24",
+   "bis": "2027-01-24",
+   "ort": "Turnhalle Schulhaus Neuwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-neuwiesen-3/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-10",
@@ -23692,6 +25557,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33368-0",
+   "name": "Kindertheater: «Geisterbahn!»",
+   "von": "2027-01-27",
+   "bis": "2027-01-27",
+   "ort": "Theater Am Gleis",
+   "veranstalter": "",
+   "time": "10.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindertheater-geisterbahn/"
+  },
+  {
+   "gemeinden": [
     "laufenuhwiesen"
    ],
    "id": "laufenuhwiesen-1098-1514",
@@ -23752,6 +25635,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt27085-0",
+   "name": "Wissenschaft um 11: «Warum sind wir so schlau? Die Evolution menschlicher Kognition»",
+   "von": "2027-01-27",
+   "bis": "2027-01-27",
+   "ort": "Alte Kaserne Kulturzentrum",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/wissenschaft-um-11-kuenstliche-intelligenz-fuer-humanitaere-hilfe/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006429",
@@ -23805,6 +25702,20 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 12.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/indoor-spielplatz-baeckeranlage.html?calentry=12"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33287-0",
+   "name": "Kleidung spenden oder günstig kaufen",
+   "von": "2027-01-28",
+   "bis": "2027-01-28",
+   "ort": "Parkarena GVC",
+   "veranstalter": "",
+   "time": "10.30 - 12.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kleidung-spenden-oder-guenstig-kaufen-3/"
   },
   {
    "gemeinden": [
@@ -23872,6 +25783,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33272-0",
+   "name": "Eisdisco",
+   "von": "2027-01-29",
+   "bis": "2027-01-29",
+   "ort": "Eishalle Zielbau-Arena",
+   "veranstalter": "",
+   "time": "20.00 - 23.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/eisdisco-10/"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7756408",
@@ -23901,6 +25826,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 8 Jahre"
    },
    "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1730"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33048-0",
+   "name": "Geschichtenkiste Stadtbibliothek Winterthur",
+   "von": "2027-01-29",
+   "bis": "2027-01-29",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-4/"
   },
   {
    "gemeinden": [
@@ -23947,6 +25886,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 8 Jahren"
    },
    "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6815/eventdate/29246"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32899-0",
+   "name": "Bücherzwerge Bibliothek Seen",
+   "von": "2027-01-30",
+   "bis": "2027-01-30",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-8/"
   },
   {
    "gemeinden": [
@@ -24112,6 +26065,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33312-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Büelwiesen",
+   "von": "2027-01-31",
+   "bis": "2027-01-31",
+   "ort": "Turnhalle Schulhaus Büelwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-bueelwiesen-5/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-11",
@@ -24183,6 +26150,24 @@ window.FAMILIENAGENDA = {
     "label": "ab 6 Jahren"
    },
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6747/eventdate/12530"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33604-0",
+   "name": "Kindermusical «Schneewittli»",
+   "von": "2027-01-31",
+   "bis": "2027-01-31",
+   "ort": "Casinotheater Winterthur",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindermusical-schneewittli-12/"
   },
   {
    "gemeinden": [
@@ -24388,6 +26373,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33033-0",
+   "name": "Geschichtenkiste Bibliothek Oberwinterthur",
+   "von": "2027-02-02",
+   "bis": "2027-02-02",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-6/"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2224-1587",
@@ -24484,6 +26483,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33041-0",
+   "name": "Geschichtenkiste in der Bibliothek Seen für Kinder von 3 bis 6 Jahren",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-3/"
+  },
+  {
+   "gemeinden": [
     "birmensdorf"
    ],
    "id": "birmensdorf-7392574",
@@ -24558,6 +26575,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33168-0",
+   "name": "Robotik-Lab",
+   "von": "2027-02-03",
+   "bis": "2027-02-03",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-9/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-art-on-ice-1",
@@ -24629,6 +26664,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604821"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33018-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2027-02-04",
+   "bis": "2027-02-04",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-4/"
   },
   {
    "gemeinden": [
@@ -24848,6 +26897,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33055-0",
+   "name": "Geschichtenkiste in der Bibliothek Töss für Kinder von 3 bis 6 Jahren",
+   "von": "2027-02-05",
+   "bis": "2027-02-05",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-toess-fuer-kinder-von-3-bis-6-jahren-2/"
+  },
+  {
+   "gemeinden": [
     "benken"
    ],
    "id": "benken-7638778",
@@ -24891,6 +26958,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/art-on-ice.html?calentry=3"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32912-0",
+   "name": "Bücherzwerge Bibliothek Töss",
+   "von": "2027-02-06",
+   "bis": "2027-02-06",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-5/"
   },
   {
    "gemeinden": [
@@ -25039,6 +27120,24 @@ window.FAMILIENAGENDA = {
    "time": "17.00 - 20.00",
    "age": null,
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7816486"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33210-0",
+   "name": "Stories for little ears",
+   "von": "2027-02-06",
+   "bis": "2027-02-06",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-4/"
   },
   {
    "gemeinden": [
@@ -25245,6 +27344,20 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809070"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt30708-0",
+   "name": "Ferienwerkstatt Naturmuseum",
+   "von": "2027-02-09",
+   "bis": "2027-02-09",
+   "ort": "Naturmuseum Winterthur",
+   "veranstalter": "",
+   "time": "13.45 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ferienwerkstatt-naturmuseum-spuren-staunen-selber-machen/"
   },
   {
    "gemeinden": [
@@ -25538,6 +27651,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33216-0",
+   "name": "Tüftelspass Stadtbibliothek Winterthur",
+   "von": "2027-02-12",
+   "bis": "2027-02-12",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 15.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/tueftelspass-stadtbibliothek-winterthur-3/"
+  },
+  {
+   "gemeinden": [
     "seuzach"
    ],
    "id": "seuzach-7581313",
@@ -25549,6 +27676,20 @@ window.FAMILIENAGENDA = {
    "time": "9.30 - 10.00",
    "age": null,
    "url": "https://www.seuzach.ch/_rte/anlass/7581313"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32932-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-02-13",
+   "bis": "2027-02-13",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-6/"
   },
   {
    "gemeinden": [
@@ -25658,6 +27799,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33306-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Gutschick",
+   "von": "2027-02-14",
+   "bis": "2027-02-14",
+   "ort": "Turnhalle Schulhaus Gutschick",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-gutschick-3/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-12",
@@ -25757,6 +27912,20 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818685"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33511-0",
+   "name": "Ferienwerkstatt Naturmuseum",
+   "von": "2027-02-16",
+   "bis": "2027-02-16",
+   "ort": "Naturmuseum Winterthur",
+   "veranstalter": "",
+   "time": "13.45 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ferienwerkstatt-naturmuseum/"
   },
   {
    "gemeinden": [
@@ -25972,6 +28141,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33217-0",
+   "name": "Tüftelspass Stadtbibliothek Winterthur",
+   "von": "2027-02-19",
+   "bis": "2027-02-19",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 15.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/tueftelspass-stadtbibliothek-winterthur-4/"
+  },
+  {
+   "gemeinden": [
     "horgen"
    ],
    "id": "horgen-4405-58815",
@@ -26011,6 +28194,56 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7636540"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33180-0",
+   "name": "Robotik-Workshop",
+   "von": "2027-02-20",
+   "bis": "2027-02-20",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-workshop-2/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33188-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-02-20",
+   "bis": "2027-02-20",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-5/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33313-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Büelwiesen",
+   "von": "2027-02-21",
+   "bis": "2027-02-21",
+   "ort": "Turnhalle Schulhaus Büelwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-bueelwiesen-6/"
   },
   {
    "gemeinden": [
@@ -26134,6 +28367,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32797-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2027-02-24",
+   "bis": "2027-02-24",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-13/"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604635",
@@ -26173,6 +28420,24 @@ window.FAMILIENAGENDA = {
    "time": "14.00 - 15.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/magische-tropenfruechte-fuer-den-koenig0.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33169-0",
+   "name": "Robotik-Lab",
+   "von": "2027-02-24",
+   "bis": "2027-02-24",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-10/"
   },
   {
    "gemeinden": [
@@ -26250,6 +28515,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32808-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2027-02-26",
+   "bis": "2027-02-26",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-13/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7621306",
@@ -26265,6 +28544,20 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621306"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33273-0",
+   "name": "Eisdisco",
+   "von": "2027-02-26",
+   "bis": "2027-02-26",
+   "ort": "Eishalle Zielbau-Arena",
+   "veranstalter": "",
+   "time": "20.00 - 23.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/eisdisco-11/"
   },
   {
    "gemeinden": [
@@ -26314,6 +28607,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33049-0",
+   "name": "Geschichtenkiste Stadtbibliothek Winterthur",
+   "von": "2027-02-26",
+   "bis": "2027-02-26",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-5/"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7593181",
@@ -26325,6 +28632,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593181"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32900-0",
+   "name": "Bücherzwerge Bibliothek Seen",
+   "von": "2027-02-27",
+   "bis": "2027-02-27",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-9/"
   },
   {
    "gemeinden": [
@@ -26346,6 +28667,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33319-0",
+   "name": "Midnight Sports Töss am Samstag",
+   "von": "2027-02-27",
+   "bis": "2027-02-27",
+   "ort": "Sekundarschule Rosenau",
+   "veranstalter": "",
+   "time": "20.00 - 23.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-6/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-sanakurs-3",
@@ -26357,6 +28692,34 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 18.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/sanakurs.html?calentry=3"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33554-0",
+   "name": "TierZeit Kids in der Stadtbibliothek: Die Rückkehr der Grossraubtiere (Bär, Luchs, Wolf)",
+   "von": "2027-02-27",
+   "bis": "2027-02-27",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33295-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Neuwiesen",
+   "von": "2027-02-28",
+   "bis": "2027-02-28",
+   "ort": "Turnhalle Schulhaus Neuwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-neuwiesen-4/"
   },
   {
    "gemeinden": [
@@ -26403,6 +28766,48 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766323"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33334-0",
+   "name": "Open Sunday Sennhof",
+   "von": "2027-02-28",
+   "bis": "2027-02-28",
+   "ort": "Schulhaus Sennhof",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/open-sunday-sennhof-4/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33330-0",
+   "name": "Open Sunday Töss",
+   "von": "2027-02-28",
+   "bis": "2027-02-28",
+   "ort": "Schulhaus Gutenberg",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/open-sunday-toess-5/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33461-0",
+   "name": "Wissenschaft um 11: «Tierwanderungen: Eine wichtige Dimension der Biodiversität»",
+   "von": "2027-02-28",
+   "bis": "2027-02-28",
+   "ort": "Alte Kaserne Kulturzentrum",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/wissenschaft-um-11-tierwanderungen-eine-wichtige-dimension-der-biodiversitaet/"
   },
   {
    "gemeinden": [
@@ -26630,6 +29035,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33042-0",
+   "name": "Geschichtenkiste in der Bibliothek Seen für Kinder von 3 bis 6 Jahren",
+   "von": "2027-03-03",
+   "bis": "2027-03-03",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-4/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7754770",
@@ -26659,6 +29082,20 @@ window.FAMILIENAGENDA = {
    "time": "14.30 - 16.30",
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7722811"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32828-0",
+   "name": "Pasta per tutti",
+   "von": "2027-03-03",
+   "bis": "2027-03-03",
+   "ort": "Kirchgemeindehaus Liebestrasse",
+   "veranstalter": "",
+   "time": "12.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/pasta-per-tutti/"
   },
   {
    "gemeinden": [
@@ -26864,6 +29301,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33056-0",
+   "name": "Geschichtenkiste in der Bibliothek Töss für Kinder von 3 bis 6 Jahren",
+   "von": "2027-03-05",
+   "bis": "2027-03-05",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-toess-fuer-kinder-von-3-bis-6-jahren-4/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32913-0",
+   "name": "Bücherzwerge Bibliothek Töss",
+   "von": "2027-03-06",
+   "bis": "2027-03-06",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-6/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-zuerischi-1",
@@ -26942,6 +29411,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33211-0",
+   "name": "Stories for little ears",
+   "von": "2027-03-06",
+   "bis": "2027-03-06",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-5/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7714135",
@@ -26953,6 +29440,20 @@ window.FAMILIENAGENDA = {
    "time": "10.30 - 22.00",
    "age": null,
    "url": "https://www.duebendorf.ch/_rte/anlass/7714135"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33301-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Wallrüti",
+   "von": "2027-03-07",
+   "bis": "2027-03-07",
+   "ort": "Schulhaus Wallrüti",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-wallrueti-5/"
   },
   {
    "gemeinden": [
@@ -27134,6 +29635,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33034-0",
+   "name": "Geschichtenkiste Bibliothek Oberwinterthur",
+   "von": "2027-03-09",
+   "bis": "2027-03-09",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-7/"
+  },
+  {
+   "gemeinden": [
     "n"
    ],
    "id": "n-17548-17678",
@@ -27163,6 +29678,20 @@ window.FAMILIENAGENDA = {
    "time": "18.30 - 20.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/stadtspital/de/ueber-uns/veranstaltungen/wiederkehrende-veranstaltungen/informationsabend-geburt.html?calentry=16"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33150-0",
+   "name": "Miniclub Bibliothek Veltheim",
+   "von": "2027-03-09",
+   "bis": "2027-03-09",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-4/"
   },
   {
    "gemeinden": [
@@ -27362,6 +29891,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33128-0",
+   "name": "Miniclub Bibliothek Töss",
+   "von": "2027-03-10",
+   "bis": "2027-03-10",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-5/"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-7645681",
@@ -27387,6 +29930,24 @@ window.FAMILIENAGENDA = {
    "time": "19.00 - 21.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/themenabend-paar-bleiben.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33170-0",
+   "name": "Robotik-Lab",
+   "von": "2027-03-10",
+   "bis": "2027-03-10",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-11/"
   },
   {
    "gemeinden": [
@@ -27443,6 +30004,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604836"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33019-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2027-03-11",
+   "bis": "2027-03-11",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-6/"
   },
   {
    "gemeinden": [
@@ -27574,6 +30149,34 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33130-0",
+   "name": "Miniclub Bibliothek Töss",
+   "von": "2027-03-12",
+   "bis": "2027-03-12",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-7/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32933-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-03-13",
+   "bis": "2027-03-13",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-7/"
+  },
+  {
+   "gemeinden": [
     "m"
    ],
    "id": "m-7832980",
@@ -27692,6 +30295,38 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.buelach.ch/_rte/anlass/7541029"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33189-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-03-13",
+   "bis": "2027-03-13",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-6/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33296-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Neuwiesen",
+   "von": "2027-03-14",
+   "bis": "2027-03-14",
+   "ort": "Turnhalle Schulhaus Neuwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-neuwiesen-5/"
   },
   {
    "gemeinden": [
@@ -27925,6 +30560,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33155-0",
+   "name": "Miniclub Bibliothek Wülflingen",
+   "von": "2027-03-16",
+   "bis": "2027-03-16",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7725949",
@@ -28053,6 +30702,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33123-0",
+   "name": "Miniclub in der Stadtbibliothek",
+   "von": "2027-03-17",
+   "bis": "2027-03-17",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-in-der-stadtbibliothek/"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7722814",
@@ -28148,6 +30811,20 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 12.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/indoor-spielplatz-baeckeranlage.html?calentry=17"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33110-0",
+   "name": "Miniclub Bibliothek Oberwinterthur",
+   "von": "2027-03-18",
+   "bis": "2027-03-18",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-4/"
   },
   {
    "gemeinden": [
@@ -28294,6 +30971,20 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/2015/eventdate/1471"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33111-0",
+   "name": "Miniclub Bibliothek Oberwinterthur",
+   "von": "2027-03-19",
+   "bis": "2027-03-19",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-5/"
   },
   {
    "gemeinden": [
@@ -28478,6 +31169,20 @@ window.FAMILIENAGENDA = {
     "label": "ab 11 Jahren"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7730455"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33553-0",
+   "name": "TierZeit Kids in der Stadtbibliothek: Meerestiere",
+   "von": "2027-03-20",
+   "bis": "2027-03-20",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/"
   },
   {
    "gemeinden": [
@@ -28697,6 +31402,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32798-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2027-03-24",
+   "bis": "2027-03-24",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-14/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7729147",
@@ -28757,6 +31476,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33118-0",
+   "name": "Miniclub Bibliothek Seen",
+   "von": "2027-03-24",
+   "bis": "2027-03-24",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-seen-5/"
+  },
+  {
+   "gemeinden": [
     "knonau"
    ],
    "id": "knonau-4393-3179",
@@ -28786,6 +31519,24 @@ window.FAMILIENAGENDA = {
     "label": "2 bis 5 Jahre"
    },
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/osterbasteln.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33171-0",
+   "name": "Robotik-Lab",
+   "von": "2027-03-24",
+   "bis": "2027-03-24",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-12/"
   },
   {
    "gemeinden": [
@@ -28842,6 +31593,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7833001"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32810-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2027-03-26",
+   "bis": "2027-03-26",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-14/"
   },
   {
    "gemeinden": [
@@ -29181,6 +31946,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32944-0",
+   "name": "Kamishibai Töss",
+   "von": "2027-04-02",
+   "bis": "2027-04-02",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-toess-2/"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2016-1470",
@@ -29199,6 +31978,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32914-0",
+   "name": "Bücherzwerge Bibliothek Töss",
+   "von": "2027-04-03",
+   "bis": "2027-04-03",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-7/"
+  },
+  {
+   "gemeinden": [
     "horgen"
    ],
    "id": "horgen-4163-52868",
@@ -29210,6 +32003,34 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 12.00",
    "age": null,
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4163/eventdate/52868"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32948-0",
+   "name": "Kreativwerkstatt für Familien",
+   "von": "2027-04-03",
+   "bis": "2027-04-03",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "11.00 - 16.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kreativwerkstatt-fuer-familien-2/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33320-0",
+   "name": "Midnight Sports Töss am Samstag",
+   "von": "2027-04-03",
+   "bis": "2027-04-03",
+   "ort": "Sekundarschule Rosenau",
+   "veranstalter": "",
+   "time": "20.00 - 23.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-7/"
   },
   {
    "gemeinden": [
@@ -29228,6 +32049,38 @@ window.FAMILIENAGENDA = {
     "label": "ab 11 Jahren"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7730470"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33315-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Büelwiesen",
+   "von": "2027-04-04",
+   "bis": "2027-04-04",
+   "ort": "Turnhalle Schulhaus Büelwiesen",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-bueelwiesen-8/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33241-0",
+   "name": "Kindermusical Schellenursli",
+   "von": "2027-04-04",
+   "bis": "2027-04-04",
+   "ort": "Casinotheater Winterthur",
+   "veranstalter": "",
+   "time": "11.00",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindermusical-schellenursli-7/"
   },
   {
    "gemeinden": [
@@ -29292,6 +32145,34 @@ window.FAMILIENAGENDA = {
     "label": "6 bis 12 Jahre"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766344"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33335-0",
+   "name": "Open Sunday Sennhof",
+   "von": "2027-04-04",
+   "bis": "2027-04-04",
+   "ort": "Schulhaus Sennhof",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/open-sunday-sennhof-5/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33331-0",
+   "name": "Open Sunday Töss",
+   "von": "2027-04-04",
+   "bis": "2027-04-04",
+   "ort": "Schulhaus Gutenberg",
+   "veranstalter": "",
+   "time": "13.30 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/open-sunday-toess-6/"
   },
   {
    "gemeinden": [
@@ -29401,6 +32282,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32941-0",
+   "name": "Kamishibai Bibliothek Hegi",
+   "von": "2027-04-06",
+   "bis": "2027-04-06",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-hegi-2/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7702582",
@@ -29501,6 +32396,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32939-0",
+   "name": "Kamishibai Bibliothek Seen",
+   "von": "2027-04-07",
+   "bis": "2027-04-07",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-seen/"
+  },
+  {
+   "gemeinden": [
     "h"
    ],
    "id": "h-7816990",
@@ -29530,6 +32439,24 @@ window.FAMILIENAGENDA = {
    "time": "19.00 - 21.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/themenabend-muetter-frauenabende.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33172-0",
+   "name": "Robotik-Lab",
+   "von": "2027-04-07",
+   "bis": "2027-04-07",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-13/"
   },
   {
    "gemeinden": [
@@ -29590,6 +32517,20 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 12.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/quartierzentren/indoor-spielplatz-baeckeranlage.html?calentry=19"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32940-0",
+   "name": "Kamishibai Bibliothek Oberwinterthur",
+   "von": "2027-04-08",
+   "bis": "2027-04-08",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 17.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-oberwinterthur-2/"
   },
   {
    "gemeinden": [
@@ -29757,6 +32698,34 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32934-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-04-10",
+   "bis": "2027-04-10",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-8/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32942-0",
+   "name": "Kamishibai Stadtbibliothek",
+   "von": "2027-04-10",
+   "bis": "2027-04-10",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-stadtbibliothek-2/"
+  },
+  {
+   "gemeinden": [
     "s"
    ],
    "id": "s-2552",
@@ -29785,6 +32754,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33212-0",
+   "name": "Stories for little ears",
+   "von": "2027-04-10",
+   "bis": "2027-04-10",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-6/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33302-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Wallrüti",
+   "von": "2027-04-11",
+   "bis": "2027-04-11",
+   "ort": "Schulhaus Wallrüti",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-wallrueti-6/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-17",
@@ -29796,6 +32797,24 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 12.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/abenteuerhalle.html?calentry=17"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33242-0",
+   "name": "Kindermusical Schellenursli",
+   "von": "2027-04-11",
+   "bis": "2027-04-11",
+   "ort": "Casinotheater Winterthur",
+   "veranstalter": "",
+   "time": "14.00",
+   "age": {
+    "min": 5,
+    "max": 12,
+    "label": "ab 5 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/kindermusical-schellenursli-8/"
   },
   {
    "gemeinden": [
@@ -29937,6 +32956,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33035-0",
+   "name": "Geschichtenkiste Bibliothek Oberwinterthur",
+   "von": "2027-04-13",
+   "bis": "2027-04-13",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-8/"
+  },
+  {
+   "gemeinden": [
     "elsau"
    ],
    "id": "elsau-7704301",
@@ -30047,6 +33080,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32947-0",
+   "name": "Kamishibai Bibliothek Wülflingen",
+   "von": "2027-04-14",
+   "bis": "2027-04-14",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-wuelflingen-2/"
+  },
+  {
+   "gemeinden": [
     "bb"
    ],
    "id": "bb-7722820",
@@ -30058,6 +33105,20 @@ window.FAMILIENAGENDA = {
    "time": "14.30 - 16.30",
    "age": null,
    "url": "https://www.bubikon.ch/_rte/anlass/7722820"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32829-0",
+   "name": "Pasta per tutti",
+   "von": "2027-04-14",
+   "bis": "2027-04-14",
+   "ort": "Kirchgemeindehaus Liebestrasse",
+   "veranstalter": "",
+   "time": "12.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/pasta-per-tutti-4/"
   },
   {
    "gemeinden": [
@@ -30122,6 +33183,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604851"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33020-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2027-04-15",
+   "bis": "2027-04-15",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-7/"
   },
   {
    "gemeinden": [
@@ -30405,6 +33480,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33190-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-04-17",
+   "bis": "2027-04-17",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-7/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33303-0",
+   "name": "Ä Hallä, wo’s fägt – Playgrounds: Indoorspielplatz Wallrüti",
+   "von": "2027-04-18",
+   "bis": "2027-04-18",
+   "ort": "Schulhaus Wallrüti",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/ae-hallae-wos-faegt-playgrounds-indoorspielplatz-wallrueti-7/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-18",
@@ -30479,6 +33586,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32946-0",
+   "name": "Kamishibai Bibliothek Veltheim",
+   "von": "2027-04-20",
+   "bis": "2027-04-20",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/kamishibai-bibliothek-veltheim/"
+  },
+  {
+   "gemeinden": [
     "wd"
    ],
    "id": "wd-7808398",
@@ -30490,6 +33611,20 @@ window.FAMILIENAGENDA = {
    "time": "12.00",
    "age": null,
    "url": "https://www.wildberg.ch/_rte/anlass/7808398"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32799-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2027-04-21",
+   "bis": "2027-04-21",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-15/"
   },
   {
    "gemeinden": [
@@ -30543,6 +33678,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33065-0",
+   "name": "Geschichtenkiste Bibliothek Wülflingen",
+   "von": "2027-04-21",
+   "bis": "2027-04-21",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-wuelflingen-22/"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556296",
@@ -30586,6 +33735,24 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7816999"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33173-0",
+   "name": "Robotik-Lab",
+   "von": "2027-04-21",
+   "bis": "2027-04-21",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-14/"
   },
   {
    "gemeinden": [
@@ -30687,6 +33854,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32811-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2027-04-23",
+   "bis": "2027-04-23",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-15/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7621330",
@@ -30773,6 +33954,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32901-0",
+   "name": "Bücherzwerge Bibliothek Seen",
+   "von": "2027-04-24",
+   "bis": "2027-04-24",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-10/"
+  },
+  {
+   "gemeinden": [
     "benken"
    ],
    "id": "benken-7638784",
@@ -30840,6 +34035,20 @@ window.FAMILIENAGENDA = {
    "time": "09.00 - 16.00",
    "age": null,
    "url": "https://stadt.winterthur.ch/veranstaltung/ms-sports-camps-winterthur-2027"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33062-0",
+   "name": "Geschichtenkiste Bibliothek Veltheim",
+   "von": "2027-04-27",
+   "bis": "2027-04-27",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-veltheim-4/"
   },
   {
    "gemeinden": [
@@ -30974,6 +34183,20 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 8 Jahre"
    },
    "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1743"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33050-0",
+   "name": "Geschichtenkiste Stadtbibliothek Winterthur",
+   "von": "2027-04-30",
+   "bis": "2027-04-30",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-6/"
   },
   {
    "gemeinden": [
@@ -31143,6 +34366,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32935-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-05-08",
+   "bis": "2027-05-08",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-9/"
+  },
+  {
+   "gemeinden": [
     "knonau"
    ],
    "id": "knonau-4397-3175",
@@ -31242,6 +34479,20 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556254"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33036-0",
+   "name": "Geschichtenkiste Bibliothek Oberwinterthur",
+   "von": "2027-05-11",
+   "bis": "2027-05-11",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-9/"
   },
   {
    "gemeinden": [
@@ -31359,6 +34610,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33066-0",
+   "name": "Geschichtenkiste Bibliothek Wülflingen",
+   "von": "2027-05-12",
+   "bis": "2027-05-12",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "16.00 - 16.45",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-wuelflingen-23/"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7699036",
@@ -31392,6 +34657,24 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 10 Jahre"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4283/eventdate/3243"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33174-0",
+   "name": "Robotik-Lab",
+   "von": "2027-05-12",
+   "bis": "2027-05-12",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-15/"
   },
   {
    "gemeinden": [
@@ -31434,6 +34717,20 @@ window.FAMILIENAGENDA = {
    "time": "9.15 - 9.45",
    "age": null,
    "url": "https://www.elsau.ch/_rte/anlass/7778566"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33022-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2027-05-13",
+   "bis": "2027-05-13",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-9/"
   },
   {
    "gemeinden": [
@@ -31519,6 +34816,42 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33181-0",
+   "name": "Robotik-Workshop",
+   "von": "2027-05-15",
+   "bis": "2027-05-15",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 12.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-workshop-3/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33213-0",
+   "name": "Stories for little ears",
+   "von": "2027-05-15",
+   "bis": "2027-05-15",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-7/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006460",
@@ -31562,6 +34895,20 @@ window.FAMILIENAGENDA = {
     "label": "Kleinkinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818694"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32800-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2027-05-19",
+   "bis": "2027-05-19",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-16/"
   },
   {
    "gemeinden": [
@@ -31717,6 +35064,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32812-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2027-05-21",
+   "bis": "2027-05-21",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-16/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7621339",
@@ -31785,6 +35146,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33321-0",
+   "name": "Midnight Sports Töss am Samstag",
+   "von": "2027-05-22",
+   "bis": "2027-05-22",
+   "ort": "Sekundarschule Rosenau",
+   "veranstalter": "",
+   "time": "20.00 - 23.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-8/"
+  },
+  {
+   "gemeinden": [
     "l"
    ],
    "id": "l-7020-12684",
@@ -31796,6 +35171,24 @@ window.FAMILIENAGENDA = {
    "time": "9.30",
    "age": null,
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7020/eventdate/12684"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33191-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-05-22",
+   "bis": "2027-05-22",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-8/"
   },
   {
    "gemeinden": [
@@ -31951,6 +35344,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32830-0",
+   "name": "Pasta per tutti",
+   "von": "2027-05-26",
+   "bis": "2027-05-26",
+   "ort": "Kirchgemeindehaus Liebestrasse",
+   "veranstalter": "",
+   "time": "12.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/pasta-per-tutti-5/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33175-0",
+   "name": "Robotik-Lab",
+   "von": "2027-05-26",
+   "bis": "2027-05-26",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-16/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006463",
@@ -32043,6 +35468,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33051-0",
+   "name": "Geschichtenkiste Stadtbibliothek Winterthur",
+   "von": "2027-05-28",
+   "bis": "2027-05-28",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-7/"
+  },
+  {
+   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-2018-1468",
@@ -32072,6 +35511,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593199"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32902-0",
+   "name": "Bücherzwerge Bibliothek Seen",
+   "von": "2027-05-29",
+   "bis": "2027-05-29",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-11/"
   },
   {
    "gemeinden": [
@@ -32248,6 +35701,24 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604677"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33043-0",
+   "name": "Geschichtenkiste in der Bibliothek Seen für Kinder von 3 bis 6 Jahren",
+   "von": "2027-06-02",
+   "bis": "2027-06-02",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-5/"
   },
   {
    "gemeinden": [
@@ -32457,6 +35928,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33057-0",
+   "name": "Geschichtenkiste in der Bibliothek Töss für Kinder von 3 bis 6 Jahren",
+   "von": "2027-06-04",
+   "bis": "2027-06-04",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-toess-fuer-kinder-von-3-bis-6-jahren-5/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32915-0",
+   "name": "Bücherzwerge Bibliothek Töss",
+   "von": "2027-06-05",
+   "bis": "2027-06-05",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-8/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-oeffentliche-fuehrung-zs-museum-11",
@@ -32482,6 +35985,24 @@ window.FAMILIENAGENDA = {
    "time": "13.00 - 18.00",
    "age": null,
    "url": "https://www.regensdorf.ch/_rte/anlass/7614073"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33214-0",
+   "name": "Stories for little ears",
+   "von": "2027-06-06",
+   "bis": "2027-06-06",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.00 - 11.00",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/stories-for-little-ears-8/"
   },
   {
    "gemeinden": [
@@ -32677,6 +36198,52 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33132-0",
+   "name": "Miniclub Bibliothek Töss",
+   "von": "2027-06-09",
+   "bis": "2027-06-09",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-9/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33124-0",
+   "name": "Miniclub in der Stadtbibliothek",
+   "von": "2027-06-09",
+   "bis": "2027-06-09",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-in-der-stadtbibliothek-2/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33176-0",
+   "name": "Robotik-Lab",
+   "von": "2027-06-09",
+   "bis": "2027-06-09",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-17/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006467",
@@ -32702,6 +36269,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604875"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33023-0",
+   "name": "Geschichtenkiste Bibliothek Hegi",
+   "von": "2027-06-10",
+   "bis": "2027-06-10",
+   "ort": "Winterthurer Bibliotheken Hegi",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-10/"
   },
   {
    "gemeinden": [
@@ -32770,6 +36351,34 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/2019/eventdate/1467"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33134-0",
+   "name": "Miniclub Bibliothek Töss",
+   "von": "2027-06-11",
+   "bis": "2027-06-11",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-11/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32936-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-06-12",
+   "bis": "2027-06-12",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-10/"
   },
   {
    "gemeinden": [
@@ -32883,6 +36492,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33157-0",
+   "name": "Miniclub Bibliothek Wülflingen",
+   "von": "2027-06-15",
+   "bis": "2027-06-15",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen-3/"
+  },
+  {
+   "gemeinden": [
     "urdorf"
    ],
    "id": "urdorf-7714906",
@@ -32989,6 +36612,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33112-0",
+   "name": "Miniclub Bibliothek Oberwinterthur",
+   "von": "2027-06-17",
+   "bis": "2027-06-17",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-6/"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818736",
@@ -33071,6 +36708,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33113-0",
+   "name": "Miniclub Bibliothek Oberwinterthur",
+   "von": "2027-06-18",
+   "bis": "2027-06-18",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-7/"
+  },
+  {
+   "gemeinden": [
     "f"
    ],
    "id": "f-7700698",
@@ -33082,6 +36733,24 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.faellanden.ch/_rte/anlass/7700698"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33192-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-06-19",
+   "bis": "2027-06-19",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-9/"
   },
   {
    "gemeinden": [
@@ -33169,6 +36838,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33152-0",
+   "name": "Miniclub Bibliothek Veltheim",
+   "von": "2027-06-22",
+   "bis": "2027-06-22",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-6/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-themenabend-uebergaenge-1",
@@ -33180,6 +36863,20 @@ window.FAMILIENAGENDA = {
    "time": "19.00 - 21.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/zusammenleben/familienfreizeit/themenabend-uebergaenge.html?calentry=1"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32802-0",
+   "name": "Bücherzwerge Bibliothek Hegi",
+   "von": "2027-06-23",
+   "bis": "2027-06-23",
+   "ort": "Bibliothek Hegi",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-17/"
   },
   {
    "gemeinden": [
@@ -33257,6 +36954,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33120-0",
+   "name": "Miniclub Bibliothek Seen",
+   "von": "2027-06-23",
+   "bis": "2027-06-23",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-seen-7/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33177-0",
+   "name": "Robotik-Lab",
+   "von": "2027-06-23",
+   "bis": "2027-06-23",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-18/"
+  },
+  {
+   "gemeinden": [
     "pfaeffikon"
    ],
    "id": "pfaeffikon-10006471",
@@ -33313,6 +37042,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32813-0",
+   "name": "Bücherzwerge Bibliothek Oberwinterthur",
+   "von": "2027-06-25",
+   "bis": "2027-06-25",
+   "ort": "Bibliothek Oberwinterthur",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-17/"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7621357",
@@ -33349,6 +37092,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33052-0",
+   "name": "Geschichtenkiste Stadtbibliothek Winterthur",
+   "von": "2027-06-25",
+   "bis": "2027-06-25",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-8/"
+  },
+  {
+   "gemeinden": [
     "elgg"
    ],
    "id": "elgg-1796-2076",
@@ -33363,6 +37120,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33153-0",
+   "name": "Miniclub Bibliothek Veltheim",
+   "von": "2027-06-25",
+   "bis": "2027-06-25",
+   "ort": "Bibliothek Veltheim",
+   "veranstalter": "",
+   "time": "09.30 - 10.15",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-7/"
+  },
+  {
+   "gemeinden": [
     "buchamirchel"
    ],
    "id": "buchamirchel-7593205",
@@ -33374,6 +37145,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.30",
    "age": null,
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593205"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32911-0",
+   "name": "Bücherzwerge Bibliothek Seen",
+   "von": "2027-06-26",
+   "bis": "2027-06-26",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-12/"
   },
   {
    "gemeinden": [
@@ -33641,6 +37426,38 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33058-0",
+   "name": "Geschichtenkiste in der Bibliothek Töss für Kinder von 3 bis 6 Jahren",
+   "von": "2027-07-02",
+   "bis": "2027-07-02",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-toess-fuer-kinder-von-3-bis-6-jahren-6/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32916-0",
+   "name": "Bücherzwerge Bibliothek Töss",
+   "von": "2027-07-03",
+   "bis": "2027-07-03",
+   "ort": "Bibliothek Töss",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-9/"
+  },
+  {
+   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7778164",
@@ -33793,6 +37610,24 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33044-0",
+   "name": "Geschichtenkiste in der Bibliothek Seen für Kinder von 3 bis 6 Jahren",
+   "von": "2027-07-07",
+   "bis": "2027-07-07",
+   "ort": "Bibliothek Seen",
+   "veranstalter": "",
+   "time": "16.00 - 16.30",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.kinderthur.ch/events/geschichtenkiste-in-der-bibliothek-seen-fuer-kinder-von-3-bis-6-jahren-6/"
+  },
+  {
+   "gemeinden": [
     "ws"
    ],
    "id": "ws-7699042",
@@ -33826,6 +37661,38 @@ window.FAMILIENAGENDA = {
     "label": "0 bis 4 Jahre"
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7817026"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32831-0",
+   "name": "Pasta per tutti",
+   "von": "2027-07-07",
+   "bis": "2027-07-07",
+   "ort": "Kirchgemeindehaus Liebestrasse",
+   "veranstalter": "",
+   "time": "12.00 - 14.00",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/pasta-per-tutti-6/"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33178-0",
+   "name": "Robotik-Lab",
+   "von": "2027-07-07",
+   "bis": "2027-07-07",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 10,
+    "max": 12,
+    "label": "ab 10 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/robotik-lab-19/"
   },
   {
    "gemeinden": [
@@ -33911,6 +37778,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt32937-0",
+   "name": "Bücherzwerge Bibliothek Wülflingen",
+   "von": "2027-07-10",
+   "bis": "2027-07-10",
+   "ort": "Bibliothek Wülflingen",
+   "veranstalter": "",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-11/"
+  },
+  {
+   "gemeinden": [
     "knonau"
    ],
    "id": "knonau-4151-2984",
@@ -33922,6 +37803,24 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4151/eventdate/2984"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33193-0",
+   "name": "Storie per piccoli lettori",
+   "von": "2027-07-10",
+   "bis": "2027-07-10",
+   "ort": "Stadtbibliothek Winterthur",
+   "veranstalter": "",
+   "time": "10.30 - 11.30",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/storie-per-piccoli-lettori-10/"
   },
   {
    "gemeinden": [
