@@ -1,30 +1,26 @@
 [
  {
-  "l": "RAW w1",
-  "u": "https://stadt.winterthur.ch/themen/freizeit-sport/quartiere-zusammenleben-vereine/vereinsverzeichnis",
-  "s": 200,
-  "f": "https://stadt.winterthur.ch/themen/freizeit-sport/quartiere-zusammenleben-vereine/vereinsverzeichnis",
-  "title": "Vereinsverzeichnis | Stadt Winterthur"
+  "l": "RAW o1",
+  "u": "https://ogc.winterthur.ch/directories/vereinsverzeichnis",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
  },
  {
-  "l": "RAW w2",
-  "u": "https://stadt.winterthur.ch/themen/freizeit-sport/quartiere-zusammenleben-vereine/sportvereine",
-  "s": 200,
-  "f": "https://stadt.winterthur.ch/themen/freizeit-sport/quartiere-zusammenleben-vereine/sportvereine",
-  "title": "Sportvereine | Stadt Winterthur"
+  "l": "RAW o2",
+  "u": "https://ogc.winterthur.ch/directories/vereinsverzeichnis/+export?format=json",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
  },
  {
-  "l": "RAW z1",
-  "u": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sportorganisationen.html",
-  "s": 200,
-  "f": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sportorganisationen.html",
-  "title": "Sportorganisationen | Stadt Zürich"
+  "l": "RAW o3",
+  "u": "https://ogc.winterthur.ch/directories/vereinsverzeichnis/+json",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
  },
  {
-  "l": "RAW z2",
-  "u": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-fuer-kinder-jugendliche.html",
-  "s": 200,
-  "f": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-fuer-kinder-jugendliche.html",
-  "title": "Sport für Kinder und Jugendliche | Stadt Zürich"
+  "l": "RAW s1",
+  "u": "https://sportanlagen.winterthur.ch/sportangebote.php",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
  }
 ]
