@@ -1,0 +1,858 @@
+staefa|bad|Seebad Lattenberg | https://www.badi-info.ch/zh/staefa-seebad.html
+staefa|bad|Strandbad Uerikon | https://www.badi-info.ch/zh/uerikon-seebad.html
+staefa|bib|Gemeindebibliothek Stäfa | http://www.lesegesellschaft.ch/bibliothek/
+staefa|kita|Kita Müüsliburg | https://www.muusliburg.ch/
+staefa|kita|Teddybär | https://www.teddybaer-staefa.ch/
+staefa|zentrum|Mutter-Kind Haus | https://hausuerikon.ch/
+zuerich|bad|Flussbad Au-Höngg | https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/flussbad_au_hoengg.html#
+zuerich|bad|Flussbad Unterer Letten | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/unterer-letten.html
+zuerich|bad|Frauenbad Stadthausquai | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/stadthausquai.html
+zuerich|bad|Freibad Auhof | https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_auhof.html
+zuerich|bad|Freibad Seebach | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/seebach.html
+zuerich|bad|Hallenbad Altstetten | https://www.bad-altstetten.ch/
+zuerich|bad|Hallenbad Bläsi | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/hallenbaeder/blaesi.html
+zuerich|bad|Hallenbad Bungertwies | https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/hallenbaeder/hallenbad_bungertwies/
+zuerich|bad|Hallenbad City | https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/hallenbaeder/hallenbad_city/
+zuerich|bad|Hallenbad Oerlikon | https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/hallenbaeder/hallenbad_oerlikon/
+zuerich|bad|Hammam & Spa, Stadtbad Zürich | https://stadtbadzuerich.ch
+zuerich|bad|Hammam Basar | https://www.hammambasar.ch/
+zuerich|bad|Keen | https://www.keenwellbeing.com/
+zuerich|bad|Schulschwimmanlage Aubrücke | https://www.schwimmschulezuerich.ch/aubr%C3%BCcke
+zuerich|bad|Schulschwimmanlage Borrweg | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/hallenbaeder/borrweg.html
+zuerich|bad|Schulschwimmanlage Riesbach | https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/schulschwimmbaeder/riesbach.html
+zuerich|bad|Seebad Enge | https://www.seebadenge.ch/
+zuerich|bad|Seebad Katzensee | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/katzensee.html
+zuerich|bad|Seebad Utoquai | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/utoquai.html
+zuerich|bad|Strandbad Mythenquai | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/mythenquai.html
+zuerich|bad|Strandbad Tiefenbrunnen | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/tiefenbrunnen.html
+zuerich|bad|Strandbad Wollishofen | https://www.stadt-zuerich.ch/ssd/de/index/sport/schwimmen/sommerbaeder/strandbad_wollishofen.html
+zuerich|bad|Thermalbad & Spa Zürich | https://www.aquaspa.ch/de/huerlimannbad-zuerich/
+zuerich|bad|Wärmebad Käferberg | https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/hallenbaeder/waermebad_kaeferberg/
+zuerich|bib|Archiv für Zeitgeschichte der ETH Zürich | http://www.afz.ethz.ch/
+zuerich|bib|Baugeschichtliches Archiv | https://www.stadt-zuerich.ch/hbd/de/index/archaeologie_denkmalpflege_u_baugeschichte/baugeschichte.html
+zuerich|bib|Bibliothek der Institute für Systematische Botanik und für Pflanzenbiologie | http://www.botlib.uzh.ch/de.html
+zuerich|bib|Bibliothek der Museumsgesellschaft | http://www.museumsgesellschaft.ch/bibliothek
+zuerich|bib|Bibliothek der Vetsuisse-Fakultät | https://www.ub.uzh.ch/de/ub-besuchen/standorte/veterinaermedizin.html
+zuerich|bib|Bibliothek des Schweizerischen Instituts für Kinder- und Jugendmedien SIKJM | https://www.sikjm.ch/bibliothek-spyri-archiv/
+zuerich|bib|Bibliothek des Schweizerischen Nationalmuseums | https://www.landesmuseum.ch/bibliothek
+zuerich|bib|Bibliothek für Betriebswirtschaft, BfB | http://www.business.uzh.ch/de/library.html
+zuerich|bib|Bibliothek Museum Rietberg | https://rietberg.ch/bibliothek
+zuerich|bib|Bibliothek PH Zürich | https://phzh.ch/bibliothek
+zuerich|bib|ETH-Bibliothek | http://www.library.ethz.ch/de
+zuerich|bib|ETH-Bibliothek HDB | http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/ETH-Bibliothek-HDB
+zuerich|bib|Fachbibliothek zur Gleichstellung von Frau und Mann | https://www.stadt-zuerich.ch/prd/de/index/gleichstellung/bibliothek.secure.html
+zuerich|bib|Forschungsbibliothek Pestalozzianum | http://www.hbz.uzh.ch/bibapp/?bib=UPBEB
+zuerich|bib|GESS-Bibliothek | http://www.library.ethz.ch/de/Kontakt/Standorte-Adressen-Oeffnungszeiten/GESS-Bibliothek
+zuerich|bib|Graphische Sammlung | http://www.gs.ethz.ch/index.html
+zuerich|bib|Grüne Bibliothek | http://www.library.ethz.ch/Kontakt/Standorte-Adressen-Oeffnungszeiten/Gruene-Bibliothek
+zuerich|bib|HfH-Bibliothek | https://www.hfh.ch/bibliothek
+zuerich|bib|ICZ Bibliothek | https://icz.org/institutionen/bibliothek/
+zuerich|bib|Infozentrum Chemie Biologie Pharmazie | https://infozentrum.ethz.ch
+zuerich|bib|Jesuitenbibliothek | https://www.jesuitenbibliothek.ch/
+zuerich|bib|Kinderbibliothek Friesenberg | https://www.friesi.ch/kinderbibliothek
+zuerich|bib|Kunsthaus Bibliothek | https://www.kunsthaus.ch/bibliothek/
+zuerich|bib|Mathematik-Bibliothek | https://www.math.ethz.ch/services/library.html
+zuerich|bib|PBZ Bibliothek Affoltern | https://www.pbz.ch/location/affoltern/
+zuerich|bib|PBZ Bibliothek Altstetten | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/altstetten/
+zuerich|bib|PBZ Bibliothek Aussersihl | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/aussersihl/
+zuerich|bib|PBZ Bibliothek Hardau | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/hardau/
+zuerich|bib|PBZ Bibliothek Höngg | https://www.pbz.ch/location/hoengg/
+zuerich|bib|PBZ Bibliothek Oerlikon | https://www.pbz.ch/location/pbz-oerlikon/
+zuerich|bib|PBZ Bibliothek Riesbach | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/riesbach/
+zuerich|bib|PBZ Bibliothek Schwamendingen | https://www.pbz.ch/location/pbz-schwamendingen/
+zuerich|bib|PBZ Bibliothek Sihlcity | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/sihlcity/
+zuerich|bib|PBZ Bibliothek Unterstrass | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/unterstrass/
+zuerich|bib|PBZ Bibliothek Witikon | http://www.pbz.ch/standorte/standorte-und-oeffnungszeiten/witikon/
+zuerich|bib|PBZ Leimbach | https://www.pbz.ch/location/leimbach/
+zuerich|bib|Pestalozzi-Bibliothek Altstadt | https://www.pbz.ch/location/pbz-altstadt/
+zuerich|bib|Physikbibliothek | https://www.phys.ethz.ch/de/dienste-und-berufsbildung/physikbibliothek.html
+zuerich|bib|Rechtswissenschaftliche Bibliothek, RWI Bibliothek | https://www.ius.uzh.ch/de/library.html
+zuerich|bib|Schul- und Kinderbibliothek Heuried | http://www.skbheuried.ch/
+zuerich|bib|Schweizerische Bibliothek für Blinde und Seh- und Lesebehinderte | http://www.sbs.ch
+zuerich|bib|Schweizerisches Sozialarchiv | https://www.sozialarchiv.ch/bibliothek/
+zuerich|bib|SNB-Bibliothek Zürich | https://www.snb.ch/de/services-events/on-site-services/library
+zuerich|bib|Staatsarchiv des Kantons Zürich, Bibliothek | http://www.staatsarchiv.zh.ch/
+zuerich|bib|Standort Geschichte, Universitätsbibliothek Zürich | https://www.ub.uzh.ch/de/ub-besuchen/standorte/geschichte.html
+zuerich|bib|Universitätsbibliothek Psychologie | https://www.ub.uzh.ch/de/ub-besuchen/standorte/psychologie.html
+zuerich|bib|Universitätsbibliothek, Völkerkundemuseum | https://ub.uzh.ch/de/ub-besuchen/standorte/voelkerkundemuseum.html
+zuerich|bib|UZH Englisches Seminar Bibliothek | http://www.es.uzh.ch/en/Library.html
+zuerich|bib|Zentralbibliothek Zürich | http://www.zb.uzh.ch/
+zuerich|kita|7 Bears Kindergarten und -krippe | https://www.7-bears.ch/
+zuerich|kita|ABB Kinderkrippe Mupfelchischte | https://www.abbkinderkrippen.ch/krippen-horte/mupfelchischte-oerlikon/
+zuerich|kita|ABB Kinderkrippe Zwärgehuus | https://www.abbkinderkrippen.ch/krippen-horte/zwaergehuus-oerlikon/
+zuerich|kita|Academicus | https://www.academicus.co/
+zuerich|kita|Allegra Kinderhaus Im Birch | https://unsere-champions.ch/imbirch/
+zuerich|kita|Altstetter Morgen-Mittag-Abendhort 1-2-3 | https://www.stadt-zuerich.ch/schulen/de/altstetterstrasse/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Arnikahof + Arnikahof 2 Morgen/Mittag/Abendhort | https://www.stadt-zuerich.ch/schulen/de/huerstholz/betreuung/standorte.html
+zuerich|kita|Auzelg 1 Morgen-Mittag-Abendhort | https://www.stadt-zuerich.ch/content/schulen/de/auzelg/betreuung/standorte.html
+zuerich|kita|Auzelg 2 Mittag-Abendhort | https://www.stadt-zuerich.ch/schulen/de/auzelg/betreuung/standorte.html
+zuerich|kita|Auzelg 3 Morgen-Mittag-Abendhort | https://www.stadt-zuerich.ch/schulen/de/auzelg/betreuung/standorte.html
+zuerich|kita|Balber 1 (Mittag-/Abendhort) | https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html
+zuerich|kita|Balgrist Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/balgrist/betreuung/standorte.html
+zuerich|kita|Bethanien | https://kitas-bethanien.ch/altstetten/
+zuerich|kita|Blumenfeld Morgen-Mittag-Abendhort | https://www.stadt-zuerich.ch/schulen/de/blumenfeld/betreuung/standorte.html
+zuerich|kita|Brandschenke 1+2 Morgen-/Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html
+zuerich|kita|Brunnenhof Morgentisch, Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html#hort_brunnenhof
+zuerich|kita|Chinderhuus Kaya | https://www.krippenverein.ch/
+zuerich|kita|d'Insle | https://www.dinsle-sprungbrett.ch/de
+zuerich|kita|Erfinder Treff | https://spielgruppe-erfindertreff.ch
+zuerich|kita|Ernahof Mittag-/Abendhort | https://www.stadt-zuerich.ch/content/schulen/de/sihlfeld/betreuung/standorte.html#hort_erna
+zuerich|kita|Frida Krippe | http://www.fridakrippe.ch/
+zuerich|kita|Fuchsia | https://www.kita-fuchsia.ch/
+zuerich|kita|GFZ | https://gfz-zh.ch/
+zuerich|kita|GFZ 10 | http://www.gfz-zh.ch/kita-10
+zuerich|kita|GFZ Kindertagesstätte 4 | https://gfz-zh.ch/
+zuerich|kita|GFZ Kindertagesstätte 5 | http://www.gfz-zh.ch/kita-5
+zuerich|kita|GFZ Kindertagesstätte Zürich 3 | http://www.gfz-zh.ch/kita-3-0
+zuerich|kita|Globegarden | https://www.globegarden.ch/
+zuerich|kita|globegarden childcare | https://www.globegarden.ch/locations/thurgauerstrasse
+zuerich|kita|Grimselzwerge | https://www.grimselzwerge.ch/
+zuerich|kita|Grünau 3+4 - Morgen-Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/gruenau/betreuung/standorte.html
+zuerich|kita|Grütli 1-2-3 Morgen-/Mittag-/Abendbetreuung | https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html
+zuerich|kita|Güxi Kinderhort | https://www.guexi.ch/de/standorte
+zuerich|kita|Güxi Kinderkrippe | https://www.guexi.ch/de/standorte
+zuerich|kita|Güxi Kinderkrippe Albisriederplatz Ost | https://www.guexi.ch/de/standorte
+zuerich|kita|Güxi Kinderkrippe Friesenberg Binz | https://www.guexi.ch/de/standorte
+zuerich|kita|Güxi Kinderkrippe Schwamendingen | https://www.guexi.ch/de/standorte
+zuerich|kita|Güxi Kinderkrippe Sonnenberg | https://www.guexi.ch/de/standorte
+zuerich|kita|Hammer Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/hirslanden_primar/betreuung/standorte.html#hort_hammerstrasse
+zuerich|kita|Heilighüsli Mittag-/Abendhort | https://www.stadt-zuerich.ch/content/schulen/de/langmatt/betreuung/standorte.html
+zuerich|kita|Hort Buchholz und Witikon | https://www.stadt-zuerich.ch/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/zuerichberg/schulen/langmatt_schuleinheit/horte_betreuung.html
+zuerich|kita|Hort Hohl 1 und Kern 1+2 | https://www.stadt-zuerich.ch/schulen/de/aussersihl/betreuung/standorte.html
+zuerich|kita|Hort Sihlfeld A-B-C + Bullingerhof 2 | https://www.stadt-zuerich.ch/content/schulen/de/sihlfeld/betreuung/standorte.html
+zuerich|kita|Hügel Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html
+zuerich|kita|Im Herrlig 2 Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/imherrlig/betreuung/standorte.html
+zuerich|kita|Irchelkindergarten und Irchelkrippe | https://www.irchelkrippe.ch/
+zuerich|kita|Joey | https://www.joey-kinderkrippe.ch/
+zuerich|kita|Kicher-Erbsen | https://www.kicher-erbsen.ch
+zuerich|kita|Kiddi | https://kitakiddi.ch/kita-kiddi-2-freilagerstrasse/
+zuerich|kita|KiddieLand | https://www.kiddieland.ch/
+zuerich|kita|Kids & Co Kindertagesstätte Tiergarten | https://www.profawo.ch/angebot/tageskindergarten/zuerich/sieberstrasse/
+zuerich|kita|kihz Hönggerberg | https://www.kihz.uzh.ch/de/kitas/kihz-hoenggerberg.html
+zuerich|kita|kihz Platten | https://www.kihz.uzh.ch/de/kitas/kihz-platten.html
+zuerich|kita|kihz Sumatra | http://www.kihz.ch
+zuerich|kita|kihz Tierspital | https://www.kihz.uzh.ch/de/kitas/kihz-tierspital.html
+zuerich|kita|Kindergarten Honeggerweg 1 + 2 und Kinderhort | https://www.stadt-zuerich.ch/schulen/de/wollishofen/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kindergarten und -hort Glaubten | https://www.stadt-zuerich.ch/schulen/de/schauenberg/ueberuns/standorte/kindergaerten.html#kindergarten_glaubten
+zuerich|kita|Kindergarten und Hort 1 + 2 Am Wasser | https://www.stadt-zuerich.ch/schulen/de/amwasser/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kindergarten und Hort Am Wettingertobel | https://www.stadt-zuerich.ch/schulen/de/vogtsrain/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kindergarten und Hort Buchegg 1 | https://www.stadt-zuerich.ch/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/waidberg/schulen/allenmoos_schuleinheit/horte_betreuung.html
+zuerich|kita|Kindergarten und Hort Frauentalweg | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kindergarten und Hort Lochergut | https://www.stadt-zuerich.ch/schulen/de/sihlfeld/ueberuns/standorte/kindergaerten.html#kindergarten_lochergut
+zuerich|kita|Kindergarten und Hort Maaghof | https://www.stadt-zuerich.ch/schulen/de/pfingstweid/ueberuns/standorte/kindergaerten.html#kindergarten_maaghof
+zuerich|kita|Kindergarten und Hort Zollstrasse | https://www.stadt-zuerich.ch/schulen/de/limmat/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhaus Bozza Lukashof | http://www.kinderhaus-am-stauffacher.ch/
+zuerich|kita|Kinderhor im Birch 1-8 | https://www.stadt-zuerich.ch/schulen/de/imbirch/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort / Mensa Leimbach 1, 2, 3 | https://www.stadt-zuerich.ch/schulen/de/falletsche/betreuung/standorte.html
+zuerich|kita|Kinderhort Bläse 1+2 | https://www.stadt-zuerich.ch/schulen/de/blaesi/betreuung/standorte.html
+zuerich|kita|Kinderhort Buchlern 2 | https://www.stadt-zuerich.ch/content/schulen/de/buchlern/betreuung/standorte.html
+zuerich|kita|Kinderhort Buchwiesen 1 - 4 | https://www.stadt-zuerich.ch/schulen/de/buchwiesen/betreuung/standorte.html
+zuerich|kita|Kinderhort Bühl 1, 2, 3, 4 Morgen/Mittag/Abend | https://www.stadt-zuerich.ch/content/schulen/de/buehl/betreuung/standorte.html
+zuerich|kita|Kinderhort Buhn 1-3 | https://www.stadt-zuerich.ch/schulen/de/buhn/betreuung/standorte.html
+zuerich|kita|Kinderhort Buhnrain | https://www.stadt-zuerich.ch/schulen/de/buhn/betreuung/standorte.html
+zuerich|kita|Kinderhort Chriesiweg 3 | https://www.stadt-zuerich.ch/content/schulen/de/chriesiweg/betreuung/standorte.html
+zuerich|kita|Kinderhort Dachslern 1+3 | https://www.stadt-zuerich.ch/schulen/de/dachslernstrasse/betreuung/standorte.html#dachslern_i
+zuerich|kita|Kinderhort Dachslern 2 | https://www.stadt-zuerich.ch/schulen/de/dachslernstrasse/betreuung/standorte.html#dachslern_i
+zuerich|kita|Kinderhort Döltschi - Mittag | https://www.stadt-zuerich.ch/schulen/de/doeltschi/ueberuns/standorte/schulhaus.html
+zuerich|kita|Kinderhort Döltschweg 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/amuetliberg/betreuung/standorte.html#doeltschihalde
+zuerich|kita|Kinderhort Dorfstrasse - Morgen/Mittag/Abend | https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#dorfstrasse
+zuerich|kita|Kinderhort Eichrain 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/kolbenacker/betreuung/standorte.html
+zuerich|kita|Kinderhort ELCH Frieden | https://www.stadt-zuerich.ch/schulen/de/riedenhalden/betreuung/standorte.html
+zuerich|kita|Kinderhort Ettenfeld 1 | https://www.stadt-zuerich.ch/schulen/de/kolbenacker/betreuung/standorte.html
+zuerich|kita|Kinderhort Falletsche 1, 2, 3, 4 | https://www.stadt-zuerich.ch/content/schulen/de/falletsche/betreuung/standorte.html#falletsche_1_und2
+zuerich|kita|Kinderhort Feld (Mittaghort) | https://www.stadt-zuerich.ch/schulen/de/feld/betreuung/standorte.html
+zuerich|kita|Kinderhort Feldblumen | https://www.stadt-zuerich.ch/schulen/de/dachslernstrasse/betreuung/standorte.html
+zuerich|kita|Kinderhort Fluntern 1+2+3 | https://www.stadt-zuerich.ch/content/schulen/de/fluntern/betreuung/standorte.html
+zuerich|kita|Kinderhort Fluntern Pavillon | https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html
+zuerich|kita|Kinderhort Freilager 1+2+3 | https://www.stadt-zuerich.ch/schulen/de/untermoos/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort Gabler 3 | https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html
+zuerich|kita|Kinderhort Georg Kempf - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/holderbach/betreuung/standorte.html
+zuerich|kita|Kinderhort Glaubten 2 | https://www.stadt-zuerich.ch/content/schulen/de/schauenberg/betreuung/standorte.html#glaubten_2
+zuerich|kita|Kinderhort Glauten 1+4 | https://www.stadt-zuerich.ch/content/schulen/de/schauenberg/betreuung/standorte.html
+zuerich|kita|Kinderhort Graphis 1 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/probstei/betreuung/standorte.html
+zuerich|kita|Kinderhort Grosswiesen 2 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/hirzenbach/betreuung/standorte.html#grosswiesenstrasse143
+zuerich|kita|Kinderhort Grünau 1 + Morgentisch | https://www.stadt-zuerich.ch/schulen/de/gruenau/betreuung/standorte.html
+zuerich|kita|Kinderhort Grünau 2 | https://www.stadt-zuerich.ch/schulen/de/gruenau/betreuung/standorte.html
+zuerich|kita|Kinderhort Grünmatt 1, 2, 3 | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/betreuung/standorte.html
+zuerich|kita|Kinderhort Gubel 1 | https://www.stadt-zuerich.ch/content/schulen/de/gubel/betreuung/standorte.html
+zuerich|kita|Kinderhort GZ Affoltern | https://www.stadt-zuerich.ch/schulen/de/imisengrind/betreuung/standorte.html
+zuerich|kita|Kinderhort GZ Riesbach Mittagstisch | https://www.stadt-zuerich.ch/schulen/de/riesbach/betreuung/standorte.html#gz_riesbach
+zuerich|kita|Kinderhort Hadlaub 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/fluntern/betreuung/standorte.html
+zuerich|kita|Kinderhort Hardau 1 | https://www.stadt-zuerich.ch/schulen/de/hardau/betreuung/standorte.html
+zuerich|kita|Kinderhort Hardau 2,3,4,5,6,7 | https://www.stadt-zuerich.ch/schulen/de/hardau/betreuung/standorte.html
+zuerich|kita|Kinderhort Hardturm 1 + 2 | https://www.stadt-zuerich.ch/schulen/de/amwasser/betreuung/standorte.html
+zuerich|kita|Kinderhort Heideggerweg 1+2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/saatlen/betreuung/standorte.html#heideggerweg
+zuerich|kita|Kinderhort Heiligfeld - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/utogrund/betreuung/standorte.html
+zuerich|kita|Kinderhort Herbstweg - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/saatlen/betreuung/standorte.html#heideggerweg
+zuerich|kita|Kinderhort Heubeeribüel 1 | https://www.stadt-zuerich.ch/schulen/de/fluntern/ueberuns/kontakt/betreuungspersonen.html#morgentisch_heubeeribueel
+zuerich|kita|Kinderhort Heumatt 3 | https://www.stadt-zuerich.ch/content/schulen/de/himmeri/betreuung/standorte.html
+zuerich|kita|Kinderhort Hirschengraben | https://www.stadt-zuerich.ch/content/schulen/de/hirschengraben/betreuung/standorte.html#hirschengraben
+zuerich|kita|Kinderhort Hirzenbach - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/hirzenbach/betreuung/standorte.html
+zuerich|kita|Kinderhort Hofwiesenstrasse - Mittag | https://www.stadt-zuerich.ch/schulen/de/milchbuck/betreuung/standorte.html
+zuerich|kita|Kinderhort Höngger - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#hoenggerstrasse
+zuerich|kita|Kinderhort Hönggerstrasse - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#hoenggerstrasse
+zuerich|kita|Kinderhort Hornbach 1, 3, 6 | https://www.stadt-zuerich.ch/schulen/de/holderbach/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort Hürstholz | https://www.stadt-zuerich.ch/content/schulen/de/huerstholz/betreuung/standorte.html#huerstholz
+zuerich|kita|Kinderhort Hürstholz 3 | https://www.stadt-zuerich.ch/content/schulen/de/huerstholz/betreuung/standorte.html#huerstholz
+zuerich|kita|Kinderhort Hutten 1,2,3,4 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/hutten/betreuung.html
+zuerich|kita|Kinderhort Im Gut | https://www.stadt-zuerich.ch/schulen/de/imgut/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort im Herlig 1+4+6 | https://www.stadt-zuerich.ch/content/schulen/de/imherrlig/betreuung/standorte.html
+zuerich|kita|Kinderhort Imfeld 1+2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#imfeld_1
+zuerich|kita|Kinderhort In Böden 1+2 | https://www.stadt-zuerich.ch/schulen/de/riedenhalden/betreuung/standorte.html#in_boeden_1_2
+zuerich|kita|Kinderhort In der Ey 1 | https://www.stadt-zuerich.ch/content/schulen/de/inderey/betreuung/standorte.html
+zuerich|kita|Kinderhort In der Ey 2 | https://www.stadt-zuerich.ch/content/schulen/de/inderey/betreuung/standorte.html
+zuerich|kita|Kinderhort In der Ey 3 | https://www.stadt-zuerich.ch/content/schulen/de/inderey/betreuung/standorte.html
+zuerich|kita|Kinderhort In der Ey 4+5 | https://www.stadt-zuerich.ch/schulen/de/inderey/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort Isengrind 1 Morgen / Mittag / Abend | https://www.stadt-zuerich.ch/schulen/de/imisengrind/betreuung/standorte.html
+zuerich|kita|Kinderhort Isengrind 2 Mittag / Abend | https://www.stadt-zuerich.ch/schulen/de/imisengrind/betreuung/standorte.html
+zuerich|kita|Kinderhort Jugendrestaurant Küngenmatt 3 | https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html#kuengenmatt_1
+zuerich|kita|Kinderhort Käferholz | https://www.stadt-zuerich.ch/content/schulen/de/kaeferholz/betreuung/standorte.html
+zuerich|kita|Kinderhort Kappeli 1+6 | https://www.stadt-zuerich.ch/schulen/de/kappeli_primar/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort Kappeli 3 | https://www.stadt-zuerich.ch/schulen/de/kappeli_primar/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort Kappeli 4 | https://www.stadt-zuerich.ch/content/schulen/de/kappeli_primar/betreuung/standorte.html
+zuerich|kita|Kinderhort Kappeli 5 | https://www.stadt-zuerich.ch/content/schulen/de/kappeli_primar/betreuung/standorte.html
+zuerich|kita|Kinderhort Kartaus | https://www.stadt-zuerich.ch/schulen/de/kartaus/ueberuns/standorte/kindergaerten.html
+zuerich|kita|Kinderhort Kilchberg 2 | https://www.stadt-zuerich.ch/schulen/de/hansasper/betreuung/standorte.html
+zuerich|kita|Kinderhort Kolbenacker C | https://www.stadt-zuerich.ch/content/schulen/de/kolbenacker/betreuung/standorte.html#kolbenacker_f
+zuerich|kita|Kinderhort Kornhaus 1+2 | https://www.stadt-zuerich.ch/schulen/de/kornhaus/betreuung/standorte.html
+zuerich|kita|Kinderhort Kraftwerk (Mittag-/Abendhort) | https://www.stadt-zuerich.ch/schulen/de/pfingstweid/betreuung/standorte.html
+zuerich|kita|Kinderhort Kronenwiese - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#kronenwiese
+zuerich|kita|Kinderhort Kronwiesen - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/luchswiesen/betreuung/standorte.html#kronwiesen
+zuerich|kita|Kinderhort Kügeliloo | https://www.stadt-zuerich.ch/schulen/de/kuegeliloo/ueberuns/standorte/Betreuung.html#kuegeliloo
+zuerich|kita|Kinderhort Landenberg - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/nordstrasse/betreuung/standorte.html#hort_landenberg
+zuerich|kita|Kinderhort Lavater 1+2 | https://www.stadt-zuerich.ch/schulen/de/lavater/betreuung/standorte.html
+zuerich|kita|Kinderhort Leonhard Ragaz | https://www.stadt-zuerich.ch/schulen/de/imgut/betreuung/standorte.html
+zuerich|kita|Kinderhort Letten 1+2 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#letten_1_2
+zuerich|kita|Kinderhort Lettenholz | https://www.stadt-zuerich.ch/content/schulen/de/entlisberg/betreuung/standorte.html
+zuerich|kita|Kinderhort Letzigraben | https://www.stadt-zuerich.ch/schulen/de/aemtler_a/betreuung/standorte.html#mittag_abend-hortaemtlera
+zuerich|kita|Kinderhort Leutschenbach 6 Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/leutschenbach/betreuung/standorte.html
+zuerich|kita|Kinderhort Limmat Sekundarstufe | https://www.stadt-zuerich.ch/content/schulen/de/limmat/betreuung/standorte.html
+zuerich|kita|Kinderhort Limmat Unter-/Mittelstufe | https://www.stadt-zuerich.ch/content/schulen/de/limmat/betreuung/standorte.html
+zuerich|kita|Kinderhort Limmatgut 1 | https://www.stadt-zuerich.ch/content/schulen/de/amwasser/betreuung/standorte.html#limmatgut
+zuerich|kita|Kinderhort Loogarten | https://www.stadt-zuerich.ch/schulen/de/loogarten/betreuung/standorte.html
+zuerich|kita|Kinderhort Loogarten 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/loogarten/betreuung/standorte.html
+zuerich|kita|Kinderhort Loogarten 4 | https://www.stadt-zuerich.ch/schulen/de/loogarten/betreuung/standorte.html
+zuerich|kita|Kinderhort Looren A Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/looren/betreuung/standorte.html#mittag-_abendhortlooren
+zuerich|kita|Kinderhort Luchswiesen - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/luchswiesen/betreuung/standorte.html#luchswiesen
+zuerich|kita|Kinderhort Maienstrasse 1+2 | https://www.stadt-zuerich.ch/schulen/de/kuegeliloo/ueberuns/standorte/Betreuung.html#kuegeliloo
+zuerich|kita|Kinderhort Mattenhof - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/mattenhof/betreuung/standorte.html
+zuerich|kita|Kinderhort Mattenhof 1 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/mattenhof/betreuung/standorte.html
+zuerich|kita|Kinderhort Meiliweg 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/buehl/betreuung/standorte.html#meiliweg_1_2
+zuerich|kita|Kinderhort Milchbuck 1a+2a - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/milchbuck/betreuung/standorte.html
+zuerich|kita|Kinderhort Milchbuck 3+4 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/milchbuck/betreuung/standorte.html
+zuerich|kita|Kinderhort Milchbuck 5 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/milchbuck/betreuung/standorte.html
+zuerich|kita|Kinderhort Mittelstufen-Zentrum Neubühl | https://www.stadt-zuerich.ch/schulen/de/neubuehl/ueberuns/standorte.html
+zuerich|kita|Kinderhort Moos 1 Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html#moos
+zuerich|kita|Kinderhort Mühlebach 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/riesbach/betreuung/standorte.html#muehlebach
+zuerich|kita|Kinderhort Nord 1+2 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/nordstrasse/betreuung/standorte.html
+zuerich|kita|Kinderhort Nordbrücke - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/nordstrasse/betreuung/standorte.html
+zuerich|kita|Kinderhort Nürenberg - Mittag | https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#nuerenberg
+zuerich|kita|Kinderhort Oase - Mittag | https://www.stadt-zuerich.ch/schulen/de/lachenzelg/betreuung/standorte.html
+zuerich|kita|Kinderhort Ottiker - Mittag | https://www.stadt-zuerich.ch/schulen/de/scherr/betreuung/standorte.html
+zuerich|kita|Kinderhort Owenweg | https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html#owenweg
+zuerich|kita|Kinderhort Pavillon Riesbach | https://www.stadt-zuerich.ch/schulen/de/riesbach/betreuung/standorte.html
+zuerich|kita|Kinderhort Pergamin 2 Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/allmend/betreuung/standorte.html
+zuerich|kita|Kinderhort Pfingstweid 1+2 | https://www.stadt-zuerich.ch/schulen/de/pfingstweid/betreuung.html
+zuerich|kita|Kinderhort Probstei - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/probstei/betreuung/standorte.html
+zuerich|kita|Kinderhort Pünten 1 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/riedhof/betreuung/standorte.html#puenten
+zuerich|kita|Kinderhort Riedhof 1+2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/riedhof/betreuung/standorte.html
+zuerich|kita|Kinderhort Riedhof 3 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/riedhof/betreuung/standorte.html
+zuerich|kita|Kinderhort Riedtli 1 - Mittag | https://www.stadt-zuerich.ch/content/schulen/de/riedtli/betreuung/standorte.html
+zuerich|kita|Kinderhort Riesbach - Münchhalde 1+2 | https://www.stadt-zuerich.ch/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/zuerichberg/schulen/kartaus_muenchhalde_schuleinheit/horte_betreuung.html#contenttabs
+zuerich|kita|Kinderhort Rosengarten - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html
+zuerich|kita|Kinderhort Rösli 1 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/weinberg/betreuung/standorte.html#roesli_1
+zuerich|kita|Kinderhort Roswiesen 1+2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/luchswiesen/betreuung/standorte.html#roswiesen
+zuerich|kita|Kinderhort Rotach 1 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html#rotach
+zuerich|kita|Kinderhort Ruggächer 1 + 2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/holderbach/betreuung/standorte.html#morgentisch_und_mittag-abendhortruggaecheri
+zuerich|kita|Kinderhort Rütihof 1+4 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/ruetihof/betreuung/standorte.html
+zuerich|kita|Kinderhort Rütihof 2 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/ruetihof/betreuung/standorte.html
+zuerich|kita|Kinderhort Rütihof 3 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/ruetihof/betreuung/standorte.html
+zuerich|kita|Kinderhort Schaffhauserplatz Weinberg - Mittag-Abend | https://www.stadt-zuerich.ch/content/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/waidberg/schulen/roesli_weinberg_turner_schuleinheit/schulhaus.html
+zuerich|kita|Kinderhort Schaffhauserstrasse - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/milchbuck/betreuung/standorte.html
+zuerich|kita|Kinderhort Schanzengraben 1 | https://www.stadt-zuerich.ch/content/schulen/de/hirschengraben/betreuung/standorte.html#schanzengraben
+zuerich|kita|Kinderhort Schauenberg 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/schauenberg/betreuung/standorte.html#schauenberg_1_2
+zuerich|kita|Kinderhort Scherr 1,2,3 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/scherr/betreuung/standorte.html
+zuerich|kita|Kinderhort Scheuchzerstrasse 1+2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#scheuchzer_1_2
+zuerich|kita|Kinderhort Schütze Unter-/ Mittelstufe | https://www.stadt-zuerich.ch/content/schulen/de/schuetze/betreuung/standorte.html
+zuerich|kita|Kinderhort Seebacher 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/buhn/betreuung/standorte.html#seebacher_1_2
+zuerich|kita|Kinderhort Seefeld, Mittag-/Abendhort Seefeld | https://www.stadt-zuerich.ch/content/schulen/de/riesbach/betreuung/standorte.html#muehlebach
+zuerich|kita|Kinderhort Sihlbogen 1+3 | https://www.stadt-zuerich.ch/content/schulen/de/falletsche/betreuung/standorte.html#sihlbogen_1_und_3
+zuerich|kita|Kinderhort Sihlweid 1+2 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/sihlweid/ueberuns/standorte/kindergaerten.html#kindergaerten_sihlweid12
+zuerich|kita|Kinderhort Stapferstrasse - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/scherr/betreuung/standorte.html
+zuerich|kita|Kinderhort Staudenbühl 1+2 | https://www.stadt-zuerich.ch/content/schulen/de/himmeri/betreuung/standorte.html
+zuerich|kita|Kinderhort Stein 1+2 Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/buehl/betreuung.html
+zuerich|kita|Kinderhort Stettbach - Mittag | https://www.stadt-zuerich.ch/content/schulen/de/stettbach/betreuung/standorte.html
+zuerich|kita|Kinderhort Stiglen 1+2 | https://www.stadt-zuerich.ch/schulen/de/kolbenacker/betreuung/standorte.html#stiglen
+zuerich|kita|Kinderhort Talwiesen 1 + 2 Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/buehl/betreuung/standorte.html
+zuerich|kita|Kinderhort Tiergarten Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/buehl/betreuung/standorte.html#tiergarten
+zuerich|kita|Kinderhort Trotten - Mittag | https://www.stadt-zuerich.ch/schulen/de/waidhalde/betreuung/standorte.html#waidhalde
+zuerich|kita|Kinderhort Turner 1 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#turner_1
+zuerich|kita|Kinderhort Unterer Schweighof - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html
+zuerich|kita|Kinderhort Untermoos 2 | https://www.stadt-zuerich.ch/content/schulen/de/untermoos/betreuung/standorte.html
+zuerich|kita|Kinderhort Untermoos 4 | https://www.stadt-zuerich.ch/schulen/de/untermoos/betreuung/standorte.html
+zuerich|kita|Kinderhort Untermoos 5 | https://www.stadt-zuerich.ch/content/schulen/de/untermoos/betreuung/standorte.html
+zuerich|kita|Kinderhort Untermoos 6 | https://www.stadt-zuerich.ch/schulen/de/untermoos/betreuung/standorte.html
+zuerich|kita|Kinderhort Utogrund - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/utogrund/betreuung/standorte.html
+zuerich|kita|Kinderhort Utogrund 1 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/utogrund/betreuung/standorte.html
+zuerich|kita|Kinderhort Utogrund 3 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/utogrund/betreuung/standorte.html
+zuerich|kita|Kinderhort Vogtsrain 1 Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/vogtsrain/betreuung/standorte.html#vogtsrain_1_mittag-abendhort
+zuerich|kita|Kinderhort Waidhalde 1 bis 7 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#waidhalde
+zuerich|kita|Kinderhort Waidmatt | https://www.stadt-zuerich.ch/schulen/de/riedenhalden/betreuung/standorte.html#waidmatt
+zuerich|kita|Kinderhort Wasserwerk - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/letten/betreuung/standorte.html#wasserwerk
+zuerich|kita|Kinderhort Weinberg 1 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#weinberg_1
+zuerich|kita|Kinderhort Wibichstrasse - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#waidhalde
+zuerich|kita|Kinderhort Winterthurer - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/scherr/betreuung/standorte.html
+zuerich|kita|Kinderhort Winzerhalde 1+2 - Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/riedhof/betreuung/standorte.html#winzerhalde
+zuerich|kita|Kinderhort Wolfswinkel 1+2 - Mittag-Abend | https://www.stadt-zuerich.ch/schulen/de/imisengrind/betreuung/standorte.html
+zuerich|kita|Kinderhort Wollishofen im Lee - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/wollishofen/betreuung/standorte.html
+zuerich|kita|Kinderhort Zanggerweg 1+2 - Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#zangger_1_2
+zuerich|kita|Kinderhorte Küngenmatt 1 - 2 Morgen-Mittag-Abend | https://www.stadt-zuerich.ch/content/schulen/de/kuengenmatt/betreuung/standorte.html#kuengenmatt_1
+zuerich|kita|Kinderia | https://kinderia.ch
+zuerich|kita|Kinderkrippe Apfelblüte | https://www.apfelbluete.ch/standorte/kinderkrippe-witikon
+zuerich|kita|Kinderkrippe Blüemli | https://kitabluemli.ch/
+zuerich|kita|Kinderkrippe Dino | http://www.grow2gether.ch/
+zuerich|kita|Kinderkrippe Dinolina | http://www.grow2gether.ch/KK/DE/Dinolina_DE/Kontakt_Dl_DE.html
+zuerich|kita|Kinderkrippe Gummibärli | https://www.kk-gummibaerli.ch/
+zuerich|kita|Kinderkrippe Harmonie | https://grow2gether.com
+zuerich|kita|Kinderkrippe Nonna Rosa | https://www.kitanonnarosa.ch/startseite.html
+zuerich|kita|Kinderkrippe s'Nuscheli | http://www.kibesu.ch/de_CH/institutions/125
+zuerich|kita|Kinderkrippe Schneeflocke | https://www.kinderkrippeschneeflocke.ch/
+zuerich|kita|Kindertagesstätte Pilgerbrunnen | https://www.vefz.ch/kontakt
+zuerich|kita|Kindertagesstätte Regenbogen | https://www.kita-regenbogen.ch/
+zuerich|kita|Kindervilla Lummerland | http://www.kindervilla-lummerland.ch
+zuerich|kita|Kita & Kiga Blumenwiese | https://kitablumenwiese.ch/
+zuerich|kita|Kita am Wasser | https://kitaamwasser.ch/
+zuerich|kita|KiTa Bethanien Oerlikon | https://bethanien.ch/kita-bethanien-oerlikon
+zuerich|kita|Kita Busi | https://www.kita-buesi.ch/buesi-manegg-zh/
+zuerich|kita|Kita Büsi Höngg | https://www.kita-buesi.ch/
+zuerich|kita|Kita Fuchsia | http://www.kita-fuchsia.ch/
+zuerich|kita|kita fugu | https://www.kitafugu.ch/fugu-kinderkrippe-zuerich-eggbuehl/
+zuerich|kita|Kita Fugu | https://www.kitafugu.ch/
+zuerich|kita|Kita KiBiZ | https://oberstrass.kitakibiz.ch/
+zuerich|kita|Kita Kiddi | https://kitakiddi.ch/kita-kiddi-2-freilagerstrasse/
+zuerich|kita|Kita Leutschenbach | https://www.stadt-zuerich.ch/kita-leutschenbach
+zuerich|kita|Kita Mariakäfer | https://kinderkrippe-mariakaefer.ch/kita-1-zuerich-oerlikon/
+zuerich|kita|Kita Paradies | https://www.stadt-zuerich.ch/kita-paradies
+zuerich|kita|Krippe Krümel | https://www.kinderkrippe-kruemel.ch
+zuerich|kita|Krippe Schiguna Kronenwiese | https://www.schiguna.ch/
+zuerich|kita|Krippe Schmetterling | https://www.krippe-schmetterling.ch/
+zuerich|kita|Langmatt 1 Mittag-/Abendhort | https://www.stadt-zuerich.ch/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/zuerichberg/schulen/langmatt_schuleinheit/horte_betreuung.html
+zuerich|kita|Leutschenbach 1 (Morgentisch) | https://www.stadt-zuerich.ch/schulen/de/leutschenbach/betreuung/standorte.html
+zuerich|kita|Leutschenbach 2 (Mittaghort) | https://www.stadt-zuerich.ch/schulen/de/leutschenbach/betreuung/standorte.html
+zuerich|kita|Leutschenbach 3 (Mittag-/Abendhort) | https://www.stadt-zuerich.ch/schulen/de/leutschenbach/betreuung/standorte.html
+zuerich|kita|Leutschenbach 4 (Mittag-/Abendhort) | https://www.stadt-zuerich.ch/schulen/de/leutschenbach/betreuung/standorte.html
+zuerich|kita|Luna | https://lunakids.ch/
+zuerich|kita|Mittag- und Abendhort Vogtsrain 2 | https://www.stadt-zuerich.ch/content/schulen/de/vogtsrain/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Affoltern 1 + 2 | https://www.stadt-zuerich.ch/schulen/de/kuegeliloo/betreuung/affoltern.html
+zuerich|kita|Mittag-/Abendhort Bernina | https://www.stadt-zuerich.ch/schulen/de/gubel/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Buhn 3 | https://www.stadt-zuerich.ch/schulen/de/buhn/betreuung/abendbetreuung.html
+zuerich|kita|Mittag-/Abendhort Bürglistrasse | https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Fabrikstrasse | https://www.stadt-zuerich.ch/schulen/de/kornhaus/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Fluntern 4+5 | https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Fritschi | https://www.stadt-zuerich.ch/schulen/de/aemtler_a/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Hegianwandweg 1 | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/betreuung/standorte.html#hegianwandweg
+zuerich|kita|Mittag-/Abendhort Höfliweg | https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html#hoefliweg
+zuerich|kita|Mittag-/Abendhort Holderbach 4 | https://www.stadt-zuerich.ch/schulen/de/holderbach/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Kilchberg 1A + 1B | https://www.stadt-zuerich.ch/content/schulen/de/wollishofen/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Kirchenacker | https://www.stadt-zuerich.ch/schulen/de/apfelbaum/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Kleinalbis 1 | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/betreuung/standorte.html#kleinalbis
+zuerich|kita|Mittag-/Abendhort Limmat | https://www.stadt-zuerich.ch/schulen/de/kornhaus/betreuung/standorte.html
+zuerich|kita|Mittag-/Abendhort Schweighof 1 | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/betreuung/standorte.html#schweighof_1
+zuerich|kita|Mittag-/Abendhort Vorderberg | https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html#lokal
+zuerich|kita|Mittag-Abendhort Friesenberg | https://www.stadt-zuerich.ch/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/uto/schulen/am_uetliberg_schuleinheit/horte_betreuung.html
+zuerich|kita|Mittaghort Hillside | https://www.stadt-zuerich.ch/schulen/de/hirschengraben/betreuung/standorte.html#hillside
+zuerich|kita|Mittaghort Lokal | https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html#lokal
+zuerich|kita|Mittaghort Mittagstreff Liguster | https://www.stadt-zuerich.ch/schulen/de/liguster/betreuung/standorte.html
+zuerich|kita|Montessori Kinderhaus | https://montessori-kinderhaus-zurichberg.ch/
+zuerich|kita|Montessori Kinderhaus Quelle | http://www.montessori-schulung.ch/
+zuerich|kita|Morgentisch Hauriweg 2, Mittag-/Abendhort Hauriweg 1 | https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html#hauriweg
+zuerich|kita|Morgentisch, Mittag-/Abendhort Ahorn/Friedrich | https://www.stadt-zuerich.ch/content/schulen/de/ahorn/betreuung/standorte.html
+zuerich|kita|Neumünster-Pavillon Morgen-/Mittag-/Abendhort | https://www.stadt-zuerich.ch/content/schulen/de/hirslanden_primar/betreuung/standorte.html#hort_neumuenster
+zuerich|kita|Orchide | https://www.kitaorchidee.ch/standort-altstetten
+zuerich|kita|PLAYground education | https://www.playground-edu.ch/
+zuerich|kita|Pop E Poppa | https://popepoppa.ch
+zuerich|kita|pop e poppa frechdachs | https://www.popepoppa.ch/
+zuerich|kita|Rachel's Kinderkrippe | https://www.rachelskinderkrippe.ch/
+zuerich|kita|Schweighof 2 (Mittag-/Abendhort) | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/betreuung/standorte.html#schweighof_2
+zuerich|kita|Schweighof 3 Morgen-Mittag-Abendhort | https://www.stadt-zuerich.ch/schulen/de/amuetliberg/betreuung/standorte.html
+zuerich|kita|Sikalino | https://abbkinderkrippen.ch
+zuerich|kita|Spielhuus Elefant | https://www.spielhuuselefant.ch/
+zuerich|kita|Tekmania | https://www.tekmania.ch/
+zuerich|kita|Tiefenbrunnen Morgen-/Mittag-/Abendhort | https://www.stadt-zuerich.ch/ssd/de/index/volksschule/schulkreise_kreisschulbehoerden/zuerichberg/schulen/kartaus_muenchhalde_schuleinheit/horte_betreuung.html
+zuerich|kita|Tobogan | https://www.centrum-cs-curych.ch/
+zuerich|kita|Waldhort Escherhöhe (Mittag-/Abendhort) | https://www.stadt-zuerich.ch/schulen/de/fluntern/ueberuns/kontakt/betreuungspersonen.html#morgentisch_heubeeribueel
+zuerich|kita|Zurlinden 2 Mittag-/Abendhort | https://www.stadt-zuerich.ch/schulen/de/zurlinden/ueberuns/standorte/schulhaus.html
+zuerich|kita|Край Рай | https://krairai.ch/
+zuerich|ludo|Ludothek Kreis 6 | https://ludo-kreis6.ch/
+zuerich|spiel|Tierli Spielgruppe | https://spielgruppezuerich.ch/
+zuerich|zentrum|Gemeinschaftszentrum Affoltern | https://gz-zh.ch/gz-affoltern/
+zuerich|zentrum|Gemeinschaftszentrum Bachwiesen | https://gz-zh.ch/gz-bachwiesen/
+zuerich|zentrum|Gemeinschaftszentrum Buchegg | https://gz-zh.ch/gz-buchegg/
+zuerich|zentrum|Gemeinschaftszentrum Grünau | https://www.gz-zh.ch/gz-gruenau/
+zuerich|zentrum|Gemeinschaftszentrum Heuried | https://gz-zh.ch/gz-heuried/
+zuerich|zentrum|Gemeinschaftszentrum Hirzenbach | https://gz-zh.ch/gz-hirzenbach/
+zuerich|zentrum|Gemeinschaftszentrum Höngg | https://gz-zh.ch/gz-hoengg/
+zuerich|zentrum|Gemeinschaftszentrum Höngg, Standort Rütihof | https://gz-zh.ch/gz-affoltern/
+zuerich|zentrum|Gemeinschaftszentrum Leimbach | https://gz-zh.ch/gz-leimbach/
+zuerich|zentrum|Gemeinschaftszentrum Loogarten | https://www.gz-zh.ch/gz-loogarten/
+zuerich|zentrum|Gemeinschaftszentrum Loogarten - Standort Badenerstrasse | https://gz-zh.ch/gz-loogarten/
+zuerich|zentrum|Gemeinschaftszentrum Oerlikon | https://gz-zh.ch/gz-oerlikon/
+zuerich|zentrum|Gemeinschaftszentrum Riesbach | https://gz-zh.ch/gz-riesbach/
+zuerich|zentrum|Gemeinschaftszentrum Schindlergut | https://gz-zh.ch/gz-schindlergut/
+zuerich|zentrum|Gemeinschaftszentrum Seebach | https://gz-zh.ch/gz-seebach/
+zuerich|zentrum|Gemeinschaftszentrum Wipkingen | https://www.gz-zh.ch/gz-wipkingen/
+zuerich|zentrum|Gemeinschaftszentrum Witikon | https://gz-zh.ch/gz-witikon/
+zuerich|zentrum|Gemeinschaftszentrum Wollishofen | https://gz-zh.ch/gz-wollishofen/
+zuerich|zentrum|GZ Hottingen | https://gz-zh.ch/gz-hottingen/
+zuerich|zentrum|GZ Seebach Standort Leutschenbach | https://gz-zh.ch/gz-seebach/
+zuerich|zentrum|Jugendarbeit | https://gz-zh.ch/gz-seebach/bei-uns/jugendarbeit/
+zuerich|zentrum|Jugendcafe Domino | https://www.st-konrad.ch/gruppen-vereine/jugendliche/jugendcafe-domino/
+zuerich|zentrum|Kinderhaus Entlisberg | https://www.stadt-zuerich.ch/sd/de/index/familien_kinder_jugendliche/kinderbetreuung/stadteigene_kitas/kinderhaus-entlisberg.html
+zuerich|zentrum|Krisenintervention Haus Neumünster | https://www.riesbach.com/
+zuerich|zentrum|Quartierräume Bullinger | https://www.stadt-zuerich.ch/qr-bullingerplatz
+zuerich|zentrum|Quartiertreff Altstadthaus | https://altstadthaus.ch
+zuerich|zentrum|Quartiertreff Enge | https://www.quartiertreff.ch/
+zuerich|zentrum|Quartiertreff Hirslanden | https://www.qth.ch/
+zuerich|zentrum|Quartiertreff Zentralstrasse | https://www.stadt-zuerich.ch/qr-zentralstrasse
+zuerich|zentrum|Quartierzimmer Hardau | https://www.stadt-zuerich.ch/familientreffhard
+zuerich|zentrum|Treff Ofenhalle | https://www.treffpunkt-ofenhalle.ch/
+zuerich|zentrum|Zentrum ELCH Accu | https://www.zentrumelch.ch/
+zuerich|zentrum|Zentrum ELCH Frieden | https://www.zentrumelch.ch/familienzentren-zuerich-elch/familienzentrum-elch-frieden/
+zuerich|zentrum|Zentrum ELCH Regensbergstrasse | https://www.zentrumelch.ch/
+u|bad|Dorfbadi Uster | https://www.badi-info.ch/zh/uster-dorfbadi.html
+u|bad|Hallenbad Uster | https://www.uster.ch/anlagen/9526
+u|bad|Strandbad Uster | https://www.badi-info.ch/zh/uster-strandbad.html
+u|bib|Bibliothek Nänikon | http://www.naenikon.ch/dorf/bibliothek/
+u|bib|Stadt- und Regionalbibilothek | http://www.stadtbibliothek-uster.ch
+u|bib|Stadtarchiv & Kläui Bibliothek | http://www.uster.ch/de/politikverwaltung/verwaltungn/unterinstanzen/welcome.php?amt_id=11723
+u|bib|SwissJazzOrama | https://swissjazzorama.ch/
+u|kita|Chinderhuus im Werk | https://www.chinderhuusimwerk.ch
+u|kita|Fugu Kinderkrippe Uster | https://www.kitafugu.ch/fugu-kinderkrippe-uster/
+u|kita|Globe Garden | https://www.globegarden.ch/locations/stadtpark
+u|kita|Hort im Lot | http://www.hortimlot.ch/
+u|kita|Kindergarten und Krippe Heusser-Staub | https://www.primarschule-uster.ch/kindergartengebaeude/795
+u|kita|Kinderhort kidin.ch | https://kidin.ch/angebote.php?ID=hort
+u|kita|Kinderkrippe Beluga | https://www.wagerenhof.ch/angebot-fuer-menschen-mit-beeintraechtigung/wohnen-mitwirken-arbeiten/integrative-kinderkrippe
+u|kita|Kinderkrippe Heusser-Staub | https://www.kinderkrippeheusserstaub.ch/
+u|kita|Kinderkrippe kidin.ch | https://kidin.ch/angebote.php?ID=kita
+u|kita|Kinderkrippe Mary Poppins | https://kinderkrippe-uster.ch/
+u|kita|Kita Chinderkram | https://kita-chinderkram.ch
+u|kita|KiTa Seegarten | https://www.kitaseegarten.ch/
+u|kita|Krippe Rösligarten | https://www.spitaluster.ch/Karriere/Das-bieten-wir-Ihnen/Kinderkrippe.304.html
+u|kita|Noveos | https://www.noveos.ch/content/d/2/index.php?N1=Zentrum+Wohnen&N2=Wohngruppe+Haselrain+(Wohnhaus+Uster)&N3=Kontakt
+u|kita|Schatzkiste | https://www.krippeschatzkiste.ch/
+u|kita|Unsere Champions | http://www.kita-zipfelchappe.ch/
+u|kita|Verein Kindertagesstätte Muulwurf | http://www.muulwurf.ch
+u|kita|Verein Ramba-Zamba Kinderbetreuung | https://www.ramba-zamba.ch/
+u|kita|Waldkinder Uster | http://www.waldkinderuster.ch
+u|ludo|Ludothek Uster | http://www.ludothek-uster.ch/
+u|spiel|Naturspielgruppe kidin.ch | https://kidin.ch/angebote.php?ID=natur
+u|spiel|Naturspielgruppe Wakiti | https://spielgruppe-wakiti.ch/
+u|spiel|Spielgruppe Ameisinäscht | https://www.ameisinaescht.ch
+u|spiel|Spielgruppe Glüehwürmli | https://www.gluehwuermli.ch
+u|spiel|Spielgruppe kidin.ch | https://kidin.ch/angebote.php?ID=spg
+u|spiel|Spielgruppe Pumuckl | http://www.pumuckl-greifensee.net
+u|spiel|Spielgruppe Spielchischte | https://www.spielchischte-uster.ch/
+u|spiel|Spielgruppe Summervogel | https://www.spielgruppesummervogel.ch
+u|spiel|Spielgruppe WACkelöhrli | http://www.wac.ch/spielgruppe
+u|spiel|Waldspielgruppe Huetlizwerg Uster | https://huetlizwerg.ch/standorte/standort-uster/
+u|spiel|Waldspielgruppe Wurzeln | https://www.waldspielgruppe-wurzeln.ch
+richterswil|bad|Seebad Richterswil | https://www.seebadi-richterswil.ch/de/kontakt/
+richterswil|bib|Gemeindebibliothek Richterswil | http://bibliothek-richterswil.ch/
+richterswil|kita|Güxi Kinderkrippe Richterswil Berg | https://www.guexi.ch/de/standorte
+richterswil|kita|Güxi Kinderkrippe Richterswil Zentrum | https://www.guexi.ch/de/standorte
+f|bib|Gemeindebibliothek Fällanden | http://www.faellanden.ch/de/bibliotheken/
+waedenswil|bad|Badestelle Rothuus | https://www.badi-info.ch/zh/waedenswil-badeplatz.html
+waedenswil|bad|Strandbad Rietliau | https://www.badi-info.ch/zh/waedenswil-strandbad.html
+waedenswil|bib|Stadtbibliothek Wädenswil | http://www.waedenswil.ch/de/verwaltung/abteilungendienst/welcome.php?amt_id=10804
+waedenswil|kita|KiBe | https://kibe-wädenswil.ch/
+waedenswil|kita|Kita Fugu | https://www.kitafugu.ch/fugu-kinderkrippe-waedenswil/
+waedenswil|kita|Wald-KiTa UHU | https://kita-waedenswil.ch/
+langnauamalbis|bib|Gemeinde- und Schulbibliothek Langnau | http://www.langnauamalbis.ch/de/bildung/bibliotheken/
+langnauamalbis|ludo|Ludothek Langnau | https://www.ludotheklangnau.ch/
+niederhasli|bad|Seebadi Haslisee | https://www.badi-info.ch/mettmenhaslisee.html
+niederhasli|bib|Mediothek Niederhasli | http://www.mediothek-niederhasli.ch/
+r|bib|Bibliothek Aesch-Forch | http://www.bibliothek-maur.ch/
+r|bib|Bibliothek Ebmatingen | http://www.bibliothek-maur.ch/
+r|bib|Gemeinde- und Schulbibliothek Maur | http://www.bibliothek-maur.ch/
+r|kita|Chinderhuus Muur Hort Aesch | https://www.chinderhuus-muur.ch/
+r|kita|Chinderhuus Muur Hort Binz | https://www.chinderhuus-muur.ch/
+r|kita|Chinderhuus Muur Hort Ebmatingen | https://www.chinderhuus-muur.ch/
+r|kita|Chinderhuus Muur Hort Forch | https://www.chinderhuus-muur.ch/
+r|kita|Chinderhuus Muur Hort Maur | https://www.chinderhuus-muur.ch/
+r|kita|Chinderhuus Muur Krippe Ebmatingen | https://www.chinderhuus-muur.ch/
+r|kita|Kita Murmeli | https://kita-murmeli.ch/
+kloten|bad|Hallen- und Freibad Schluefweg | https://www.badi-info.ch/zh/kloten-schwimmbad.html
+kloten|bib|Stadtbibliothek Kloten | http://www.schluefweg.ch/de/bibliothek/
+kloten|kita|Globegarden Kinderkrippe | http://www.globegarden.org/
+kloten|kita|Kita Einzigartig Kloten | https://kita-einzigartig.ch
+kloten|kita|Zimbo | https://zimbokita.ch/
+affolternamalbis|bad|Schwimmbad Stigeli | https://www.stadtaffoltern.ch/sportanlagen/10132
+affolternamalbis|bib|Regionalbibliothek Affoltern am Albis | http://www.bibliothek-affoltern.ch
+affolternamalbis|kita|Fugu Kinderkrippe | https://www.kitafugu.ch/
+affolternamalbis|kita|Kinderkrippe Müsliburg | https://www.kinderkrippe-muesliburg.ch/
+affolternamalbis|kita|Kita Chinderstern Affoltern am Albis | https://www.chinderstern.ch/affoltern-am-albis/
+affolternamalbis|kita|Schülerhort "Familienzentrum" | https://www.psa.ch/schuelerhort
+affolternamalbis|kita|Schülerhort "Naville-Haus" | https://www.psa.ch/kontakttagesstrukturen
+affolternamalbis|kita|Schülerhort "Zwillikon" | https://www.psa.ch/schuelerhort
+affolternamalbis|zentrum|Familenzentrum Bezirk Affoltern | https://familienzentrum-bezirk-affoltern.ch/
+mettmenstetten|bad|Schwimmbad Mettmenstetten | https://www.mettmenstetten.ch/tourismusbadeanstalt
+mettmenstetten|bib|Bibliothek Mettmenstetten | https://www.bibliothek-mettmenstetten.ch/
+horgen|bad|Strand und Sportbad Käpfnach | https://www.badi-info.ch/zh/horgen-schwimmbad.html
+horgen|bib|Gemeindeblibliothek Horgen | https://www.horgen.ch/de/bildunggesellschaft/bildung/bibliotheken/
+horgen|kita|Kita Shining-Stars Two | https://www.shining-stars.ch
+thalwil|bad|Hallenbad Schweikrüti | https://www.thalwil.ch/hallenbad
+thalwil|bad|Ludibadi | https://www.badi-info.ch/zh/thalwil-strandbad.html
+thalwil|bad|Seebad Bürger 2 | https://www.badi-info.ch/zh/thalwil-strandbad-buer.html
+thalwil|bib|Gemeindebibliothek Rosengarten | https://www.thalwil.ch/bibliothek/18325
+thalwil|kita|Chindeparadies | https://www.kita-thalwil.ch/chindeparadies/index.php
+thalwil|kita|Froschkönig | https://froschkoeniggmbh.ch
+z|bad|Seebad Zollikon | https://www.badizollikon.ch/seebad/5077
+z|bib|Bibliothek Zollikerberg | http://www.zollikon.ch/de/tourismus/bibliotheken/?action=showbibi&bibi_id=56
+z|bib|Bibliothek Zollikon | https://www.bibliotheken-zh.ch/zollikon_zollikerberg/kontakt
+i|bad|Strandbad Dorfmeilen | https://www.badi-info.ch/zh/meilen-strandbad.html
+i|bad|Strandbad Feldmeilen | https://www.badi-info.ch/zh/meilen-feld-strandbad.html
+i|bad|Strandbad Ländeli Obermeilen | https://www.badi-info.ch/zh/meilen-dollikon.html
+i|bad|Strandbad Meilen | https://www.meilen.ch/strandbaeder/9953
+i|bib|Gemeindebibliothek Meilen | http://www.meilen.ch/de/freizeit/bibliothek/
+i|kita|Kita Fugu Meilen | https://www.kitafugu.ch/
+i|ludo|Ludothek Meilen | https://www.meilen.ch/de/freizeit/ludothek/
+wa|bad|Bleiche Bad | https://bleiche.ch/bad/
+wa|bad|Schwimmbad Sunnetal | https://www.badi-info.ch/zh/wald-schwimmbad.html
+wa|bib|Gemeindebibliothek Wald | http://www.wald.zh.ch/de/verwaltung/dienstleistungen/?dienst_id=23028
+wa|zentrum|Treffpunkt Wald | https://traeffpunkt-wald.ch/
+winterthur|bad|Freibad Wolfensberg | https://schwimmbad-wolfensberg.ch/
+winterthur|bad|Schwimmbad Auwiesen-Töss | https://www.badi-info.ch/zh/winterthur-toess.html
+winterthur|bad|Schwimmbad Geiselweid | https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/sport/schwimmbad-geiselweid
+winterthur|bad|Schwimmbad Oberwinterthur | https://www.badi-info.ch/zh/winterthur-ober.html
+winterthur|bad|Schwimmbad Wülflingen | https://www.badi-info.ch/wuelflingen.html
+winterthur|bad|Walcheweiher | https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport/ausflugsziele-freiraeume/freizeit-im-wald/walcheweiher
+winterthur|bib|Bibliothek Oberwinterthur | https://stadt.winterthur.ch/bibliotheken-winterthur/besuchen#oberwinterthur:~:text=Oberwinterthur
+winterthur|bib|Bibliothek Töss | http://bibliotheken.winterthur.ch/toess/oeffnungszeiten-kontakt/
+winterthur|bib|Bibliothek Wülflingen | http://bibliotheken.winterthur.ch/wuelflingen/oeffnungszeiten-kontakt/
+winterthur|bib|Kreisbibliothek Seen | http://bibliotheken.winterthur.ch/seen/oeffnungszeiten-kontakt/
+winterthur|bib|Stadtbibliothek Winterthur | http://bibliotheken.winterthur.ch/stadtbibliothek/oeffnungszeiten-kontakt/
+winterthur|bib|winbib Bibliothek Hegi | https://bibliotheken.winterthur.ch/hegi/oeffnungszeiten-kontakt/
+winterthur|bib|ZHAW Hochschulbibliothek Winterthur | https://www.zhaw.ch/de/hochschulbibliothek/einstieg-aktuelles/
+winterthur|kita|«Fugu» Kinderkrippe Winterthur Lokstadt | https://www.kitafugu.ch/fugu-kinderkrippe-winterthur-lokstadt/
+winterthur|kita|«Fugu» Kinderkrippe Winterthur Römertor | https://www.kitafugu.ch/fugu-kinderkrippe-winterthur-roemertor/
+winterthur|kita|«Fugu» Kinderkrippe Winterthur Zentrum Deutweg | https://www.kitafugu.ch/fugu-kinderkrippe-winterthur-zentrum-deutweg/
+winterthur|kita|Akidemy | https://www.akidemy.ch/standorte/winterthur/
+winterthur|kita|Altstadt Kita Zauberland | https://altstadt-zauberland.ch/
+winterthur|kita|Apfelblüte Kinderkrippe | https://www.apfelbluete.ch/standorte/kinderkrippe-winterthur
+winterthur|kita|Betreuung Linde | https://www.ausserdorf.ch/angebote/erg%C3%A4nzende-angebote/betreuung/
+winterthur|kita|Betreuung Wartstrasse | https://www.schule-langwiesen.ch/angebote/internes-angebot/schulergaenzende-betreuung/p-38/
+winterthur|kita|Betreuung Wülflingerstrasse | https://www.schule-wuelflingerstrasse.ch/angebote/betreuung/p-62/
+winterthur|kita|Child Care Corner | https://winterthur.child-care-corner.ch/
+winterthur|kita|Chinder-Huus Hegi | https://pwhegi.ch/chind/
+winterthur|kita|Dä Hort | https://www.kitaloki.ch/d%C3%A4-hort
+winterthur|kita|Familienzentrum Winterthur | https://www.familienzentrum-winterthur.ch/
+winterthur|kita|Globegarden Trollstrasse | https://www.globegarden.ch/locations/trollstrasse
+winterthur|kita|Hortgruppe Büelwiesenweg | https://www.salzh.ch/hort/
+winterthur|kita|kiana Kinderkrippe | https://www.kianakrippen.ch/standorte/winterthur/
+winterthur|kita|Kinderhaus Winterthur | https://www.kinderhauswinterthur.ch/
+winterthur|kita|Kinderkrippe Heckenrose | https://www.heckenrose.ch/
+winterthur|kita|Kinderkrippe Krümel | https://www.kinderkrippe-kruemel.ch/
+winterthur|kita|Kinderkrippe Möwe | https://krippemoewe.ch/
+winterthur|kita|Kinderkrippe Sternen-Schloss | https://www.sternen-schloss.ch/unsere-krippen/winterthur/
+winterthur|kita|Kindertagesstätte der IPW | https://ipw.ch/ueber-uns/kindertagesstaette
+winterthur|kita|Kindertagesstätte Schnäggehuus | https://www.familiaris.ch/schnaeggehuus/
+winterthur|kita|Kindertagesstätte Wässerwiesen | https://www.waesserwiesen.ch/
+winterthur|kita|Kindertreff | https://www.kindertreff.ch/
+winterthur|kita|Kindervilla Chäferfäscht | https://chaeferfaescht.com/
+winterthur|kita|Kita am Park | https://www.kita-ampark.ch/
+winterthur|kita|Kita am Weiher | https://kita-am-weiher.ch/
+winterthur|kita|Kita Äntenäscht | https://www.familiaris.ch/aentenaescht/
+winterthur|kita|KiTa Chrönli | https://www.kitachroenli.ch
+winterthur|kita|Kita Dampfschiff | https://kita-dampfschiff.ch/
+winterthur|kita|Kita Etzberg | https://www.kita-etzberg.ch/
+winterthur|kita|Kita Fantasia | https://www.familiaris.ch/fantasia/
+winterthur|kita|Kita Globegarden Archhöfe | https://www.globegarden.ch/locations/archhoefe/
+winterthur|kita|Kita La Luna | https://www.kita-laluna.ch/
+winterthur|kita|Kita Loki | http://www.kita-loki.ch/kita-loki/
+winterthur|kita|Kita Luftibus | https://www.kita-luftibus.ch/
+winterthur|kita|Kita SalZH | https://salzh.ch/betreuung/kita/
+winterthur|kita|Kita SalZH Büelwiesenweg | https://salzh.ch/betreuung/kita/
+winterthur|kita|KiTa Spielberg | https://www.brühlgut.ch/kitas/
+winterthur|kita|KiTa Spielblock | https://www.brühlgut.ch/kitas/
+winterthur|kita|KiTa Spielpark | https://www.brühlgut.ch/kitas/
+winterthur|kita|Kita Strickhof | https://www.familiaris.ch/strickhof/
+winterthur|kita|KiTa Sunneberg | https://kita-sunneberg.ch/
+winterthur|kita|Kita Trotro | https://www.kitaloki.ch/kita-trotro
+winterthur|kita|Kita Tuktuk | http://www.kita-loki.ch/kita-tuktuk/
+winterthur|kita|Kita Vogelsang | https://www.kita-vogelsang.ch/
+winterthur|kita|Kita Windrädli | https://www.kita-windrädli.ch/
+winterthur|kita|Kita Zauberschiff | https://www.familiaris.ch/zauberschiff/
+winterthur|kita|Montessori Kinderhaus | https://www.montessori-winterthur.ch/
+winterthur|kita|Nonna Rosa | https://kitanonnarosa.ch/
+winterthur|kita|Pinocchio Scuola Materna Italiana | https://www.kindertagesstaette-pinocchio.ch/
+winterthur|kita|Pop e poppa Kita Leuehöhli | https://www.popepoppa.ch/de/einrichtungen/kita-in-winterthur/
+winterthur|kita|Zwerglihuus Rosenberg | https://www.zwerglihuus.ch/kita-rosenberg/
+winterthur|ludo|Ludothek Altstadt | https://www.ludothek-winterthur.ch/
+winterthur|ludo|Ludothek Seen | https://www.ludo-seen.ch/
+winterthur|spiel|Spielgruppe Turboschnägg | https://www.spielgruppeturboschnaegg.ch/
+winterthur|spiel|Spielgruppe Vogelnest | https://spielgruppe-vogelnest.ch/
+winterthur|zentrum|Institut Kinderseele Schweiz | https://www.kinderseele.ch/
+winterthur|zentrum|Quartieranlage Kanzleistrasse | https://seen.ch/qa_kanzleistrasse
+winterthur|zentrum|Quartiertreff Am Wildbach | https://www.qv-wildbach.ch/
+winterthur|zentrum|Quartiertreff Geiselweid | https://www.wohnliches-geiselweid.ch/
+winterthur|zentrum|Quartierverein Breite-Vogelsang | https://www.breite-vogelsang.ch/
+daettlikon|bib|Gemeinde- und Schulbibliothek Dättlikon | http://daettlikon.biblioweb.ch/
+d|bad|Freibad Oberdorf | https://www.sfd-ag.ch/home/freibad-oberdorf/
+d|bib|Lib4RI | https://www.lib4ri.ch/
+d|bib|Stadtbibliothek Dübendorf | http://www.stadtbibliothek-duebendorf.ch
+d|kita|Kinderwerkstatt | https://www.igkinderwerkstatt.ch/kinderkrippe.html
+d|kita|Pin-Pin | https://pin-pin.ch
+d|spiel|Spielgruppe Sunneschii | https://www.spielgruppe-sunneschii.ch
+il|bad|Schwimmbad Eselriet | https://www.badi-info.ch/zh/effretikon-schwimmbad.html
+il|bib|Bibliothek Illnau | http://www.bibliotheksverein.ch/illnau/
+il|bib|Gemeinde- und Schulbibliothek Kyburg | https://www.ilef.ch/verein/gemeinde-und-schulbibliothek-kyburg/
+il|bib|Stadtbibliothek Effretikon | http://www.bibliotheksverein.ch/effretikon
+il|spiel|Waldspielgruppe | https://naturspielgruppe.wuerglenhof.ch/
+l|bad|Badeanlage Steinrad | https://www.badi-info.ch/herrliberg.html
+l|bib|Gemeinde- und Schulbibliothek Herrliberg | http://www.schule-herrliberg.ch/freizeitmenu/gemeinde-und-schulbibliothek
+rickenbach|bad|Schwimmbad Rickenbach ZH | https://www.badi-info.ch/zh/rickenbach-schwimmbad.html
+nuerensdorf|bib|Gemeinde- und Schulbibliothek Nürensdorf | https://www.nuerensdorf.ch/freizeit--kultur/bibliothek.html/41
+nuerensdorf|kita|Kita Luftballon | https://www.kita-luftballon.ch/
+g|bib|Schul- und Gemeindebibliothek Greifensee | http://www.greifensee.ch/de/bildung/bildungbibliothek/
+g|kita|Kita Greifensee | https://www.kita-greifensee.ch/
+buelach|bad|Freibad Bülach | https://www.badi-info.ch/buelach.html
+buelach|bad|Hallenbad Hirslen | https://hirslen.ch/
+buelach|bib|Stadtbibliothek Bülach | http://www.bibliothek-buelach.ch
+buelach|kita|KiTa Böndli | http://www.boendli.ch/
+buelach|ludo|Ludothek Bülach | https://www.ludothek-buelach.ch/
+buelach|zentrum|Mamerlapap Familienzentrum Bülach | https://www.mamerlapap.ch
+hb|bib|Schul- und Gemeindebibliothek Hombrechtikon | http://www.schulehombrechtikon.ch/p19000224.html
+hb|kita|Kita Farbtupf | http://www.kitahombi.ch/
+o|bad|Schwimmbad Eichbüel | https://www.badi-info.ch/zh/oetwil-see-schwimmbad.html
+o|bib|Schul- und Gemeindebibliothek Oetwil am See | http://www.schule-oetwil.ch/index.php?page_request=112&id=23
+birmensdorf|bad|Schwimmbad Geren | https://www.badi-info.ch/birmensdorf.html
+birmensdorf|bib|Gemeindebibliothek Birmensdorf | http://www.birmensdorf.ch/de/freizeitkultur/gemeindebibliothek/
+birmensdorf|zentrum|Fischerhuus | https://www.diealternative.ch/rehabilitation-fischerhuus/
+bonstetten|bib|Bibliothek Bonstetten | http://www.primarschule-bonstetten.ch/de/schulugemeindebibliothek/
+bonstetten|kita|Kinderzentrum | https://kinderzentrum.ch/angebot-preise/standorte/bonstetten/
+bruetten|bib|Gemeinde- und Schulbibliothek Brütten | http://www.bibliothek-bruetten.ch
+bruetten|kita|Kinderhaus Chrüsimüsi | https://www.kinderhaus-chruesimuesi.ch/
+wb|bib|Bibliothek Wangen-Brüttisellen | http://www.bibliothek.bruggwiesen.ch/
+wb|spiel|Spielgruppe Wunderchiste | https://www.spielgruppe-wunderchiste.ch/
+wb|zentrum|Jugendtreff Brüttisellen | https://www.ojawb.ch/
+adliswil|bad|Hallen- und Freibad im Tal | https://www.badi-info.ch/zh/adliswil-schwimmbad.html
+adliswil|bib|Bibliothek Adliswil | http://www.adliswil.ch/xml_1/internet/de/application/d609/d36/f69.cfm
+adliswil|kita|NaturKita | https://www.naturkita.ch
+adliswil|kita|Pandalino | https://pandalino.ch/
+buchs|bib|Schul- und Gemeindebibliothek Buchs | http://www.bibliothek-buchs.ch
+daellikon|bib|Mediothek Dällikon | http://www.mediothek-daellikon.ch
+dielsdorf|bad|Sportanlage Erlen | https://www.erlenpark.ch/
+dielsdorf|bib|Gemeinde- und Schulbibliothek Dielsdorf | http://www.dielsdorf.ch/de/bildungbetreuung/schule/bibliotheken/
+urdorf|bad|Freibad Weihermatt | https://www.urdorf.ch/sportfreizeitanlagen/7669
+urdorf|kita|Bienehuus | https://bienehuus.ch/
+urdorf|kita|Kita Spitzacker | https://www.huetiberg.ch/krippe-spitzacker-urdorf/
+elgg|bad|Schwimmbad Elgg | https://www.badi-info.ch/zh/elgg-schwimmbad.html
+elgg|bib|Gemeinde- und Schulbibliothek Elgg | http://www.schule-elgg.ch/p152000946.html
+elsau|bad|Schwimmbad Niderwis | https://www.badi-info.ch/zh/elsau-schwimmbad.html
+elsau|bib|Bibliothek Elsau | https://bibliotheken-zh.ch/elsau/
+elsau|kita|Kinderclub Jojo Elsau | http://www.ps-elsau.ch/wb/pages/angebote/kinderbetreuung.php
+elsau|kita|KiTa Tartaruga | https://www.kita-tartaruga.ch/
+elsau|ludo|Ludothek Elsau | http://www.elsau.ch/de/kultur-freizeit/ludothek/
+k|bad|Hallen- und Freibad Juch | https://www.zumikon.ch/badjuch
+k|bad|Hallenbad Juch | https://www.zumikon.ch/badjuch
+k|bib|Bibliothek Zumikon | http://www.schule-zumikon.ch/de/bibliothek/gemeindebibliothek/
+k|kita|Chinderhuus | https://www.chinderhuus-zumikon.ch/
+embrach|bad|Hallen- und Freibad Embrach | https://www.badiembrach.ch/
+embrach|bib|Bibliothek Embrach | http://kulturembrach.ch/bibliothek/
+embrach|kita|Kita Froschkönig | https://www.kzu-kita.ch/kita-froschkoenig/
+b|bad|Holzbadi Wyden | https://www.badi-info.ch/zh/erlenbach-wyden.html
+b|bad|Strandbad Winkel | https://www.badi-info.ch/zh/erlenbach-strandbad.html
+b|bib|Gemeindebibliothek Erlenbach | https://www.erlenbach.ch/de/schule/bibliothek/
+geroldswil|bib|Bibliothek Geroldswil | https://www.bibliotheken-zh.ch/Geroldswil/#Start1
+geroldswil|kita|Stärneland | https://www.kita-staerneland.ch/
+hausenamalbis|bib|Bibliothek Hausen am Albis | https://www.hausen.ch/de/bilgesel/bibliotheken/
+hausenamalbis|kita|Nano | https://www.albiskinderkrippe-nano.ch/
+hettlingen|bad|Schwimmbad Hettlingen | https://www.badi-info.ch/zh/hettlingen-schwimmbad.html
+hettlingen|bib|Gemeinde- und Schulbibliothek Hettlingen | http://www.hettlingen.ch/de/tourismus/bibliotheken/
+hettlingen|kita|KiTa Lundy | https://www.kitalundy.ch/
+hw|bad|Freibad Eisweiher Hinwil | https://www.hinwil.ch/schwimmbad
+hw|bib|Dorfbibliothek Wernetshausen | https://www.wernetshausen.ch/bibliothek/
+hw|bib|Mediothek | http://www.bibliotheken-zh.ch/Hinwil
+hw|bib|Übersetzerhaus Looren | https://www.looren.net/
+hw|kita|Familienforum Hinwil, Chinderhüeti | https://familienforum-hinwil.ch/
+hw|kita|Kinderkrippe Meljuk | https://www.meljuk.ch/web/index.php
+knonau|bad|Treppenstufen Haselbach | https://www.knonau.ch/dorfleben/treffpunkte-anlagen/spielplaetze/spiel-am-haselbach.html/865
+rafz|bad|Schwimmbad Rafz-Wil | https://www.badi-info.ch/zh/rafz-schwimmbad.html
+rafz|bib|Gemeindebibliothek Rafz | http://www.rafz.ch/de/tourismus/bibliotheken/
+niederweningen|bad|Schwimmbad Sandhöli | https://www.niederweningen.ch/de/tourismus/schwimmbad/
+niederweningen|bib|Mediothek Niederweningen | http://www.mediothek-niederweningen.ch
+niederweningen|kita|Kita Niederweningen | http://www.krippe-hort.ch/#!kita-schfflisdorf/c21ek
+zell|bad|Schwimmbad Engelburg | https://www.badi-info.ch/zh/rikon-schwimmbad.html
+zell|bib|Bibliothek Tibet-Institut | http://www.tibet-institut.ch/index.html
+kilchberg|bad|Strandbad Kilchberg | https://www.seebad-kilchberg.ch/
+kilchberg|bib|Gemeindeblibliothek Kilchberg | http://www.kilchberg.ch/bibliothek
+kilchberg|kita|Kinderkrippe Kilchberg | https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/betreuungs-und-begleitungsangebot-fuer-familien#section-868
+opfikon|bad|Frei- und Hallenbad Bruggwiesen Opfikon | http://www.badopfikon.ch/
+opfikon|kita|globegarden Glattpark | https://www.globegarden.ch/
+opfikon|kita|globegarden Lilienthal | https://www.globegarden.ch/
+opfikon|kita|Hazo-Kita | www.hazo-kita.ch
+opfikon|kita|Kinderhort & Mittagstisch | https://www.schule-opfikon.ch/
+opfikon|kita|Kinderkrippe Bambi | https://www.kinderkrippe-bambi.ch/de/kinderkrippen/standorte/kinderkrippe-opfikon
+opfikon|kita|Kinderkrippe Fugu | https://www.kitafugu.ch/fugu-kinderkrippe-glattbrugg/
+opfikon|kita|Kinderkrippe Popcorn | https://kita-popcorn.ch/
+opfikon|kita|Kinderkrippe Purzelhuus | https://www.purzel.ch/
+opfikon|kita|Kita Melodie | https://www.kita-melodie.ch/
+opfikon|kita|Kita Pop e Poppa Bäretatze | https://www.popepoppa.ch
+opfikon|kita|Kita Purzelschloss | https://www.purzel.ch/inhalte/standort-purzelschloss
+opfikon|kita|KiTa Zwerglinge | https://www.kitazwerglinge.ch/
+opfikon|kita|KitaS Creativa | https://www.kitascreativa.ch/
+bb|bad|Strandbad Egelsee | https://www.badi-info.ch/egelsee.html
+bb|bib|Gemeindebibliothek Bubikon | http://www.schule-bubikon.ch/p22007907.html
+bb|bib|Schul- und Gemeindebibliothek Wolfhausen | http://www.schule-bubikon.ch/p22007293.html
+bb|kita|Kinderhort Bubikon | https://www.kinderhort-bubikon.ch
+bb|kita|Kinderkrippe "Storchennest" | https://chinderchrippe.ch/
+bb|kita|KiTa plus | https://www.kitaplus.ch/
+bb|kita|Schulverwaltung | https://www.schule-bubikon.ch/
+bb|ludo|Ludothek | https://www.schule-bubikon.ch/p22001271.html
+bb|spiel|Wald-, Buurehof- & Pony-Spielgruppe & Kindergarten | www.healing-horse.ch
+rheinau|bad|Aquarina | https://www.aquarina.ch/
+rheinau|bad|Aquarina – Hallen- und Freibad Rheinau | https://www.badi-info.ch/zh/rheinau-schwimmbad.html;https://aquarina.ch/
+rheinau|bib|Bibliothek Rheinau | http://www.primarschule-rheinau.ch/bibliothek
+bassersdorf|bad|bxa Hallenbad Geeren | https://www.bxa.io/bxa-hallenbad-geeren/
+bassersdorf|bad|Schwimmbad Hasenbühl | https://www.badi-info.ch/zh/bassersdorf-schwimmbad.html
+bassersdorf|bib|Gemeindebibliothek Bassersdorf | https://www.bassersdorf.ch/verwaltung/abteilungen/bildung-familie/bibliothek.html/188
+bassersdorf|kita|Kids House | https://kita-einzigartig.ch/
+schlieren|bad|Schwimmbad Im Moos | https://www.badi-info.ch/zh/schlieren-schwimmbad.html
+schlieren|kita|Hort Zelgli | https://schule.schlieren.ch/hortgiardino
+schlieren|ludo|Ludothek Schlieren | http://www.familienzentrum-schlieren.ch
+schlieren|spiel|Waldspielgruppe Schlieren "Schnäggähüsli" | https://www.waldspielgruppe-schlieren.ch/
+rs|bib|Bibliothek Russikon | http://www.bibliothek-russikon.ch/
+rs|spiel|Spielgruppe chliine Muulwurf | http://www.chliine-muulwurf.ch
+wi|bib|Schul- und Gemeindebibliothek Wila | https://www.bibli-wila.ch/
+schlatt|bad|Schwimmbad Schlatt | https://www.schlatt-zh.ch/index.php/schwimmbad
+schlatt|bib|Schul- und Gemeindebibliothek Schlatt | http://www.schule-schlatt.ch/
+wallisellen|bad|Water World Wallisellen | https://www.sportanlagen-wallisellen.ch/index.php/waterworld-wallisellen/angebot
+wallisellen|kita|kita fugu | https://www.kitafugu.ch/fugu-kinderkrippe-wallisellen/
+wallisellen|kita|Tagesbetreuung Arche | https://www.schule.wallisellen.ch/
+wd|bib|Bibliothek Wildberg | http://www.schuwi.ch/Schul-und-Gemeindebibliothek/
+wd|bib|Schul- und Gemeindebibliothek | http://www.schuwi.ch/Schul-und-Gemeindebibliothek/
+ru|bad|Badi Rüti | https://www.rueti.ch/themen/kultur-freizeit/sport/schwimmbader/schwimmbad-an-der-schwarz
+ru|bib|Bibliothek Rüti-Dürnten | https://www.rueti.ch/themen/politik-verwaltung/verwaltung/abteilungen/bibliothek
+ru|kita|Kita Fugu | https://www.kitafugu.ch/fugu-kinderkrippe-rueti/
+ru|spiel|Spielgruppe Liri! | https://www.spielgruppeliri.ch/
+ru|spiel|Spielgruppe Smiley | https://www.spielgruppesmiley.ch/
+wiesendangen|bad|Lieni Park | https://www.kefikon.ch/uber-uns/lienipark/
+wiesendangen|bad|Schwimmbad Büel | https://www.wiesendangen.ch/de/kulturfreizeit/schwimmbaeder/welcome.php?action=showobject&object_id=9241
+pfaeffikon|bad|Strandbad Auslikon | https://www.wetzikon.ch/stadtleben/sport/sf/anlagen1/strandbad-auslikon
+pfaeffikon|bad|Strandbad Baumen Pfäffikersee | https://www.badiamsee.ch/
+pfaeffikon|bib|Gemeindebibliothek | https://www.pfaeffikon.ch/KulturFreizeit/Bibliothek/default.htm
+pfaeffikon|kita|Lindenbaum Chinderhuus Pfäffikon | https://www.lindenbaum-chinderhuus.ch/
+pfaeffikon|kita|Tagesstrukturen | https://www.schule-pfaeffikon.ch/
+pfaeffikon|spiel|Spiel- und Waldspielgruppe Chnopf | https://spielgruppe-chnopf.ch/
+fischenthal|bad|Freibad Steg | https://www.badi-info.ch/zh/steg-schwimmbad.html
+fischenthal|bib|Gemeinde- u. Schulbibliothek | https://www.fischenthal.ch/content.asp?ID=34
+fischenthal|kita|Mittagstisch Fischenthal | https://www.schulefischenthal.ch/
+du|kita|Kinderkrippe "Gartenkrippe" | http://www.kinderkrippe-tann-duernten.ch/
+du|kita|Schulergänzende Betreuung | https://www.schuleduernten.ch/
+unterengstringen|bib|Bibliothek Unterengstringen | https://unterengstringen.biblioweb.ch/
+wz|bad|Schwimmbad Meierwiesen Wetzikon | https://www.wetzikon.ch/stadtleben/sport/sf/anlagen1/badi-meierwiesen
+wz|bib|Bibliothek Wetzikon | https://www.wetzikon.ch/stadtleben/bibliothek
+wz|kita|Kita TigerEnte | https://www.kita-tigerente.ch/
+ba|bib|Bibliothekverein | http://www.bibliothek-bauma.ch
+ba|bib|Gemeindebibliothek | http://bauma.biblioweb.ch/
+ba|kita|Wunderchnöiel | https://spielgruppe-bauma.ch/kontakt/
+ba|ludo|Hampis Spielbus | http://www.spielbus.ch/
+pfungen|bad|Schwimmbad Reckholdern | https://www.badi-info.ch/zh/pfungen-schwimmbad.html
+pfungen|bib|Bibliothek Pfungen | http://pfungen.biblioweb.ch/
+dietikon|bib|Stadt- und Regionalbibliothek Dietikon | https://www.dietikon.ch/stadtregiobibliothek
+dietikon|kita|Kindergrippe 3 | https://kkvd.ch
+dietikon|kita|Kinderkrippe 1 | https://kkvd.ch
+dietikon|kita|Kinderkrippe 2 | https://kkvd.ch/
+dietikon|kita|Kinderkrippe 4 | https://kkvd.ch
+dietikon|kita|Kita Chinderstern | http://www.chindetstern.ch/
+dietikon|kita|Krippenhort | https://kkvd.ch
+dietikon|spiel|Spielgruppe HerzKäfer | https://www.spielgruppeherzkaefer.ch/
+wettswilamalbis|bib|Schul- und Gemeindebibliothek Wettswil | https://www.bibliothek-wettswil.ch/
+wettswilamalbis|kita|Kinderzentrum | https://kinderzentrum.ch/angebot-preise/standorte/wettswil-stationsstrasse/
+stallikon|spiel|Waldspielgruppe Huetlizwerg Stallikon | https://huetlizwerg.ch/standorte/standort-stallikon/
+oberglatt|kita|Little Friends | https://www.little-friends.ch/
+a|bad|Strandbad Sonnenfeld | https://www.badi-info.ch/zh/maennedorf-strandbad.html
+a|kita|Kita Purzelbaum | https://www.schule-maennedorf.ch/kita/967
+e|bib|Bibliothek Gemeinde Egg | https://www.bibliotheken-zh.ch/egg/#Start1
+e|kita|Luus Muus | https://www.luusmuus.ch/de/spielgruppe
+e|kita|pop e poppa schneggehüsli | https://www.popepoppa.ch/de/einrichtungen/kita-in-egg/
+e|spiel|Spielgruppe Igeli Finn | https://www.igeli-finn.ch/
+gr|bad|Freibad Tränkibach | https://www.badi-info.ch/zh/grueningen-schwimmbad.html
+gr|kita|Kindertagesstätte Vita | https://www.kita-vita.ch/
+bachenbuelach|kita|KIMI Kindertagesstätte | https://www.kimikrippen.ch/kimi_standort/kita-kimi-bachenbuelach/
+oberengstringen|bad|Freibad Zwischen den Hölzern | https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung/sport-und-badeanlagen/sommerbaeder/zwischen-den-hoelzern.html
+oberengstringen|bib|Bibliothek Oberengstringen | https://www.bibliotheken-zh.ch/oberengstringen/
+eglisau|bib|Bibliothek Eglisau | https://www.bibliothek-eglisau.ch/
+h|bad|Hallenbad Fehraltorf | https://www.fehraltorf.ch/hallenbad
+h|bib|Gemeindebibliothek Fehraltorf | http://www.fehraltorf.ch/bibliothek
+h|kita|Kinderkrippe Einhorn | https://www.kinderkrippe-einhorn.ch/
+h|kita|Kinderkrippe Majmunsche | https://www.majmunsche.ch/
+h|kita|Teddybär Verein für Chlichind und Eltere | http://www.verein-teddybaer.ch
+ottenbach|bib|Bibliothek Ottenbach | https://bibliothek-ottenbach.ch/
+obfelden|bad|Hallenbad Schlossächer | https://www.obfelden.ch/freizeit/hallenbad-schlossaecher.html/127
+obfelden|bad|Schwimmbad Obfelden | https://www.badiobfelden.ch/
+obfelden|bib|Bibliothek Obfelden | https://www.bibliothek-obfelden.ch
+obfelden|kita|Tagesstrukturen ZickZack | https://www.primarobfelden.ch/angebot/tagesstrukturen.html
+n|bad|Kusenbad | https://www.kuesnacht.ch/leben-freizeit/sportanlagen/seebaeder/kusenbad.page/932
+n|bib|Bibliothek Küsnacht | https://www.kuesnacht.ch/page/48
+n|kita|Fugu | https://www.kitafugu.ch/
+t|bad|Strandbad Uetikon am See | https://www.badi-info.ch/zh/uetikon-strandbad.html
+t|kita|Kinderkrippe Tatzelwurm | https://tatzelwurm.ch/
+t|ludo|Ludothek Uetikon | https://frauenverein-uetikon.ch/home/ludothek/
+andelfingen|bad|Schwimmbad Andelfingen | https://schwimmbadandelfingen.ch/
+andelfingen|bib|Schul- und Gemeindebibliothek Andelfingen | http://www.bibliothek-andelfingen.ch
+hedingen|bad|Hedinger Weiher | https://www.hedingen.ch/de/dorfleben/kultur-und-freizeit/hedinger-weiher.php
+hedingen|bib|Bibliothek Hedingen | http://www.bibliothek-hedingen.ch
+uitikon|bad|Hallenbad Uitikon | https://www.sportanlagen-uitikon.ch/
+uitikon|bib|Schul- und Gemeindebibliothek Uitikon | https://www.bibliothek-uitikon.ch/
+uitikon|kita|Kinderkrippe Üetlizwerge | https://www.uetlizwerge.ch/
+uitikon|zentrum|Jugendtreff | https://jugendarbeit-uitikon.ch
+weiningen|bib|Gemeindebibliothek Weiningen | https://www.bibliotheken-zh.ch/weiningen/
+dachsen|bad|Badeanlage Bachdelle | https://www.badi-info.ch/zh/dachsen-schwimmbad.html
+dachsen|bib|Schul- und Gemeindebibliothek | https://www.primarschuledachsen.ch/de/bibliothekfs/
+baeretswil|bib|Mediothek Bäretswil | http://www.baeretswil.ch/de/bildung/mediothek/
+baeretswil|kita|Chinderhuus Cavallo | http://www.chinderhuus-cavallo.ch/
+baeretswil|kita|Chinderhuus Triangel | https://kinderkrippe-triangel.ch/
+baeretswil|kita|Kindergarten Oberdorf 1-3 | https://www.baeretswil.org/kiga-oberdorf.htm
+baeretswil|kita|Mittagstisch für Kindergarten- und Primarschulkinder | https://www.baeretswil.org/mittagstische.htm
+baeretswil|spiel|Spielgruppe Bärli | https://www.baerli-baer.ch/
+oberweningen|kita|Kinderkrippe Hosechnöpf | https://www.hosechnoepf.ch/
+regensdorf|bib|Bibliothek Regensdorf | https://www.winmedio.net/regensdorf
+regensdorf|zentrum|Gemeinschaftszentrum Roos | https://gzroos.ch
+dietlikon|bad|Hallen- und Freibad aqua-life | https://www.aqua-life.ch/
+dietlikon|kita|KiTa Pfiffikus | https://www.kita-pfiffikus.ch/
+dietlikon|spiel|Spielgruppe Sunneschii | https://www.spielgruppe-sunneschii.ch/
+rueschlikon|bad|Seebad Rüschlikon | https://www.badi-info.ch/zh/rueschlikon-seebadi.html
+rueschlikon|kita|Tageshort Moos | https://www.schulerueschlikon.ch/de/angebote/tagesbetreuung/
+rueschlikon|zentrum|Jugendtreff Oetikergut | https://jarü.ch/angebot/jugendtreff/
+winkel|kita|kleine RiESEN | https://kleine-riesen.ch/
+gossau|bad|Schwimmbad Tannenberg | https://www.badi-info.ch/gossau.html
+gossau|bib|Gemeindebibliothek | https://www.gossau-zh.ch/ueber-uns/verwaltung/praesidialabteilung/gemeindebibliothek
+gossau|spiel|Spielgruppe Teddybär | https://fizgo.clubdesk.com/angebote/spielgruppe_teddybaer
+v|bad|Schwimmbad Waldacher | https://www.badi-info.ch/zh/volketswil-schwimmbad.html
+v|zentrum|Kinder- und Jugendarbeit der Gemeinde Volketswil | https://kjav.ch/
+flaach|bad|Schwimmbad Flaach | https://www.badi-info.ch/zh/flaach-schwimmbad.html
+ws|bad|Brauiweiher Weisslingen/Agasul | https://www.badi-info.ch/brauiweiher.html
+glattfelden|bad|Schwimmbad Glattfelden | https://www.badi-info.ch/zh/glattfelden-schwimmbad.html
+glattfelden|bib|Schul- und Gemeindebibliothek Glattfelden | http://www.glattfelden.ch/xml_1/internet/de/application/d49/f300.cfm
+turbenthal|bad|Schwimmbad Neuguet | https://www.badi-info.ch/zh/turbenthal-schwimmbad.html
+turbenthal|bad|Strandbad Bichelsee | https://www.badi-info.ch/zh/bichelsee-strandbad.html
+turbenthal|bib|Bibliothek Turbenthal | http://www.bibliothek-turbenthal.ch/index.html
+turbenthal|kita|Chinderhuus Turbenthal | http://www.chinderhuus-turbenthal.ch/
+seuzach|bad|Schwimmbad Weiher | https://www.badi-info.ch/zh/seuzach-schwimmbad.html
+rorbas|bad|Schwimmbad Rorbas | https://www.badi-info.ch/zh/rorbas-schwimmbad.html
+li|bad|Schwimmbad Grafstal | https://www.badi-info.ch/grafstal.html
+li|bib|Bibliothek Lindau | http://www.lindau.ch/de/infrastruktur/tourismus/sehenswuerdigkeiten/welcome.php?action=showobject&object_id=3658
+ruemlang|bad|Hallenbad Heuel | https://www.hallenbad-heuel.ch/
+ruemlang|bib|Gemeindebibliothek | https://www.ruemlang.ch/bibliothekaktuelles
+ellikonanderthur|bad|Schwimmbad Ellikon an der Thur | https://www.badi-info.ch/zh/ellikon-schwimmbad.html
+truellikon|bad|Schwimmbad Mösli | https://www.badi-info.ch/zh/rudolfingen.html
+oberrieden|bad|Strandbad Oberrieden | https://www.badi-info.ch/zh/oberrieden-strandbad.html
+sg|kita|Mittagstisch für Kindergarten und Primarschule | https://www.schule-seegraeben.ch/de/onlineschalter/tagesstrukturen/
+feuerthalen|bad|Freizeitanlage Rheinwiese | https://www.camping-schaffhausen.ch/
+hi|bib|Turnhalle und Bibliothek Hittnau | http://www.bibliohit.ch/
+hi|kita|Mittagstisch Hittnau | http://www.pro-senectute.ch/
+stammheim|bad|Schwimmbad Im Röhrli | https://www.badi-info.ch/zh/unterstammheim-schwimmbad.html
+maschwanden|bad|Naturbad Maschwanden | https://www.maschwanden.ch/de/gemeinde-und-wirtschaft/kultur-und-freizeit/naturbad/
+kleinandelfingen|bad|Schwimmbad Oerlingen | https://www.badi-info.ch/zh/oerlingen-schwimmbad.html
