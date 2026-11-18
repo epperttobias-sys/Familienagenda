@@ -1,0 +1,2 @@
+https://www.stadt-zuerich.ch/stzh/search?lang=de&q=Vereinsverzeichnis
+{"error":true,"errorCode":"fc53e87b-49fb-413c-ae8b-9eb5b945cc56","message":"Der Service ist im Moment nicht verfügbar, bitte versuchen Sie es später nochmals."}

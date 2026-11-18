@@ -1,67 +1,50 @@
 [
  {
   "l": "RAW w1",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?CONTENT_EVENT_TARGET_GROUP___ID=330",
-  "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?CONTENT_EVENT_TARGET_GROUP___ID=330",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "u": "https://stadt.winterthur.ch/vereine",
+  "s": 404,
+  "f": "https://stadt.winterthur.ch/vereine",
+  "title": "Fehler | Stadt Winterthur"
  },
  {
   "l": "RAW w2",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?filters=CONTENT_EVENT_TARGET_GROUP___ID:330",
+  "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/freizeit-und-sport",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?filters=CONTENT_EVENT_TARGET_GROUP___ID:330",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "f": "https://stadt.winterthur.ch/themen/freizeit-sport",
+  "title": "Freizeit &amp; Sport | Stadt Winterthur"
  },
  {
   "l": "RAW w3",
-  "u": "https://stadt.winterthur.ch/veranstaltungen?f%5BCONTENT_EVENT_TARGET_GROUP___ID%5D=330",
+  "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen?f%5BCONTENT_EVENT_TARGET_GROUP___ID%5D=330",
-  "title": "Veranstaltungen | Stadt Winterthur"
+  "f": "https://stadt.winterthur.ch/themen",
+  "title": "Themen | Stadt Winterthur"
  },
  {
   "l": "RAW w4",
-  "u": "https://veranstaltungen.winterthur.ch/api/events",
-  "s": -1,
-  "e": "UND_ERR_CONNECT_TIMEOUT"
- },
- {
-  "l": "RAW w5",
-  "u": "https://veranstaltungen.winterthur.ch/",
-  "s": -1,
-  "e": "UND_ERR_CONNECT_TIMEOUT"
- },
- {
-  "l": "RAW w6",
-  "u": "https://stadt.winterthur.ch/veranstaltung/wenn-einer-eine-reise-tut-konrad-bitterli-ueber-seine-zeit-als-direktor-des-kunst-museum-winterthur",
+  "u": "https://stadt.winterthur.ch/suche?q=vereine",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltung/wenn-einer-eine-reise-tut-konrad-bitterli-ueber-seine-zeit-als-direktor-des-kunst-museum-winterthur",
-  "title": "«Wenn einer eine Reise tut …» Konrad Bitterli über seine Zeit als Direktor des Kunst Museum Winterthur, worauf er zurück"
+  "f": "https://stadt.winterthur.ch/suche?q=vereine",
+  "title": "Suche | Stadt Winterthur"
  },
  {
-  "l": "RAW zjs",
-  "u": "https://www.stadt-zuerich.ch/etc.clientlibs/webcomponents/clientlibs/resources/4.16.0/stzh-components/stzh-components.esm.js",
+  "l": "RAW z1",
+  "u": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung.html",
   "s": 200,
-  "f": "https://www.stadt-zuerich.ch/etc.clientlibs/webcomponents/clientlibs/resources/4.16.0/stzh-components/stzh-components.esm.js"
+  "f": "https://www.stadt-zuerich.ch/de/stadtleben/sport-und-erholung.html",
+  "title": "Sport und Erholung | Stadt Zürich"
  },
  {
-  "l": "RAW zs1",
-  "u": "https://www.stadt-zuerich.ch/stzh/search?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder",
+  "l": "RAW z2",
+  "u": "https://www.stadt-zuerich.ch/de/lebenslagen/jugend-und-familie.html",
   "s": 200,
-  "f": "https://www.stadt-zuerich.ch/stzh/search?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder"
+  "f": "https://www.stadt-zuerich.ch/de/lebenslagen/jugend-und-familie.html",
+  "title": "Jugend und Familie | Stadt Zürich"
  },
  {
-  "l": "RAW zs2",
-  "u": "https://www.stadt-zuerich.ch/stzh/search.json?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder&limit=8&offset=0",
+  "l": "RAW z3",
+  "u": "https://www.stadt-zuerich.ch/stzh/search?lang=de&q=Vereinsverzeichnis",
   "s": 200,
-  "f": "https://www.stadt-zuerich.ch/stzh/search.json?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder&limit=8&offset=0"
- },
- {
-  "l": "RAW zs3",
-  "u": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen.html?q_target_groups=events:audience/kinder",
-  "s": 200,
-  "f": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen.html?q_target_groups=events:audience/kinder",
-  "title": "Veranstaltungen | Stadt Zürich"
+  "f": "https://www.stadt-zuerich.ch/stzh/search?lang=de&q=Vereinsverzeichnis"
  }
 ]
