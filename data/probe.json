@@ -1,101 +1,67 @@
 [
  {
-  "l": "RAW gz1",
-  "u": "https://gz-zh.ch/veranstaltungen/",
-  "s": 404,
-  "f": "https://gz-zh.ch/veranstaltungen/",
-  "title": "Seite wurde nicht gefunden. - Zürcher Gemeinschaftszentren"
- },
- {
-  "l": "RAW gz2",
-  "u": "https://gz-zh.ch/wp-json/tribe/events/v1/events?per_page=5",
-  "s": 404,
-  "f": "https://gz-zh.ch/wp-json/tribe/events/v1/events?per_page=5"
- },
- {
-  "l": "RAW gz3",
-  "u": "https://gz-zh.ch/wp-json/",
-  "s": 200,
-  "f": "https://gz-zh.ch/wp-json/"
- },
- {
-  "l": "RAW gz4",
-  "u": "https://gz-zh.ch/gz-heuried/",
-  "s": 200,
-  "f": "https://gz-zh.ch/gz-heuried/",
-  "title": "Bei uns - GZ Heuried - Zürcher Gemeinschaftszentren"
- },
- {
-  "l": "RAW pbz",
-  "u": "https://www.pbz.ch/veranstaltungen",
-  "s": 404,
-  "f": "https://www.pbz.ch/veranstaltungen",
-  "title": "Page not found - PBZ.ch"
- },
- {
   "l": "RAW w1",
-  "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/veranstaltungen",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?CONTENT_EVENT_TARGET_GROUP___ID=330",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/themen/kultur/kultur-erleben/kulturagenda",
-  "title": "Kulturagenda | Stadt Winterthur"
+  "f": "https://stadt.winterthur.ch/veranstaltungen?CONTENT_EVENT_TARGET_GROUP___ID=330",
+  "title": "Veranstaltungen | Stadt Winterthur"
  },
  {
   "l": "RAW w2",
-  "u": "https://stadt.winterthur.ch/veranstaltungen",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?filters=CONTENT_EVENT_TARGET_GROUP___ID:330",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/veranstaltungen",
+  "f": "https://stadt.winterthur.ch/veranstaltungen?filters=CONTENT_EVENT_TARGET_GROUP___ID:330",
   "title": "Veranstaltungen | Stadt Winterthur"
  },
  {
   "l": "RAW w3",
-  "u": "https://stadt.winterthur.ch/",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?f%5BCONTENT_EVENT_TARGET_GROUP___ID%5D=330",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/",
-  "title": "Stadt Winterthur | Stadt Winterthur"
+  "f": "https://stadt.winterthur.ch/veranstaltungen?f%5BCONTENT_EVENT_TARGET_GROUP___ID%5D=330",
+  "title": "Veranstaltungen | Stadt Winterthur"
  },
  {
   "l": "RAW w4",
-  "u": "https://www.kinderthur.ch/agenda/",
-  "s": 200,
-  "f": "https://www.kinderthur.ch/agenda/",
-  "title": "Was lauft? Agenda und Ferienprogramm - Kinderthur",
-  "ext": [
-   "https://ammannfoundation.ch/en",
-   "https://tube-design.ch/",
-   "https://lerne-gerne.ch/",
-   "https://www.schmidhauser-stiftung.ch/",
-   "https://www.coucoumagazin.ch/de/kalender.html",
-   "https://www.buchamplatz.ch/",
-   "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/fur-lehrpersonen-und-schulklassen/exploratio-begabungs-und-begabtenfoerderung",
-   "https://www.artcoaching-berweger.ch/"
-  ]
+  "u": "https://veranstaltungen.winterthur.ch/api/events",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
  },
  {
   "l": "RAW w5",
-  "u": "https://winterthur.com/veranstaltungen",
-  "s": 200,
-  "f": "https://winterthur.com/kunst-kultur/veranstaltungen.html",
-  "title": "Veranstaltungen - House of Winterthur"
+  "u": "https://veranstaltungen.winterthur.ch/",
+  "s": -1,
+  "e": "UND_ERR_CONNECT_TIMEOUT"
  },
  {
-  "l": "RAW zh1",
-  "u": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen.html",
+  "l": "RAW w6",
+  "u": "https://stadt.winterthur.ch/veranstaltung/wenn-einer-eine-reise-tut-konrad-bitterli-ueber-seine-zeit-als-direktor-des-kunst-museum-winterthur",
   "s": 200,
-  "f": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen.html",
+  "f": "https://stadt.winterthur.ch/veranstaltung/wenn-einer-eine-reise-tut-konrad-bitterli-ueber-seine-zeit-als-direktor-des-kunst-museum-winterthur",
+  "title": "«Wenn einer eine Reise tut …» Konrad Bitterli über seine Zeit als Direktor des Kunst Museum Winterthur, worauf er zurück"
+ },
+ {
+  "l": "RAW zjs",
+  "u": "https://www.stadt-zuerich.ch/etc.clientlibs/webcomponents/clientlibs/resources/4.16.0/stzh-components/stzh-components.esm.js",
+  "s": 200,
+  "f": "https://www.stadt-zuerich.ch/etc.clientlibs/webcomponents/clientlibs/resources/4.16.0/stzh-components/stzh-components.esm.js"
+ },
+ {
+  "l": "RAW zs1",
+  "u": "https://www.stadt-zuerich.ch/stzh/search?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder",
+  "s": 200,
+  "f": "https://www.stadt-zuerich.ch/stzh/search?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder"
+ },
+ {
+  "l": "RAW zs2",
+  "u": "https://www.stadt-zuerich.ch/stzh/search.json?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder&limit=8&offset=0",
+  "s": 200,
+  "f": "https://www.stadt-zuerich.ch/stzh/search.json?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/kinder&limit=8&offset=0"
+ },
+ {
+  "l": "RAW zs3",
+  "u": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen.html?q_target_groups=events:audience/kinder",
+  "s": 200,
+  "f": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen.html?q_target_groups=events:audience/kinder",
   "title": "Veranstaltungen | Stadt Zürich"
- },
- {
-  "l": "RAW zh2",
-  "u": "https://www.stadt-zuerich.ch/de/aktuell.html",
-  "s": 200,
-  "f": "https://www.stadt-zuerich.ch/de/aktuell.html",
-  "title": "Aktuelles | Stadt Zürich"
- },
- {
-  "l": "RAW zt",
-  "u": "https://www.zuerich.com/de/besuchen/events",
-  "s": 404,
-  "f": "https://www.zuerich.com/de/besuchen/events",
-  "ext": []
  }
 ]
