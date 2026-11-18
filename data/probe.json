@@ -1,8 +1,30 @@
 [
  {
-  "l": "RAW s",
-  "u": "https://stadt.winterthur.ch/_nuxt/slyFD7ph.js",
+  "l": "RAW t1",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330",
   "s": 200,
-  "f": "https://stadt.winterthur.ch/_nuxt/slyFD7ph.js"
+  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330",
+  "title": "Veranstaltungen | Stadt Winterthur"
+ },
+ {
+  "l": "RAW t2",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=342",
+  "s": 200,
+  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=342",
+  "title": "Veranstaltungen | Stadt Winterthur"
+ },
+ {
+  "l": "RAW t3",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=1446",
+  "s": 200,
+  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=1446",
+  "title": "Veranstaltungen | Stadt Winterthur"
+ },
+ {
+  "l": "RAW t4",
+  "u": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330&dateFrom=2026-11-18&dateTo=2027-05-31",
+  "s": 200,
+  "f": "https://stadt.winterthur.ch/veranstaltungen?targetGroup=330&dateFrom=2026-11-18&dateTo=2027-05-31",
+  "title": "Veranstaltungen | Stadt Winterthur"
  }
 ]
