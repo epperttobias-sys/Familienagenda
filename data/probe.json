@@ -1,16 +1,9 @@
 [
  {
-  "l": "RAW f1",
-  "u": "https://www.pfadi.zuerich/pfadi/finder/",
+  "l": "RAW m1",
+  "u": "https://pfadi.swiss/de/finder-embed/?bg=ffffff",
   "s": 200,
-  "f": "https://www.pfadi.zuerich/pfadi/finder/",
-  "title": "Pfadifinder &#124; Pfadi Züri"
- },
- {
-  "l": "RAW f2",
-  "u": "https://www.pfadi.zuerich/pfadi/uebersicht/",
-  "s": 200,
-  "f": "https://www.pfadi.zuerich/pfadi/uebersicht/",
-  "title": "Übersicht der Pfadi Züri &#124; Pfadi Züri"
+  "f": "https://pfadi.swiss/de/finder-embed/?bg=ffffff",
+  "title": "Finder Embed"
  }
 ]
