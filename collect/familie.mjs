@@ -57,4 +57,7 @@ await fillSites(Object.values(out).flat());
 try { const FX = JSON.parse(readFileSync("data/familie-fix.json", "utf8"));
   for (const c in out) { out[c] = out[c].filter(x => !FX.hide.includes(c + "|" + x.n)); out[c].forEach(x => { const k = c + "|" + x.n; if (k in FX.url) x.w = FX.url[k]; }); }
 } catch (e) { console.log("ohne Korrekturen", e.message); }
+// Standorte derselben Kette (z.B. «globegarden» neben «Globegarden Childcare»): Website übernehmen
+for (const c in out) for (const x of out[c]) if (!x.w) { const n = x.n.toLowerCase();
+  const s = out[c].find(y => y !== x && y.w && (y.n.toLowerCase().includes(n) || n.includes(y.n.toLowerCase()))); if (s) x.w = s.w; }
 writeFileSync("site/familie.js", "window.FAMILIE=" + JSON.stringify({ stand: new Date().toISOString().slice(0, 10), gemeinden: out }) + ";\n");
