@@ -1,47 +1,44 @@
 [
  {
   "l": "RAW k1",
-  "u": "https://www.kinderthur.ch/agenda/",
+  "u": "https://www.kinderthur.ch/wp-json/wp/v2/ajde_events?per_page=100",
   "s": 200,
-  "f": "https://www.kinderthur.ch/agenda/",
-  "title": "Was lauft? Agenda und Ferienprogramm - Kinderthur",
-  "ext": [
-   "https://ammannfoundation.ch/en",
-   "https://tube-design.ch/",
-   "https://lerne-gerne.ch/",
-   "https://www.schmidhauser-stiftung.ch/",
-   "https://www.coucoumagazin.ch/de/kalender.html",
-   "https://www.buchamplatz.ch/",
-   "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/fur-lehrpersonen-und-schulklassen/exploratio-begabungs-und-begabtenfoerderung",
-   "https://www.artcoaching-berweger.ch/"
-  ]
+  "f": "https://www.kinderthur.ch/wp-json/wp/v2/ajde_events?per_page=100",
+  "title": "Kindermusical \\u00abSchneewittli\\u00bb - Kinderthur",
+  "ext": []
+ },
+ {
+  "l": "RAW k2",
+  "u": "https://www.kinderthur.ch/feed/?post_type=ajde_events",
+  "s": 200,
+  "f": "https://www.kinderthur.ch/feed/?post_type=ajde_events",
+  "title": "Events Archiv - Kinderthur",
+  "ext": []
+ },
+ {
+  "l": "RAW k3",
+  "u": "https://www.kinderthur.ch/wp-json/",
+  "s": 200,
+  "f": "https://www.kinderthur.ch/wp-json/",
+  "ext": []
+ },
+ {
+  "l": "RAW k4",
+  "u": "https://www.kinderthur.ch/robots.txt",
+  "s": 200,
+  "f": "https://www.kinderthur.ch/robots.txt",
+  "ext": []
  },
  {
   "l": "RAW p1",
-  "u": "https://www.pfadizueri.ch/",
+  "u": "https://www.pfadi.zuerich/sitemap.xml",
   "s": 200,
-  "f": "https://www.pfadi.zuerich/",
-  "title": "Pfadi Züri &#124; Hier erlebst du Abenteuer"
+  "f": "https://www.pfadi.zuerich/sitemap.xml"
  },
  {
   "l": "RAW p2",
-  "u": "https://www.pfadizueri.ch/abteilungen/",
-  "s": 404,
-  "f": "https://www.pfadi.zuerich/abteilungen/",
-  "title": "Page not found - Pfadi Züri"
- },
- {
-  "l": "RAW p3",
-  "u": "https://pfadi.swiss/de/pfadi-finden/",
-  "s": 404,
-  "f": "https://pfadi.swiss/de/pfadi-finden/",
-  "title": ""
- },
- {
-  "l": "RAW p4",
-  "u": "https://www.pfadi-winterthur.ch/",
+  "u": "https://www.pfadi.zuerich/robots.txt",
   "s": 200,
-  "f": "https://www.pfadi-winterthur.ch/",
-  "title": "Pfadi Winterthur Handball &#8211; Handball seit 1938"
+  "f": "https://www.pfadi.zuerich/robots.txt"
  }
 ]

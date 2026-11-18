@@ -1,0 +1,285 @@
+https://www.kinderthur.ch/feed/?post_type=ajde_events
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Events Archiv - Kinderthur</title>
+	<atom:link href="https://www.kinderthur.ch/feed/?post_type=ajde_events" rel="self" type="application/rss+xml" />
+	<link>https://www.kinderthur.ch/events/</link>
+	<description>Die Info-Plattform für Eltern und Familien in Winterthur</description>
+	<lastBuildDate>Tue, 17 Nov 2026 14:45:35 +0000</lastBuildDate>
+	<language>de</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=7.1.5</generator>
+	<item>
+		<title>Kindermusical «Schneewittli»</title>
+		<link>https://www.kinderthur.ch/events/kindermusical-schneewittli-14/</link>
+					<comments>https://www.kinderthur.ch/events/kindermusical-schneewittli-14/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:45:21 +0000</pubDate>
+				<category><![CDATA[Musik]]></category>
+		<category><![CDATA[Theater]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/kindermusical-schneewittli-14/</guid>
+
+					<description><![CDATA[<p>Fidibus präsentiert: «Schneewittli»: «Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-14/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Fidibus präsentiert: «Schneewittli»:</p>
+<p><strong>«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das Mädchen in den Wald zu bringen… </strong></p>
+<p>Mit klopfendem Herzen irrt Schneewittli tief im dunklen Wald umher, bis sie – erschöpft und hungrig – etwas entdeckt: ein klitzekleines Häuschen, mit einem klitzekleinen Tischchen und sieben klitzekleinen Stühlchen. Wer hier wohl wohnen mag? Darf man einfach eintreten? Und gibt es vielleicht etwas zu essen? Während die Königin bereits den nächsten hinterlistigen Plan schmiedet, schöpft Schneewittli bei den sieben Zwergen neuen Mut und findet im fröhlichen Chaos aus schief gesungenen Zwergenliedern und jeder Menge Schabernack ihr bezauberndes Lachen wieder.</p>
+<p>Fidibus erzählt das bekannte Märchen der Brüder Grimm neu – verspielt, überraschend und mit viel Humor. In der liebevollen Inszenierung von Brigitt Maag verschmelzen Witz, charismatische Darsteller:innen und musikalische Ohrwürmer zu einem unvergesslichen Theatererlebnis.</p>
+<p>Ein märchenhaftes Abenteuer voller Magie, Musik und augenzwinkernder Überraschungen – für Kinder genauso wie für Erwachsene.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-14/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/kindermusical-schneewittli-14/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kindermusical «Schneewittli»</title>
+		<link>https://www.kinderthur.ch/events/kindermusical-schneewittli-13/</link>
+					<comments>https://www.kinderthur.ch/events/kindermusical-schneewittli-13/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:45:00 +0000</pubDate>
+				<category><![CDATA[Musik]]></category>
+		<category><![CDATA[Theater]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/kindermusical-schneewittli-13/</guid>
+
+					<description><![CDATA[<p>Fidibus präsentiert: «Schneewittli»: «Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-13/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Fidibus präsentiert: «Schneewittli»:</p>
+<p><strong>«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das Mädchen in den Wald zu bringen… </strong></p>
+<p>Mit klopfendem Herzen irrt Schneewittli tief im dunklen Wald umher, bis sie – erschöpft und hungrig – etwas entdeckt: ein klitzekleines Häuschen, mit einem klitzekleinen Tischchen und sieben klitzekleinen Stühlchen. Wer hier wohl wohnen mag? Darf man einfach eintreten? Und gibt es vielleicht etwas zu essen? Während die Königin bereits den nächsten hinterlistigen Plan schmiedet, schöpft Schneewittli bei den sieben Zwergen neuen Mut und findet im fröhlichen Chaos aus schief gesungenen Zwergenliedern und jeder Menge Schabernack ihr bezauberndes Lachen wieder.</p>
+<p>Fidibus erzählt das bekannte Märchen der Brüder Grimm neu – verspielt, überraschend und mit viel Humor. In der liebevollen Inszenierung von Brigitt Maag verschmelzen Witz, charismatische Darsteller:innen und musikalische Ohrwürmer zu einem unvergesslichen Theatererlebnis.</p>
+<p>Ein märchenhaftes Abenteuer voller Magie, Musik und augenzwinkernder Überraschungen – für Kinder genauso wie für Erwachsene.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-13/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/kindermusical-schneewittli-13/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kindermusical «Schneewittli»</title>
+		<link>https://www.kinderthur.ch/events/kindermusical-schneewittli-12/</link>
+					<comments>https://www.kinderthur.ch/events/kindermusical-schneewittli-12/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:44:33 +0000</pubDate>
+				<category><![CDATA[Musik]]></category>
+		<category><![CDATA[Theater]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/kindermusical-schneewittli-12/</guid>
+
+					<description><![CDATA[<p>Fidibus präsentiert: «Schneewittli»: «Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-12/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Fidibus präsentiert: «Schneewittli»:</p>
+<p><strong>«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das Mädchen in den Wald zu bringen… </strong></p>
+<p>Mit klopfendem Herzen irrt Schneewittli tief im dunklen Wald umher, bis sie – erschöpft und hungrig – etwas entdeckt: ein klitzekleines Häuschen, mit einem klitzekleinen Tischchen und sieben klitzekleinen Stühlchen. Wer hier wohl wohnen mag? Darf man einfach eintreten? Und gibt es vielleicht etwas zu essen? Während die Königin bereits den nächsten hinterlistigen Plan schmiedet, schöpft Schneewittli bei den sieben Zwergen neuen Mut und findet im fröhlichen Chaos aus schief gesungenen Zwergenliedern und jeder Menge Schabernack ihr bezauberndes Lachen wieder.</p>
+<p>Fidibus erzählt das bekannte Märchen der Brüder Grimm neu – verspielt, überraschend und mit viel Humor. In der liebevollen Inszenierung von Brigitt Maag verschmelzen Witz, charismatische Darsteller:innen und musikalische Ohrwürmer zu einem unvergesslichen Theatererlebnis.</p>
+<p>Ein märchenhaftes Abenteuer voller Magie, Musik und augenzwinkernder Überraschungen – für Kinder genauso wie für Erwachsene.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-12/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/kindermusical-schneewittli-12/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kindermusical «Schneewittli»</title>
+		<link>https://www.kinderthur.ch/events/kindermusical-schneewittli-11/</link>
+					<comments>https://www.kinderthur.ch/events/kindermusical-schneewittli-11/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:39:50 +0000</pubDate>
+				<category><![CDATA[Musik]]></category>
+		<category><![CDATA[Theater]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/kindermusical-schneewittli-11/</guid>
+
+					<description><![CDATA[<p>Fidibus präsentiert: «Schneewittli»: «Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-11/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Fidibus präsentiert: «Schneewittli»:</p>
+<p><strong>«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das Mädchen in den Wald zu bringen… </strong></p>
+<p>Mit klopfendem Herzen irrt Schneewittli tief im dunklen Wald umher, bis sie – erschöpft und hungrig – etwas entdeckt: ein klitzekleines Häuschen, mit einem klitzekleinen Tischchen und sieben klitzekleinen Stühlchen. Wer hier wohl wohnen mag? Darf man einfach eintreten? Und gibt es vielleicht etwas zu essen? Während die Königin bereits den nächsten hinterlistigen Plan schmiedet, schöpft Schneewittli bei den sieben Zwergen neuen Mut und findet im fröhlichen Chaos aus schief gesungenen Zwergenliedern und jeder Menge Schabernack ihr bezauberndes Lachen wieder.</p>
+<p>Fidibus erzählt das bekannte Märchen der Brüder Grimm neu – verspielt, überraschend und mit viel Humor. In der liebevollen Inszenierung von Brigitt Maag verschmelzen Witz, charismatische Darsteller:innen und musikalische Ohrwürmer zu einem unvergesslichen Theatererlebnis.</p>
+<p>Ein märchenhaftes Abenteuer voller Magie, Musik und augenzwinkernder Überraschungen – für Kinder genauso wie für Erwachsene.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-11/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/kindermusical-schneewittli-11/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Kindermusical «Schneewittli»</title>
+		<link>https://www.kinderthur.ch/events/kindermusical-schneewittli-10/</link>
+					<comments>https://www.kinderthur.ch/events/kindermusical-schneewittli-10/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 14:39:37 +0000</pubDate>
+				<category><![CDATA[Musik]]></category>
+		<category><![CDATA[Theater]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/kindermusical-schneewittli-10/</guid>
+
+					<description><![CDATA[<p>Fidibus präsentiert: «Schneewittli»: «Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-10/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Fidibus präsentiert: «Schneewittli»:</p>
+<p><strong>«Spieglein, Spieglein an der Wand – wer ist die Schönste im ganzen Land?» Als der Zauberspiegel eines Tages unverfroren antwortet: «Schneewittli, natürlich!», ist es vorbei mit der königlichen Gelassenheit. Die Königin kocht vor Wut – und fasst einen folgenschweren Entschluss: Schneewittli muss verschwinden! So erteilt sie dem Jäger den grausamen Auftrag, das Mädchen in den Wald zu bringen… </strong></p>
+<p>Mit klopfendem Herzen irrt Schneewittli tief im dunklen Wald umher, bis sie – erschöpft und hungrig – etwas entdeckt: ein klitzekleines Häuschen, mit einem klitzekleinen Tischchen und sieben klitzekleinen Stühlchen. Wer hier wohl wohnen mag? Darf man einfach eintreten? Und gibt es vielleicht etwas zu essen? Während die Königin bereits den nächsten hinterlistigen Plan schmiedet, schöpft Schneewittli bei den sieben Zwergen neuen Mut und findet im fröhlichen Chaos aus schief gesungenen Zwergenliedern und jeder Menge Schabernack ihr bezauberndes Lachen wieder.</p>
+<p>Fidibus erzählt das bekannte Märchen der Brüder Grimm neu – verspielt, überraschend und mit viel Humor. In der liebevollen Inszenierung von Brigitt Maag verschmelzen Witz, charismatische Darsteller:innen und musikalische Ohrwürmer zu einem unvergesslichen Theatererlebnis.</p>
+<p>Ein märchenhaftes Abenteuer voller Magie, Musik und augenzwinkernder Überraschungen – für Kinder genauso wie für Erwachsene.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/kindermusical-schneewittli-10/">Kindermusical «Schneewittli»</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/kindermusical-schneewittli-10/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TierZeit Kids in der Stadtbibliothek: Wildtierspuren</title>
+		<link>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/</link>
+					<comments>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 16:54:39 +0000</pubDate>
+				<guid isPermaLink="false">https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/</guid>
+
+					<description><![CDATA[<p>Was braucht ein Tier, damit es sich wohlfühlt? Wo wohnt es, was frisst es oder wie schläft es? Eine Tierschutzlehrerin von Krax, dem Kinderclub des Schweizer Tierschutz STS, gibt spannende Einblicke in die Lebensweisen verschiedener Tiere. Heute zum Thema: Wildtierspuren</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/">TierZeit Kids in der Stadtbibliothek: Wildtierspuren</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Was braucht ein Tier, damit es sich wohlfühlt? Wo wohnt es, was frisst es oder wie schläft es? Eine Tierschutzlehrerin von Krax, dem Kinderclub des Schweizer Tierschutz STS, gibt spannende Einblicke in die Lebensweisen verschiedener Tiere. Heute zum Thema: Wildtierspuren</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/">TierZeit Kids in der Stadtbibliothek: Wildtierspuren</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-wildtierspuren/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TierZeit Kids in der Stadtbibliothek: Die Rückkehr der Grossraubtiere (Bär, Luchs, Wolf)</title>
+		<link>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/</link>
+					<comments>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 16:53:04 +0000</pubDate>
+				<guid isPermaLink="false">https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/</guid>
+
+					<description><![CDATA[<p>Was braucht ein Tier, damit es sich wohlfühlt? Wo wohnt es, was frisst es oder wie schläft es? Eine Tierschutzlehrerin von Krax, dem Kinderclub des Schweizer Tierschutz STS, gibt spannende Einblicke in die Lebensweisen verschiedener Tiere. Heute zum Thema: Die Rückkehr der Grossraubtiere (Bär, Luchs, Wolf).</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/">TierZeit Kids in der Stadtbibliothek: Die Rückkehr der Grossraubtiere (Bär, Luchs, Wolf)</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Was braucht ein Tier, damit es sich wohlfühlt? Wo wohnt es, was frisst es oder wie schläft es? Eine Tierschutzlehrerin von Krax, dem Kinderclub des Schweizer Tierschutz STS, gibt spannende Einblicke in die Lebensweisen verschiedener Tiere. Heute zum Thema: Die Rückkehr der Grossraubtiere (Bär, Luchs, Wolf).</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/">TierZeit Kids in der Stadtbibliothek: Die Rückkehr der Grossraubtiere (Bär, Luchs, Wolf)</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-die-rueckkehr-der-grossraubtiere-baer-luchs-wolf/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>TierZeit Kids in der Stadtbibliothek: Meerestiere</title>
+		<link>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/</link>
+					<comments>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 16:51:33 +0000</pubDate>
+				<guid isPermaLink="false">https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/</guid>
+
+					<description><![CDATA[<p>Was braucht ein Tier, damit es sich wohlfühlt? Wo wohnt es, was frisst es oder wie schläft es? Eine Tierschutzlehrerin von Krax, dem Kinderclub des Schweizer Tierschutz STS, gibt spannende Einblicke in die Lebensweisen verschiedener Tiere. Heute zum Thema: Meerestiere.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/">TierZeit Kids in der Stadtbibliothek: Meerestiere</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<p>Was braucht ein Tier, damit es sich wohlfühlt? Wo wohnt es, was frisst es oder wie schläft es? Eine Tierschutzlehrerin von Krax, dem Kinderclub des Schweizer Tierschutz STS, gibt spannende Einblicke in die Lebensweisen verschiedener Tiere. Heute zum Thema: Meerestiere.</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/">TierZeit Kids in der Stadtbibliothek: Meerestiere</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/tierzeit-kids-in-der-stadtbibliothek-meerestiere/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LeseZeit Kids: Mitmach-Lesung mit Andrea Külling</title>
+		<link>https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/</link>
+					<comments>https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 16:49:36 +0000</pubDate>
+				<category><![CDATA[Leseförderung]]></category>
+		<category><![CDATA[Spracherwerb]]></category>
+		<category><![CDATA[treffen]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/</guid>
+
+					<description><![CDATA[<p>Jorin ist ein sensibler Junge. Das Schöne daran: Er ist voller Verständnis und Gefühle, er nimmt viel auf, hat viel Fantasie und farbige Bilder im Kopf. Das weniger Schöne daran: All das kann auch zu viel werden für ihn. Die Geschichte von Jorin und seinem Grossvater macht Mut, zu sich selbst zu stehen und seine  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/">LeseZeit Kids: Mitmach-Lesung mit Andrea Külling</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div class="small-12 medium-8 columns description">
+<div class="expandable-text">
+<div class="short-text">
+<p>Jorin ist ein sensibler Junge. Das Schöne daran: Er ist voller Verständnis und Gefühle, er nimmt viel auf, hat viel Fantasie und farbige Bilder im Kopf. Das weniger Schöne daran: All das kann auch zu viel werden für ihn.<br />
+Die Geschichte von Jorin und seinem Grossvater macht Mut, zu sich selbst zu stehen und seine Bedürfnisse auszusprechen.</p>
+<p>In dieser abwechslungsreichen Mitmach-Lesung taucht die Kinderbuchautorin Andrea Külling mit den Kindern in Fantasiewelten ein. Singend und zeichnend gehen sie der Frage nach: Wie sieht meine Höhle aus?</p>
+</div>
+</div>
+</div>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/">LeseZeit Kids: Mitmach-Lesung mit Andrea Külling</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-andrea-kuelling/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>LeseZeit Kids: Mitmach-Lesung mit Bruno Hächler</title>
+		<link>https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-bruno-haechler/</link>
+					<comments>https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-bruno-haechler/#respond</comments>
+		
+		<dc:creator><![CDATA[Kinderthur]]></dc:creator>
+		<pubDate>Mon, 16 Nov 2026 16:48:12 +0000</pubDate>
+				<category><![CDATA[Leseförderung]]></category>
+		<category><![CDATA[Spracherwerb]]></category>
+		<category><![CDATA[treffen]]></category>
+		<guid isPermaLink="false">https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-bruno-haechler/</guid>
+
+					<description><![CDATA[<p>Nanu, wie ist denn das passiert? Wim und Frida wollten eigentlich nur die Sterne sehen, nun stolpern die beiden neugierigen Mäuse ruck-zuck in ein Räbeliechtli-Abenteuer, bei dem sie den Sternen viel näher kommen, als sie es sich erträumt hatten ... Bruno Hächler erzählt sein wunderbares Bilderbuch, «Wim &amp; Frida: Räbeliechtli», das bereits in der 2.  [...]</p>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-bruno-haechler/">LeseZeit Kids: Mitmach-Lesung mit Bruno Hächler</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[<div class="small-12 medium-8 columns description">
+<div class="expandable-text">
+<div class="short-text">
+<p>Nanu, wie ist denn das passiert? Wim und Frida wollten eigentlich nur die Sterne sehen, nun stolpern die beiden neugierigen Mäuse ruck-zuck in ein Räbeliechtli-Abenteuer, bei dem sie den Sternen viel näher kommen, als sie es sich erträumt hatten &#8230;</p>
+<p>Bruno Hächler erzählt sein wunderbares Bilderbuch, «Wim &amp; Frida: Räbeliechtli», das bereits in der 2. Auflage erschienen ist. Dazu gibt es Lieder-Hits von «Pfäfferland» bis «Mäntig, Zischtig». Und natürlich dürfen die beiden Räbeliechtlisongs nicht fehlen.</p>
+</div>
+</div>
+</div>
+<p>Der Beitrag <a href="https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-bruno-haechler/">LeseZeit Kids: Mitmach-Lesung mit Bruno Hächler</a> erschien zuerst auf <a href="https://www.kinderthur.ch">Kinderthur</a>.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://www.kinderthur.ch/events/lesezeit-kids-mitmach-lesung-mit-bruno-haechler/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
