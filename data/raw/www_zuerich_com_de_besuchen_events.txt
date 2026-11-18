@@ -1,0 +1,8 @@
+https://www.zuerich.com/de/besuchen/events
+{
+  "error": true,
+  "url": "https://www.zuerich.com/de/besuchen/events",
+  "statusCode": 404,
+  "statusMessage": "Page not found",
+  "message": "Server Error"
+}

@@ -1,0 +1,1536 @@
+https://winterthur.com/kunst-kultur/veranstaltungen.html
+
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="de"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="de"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="de"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="de">
+<!--<![endif]-->
+<head>
+        <meta charset="UTF-8">
+    <title>Veranstaltungen - House of Winterthur</title>
+    <base href="https://winterthur.com/">
+
+        <meta name="robots" content="index,follow">
+    <meta name="description" content="Winterthur bietet viel an kulturellen und unterhaltsamen Events, Museumsausstellungen und Theateraufführungen. Erfahre, welche Veranstaltung wann und wo stattfindet.">
+    <meta name="generator" content="Contao Open Source CMS">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    
+            <link rel="canonical" href="https://winterthur.com/kunst-kultur/veranstaltungen.html">
+    
+    <script src="layout-canvas/scripts/jquery.js?v=ea40c615"></script>
+
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    
+    <link href="https://fonts.googleapis.com/css?display=swap&amp;family=Lato:300,400,400italic,600,700%7CRaleway:300,400,500,600,700%7CCrete+Round:400italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="layout-canvas/styles/bundle-all.css?v=2efa3ed0" media="screen">
+    <link rel="stylesheet" href="layout-canvas/styles/bundle-components.css?v=ef1f4a58" media="screen">
+
+        <link rel="stylesheet" href="https://winterthur.com/bundles/app/announcements.css">        <script src="https://winterthur.com/bundles/app/announcements.min.js"></script><meta name="t42fes_tw_type" content="website"><link rel="shortcut icon" href="files/design_assets/design-winterthur/img/favicon.ico"><link rel="apple-touch-icon" href="files/design_assets/design-winterthur/img/favicon-158-158.png"><link rel="stylesheet" href="files/design_assets/design-winterthur/css/custom.css" media="screen"><link rel="stylesheet" href="files/design_assets/design-winterthur/css/custom-nav-pulldown-menu.css" media="screen"><meta property="og:image" content="https://winterthur.com/assets/images/2/theater-winterthur-saal-innen-cf8n7czshxratmg.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="1200"><meta property="og:type" content="website"><meta property="og:title" content="Veranstaltungen"><meta property="og:description" content="Winterthur bietet viel an kulturellen und unterhaltsamen Events, Museumsausstellungen und Theateraufführungen. Erfahre, welche Veranstaltung wann und wo stattfindet."><meta property="og:url" content="https://winterthur.com/kunst-kultur/veranstaltungen.html">    
+    <!-- Weglot start -->
+<link rel="alternate" hreflang="de" href="https://winterthur.com">
+<link rel="alternate" hreflang="en" href="https://en.winterthur.com">
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_31194016b88ed0b98a6c31525f6857e79'
+    });
+</script>
+<!-- Weglot ende -->
+        <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5GCZZLT');</script>
+    <!-- End Google Tag Manager -->
+    </head>
+<body id="top" class="stretched sticky-responsive-menu no-transition">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5GCZZLT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<div id="wrapper" class="clearfix">
+    
+    
+                
+<!-- indexer::stop -->
+<header id="header" class="transparent-header full-header semi-transparent" data-sticky-class="transparent semi-transparent">
+            <div id="header-wrap">
+            <div class="container clearfix">
+                                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                
+                                    <div id="logo">
+                        <a href="/" class="standard-logo" data-skip-search-index data-dark-logo="assets/images/z/Logo_winterthur_switzerland-1dz8hm866x85ss2.svg">
+                            <img src="assets/images/z/Logo_winterthur_switzerland-1dz8hm866x85ss2.svg" alt="Logo" width="376" height="100">
+                        </a>
+
+                                                    <a href="/" class="retina-logo" data-skip-search-index data-dark-logo="assets/images/n/Logo_winterthur_switzerland-dqe5zdheq7meh24.svg">
+                                <img src="assets/images/n/Logo_winterthur_switzerland-dqe5zdheq7meh24.svg" alt="Logo" width="753" height="200">
+                            </a>
+                                            </div>
+                
+                                                            
+                        <nav id="primary-menu" class="on-click on-click-default not-dark">
+                            <ul class="level_1">
+            <li class="submenu">
+            <a href="/winterthur-entdecken.html" title="Winterthur entdecken" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Winterthur entdecken</span>
+                </div>
+            </a>
+            <ul class="level_2">
+            <li class="submenu">
+            <a href="/winterthur-entdecken/stadtfuehrungen.html" title="Stadtführungen" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Stadtführungen</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/winterthur-entdecken/stadtfuehrungen/oeffentliche-stadtfuehrungen.html" title="Öffentliche Stadtführungen">
+                <div class="name">
+                    <span>Öffentliche Stadtführungen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/stadtfuehrungen/private-stadtfuehrungen.html" title="Private Stadtführungen">
+                <div class="name">
+                    <span>Private Stadtführungen</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/winterthur-entdecken/erlebnisse.html" title="Erlebnisse" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Erlebnisse</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="https://winterthur.com/buchen/erlebnisse.html" title="Buchen">
+                <div class="name">
+                    <span>Buchen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/urban-golf.html" title="Urban Golf">
+                <div class="name">
+                    <span>Urban Golf</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/erlebnisse/technorama.html" title="Technorama">
+                <div class="name">
+                    <span>Technorama</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="https://kinderregion.ch/de/die-region/winterthur/" title="Aktivitäten für Familien" target="_blank">
+                <div class="name">
+                    <span>Aktivitäten für Familien</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/stadtfuehrungen/trails.html" title="Trails">
+                <div class="name">
+                    <span>Trails</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/erlebnisse/escape-games.html" title="Escape Games">
+                <div class="name">
+                    <span>Escape Games</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="https://winterthur.com/Winterthur/package/search?globalReset=1&lang=de" title="Escape Games">
+                <div class="name">
+                    <span>Packages</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/winterthur-entdecken/nightlife.html" title="Nightlife" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Nightlife</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/winterthur-entdecken/nightlife/casinotheater.html" title="Casinotheater">
+                <div class="name">
+                    <span>Casinotheater</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/nightlife/swiss-casino-winterthur.html" title="Swiss Casino Winterthur">
+                <div class="name">
+                    <span>Swiss Casino Winterthur</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/theater/theater-winterthur.html" title="Theater Winterthur">
+                <div class="name">
+                    <span>Theater Winterthur</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/nightlife/bars-clubs.html" title="Bars &amp; Clubs">
+                <div class="name">
+                    <span>Bars & Clubs</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/nightlife/kinos.html" title="Kinos">
+                <div class="name">
+                    <span>Kinos</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/winterthur-entdecken/genuss-einkaufen.html" title="Genuss &amp; Einkaufen" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Genuss & Einkaufen</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/winterthur-entdecken/genuss-einkaufen/restaurants-cafes.html" title="Restaurants &amp; Cafés">
+                <div class="name">
+                    <span>Restaurants & Cafés</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/genuss-einkaufen/altstadtlaeden.html" title="Altstadtläden">
+                <div class="name">
+                    <span>Altstadtläden</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/genuss-einkaufen/regionale-maerkte.html" title="Regionale Märkte">
+                <div class="name">
+                    <span>Regionale Märkte</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/erlebnisse/genuss-wanderung.html" title="Genuss-Wanderung">
+                <div class="name">
+                    <span>Genuss-Wanderung</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/winterthur-entdecken/ausfluege-in-die-region.html" title="Ausflüge in die Region" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Ausflüge in die Region</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/winterthur-entdecken/ausfluege-in-die-region/rheinfall.html" title="Rheinfall">
+                <div class="name">
+                    <span>Rheinfall</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/ausfluege-in-die-region/zuercher-unterland.html" title="Zürcher Unterland">
+                <div class="name">
+                    <span>Zürcher Unterland</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/ausfluege-in-die-region/weinland.html" title="Zürcher Weinland">
+                <div class="name">
+                    <span>Zürcher Weinland</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/ausfluege-in-die-region/toesstal.html" title="Tösstal">
+                <div class="name">
+                    <span>Tösstal</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/ausfluege-in-die-region/schloesser-burgen.html" title="Schlösser und Burgen">
+                <div class="name">
+                    <span>Schlösser & Burgen</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li>
+            <a href="/winterthur-entdecken/nachhaltiges-winterthur.html" title="Nachhaltiges Winterthur">
+                <div class="name">
+                    <span>Nachhaltigkeit</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu trail">
+            <a href="/kunst-kultur.html" title="Kunst &amp; Kultur erleben" class="submenu trail" aria-haspopup="true">
+                <div class="name">
+                    <span>Kunst & Kultur erleben</span>
+                </div>
+            </a>
+            <ul class="level_2">
+            <li class="submenu sibling">
+            <a href="/kunst-kultur/museen.html" title="Museen" class="submenu sibling" aria-haspopup="true">
+                <div class="name">
+                    <span>Museen</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li class="museumspass-slider">
+            <a href="/kunst-kultur/museen.html" title="Ausstellungen" class="museumspass-slider">
+                <div class="name">
+                    <span>Ausstellungen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/museen/fotozentrum.html" title="Fotozentrum">
+                <div class="name">
+                    <span>Fotozentrum</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/museen/kunst-museum-winterthur.html" title="Kunst Museum Winterthur">
+                <div class="name">
+                    <span>Kunst Museum Winterthur</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/museen/sammlung-oskar-reinhart-am-roemerholz.html" title="Sammlung Oskar Reinhart «Am Römerholz»">
+                <div class="name">
+                    <span>Sammlung Oskar Reinhart «Am Römerholz»</span>
+                </div>
+            </a>
+                    </li>
+            <li class="museumspass-slider">
+            <a href="/winterthur-entdecken/erlebnisse/technorama.html" title="Technorama" class="museumspass-slider">
+                <div class="name">
+                    <span>Technorama</span>
+                </div>
+            </a>
+                    </li>
+            <li class="museumspass-slider">
+            <a href="/kunst-kultur/museen/museumspass.html" title="Museumspass" class="museumspass-slider">
+                <div class="name">
+                    <span>Museumspass</span>
+                </div>
+            </a>
+                    </li>
+            <li class="museumspass-slider">
+            <a href="https://winterthur.com/Winterthur/package/detail1/TDS00020012777131170" title="Museums-Package" class="museumspass-slider" target="_blank">
+                <div class="name">
+                    <span>Museums-Package</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu sibling">
+            <a href="/kunst-kultur/musik.html" title="Musik" class="submenu sibling" aria-haspopup="true">
+                <div class="name">
+                    <span>Musik</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/kunst-kultur/musik.html" title="Winterthurer Musikfestwochen">
+                <div class="name">
+                    <span>Konzerte</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/musik/musikfestwochen.html" title="Winterthurer Musikfestwochen">
+                <div class="name">
+                    <span>Winterthurer Musikfestwochen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/musik/musikkollegium-winterthur.html" title="Musikkollegium Winterthur">
+                <div class="name">
+                    <span>Musikkollegium Winterthur</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu sibling">
+            <a href="/kunst-kultur/theater.html" title="Theater" class="submenu sibling" aria-haspopup="true">
+                <div class="name">
+                    <span>Theater</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/kunst-kultur/theater/theater-winterthur.html" title="Theater Winterthur">
+                <div class="name">
+                    <span>Theater Winterthur</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/winterthur-entdecken/nightlife/casinotheater.html" title="Casinotheater">
+                <div class="name">
+                    <span>Casinotheater</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/kunst-kultur/theater/alle-theater.html" title="Alle Theater">
+                <div class="name">
+                    <span>Alle Theater</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="sibling">
+            <a href="/kunst-kultur/festivals.html" title="Festivals" class="sibling">
+                <div class="name">
+                    <span>Festivals</span>
+                </div>
+            </a>
+                    </li>
+            <li class="sibling">
+            <a href="/kunst-kultur/industriekultur.html" title="Industriekultur" class="sibling">
+                <div class="name">
+                    <span>Industriekultur</span>
+                </div>
+            </a>
+                    </li>
+            <li class="active">
+            <a href="/kunst-kultur/veranstaltungen.html" title="Veranstaltungen" class="active">
+                <div class="name">
+                    <span>Veranstaltungen</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/wirtschaftsstandort.html" title="Wirtschaftsstandort" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Wirtschaftsstandort</span>
+                </div>
+            </a>
+            <ul class="level_2">
+            <li>
+            <a href="/wirtschaftsstandort/standortprofil.html" title="Standortprofil &amp; Region">
+                <div class="name">
+                    <span>Standortprofil & Region</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/wirtschaftsstandort/startups.html" title="Startups &amp; Gründen in Winterthur">
+                <div class="name">
+                    <span>Startups & Gründen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/wirtschaftsstandort/innovation.html" title="Innovation">
+                <div class="name">
+                    <span>Innovation</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/wirtschaftsstandort/ansiedlung.html" title="Flächen &amp; Ansiedlung">
+                <div class="name">
+                    <span>Flächen & Ansiedlung</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/wirtschaftsstandort/clusterstrategie.html" title="Clusterstrategie">
+                <div class="name">
+                    <span>Clusterstrategie</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/wirtschaftsstandort/wirtschaftsnachrichten.html" title="Wirtschaftsnachrichten">
+                <div class="name">
+                    <span>Wirtschaftsnachrichten</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/wirtschaftsstandort/standortvorteile/unternehmensbefragung.html" title="Unternehmensbefragung">
+                <div class="name">
+                    <span>Unternehmensbefragung</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur.html" title="House of Winterthur" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>House of Winterthur</span>
+                </div>
+            </a>
+            <ul class="level_2">
+            <li>
+            <a href="/house-of-winterthur/verein-mitgliedschaft/mitglied-werden.html" title="Mitglied werden">
+                <div class="name">
+                    <span>Mitglied werden</span>
+                </div>
+            </a>
+                    </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur/veranstaltungen/alle-unsere-anlaesse.html" title="Unsere Anlässe" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Unsere Anlässe</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/house-of-winterthur/veranstaltungen/alle-unsere-anlaesse.html" title="Alle unsere Anlässe">
+                <div class="name">
+                    <span>Veranstaltungskalender</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/services/newsletter.html" title="Einladungen abonnieren">
+                <div class="name">
+                    <span>Einladungen abonnieren</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur/verein-mitgliedschaft.html" title="Verein &amp; Mitgliedschaft" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Verein</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/house-of-winterthur/verein-mitgliedschaft/vorstand.html" title="Vorstand">
+                <div class="name">
+                    <span>Vorstand</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/team.html" title="Team">
+                <div class="name">
+                    <span>Team</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/verein-mitgliedschaft/mitglieder-von-house-of-winterthur.html" title="Mitglieder von House of Winterthur">
+                <div class="name">
+                    <span>Mitglieder</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="//report.winterthur.com/de/" title="Generalversammlung &amp; Geschäftsberichte">
+                <div class="name">
+                    <span>Geschäftsberichte</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="https://winterthur.com/files/winterthur.com/media/houseofwinterthur/vereinsstatuten-how-2022.pdf?version=1bed93cef9f76617" title="Vereinsstatuten" target="_blank">
+                <div class="name">
+                    <span>Vereinsstatuten</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur/team.html" title="Team" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Team</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/house-of-winterthur/team/mitarbeitende.html" title="Mitarbeitende">
+                <div class="name">
+                    <span>Mitarbeitende</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/team/stadtfuehrerinnen-stadtfuehrer.html" title="Stadtführer-/innen">
+                <div class="name">
+                    <span>Stadtführer:innen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/team/offene-stellen.html" title="Offene Stellen">
+                <div class="name">
+                    <span>Offene Stellen</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur/standorte.html" title="Standorte" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Standorte</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/house-of-winterthur/team/geschaeftsstelle.html" title="Geschäftsstelle">
+                <div class="name">
+                    <span>Geschäftsstelle</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/standorte/tourist-information.html" title="Tourist Information">
+                <div class="name">
+                    <span>Tourist Information</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="https://winterthur.com/Winterthur/artikel/search?globalReset=1&lang=de" title="Shop">
+                <div class="name">
+                    <span>Shop</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li>
+            <a href="/house-of-winterthur/medien.html" title="Medien">
+                <div class="name">
+                    <span>Medien</span>
+                </div>
+            </a>
+                    </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur/verein-mitgliedschaft/partner.html" title="Partner" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Partner</span>
+                </div>
+            </a>
+            <ul class="level_3">
+            <li>
+            <a href="/house-of-winterthur/services/kooperationen.html" title="Partner">
+                <div class="name">
+                    <span>Kooperationen</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li>
+            <a href="/marke-winterthur-switzerland.html" title="Marke Winterthur Switzerland">
+                <div class="name">
+                    <span>Marke Winterthur Switzerland</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+            <li class="submenu">
+            <a href="/house-of-winterthur/services.html" title="Services" class="submenu" aria-haspopup="true">
+                <div class="name">
+                    <span>Services</span>
+                </div>
+            </a>
+            <ul class="level_2">
+            <li>
+            <a href="/house-of-winterthur/standorte/tourist-information.html" title="Tourist Information">
+                <div class="name">
+                    <span>Tourist Information</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="https://winterthur.com/Winterthur/artikel/search?globalReset=1&lang=de" title="Shop">
+                <div class="name">
+                    <span>Shop</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/services/meetings-events.html" title="Meetings &amp; Events">
+                <div class="name">
+                    <span>Meetings & Events</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/services/kooperationen.html" title="Kooperationen">
+                <div class="name">
+                    <span>Kooperationen</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/services/newsletter.html" title="Newsletter">
+                <div class="name">
+                    <span>Newsletter</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/medien.html" title="Medien">
+                <div class="name">
+                    <span>Medien</span>
+                </div>
+            </a>
+                    </li>
+            <li>
+            <a href="/house-of-winterthur/services/broschueren.html" title="Broschüren">
+                <div class="name">
+                    <span>Broschüren</span>
+                </div>
+            </a>
+                    </li>
+    </ul>
+        </li>
+    </ul>
+
+                                                            <div id="top-search" class="elementSearch">
+                                    <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                                    <form action="/suche.html" method="get">
+                                        <input type="text" name="keywords" class="form-control" value="" placeholder="Suche nach...">
+                                    </form>
+                                </div>
+                            
+                                                    </nav>
+                                                </div>
+        </div>
+    </header>
+<!-- indexer::continue -->
+        
+    
+    
+        <div class="clear"></div>
+
+    <section id="content">
+                
+                <div class="clearfix">
+            
+<div class="section left nobgcolor notopmargin norightmargin nobottommargin noleftmargin ce_rsce_box_start" style="background-repeat:no-repeat !important;background-size:cover !important;background-position:center center !important" data-height-lg="500" data-height-md="500" data-height-sm="500" data-height-xs="300" data-height-xxs="300" data-negative-height="200" data-responsive-background-image>
+            <figure style="visibility:hidden;height:0;max-height:0;overflow:hidden;">
+                                                    <picture>
+                                    <source data-srcset="https://winterthur.com/assets/images/t/theater-winterthur-saal-innen-y9chdn9ycp0cacv.webp 2560w, https://winterthur.com/assets/images/n/theater-winterthur-saal-innen-7sqyxmhy2rhbqb2.webp 3000w, https://winterthur.com/assets/images/d/theater-winterthur-saal-innen-m7qrg9r0zvkcfnm.webp 750w, https://winterthur.com/assets/images/4/theater-winterthur-saal-innen-qj0nhtdpzcbes7s.webp 375w" sizes="(min-width: 376px) 2560px, 375px" type="image/webp">
+                            
+            
+            <img data-src="https://winterthur.com/assets/images/w/theater-winterthur-saal-innen-6j64mehefn9zt45.jpg" data-srcset="https://winterthur.com/assets/images/w/theater-winterthur-saal-innen-6j64mehefn9zt45.jpg 2560w, https://winterthur.com/assets/images/t/theater-winterthur-saal-innen-azkctpzsqk4ewbn.jpg 3000w, https://winterthur.com/assets/images/j/theater-winterthur-saal-innen-g14vn6czkaxajwg.jpg 750w, https://winterthur.com/assets/images/b/theater-winterthur-saal-innen-rpgjsq4xa1e3hdj.jpg 375w" data-sizes="(min-width: 376px) 2560px, 375px" alt="" class="lazyload">
+
+                            </picture>
+                                </figure>
+            </div>
+
+<div class="section center nobgcolor notopmargin norightmargin nobottommargin noleftmargin nobottompadding ce_rsce_box_start" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="container clearfix"><div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+
+
+            <div class="content-text">                                    
+    <h1>Veranstaltungskalender</h1>
+
+            
+                            
+    
+                    
+        <div class="rte">
+                    <p>Winterthur bietet viel an kulturellen und unterhaltsamen Events, Museumsausstellungen und Theateraufführungen. Erfahre hier, welche Veranstaltung wann und wo stattfindet.</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+</div>
+    </div></div>
+
+<div class="section center nobgcolor notopmargin norightmargin nobottommargin noleftmargin nobottompadding ce_rsce_box_start" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="container clearfix">
+
+
+                        
+    <h2 class="content-headline">Das läuft aktuell</h2>
+
+    
+
+
+    </div></div>
+
+<div class="section left nobgcolor notopmargin norightmargin nobottommargin noleftmargin notoppadding nobottompadding ce_rsce_box_start" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="container clearfix"><div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-md-3 col-lg-3 col-xs-12">
+
+
+
+            <div class="content-image">            
+                                            <figure>
+                                                                                                            <a target="_blank" href="https://junge-altstadt.ch/event/light-shopping/?utm_medium=email&amp;_hsenc=p2ANqtz--XxzxL7ky0k-ij4iSMFDUm6b3LNS1YASBIi-oXBw4Qs1YCkOWngk_sFroB-kr1qccoJqIBo-Sd5jWDlVMFYE1KYxRmTGIOCyIvABkm0XIHBj10MGE&amp;_hsmi=446574411&amp;utm_content=446574411&amp;utm_source=hs_email" rel="noreferrer noopener">                                                <picture>
+                                                                                                                        <source srcset="https://winterthur.com/assets/images/c/Weihnachtsbilder_2024_6-pp00nr8gmzh78sn.webp" media="(max-width: 767px)" type="image/webp" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/7/Weihnachtsbilder_2024_6-5c5s7evqdr48zpg.jpg" media="(max-width: 767px)" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/d/Weihnachtsbilder_2024_6-92ng687ymqhtw79.webp" media="(max-width: 991px)" type="image/webp" width="991" height="744">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/q/Weihnachtsbilder_2024_6-etq46ppvhyjt0q6.jpg" media="(max-width: 991px)" width="991" height="744">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/8/Weihnachtsbilder_2024_6-zw3d7aj2hgpdwz9.webp" media="(max-width: 1199px)" type="image/webp" width="1199" height="900">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/h/Weihnachtsbilder_2024_6-nrxc5w73zarw1a4.jpg" media="(max-width: 1199px)" width="1199" height="900">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/z/Weihnachtsbilder_2024_6-hs4byx570frnjcg.webp" type="image/webp" width="640" height="480">
+                                                
+                
+                                                    <img src="https://winterthur.com/assets/images/t/Weihnachtsbilder_2024_6-8r7gbamtzw5q5zt.jpg" alt width="640" height="480" loading="lazy">
+        
+
+        </picture>
+    
+                                        
+                </a>
+            
+                                            
+                                                                        
+                                </figure>
+
+                </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    
+            </div>
+    
+            </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p><span style="color: #e03e2d;"><span style="font-size: 12pt;"><strong><span style="color: #000000;">Light-Shopping </span></strong></span><em><span style="font-size: 10pt;"><strong><br></strong></span></em></span><a href="https://junge-altstadt.ch/event/light-shopping/?utm_medium=email&amp;_hsenc=p2ANqtz--XxzxL7ky0k-ij4iSMFDUm6b3LNS1YASBIi-oXBw4Qs1YCkOWngk_sFroB-kr1qccoJqIBo-Sd5jWDlVMFYE1KYxRmTGIOCyIvABkm0XIHBj10MGE&amp;_hsmi=446574411&amp;utm_content=446574411&amp;utm_source=hs_email"><strong>Eröffnung Weihnachtsbeleuchtung</strong></a><br>Fr. 20.11.26<br>Altstadt Winterthur</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+
+    
+<div class="ce_app_grid_column_start col-md-3 col-lg-3 col-xs-12">
+
+
+
+            <div class="content-image">            
+                                            <figure>
+                                                                                                            <a target="_blank" href="https://www.sergio-popup.ch/" rel="noreferrer noopener">                                                <picture>
+                                                                                                                        <source srcset="https://winterthur.com/assets/images/f/sergio-pop-up-4tmr7hq0vtgs9q8.webp" media="(max-width: 767px)" type="image/webp" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/e/sergio-pop-up-36mvzrsyk74a5r1.png" media="(max-width: 767px)" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/m/sergio-pop-up-vc9ge3aqnm8ygyn.webp" media="(max-width: 991px)" type="image/webp" width="991" height="744">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/p/sergio-pop-up-khzczrf91r02thk.png" media="(max-width: 991px)" width="991" height="744">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/j/sergio-pop-up-vdk8ganff6wkayx.webp" media="(max-width: 1199px)" type="image/webp" width="1199" height="900">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/6/sergio-pop-up-7p34xy6a2snbx3q.png" media="(max-width: 1199px)" width="1199" height="900">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/t/sergio-pop-up-z6943wgj21ppng1.webp" type="image/webp" width="640" height="480">
+                                                
+                
+                                                    <img src="https://winterthur.com/assets/images/c/sergio-pop-up-v09saq8rzqkjte3.png" alt width="640" height="480" loading="lazy">
+        
+
+        </picture>
+    
+                                        
+                </a>
+            
+                                            
+                                                                        
+                                </figure>
+
+                </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p><span style="color: #e03e2d;"><span style="font-size: 12pt;"><strong><span style="color: #000000;">Winter Pop Up</span></strong></span><em><span style="font-size: 10pt;"><strong><br></strong></span></em></span><a href="https://www.sergio-popup.ch/" target="_blank" rel="noopener"><strong>Sergio Pop Up</strong></a><br>bis So. 10.01.27<br>Archplatz, Winterthur</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+
+    
+<div class="ce_app_grid_column_start col-md-3 col-lg-3 col-xs-12">
+
+
+
+            <div class="content-image">            
+                                            <figure>
+                                                                                                            <a target="_blank" href="https://www.kmw.ch/ausstellung/werkschau-2026/?utm_medium=email&amp;_hsenc=p2ANqtz-_ipfbr7BXaj5u6MGhh_GZZrCkkI-hp-Zz8VoBtqgzxQXZ_aQmKPaSG-1tuM6h88jkgV5Pp3Q1vTTz7fuJT_vpi2cIz_y2MlSUt3Y9IVMO8P2Oux_0&amp;_hsmi=446574411&amp;utm_content=446574411&amp;utm_source=hs_email" rel="noreferrer noopener">                                                <picture>
+                                                                                                                        <source srcset="https://winterthur.com/assets/images/y/Werkschau%202026-whpnqtrkwgpb0ya.webp" media="(max-width: 767px)" type="image/webp" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/f/Werkschau%202026-962vcr7tm3spnfj.png" media="(max-width: 767px)" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/1/Werkschau%202026-q9jxv4nj941292y.webp" media="(max-width: 991px)" type="image/webp" width="777" height="583">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/r/Werkschau%202026-vmm926baxwykqh9.png" media="(max-width: 991px)" width="777" height="583">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/1/Werkschau%202026-q9jxv4nj941292y.webp" media="(max-width: 1199px)" type="image/webp" width="777" height="583">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/r/Werkschau%202026-vmm926baxwykqh9.png" media="(max-width: 1199px)" width="777" height="583">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/g/Werkschau%202026-58c2wm34rfa3a13.webp" type="image/webp" width="640" height="480">
+                                                
+                
+                                                    <img src="https://winterthur.com/assets/images/1/Werkschau%202026-cc8gqgq3zdyhygx.png" alt width="640" height="480" loading="lazy">
+        
+
+        </picture>
+    
+                                        
+                </a>
+            
+                                            
+                                                                        
+                                </figure>
+
+                </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    
+            </div>
+    
+            </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p><span style="color: #e03e2d;"><strong><span style="font-size: 12pt;"><span style="color: #000000;">Kunst</span></span></strong><em><span style="font-size: 10pt;"><strong><br></strong></span></em></span><a href="https://www.kmw.ch/ausstellung/werkschau-2026/?utm_medium=email&amp;_hsenc=p2ANqtz-_ipfbr7BXaj5u6MGhh_GZZrCkkI-hp-Zz8VoBtqgzxQXZ_aQmKPaSG-1tuM6h88jkgV5Pp3Q1vTTz7fuJT_vpi2cIz_y2MlSUt3Y9IVMO8P2Oux_0&amp;_hsmi=446574411&amp;utm_content=446574411&amp;utm_source=hs_email"><strong><span style="font-size: 18.6667px;">Werkschau 2026 <br>Kanton Zürich</span></strong></a><br>Sa. 21.11.26 - So. 10.01.27<br>Reinhart am Stadtgarten, Winterthur</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+
+    
+<div class="ce_app_grid_column_start col-md-3 col-lg-3 col-xs-12">
+
+
+
+            <div class="content-image">            
+                                            <figure>
+                                                                                                            <a target="_blank" href="https://weihnachtinwinterthur.ch/de/" rel="noreferrer noopener">                                                <picture>
+                                                                                                                        <source srcset="https://winterthur.com/assets/images/0/Weihnachtsmarkt%20Shopping%20Winterthur-cv6r24mwpjds1ac.webp" media="(max-width: 767px)" type="image/webp" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/y/Weihnachtsmarkt%20Shopping%20Winterthur-0jzferq0c09kyyp.jpg" media="(max-width: 767px)" width="767" height="576">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/d/Weihnachtsmarkt%20Shopping%20Winterthur-67jm9wj1wk95rd4.webp" media="(max-width: 991px)" type="image/webp" width="991" height="744">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/3/Weihnachtsmarkt%20Shopping%20Winterthur-bkzq8fmebkf3qh0.jpg" media="(max-width: 991px)" width="991" height="744">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/w/Weihnachtsmarkt%20Shopping%20Winterthur-rhjt76fhdf2258n.webp" media="(max-width: 1199px)" type="image/webp" width="1199" height="900">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/v/Weihnachtsmarkt%20Shopping%20Winterthur-8k1v8hxyn3c0ca6.jpg" media="(max-width: 1199px)" width="1199" height="900">
+                                                                                                                                <source srcset="https://winterthur.com/assets/images/j/Weihnachtsmarkt%20Shopping%20Winterthur-fk01bmnga04ep4y.webp" type="image/webp" width="640" height="480">
+                                                
+                
+                                                    <img src="https://winterthur.com/assets/images/s/Weihnachtsmarkt%20Shopping%20Winterthur-2b60saxzedftv3p.jpg" alt width="640" height="480" loading="lazy">
+        
+
+        </picture>
+    
+                                        
+                </a>
+            
+                                            
+                                                                        
+                                </figure>
+
+                </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p><span style="color: #e03e2d;"><strong><span style="font-size: 12pt;"><span style="color: #000000;">Markt</span></span></strong><em><span style="font-size: 10pt;"><strong><br></strong></span></em></span><a href="https://weihnachtinwinterthur.ch/de/"><strong><span style="font-size: 18.6667px;">Weihnachtsmarkt</span></strong></a><br>Do. 26.11.26 bis Mo. 23.12.26<br>Altstadt Winterthur</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+</div>
+    </div></div>
+
+<div class="section center nobgcolor notopmargin norightmargin nobottommargin noleftmargin nobottompadding ce_rsce_box_start" id="gruende" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="container clearfix"><div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-xs-12">
+    
+                
+    
+    
+
+
+            <div class="content-hyperlink">            
+                                <a href="/kunst-kultur/veranstaltungen.html" class="hyperlink_txt button btn-default">Alle Veranstaltungen durchstöbern</a>            </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    
+            </div>
+    
+            </div>
+
+
+    
+
+
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p>&nbsp;</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+</div>
+    </div></div>
+
+    <div class="mod_article block" id="article-5347">
+                    <div class="row">
+        
+        
+                
+<div class="section center nobgcolor notopmargin norightmargin nobottommargin noleftmargin nobottompadding ce_rsce_box_start" id="kalender" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="container clearfix">
+
+
+                        
+    <h2 class="content-headline">Veranstaltungskalender</h2>
+
+    
+
+
+
+    <div class="ce_hyperlink buttons-veranstaltungskalender block">
+    <a class="hyperlink_txt button btn-default active" id="ansicht" title="Top Events">Top Events</a>
+    <a class="hyperlink_txt button btn-default" id="ausstellungen" title="Ausstellungen">Ausstellungen</a>
+    <a class="hyperlink_txt button btn-default" id="allevents" title="Alle Veranstaltungen" >Alle Veranstaltungen</a>
+</div>
+
+<script>
+	document.addEventListener("DOMContentLoaded", () => {
+		var guidle_frame = document.getElementById('guidle_iframe-BmVLgE');
+	    var ansicht = document.getElementById("ansicht");
+		var ausstellungen = document.getElementById("ausstellungen");
+		var allevents = document.getElementById("allevents");
+		
+		function listenerFunction(ev) {
+			console.log(ev.target);
+			addActive(ev.target);
+			switch (ev.target) {
+			  case ansicht:
+			    guidle_frame.src = "https://microsite.guidle.com/de/mr_BmVLgE";
+			    var datasrc = guidle_frame.setAttribute("data-src", "https://microsite.guidle.com/de/mr_BmVLgE");
+			    break;
+			  case ausstellungen:
+			  	guidle_frame.src = "https://microsite.guidle.com/de/mr_syB4uk";
+			  	var datasrc = guidle_frame.setAttribute("data-src", "https://microsite.guidle.com/de/mr_syB4uk");
+			  	break;
+			  case allevents:
+			    guidle_frame.src = "https://microsite.guidle.com/de/mr_JyMSFS";
+			    var datasrc = guidle_frame.setAttribute("data-src", "https://microsite.guidle.com/de/mr_JyMSFS");
+			    break;
+			  default:
+			}
+		}
+		
+		function addActive(element){
+			console.log("active");
+			removeOthers(element);
+			element.classList.add("active");
+		}
+		
+		function removeOthers(element){
+			var elements = element.parentElement.children;
+			console.log(element.parentElement);
+			for (var i = 0; i < elements.length; i++) {
+				elements[i].classList.remove('active');
+			}
+		}
+		
+		
+		ansicht.addEventListener("click", listenerFunction);
+		ausstellungen.addEventListener("click", listenerFunction);
+		allevents.addEventListener("click", listenerFunction);
+	
+	});
+</script>    </div></div>
+
+<div class="section left nobgcolor notopmargin norightmargin bottommargin noleftmargin notoppadding ce_rsce_box_start" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1 col-xs-12">
+
+    <script type="text/javascript" src="https://www.guidle.com/js/jquery.ba-postmessage.min.js"></script>
+<script type="text/javascript" src="https://www.guidle.com/hosted/template_portal/microsite/static/js/micrositeContainerModule.js"></script>
+ 
+<iframe name="guidle_iframe-BmVLgE" data-src="https://microsite.guidle.com/de/mr_BmVLgE" allowtransparency="yes" frameborder="0" scrolling="no" style="width:1px;min-width:100%" height="400" id="guidle_iframe-BmVLgE"></iframe></div>
+</div>
+    </div>
+        
+        
+                    </div>
+            </div>
+
+
+    <div class="mod_article block" id="article-5551">
+                    <div class="row">
+        
+        
+                
+<div class="section center bgcolor notopmargin norightmargin nobottommargin noleftmargin ce_rsce_box_start" style="background-repeat:no-repeat !important;background-size:cover !important">
+        <div class="container clearfix"><div class="ce_app_grid_row_start row">
+
+
+            <div class="content-text">                                    
+    <h2>Kulturkalender Coucou</h2>
+
+            
+                            
+    
+                    
+        <div class="rte">
+                    <p>Erfahre, was Winterthur kulturell sonst noch zu bieten hat. Bei uns findest du den umfassendsten Kulturkalender der Stadt: <a href="http://www.coucoumagazin.ch" target="_blank" rel="noopener">www.coucoumagazin.ch</a>.</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+    </div></div>
+        
+        
+                    </div>
+            </div>
+
+        </div>
+        
+                    </section>
+    
+                
+<!-- indexer::stop -->
+<footer id="footer">
+                        <div class="container">
+        
+        <div class="footer-widgets-wrap clearfix">
+            <div class="row">
+                
+        <div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<div class="ce_app_grid_row_start row">
+<!-- indexer::stop -->
+<div class="ce_rsce_clients hidden-sm hidden-xs block">
+
+        
+  
+
+    <div class="elementClient elementClientCarousel">
+                <div id="oc-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xxs="1" data-items-xs="2" data-items-sm="3" data-items-md="4" data-items="4">
+                                                <div class="oc-item">
+                                                    <a href="https://www.myswitzerland.com/de-ch/" target="_blank" title="myswitzerland">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/e/logo-st-member-rgb-tf4zq8gbgmebcs7.png" alt="myswitzerland" title="myswitzerland">
+
+                                                    </a>
+                                            </div>
+                                                                <div class="oc-item">
+                                                    <a href="https://kinderregion.ch/de/" target="_blank" title="kinderregion">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/v/kinderregion-logo-rgb-wzanq4ges84pvc8.jpg" alt="kinderregion" title="kinderregion">
+
+                                                    </a>
+                                            </div>
+                                                                <div class="oc-item">
+                                                    <a href="https://www.zuerich.com/de" target="_blank" title="zuerich">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/6/zt-logo-0ynhbx1pe07vbj0.png" alt="zuerich" title="zuerich">
+
+                                                    </a>
+                                            </div>
+                                                                <div class="oc-item">
+                                                    <a href="https://www.stv-fst.ch/nachhaltigkeit/kompetenzzentrum/swisstainable" target="_blank" title="swisstainable">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/k/swisstainable-logo-rgb-919g43phszrht82.png" alt="swisstainable" title="swisstainable">
+
+                                                    </a>
+                                            </div>
+                                    </div>
+    </div>
+
+
+</div>
+<!-- indexer::continue -->
+
+<!-- indexer::stop -->
+<div class="ce_rsce_clients hidden-lg hidden-md block">
+
+        
+  
+
+    <div class="elementClient">
+        <ul class="portfolio grid-4 grid-container clients-grid clearfix" data-layout="fitRows">
+                                            <li>
+                    <div class="masonry-clients-image" style="padding-top:56.25%;">
+                                                    <a href="https://www.myswitzerland.com/de-ch/" target="_blank" title="myswitzerland">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/e/logo-st-member-rgb-tf4zq8gbgmebcs7.png" alt="myswitzerland" title="myswitzerland">
+
+                                                    </a>
+                                            </div>
+                </li>
+                                            <li>
+                    <div class="masonry-clients-image" style="padding-top:56.25%;">
+                                                    <a href="https://kinderregion.ch/de/" target="_blank" title="kinderregion">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/v/kinderregion-logo-rgb-wzanq4ges84pvc8.jpg" alt="kinderregion" title="kinderregion">
+
+                                                    </a>
+                                            </div>
+                </li>
+                                            <li>
+                    <div class="masonry-clients-image" style="padding-top:56.25%;">
+                                                    <a href="https://www.zuerich.com/de" target="_blank" title="zuerich">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/6/zt-logo-0ynhbx1pe07vbj0.png" alt="zuerich" title="zuerich">
+
+                                                    </a>
+                                            </div>
+                </li>
+                                            <li>
+                    <div class="masonry-clients-image" style="padding-top:56.25%;">
+                                                    <a href="https://www.stv-fst.ch/nachhaltigkeit/kompetenzzentrum/swisstainable" target="_blank" title="swisstainable">
+                        
+                        <img class="lazyload" data-src="https://winterthur.com/assets/images/k/swisstainable-logo-rgb-919g43phszrht82.png" alt="swisstainable" title="swisstainable">
+
+                                                    </a>
+                                            </div>
+                </li>
+                    </ul>
+    </div>
+
+
+</div>
+<!-- indexer::continue -->
+</div>
+</div>
+</div>
+    
+            </div>
+        </div>
+
+                    </div>
+            
+            <div id="copyrights">
+            <div class="clearfix container">
+                <div class="row">
+                    
+        <div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-xs-12 col-sm-12 col-md-6 col-lg-6">
+
+    <div class="elementSocialIcons">
+	<div class="fright clearfix">
+		<a href="https://www.instagram.com/lovewinterthur/?hl=de" class="social-icon si-small si-borderless" target="_blank">
+			<img src="https://winterthur.com/files/winterthur.com/media/logos/social-icons/icon_auf_rot_Footer_NL_Web_060320232.png"  width="1042" height="1042" alt="" class="icon-footer icon-instagram">
+		</a>
+		<a href="https://www.facebook.com/lovewinterthur" class="social-icon si-small si-borderless icon-facebook" target="_blank">
+			<img src="https://winterthur.com/files/winterthur.com/media/logos/social-icons/icon_auf_rot_Footer_NL_Web_06032023.png"  width="1042" height="1042" alt="" class="icon-footer">
+		</a>
+		<a href="https://www.tiktok.com/@lovewinterthur" class="social-icon si-small si-borderless icon-tiktok" target="_blank">
+			<img src="https://winterthur.com/files/winterthur.com/media/logos/social-icons/icon_tiktok.png"  width="1024" height="1024" alt="" class="icon-footer">
+		</a>
+		<a href="https://www.linkedin.com/company/houseofwinterthur" class="social-icon si-small si-borderless" target="_blank">
+			<img src="https://winterthur.com/files/winterthur.com/media/logos/social-icons/icon_auf_rot_Footer_NL_Web_060320233.png"  width="1042" height="1042" alt="" class="icon-footer icon-linkedin">
+		</a>
+		<a href="https://www.youtube.com/channel/UCRq_5P8lqZ2i_9vmtaTjgAw?view_as=subscriber" class="social-icon si-small si-borderless icon-youtube" target="_blank">
+			<img src="https://winterthur.com/files/winterthur.com/media/logos/social-icons/icon_auf_rot_Footer_NL_Web_060320234.png"  width="1042" height="1042" alt="" class="icon-footer">
+		</a>
+		<a href="https://www.tripadvisor.ch/Tourism-g188112-Winterthur-Vacations.html" class="social-icon si-small si-borderless icon-tripadvisor" target="_blank">
+			<img src="https://winterthur.com/files/winterthur.com/media/logos/social-icons/icon_auf_rot_Footer_NL_Web_060320235.png"  width="1042" height="1042" alt="" class="icon-footer">
+		</a>
+	</div>
+</div></div>
+</div>
+<div class="ce_app_grid_row_start row">
+    
+<div class="ce_app_grid_column_start col-xs-12 col-sm-12 col-md-4 col-lg-4">
+
+    <div class="copyrights-menu copyright-links clearfix">
+	<a href="/house-of-winterthur/services/newsletter.html">Newsletter</a> | <a href="/impressum.html">Impressum</a> | <a href="/agb.html">AGB</a> | <a href="/datenschutz.html">Datenschutz</a> 
+</div></div>
+
+    
+<div class="ce_app_grid_column_start col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+
+
+            <div class="content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p style="text-align: center;"><a class="tsoBacklinkFooter" href="https://tso.ch" target="_blank" title="Digitalisierung Tourismus">powered by TSO AG</a></p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+
+    
+<div class="ce_app_grid_column_start col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+
+
+            <div class="content-text-copyright content-text">            
+                            
+    
+                    
+        <div class="rte">
+                    <p style="text-align: right;">© 2026 by House of Winterthur</p>
+            </div>
+    
+            </div>
+
+
+    
+
+
+</div>
+</div>
+    
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- indexer::continue -->
+        
+            <section id="bottom">
+                            <div class="container"><div id="footer-bar" style="bottom: 0px;">
+    <div id="footer-bar-header" class="">
+            <div class="row">
+                <div class="container clearfix">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a alt="" title="" href="/events.html" target="_blank"><i class="icon-line2-calendar"></i><span class="hidden-xs hidden-sm hidden-md">Veranstaltungen</span></a></div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a alt="" title="" href="/buchen.html"><i class="icon-travel-grocery-or-supermarket"></i><span class="hidden-xs hidden-sm hidden-md">Buchen</span></a></div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a alt="" title="" href="/house-of-winterthur/services/newsletter.html" target="_blank"><i class="icon-envelope2"></i><span class="hidden-xs hidden-sm hidden-md">Newsletter</span></a></div>
+                   <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"><a alt="" title="" href="/kontakt.html"><i class="icon-phone3"></i><span class="hidden-xs hidden-sm hidden-md">Kontakt</span></a></div>
+                </div>
+            </div>
+    </div>
+</div></div>
+                    </section>
+    </div>
+
+<div id="gotoTop" data-mobile><i class="icon-chevron-up"></i></div>
+
+
+<div class="announcements" data-announcements="https://winterthur.com/_announcements/1975?_hash=55YiBmu1kN8y5zHXE3v0fHEMBfHfWo7TlaDDvtQD7mc&amp;requestUri=aHR0cHM6Ly93aW50ZXJ0aHVyLmNvbS9rdW5zdC1rdWx0dXIvdmVyYW5zdGFsdHVuZ2VuLmh0bWw%3D">
+    <div class="announcements__items" data-announcements-items></div>
+</div>
+<script>window.AppCartCountUrl="https://winterthur.com/_object_cart/index/3/2209";</script><script src="layout-canvas/scripts/cart-count.min.js?v=dd1f7acd" defer></script>
+<script src="layout-canvas/scripts/bundle-all.js?v=55458c48" data-cookieconsent="ignore"></script>
+
+<script type="application/ld+json">
+{
+    "@context": "https:\/\/schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage"
+        },
+        {
+            "@id": "#\/schema\/image\/c104c0c0-d6a3-11f1-9def-75979742989c",
+            "@type": "ImageObject",
+            "contentUrl": "https:\/\/winterthur.com\/assets\/images\/t\/Weihnachtsbilder_2024_6-8r7gbamtzw5q5zt.jpg"
+        },
+        {
+            "@id": "#\/schema\/image\/dcee8ee8-d14d-11f1-8cd8-d9bfda00f043",
+            "@type": "ImageObject",
+            "contentUrl": "https:\/\/winterthur.com\/assets\/images\/c\/sergio-pop-up-v09saq8rzqkjte3.png"
+        },
+        {
+            "@id": "#\/schema\/image\/ef627f3a-dc24-11f1-a2ae-d10d9f12b580",
+            "@type": "ImageObject",
+            "contentUrl": "https:\/\/winterthur.com\/assets\/images\/1\/Werkschau%202026-cc8gqgq3zdyhygx.png"
+        },
+        {
+            "@id": "#\/schema\/image\/412052e7-5d09-11ee-9ec5-02002ee7c8be",
+            "@type": "ImageObject",
+            "contentUrl": "https:\/\/winterthur.com\/assets\/images\/s\/Weihnachtsmarkt%20Shopping%20Winterthur-2b60saxzedftv3p.jpg"
+        }
+    ]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https:\/\/schema.contao.org",
+    "@graph": [
+        {
+            "@type": "Page",
+            "fePreview": false,
+            "groups": [],
+            "memberGroups": [],
+            "noSearch": false,
+            "pageId": 2209,
+            "protected": false,
+            "searchIndexer": "",
+            "title": "Veranstaltungen"
+        }
+    ]
+}
+</script>
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/9194921.js"></script>
+<!-- End of HubSpot Embed Code -->
+<link rel="stylesheet" href="files/design_assets/design-winterthur/css/print.css" type="text/css" media="print" />
+</body>
+</html>
