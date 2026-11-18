@@ -1,10 +1,12 @@
-// Prüft alle Restaurant-Websites: antwortet die Seite noch? Ergebnis in data/linkcheck.json
+// Prüft alle Restaurant- und Familienangebots-Websites: antwortet die Seite noch? Ergebnis in data/linkcheck.json
 import { readFileSync, writeFileSync } from "node:fs";
 const load = (f, k) => { const t = readFileSync(f, "utf8"); return JSON.parse(t.slice(t.indexOf("=") + 1).trim().replace(/;$/, "")); };
 const E = load("site/essen.js").orte, P = load("site/essen-plus.js"), W = load("site/essen-web.js"), G = load("site/gemeinden.js");
 const L = [];
 E.forEach(z => z.w && L.push({ src: "osm", n: z.n, g: (G[z.g] || {}).name, u: z.w }));
 P.forEach(p => L.push({ src: "plus", n: p.n, g: p.gn, u: p.w || "", q: p.q || "" }));
+const FA = load("site/familie.js").gemeinden;
+Object.entries(FA).forEach(([c, l]) => l.forEach(x => x.w && L.push({ src: "familie", n: x.n, g: (G[c] || {}).name || c, u: x.w })));
 Object.entries(W).forEach(([k, u]) => { const [n, g] = k.split("|"); L.push({ src: "web", n, g, u }); });
 const UA = { "User-Agent": "Mozilla/5.0 (compatible; Familienagenda-Linkcheck/1.0)", "Accept-Language": "de-CH,de" };
 async function check(u) {
