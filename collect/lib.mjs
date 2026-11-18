@@ -258,6 +258,52 @@ export const SYSTEMS = {
     return items;
   },
 
+  // Stadt Zürich: Such-Schnittstelle der städtischen Agenda, gefiltert auf die Zielgruppen Kinder und Familien.
+  async stzh(site, get) {
+    const base = "https://www.stadt-zuerich.ch", items = [], seen = new Set();
+    for (const tg of ["kinder", "familien"]) {
+      const j = JSON.parse(await get(`${base}/stzh/search?lang=de&compResource=/content/web/de/aktuell/veranstaltungen/jcr:content/mainparsys/search&q_target_groups=events:audience/${tg}`));
+      for (const r of j.results || []) {
+        if (!r.href || !r.eventDateStart || seen.has(r.href)) continue;
+        seen.add(r.href);
+        const von = r.eventDateStart.slice(0, 10), bis = (r.eventDateEnd || r.eventDateStart).slice(0, 10);
+        const hm = d => d.slice(11, 16).replace(":", ".");
+        const t1 = hm(r.eventDateStart), t2 = r.eventDateEnd ? hm(r.eventDateEnd) : "";
+        const time = t1 === "00.00" ? "" : t2 && t2 !== t1 && von === bis ? `${t1} - ${t2}` : t1;
+        const ort = strip(decode(r.eventLocation || "")).replace(/^\(weitere Daten vorhanden\)\s*/, "").split(",")[0].trim().slice(0, 70);
+        const id = r.href.replace(/\.html.*$/, "").split("/").pop() + "-" + (r.href.match(/calentry=(\d+)/) || [, "1"])[1];
+        items.push({ id, name: strip(decode(r.heading || "")), von, bis: bis < von ? von : bis, ort, veranstalter: "", kategorie: "14",
+          hint: strip(decode(r.description || "")), url: abs(base, r.href), detailKey: null, time });
+      }
+    }
+    return items;
+  },
+
+  // Stadt Winterthur: Veranstaltungsliste mit Seiten, Kinder-Erkennung über die Detailseite wie bei den anderen Gemeinden.
+  async winti(site, get) {
+    const base = "https://stadt.winterthur.ch", items = [], seen = new Set();
+    for (let page = 1; page <= (site.maxPages ?? 40); page++) {
+      const html = await get(`${base}/veranstaltungen${page > 1 ? "?page=" + page : ""}`);
+      let fresh = 0;
+      for (const b of html.split(/<a [^>]*href="\/veranstaltung\//).slice(1)) {
+        const slug = b.slice(0, b.indexOf('"'));
+        if (!slug || seen.has(slug)) continue;
+        const range = parseDateRange(strip((b.match(/<p class="text-sm uppercase">([\s\S]*?)<\/p>/) || [])[1] ?? ""));
+        const name = strip((b.match(/<h3[^>]*>([\s\S]*?)<\/h3>/) || [])[1] ?? "");
+        if (!range || !name) continue;
+        seen.add(slug); fresh++;
+        const ps = [...((b.match(/<div class="mt-2">([\s\S]*?)<\/div>/) || [])[1] ?? "").matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(x => strip(x[1]));
+        const tp = ps.find(x => /\d{1,2}:\d{2}/.test(x)) || "";
+        const tm = tp.match(/(\d{1,2}):(\d{2})(?:\s*[–-]\s*(\d{1,2}):(\d{2}))?/);
+        const time = tm ? (tm[3] ? `${tm[1]}.${tm[2]} - ${tm[3]}.${tm[4]}` : `${tm[1]}.${tm[2]}`) : "";
+        const ort = (ps.find(x => x !== tp) || "").split(",")[0].slice(0, 70);
+        items.push({ id: slug, name, ...range, ort, veranstalter: "", kategorie: "", hint: "", url: `${base}/veranstaltung/${slug}`, detailKey: slug, time });
+      }
+      if (!fresh) break;
+    }
+    return items;
+  },
+
   // Kacheln mit Datum und Titel (Erlenbach).
   async tiles(site, get) {
     const listUrl = `https://${site.domain}${site.path}`;

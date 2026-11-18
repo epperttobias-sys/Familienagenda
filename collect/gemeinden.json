@@ -132,5 +132,7 @@
   "seuzach": {"name": "Seuzach", "bezirk": "Winterthur", "domain": "www.seuzach.ch", "lat": 47.535, "lon": 8.727},
   "turbenthal": {"name": "Turbenthal", "bezirk": "Winterthur", "domain": "www.turbenthal.ch", "system": "eventitem", "path": "/freizeit/veranstaltungen.html/34", "delay": 3000, "lat": 47.433, "lon": 8.882},
   "wiesendangen": {"name": "Wiesendangen", "bezirk": "Winterthur", "domain": "www.wiesendangen.ch", "lat": 47.532, "lon": 8.821},
-  "zell": {"name": "Zell", "bezirk": "Winterthur", "domain": "www.zell.ch", "lat": 47.449, "lon": 8.805}
+  "zell": {"name": "Zell", "bezirk": "Winterthur", "domain": "www.zell.ch", "lat": 47.449, "lon": 8.805},
+  "zuerich": {"name": "Zürich", "bezirk": "Zürich", "domain": "www.stadt-zuerich.ch", "system": "stzh", "delay": 500, "lat": 47.377, "lon": 8.54},
+  "winterthur": {"name": "Winterthur", "bezirk": "Winterthur", "domain": "stadt.winterthur.ch", "system": "winti", "delay": 600, "lat": 47.5, "lon": 8.724}
 }
