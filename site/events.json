@@ -243,15 +243,15 @@
    "name": "Regensdorf",
    "bezirk": "Dielsdorf",
    "domain": "www.regensdorf.ch",
-   "ok": false,
-   "count": 4
+   "ok": true,
+   "count": 5
   },
   "ruemlang": {
    "name": "Rümlang",
    "bezirk": "Dielsdorf",
    "domain": "www.ruemlang.ch",
    "ok": true,
-   "count": 67
+   "count": 68
   },
   "schleinikon": {
    "name": "Schleinikon",
@@ -307,7 +307,7 @@
    "bezirk": "Dietikon",
    "domain": "www.oberengstringen.ch",
    "ok": true,
-   "count": 5
+   "count": 4
   },
   "uitikon": {
    "name": "Uitikon",
@@ -328,7 +328,7 @@
    "bezirk": "Dietikon",
    "domain": "www.urdorf.ch",
    "ok": true,
-   "count": 67
+   "count": 68
   },
   "weiningen": {
    "name": "Weiningen",
@@ -538,7 +538,7 @@
    "bezirk": "Meilen",
    "domain": "www.kuesnacht.ch",
    "ok": true,
-   "count": 28
+   "count": 27
   },
   "o": {
    "name": "Oetwil am See",
@@ -706,7 +706,7 @@
    "bezirk": "Meilen",
    "domain": "www.erlenbach.ch",
    "ok": true,
-   "count": 0
+   "count": 6
   },
   "i": {
    "name": "Meilen",
@@ -1306,6 +1306,20 @@
    "time": "",
    "age": null,
    "url": "https://www.bonstetten.ch/_rte/anlass/7746859"
+  },
+  {
+   "gemeinden": [
+    "b"
+   ],
+   "id": "b-kerzenziehen-in-der-martin-stiftung",
+   "name": "Kerzenziehen in der Martin Stiftung",
+   "von": "2026-11-14",
+   "bis": "2026-11-27",
+   "ort": "",
+   "veranstalter": "",
+   "time": "",
+   "age": null,
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/kerzenziehen-in-der-martin-stiftung/"
   },
   {
    "gemeinden": [
@@ -1963,24 +1977,6 @@
   },
   {
    "gemeinden": [
-    "n"
-   ],
-   "id": "n-17263-16902",
-   "name": "Kinder-Kino",
-   "von": "2026-11-18",
-   "bis": "2026-11-18",
-   "ort": "Bibliothek Küsnacht",
-   "veranstalter": "Bibliothek Küsnacht",
-   "time": "16.00 - 17.45",
-   "age": {
-    "min": 6,
-    "max": 12,
-    "label": "ab 6 Jahren"
-   },
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17263/eventdate/16902"
-  },
-  {
-   "gemeinden": [
     "mettmenstetten"
    ],
    "id": "mettmenstetten-1918-1413",
@@ -2032,24 +2028,6 @@
     "label": "ab 7 Jahren"
    },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7802575"
-  },
-  {
-   "gemeinden": [
-    "ruemlang"
-   ],
-   "id": "ruemlang-5478352",
-   "name": "Lotto - Nachmittag im \"90i\"",
-   "von": "2026-11-18",
-   "bis": "2026-11-18",
-   "ort": "Begegnungszentrum 90i",
-   "veranstalter": "",
-   "time": "14.00 - 16.00",
-   "age": {
-    "min": 3,
-    "max": 5,
-    "label": "3 bis 5 Jahre"
-   },
-   "url": "https://www.ruemlang.ch/_rte/anlass/5478352"
   },
   {
    "gemeinden": [
@@ -2504,6 +2482,20 @@
    "time": "20.00",
    "age": null,
    "url": "https://www.pfaeffikon.ch/event/filmabend-mit-podiumsdiskussion-liebe-wut-geschwisterbande-ein-film-fuer-alle-eltern-deren-kinder-sich-streiten-und-die-sich-fragen-wie-hoert-das-auf/"
+  },
+  {
+   "gemeinden": [
+    "urdorf"
+   ],
+   "id": "urdorf-7601698",
+   "name": "Gemeinsam weniger einsam - Kindermuseum Baden",
+   "von": "2026-11-19",
+   "bis": "2026-11-19",
+   "ort": "Schweizer Kindermuseum",
+   "veranstalter": "",
+   "time": "13.45",
+   "age": null,
+   "url": "https://www.urdorf.ch/_rte/anlass/7601698"
   },
   {
    "gemeinden": [
@@ -3493,6 +3485,20 @@
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-adventsbasteln-in-der-bibliothek-2",
+   "name": "ADVENTSBASTELN in der Bibliothek",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "",
+   "veranstalter": "",
+   "time": "09.30 - 11.30",
+   "age": null,
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/adventsbasteln-in-der-bibliothek-2/"
+  },
+  {
+   "gemeinden": [
     "aesch"
    ],
    "id": "aesch-7758814",
@@ -4322,6 +4328,24 @@
     "label": "3 bis 12 Jahre"
    },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3440/eventdate/2031"
+  },
+  {
+   "gemeinden": [
+    "b"
+   ],
+   "id": "b-yoga-fuer-mama-kind-10",
+   "name": "Yoga für Mama & Kind",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "",
+   "veranstalter": "",
+   "time": "10.45 - 11.45",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-10/"
   },
   {
    "gemeinden": [
@@ -7950,6 +7974,24 @@
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-chrabbelfiir-advent",
+   "name": "Chrabbelfiir «Advent»",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "",
+   "veranstalter": "",
+   "time": "16.00 - 18.00",
+   "age": {
+    "min": 0,
+    "max": 5,
+    "label": "0 bis 5 Jahre"
+   },
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/chrabbelfiir-advent/"
+  },
+  {
+   "gemeinden": [
     "zell"
    ],
    "id": "zell-7267232",
@@ -8600,20 +8642,6 @@
    "time": "10.00 - 16.30",
    "age": null,
    "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1452/eventdate/2249"
-  },
-  {
-   "gemeinden": [
-    "oberengstringen"
-   ],
-   "id": "oberengstringen-7821436",
-   "name": "Taizé",
-   "von": "2026-11-28",
-   "bis": "2026-11-28",
-   "ort": "Röm.-kath. Kirche Oberengstringen",
-   "veranstalter": "Luigi Lore'",
-   "time": "18.00",
-   "age": null,
-   "url": "https://www.oberengstringen.ch/_rte/anlass/7821436"
   },
   {
    "gemeinden": [
@@ -12241,6 +12269,24 @@
     "label": "7 bis 9 Jahre"
    },
    "url": "https://www.egg.ch/_rte/anlass/7601401"
+  },
+  {
+   "gemeinden": [
+    "regensdorf"
+   ],
+   "id": "regensdorf-7818025",
+   "name": "Winterkino im Zwhatt- Winterzauber Zwhatt",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "https://www.zwhatt.ch/de-ch/zwhatt-winterzauber.html",
+   "veranstalter": "Zwhatt, Siedlungscoaching ITOBA",
+   "time": "17.00 - 22.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.regensdorf.ch/_rte/anlass/7818025"
   },
   {
    "gemeinden": [
@@ -16827,6 +16873,24 @@
   },
   {
    "gemeinden": [
+    "b"
+   ],
+   "id": "b-yoga-fuer-mama-kind-11",
+   "name": "Yoga für Mama & Kind",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "",
+   "veranstalter": "",
+   "time": "10.45 - 11.45",
+   "age": {
+    "min": 3,
+    "max": 6,
+    "label": "3 bis 6 Jahre"
+   },
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-11/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-abenteuerhalle-8",
@@ -19918,7 +19982,8 @@
   },
   {
    "gemeinden": [
-    "altikon"
+    "altikon",
+    "b"
    ],
    "id": "altikon-2892-2423",
    "name": "Familienweihnacht",
@@ -21867,6 +21932,24 @@
    "time": "",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7556278"
+  },
+  {
+   "gemeinden": [
+    "ruemlang"
+   ],
+   "id": "ruemlang-5478352",
+   "name": "Lotto - Nachmittag im \"90i\"",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Begegnungszentrum 90i",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": {
+    "min": 3,
+    "max": 5,
+    "label": "3 bis 5 Jahre"
+   },
+   "url": "https://www.ruemlang.ch/_rte/anlass/5478352"
   },
   {
    "gemeinden": [
@@ -27277,6 +27360,20 @@
    "time": "13.30 - 15.30",
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7552492"
+  },
+  {
+   "gemeinden": [
+    "ruemlang"
+   ],
+   "id": "ruemlang-5452949",
+   "name": "Lotto - Nachmittag im \"90i\"",
+   "von": "2027-03-10",
+   "bis": "2027-03-10",
+   "ort": "Begegnungszentrum 90i",
+   "veranstalter": "",
+   "time": "14.00 - 16.00",
+   "age": null,
+   "url": "https://www.ruemlang.ch/_rte/anlass/5452949"
   },
   {
    "gemeinden": [
@@ -35079,7 +35176,7 @@
    "bis": "2027-09-16",
    "ort": "Pfistertreff",
    "veranstalter": "Fachstelle Frühe Förderung",
-   "time": "9.00 - 11.00",
+   "time": "",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604902"
   },
