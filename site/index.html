@@ -532,7 +532,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   </section>
   <p id="vrcount" class="count-line"></p>
   <main id="vereine"></main>
-  <footer>Die Vereine stammen aus den Vereinslisten der Gemeinden und werden jede Woche aktualisiert. Ob ein Verein Kinder aufnimmt, erkennt die Seite am Namen, zum Beispiel «Pfadi», «Jugendmusik» oder «FC». Turn- und Sportvereine haben meist eine Kinder- oder Jugendriege, Musikvereine oft eine Jugendmusik. Die Website des Vereins stammt aus dem Eintrag bei der Gemeinde. Kontakte findest du dort. <span id="vrstand"></span></footer>
+  <footer>Die Vereine stammen aus den Vereinslisten der Gemeinden und werden jede Woche aktualisiert. Ob ein Verein Kinder aufnimmt, erkennt die Seite am Namen, zum Beispiel «Pfadi», «Jugendmusik» oder «FC». Turn- und Sportvereine haben meist eine Kinder- oder Jugendriege, Musikvereine oft eine Jugendmusik. Die Website des Vereins stammt aus dem Eintrag bei der Gemeinde. Kontakte findest du dort. Für Zürich und Winterthur, die keine solche Liste haben, kommen die Vereine aus OpenStreetMap. <span id="vrstand"></span></footer>
 </div>
 
 <div class="wrap" id="view-spielplaetze" hidden>
@@ -1061,7 +1061,7 @@ const VGROUPS=[["sport","Sport","⚽"],["kampf","Kampfsport","🥋"],["pfadi","P
       if(L.length)rows.push([GM[c].name,L])});
     rows.sort((x,y)=>x[0].localeCompare(y[0],"de"));
     rows.forEach(([g,L])=>{nG++;nV+=L.length;if(shown>=MAX)return;if(rows.length>1)box.append(node("h2","bez",g+" ("+L.length+")"));
-      L.slice().sort((a,b)=>a.n.localeCompare(b.n,"de")).forEach(v=>{if(shown>=MAX)return;shown++;const links=[];if(v.w)links.push(["Website des Vereins",v.w]);else links.push(wsearch(v.n,g));links.push([v.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",v.u]);
+      L.slice().sort((a,b)=>a.n.localeCompare(b.n,"de")).forEach(v=>{if(shown>=MAX)return;shown++;const links=[];if(v.w)links.push(["Website des Vereins",v.w]);else links.push(wsearch(v.n,g));if(v.u&&v.u!==v.w)links.push([v.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",v.u]);
         box.append(mkCard({em:vIcon(v),title:v.n,meta:[GL[v.k].replace(/^\S+\s/,""),v.o].filter(Boolean).join(" · "),links}))})});
     document.getElementById("vrcount").textContent=(nV===1?"1 Verein":nV+" Vereine")+(nG===1?" in "+rows[0][0]:" in "+nG+" Gemeinden");
     if(nV>shown)box.append(node("p","note","Es werden die ersten "+MAX+" Vereine gezeigt. Wähle oben eine Gemeinde oder einen Bereich."));

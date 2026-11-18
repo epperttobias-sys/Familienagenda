@@ -18,6 +18,8 @@ jobs:
       - run: node collect/gemeinden-js.mjs
       - run: node collect/vereine.mjs
         continue-on-error: true
+      - run: node collect/vereine-osm.mjs
+        continue-on-error: true
       - run: node collect/familie.mjs
         continue-on-error: true
       - run: node collect/ausflug.mjs
