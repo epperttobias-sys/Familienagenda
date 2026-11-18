@@ -1544,7 +1544,7 @@ function gebText(c){const n=GEB.filter(x=>x.g===c).length;const R=ROOMS.find(r=>
   document.querySelectorAll(".wrap:not(.home):not(#view-events) .filters").forEach(fs=>{const dds=[...fs.querySelectorAll("details.dd")];
     dds.forEach(d=>d.addEventListener("toggle",()=>{if(d.open)dds.forEach(x=>{if(x!==d)x.open=false})}))});
   document.addEventListener("click",ev=>document.querySelectorAll(".wrap:not(.home):not(#view-events) details.dd[open]").forEach(d=>{if(!d.contains(ev.target))d.open=false}));})();
-const EFS=[["geprueft","✅ Ausdrückliches Kinderangebot (geprüft)"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"]];
+const EFS=[["geprueft","✅ Kinderangebot laut Familien-Ratgeber"],["spielplatz","🛝 Spielplatz direkt nebenan"],["drinnen","🧸 Spielecke drinnen"],["draussen","🌳 Spielecke draussen"],["stuhl","🪑 Kinderstühle"],["menu","🍝 Kindermenü"],["tiere","🐐 Tiere"]];
 const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_cream","Glacé"],["biergarten","Gartenwirtschaften"]];
 (function setupEssen(){
   const E=window.ESSEN,box=document.getElementById("essen"),GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
@@ -1556,7 +1556,8 @@ const EAS=[["all","Alle"],["restaurant","Restaurants"],["cafe","Cafés"],["ice_c
     const key=[...new Set(ws)].sort().join(" "),m=key&&E.orte.find(z=>z.g===g&&[...new Set(simp(z.n))].sort().join(" ")===key);
     if(m){m.ok=1;m.t=p.t;m.q=p.q;if(p.w&&!m.w)m.w=p.w;m.f=[...new Set(["geprueft",...p.f,...m.f])]}
     else E.orte.push({g,n:p.n,a:"restaurant",f:["geprueft",...p.f],ok:1,t:p.t,q:p.q,w:p.w||"",lat:p.lat,lon:p.lon,ap:1})});
-  const EW=window.ESSEN_WEB||{};E.orte.forEach(z=>{if(!z.w){const u=EW[z.n+"|"+((GM[z.g]||{}).name||"")];if(u)z.w=u}});
+  const EW=window.ESSEN_WEB||{},EF=window.ESSEN_FIX||{hide:[],url:{}},ek=z=>z.n+"|"+((GM[z.g]||{}).name||"");
+  E.orte=E.orte.filter(z=>!EF.hide.includes(ek(z)));E.orte.forEach(z=>{const k=ek(z);if(k in EF.url)z.w=EF.url[k];else if(!z.w&&EW[k])z.w=EW[k]});
   E.orte.sort((a,b)=>(b.ok||0)-(a.ok||0));
   document.getElementById("tile-essen").textContent=E.orte.length+" Orte mit Spielecke, Kinderstuhl oder Spielplatz nebenan";
   const codes=Object.keys(GM).filter(c=>E.orte.some(z=>z.g===c));let selG=null,selF=null,art="all",me=null;
