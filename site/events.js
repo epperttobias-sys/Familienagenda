@@ -6,7 +6,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Affoltern",
    "domain": "www.stadtaffoltern.ch",
    "ok": true,
-   "count": 16
+   "count": 17
   },
   "bonstetten": {
    "name": "Bonstetten",
@@ -48,7 +48,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Andelfingen",
    "domain": "www.benken.ch",
    "ok": true,
-   "count": 25
+   "count": 26
   },
   "buchamirchel": {
    "name": "Buch am Irchel",
@@ -181,7 +181,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Bülach",
    "domain": "www.wallisellen.ch",
    "ok": true,
-   "count": 16
+   "count": 23
   },
   "wil": {
    "name": "Wil",
@@ -251,7 +251,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dielsdorf",
    "domain": "www.ruemlang.ch",
    "ok": true,
-   "count": 62
+   "count": 64
   },
   "schleinikon": {
    "name": "Schleinikon",
@@ -307,7 +307,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Dietikon",
    "domain": "www.oberengstringen.ch",
    "ok": true,
-   "count": 4
+   "count": 6
   },
   "uitikon": {
    "name": "Uitikon",
@@ -349,7 +349,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Affoltern",
    "domain": "www.hedingen.ch",
    "ok": true,
-   "count": 3
+   "count": 5
   },
   "knonau": {
    "name": "Knonau",
@@ -517,7 +517,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.horgen.ch",
    "ok": true,
-   "count": 50
+   "count": 49
   },
   "l": {
    "name": "Herrliberg",
@@ -664,7 +664,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.adliswil.ch",
    "ok": true,
-   "count": 9
+   "count": 10
   },
   "langnauamalbis": {
    "name": "Langnau am Albis",
@@ -692,7 +692,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Horgen",
    "domain": "www.thalwil.ch",
    "ok": true,
-   "count": 168
+   "count": 169
   },
   "waedenswil": {
    "name": "Wädenswil",
@@ -720,7 +720,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Meilen",
    "domain": "www.maennedorf.ch",
    "ok": true,
-   "count": 20
+   "count": 22
   },
   "t": {
    "name": "Uetikon am See",
@@ -748,7 +748,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.bauma.ch",
    "ok": true,
-   "count": 5
+   "count": 6
   },
   "h": {
    "name": "Fehraltorf",
@@ -783,7 +783,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Pfäffikon",
    "domain": "www.pfaeffikon.ch",
    "ok": true,
-   "count": 128
+   "count": 100
   },
   "rs": {
    "name": "Russikon",
@@ -811,7 +811,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Uster",
    "domain": "www.duebendorf.ch",
    "ok": true,
-   "count": 91
+   "count": 90
   },
   "e": {
    "name": "Egg",
@@ -839,7 +839,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Uster",
    "domain": "www.moenchaltorf.ch",
    "ok": true,
-   "count": 11
+   "count": 12
   },
   "s": {
    "name": "Schwerzenbach",
@@ -853,7 +853,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Uster",
    "domain": "www.uster.ch",
    "ok": true,
-   "count": 49
+   "count": 52
   },
   "wb": {
    "name": "Wangen-Brüttisellen",
@@ -923,7 +923,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Winterthur",
    "domain": "www.seuzach.ch",
    "ok": true,
-   "count": 29
+   "count": 30
   },
   "wiesendangen": {
    "name": "Wiesendangen",
@@ -967,7 +967,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Fehraltorf",
    "time": "9.30",
    "age": null,
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7729858"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7729858",
+   "w": "https://kirche-fehraltorf.ch/neuer-kurs-singe-mit-de-chliinschte-jetzt-anmelden/"
   },
   {
    "gemeinden": [
@@ -981,7 +982,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Küsnacht",
    "time": "14.45 - 16.30",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17225/eventdate/17306"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17225/eventdate/17306",
+   "w": "https://forms.gle/MTxBCfcR94hqncad8"
   },
   {
    "gemeinden": [
@@ -1013,7 +1015,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St. Nikolaus Küsnacht - Erlenbach",
    "time": "",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17283/eventdate/16911"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17283/eventdate/16911",
+   "w": "https://www.nikolaus-kuesnacht.ch/"
   },
   {
    "gemeinden": [
@@ -1059,7 +1062,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Uster",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7714144"
+   "url": "https://www.uster.ch/_rte/anlass/7714144",
+   "w": "https://www.refuster.ch/kerzenziehen"
   },
   {
    "gemeinden": [
@@ -1073,7 +1077,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirchgemeinde Andelfingen",
    "time": "",
    "age": null,
-   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/1899/eventdate/1883"
+   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/1899/eventdate/1883",
+   "w": "https://www.ref-andelfingen.ch"
   },
   {
    "gemeinden": [
@@ -1115,7 +1120,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauenverein Wangen",
    "time": "",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7391350"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7391350",
+   "w": "https://www.frauenverein-wangen.ch/"
   },
   {
    "gemeinden": [
@@ -1129,7 +1135,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirche Neuwies",
    "time": "",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7758952"
+   "url": "https://www.uster.ch/_rte/anlass/7758952",
+   "w": "https://www.kirche-neuwies.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -1157,7 +1164,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauenverein Hittnau",
    "time": "",
    "age": null,
-   "url": "https://www.hittnau.ch/_rte/anlass/7765867"
+   "url": "https://www.hittnau.ch/_rte/anlass/7765867",
+   "w": "https://www.frauenverein-hittnau.ch/"
   },
   {
    "gemeinden": [
@@ -1171,7 +1179,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinnütziger Frauenverein Rüschlikon",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.rueschlikon.ch/_rte/anlass/7791316"
+   "url": "https://www.rueschlikon.ch/_rte/anlass/7791316",
+   "w": "https://www.frauenvereinrueschlikon.ch/"
   },
   {
    "gemeinden": [
@@ -1189,7 +1198,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638211"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638211",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -1203,7 +1213,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Küsnacht",
    "time": "14.30 - 17.00",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17430/eventdate/17352"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17430/eventdate/17352",
+   "w": "https://xoyondo.com/dp/ty7ygm7oubqo8cz"
   },
   {
    "gemeinden": [
@@ -1235,7 +1246,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternverein Langnau am Albis",
    "time": "",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7554415"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7554415",
+   "w": "https://elternvereinlangnau.ch"
   },
   {
    "gemeinden": [
@@ -1249,7 +1261,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirchgemeinde Wiesendangen",
    "time": "",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7794067"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7794067",
+   "w": "https://www.kirchewiesendangen.ch"
   },
   {
    "gemeinden": [
@@ -1263,7 +1276,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Vereinigung Freizeit Kloten VFK",
    "time": "",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7780822"
+   "url": "https://www.kloten.ch/_rte/anlass/7780822",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -1305,7 +1319,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienclub Wettswil-Bonstetten & OK Kerzenziehen",
    "time": "",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7746859"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7746859",
+   "w": "https://portal.helfereinsatz.ch/kerzenziehen-bonstetten/de/a/open"
   },
   {
    "gemeinden": [
@@ -1319,7 +1334,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.erlenbach.ch/de/veranstaltungen/kerzenziehen-in-der-martin-stiftung/"
+   "url": "https://www.erlenbach.ch/de/veranstaltungen/kerzenziehen-in-der-martin-stiftung/",
+   "w": "https://martin-stiftung.ch/biohof-park/"
   },
   {
    "gemeinden": [
@@ -1333,7 +1349,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ludothek Niederglatt",
    "time": "",
    "age": null,
-   "url": "https://www.niederglatt-zh.ch/_rte/anlass/7760527"
+   "url": "https://www.niederglatt-zh.ch/_rte/anlass/7760527",
+   "w": "https://www.ludothek-niederglatt.ch/"
   },
   {
    "gemeinden": [
@@ -1347,7 +1364,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Waffenschmidt AG",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.russikon.ch/_rte/anlass/7793878"
+   "url": "https://www.russikon.ch/_rte/anlass/7793878",
+   "w": "https://www.waffenschmidt.ch/adventszeit/"
   },
   {
    "gemeinden": [
@@ -1361,7 +1379,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinnütziger Frauenverein Bassersdorf Seite drucken",
    "time": "",
    "age": null,
-   "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6577/eventdate/9333"
+   "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6577/eventdate/9333",
+   "w": "https://frauenverein-bassersdorf.ch"
   },
   {
    "gemeinden": [
@@ -1377,7 +1396,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jungwacht Blauring Egg, Oetwil und Ebmatingen (Jubla EOE)",
    "time": "10.00 - 14.00",
    "age": null,
-   "url": "https://www.egg.ch/_rte/anlass/7760953"
+   "url": "https://www.egg.ch/_rte/anlass/7760953",
+   "w": "https://jubla-eoe.ch/"
   },
   {
    "gemeinden": [
@@ -1395,7 +1415,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.greifensee.ch/_rte/anlass/7729756"
+   "url": "https://www.greifensee.ch/_rte/anlass/7729756",
+   "w": "http://www.fairewelt.ch"
   },
   {
    "gemeinden": [
@@ -1406,7 +1427,7 @@ window.FAMILIENAGENDA = {
    "von": "2026-11-16",
    "bis": "2026-11-19",
    "ort": "Altes Pfarrhaus",
-   "veranstalter": "Reformierte Kirche Rüti weitere Termine 16. November 2026 17. November",
+   "veranstalter": "Reformierte Kirche Rüti weitere Termine 19. November 2026 20. November",
    "time": "",
    "age": null,
    "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6655/eventdate/25468"
@@ -1427,7 +1448,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.zumikon.ch/_rte/anlass/7774324"
+   "url": "https://www.zumikon.ch/_rte/anlass/7774324",
+   "w": "https://freizumi.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -1441,7 +1463,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5200/eventdate/5845"
+   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5200/eventdate/5845",
+   "w": "https://www.bibli-wila.ch"
   },
   {
    "gemeinden": [
@@ -1455,7 +1478,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Neftenbach",
    "time": "",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7725526"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7725526",
+   "w": "https://www.jugendtreffneftenbach.ch/"
   },
   {
    "gemeinden": [
@@ -1469,7 +1493,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinschaftszentrum Bauspielplatz Affoltern am Albis",
    "time": "14.00 - 15.00",
    "age": null,
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7770178"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7770178",
+   "w": "https://www.bauspielplatz.ch/"
   },
   {
    "gemeinden": [
@@ -1498,7 +1523,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Flughafen Zürich AG",
    "time": "",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7703767"
+   "url": "https://www.kloten.ch/_rte/anlass/7703767",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -1558,7 +1584,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7471573"
+   "url": "https://www.ilef.ch/_rte/anlass/7471573",
+   "w": "https://www.bibliotheksverein.ch/illnau"
   },
   {
    "gemeinden": [
@@ -1576,7 +1603,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7737337"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7737337",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -1590,7 +1618,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Turnfamilie Bubikon und Wolfhausen",
    "time": "18.00 - 23.00",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/6483232"
+   "url": "https://www.bubikon.ch/_rte/anlass/6483232",
+   "w": "http://www.tvbubikon.ch"
   },
   {
    "gemeinden": [
@@ -1604,7 +1633,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565065"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565065",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -1619,20 +1649,6 @@ window.FAMILIENAGENDA = {
    "time": "09.30 - 11.00",
    "age": null,
    "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2026-11-19/"
-  },
-  {
-   "gemeinden": [
-    "horgen"
-   ],
-   "id": "horgen-3730-41629",
-   "name": "Familien-Café",
-   "von": "2026-11-19",
-   "bis": "2026-11-19",
-   "ort": "",
-   "veranstalter": "",
-   "time": "9.00 - 11.30",
-   "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3730/eventdate/41629"
   },
   {
    "gemeinden": [
@@ -1674,7 +1690,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.45",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7601698"
+   "url": "https://www.urdorf.ch/_rte/anlass/7601698",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -1692,7 +1709,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588432"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588432",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -1826,7 +1844,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638133"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638133",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -1840,7 +1859,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784773"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784773",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -1900,7 +1920,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7292915"
+   "url": "https://www.thalwil.ch/_rte/anlass/7292915",
+   "w": "https://www.kirche-thalwil.ch/krabbelgruppen"
   },
   {
    "gemeinden": [
@@ -1914,7 +1935,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7638178"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638178",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -1974,7 +1996,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "2 bis 5 Jahre"
    },
-   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1671/eventdate/6382"
+   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1671/eventdate/6382",
+   "w": "https://www.schule-dietlikon.ch/bibliothek/aktuelles/"
   },
   {
    "gemeinden": [
@@ -2002,7 +2025,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Opfikon",
    "time": "10.00 - 11.30",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7748329"
+   "url": "https://www.opfikon.ch/_rte/anlass/7748329",
+   "w": "https://www.ref-opfikon.ch/veranstaltung/13914"
   },
   {
    "gemeinden": [
@@ -2016,7 +2040,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tino Iurato",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7778995"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7778995",
+   "w": "https://www.freestyle-wald.ch/"
   },
   {
    "gemeinden": [
@@ -2030,7 +2055,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "15.30 - 18.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4182/eventdate/54502"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4182/eventdate/54502",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -2048,7 +2074,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17254/eventdate/106200"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17254/eventdate/106200",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -2062,7 +2089,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Wald",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7737118"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7737118",
+   "w": "https://www.ref-wald.ch/angebote/familien_-_erwachsene/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -2077,7 +2105,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578004"
+   "url": "https://www.kloten.ch/_rte/anlass/7578004",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -2105,7 +2134,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kümmerli-Hof",
    "time": "16.00 - 21.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7758811"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7758811",
+   "w": "https://www.kuemmerli-hof.ch"
   },
   {
    "gemeinden": [
@@ -2147,7 +2177,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Illnau Elternverein",
    "time": "09.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7103552"
+   "url": "https://www.ilef.ch/_rte/anlass/7103552",
+   "w": "https://www.evillnau.ch/de/Angebot/Babymassage.98.html"
   },
   {
    "gemeinden": [
@@ -2161,7 +2192,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7056227"
+   "url": "https://www.ilef.ch/_rte/anlass/7056227",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -2193,7 +2225,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588474"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588474",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -2225,7 +2258,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Sihltal",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/6813748"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/6813748",
+   "w": "https://www.refsihltal.ch/angebote/erwachsene/caf_international/"
   },
   {
    "gemeinden": [
@@ -2253,7 +2287,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565176"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565176",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -2285,7 +2320,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienarbeit Opfikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7743817"
+   "url": "https://www.opfikon.ch/_rte/anlass/7743817",
+   "w": "https://canva.link/programm-familientag-blumenstrasse-einzelne-flyer"
   },
   {
    "gemeinden": [
@@ -2303,7 +2339,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=922"
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=922",
+   "w": "https://www.amtliche-nachrichten.ch/maschwanden"
   },
   {
    "gemeinden": [
@@ -2371,7 +2408,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638136"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638136",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -2385,7 +2423,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sihltal Kirche",
    "time": "16.00 - 20.00",
    "age": null,
-   "url": "https://www.adliswil.ch/_rte/anlass/7817077"
+   "url": "https://www.adliswil.ch/_rte/anlass/7817077",
+   "w": "https://www.sihltalkirche.ch/2026/11/09/kerzenziehen-2/"
   },
   {
    "gemeinden": [
@@ -2399,7 +2438,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784776"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784776",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -2427,7 +2467,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kerzenkreativ",
    "time": "16.30 - 22.00",
    "age": null,
-   "url": "https://www.bauma.ch/_rte/anlass/7759408"
+   "url": "https://www.bauma.ch/_rte/anlass/7759408",
+   "w": "http://kerzenkreativ.ch"
   },
   {
    "gemeinden": [
@@ -2459,7 +2500,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "4 bis 7 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7718653"
+   "url": "https://www.kloten.ch/_rte/anlass/7718653",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -2513,7 +2555,8 @@ window.FAMILIENAGENDA = {
     "max": 8,
     "label": "3 bis 8 Jahre"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7658725"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7658725",
+   "w": "https://www.bibliothek-neftenbach.ch"
   },
   {
    "gemeinden": [
@@ -2545,7 +2588,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7667122"
+   "url": "https://www.duernten.ch/_rte/anlass/7667122",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -2559,7 +2603,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Turnei.ch",
    "time": "17.00 - 22.00",
    "age": null,
-   "url": "https://www.dachsen.ch/_rte/anlass/7545037"
+   "url": "https://www.dachsen.ch/_rte/anlass/7545037",
+   "w": "https://www.turnei.ch"
   },
   {
    "gemeinden": [
@@ -2605,7 +2650,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 9 Jahren"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7656499"
+   "url": "https://www.duernten.ch/_rte/anlass/7656499",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -2641,7 +2687,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17255/eventdate/106199"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17255/eventdate/106199",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -2655,7 +2702,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Wald",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7737121"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7737121",
+   "w": "https://www.ref-wald.ch/angebote/familien_-_erwachsene/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -2669,7 +2717,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Hettlingen",
    "time": "15.30 - 18.00",
    "age": null,
-   "url": "https://www.hettlingen.ch/_rte/anlass/7775587"
+   "url": "https://www.hettlingen.ch/_rte/anlass/7775587",
+   "w": "https://www.familienverein-hettlingen.ch/"
   },
   {
    "gemeinden": [
@@ -2684,7 +2733,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578010"
+   "url": "https://www.kloten.ch/_rte/anlass/7578010",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -2702,7 +2752,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 9 Jahren"
    },
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7804132"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7804132",
+   "w": "https://ggaffoltern.ch/workshop/"
   },
   {
    "gemeinden": [
@@ -2730,7 +2781,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kümmerli-Hof",
    "time": "10.00 - 21.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7758814"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7758814",
+   "w": "https://www.kuemmerli-hof.ch"
   },
   {
    "gemeinden": [
@@ -2786,7 +2838,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elterngruppe Dübendorf",
    "time": "13.30 - 16.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7747819"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7747819",
+   "w": "https://www.elterngruppe.ch/babyartikelb%C3%B6rse"
   },
   {
    "gemeinden": [
@@ -2800,7 +2853,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "9.30 - 16.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736392"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736392",
+   "w": "https://vivakirche-ruemlang.ch/basteltag/"
   },
   {
    "gemeinden": [
@@ -2832,7 +2886,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Träffpunkt Wald",
    "time": "10.00 - 12.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7308296"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7308296",
+   "w": "https://traeffpunkt-wald.ch"
   },
   {
    "gemeinden": [
@@ -2846,7 +2901,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stiftung Brunegg Die Stiftung Brunegg in Hombrechtikon ermöglicht Mens",
    "time": "10.00 - 18.00",
    "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7829/eventdate/11570"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7829/eventdate/11570",
+   "w": "https://www.stiftung-brunegg.ch/"
   },
   {
    "gemeinden": [
@@ -2906,7 +2962,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Der wunderbare Weihnachtsmarkt Seite vorlesen",
    "time": "10.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8653/eventdate/8171"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8653/eventdate/8171",
+   "w": "https://www.der-wunderbare-weihnachtsmarkt.ch"
   },
   {
    "gemeinden": [
@@ -2920,7 +2977,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Forum 21 Illnau-Effretikon",
    "time": "19.30 - 21.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7787353"
+   "url": "https://www.ilef.ch/_rte/anlass/7787353",
+   "w": "https://www.forum21.ch"
   },
   {
    "gemeinden": [
@@ -2934,7 +2992,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565221"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565221",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -2994,7 +3053,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "ev.-ref. Kirchgemeinde Henggart",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.henggart.ch/_rte/anlass/7788898"
+   "url": "https://www.henggart.ch/_rte/anlass/7788898",
+   "w": "https://www.kirche-henggart.ch/angebote/kinder_und_jugendliche/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -3032,7 +3092,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3226/eventdate/1918"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3226/eventdate/1918",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -3082,7 +3143,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3511/eventdate/3593"
+   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3511/eventdate/3593",
+   "w": "https://dinhard.biblioweb.ch/"
   },
   {
    "gemeinden": [
@@ -3114,7 +3176,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "12 bis 15 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17354/eventdate/106639"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17354/eventdate/106639",
+   "w": "https://findmind.ch/c/Workshop"
   },
   {
    "gemeinden": [
@@ -3160,7 +3223,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00",
    "age": null,
-   "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1827/eventdate/1366"
+   "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1827/eventdate/1366",
+   "w": "https://www.jungschi-mettmi.ch/"
   },
   {
    "gemeinden": [
@@ -3174,7 +3238,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ortsverein Rheinau",
    "time": "",
    "age": null,
-   "url": "https://www.rheinau.ch/_rte/anlass/7603558"
+   "url": "https://www.rheinau.ch/_rte/anlass/7603558",
+   "w": "https://ovr.rheinau.net/"
   },
   {
    "gemeinden": [
@@ -3206,7 +3271,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638142"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638142",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -3218,7 +3284,7 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-21",
    "ort": "Sihltal Kirche",
    "veranstalter": "Sihltal Kirche",
-   "time": "16.00 - 20.00",
+   "time": "",
    "age": null,
    "url": "https://www.adliswil.ch/_rte/anlass/7817080"
   },
@@ -3234,7 +3300,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784779"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784779",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -3276,7 +3343,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "KulTWerk Thalwil",
    "time": "10.00 - 12.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7400107"
+   "url": "https://www.thalwil.ch/_rte/anlass/7400107",
+   "w": "https://kultwerk-thalwil.ch/"
   },
   {
    "gemeinden": [
@@ -3350,7 +3418,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Turnei.ch",
    "time": "10.00 - 22.00",
    "age": null,
-   "url": "https://www.dachsen.ch/_rte/anlass/7545040"
+   "url": "https://www.dachsen.ch/_rte/anlass/7545040",
+   "w": "https://www.turnei.ch"
   },
   {
    "gemeinden": [
@@ -3365,6 +3434,25 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 12.00",
    "age": null,
    "url": "https://www.ruemlang.ch/_rte/anlass/7692553"
+  },
+  {
+   "gemeinden": [
+    "u"
+   ],
+   "id": "u-7823341",
+   "name": "NLA Unihockey: UHC Uster - SV Wiler-Ersigen",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Sporthalle Buchholz",
+   "veranstalter": "UHC Uster",
+   "time": "18.00 - 20.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.uster.ch/_rte/anlass/7823341",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -3410,7 +3498,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406500"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406500",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -3442,7 +3531,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinde Fehraltorf",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7665976"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7665976",
+   "w": "https://www.eventim-light.com/ch/a/6a4515ed66d550ba22553fc1/e/6a6725160efea47e8d0ac97d"
   },
   {
    "gemeinden": [
@@ -3478,7 +3568,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "6 Monate bis 4 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7667926"
+   "url": "https://www.kloten.ch/_rte/anlass/7667926",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -3496,7 +3587,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730452"
+   "url": "https://www.ilef.ch/_rte/anlass/7730452",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -3528,7 +3620,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "11.30 - 19.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3929/eventdate/47623"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3929/eventdate/47623",
+   "w": "https://www.event-tanzamsee.com/"
   },
   {
    "gemeinden": [
@@ -3542,7 +3635,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Turnverein Mönchaltorf",
    "time": "",
    "age": null,
-   "url": "https://www.moenchaltorf.ch/_rte/anlass/7819837"
+   "url": "https://www.moenchaltorf.ch/_rte/anlass/7819837",
+   "w": "https://www.tvmoenchi.ch/?b=1000288&c=ND1000004&s=djEt_OBsULXGqnz7om3IiNJrF35kZ3nggqr5BtK9MZGlpF0="
   },
   {
    "gemeinden": [
@@ -3570,7 +3664,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein",
    "time": "17.15 - 21.00",
    "age": null,
-   "url": "https://www.hettlingen.ch/_rte/anlass/7712269"
+   "url": "https://www.hettlingen.ch/_rte/anlass/7712269",
+   "w": "http://familienverein-hettlingen.ch"
   },
   {
    "gemeinden": [
@@ -3584,7 +3679,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Bezirk Affoltern",
    "time": "9.30 - 11.30",
    "age": null,
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7802578"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7802578",
+   "w": "https://familienzentrum-bezirk-affoltern.ch/"
   },
   {
    "gemeinden": [
@@ -3602,7 +3698,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17256/eventdate/106197"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17256/eventdate/106197",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -3616,7 +3713,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Wald",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7737124"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7737124",
+   "w": "https://www.ref-wald.ch/angebote/familien_-_erwachsene/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -3630,7 +3728,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Naturschutzverein Fällanden - Benglen - Pfaffhausen",
    "time": "9.00 - 13.00",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/7759189"
+   "url": "https://www.faellanden.ch/_rte/anlass/7759189",
+   "w": "https://nvfaellanden.ch/event/wannen-fuer-die-gelbbauchunke/"
   },
   {
    "gemeinden": [
@@ -3644,7 +3743,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Elternforum Seuzach & BackEdition",
    "time": "",
    "age": null,
-   "url": "https://www.seuzach.ch/_rte/anlass/7710412"
+   "url": "https://www.seuzach.ch/_rte/anlass/7710412",
+   "w": "https://www.elternforum.com/Willkommen?b=1000952&c=NL%2CND1000066&s=djEtMze18snt_M9TmxMfGhVYlyclrM6cAGe28GhH5O0yJas="
   },
   {
    "gemeinden": [
@@ -3658,7 +3758,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bärehuus",
    "time": "9.00 - 15.00",
    "age": null,
-   "url": "https://www.baeretswil.ch/_rte/anlass/7466497"
+   "url": "https://www.baeretswil.ch/_rte/anlass/7466497",
+   "w": "https://www.bäre-huus.ch/"
   },
   {
    "gemeinden": [
@@ -3709,7 +3810,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7676404"
+   "url": "https://www.kloten.ch/_rte/anlass/7676404",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -3723,7 +3825,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ortsmuseum Rüschlikon",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.rueschlikon.ch/_rte/anlass/7654207"
+   "url": "https://www.rueschlikon.ch/_rte/anlass/7654207",
+   "w": "https://ortsmuseum-rueschlikon.ch/"
   },
   {
    "gemeinden": [
@@ -3741,7 +3844,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7820695"
+   "url": "https://www.thalwil.ch/_rte/anlass/7820695",
+   "w": "http://barbarabriner.ch"
   },
   {
    "gemeinden": [
@@ -3783,7 +3887,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Robinsonspielplatz",
    "time": "11.00 - 17.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7822045"
+   "url": "https://www.ilef.ch/_rte/anlass/7822045",
+   "w": "https://robinsonspielplatz.ch"
   },
   {
    "gemeinden": [
@@ -3797,7 +3902,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kümmerli-Hof",
    "time": "10.00 - 18.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7758817"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7758817",
+   "w": "https://www.kuemmerli-hof.ch"
   },
   {
    "gemeinden": [
@@ -3853,7 +3959,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stiftung Brunegg Die Stiftung Brunegg in Hombrechtikon ermöglicht Mens",
    "time": "10.00 - 16.00",
    "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7832/eventdate/11571"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7832/eventdate/11571",
+   "w": "https://www.stiftung-brunegg.ch/"
   },
   {
    "gemeinden": [
@@ -3867,7 +3974,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Forum 21 Illnau-Effretikon",
    "time": "14.30 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7787359"
+   "url": "https://www.ilef.ch/_rte/anlass/7787359",
+   "w": "https://www.forum21.ch"
   },
   {
    "gemeinden": [
@@ -3885,7 +3993,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10253/eventdate/14411"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10253/eventdate/14411",
+   "w": "https://eventfrog.ch/de/p/theater-buehne/lesung/die-kristallkugel-ein-zauberhaftes-erzaehltheater-7488591200196269456.html"
   },
   {
    "gemeinden": [
@@ -3931,7 +4040,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736395"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736395",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -3963,7 +4073,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638145"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638145",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -3977,7 +4088,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sihltal Kirche",
    "time": "16.00 - 20.00",
    "age": null,
-   "url": "https://www.adliswil.ch/_rte/anlass/7817083"
+   "url": "https://www.adliswil.ch/_rte/anlass/7817083",
+   "w": "https://www.sihltalkirche.ch/2026/11/09/kerzenziehen-2/"
   },
   {
    "gemeinden": [
@@ -3991,7 +4103,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784782"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784782",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -4019,7 +4132,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Salto Natale Entertainment AG",
    "time": "11.45",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7791232"
+   "url": "https://www.kloten.ch/_rte/anlass/7791232",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -4033,7 +4147,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MRF Musikschule Region Flughafen",
    "time": "",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7656436"
+   "url": "https://www.kloten.ch/_rte/anlass/7656436",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -4047,7 +4162,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "15.30 - 16.30",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4288/eventdate/58255"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4288/eventdate/58255",
+   "w": "https://kulturfonds-horgen.ch/"
   },
   {
    "gemeinden": [
@@ -4079,7 +4195,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/915/eventdate/642"
+   "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/915/eventdate/642",
+   "w": "https://kultur-wehntal.ch/anlaesse/anlass-details/Linard-Badrill-Familienkonzert"
   },
   {
    "gemeinden": [
@@ -4093,7 +4210,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinde Seuzach",
    "time": "13.30",
    "age": null,
-   "url": "https://www.seuzach.ch/_rte/anlass/6897718"
+   "url": "https://www.seuzach.ch/_rte/anlass/6897718",
+   "w": "https://eventfrog.ch/seuzachmaerli"
   },
   {
    "gemeinden": [
@@ -4107,7 +4225,23 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Turnei.ch",
    "time": "10.00 - 17.00",
    "age": null,
-   "url": "https://www.dachsen.ch/_rte/anlass/7545043"
+   "url": "https://www.dachsen.ch/_rte/anlass/7545043",
+   "w": "https://www.turnei.ch"
+  },
+  {
+   "gemeinden": [
+    "affolternamalbis"
+   ],
+   "id": "affolternamalbis-7811959",
+   "name": "MULTISPORT (BASEKTBALL & FENCING)",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "",
+   "veranstalter": "Nourhan Radwan",
+   "time": "10.00 - 15.00",
+   "age": null,
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7811959",
+   "w": "https://eventfrog.ch/en/p/events-for-children/family-events/multisport-basektball-fencing-affoltern-am-albis-7525907960570084704.html"
   },
   {
    "gemeinden": [
@@ -4121,7 +4255,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauen Brüttisellen",
    "time": "16.30 - 19.30",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7783810"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7783810",
+   "w": "https://www.frauen-bruettisellen.ch/"
   },
   {
    "gemeinden": [
@@ -4139,7 +4274,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766290"
+   "url": "https://www.ilef.ch/_rte/anlass/7766290",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -4153,7 +4289,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.30 - 16.30",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4202/eventdate/54522"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4202/eventdate/54522",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -4171,7 +4308,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7636693"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7636693",
+   "w": "https://www.kulturkreis-maennedorf.ch/"
   },
   {
    "gemeinden": [
@@ -4185,7 +4323,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Samichlaus-Bus",
    "time": "13.30 - 18.30",
    "age": null,
-   "url": "https://www.seegraeben.ch/_rte/anlass/7739575"
+   "url": "https://www.seegraeben.ch/_rte/anlass/7739575",
+   "w": "https://www.samichlaus-bus.ch/besuchen"
   },
   {
    "gemeinden": [
@@ -4221,7 +4360,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.wiesendangen.ch/_rte/anlass/6169048"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/6169048",
+   "w": "https://eventfrog.ch/de/p/kinderveranstaltungen/kindertheater/frau-holle-seuzach-7495132560860701213.html"
   },
   {
    "gemeinden": [
@@ -4239,7 +4379,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7831525"
+   "url": "https://www.uster.ch/_rte/anlass/7831525",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -4257,7 +4398,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17257/eventdate/106198"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17257/eventdate/106198",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -4271,7 +4413,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Wald",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7737127"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7737127",
+   "w": "https://www.ref-wald.ch/angebote/familien_-_erwachsene/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -4331,7 +4474,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7215740"
+   "url": "https://www.urdorf.ch/_rte/anlass/7215740",
+   "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
   },
   {
    "gemeinden": [
@@ -4349,7 +4493,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1356/eventdate/6361"
+   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1356/eventdate/6361",
+   "w": "https://www.schule-dietlikon.ch/bibliothek/aktuelles/"
   },
   {
    "gemeinden": [
@@ -4363,7 +4508,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Meilen",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7094897"
+   "url": "https://www.meilen.ch/_rte/anlass/7094897",
+   "w": "https://www.bibliotheken-zh.ch/Meilen/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -4423,7 +4569,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Anduriña Familienverein",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3471/eventdate/2046"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3471/eventdate/2046",
+   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -4441,7 +4588,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8730/eventdate/8219"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8730/eventdate/8219",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/326/2026/11/9"
   },
   {
    "gemeinden": [
@@ -4497,7 +4645,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "15.30 - 18.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736398"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736398",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -4511,7 +4660,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784785"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784785",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -4525,7 +4675,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirche Hinwil",
    "time": "",
    "age": null,
-   "url": "https://www.hinwil.ch/_rte/anlass/7695136"
+   "url": "https://www.hinwil.ch/_rte/anlass/7695136",
+   "w": "https://www.ref-hinwil.ch"
   },
   {
    "gemeinden": [
@@ -4553,7 +4704,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Singen & Kindertanzen Bubikon-Wolfhausen",
    "time": "14.00 - 14.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7734613"
+   "url": "https://www.bubikon.ch/_rte/anlass/7734613",
+   "w": "https://www.gabrielaglaus.com/familienforum-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -4567,7 +4719,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus",
    "time": "16.00 - 16.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7809094"
+   "url": "https://www.bubikon.ch/_rte/anlass/7809094",
+   "w": "https://www.gabrielaglaus.com/mami-kind-yoga"
   },
   {
    "gemeinden": [
@@ -4585,7 +4738,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "18 Monate bis 4 Jahre"
    },
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7794058"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7794058",
+   "w": "https://www.kirchewiesendangen.ch/"
   },
   {
    "gemeinden": [
@@ -4599,7 +4753,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7003/eventdate/12673"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7003/eventdate/12673",
+   "w": "https://familienclub-herrliberg.ch/events/elki-treff-offener-spielturm-3/"
   },
   {
    "gemeinden": [
@@ -4611,13 +4766,14 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-23",
    "ort": "Familienforum Bubikon-Wolfhausen",
    "veranstalter": "Gabriela Glaus",
-   "time": "14.50 - 15.30",
+   "time": "15.00 - 15.40",
    "age": {
     "min": 4,
     "max": 5,
     "label": "4 bis 5 Jahre"
    },
-   "url": "https://www.bubikon.ch/_rte/anlass/7809580"
+   "url": "https://www.bubikon.ch/_rte/anlass/7809580",
+   "w": "http://www.gabrielaglaus.com/kinderballett-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -4635,7 +4791,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3451/eventdate/2033"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3451/eventdate/2033",
+   "w": "https://verein-andurina.ch/wp-content/uploads/2026/10/Aquarellkarten-gestalten_20261020_213853_0000.png"
   },
   {
    "gemeinden": [
@@ -4705,7 +4862,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "16.00 - 22.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7710499"
+   "url": "https://www.wildberg.ch/_rte/anlass/7710499",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -4723,7 +4881,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 1 Jahren"
    },
-   "url": "https://www.winkel.ch/_rte/anlass/7658425"
+   "url": "https://www.winkel.ch/_rte/anlass/7658425",
+   "w": "https://www.bibliothekwinkel.ch/"
   },
   {
    "gemeinden": [
@@ -4755,7 +4914,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3246/eventdate/3768"
+   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3246/eventdate/3768",
+   "w": "https://chrabelgruppe-otelfingen.jimdosite.com/"
   },
   {
    "gemeinden": [
@@ -4769,7 +4929,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565125"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565125",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -4783,7 +4944,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Anduriña Familienverein",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3472/eventdate/2049"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3472/eventdate/2049",
+   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -4797,7 +4959,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinde Rüti",
    "time": "19.00 - 20.30",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7383706"
+   "url": "https://www.duernten.ch/_rte/anlass/7383706",
+   "w": "https://www.rueti.ch"
   },
   {
    "gemeinden": [
@@ -4811,7 +4974,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirche Hettlingen",
    "time": "9.00",
    "age": null,
-   "url": "https://www.hettlingen.ch/_rte/anlass/7777525"
+   "url": "https://www.hettlingen.ch/_rte/anlass/7777525",
+   "w": "https://www.ref-hettlingen.ch"
   },
   {
    "gemeinden": [
@@ -4871,7 +5035,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "15.30 - 18.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736401"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736401",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -4889,7 +5054,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638151"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638151",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -4903,7 +5069,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784788"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784788",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -4917,7 +5084,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Maur",
    "time": "9.30 - 11.30",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10496/eventdate/14491"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10496/eventdate/14491",
+   "w": "https://www.treffpunkt-maur.ch"
   },
   {
    "gemeinden": [
@@ -4991,7 +5159,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17258/eventdate/106193"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17258/eventdate/106193",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -5006,7 +5175,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578043"
+   "url": "https://www.kloten.ch/_rte/anlass/7578043",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -5070,7 +5240,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Freihof Küsnacht",
    "time": "12.00 - 20.30",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16099/eventdate/17639"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16099/eventdate/17639",
+   "w": "https://www.freihof-kuesnacht.ch/"
   },
   {
    "gemeinden": [
@@ -5130,7 +5301,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Birmensdorf",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774471"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774471",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -5172,7 +5344,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "16.00 - 22.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7706632"
+   "url": "https://www.wildberg.ch/_rte/anlass/7706632",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -5190,7 +5363,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7691986"
+   "url": "https://www.urdorf.ch/_rte/anlass/7691986",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -5204,7 +5378,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stiftung Brunegg Die Stiftung Brunegg in Hombrechtikon ermöglicht Mens",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7836/eventdate/11572"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7836/eventdate/11572",
+   "w": "https://www.stiftung-brunegg.ch/"
   },
   {
    "gemeinden": [
@@ -5222,7 +5397,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.hinwil.ch/_rte/anlass/7735984"
+   "url": "https://www.hinwil.ch/_rte/anlass/7735984",
+   "w": "https://www.bibliotheken-zh.ch/hinwil/"
   },
   {
    "gemeinden": [
@@ -5236,7 +5412,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736047"
+   "url": "https://www.kloten.ch/_rte/anlass/7736047",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -5250,7 +5427,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "SVP Bonstetten",
    "time": "15.00 - 20.00",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7752844"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7752844",
+   "w": "http://www.svp-bonstetten.ch"
   },
   {
    "gemeinden": [
@@ -5310,7 +5488,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Kulturkino Claudia",
    "time": "19.30 - 21.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7731919"
+   "url": "https://www.kloten.ch/_rte/anlass/7731919",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -5324,7 +5503,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "14.30 - 21.30",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6879/eventdate/12599"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6879/eventdate/12599",
+   "w": "https://familienclub-herrliberg.ch/events/diy-adventskranzbinden/"
   },
   {
    "gemeinden": [
@@ -5338,7 +5518,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Anduriña Familienverein",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3473/eventdate/2045"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3473/eventdate/2045",
+   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -5366,7 +5547,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein MINTgard Nicht kommerzieller Verein, welcher spannende Tüfteler",
    "time": "13.30 - 17.15",
    "age": null,
-   "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7906/eventdate/8469"
+   "url": "https://www.turbenthal.ch/freizeit/veranstaltungen/detail.html/56/event/7906/eventdate/8469",
+   "w": "https://www.mintware.ch/veranstaltungen/a2b2fa86fd4ce716d0fd992456c5b338b1623858200536f67875236abda9f119-detail"
   },
   {
    "gemeinden": [
@@ -5384,7 +5566,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7740979"
+   "url": "https://www.richterswil.ch/_rte/anlass/7740979",
+   "w": "http://bibliothek-richterswil.ch"
   },
   {
    "gemeinden": [
@@ -5412,7 +5595,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Freie Evangelische Gemeinde",
    "time": "15.00 - 16.45",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7765249"
+   "url": "https://www.kloten.ch/_rte/anlass/7765249",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -5426,7 +5610,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4509/eventdate/58826"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4509/eventdate/58826",
+   "w": "https://www.bistro-spyrigarten.ch/"
   },
   {
    "gemeinden": [
@@ -5440,7 +5625,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6930/eventdate/12641"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6930/eventdate/12641",
+   "w": "https://familienclub-herrliberg.ch/events/familiencafe-elki-kafi/"
   },
   {
    "gemeinden": [
@@ -5500,7 +5686,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3361/eventdate/1986"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3361/eventdate/1986",
+   "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -5518,7 +5705,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "4 bis 6 Jahre"
    },
-   "url": "https://www.egg.ch/_rte/anlass/7601410"
+   "url": "https://www.egg.ch/_rte/anlass/7601410",
+   "w": "https://www.bibliotheken-zh.ch/egg/"
   },
   {
    "gemeinden": [
@@ -5574,7 +5762,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Abenteuerspielplatz Thalwil",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7823497"
+   "url": "https://www.thalwil.ch/_rte/anlass/7823497",
+   "w": "https://www.abenteuerspielplatz.ch/"
   },
   {
    "gemeinden": [
@@ -5588,7 +5777,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736404"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736404",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -5606,7 +5796,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638154"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638154",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -5634,7 +5825,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784791"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784791",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -5662,7 +5854,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stiftung MOJUGA Die MOJUGA Stiftung leistet die offene Kinder- und Jug",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7164/eventdate/11040"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7164/eventdate/11040",
+   "w": "https://www.jugendarbeit-hombi.ch/"
   },
   {
    "gemeinden": [
@@ -5676,7 +5869,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
    "time": "13.30",
    "age": null,
-   "url": "https://www.marthalen.ch/_rte/anlass/7278281"
+   "url": "https://www.marthalen.ch/_rte/anlass/7278281",
+   "w": "https://www.gziw.ch"
   },
   {
    "gemeinden": [
@@ -5690,7 +5884,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kerzenkreativ",
    "time": "15.00 - 19.00",
    "age": null,
-   "url": "https://www.bauma.ch/_rte/anlass/7759402"
+   "url": "https://www.bauma.ch/_rte/anlass/7759402",
+   "w": "http://kerzenkreativ.ch"
   },
   {
    "gemeinden": [
@@ -5704,7 +5899,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Dürnten",
    "time": "14.30 - 16.30",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7667143"
+   "url": "https://www.duernten.ch/_rte/anlass/7667143",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -5760,7 +5956,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827283"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7827283",
+   "w": "https://www.lanterne-magique.org/de/clubs/mannedorf/"
   },
   {
    "gemeinden": [
@@ -5774,7 +5971,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinde- und Schulbibliothek Rheinau",
    "time": "17.30 - 19.30",
    "age": null,
-   "url": "https://www.rheinau.ch/_rte/anlass/7200890"
+   "url": "https://www.rheinau.ch/_rte/anlass/7200890",
+   "w": "http://bibliothek-rheinau.ch"
   },
   {
    "gemeinden": [
@@ -5788,7 +5986,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Bezirk Affoltern",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7802590"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7802590",
+   "w": "https://familienzentrum-bezirk-affoltern.ch/"
   },
   {
    "gemeinden": [
@@ -5802,7 +6001,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St.Nikolausgesellschaft Wallisellen",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7765351"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7765351",
+   "w": "https://www.chlaus.org/"
   },
   {
    "gemeinden": [
@@ -5816,7 +6016,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2700/eventdate/2125"
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2700/eventdate/2125",
+   "w": "https://elternverein-aeugst.ch/"
   },
   {
    "gemeinden": [
@@ -5858,7 +6059,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Regensdorf",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7232162"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7232162",
+   "w": "https://outlook.office365.com/owa/calendar/Ruemlang@AJBKTZH.onmicrosoft.com/bookings/"
   },
   {
    "gemeinden": [
@@ -5886,7 +6088,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7757008"
+   "url": "https://www.ilef.ch/_rte/anlass/7757008",
+   "w": "https://www.soziokultur-ilef.ch/"
   },
   {
    "gemeinden": [
@@ -5922,7 +6125,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.buelach.ch/_rte/anlass/7684516"
+   "url": "https://www.buelach.ch/_rte/anlass/7684516",
+   "w": "https://zh-unterland.heilsarmee.ch/"
   },
   {
    "gemeinden": [
@@ -5940,7 +6144,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "4 bis 7 Jahre"
    },
-   "url": "https://www.rafz.ch/_rte/anlass/6949474"
+   "url": "https://www.rafz.ch/_rte/anlass/6949474",
+   "w": "https://www.bibliotheken-zh.ch/rafz/"
   },
   {
    "gemeinden": [
@@ -5958,7 +6163,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7657129"
+   "url": "https://www.duernten.ch/_rte/anlass/7657129",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -5976,7 +6182,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17259/eventdate/106196"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17259/eventdate/106196",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -6005,7 +6212,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578052"
+   "url": "https://www.kloten.ch/_rte/anlass/7578052",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -6065,7 +6273,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7737334"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7737334",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -6083,7 +6292,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.wiesendangen.ch/_rte/anlass/6953281"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/6953281",
+   "w": "https://chrabbelgruppe-wiesendangen.jimdosite.com/"
   },
   {
    "gemeinden": [
@@ -6111,7 +6321,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565068"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565068",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -6199,7 +6410,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588435"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588435",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -6273,7 +6485,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "18.00 - 20.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736407"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736407",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -6291,7 +6504,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638157"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638157",
+   "w": "https://www.favu.ch/veranstaltungen/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -6305,7 +6519,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Wallisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7784794"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7784794",
+   "w": "https://www.elternforum-wallisellen.ch/agenda/kerzenziehen-2026"
   },
   {
    "gemeinden": [
@@ -6337,7 +6552,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7292918"
+   "url": "https://www.thalwil.ch/_rte/anlass/7292918",
+   "w": "https://www.kirche-thalwil.ch/krabbelgruppen"
   },
   {
    "gemeinden": [
@@ -6351,7 +6567,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Russikon",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.russikon.ch/_rte/anlass/7698994"
+   "url": "https://www.russikon.ch/_rte/anlass/7698994",
+   "w": "https://familienverein-russikon.ch/elki-treff/lebkuchen"
   },
   {
    "gemeinden": [
@@ -6379,7 +6596,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MOJUGA",
    "time": "16.00",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7717216"
+   "url": "https://www.duernten.ch/_rte/anlass/7717216",
+   "w": "https://jugendarbeit-dürnten.ch"
   },
   {
    "gemeinden": [
@@ -6397,7 +6615,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7466314"
+   "url": "https://www.uster.ch/_rte/anlass/7466314",
+   "w": "http://www.greifensee-stiftung.ch"
   },
   {
    "gemeinden": [
@@ -6411,7 +6630,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Opfikon",
    "time": "10.00 - 11.30",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7748311"
+   "url": "https://www.opfikon.ch/_rte/anlass/7748311",
+   "w": "https://www.ref-opfikon.ch/veranstaltung/13916"
   },
   {
    "gemeinden": [
@@ -6425,7 +6645,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tino Iurato",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7778998"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7778998",
+   "w": "https://www.freestyle-wald.ch/"
   },
   {
    "gemeinden": [
@@ -6443,7 +6664,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17260/eventdate/106195"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17260/eventdate/106195",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -6472,7 +6694,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578058"
+   "url": "https://www.kloten.ch/_rte/anlass/7578058",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -6500,7 +6723,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Richterswil",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.richterswil.ch/_rte/anlass/7748974"
+   "url": "https://www.richterswil.ch/_rte/anlass/7748974",
+   "w": "https://www.refrichterswil.ch/"
   },
   {
    "gemeinden": [
@@ -6514,7 +6738,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Aquarina",
    "time": "16.30 - 20.30",
    "age": null,
-   "url": "https://www.rheinau.ch/_rte/anlass/7809451"
+   "url": "https://www.rheinau.ch/_rte/anlass/7809451",
+   "w": "https://aquarina.ch"
   },
   {
    "gemeinden": [
@@ -6556,7 +6781,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauenverein Aesch",
    "time": "17.00 - 21.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7787500"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7787500",
+   "w": "https://www.frauenverein-aesch.ch"
   },
   {
    "gemeinden": [
@@ -6570,7 +6796,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "16.00 - 22.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7706629"
+   "url": "https://www.wildberg.ch/_rte/anlass/7706629",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -6588,7 +6815,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588477"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588477",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -6602,7 +6830,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565179"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565179",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -6630,7 +6859,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740448"
+   "url": "https://www.ilef.ch/_rte/anlass/7740448",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -6666,7 +6896,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "2 bis 7 Jahre"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774414"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774414",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -6816,20 +7047,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "d"
-   ],
-   "id": "d-7821106",
-   "name": "In vino - Violinen im Duett",
-   "von": "2026-11-27",
-   "bis": "2026-11-27",
-   "ort": "Obere Mühle",
-   "veranstalter": "Musikschule Region Dübendorf",
-   "time": "19.30 - 21.00",
-   "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7821106"
-  },
-  {
-   "gemeinden": [
     "kloten"
    ],
    "id": "kloten-7700869",
@@ -6840,7 +7057,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stadtbibliothek Kloten",
    "time": "16.00 - 16.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7700869"
+   "url": "https://www.kloten.ch/_rte/anlass/7700869",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -6858,7 +7076,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis ca. 6 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7721443"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7721443",
+   "w": "https://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -6872,7 +7091,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "15.30 - 18.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736413"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736413",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -6886,7 +7106,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirche Hinwil",
    "time": "19.30 - 21.30",
    "age": null,
-   "url": "https://www.hinwil.ch/_rte/anlass/7695148"
+   "url": "https://www.hinwil.ch/_rte/anlass/7695148",
+   "w": "https://www.ref-hinwil.ch"
   },
   {
    "gemeinden": [
@@ -6914,7 +7135,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
    "time": "13.30",
    "age": null,
-   "url": "https://www.marthalen.ch/_rte/anlass/7278284"
+   "url": "https://www.marthalen.ch/_rte/anlass/7278284",
+   "w": "https://www.gziw.ch"
   },
   {
    "gemeinden": [
@@ -6946,7 +7168,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.bonstetten.ch/_rte/anlass/7647814"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7647814",
+   "w": "https://www.ref-knonaueramt.ch/angebote/musik_und_kultur/kino_in_der_kirche_-_bonstetten/"
   },
   {
    "gemeinden": [
@@ -6992,7 +7215,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7667125"
+   "url": "https://www.duernten.ch/_rte/anlass/7667125",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -7038,7 +7262,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "10 bis 12 Jahre"
    },
-   "url": "https://www.opfikon.ch/_rte/anlass/7748305"
+   "url": "https://www.opfikon.ch/_rte/anlass/7748305",
+   "w": "https://www.ref-opfikon.ch/veranstaltung/15642"
   },
   {
    "gemeinden": [
@@ -7052,7 +7277,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593166"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593166",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -7066,7 +7292,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Herrliberg",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6596/eventdate/12611"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6596/eventdate/12611",
+   "w": "https://www.ref-herrliberg.ch"
   },
   {
    "gemeinden": [
@@ -7080,7 +7307,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St. Nikolausgesellschaft Wallisellen",
    "time": "19.00 - 20.30",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7735714"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7735714",
+   "w": "https://www.chlaus.org"
   },
   {
    "gemeinden": [
@@ -7098,7 +7326,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17261/eventdate/106194"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17261/eventdate/106194",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -7113,7 +7342,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578064"
+   "url": "https://www.kloten.ch/_rte/anlass/7578064",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -7145,7 +7375,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 8 Jahren"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17212/eventdate/106147"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17212/eventdate/106147",
+   "w": "https://www.verein-abri.ch"
   },
   {
    "gemeinden": [
@@ -7177,7 +7408,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Kirche",
    "time": "17.30 - 22.00",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7830715"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7830715",
+   "w": "https://www.kath-bonstetten.ch/"
   },
   {
    "gemeinden": [
@@ -7191,7 +7423,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Kirche St. Mauritius, Bonstetten Seite vorlesen",
    "time": "17.30 - 22.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8842/eventdate/8278"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8842/eventdate/8278",
+   "w": "https://www.kath-bonstetten.ch"
   },
   {
    "gemeinden": [
@@ -7205,7 +7438,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Richterwil",
    "time": "10.00 - 16.00",
    "age": null,
-   "url": "https://www.richterswil.ch/_rte/anlass/7748977"
+   "url": "https://www.richterswil.ch/_rte/anlass/7748977",
+   "w": "https://www.refrichterswil.ch/"
   },
   {
    "gemeinden": [
@@ -7219,7 +7453,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Solidarbasar Effretikon",
    "time": "9.00 - 13.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7300175"
+   "url": "https://www.ilef.ch/_rte/anlass/7300175",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -7233,7 +7468,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Atelier formvier",
    "time": "11.00 - 20.00",
    "age": null,
-   "url": "https://www.steinmaur.ch/_rte/anlass/7761079"
+   "url": "https://www.steinmaur.ch/_rte/anlass/7761079",
+   "w": "https://www.formvier.ch/service-page/adventswerkstatt-2?referral=service_list_widget"
   },
   {
    "gemeinden": [
@@ -7303,7 +7539,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauenverein Aesch",
    "time": "10.00 - 14.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7787503"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7787503",
+   "w": "https://www.frauenverein-aesch.ch"
   },
   {
    "gemeinden": [
@@ -7321,7 +7558,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 8 Jahren"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7784047"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7784047",
+   "w": "https://www.verein-abri.ch/blog"
   },
   {
    "gemeinden": [
@@ -7335,7 +7573,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Kinderhilfe Uitikon",
    "time": "16.30",
    "age": null,
-   "url": "https://www.uitikon.ch/_rte/anlass/7621840"
+   "url": "https://www.uitikon.ch/_rte/anlass/7621840",
+   "w": "https://www.kinderhilfe-uitikon.ch/"
   },
   {
    "gemeinden": [
@@ -7353,7 +7592,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "4 bis 7 Jahre"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774504"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774504",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -7381,7 +7621,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "10.00 - 15.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7706626"
+   "url": "https://www.wildberg.ch/_rte/anlass/7706626",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -7469,7 +7710,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Cevi Dürnten",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7206671"
+   "url": "https://www.duernten.ch/_rte/anlass/7206671",
+   "w": "https://ceviduernten.ch/froeschli"
   },
   {
    "gemeinden": [
@@ -7487,7 +7729,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7207325"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7207325",
+   "w": "http://www.ceviwie.ch"
   },
   {
    "gemeinden": [
@@ -7519,7 +7762,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Wald",
    "time": "17.00 - 17.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7215374"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7215374",
+   "w": "http://www.pfarrei-wald.ch"
   },
   {
    "gemeinden": [
@@ -7533,7 +7777,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verkehrs- und Verschönerungsverein",
    "time": "10.00 - 23.00",
    "age": null,
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7795498"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7795498",
+   "w": "https://vv-fehraltorf.ch/"
   },
   {
    "gemeinden": [
@@ -7611,7 +7856,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565227"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565227",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -7625,7 +7871,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Grüne Stadt Dübendorf",
    "time": "13.00 - 19.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7194092"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7194092",
+   "w": "https://gruene-duebi.ch/veranstaltung/einhorn-guezli-verzieren-am-chlausmaert-duebendorf"
   },
   {
    "gemeinden": [
@@ -7643,7 +7890,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "2 bis 7 Jahre"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774417"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774417",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -7657,7 +7905,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "filacro",
    "time": "10.00 - 11.30",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7584967"
+   "url": "https://www.uster.ch/_rte/anlass/7584967",
+   "w": "https://www.filacro.ch/kurse/workshops/elki-cirucs-kurs"
   },
   {
    "gemeinden": [
@@ -7675,7 +7924,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis ca. 6 Jahre"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7268894"
+   "url": "https://www.uster.ch/_rte/anlass/7268894",
+   "w": "https://www.refuster.ch/fiire-mit-de-chliine"
   },
   {
    "gemeinden": [
@@ -7735,7 +7985,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirche",
    "time": "9.45 - 10.15",
    "age": null,
-   "url": "https://www.russikon.ch/_rte/anlass/7832746"
+   "url": "https://www.russikon.ch/_rte/anlass/7832746",
+   "w": "https://www.kircherussikon.ch"
   },
   {
    "gemeinden": [
@@ -7763,7 +8014,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "9.00 - 12.00",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552495"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552495",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/kidszone/"
   },
   {
    "gemeinden": [
@@ -7791,7 +8043,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 15.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3182/eventdate/58835"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3182/eventdate/58835",
+   "w": "https://refhorgen.ch/gemeindeleben/kinder-und-familie/gschichtehoeck-fiire-mit-de-chliine/"
   },
   {
    "gemeinden": [
@@ -7823,7 +8076,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "5 bis 13 Jahre"
    },
-   "url": "https://www.rafz.ch/_rte/anlass/7277918"
+   "url": "https://www.rafz.ch/_rte/anlass/7277918",
+   "w": "https://www.jungscharrafz.ch/"
   },
   {
    "gemeinden": [
@@ -7837,7 +8091,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Chrischona Wald",
    "time": "13.30 - 17.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7614289"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7614289",
+   "w": "https://www.chrischona-wald.ch"
   },
   {
    "gemeinden": [
@@ -7879,7 +8134,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Viva Kirche Rümlang",
    "time": "10.00 - 15.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7736425"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7736425",
+   "w": "https://vivakirche-ruemlang.ch/kerzenziehen/"
   },
   {
    "gemeinden": [
@@ -7893,7 +8149,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ornithologischer Verein Rikon",
    "time": "",
    "age": null,
-   "url": "https://www.zell.ch/_rte/anlass/7765222"
+   "url": "https://www.zell.ch/_rte/anlass/7765222",
+   "w": "http://www.ov-rikon.ch/"
   },
   {
    "gemeinden": [
@@ -7921,7 +8178,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stiftung MOJUGA Die MOJUGA Stiftung leistet die offene Kinder- und Jug",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7165/eventdate/11041"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7165/eventdate/11041",
+   "w": "https://www.jugendarbeit-hombi.ch/"
   },
   {
    "gemeinden": [
@@ -7935,7 +8193,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "GZiW - Gemeinschafts-Zentrum im Weinland",
    "time": "13.30",
    "age": null,
-   "url": "https://www.marthalen.ch/_rte/anlass/7278287"
+   "url": "https://www.marthalen.ch/_rte/anlass/7278287",
+   "w": "https://www.gziw.ch"
   },
   {
    "gemeinden": [
@@ -7967,7 +8226,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.russikon.ch/_rte/anlass/7455226"
+   "url": "https://www.russikon.ch/_rte/anlass/7455226",
+   "w": "https://www.winmedio.net/Russikon/"
   },
   {
    "gemeinden": [
@@ -7981,7 +8241,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "15.30 - 16.30",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4289/eventdate/58256"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4289/eventdate/58256",
+   "w": "https://kulturfonds-horgen.ch/"
   },
   {
    "gemeinden": [
@@ -8013,7 +8274,8 @@ window.FAMILIENAGENDA = {
     "max": 8,
     "label": "Kindergarten bis 2. Klasse"
    },
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7794070"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7794070",
+   "w": "https://www.kirchewiesendangen.ch/"
   },
   {
    "gemeinden": [
@@ -8055,7 +8317,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Martin Gross",
    "time": "13.30 - 17.00",
    "age": null,
-   "url": "https://www.richterswil.ch/_rte/anlass/7796488"
+   "url": "https://www.richterswil.ch/_rte/anlass/7796488",
+   "w": "https://www.chaufenstei.ch/"
   },
   {
    "gemeinden": [
@@ -8083,7 +8346,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.00 - 18.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/2785/eventdate/58829"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/2785/eventdate/58829",
+   "w": "https://refhorgen.ch/veranstaltung/57956"
   },
   {
    "gemeinden": [
@@ -8111,7 +8375,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406503"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406503",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -8139,7 +8404,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Wangen-Brüttisellen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7799209"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7799209",
+   "w": "https://www.ojawb.ch/"
   },
   {
    "gemeinden": [
@@ -8157,7 +8423,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/516/eventdate/1057"
+   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/516/eventdate/1057",
+   "w": "https://www.kulturhedingen.ch"
   },
   {
    "gemeinden": [
@@ -8171,7 +8438,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dampfbahn-Verein Zürcher Oberland",
    "time": "",
    "age": null,
-   "url": "https://www.hinwil.ch/_rte/anlass/7797535"
+   "url": "https://www.hinwil.ch/_rte/anlass/7797535",
+   "w": "https://www.dvzo.ch/samichlaus-express"
   },
   {
    "gemeinden": [
@@ -8186,7 +8454,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dampfbahn-Verein Zürcher Oberland DVZO",
    "time": "",
    "age": null,
-   "url": "https://www.bauma.ch/_rte/anlass/7808503"
+   "url": "https://www.bauma.ch/_rte/anlass/7808503",
+   "w": "https://www.dvzo.ch/samichlaus-express"
   },
   {
    "gemeinden": [
@@ -8236,7 +8505,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "0 bis 3 Jahre"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7811065"
+   "url": "https://www.uster.ch/_rte/anlass/7811065",
+   "w": "https://www.gordon-musik-lernen.ch"
   },
   {
    "gemeinden": [
@@ -8268,7 +8538,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Männedorf",
    "time": "10.30",
    "age": null,
-   "url": "https://www.maennedorf.ch/_rte/anlass/7563106"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7563106",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -8282,7 +8553,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 16.30",
    "age": null,
-   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1452/eventdate/2249"
+   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1452/eventdate/2249",
+   "w": "https://www.eulachtal.ch/aktuelles-veranstaltungen/"
   },
   {
    "gemeinden": [
@@ -8300,7 +8572,8 @@ window.FAMILIENAGENDA = {
     "max": 9,
     "label": "5 bis 9 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7628047"
+   "url": "https://www.kloten.ch/_rte/anlass/7628047",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -8346,7 +8619,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Dürnten",
    "time": "9.30 - 11.30",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7656520"
+   "url": "https://www.duernten.ch/_rte/anlass/7656520",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -8378,7 +8652,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein für Familiengärten Dübendorf (VFD)",
    "time": "13.00 - 19.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7251791"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7251791",
+   "w": "https://www.vfd.ch/events/chlausmaert/"
   },
   {
    "gemeinden": [
@@ -8396,7 +8671,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17262/eventdate/106192"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17262/eventdate/106192",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -8411,6 +8687,20 @@ window.FAMILIENAGENDA = {
    "time": "11.00 - 14.00",
    "age": null,
    "url": "https://www.waedenswil.ch/_rte/anlass/7801111"
+  },
+  {
+   "gemeinden": [
+    "ba"
+   ],
+   "id": "ba-7825576",
+   "name": "Wiehnachtsmärt Bauma",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "im und um das Kirchgemeindehaus ref. Kirche Bauma",
+   "veranstalter": "Verein Dorffäscht Bauma",
+   "time": "12.00 - 19.00",
+   "age": null,
+   "url": "https://www.bauma.ch/_rte/anlass/7825576"
   },
   {
    "gemeinden": [
@@ -8439,7 +8729,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578076"
+   "url": "https://www.kloten.ch/_rte/anlass/7578076",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -8453,7 +8744,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Hundesport Riedthof Regensdorf",
    "time": "16.00 - 18.00",
    "age": null,
-   "url": "https://www.regensdorf.ch/_rte/anlass/7590571"
+   "url": "https://www.regensdorf.ch/_rte/anlass/7590571",
+   "w": "https://www.hunde-sport.ch"
   },
   {
    "gemeinden": [
@@ -8485,7 +8777,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "1 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7822873"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7822873",
+   "w": "http://www.elterngruppe.ch."
   },
   {
    "gemeinden": [
@@ -8527,7 +8820,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Claudia Crema Rösch",
    "time": "12.00 - 17.00",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7823269"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7823269",
+   "w": "https://gelateria-crema.ch/"
   },
   {
    "gemeinden": [
@@ -8545,7 +8839,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7736563"
+   "url": "https://www.uster.ch/_rte/anlass/7736563",
+   "w": "http://www.kaufmann-co.de"
   },
   {
    "gemeinden": [
@@ -8587,7 +8882,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Chlauszunft Wädenswil",
    "time": "17.30",
    "age": null,
-   "url": "https://www.waedenswil.ch/_rte/anlass/7723183"
+   "url": "https://www.waedenswil.ch/_rte/anlass/7723183",
+   "w": "http://www.chlauszunft.ch"
   },
   {
    "gemeinden": [
@@ -8615,7 +8911,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gewerbe Wangen-Brüttisellen",
    "time": "16.00 - 18.00",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7691278"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7691278",
+   "w": "https://www.gvwb.ch/"
   },
   {
    "gemeinden": [
@@ -8643,7 +8940,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauenverein Maur",
    "time": "16.00 - 20.00",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10626/eventdate/14573"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10626/eventdate/14573",
+   "w": "https://frauenverein-maur.ch"
   },
   {
    "gemeinden": [
@@ -8703,7 +9001,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St. Niklausgesellschaft Effretikon",
    "time": "17.15 - 18.15",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776376"
+   "url": "https://www.ilef.ch/_rte/anlass/7776376",
+   "w": "https://www.st-niklaus-effretikon.ch/chlauseinzug"
   },
   {
    "gemeinden": [
@@ -8717,7 +9016,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Kino Orion",
    "time": "15.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7776361"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7776361",
+   "w": "https://www.kino-orion.ch/"
   },
   {
    "gemeinden": [
@@ -8792,7 +9092,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2813/eventdate/2111"
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2813/eventdate/2111",
+   "w": "https://www.forumaeugst.ch"
   },
   {
    "gemeinden": [
@@ -8806,7 +9107,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St. Nikolaus Gesellschaft Wangen-Brüttisellen, Dietlikon",
    "time": "",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7686625"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7686625",
+   "w": "https://www.samichlaus-dietlikon.ch"
   },
   {
    "gemeinden": [
@@ -8852,7 +9154,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8797/eventdate/8255"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8797/eventdate/8255",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/353/2026/11/29"
   },
   {
    "gemeinden": [
@@ -8866,7 +9169,23 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Wild Boars Oberrieden",
    "time": "",
    "age": null,
-   "url": "https://www.rueschlikon.ch/_rte/anlass/7833655"
+   "url": "https://www.rueschlikon.ch/_rte/anlass/7833655",
+   "w": "https://www.los-locos.ch/lichterweg"
+  },
+  {
+   "gemeinden": [
+    "thalwil"
+   ],
+   "id": "thalwil-7834705",
+   "name": "Lichterweg Thalwil-Oberrieden",
+   "von": "2026-11-29",
+   "bis": "2026-12-31",
+   "ort": "Mettli in Thalwil",
+   "veranstalter": "Wild Boars Oberrieden",
+   "time": "",
+   "age": null,
+   "url": "https://www.thalwil.ch/_rte/anlass/7834705",
+   "w": "https://www.los-locos.ch/lichterweg"
   },
   {
    "gemeinden": [
@@ -8884,7 +9203,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "2 bis 10 Jahre"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700005"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700005",
+   "w": "http://www.tvwb.ch"
   },
   {
    "gemeinden": [
@@ -8926,7 +9246,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirche Andelfingen und kath. Kirche Kleinandelfingen",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/1903/eventdate/1716"
+   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/1903/eventdate/1716",
+   "w": "https://www.ref-andelfingen.ch"
   },
   {
    "gemeinden": [
@@ -8944,7 +9265,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766293"
+   "url": "https://www.ilef.ch/_rte/anlass/7766293",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -8958,7 +9280,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.30 - 16.30",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4203/eventdate/54523"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4203/eventdate/54523",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -8976,6 +9299,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "oberengstringen"
+   ],
+   "id": "oberengstringen-7834366",
+   "name": "Samichlaus-Einzug",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "Schulhausareal GSHL",
+   "veranstalter": "St. Niklaus Gesellschaft rechtes Limmattal",
+   "time": "17.15 - 18.30",
+   "age": null,
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7834366",
+   "w": "https://samichlaus-limmattal.ch/"
+  },
+  {
+   "gemeinden": [
     "niederglatt",
     "niederhasli"
    ],
@@ -8987,7 +9325,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St.Niklausgesellschaft Niederglatt",
    "time": "16.30 - 19.00",
    "age": null,
-   "url": "https://www.niederglatt-zh.ch/_rte/anlass/7823428"
+   "url": "https://www.niederglatt-zh.ch/_rte/anlass/7823428",
+   "w": "https://www.chlausniederglatt.ch/home.html"
   },
   {
    "gemeinden": [
@@ -9019,7 +9358,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17263/eventdate/106188"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17263/eventdate/106188",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -9097,7 +9437,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Märtverein Meilen",
    "time": "13.00 - 19.00",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7205195"
+   "url": "https://www.meilen.ch/_rte/anlass/7205195",
+   "w": "https://www.maertvereinmeilen.ch"
   },
   {
    "gemeinden": [
@@ -9111,7 +9452,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Peter Schibler",
    "time": "11.00 - 19.00",
    "age": null,
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6293/eventdate/25502"
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6293/eventdate/25502",
+   "w": "https://www.ruetner-weihnachtsmarkt.ch/"
   },
   {
    "gemeinden": [
@@ -9126,7 +9468,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7668238"
+   "url": "https://www.kloten.ch/_rte/anlass/7668238",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -9140,7 +9483,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "FEG Bubikon",
    "time": "16.00 - 17.30",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7784755"
+   "url": "https://www.bubikon.ch/_rte/anlass/7784755",
+   "w": "https://www.feg-bubikon.ch"
   },
   {
    "gemeinden": [
@@ -9186,7 +9530,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7215743"
+   "url": "https://www.urdorf.ch/_rte/anlass/7215743",
+   "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
   },
   {
    "gemeinden": [
@@ -9204,7 +9549,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7556212"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7556212",
+   "w": "https://www.bibliothek-neftenbach.ch"
   },
   {
    "gemeinden": [
@@ -9246,7 +9592,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Uitikon",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.uitikon.ch/_rte/anlass/7621717"
+   "url": "https://www.uitikon.ch/_rte/anlass/7621717",
+   "w": "https://www.bibliothek-uitikon.ch/"
   },
   {
    "gemeinden": [
@@ -9260,7 +9607,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Anduriña Familienverein",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3474/eventdate/2047"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3474/eventdate/2047",
+   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -9278,7 +9626,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8731/eventdate/8218"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8731/eventdate/8218",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/326/2026/11/9"
   },
   {
    "gemeinden": [
@@ -9392,13 +9741,14 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-30",
    "ort": "Familienforum Bubikon-Wolfhausen",
    "veranstalter": "Gabriela Glaus",
-   "time": "14.50 - 15.30",
+   "time": "15.00 - 15.40",
    "age": {
     "min": 4,
     "max": 5,
     "label": "4 bis 5 Jahre"
    },
-   "url": "https://www.bubikon.ch/_rte/anlass/7816576"
+   "url": "https://www.bubikon.ch/_rte/anlass/7816576",
+   "w": "http://www.gabrielaglaus.com/kinderballett-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -9412,7 +9762,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Singen & Kindertanzen Bubikon-Wolfhausen",
    "time": "14.00 - 14.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7817569"
+   "url": "https://www.bubikon.ch/_rte/anlass/7817569",
+   "w": "https://www.gabrielaglaus.com/familienforum-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -9426,7 +9777,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Geschichten & Kindertanzen Bubikon-Wolfhausen",
    "time": "16.00 - 16.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7769083"
+   "url": "https://www.bubikon.ch/_rte/anlass/7769083",
+   "w": "https://www.gabrielaglaus.com/agenda"
   },
   {
    "gemeinden": [
@@ -9440,7 +9792,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7004/eventdate/12672"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7004/eventdate/12672",
+   "w": "https://familienclub-herrliberg.ch/events/elki-treff-offener-spielturm-3/"
   },
   {
    "gemeinden": [
@@ -9458,7 +9811,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 8 Jahren"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7735288"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7735288",
+   "w": "https://www.urbangolfdietlikon.ch"
   },
   {
    "gemeinden": [
@@ -9514,7 +9868,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Maya Eigenmann",
    "time": "",
    "age": null,
-   "url": "https://www.seegraeben.ch/_rte/anlass/6372391"
+   "url": "https://www.seegraeben.ch/_rte/anlass/6372391",
+   "w": "https://www.kirche-seegraeben.ch"
   },
   {
    "gemeinden": [
@@ -9556,7 +9911,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7349110"
+   "url": "https://www.ilef.ch/_rte/anlass/7349110",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -9620,7 +9976,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7556215"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7556215",
+   "w": "https://www.bibliothek-neftenbach.ch"
   },
   {
    "gemeinden": [
@@ -9634,7 +9991,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565128"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565128",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -9662,7 +10020,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Anduriña Familienverein",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3475/eventdate/2042"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3475/eventdate/2042",
+   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -9694,7 +10053,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552447"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552447",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -9794,7 +10154,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Maur",
    "time": "9.30 - 11.30",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10510/eventdate/14499"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10510/eventdate/14499",
+   "w": "https://www.treffpunkt-maur.ch"
   },
   {
    "gemeinden": [
@@ -9904,7 +10265,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7817791"
+   "url": "https://www.thalwil.ch/_rte/anlass/7817791",
+   "w": "https://www.museumthalwil.ch/"
   },
   {
    "gemeinden": [
@@ -9922,7 +10284,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17264/eventdate/106191"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17264/eventdate/106191",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -9937,7 +10300,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578046"
+   "url": "https://www.kloten.ch/_rte/anlass/7578046",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -9965,7 +10329,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Birmensdorf",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774468"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774468",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -10039,7 +10404,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036301"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036301",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -10057,7 +10423,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/6907450"
+   "url": "https://www.urdorf.ch/_rte/anlass/6907450",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -10075,7 +10442,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7076273"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7076273",
+   "w": "https://www.buchstart.ch/"
   },
   {
    "gemeinden": [
@@ -10181,7 +10549,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St. Niklausgesellschaft Effretikon",
    "time": "16.00 - 20.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776379"
+   "url": "https://www.ilef.ch/_rte/anlass/7776379",
+   "w": "http://www.st-niklaus-effretikon.ch"
   },
   {
    "gemeinden": [
@@ -10195,7 +10564,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Anduriña Familienverein",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3476/eventdate/2041"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3476/eventdate/2041",
+   "w": "https://verein-andurina.ch/elki-cafi-andurina/"
   },
   {
    "gemeinden": [
@@ -10213,7 +10583,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7666009"
+   "url": "https://www.duernten.ch/_rte/anlass/7666009",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -10245,7 +10616,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6931/eventdate/12637"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6931/eventdate/12637",
+   "w": "https://familienclub-herrliberg.ch/events/familiencafe-elki-kafi/"
   },
   {
    "gemeinden": [
@@ -10291,7 +10663,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.meilen.ch/_rte/anlass/7783531"
+   "url": "https://www.meilen.ch/_rte/anlass/7783531",
+   "w": "https://www.ref-meilen.ch/"
   },
   {
    "gemeinden": [
@@ -10327,7 +10700,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "4 bis 6 Jahre"
    },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6978/eventdate/12662"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6978/eventdate/12662",
+   "w": "https://bibliothekherrliberg.ch"
   },
   {
    "gemeinden": [
@@ -10345,7 +10719,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.rheinau.ch/_rte/anlass/7200887"
+   "url": "https://www.rheinau.ch/_rte/anlass/7200887",
+   "w": "http://bibliothek-rheinau.ch"
   },
   {
    "gemeinden": [
@@ -10359,7 +10734,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Förderverein Hegnerhof",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7628035"
+   "url": "https://www.kloten.ch/_rte/anlass/7628035",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -10373,7 +10749,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Robinsonspielplatz",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7822048"
+   "url": "https://www.ilef.ch/_rte/anlass/7822048",
+   "w": "https://robinsonspielplatz.ch"
   },
   {
    "gemeinden": [
@@ -10437,7 +10814,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dorfverein Bäretswil",
    "time": "",
    "age": null,
-   "url": "https://www.baeretswil.ch/_rte/anlass/7362142"
+   "url": "https://www.baeretswil.ch/_rte/anlass/7362142",
+   "w": "http://dorfverein-baeretswil.ch"
   },
   {
    "gemeinden": [
@@ -10493,7 +10871,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MIR Mitenand in Rümlang",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7645672"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7645672",
+   "w": "http://www.mirr-ruemlang.ch."
   },
   {
    "gemeinden": [
@@ -10507,7 +10886,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MIR Mitenand in Rümlang",
    "time": "15.00 - 16.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7234160"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7234160",
+   "w": "http://www.mir-ruemlang.ch"
   },
   {
    "gemeinden": [
@@ -10535,7 +10915,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Regensdorf",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7232165"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7232165",
+   "w": "https://outlook.office365.com/owa/calendar/Ruemlang@AJBKTZH.onmicrosoft.com/bookings/"
   },
   {
    "gemeinden": [
@@ -10553,7 +10934,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5267/eventdate/5890"
+   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5267/eventdate/5890",
+   "w": "https://zh.ch/kjz-pfaeffikon"
   },
   {
    "gemeinden": [
@@ -10599,7 +10981,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4188/eventdate/54508"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4188/eventdate/54508",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -10613,7 +10996,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sigristenkeller Bülach",
    "time": "15.00 - 16.00",
    "age": null,
-   "url": "https://www.buelach.ch/_rte/anlass/7626385"
+   "url": "https://www.buelach.ch/_rte/anlass/7626385",
+   "w": "https://www.figurentheater-wettingen.ch"
   },
   {
    "gemeinden": [
@@ -10663,7 +11047,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sonne – Boutiquehotel und Seerestaurants",
    "time": "15.00 - 18.00",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17450/eventdate/17369"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17450/eventdate/17369",
+   "w": "https://sonne.ch/restaurants-und-bar/winterzaubergarten/"
   },
   {
    "gemeinden": [
@@ -10677,7 +11062,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/3654/eventdate/3194"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/3654/eventdate/3194",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -10691,7 +11077,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Abenteuerspielplatz Thalwil",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7823491"
+   "url": "https://www.thalwil.ch/_rte/anlass/7823491",
+   "w": "https://www.abenteuerspielplatz.ch/"
   },
   {
    "gemeinden": [
@@ -10709,7 +11096,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7217117"
+   "url": "https://www.thalwil.ch/_rte/anlass/7217117",
+   "w": "https://bibliotheken-zh.ch/thalwil/Home"
   },
   {
    "gemeinden": [
@@ -10741,7 +11129,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7657132"
+   "url": "https://www.duernten.ch/_rte/anlass/7657132",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -10755,7 +11144,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Dürnten",
    "time": "14.00 - 16.30",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7656616"
+   "url": "https://www.duernten.ch/_rte/anlass/7656616",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -10769,7 +11159,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ev. Ref. Kirchgemeinde Kloten",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7718632"
+   "url": "https://www.kloten.ch/_rte/anlass/7718632",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -10787,7 +11178,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17265/eventdate/106190"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17265/eventdate/106190",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -10801,7 +11193,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kreativ Atelier Neftenbach",
    "time": "14.30 - 17.00",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7815193"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7815193",
+   "w": "https://www.sarailg.ch"
   },
   {
    "gemeinden": [
@@ -10816,7 +11209,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7676407"
+   "url": "https://www.kloten.ch/_rte/anlass/7676407",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -10830,7 +11224,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Birmensdorf",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7735750"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7735750",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -10932,7 +11327,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stiftung Brunegg Die Stiftung Brunegg in Hombrechtikon ermöglicht Mens",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7837/eventdate/11573"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7837/eventdate/11573",
+   "w": "https://www.stiftung-brunegg.ch/"
   },
   {
    "gemeinden": [
@@ -10964,7 +11360,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7737331"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7737331",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -10978,7 +11375,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565071"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565071",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -11035,6 +11433,20 @@ window.FAMILIENAGENDA = {
    "time": "9.15 - 9.45",
    "age": null,
    "url": "https://www.elsau.ch/_rte/anlass/6890275"
+  },
+  {
+   "gemeinden": [
+    "a"
+   ],
+   "id": "a-7834684",
+   "name": "Grittibänz-Essen im Familienzentrum",
+   "von": "2026-12-03",
+   "bis": "2026-12-03",
+   "ort": "Familienzentrum Männedorf",
+   "veranstalter": "Familienzentrum Männedorf",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.maennedorf.ch/_rte/anlass/7834684"
   },
   {
    "gemeinden": [
@@ -11112,7 +11524,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621393"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621393",
+   "w": "https://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -11158,7 +11571,8 @@ window.FAMILIENAGENDA = {
     "max": 2,
     "label": "0 bis 2 Jahre"
    },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6939/eventdate/12648"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6939/eventdate/12648",
+   "w": "https://familienclub-herrliberg.ch/events/krabbelgruppe-0-2-jahre/"
   },
   {
    "gemeinden": [
@@ -11176,7 +11590,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7292921"
+   "url": "https://www.thalwil.ch/_rte/anlass/7292921",
+   "w": "https://www.kirche-thalwil.ch/krabbelgruppen"
   },
   {
    "gemeinden": [
@@ -11190,7 +11605,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7638181"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638181",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -11218,7 +11634,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Drü Dörfli",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/6930313"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/6930313",
+   "w": "https://www.familienverein3doerfli.ch/"
   },
   {
    "gemeinden": [
@@ -11246,7 +11663,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Horgen",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7597816"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7597816",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -11306,7 +11724,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 15 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7818823"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7818823",
+   "w": "https://airforcecenter.ch/weihnachtswald/"
   },
   {
    "gemeinden": [
@@ -11320,7 +11739,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St.Nikolausgesellschaft Wallisellen",
    "time": "16.00 - 21.00",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7765429"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7765429",
+   "w": "https://www.chlaus.org/"
   },
   {
    "gemeinden": [
@@ -11334,7 +11754,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Chlausgruppe",
    "time": "",
    "age": null,
-   "url": "https://www.moenchaltorf.ch/_rte/anlass/7760590"
+   "url": "https://www.moenchaltorf.ch/_rte/anlass/7760590",
+   "w": "https://www.chlaus.ch/chlausenverzeichnis/detailansicht?kanton=26&chlausengesellschaft=414"
   },
   {
    "gemeinden": [
@@ -11348,7 +11769,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Lila Kindertheater",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7815073"
+   "url": "https://www.urdorf.ch/_rte/anlass/7815073",
+   "w": "https://www.lila.ch/theater/"
   },
   {
    "gemeinden": [
@@ -11362,7 +11784,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tino Iurato",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7779001"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7779001",
+   "w": "https://www.freestyle-wald.ch/"
   },
   {
    "gemeinden": [
@@ -11380,7 +11803,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.oberengstringen.ch/_rte/anlass/7447264"
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7447264",
+   "w": "https://reformiert-zuerich.ch/-5/home~1666/?article=93533"
   },
   {
    "gemeinden": [
@@ -11412,7 +11836,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17266/eventdate/106189"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17266/eventdate/106189",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -11427,7 +11852,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578097"
+   "url": "https://www.kloten.ch/_rte/anlass/7578097",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -11441,7 +11867,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Theater Ticino",
    "time": "20.00",
    "age": null,
-   "url": "https://www.waedenswil.ch/_rte/anlass/7658299"
+   "url": "https://www.waedenswil.ch/_rte/anlass/7658299",
+   "w": "https://theater-ticino.ch/"
   },
   {
    "gemeinden": [
@@ -11455,7 +11882,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dorfverein Fällanden",
    "time": "16.00 - 21.00",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/6931963"
+   "url": "https://www.faellanden.ch/_rte/anlass/6931963",
+   "w": "https://dorfverein.ch"
   },
   {
    "gemeinden": [
@@ -11469,7 +11897,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Luigi Lore'",
    "time": "16.30",
    "age": null,
-   "url": "https://www.oberengstringen.ch/_rte/anlass/7821439"
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7821439",
+   "w": "https://www.kath-kirche-engstringen.ch"
   },
   {
    "gemeinden": [
@@ -11497,7 +11926,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "frauen-netzwerk wiesendangen",
    "time": "",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7726975"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7726975",
+   "w": "https://frauen-netzwerk.ch/"
   },
   {
    "gemeinden": [
@@ -11547,7 +11977,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588480"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588480",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -11579,7 +12010,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7217081"
+   "url": "https://www.thalwil.ch/_rte/anlass/7217081",
+   "w": "https://bibliotheken-zh.ch/thalwil/Home"
   },
   {
    "gemeinden": [
@@ -11625,7 +12057,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565182"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565182",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -11675,7 +12108,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "5 Monate bis 3 Jahre"
    },
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10666/eventdate/14604"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10666/eventdate/14604",
+   "w": "https://www.bibliothek-maur.ch"
   },
   {
    "gemeinden": [
@@ -11739,7 +12173,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Chlauszunft Wädenswil",
    "time": "",
    "age": null,
-   "url": "https://www.waedenswil.ch/_rte/anlass/7723186"
+   "url": "https://www.waedenswil.ch/_rte/anlass/7723186",
+   "w": "http://www.chlauszunft.ch"
   },
   {
    "gemeinden": [
@@ -11803,7 +12238,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirchgemeinde",
    "time": "15.30 - 20.30",
    "age": null,
-   "url": "https://www.rafz.ch/_rte/anlass/7828606"
+   "url": "https://www.rafz.ch/_rte/anlass/7828606",
+   "w": "https://www.refkirche-rafz.ch"
   },
   {
    "gemeinden": [
@@ -11849,7 +12285,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6936/eventdate/12646"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6936/eventdate/12646",
+   "w": "https://familienclub-herrliberg.ch/events/knirpsentreff-3-4-jahre/"
   },
   {
    "gemeinden": [
@@ -11867,7 +12304,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "4 bis 7 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7718656"
+   "url": "https://www.kloten.ch/_rte/anlass/7718656",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -11917,7 +12355,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8798/eventdate/8256"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8798/eventdate/8256",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/354/2026/12/4"
   },
   {
    "gemeinden": [
@@ -11935,7 +12374,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7667128"
+   "url": "https://www.duernten.ch/_rte/anlass/7667128",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -11967,7 +12407,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 15 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7818826"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7818826",
+   "w": "https://airforcecenter.ch/weihnachtswald/"
   },
   {
    "gemeinden": [
@@ -11981,7 +12422,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dorfverein Bäretswil",
    "time": "",
    "age": null,
-   "url": "https://www.baeretswil.ch/_rte/anlass/7362148"
+   "url": "https://www.baeretswil.ch/_rte/anlass/7362148",
+   "w": "http://dorfverein-baeretswil.ch"
   },
   {
    "gemeinden": [
@@ -11995,7 +12437,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zumiker Chläus",
    "time": "",
    "age": null,
-   "url": "https://www.zumikon.ch/_rte/anlass/7725670"
+   "url": "https://www.zumikon.ch/_rte/anlass/7725670",
+   "w": "https://zumikerchlaus.ch"
   },
   {
    "gemeinden": [
@@ -12009,7 +12452,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Russikon",
    "time": "18.00 - 20.00",
    "age": null,
-   "url": "https://www.russikon.ch/_rte/anlass/7700188"
+   "url": "https://www.russikon.ch/_rte/anlass/7700188",
+   "w": "https://familienverein-russikon.ch/events/samichlaus"
   },
   {
    "gemeinden": [
@@ -12023,7 +12467,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Samichlaus Küsnacht-Erlenbach Samichlaus Helfer und Helferinnen aus Kü",
    "time": "",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/15606/eventdate/17629"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/15606/eventdate/17629",
+   "w": "https://www.nikolaus-kuesnacht.ch/"
   },
   {
    "gemeinden": [
@@ -12037,7 +12482,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Samichlaus Verein Fehraltorf",
    "time": "16.00 - 19.00",
    "age": null,
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7692868"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7692868",
+   "w": "https://bookings.cloud.microsoft/book/Samichlaus@vv-fehraltorf.ch/?ismsaljsauthenabled"
   },
   {
    "gemeinden": [
@@ -12055,7 +12501,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.bonstetten.ch/_rte/anlass/7697857"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7697857",
+   "w": "https://fam-club.ch/organisatorinnen"
   },
   {
    "gemeinden": [
@@ -12105,7 +12552,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17267/eventdate/106187"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17267/eventdate/106187",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -12123,7 +12571,8 @@ window.FAMILIENAGENDA = {
     "max": 9,
     "label": "7 bis 9 Jahre"
    },
-   "url": "https://www.egg.ch/_rte/anlass/7601401"
+   "url": "https://www.egg.ch/_rte/anlass/7601401",
+   "w": "https://www.bibliotheken-zh.ch/egg/"
   },
   {
    "gemeinden": [
@@ -12155,7 +12604,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.regensdorf.ch/_rte/anlass/7818025"
+   "url": "https://www.regensdorf.ch/_rte/anlass/7818025",
+   "w": "https://apply.refline.ch/690271/search.html"
   },
   {
    "gemeinden": [
@@ -12169,7 +12619,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tobias Gschwind",
    "time": "17.00 - 22.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7693132"
+   "url": "https://www.opfikon.ch/_rte/anlass/7693132",
+   "w": "http://www.geschenkezauber.ch"
   },
   {
    "gemeinden": [
@@ -12184,7 +12635,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578067"
+   "url": "https://www.kloten.ch/_rte/anlass/7578067",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -12198,7 +12650,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Kirche",
    "time": "17.15 - 18.30",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7830712"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7830712",
+   "w": "https://www.kath-bonstetten.ch/"
   },
   {
    "gemeinden": [
@@ -12244,7 +12697,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternverein & Treffpunkt Meilen",
    "time": "16.10 - 20.30",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7825702"
+   "url": "https://www.meilen.ch/_rte/anlass/7825702",
+   "w": "https://treffpunktmeilen.ch/events/elternverein-samichlaus/"
   },
   {
    "gemeinden": [
@@ -12304,7 +12758,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7566325"
+   "url": "https://www.richterswil.ch/_rte/anlass/7566325",
+   "w": "http://bibliothek-richterswil.ch"
   },
   {
    "gemeinden": [
@@ -12318,7 +12773,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Aktives Adlikon 8106",
    "time": "16.00 - 21.00",
    "age": null,
-   "url": "https://www.regensdorf.ch/_rte/anlass/7783072"
+   "url": "https://www.regensdorf.ch/_rte/anlass/7783072",
+   "w": "https://www.aa8106.ch"
   },
   {
    "gemeinden": [
@@ -12332,7 +12788,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Turnverein Seuzach",
    "time": "",
    "age": null,
-   "url": "https://www.seuzach.ch/_rte/anlass/7308959"
+   "url": "https://www.seuzach.ch/_rte/anlass/7308959",
+   "w": "https://tvseuzach.ch/chlaus"
   },
   {
    "gemeinden": [
@@ -12360,7 +12817,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Turnverein Bubikon",
    "time": "16.00",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7800211"
+   "url": "https://www.bubikon.ch/_rte/anlass/7800211",
+   "w": "http://www.tvbubikon.ch."
   },
   {
    "gemeinden": [
@@ -12374,7 +12832,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565230"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565230",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -12388,7 +12847,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Tschechischer Klub Zürich",
    "time": "17.00",
    "age": null,
-   "url": "https://www.adliswil.ch/_rte/anlass/7826188"
+   "url": "https://www.adliswil.ch/_rte/anlass/7826188",
+   "w": "http://www.ceskyklub.ch/"
   },
   {
    "gemeinden": [
@@ -12448,7 +12908,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7391137"
+   "url": "https://www.kloten.ch/_rte/anlass/7391137",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -12466,7 +12927,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3227/eventdate/1914"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3227/eventdate/1914",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -12484,7 +12946,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis 6 Jahre"
    },
-   "url": "https://www.dachsen.ch/_rte/anlass/7253105"
+   "url": "https://www.dachsen.ch/_rte/anlass/7253105",
+   "w": "https://primarschuledachsen.ch/bibliothek/"
   },
   {
    "gemeinden": [
@@ -12534,7 +12997,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/3649/eventdate/2892"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/3649/eventdate/2892",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -12552,7 +13016,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7554388"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7554388",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -12566,7 +13031,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3184/eventdate/58836"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3184/eventdate/58836",
+   "w": "https://refhorgen.ch/gemeindeleben/kinder-und-familie/gschichtehoeck-fiire-mit-de-chliine/"
   },
   {
    "gemeinden": [
@@ -12580,7 +13046,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Die Zauberlaterne Dübendorf",
    "time": "10.30",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7811038"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7811038",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -12598,7 +13065,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "5 bis 13 Jahre"
    },
-   "url": "https://www.rafz.ch/_rte/anlass/7277915"
+   "url": "https://www.rafz.ch/_rte/anlass/7277915",
+   "w": "https://www.jungscharrafz.ch/"
   },
   {
    "gemeinden": [
@@ -12654,7 +13122,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kids Disco",
    "time": "14.00 - 18.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7811035"
+   "url": "https://www.kloten.ch/_rte/anlass/7811035",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -12668,7 +13137,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MRF Musikschule Region Flughafen",
    "time": "",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7656439"
+   "url": "https://www.kloten.ch/_rte/anlass/7656439",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -12738,7 +13208,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638766"
+   "url": "https://www.benken.ch/_rte/anlass/7638766",
+   "w": "https://jtb.ch/"
   },
   {
    "gemeinden": [
@@ -12756,7 +13227,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "0 bis 6 Jahre"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7200122"
+   "url": "https://www.uster.ch/_rte/anlass/7200122",
+   "w": "http://www.miam-konzerte.ch"
   },
   {
    "gemeinden": [
@@ -12820,7 +13292,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7757011"
+   "url": "https://www.ilef.ch/_rte/anlass/7757011",
+   "w": "https://www.soziokultur-ilef.ch/"
   },
   {
    "gemeinden": [
@@ -12834,7 +13307,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schule Zürisee",
    "time": "10.30 - 16.30",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7833022"
+   "url": "https://www.bubikon.ch/_rte/anlass/7833022",
+   "w": "https://www.schule-zuerisee.ch"
   },
   {
    "gemeinden": [
@@ -12881,7 +13355,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406506"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406506",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -12895,7 +13370,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Wangen-Brüttisellen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7799212"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7799212",
+   "w": "https://www.ojawb.ch/"
   },
   {
    "gemeinden": [
@@ -12913,7 +13389,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 15 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7818832"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7818832",
+   "w": "https://airforcecenter.ch/weihnachtswald/"
   },
   {
    "gemeinden": [
@@ -12927,7 +13404,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Herrliberg",
    "time": "9.30",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6327/eventdate/12202"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6327/eventdate/12202",
+   "w": "https://www.ref-herrliberg.ch"
   },
   {
    "gemeinden": [
@@ -12959,7 +13437,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bärehuus",
    "time": "15.00",
    "age": null,
-   "url": "https://www.baeretswil.ch/_rte/anlass/7466500"
+   "url": "https://www.baeretswil.ch/_rte/anlass/7466500",
+   "w": "https://www.bäre-huus.ch/"
   },
   {
    "gemeinden": [
@@ -12987,7 +13466,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauengemeinschaft Benken",
    "time": "17.00 - 19.00",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7419730"
+   "url": "https://www.benken.ch/_rte/anlass/7419730",
+   "w": "https://fgbenken.ch/programm/alle_anlaesse"
   },
   {
    "gemeinden": [
@@ -13005,6 +13485,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "hedingen"
+   ],
+   "id": "hedingen-556-1117",
+   "name": "Samichlaus im Wald",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "",
+   "veranstalter": "Familien Forum Hedingen",
+   "time": "17.00 - 19.30",
+   "age": null,
+   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/556/eventdate/1117"
+  },
+  {
+   "gemeinden": [
     "hettlingen"
    ],
    "id": "hettlingen-7237274",
@@ -13015,7 +13509,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Hettlingen",
    "time": "",
    "age": null,
-   "url": "https://www.hettlingen.ch/_rte/anlass/7237274"
+   "url": "https://www.hettlingen.ch/_rte/anlass/7237274",
+   "w": "https://www.familienverein-hettlingen.ch/willkommen/ressort/samichlaus/"
   },
   {
    "gemeinden": [
@@ -13075,7 +13570,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7516/eventdate/11294"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7516/eventdate/11294",
+   "w": "https://www.bibliothek-hombrechtikon.ch/aktuelles/agenda/agende-detail.html/419/event/7415/eventdate/11221"
   },
   {
    "gemeinden": [
@@ -13107,7 +13603,8 @@ window.FAMILIENAGENDA = {
     "max": 9,
     "label": "5 bis 9 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7628050"
+   "url": "https://www.kloten.ch/_rte/anlass/7628050",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -13125,7 +13622,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "3 bis 4 Jahre"
    },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17268/eventdate/106186"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17268/eventdate/106186",
+   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
   },
   {
    "gemeinden": [
@@ -13139,7 +13637,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "PrimaFlautina.ch",
    "time": "17.00 - 18.10",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7796077"
+   "url": "https://www.bubikon.ch/_rte/anlass/7796077",
+   "w": "https://www.primaflautina.ch"
   },
   {
    "gemeinden": [
@@ -13153,7 +13652,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "VVH gemäss Anmeldung",
    "time": "17.00 - 19.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6338/eventdate/12209"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6338/eventdate/12209",
+   "w": "https://www.vvherrliberg.ch/"
   },
   {
    "gemeinden": [
@@ -13167,7 +13667,26 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Cevi Seuzi",
    "time": "",
    "age": null,
-   "url": "https://www.seuzach.ch/_rte/anlass/7062875"
+   "url": "https://www.seuzach.ch/_rte/anlass/7062875",
+   "w": "https://www.ceviseuzi.ch/"
+  },
+  {
+   "gemeinden": [
+    "a"
+   ],
+   "id": "a-7834681",
+   "name": "Weihnachtsgeschenke basteln",
+   "von": "2026-12-05",
+   "bis": "2026-12-05",
+   "ort": "Familienzentrum Männedorf",
+   "veranstalter": "Familienzentrum Männedorf",
+   "time": "9.30 - 12.00",
+   "age": {
+    "min": 4,
+    "max": 7,
+    "label": "4 bis 7 Jahre"
+   },
+   "url": "https://www.maennedorf.ch/_rte/anlass/7834681"
   },
   {
    "gemeinden": [
@@ -13181,7 +13700,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kreativ Atelier Neftenbach",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7815199"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7815199",
+   "w": "https://ww.sarailg.ch"
   },
   {
    "gemeinden": [
@@ -13195,7 +13715,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang. Ref. Kirchgemeinde",
    "time": "17.00",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/7585525"
+   "url": "https://www.faellanden.ch/_rte/anlass/7585525",
+   "w": "https://www.refkirchefaellanden.ch"
   },
   {
    "gemeinden": [
@@ -13238,7 +13759,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578106"
+   "url": "https://www.kloten.ch/_rte/anlass/7578106",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -13294,7 +13816,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dorfverein Oerlingen",
    "time": "15.00 - 22.00",
    "age": null,
-   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/2147/eventdate/1907"
+   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/2147/eventdate/1907",
+   "w": "https://dorfverein-oerlingen.ch"
   },
   {
    "gemeinden": [
@@ -13322,7 +13845,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei",
    "time": "18.00 - 19.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7831474"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7831474",
+   "w": "http://www.pfarrei-wald.ch"
   },
   {
    "gemeinden": [
@@ -13354,7 +13878,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Greifensee-Stiftung",
    "time": "14.30",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/7612543"
+   "url": "https://www.faellanden.ch/_rte/anlass/7612543",
+   "w": "https://www.greifensee-stiftung.ch"
   },
   {
    "gemeinden": [
@@ -13382,7 +13907,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "St Nikolaus Gesellschaft Urdorf",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7706272"
+   "url": "https://www.urdorf.ch/_rte/anlass/7706272",
+   "w": "https://samichlaus-urdorf.ch/"
   },
   {
    "gemeinden": [
@@ -13410,7 +13936,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Katholische Kirche Meilen",
    "time": "10.30",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7798870"
+   "url": "https://www.meilen.ch/_rte/anlass/7798870",
+   "w": "https://kath-meilen.ch"
   },
   {
    "gemeinden": [
@@ -13428,7 +13955,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638214"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638214",
+   "w": "https://www.favu.ch/veranstaltungen/chlaus-zmorge/"
   },
   {
    "gemeinden": [
@@ -13442,7 +13970,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ortsverein Rheinau",
    "time": "18.00 - 20.00",
    "age": null,
-   "url": "https://www.rheinau.ch/_rte/anlass/7603540"
+   "url": "https://www.rheinau.ch/_rte/anlass/7603540",
+   "w": "https://ovr.rheinau.net"
   },
   {
    "gemeinden": [
@@ -13456,7 +13985,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "FG Humoria Uster",
    "time": "16.45 - 17.50",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7830697"
+   "url": "https://www.uster.ch/_rte/anlass/7830697",
+   "w": "https://www.humoria-uster.ch/"
   },
   {
    "gemeinden": [
@@ -13470,7 +14000,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ornithologischer Verein Wislig",
    "time": "17.00 - 19.00",
    "age": null,
-   "url": "https://www.weisslingen.ch/_rte/anlass/7753573"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7753573",
+   "w": "http://www.ov-weisslingen.ch"
   },
   {
    "gemeinden": [
@@ -13485,7 +14016,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kultur Dürnten",
    "time": "11.00",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7693939"
+   "url": "https://www.bubikon.ch/_rte/anlass/7693939",
+   "w": "http://www.danwhite.ch"
   },
   {
    "gemeinden": [
@@ -13499,7 +14031,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Cornelia Schönenberger",
    "time": "11.00",
    "age": null,
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6654/eventdate/25410"
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6654/eventdate/25410",
+   "w": "https://www.duernten.ch/kultur-duernten/37312"
   },
   {
    "gemeinden": [
@@ -13513,7 +14046,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "10.00 - 11.30",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6880/eventdate/12600"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6880/eventdate/12600",
+   "w": "https://familienclub-herrliberg.ch/events/der-samichlaus-besucht-uns/"
   },
   {
    "gemeinden": [
@@ -13527,7 +14061,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2701/eventdate/2048"
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2701/eventdate/2048",
+   "w": "https://elternverein-aeugst.ch/"
   },
   {
    "gemeinden": [
@@ -13573,7 +14108,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "10.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8461/eventdate/8258"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8461/eventdate/8258",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/familien-gottesdienst-mit-nikolaus/242/2026/12/6"
   },
   {
    "gemeinden": [
@@ -13643,7 +14179,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Salto Natale Entertainment AG",
    "time": "11.45",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7791235"
+   "url": "https://www.kloten.ch/_rte/anlass/7791235",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -13689,7 +14226,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "4 bis 6 Jahre"
    },
-   "url": "https://www.egg.ch/_rte/anlass/7801048"
+   "url": "https://www.egg.ch/_rte/anlass/7801048",
+   "w": "https://www.bibliotheken-zh.ch/egg/"
   },
   {
    "gemeinden": [
@@ -13703,7 +14241,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Thalwiler Konzerte",
    "time": "17.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7686661"
+   "url": "https://www.thalwil.ch/_rte/anlass/7686661",
+   "w": "https://www.kirche-thalwil.ch/konzerte"
   },
   {
    "gemeinden": [
@@ -13717,7 +14256,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "12.00 - 18.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7757014"
+   "url": "https://www.ilef.ch/_rte/anlass/7757014",
+   "w": "https://www.soziokultur-ilef.ch/"
   },
   {
    "gemeinden": [
@@ -13735,7 +14275,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766296"
+   "url": "https://www.ilef.ch/_rte/anlass/7766296",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -13749,7 +14290,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.30 - 16.30",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4204/eventdate/54524"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4204/eventdate/54524",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -13763,7 +14305,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternverein Rüschlikon",
    "time": "16.00 - 19.00",
    "age": null,
-   "url": "https://www.rueschlikon.ch/_rte/anlass/7691416"
+   "url": "https://www.rueschlikon.ch/_rte/anlass/7691416",
+   "w": "https://www.elternverein-rueschlikon.ch/angebote/jahresprogramm?b=1001657&c=ND1000014&s=djEtwdCe0bYcjsweOTXcuML5GWGz6oUIN7jeleN9tjEfsMI="
   },
   {
    "gemeinden": [
@@ -13777,7 +14320,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "16.30 - 18.30",
    "age": null,
-   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/4799/eventdate/5549"
+   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/4799/eventdate/5549",
+   "w": "https://www.familienverein-wila.ch/"
   },
   {
    "gemeinden": [
@@ -13791,7 +14335,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Obere Mühle",
    "time": "17.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7794784"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7794784",
+   "w": "https://www.oberemuehle.ch/events/sonstiges/samichlaus-vorweihnachtliche-geschichten-7414655181193758646"
   },
   {
    "gemeinden": [
@@ -13805,7 +14350,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familien-Club Wettswil Bonstetten",
    "time": "14.45 - 17.30",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7697863"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7697863",
+   "w": "https://fam-club.ch/agenda"
   },
   {
    "gemeinden": [
@@ -13819,7 +14365,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Buchs",
    "time": "13.30 - 15.00",
    "age": null,
-   "url": "https://www.buchs-zh.ch/_rte/anlass/7460731"
+   "url": "https://www.buchs-zh.ch/_rte/anlass/7460731",
+   "w": "https://www.familienverein-buchs.ch"
   },
   {
    "gemeinden": [
@@ -13861,7 +14408,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternverein Buch am Irchel",
    "time": "11.00 - 13.00",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7785124"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7785124",
+   "w": "https://spielgruppebuchamirchel.ch"
   },
   {
    "gemeinden": [
@@ -13875,7 +14423,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "4 Walder Kirchen",
    "time": "17.00 - 18.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7772548"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7772548",
+   "w": "https://www.chrischona-wald.ch"
   },
   {
    "gemeinden": [
@@ -13889,7 +14438,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Samichlaus-Bus",
    "time": "13.30 - 18.30",
    "age": null,
-   "url": "https://www.seegraeben.ch/_rte/anlass/7739578"
+   "url": "https://www.seegraeben.ch/_rte/anlass/7739578",
+   "w": "https://www.samichlaus-bus.ch/besuchen"
   },
   {
    "gemeinden": [
@@ -13917,7 +14467,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gewerbeverein und Märtkommission Egg",
    "time": "11.00 - 17.00",
    "age": null,
-   "url": "https://www.egg.ch/_rte/anlass/7736959"
+   "url": "https://www.egg.ch/_rte/anlass/7736959",
+   "w": "http://weihnachtsmarkt-egg.ch"
   },
   {
    "gemeinden": [
@@ -13947,7 +14498,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "reformierte Kirche Wehntal",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.oberweningen.ch/_rte/anlass/7700758"
+   "url": "https://www.oberweningen.ch/_rte/anlass/7700758",
+   "w": "https://www.kirche-wehntal.ch/"
   },
   {
    "gemeinden": [
@@ -13961,7 +14513,23 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/1031/eventdate/725"
+   "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/1031/eventdate/725",
+   "w": "https://www.kirche-wehntal.ch/"
+  },
+  {
+   "gemeinden": [
+    "adliswil"
+   ],
+   "id": "adliswil-7835167",
+   "name": "Weihnachten für alle",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Sihltal Kirche",
+   "veranstalter": "Kidstreff Sihltal Kirche",
+   "time": "10.00 - 11.00",
+   "age": null,
+   "url": "https://www.adliswil.ch/_rte/anlass/7835167",
+   "w": "https://www.sihltalkirche.ch/"
   },
   {
    "gemeinden": [
@@ -14007,7 +14575,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Marktkommission Egg",
    "time": "11.00 - 17.00",
    "age": null,
-   "url": "https://www.egg.ch/_rte/anlass/7290860"
+   "url": "https://www.egg.ch/_rte/anlass/7290860",
+   "w": "https://weihnachtsmarkt-egg.ch"
   },
   {
    "gemeinden": [
@@ -14036,7 +14605,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Zauberpark",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7578118"
+   "url": "https://www.kloten.ch/_rte/anlass/7578118",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -14068,7 +14638,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7215746"
+   "url": "https://www.urdorf.ch/_rte/anlass/7215746",
+   "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
   },
   {
    "gemeinden": [
@@ -14150,7 +14721,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8732/eventdate/8223"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8732/eventdate/8223",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/326/2026/11/9"
   },
   {
    "gemeinden": [
@@ -14210,7 +14782,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.meilen.ch/_rte/anlass/7094675"
+   "url": "https://www.meilen.ch/_rte/anlass/7094675",
+   "w": "https://www.bibliotheken-zh.ch/Meilen/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -14256,7 +14829,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7665883"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7665883",
+   "w": "https://www.bibliotheken-zh.ch/Fehraltorf/"
   },
   {
    "gemeinden": [
@@ -14288,7 +14862,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "4 bis 5 Jahre"
    },
-   "url": "https://www.bubikon.ch/_rte/anlass/7816579"
+   "url": "https://www.bubikon.ch/_rte/anlass/7816579",
+   "w": "http://www.gabrielaglaus.com/kinderballett-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -14302,7 +14877,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Singen & Kindertanzen Bubikon-Wolfhausen",
    "time": "14.00 - 14.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7817572"
+   "url": "https://www.bubikon.ch/_rte/anlass/7817572",
+   "w": "https://www.gabrielaglaus.com/familienforum-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -14316,7 +14892,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus",
    "time": "16.00 - 16.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7814560"
+   "url": "https://www.bubikon.ch/_rte/anlass/7814560",
+   "w": "https://www.gabrielaglaus.com/mami-kind-yoga"
   },
   {
    "gemeinden": [
@@ -14334,7 +14911,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7668139"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7668139",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -14366,7 +14944,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7005/eventdate/12671"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7005/eventdate/12671",
+   "w": "https://familienclub-herrliberg.ch/events/elki-treff-offener-spielturm-3/"
   },
   {
    "gemeinden": [
@@ -14394,7 +14973,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "TCS Sektion Zürich",
    "time": "18.00 - 19.00",
    "age": null,
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17404/eventdate/106673"
+   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17404/eventdate/106673",
+   "w": "https://www.tcs.ch/de/der-tcs/sektionen/zuerich/"
   },
   {
    "gemeinden": [
@@ -14426,7 +15006,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Affoltern am Albis",
    "time": "15.30 - 19.00",
    "age": null,
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7770187"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7770187",
+   "w": "https://forms.cloud.microsoft/e/ZSYzL9hvKr"
   },
   {
    "gemeinden": [
@@ -14482,7 +15063,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378888"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378888",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -14514,7 +15096,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Weiningen",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.weiningen.ch/_rte/anlass/7477723"
+   "url": "https://www.weiningen.ch/_rte/anlass/7477723",
+   "w": "https://www.bibliotheken-zh.ch/weiningen/api/images/imageopac/77"
   },
   {
    "gemeinden": [
@@ -14528,7 +15111,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Rafz",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.rafz.ch/_rte/anlass/6949486"
+   "url": "https://www.rafz.ch/_rte/anlass/6949486",
+   "w": "https://www.bibliotheken-zh.ch/rafz/"
   },
   {
    "gemeinden": [
@@ -14570,7 +15154,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565131"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565131",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -14584,7 +15169,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Fachstelle Kultur",
    "time": "18.30",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7820548"
+   "url": "https://www.thalwil.ch/_rte/anlass/7820548",
+   "w": "https://www.project21st.org/"
   },
   {
    "gemeinden": [
@@ -14602,7 +15188,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7534234"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7534234",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -14644,7 +15231,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Maur",
    "time": "9.30 - 11.30",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10511/eventdate/14498"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10511/eventdate/14498",
+   "w": "https://www.treffpunkt-maur.ch"
   },
   {
    "gemeinden": [
@@ -14690,7 +15278,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7817782"
+   "url": "https://www.thalwil.ch/_rte/anlass/7817782",
+   "w": "https://www.museumthalwil.ch/"
   },
   {
    "gemeinden": [
@@ -14704,7 +15293,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Affoltern am Albis",
    "time": "15.30 - 19.00",
    "age": null,
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7770193"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7770193",
+   "w": "https://forms.cloud.microsoft/e/ZSYzL9hvKr"
   },
   {
    "gemeinden": [
@@ -14732,7 +15322,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "ref. Kirchgemeinde Flaachtal",
    "time": "13.30 - 16.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7714549"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7714549",
+   "w": "https://kirche-flaachtal.ch"
   },
   {
    "gemeinden": [
@@ -14746,7 +15337,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "ref. Kirchgemeinde Flaachtal",
    "time": "13.30 - 16.30",
    "age": null,
-   "url": "https://www.flaach.ch/_rte/anlass/7778503"
+   "url": "https://www.flaach.ch/_rte/anlass/7778503",
+   "w": "https://kirche-flaachtal.ch"
   },
   {
    "gemeinden": [
@@ -14792,7 +15384,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Birmensdorf",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774444"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774444",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -14820,7 +15413,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienarbeit Opfikon",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7739386"
+   "url": "https://www.opfikon.ch/_rte/anlass/7739386",
+   "w": "https://lets-meet.org/reg/874446aff1a19b6378"
   },
   {
    "gemeinden": [
@@ -14866,7 +15460,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036304"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036304",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -14884,7 +15479,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/6907492"
+   "url": "https://www.urdorf.ch/_rte/anlass/6907492",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -14970,7 +15566,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7718992"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7718992",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -15002,7 +15599,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7583713"
+   "url": "https://www.urdorf.ch/_rte/anlass/7583713",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -15020,7 +15618,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7666012"
+   "url": "https://www.duernten.ch/_rte/anlass/7666012",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -15038,7 +15637,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7740982"
+   "url": "https://www.richterswil.ch/_rte/anlass/7740982",
+   "w": "http://www.bibliothek-richterswil.ch"
   },
   {
    "gemeinden": [
@@ -15052,7 +15652,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6932/eventdate/12642"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6932/eventdate/12642",
+   "w": "https://familienclub-herrliberg.ch/events/familiencafe-elki-kafi/"
   },
   {
    "gemeinden": [
@@ -15134,7 +15735,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.meilen.ch/_rte/anlass/7783543"
+   "url": "https://www.meilen.ch/_rte/anlass/7783543",
+   "w": "https://www.ref-meilen.ch/"
   },
   {
    "gemeinden": [
@@ -15152,7 +15754,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "3 bis 7 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7471582"
+   "url": "https://www.ilef.ch/_rte/anlass/7471582",
+   "w": "https://www.bibliotheksverein.ch/illnau"
   },
   {
    "gemeinden": [
@@ -15166,7 +15769,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Abenteuerspielplatz Thalwil",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7823494"
+   "url": "https://www.thalwil.ch/_rte/anlass/7823494",
+   "w": "https://www.abenteuerspielplatz.ch/"
   },
   {
    "gemeinden": [
@@ -15198,7 +15802,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7217114"
+   "url": "https://www.thalwil.ch/_rte/anlass/7217114",
+   "w": "https://bibliotheken-zh.ch/thalwil/Home"
   },
   {
    "gemeinden": [
@@ -15240,7 +15845,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Bonstetten",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7649344"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7649344",
+   "w": "https://www.primarschule-bonstetten.ch/schulugemeindebibliothek/1520"
   },
   {
    "gemeinden": [
@@ -15254,7 +15860,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Dürnten",
    "time": "14.30 - 16.30",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7667146"
+   "url": "https://www.duernten.ch/_rte/anlass/7667146",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -15272,7 +15879,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 13 Jahre"
    },
-   "url": "https://www.opfikon.ch/_rte/anlass/7809385"
+   "url": "https://www.opfikon.ch/_rte/anlass/7809385",
+   "w": "https://www.ref-opfikon.ch/veranstaltung/16761"
   },
   {
    "gemeinden": [
@@ -15370,7 +15978,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Regensdorf",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7232168"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7232168",
+   "w": "https://outlook.office365.com/owa/calendar/Ruemlang@AJBKTZH.onmicrosoft.com/bookings/"
   },
   {
    "gemeinden": [
@@ -15398,7 +16007,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4195/eventdate/54515"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4195/eventdate/54515",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -15452,7 +16062,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7657135"
+   "url": "https://www.duernten.ch/_rte/anlass/7657135",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -15480,7 +16091,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Frauen Brüttisellen & Dorfschopf",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7774267"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7774267",
+   "w": "https://www.frauen-bruettisellen.ch/einmaligeanlaesse?b=1000382&c=ND1000139&s=djEtv3h5d0ZErG4ABfpUJg6wC8fWO6LiFFKqxxXUQdtsQv0="
   },
   {
    "gemeinden": [
@@ -15536,7 +16148,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stadt Uster, Musikschule",
    "time": "19.00 - 20.00",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7730584"
+   "url": "https://www.uster.ch/_rte/anlass/7730584",
+   "w": "https://musikschuleuster.ch"
   },
   {
    "gemeinden": [
@@ -15568,7 +16181,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7747945"
+   "url": "https://www.uster.ch/_rte/anlass/7747945",
+   "w": "https://www.centraluster.ch/"
   },
   {
    "gemeinden": [
@@ -15600,7 +16214,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6979/eventdate/12661"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6979/eventdate/12661",
+   "w": "https://bibliothekherrliberg.ch"
   },
   {
    "gemeinden": [
@@ -15632,7 +16247,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7737325"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7737325",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -15650,7 +16266,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3247/eventdate/3769"
+   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3247/eventdate/3769",
+   "w": "https://chrabelgruppe-otelfingen.jimdosite.com/"
   },
   {
    "gemeinden": [
@@ -15664,7 +16281,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565074"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565074",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -15770,7 +16388,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621399"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621399",
+   "w": "https://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -15812,7 +16431,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Russikon",
    "time": "15.00 - 17.30",
    "age": null,
-   "url": "https://www.russikon.ch/_rte/anlass/7402492"
+   "url": "https://www.russikon.ch/_rte/anlass/7402492",
+   "w": "https://familienverein-russikon.ch/elki-treff/kindercoiffeur"
   },
   {
    "gemeinden": [
@@ -15830,7 +16450,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10143/eventdate/14248"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10143/eventdate/14248",
+   "w": "https://www.kirchemaur.ch"
   },
   {
    "gemeinden": [
@@ -15848,7 +16469,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7292924"
+   "url": "https://www.thalwil.ch/_rte/anlass/7292924",
+   "w": "https://www.kirche-thalwil.ch/krabbelgruppen"
   },
   {
    "gemeinden": [
@@ -15876,7 +16498,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MOJUGA",
    "time": "16.00",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7717219"
+   "url": "https://www.duernten.ch/_rte/anlass/7717219",
+   "w": "https://jugendarbeit-dürnten.ch"
   },
   {
    "gemeinden": [
@@ -15946,7 +16569,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593172"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593172",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -15978,7 +16602,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 15 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7818835"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7818835",
+   "w": "https://airforcecenter.ch/weihnachtswald/"
   },
   {
    "gemeinden": [
@@ -15992,7 +16617,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Samichlaus-Bus",
    "time": "13.30 - 18.30",
    "age": null,
-   "url": "https://www.seegraeben.ch/_rte/anlass/7739581"
+   "url": "https://www.seegraeben.ch/_rte/anlass/7739581",
+   "w": "https://www.samichlaus-bus.ch/besuchen"
   },
   {
    "gemeinden": [
@@ -16006,7 +16632,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Opfikon",
    "time": "10.00 - 12.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7809379"
+   "url": "https://www.opfikon.ch/_rte/anlass/7809379",
+   "w": "https://www.ref-opfikon.ch/veranstaltung/17092"
   },
   {
    "gemeinden": [
@@ -16020,7 +16647,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tino Iurato",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7779004"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7779004",
+   "w": "https://www.freestyle-wald.ch/"
   },
   {
    "gemeinden": [
@@ -16034,7 +16662,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "15.30 - 18.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4183/eventdate/54503"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4183/eventdate/54503",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -16090,7 +16719,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Rafz",
    "time": "19.00 - 20.30",
    "age": null,
-   "url": "https://www.rafz.ch/_rte/anlass/7695817"
+   "url": "https://www.rafz.ch/_rte/anlass/7695817",
+   "w": "https://www.bibliotheken-zh.ch/Rafz/Start/"
   },
   {
    "gemeinden": [
@@ -16108,7 +16738,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036421"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036421",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -16126,7 +16757,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588486"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588486",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -16140,7 +16772,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinde-und Schulbibliothek Oetwil am See",
    "time": "9.30 - 10.15",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3359/eventdate/1984"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3359/eventdate/1984",
+   "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -16176,7 +16809,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7554631"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7554631",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -16190,7 +16824,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565185"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565185",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -16204,7 +16839,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740451"
+   "url": "https://www.ilef.ch/_rte/anlass/7740451",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -16254,7 +16890,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienarbeit Opfikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7743796"
+   "url": "https://www.opfikon.ch/_rte/anlass/7743796",
+   "w": "https://canva.link/programm-familientag-blumenstrasse-einzelne-flyer"
   },
   {
    "gemeinden": [
@@ -16275,12 +16912,12 @@ window.FAMILIENAGENDA = {
     "a"
    ],
    "id": "a-7832323",
-   "name": "Forscherwerkstatt – Weihnachts-Special",
+   "name": "Forscherwerkstatt - Weihnachts-Special",
    "von": "2026-12-11",
    "bis": "2026-12-11",
    "ort": "Familienzentrum Männedorf",
    "veranstalter": "Familienzentrum Männedorf",
-   "time": "14.30 - 16.00",
+   "time": "14.00 - 17.15",
    "age": {
     "min": 3,
     "max": 6,
@@ -16354,7 +16991,27 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis 6 Jahre"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7648702"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7648702",
+   "w": "https://www.winmedio.net/langnau-am-albis/api/images/imageopac/911"
+  },
+  {
+   "gemeinden": [
+    "hedingen"
+   ],
+   "id": "hedingen-359-927",
+   "name": "Kino in der Bibliothek",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "Trottenweg 12",
+   "veranstalter": "",
+   "time": "19.00 - 21.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/359/eventdate/927",
+   "w": "https://www.bibliotheken-zh.ch/Hedingen/api/images/imageopac/265"
   },
   {
    "gemeinden": [
@@ -16368,7 +17025,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8799/eventdate/8257"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8799/eventdate/8257",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/355/2026/12/11"
   },
   {
    "gemeinden": [
@@ -16386,7 +17044,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7667131"
+   "url": "https://www.duernten.ch/_rte/anlass/7667131",
+   "w": "http://www.familienvereinduernten.ch"
   },
   {
    "gemeinden": [
@@ -16446,7 +17105,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.regensdorf.ch/_rte/anlass/7818022"
+   "url": "https://www.regensdorf.ch/_rte/anlass/7818022",
+   "w": "https://www.zwhatt.ch/de-ch/zwhatt-winterzauber.html"
   },
   {
    "gemeinden": [
@@ -16464,7 +17124,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7792234"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7792234",
+   "w": "https://kultur-kreis-wb.ch/"
   },
   {
    "gemeinden": [
@@ -16496,7 +17157,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "3 bis 10 Jahre"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7770460"
+   "url": "https://www.richterswil.ch/_rte/anlass/7770460",
+   "w": "https://www.100storiesatelier.ch"
   },
   {
    "gemeinden": [
@@ -16510,7 +17172,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Kinderatelier Bonstetten",
    "time": "10.00 - 14.00",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7698784"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7698784",
+   "w": "https://kinderatelier-bonstetten.ch"
   },
   {
    "gemeinden": [
@@ -16542,7 +17205,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Luigi Lore'",
    "time": "17.00",
    "age": null,
-   "url": "https://www.oberengstringen.ch/_rte/anlass/7711549"
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7711549",
+   "w": "https://www.kath-kirche-engstringen.ch"
   },
   {
    "gemeinden": [
@@ -16620,7 +17284,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378891"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378891",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -16670,7 +17335,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7207331"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7207331",
+   "w": "http://www.ceviwie.ch"
   },
   {
    "gemeinden": [
@@ -16688,7 +17354,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7293119"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7293119",
+   "w": "https://www.turbinetheater.ch/event/chaschperli-im-advent-3/"
   },
   {
    "gemeinden": [
@@ -16706,7 +17373,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "2 bis 6 Jahre"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7732546"
+   "url": "https://www.uster.ch/_rte/anlass/7732546",
+   "w": "https://www.pfarrei-uster.ch/"
   },
   {
    "gemeinden": [
@@ -16720,7 +17388,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565233"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565233",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -16734,7 +17403,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sportanlagen AG Wallisellen, EHC Wallisellen, SC Wallisellen, Elternforum",
    "time": "18.00 - 22.00",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7751563"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7751563",
+   "w": "https://sportanlagen-wallisellen.ch/"
   },
   {
    "gemeinden": [
@@ -16752,7 +17422,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "7 bis 16 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7559056"
+   "url": "https://www.kloten.ch/_rte/anlass/7559056",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -16788,7 +17459,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 8 Jahren"
    },
-   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7853/eventdate/11588"
+   "url": "https://www.hombrechtikon.ch/leben/freizeit/veranstaltungskalender/veranstaltungen-details.html/296/event/7853/eventdate/11588",
+   "w": "https://www.bibliothek-hombrechtikon.ch"
   },
   {
    "gemeinden": [
@@ -16806,7 +17478,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3512/eventdate/3594"
+   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3512/eventdate/3594",
+   "w": "https://dinhard.biblioweb.ch/"
   },
   {
    "gemeinden": [
@@ -16824,7 +17497,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.meilen.ch/_rte/anlass/7094672"
+   "url": "https://www.meilen.ch/_rte/anlass/7094672",
+   "w": "https://www.bibliotheken-zh.ch/Meilen/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -16842,7 +17516,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.weiningen.ch/_rte/anlass/7477750"
+   "url": "https://www.weiningen.ch/_rte/anlass/7477750",
+   "w": "https://www.bibliotheken-zh.ch/weiningen/"
   },
   {
    "gemeinden": [
@@ -16860,7 +17535,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis 6 Jahre"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7648705"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7648705",
+   "w": "https://www.winmedio.net/langnau-am-albis/api/images/imageopac/911"
   },
   {
    "gemeinden": [
@@ -16888,7 +17564,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "9.00 - 12.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6916/eventdate/12626"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6916/eventdate/12626",
+   "w": "https://familienclub-herrliberg.ch/events/kinderhueeti-in-der-adventszeit/"
   },
   {
    "gemeinden": [
@@ -16916,7 +17593,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirchgemeinde Andelfingen",
    "time": "17.00",
    "age": null,
-   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/2140/eventdate/1884"
+   "url": "https://www.kleinandelfingen.ch/bildung-kultur-freizeit/agenda-eventletter.html/289/event/2140/eventdate/1884",
+   "w": "https://www.ref-andelfingen.ch"
   },
   {
    "gemeinden": [
@@ -16958,7 +17636,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schule Zürisee",
    "time": "10.30 - 16.30",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7833028"
+   "url": "https://www.bubikon.ch/_rte/anlass/7833028",
+   "w": "https://www.schule-zuerisee.ch"
   },
   {
    "gemeinden": [
@@ -16986,7 +17665,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406509"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406509",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -17000,7 +17680,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schachpunsch Uster",
    "time": "10.30 - 12.30",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7788499"
+   "url": "https://www.uster.ch/_rte/anlass/7788499",
+   "w": "https://www.schachpunsch.ch"
   },
   {
    "gemeinden": [
@@ -17036,7 +17717,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "6 Monate bis 4 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7667932"
+   "url": "https://www.kloten.ch/_rte/anlass/7667932",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -17072,7 +17754,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7817776"
+   "url": "https://www.thalwil.ch/_rte/anlass/7817776",
+   "w": "https://www.museumthalwil.ch/"
   },
   {
    "gemeinden": [
@@ -17128,7 +17811,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ref. Kirche",
    "time": "17.00 - 18.00",
    "age": null,
-   "url": "https://www.russikon.ch/_rte/anlass/7832758"
+   "url": "https://www.russikon.ch/_rte/anlass/7832758",
+   "w": "https://www.kircherussikon.ch"
   },
   {
    "gemeinden": [
@@ -17234,7 +17918,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7299797"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7299797",
+   "w": "https://www.turbinetheater.ch/event/chaschperli-im-advent-3/"
   },
   {
    "gemeinden": [
@@ -17252,7 +17937,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7035/eventdate/12697"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/7035/eventdate/12697",
+   "w": "https://www.theaterchnopf.ch"
   },
   {
    "gemeinden": [
@@ -17280,7 +17966,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "17.00 - 19.00",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7825093"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7825093",
+   "w": "https://www.kirche-neftenbach.ch/angebote/agenda/?ACTION_zrEvent=displayEvent&idevent=5391"
   },
   {
    "gemeinden": [
@@ -17294,7 +17981,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7638223"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638223",
+   "w": "https://www.favu.ch/veranstaltungen/diverse-veranstaltungen/"
   },
   {
    "gemeinden": [
@@ -17326,7 +18014,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirchgemeinde Meilen",
    "time": "17.00",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7783555"
+   "url": "https://www.meilen.ch/_rte/anlass/7783555",
+   "w": "https://www.ref-meilen.ch/"
   },
   {
    "gemeinden": [
@@ -17372,7 +18061,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Kirchgemeinde St. Anna",
    "time": "15.30",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7833187"
+   "url": "https://www.opfikon.ch/_rte/anlass/7833187",
+   "w": "https://sankt-anna.ch/"
   },
   {
    "gemeinden": [
@@ -17400,7 +18090,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Opfikon",
    "time": "17.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7809370"
+   "url": "https://www.opfikon.ch/_rte/anlass/7809370",
+   "w": "https://www.ref-opfikon.ch/veranstaltung/16373"
   },
   {
    "gemeinden": [
@@ -17428,7 +18119,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Kulturkino Claudia",
    "time": "13.00 - 15.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7772788"
+   "url": "https://www.kloten.ch/_rte/anlass/7772788",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -17446,7 +18138,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis 6 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7638217"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638217",
+   "w": "https://eventfrog.ch/favu-kasperli-weihnachten-2026"
   },
   {
    "gemeinden": [
@@ -17477,7 +18170,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "17.00 - 18.15",
    "age": null,
-   "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/1030/eventdate/724"
+   "url": "https://www.niederweningen.ch/freizeit-kultur/veranstaltungen.html/21/event/1030/eventdate/724",
+   "w": "https://www.kirche-wehntal.ch/"
   },
   {
    "gemeinden": [
@@ -17491,7 +18185,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "17.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8804/eventdate/8260"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8804/eventdate/8260",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/kolibri/317/2026/12/13"
   },
   {
    "gemeinden": [
@@ -17519,7 +18214,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "KMM Kulturzentrum - Klangmaschinenmuseum",
    "time": "17.00",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7769440"
+   "url": "https://www.duernten.ch/_rte/anlass/7769440",
+   "w": "https://www.kmm-duernten.ch/veranstaltungen/nostalgischer-adventsabend_13"
   },
   {
    "gemeinden": [
@@ -17537,7 +18233,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "0 bis 7 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7640245"
+   "url": "https://www.urdorf.ch/_rte/anlass/7640245",
+   "w": "https://www.favu.ch/veranstaltungen/diverse-veranstaltungen/"
   },
   {
    "gemeinden": [
@@ -17573,7 +18270,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766299"
+   "url": "https://www.ilef.ch/_rte/anlass/7766299",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -17587,7 +18285,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "13.30 - 16.30",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4205/eventdate/54525"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4205/eventdate/54525",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -17661,7 +18360,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "0 bis 6 Jahre"
    },
-   "url": "https://www.bachenbuelach.ch/freizeit-kultur/veranstaltungen.html/236/event/2359/eventdate/2209"
+   "url": "https://www.bachenbuelach.ch/freizeit-kultur/veranstaltungen.html/236/event/2359/eventdate/2209",
+   "w": "https://www.eljuki.ch/veranstaltungen/zwerglimove"
   },
   {
    "gemeinden": [
@@ -17693,7 +18393,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7215749"
+   "url": "https://www.urdorf.ch/_rte/anlass/7215749",
+   "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
   },
   {
    "gemeinden": [
@@ -17711,7 +18412,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1357/eventdate/6360"
+   "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1357/eventdate/6360",
+   "w": "https://www.schule-dietlikon.ch/bibliothek/aktuelles/"
   },
   {
    "gemeinden": [
@@ -17757,7 +18459,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8733/eventdate/8220"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8733/eventdate/8220",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/324/2026/10/26"
   },
   {
    "gemeinden": [
@@ -17817,7 +18520,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "4 bis 5 Jahre"
    },
-   "url": "https://www.bubikon.ch/_rte/anlass/7816585"
+   "url": "https://www.bubikon.ch/_rte/anlass/7816585",
+   "w": "http://www.gabrielaglaus.com/kinderballett-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -17831,7 +18535,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Singen & Kindertanzen Bubikon-Wolfhausen",
    "time": "14.00 - 14.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7817575"
+   "url": "https://www.bubikon.ch/_rte/anlass/7817575",
+   "w": "https://www.gabrielaglaus.com/familienforum-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -17845,7 +18550,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
    "time": "16.00 - 16.30",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7220174"
+   "url": "https://www.thalwil.ch/_rte/anlass/7220174",
+   "w": "http://www.kulturmama.org"
   },
   {
    "gemeinden": [
@@ -17859,7 +18565,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Geschichten & Kindertanzen Bubikon-Wolfhausen",
    "time": "16.00 - 16.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7769092"
+   "url": "https://www.bubikon.ch/_rte/anlass/7769092",
+   "w": "https://www.gabrielaglaus.com/agenda"
   },
   {
    "gemeinden": [
@@ -17905,7 +18612,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7349071"
+   "url": "https://www.ilef.ch/_rte/anlass/7349071",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -17933,7 +18641,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Aesch ZH",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7376536"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7376536",
+   "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -17975,7 +18684,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565134"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565134",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -18007,7 +18717,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552450"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552450",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -18099,7 +18810,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "12.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7606288"
+   "url": "https://www.wildberg.ch/_rte/anlass/7606288",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -18113,7 +18825,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Maur",
    "time": "9.30 - 11.30",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10512/eventdate/14500"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10512/eventdate/14500",
+   "w": "https://www.treffpunkt-maur.ch"
   },
   {
    "gemeinden": [
@@ -18145,7 +18858,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7466311"
+   "url": "https://www.uster.ch/_rte/anlass/7466311",
+   "w": "http://www.greifensee-stiftung.ch"
   },
   {
    "gemeinden": [
@@ -18191,7 +18905,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7817773"
+   "url": "https://www.thalwil.ch/_rte/anlass/7817773",
+   "w": "https://www.museumthalwil.ch/"
   },
   {
    "gemeinden": [
@@ -18209,7 +18924,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "9 Monate bis 3 Jahre"
    },
-   "url": "https://www.egg.ch/_rte/anlass/7601419"
+   "url": "https://www.egg.ch/_rte/anlass/7601419",
+   "w": "https://www.bibliotheken-zh.ch/egg/"
   },
   {
    "gemeinden": [
@@ -18227,7 +18943,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7827070"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7827070",
+   "w": "https://www.turbinetheater.ch/event/fluxcrew/"
   },
   {
    "gemeinden": [
@@ -18269,7 +18986,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Birmensdorf",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7774426"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7774426",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -18347,7 +19065,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/367/eventdate/935"
+   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/367/eventdate/935",
+   "w": "https://www.bibliotheken-zh.ch/Hedingen/api/images/imageopac/259"
   },
   {
    "gemeinden": [
@@ -18397,7 +19116,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6933/eventdate/12643"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6933/eventdate/12643",
+   "w": "https://familienclub-herrliberg.ch/events/familiencafe-elki-kafi/"
   },
   {
    "gemeinden": [
@@ -18443,7 +19163,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.meilen.ch/_rte/anlass/7783564"
+   "url": "https://www.meilen.ch/_rte/anlass/7783564",
+   "w": "https://www.ref-meilen.ch/"
   },
   {
    "gemeinden": [
@@ -18461,7 +19182,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "4 bis 6 Jahre"
    },
-   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/373/eventdate/941"
+   "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/373/eventdate/941",
+   "w": "https://www.bibliotheken-zh.ch/Hedingen/api/images/imageopac/258"
   },
   {
    "gemeinden": [
@@ -18493,7 +19215,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392577"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392577",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -18507,7 +19230,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Förderverein Hegnerhof",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7628038"
+   "url": "https://www.kloten.ch/_rte/anlass/7628038",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -18517,7 +19241,7 @@ window.FAMILIENAGENDA = {
    "name": "Glasi Winterzauber",
    "von": "2026-12-16",
    "bis": "2026-12-16",
-   "ort": "",
+   "ort": "Henri-Cornaz-Platz",
    "veranstalter": "Martin Glaus",
    "time": "",
    "age": null,
@@ -18557,7 +19281,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3362/eventdate/1985"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3362/eventdate/1985",
+   "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -18575,7 +19300,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7076225"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7076225",
+   "w": "https://www.schulen-wb.ch/bibliothek/bibliothek/informationen/p-1663/"
   },
   {
    "gemeinden": [
@@ -18607,7 +19333,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17268/eventdate/16903"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17268/eventdate/16903",
+   "w": "http://www.bibliotheken-zh.ch/kuesnacht/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -18625,7 +19352,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7103513"
+   "url": "https://www.ilef.ch/_rte/anlass/7103513",
+   "w": "https://www.evillnau.ch/de/Angebot/Kindercoiffeur.97.html"
   },
   {
    "gemeinden": [
@@ -18657,7 +19385,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7766005"
+   "url": "https://www.kloten.ch/_rte/anlass/7766005",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -18721,7 +19450,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7776826"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7776826",
+   "w": "https://www.dorfschopf.ch/alaess"
   },
   {
    "gemeinden": [
@@ -18753,7 +19483,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7568314"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7568314",
+   "w": "https://zh.ch/kjz-pfaeffikon"
   },
   {
    "gemeinden": [
@@ -18767,7 +19498,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Regensdorf",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7232171"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7232171",
+   "w": "https://outlook.office365.com/owa/calendar/Ruemlang@AJBKTZH.onmicrosoft.com/bookings/"
   },
   {
    "gemeinden": [
@@ -18785,7 +19517,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5225/eventdate/5861"
+   "url": "https://www.wila.ch/wila-aktuell/veranstaltungen.html/231/event/5225/eventdate/5861",
+   "w": "https://zh.ch/kjz-pfaeffikon"
   },
   {
    "gemeinden": [
@@ -18799,7 +19532,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4189/eventdate/54509"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4189/eventdate/54509",
+   "w": "https://www.kinderbuero-horgen.ch"
   },
   {
    "gemeinden": [
@@ -18863,7 +19597,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Abenteuerspielplatz Thalwil",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7823488"
+   "url": "https://www.thalwil.ch/_rte/anlass/7823488",
+   "w": "https://www.abenteuerspielplatz.ch/"
   },
   {
    "gemeinden": [
@@ -18877,7 +19612,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "14.30 - 16.30",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7775053"
+   "url": "https://www.urdorf.ch/_rte/anlass/7775053",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -18927,7 +19663,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ev. Ref. Kirchgemeinde Kloten",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7718635"
+   "url": "https://www.kloten.ch/_rte/anlass/7718635",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -18955,7 +19692,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kasperlibühne Zipfelmütze",
    "time": "14.30",
    "age": null,
-   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7755022"
+   "url": "https://www.stadtaffoltern.ch/_rte/anlass/7755022",
+   "w": "http://www.kasperli-zipfelmuetze.ch"
   },
   {
    "gemeinden": [
@@ -18969,7 +19707,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternforum Birmensdorf",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7735738"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7735738",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -19043,7 +19782,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7737319"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7737319",
+   "w": "http://www.elternforum-birmensdorf.ch"
   },
   {
    "gemeinden": [
@@ -19057,7 +19797,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565077"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565077",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -19181,7 +19922,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621402"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621402",
+   "w": "https://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -19227,7 +19969,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.thalwil.ch/_rte/anlass/7292927"
+   "url": "https://www.thalwil.ch/_rte/anlass/7292927",
+   "w": "https://www.kirche-thalwil.ch/krabbelgruppen"
   },
   {
    "gemeinden": [
@@ -19241,7 +19984,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7638184"
+   "url": "https://www.urdorf.ch/_rte/anlass/7638184",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -19255,7 +19999,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MOJUGA",
    "time": "16.00",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7717225"
+   "url": "https://www.duernten.ch/_rte/anlass/7717225",
+   "w": "https://jugendarbeit-dürnten.ch"
   },
   {
    "gemeinden": [
@@ -19343,7 +20088,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 15 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7818838"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7818838",
+   "w": "https://airforcecenter.ch/weihnachtswald/"
   },
   {
    "gemeinden": [
@@ -19357,7 +20103,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tino Iurato",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7779007"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7779007",
+   "w": "https://www.freestyle-wald.ch/"
   },
   {
    "gemeinden": [
@@ -19371,7 +20118,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "oek. Seniorenteam",
    "time": "14.15 - 16.15",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7805251"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7805251",
+   "w": "https://kath-dietlikon.ch/"
   },
   {
    "gemeinden": [
@@ -19413,7 +20161,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Illnau Elternverein",
    "time": "09.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7103555"
+   "url": "https://www.ilef.ch/_rte/anlass/7103555",
+   "w": "https://www.evillnau.ch/de/Angebot/Babymassage.98.html"
   },
   {
    "gemeinden": [
@@ -19427,7 +20176,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7056230"
+   "url": "https://www.ilef.ch/_rte/anlass/7056230",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -19459,7 +20209,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7588489"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7588489",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -19491,7 +20242,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Sihltal",
    "time": "15.00 - 17.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/6813751"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/6813751",
+   "w": "https://www.refsihltal.ch/angebote/erwachsene/caf_international/"
   },
   {
    "gemeinden": [
@@ -19505,7 +20257,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565188"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565188",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -19583,7 +20336,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stadtbibliothek Kloten",
    "time": "16.00 - 16.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7700872"
+   "url": "https://www.kloten.ch/_rte/anlass/7700872",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -19629,7 +20383,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinde-und Schulbibliothek Oetwil am See",
    "time": "19.00 - 20.45",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3367/eventdate/1988"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3367/eventdate/1988",
+   "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
   },
   {
    "gemeinden": [
@@ -19643,7 +20398,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "FilmFabrikFällanden",
    "time": "17.00 - 19.00",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/7622308"
+   "url": "https://www.faellanden.ch/_rte/anlass/7622308",
+   "w": "https://filmfabrikfaellanden.ch/"
   },
   {
    "gemeinden": [
@@ -19671,7 +20427,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8805/eventdate/8261"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8805/eventdate/8261",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/355/2026/12/11"
   },
   {
    "gemeinden": [
@@ -19689,7 +20446,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 15 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7818844"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7818844",
+   "w": "https://airforcecenter.ch/weihnachtswald/"
   },
   {
    "gemeinden": [
@@ -19703,7 +20461,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Robinson Herrliberg",
    "time": "9.00 - 12.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6922/eventdate/12632"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6922/eventdate/12632",
+   "w": "https://familienclub-herrliberg.ch/events/schulsilvester-zmorge/"
   },
   {
    "gemeinden": [
@@ -19767,7 +20526,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565236"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565236",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -19781,7 +20541,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "filacro",
    "time": "10.00 - 11.30",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7584970"
+   "url": "https://www.uster.ch/_rte/anlass/7584970",
+   "w": "https://www.filacro.ch/kurse/workshops/elki-cirucs-kurs"
   },
   {
    "gemeinden": [
@@ -19799,7 +20560,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "7 bis 16 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7559059"
+   "url": "https://www.kloten.ch/_rte/anlass/7559059",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -19835,7 +20597,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3228/eventdate/1917"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3228/eventdate/1917",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -19895,7 +20658,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "5 bis 13 Jahre"
    },
-   "url": "https://www.rafz.ch/_rte/anlass/7277912"
+   "url": "https://www.rafz.ch/_rte/anlass/7277912",
+   "w": "https://www.jungscharrafz.ch/"
   },
   {
    "gemeinden": [
@@ -19987,7 +20751,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7833559"
+   "url": "https://www.uster.ch/_rte/anlass/7833559",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -20015,7 +20780,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406512"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406512",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -20047,7 +20813,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Balzer Event GmbH",
    "time": "14.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7519579"
+   "url": "https://www.kloten.ch/_rte/anlass/7519579",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -20061,7 +20828,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Männedorf",
    "time": "10.30",
    "age": null,
-   "url": "https://www.maennedorf.ch/_rte/anlass/7563109"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7563109",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -20075,7 +20843,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Obere Mühle",
    "time": "14.00 - 20.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7794802"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7794802",
+   "w": "https://www.oberemuehle.ch/events/kinderveranstaltungen/familienveranstaltungen/winterrodeln-mit-der-speed-tubing-bahn-7458503425610772210"
   },
   {
    "gemeinden": [
@@ -20089,7 +20858,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638769"
+   "url": "https://www.benken.ch/_rte/anlass/7638769",
+   "w": "https://jtb.ch/"
   },
   {
    "gemeinden": [
@@ -20117,7 +20887,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "qtopia",
    "time": "11.00",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7786675"
+   "url": "https://www.uster.ch/_rte/anlass/7786675",
+   "w": "http://www.qtopia.ch"
   },
   {
    "gemeinden": [
@@ -20131,7 +20902,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ortskirchenkommission Marthalen",
    "time": "17.00",
    "age": null,
-   "url": "https://www.marthalen.ch/_rte/anlass/7278347"
+   "url": "https://www.marthalen.ch/_rte/anlass/7278347",
+   "w": "https://www.kirche-wm.ch/"
   },
   {
    "gemeinden": [
@@ -20145,7 +20917,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Freie Evangelische Gemeinde",
    "time": "10.00 - 11.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7814644"
+   "url": "https://www.kloten.ch/_rte/anlass/7814644",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -20163,7 +20936,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3229/eventdate/1915"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3229/eventdate/1915",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -20237,7 +21011,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Kirche",
    "time": "15.00",
    "age": null,
-   "url": "https://www.bonstetten.ch/_rte/anlass/7830721"
+   "url": "https://www.bonstetten.ch/_rte/anlass/7830721",
+   "w": "https://www.kath-bonstetten.ch/"
   },
   {
    "gemeinden": [
@@ -20269,7 +21044,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766302"
+   "url": "https://www.ilef.ch/_rte/anlass/7766302",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -20283,7 +21059,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reisetheater GmbH",
    "time": "15.00 - 16.45",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7714132"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7714132",
+   "w": "https://www.reisetheater.ch/"
   },
   {
    "gemeinden": [
@@ -20297,7 +21074,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Obere Mühle",
    "time": "14.00 - 19.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7794808"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7794808",
+   "w": "https://www.oberemuehle.ch/events/kinderveranstaltungen/familienveranstaltungen/winterrodeln-mit-der-speed-tubing-bahn-7458503425610772210"
   },
   {
    "gemeinden": [
@@ -20329,7 +21107,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7215752"
+   "url": "https://www.urdorf.ch/_rte/anlass/7215752",
+   "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
   },
   {
    "gemeinden": [
@@ -20347,7 +21126,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "4 bis 5 Jahre"
    },
-   "url": "https://www.bubikon.ch/_rte/anlass/7816591"
+   "url": "https://www.bubikon.ch/_rte/anlass/7816591",
+   "w": "http://www.gabrielaglaus.com/kinderballett-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -20361,7 +21141,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus - Musik, Singen & Kindertanzen Bubikon-Wolfhausen",
    "time": "14.00 - 14.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7817578"
+   "url": "https://www.bubikon.ch/_rte/anlass/7817578",
+   "w": "https://www.gabrielaglaus.com/familienforum-bubikon-wolfhausen"
   },
   {
    "gemeinden": [
@@ -20375,7 +21156,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus",
    "time": "16.00 - 16.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7814566"
+   "url": "https://www.bubikon.ch/_rte/anlass/7814566",
+   "w": "https://www.gabrielaglaus.com/mami-kind-yoga"
   },
   {
    "gemeinden": [
@@ -20487,7 +21269,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "16.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8811/eventdate/8270"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8811/eventdate/8270",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/familien-gottesdienst/246/2026/12/24"
   },
   {
    "gemeinden": [
@@ -20501,7 +21284,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarramt Hl. Bruder Klaus",
    "time": "17.00 - 18.30",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7723696"
+   "url": "https://www.urdorf.ch/_rte/anlass/7723696",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -20547,7 +21331,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "3 bis ca. 6 Jahre"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7056272"
+   "url": "https://www.uster.ch/_rte/anlass/7056272",
+   "w": "https://www.refuster.ch/fiire-mit-de-chliine"
   },
   {
    "gemeinden": [
@@ -20575,7 +21360,23 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Katholische Kirche Meilen",
    "time": "16.00",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7810177"
+   "url": "https://www.meilen.ch/_rte/anlass/7810177",
+   "w": "https://kath-meilen.ch"
+  },
+  {
+   "gemeinden": [
+    "oberengstringen"
+   ],
+   "id": "oberengstringen-7834372",
+   "name": "Familiengottesdienst mit Krippenspiel",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "Röm.-kath. Kirche Oberengstringen",
+   "veranstalter": "Luigi Lore'",
+   "time": "17.00",
+   "age": null,
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7834372",
+   "w": "https://www.kath-kirche-engstringen"
   },
   {
    "gemeinden": [
@@ -20632,7 +21433,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "17.00 - 18.00",
    "age": null,
-   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=923"
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=923",
+   "w": "https://www.amtliche-nachrichten.ch/maschwanden"
   },
   {
    "gemeinden": [
@@ -20646,7 +21448,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Uster",
    "time": "17.00",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7786777"
+   "url": "https://www.uster.ch/_rte/anlass/7786777",
+   "w": "https://www.refuster.ch"
   },
   {
    "gemeinden": [
@@ -20660,7 +21463,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Kirche",
    "time": "17.00",
    "age": null,
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6026/eventdate/12021"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6026/eventdate/12021",
+   "w": "https://www.kath-herrliberg.ch"
   },
   {
    "gemeinden": [
@@ -20674,7 +21478,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfarrei Benken",
    "time": "16.30 - 17.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7792165"
+   "url": "https://www.benken.ch/_rte/anlass/7792165",
+   "w": "http://kath-gaster.ch"
   },
   {
    "gemeinden": [
@@ -20688,7 +21493,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Wald",
    "time": "16.30 - 17.00",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7831447"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7831447",
+   "w": "http://www.pfarrei-wald.ch"
   },
   {
    "gemeinden": [
@@ -20706,7 +21512,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7796500"
+   "url": "https://www.richterswil.ch/_rte/anlass/7796500",
+   "w": "https://www.refrichterswil.ch/"
   },
   {
    "gemeinden": [
@@ -20734,7 +21541,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "qtopia",
    "time": "14.30",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7786720"
+   "url": "https://www.uster.ch/_rte/anlass/7786720",
+   "w": "http://www.qtopia.ch"
   },
   {
    "gemeinden": [
@@ -20748,7 +21556,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Refomierte Kirchgemeinde Laufen am Rheinfall",
    "time": "17.00",
    "age": null,
-   "url": "https://www.flurlingen.ch/_rte/anlass/7233692"
+   "url": "https://www.flurlingen.ch/_rte/anlass/7233692",
+   "w": "https://www.kircheamrheinfall.ch"
   },
   {
    "gemeinden": [
@@ -20762,7 +21571,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638772"
+   "url": "https://www.benken.ch/_rte/anlass/7638772",
+   "w": "https://jtb.ch/"
   },
   {
    "gemeinden": [
@@ -20790,7 +21600,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sihltal Kirche",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.adliswil.ch/_rte/anlass/7817140"
+   "url": "https://www.adliswil.ch/_rte/anlass/7817140",
+   "w": "https://www.sihltalkirche.ch/2026/10/30/fr-25-12-2026-um-10-00-uhr/"
   },
   {
    "gemeinden": [
@@ -20822,7 +21633,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Uster",
    "time": "10.00",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7786780"
+   "url": "https://www.uster.ch/_rte/anlass/7786780",
+   "w": "https://www.refuster.ch"
   },
   {
    "gemeinden": [
@@ -20882,7 +21694,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406515"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406515",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -20896,7 +21709,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "qtopia",
    "time": "15.00",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7786768"
+   "url": "https://www.uster.ch/_rte/anlass/7786768",
+   "w": "http://www.qtopia.ch"
   },
   {
    "gemeinden": [
@@ -20928,7 +21742,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "Kindergarten"
    },
-   "url": "https://www.hinwil.ch/_rte/anlass/7735639"
+   "url": "https://www.hinwil.ch/_rte/anlass/7735639",
+   "w": "https://www.bibliotheken-zh.ch/hinwil/"
   },
   {
    "gemeinden": [
@@ -20960,7 +21775,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7215755"
+   "url": "https://www.urdorf.ch/_rte/anlass/7215755",
+   "w": "https://che01.safelinks.protection.outlook.com/?url=http%3A%2F%2Fwww.favu.ch%2Fangebote%2Fregelmaessige-treffs&data=05%7C02%7Crita.stefani%40urdorf.ch%7C32210fdee7ba4613f4c608deb4c5e109%7C4683b8d5037c4142b39a268889ffb016%7C0%7C0%7C639146959161157992%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CZoeKugHDbL19qBg5n8ENaHF6bfyzQmJfL4qK2pMEB0%3D&reserved=0"
   },
   {
    "gemeinden": [
@@ -20974,7 +21790,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804177"
+   "url": "https://www.benken.ch/_rte/anlass/7804177",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -20992,7 +21809,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3230/eventdate/1913"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3230/eventdate/1913",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -21020,7 +21838,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804180"
+   "url": "https://www.benken.ch/_rte/anlass/7804180",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -21038,7 +21857,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3240/eventdate/1920"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3240/eventdate/1920",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -21066,7 +21886,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804183"
+   "url": "https://www.benken.ch/_rte/anlass/7804183",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -21168,7 +21989,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406518"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406518",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -21242,7 +22064,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3231/eventdate/1912"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3231/eventdate/1912",
+   "w": "https://www.alpaka-erlebnisse.ch"
   },
   {
    "gemeinden": [
@@ -21260,7 +22083,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7556221"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7556221",
+   "w": "https://www.bibliothek-neftenbach.ch"
   },
   {
    "gemeinden": [
@@ -21278,7 +22102,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8734/eventdate/8222"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8734/eventdate/8222",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/326/2026/11/9"
   },
   {
    "gemeinden": [
@@ -21320,7 +22145,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7108217"
+   "url": "https://www.benken.ch/_rte/anlass/7108217",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -21334,7 +22160,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gabriela Glaus",
    "time": "16.00 - 16.40",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7814569"
+   "url": "https://www.bubikon.ch/_rte/anlass/7814569",
+   "w": "https://www.gabrielaglaus.com/mami-kind-yoga"
   },
   {
    "gemeinden": [
@@ -21352,7 +22179,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809403"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809403",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -21380,7 +22208,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818760"
+   "url": "https://www.ilef.ch/_rte/anlass/7818760",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -21416,7 +22245,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7556224"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7556224",
+   "w": "https://www.bibliothek-neftenbach.ch"
   },
   {
    "gemeinden": [
@@ -21434,7 +22264,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3248/eventdate/3771"
+   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3248/eventdate/3771",
+   "w": "https://chrabelgruppe-otelfingen.jimdosite.com/"
   },
   {
    "gemeinden": [
@@ -21480,7 +22311,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729135"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729135",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -21548,7 +22380,8 @@ window.FAMILIENAGENDA = {
     "max": 8,
     "label": "4 bis 8 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8814/eventdate/8264"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8814/eventdate/8264",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/kolibri/318/2027/1/6"
   },
   {
    "gemeinden": [
@@ -21696,7 +22529,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "zwergli.richterswil - Elternbildung",
    "time": "19.45 - 21.30",
    "age": null,
-   "url": "https://www.richterswil.ch/_rte/anlass/7792615"
+   "url": "https://www.richterswil.ch/_rte/anlass/7792615",
+   "w": "https://calarota.ch/zwergli/zwerglielternbildung.html"
   },
   {
    "gemeinden": [
@@ -21738,7 +22572,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7715329"
+   "url": "https://www.urdorf.ch/_rte/anlass/7715329",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -21780,7 +22615,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Tino Iurato",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7779013"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7779013",
+   "w": "https://www.freestyle-wald.ch/"
   },
   {
    "gemeinden": [
@@ -21830,7 +22666,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730344"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730344",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -21848,13 +22685,14 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621285"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621285",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4275-3061",
+   "id": "knonau-4275-3254",
    "name": "Buchstart Bibliothek",
    "von": "2027-01-08",
    "bis": "2027-01-08",
@@ -21866,7 +22704,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4275/eventdate/3061"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4275/eventdate/3254",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -21898,7 +22737,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804189"
+   "url": "https://www.benken.ch/_rte/anlass/7804189",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -21948,7 +22788,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Stallikon Wettswil Seite vorlesen",
    "time": "19.30",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8815/eventdate/8263"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8815/eventdate/8263",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/vortrag-von-eliane-perret/364/2027/1/8"
   },
   {
    "gemeinden": [
@@ -22022,7 +22863,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "11.00 - 16.00",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804192"
+   "url": "https://www.benken.ch/_rte/anlass/7804192",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -22036,7 +22878,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirche Mönchaltorf Oetwil am See",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832977"
+   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832977",
+   "w": "https://www.kirchemoenchaltorf.ch"
   },
   {
    "gemeinden": [
@@ -22106,7 +22949,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Pfadi Orion",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wiesendangen.ch/_rte/anlass/7406521"
+   "url": "https://www.wiesendangen.ch/_rte/anlass/7406521",
+   "w": "http://www.pfadiorion.ch/"
   },
   {
    "gemeinden": [
@@ -22138,7 +22982,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730461"
+   "url": "https://www.ilef.ch/_rte/anlass/7730461",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -22170,7 +23015,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Duo Lindenmann",
    "time": "17.00 - 18.10",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7781167"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7781167",
+   "w": "https://www.primaflautina.ch"
   },
   {
    "gemeinden": [
@@ -22188,7 +23034,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.waedenswil.ch/_rte/anlass/7646170"
+   "url": "https://www.waedenswil.ch/_rte/anlass/7646170",
+   "w": "https://www.lesegesellschaft.org"
   },
   {
    "gemeinden": [
@@ -22220,7 +23067,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "1 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7822879"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7822879",
+   "w": "http://www.elterngruppe.ch."
   },
   {
    "gemeinden": [
@@ -22238,7 +23086,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6811/eventdate/29242"
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6811/eventdate/29242",
+   "w": "https://www.sternenkeller.ch/programm/details/1126-die-turbienen-schlussel-zum-gluck"
   },
   {
    "gemeinden": [
@@ -22252,7 +23101,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Luigi Lore'",
    "time": "10.00",
    "age": null,
-   "url": "https://www.oberengstringen.ch/_rte/anlass/7826641"
+   "url": "https://www.oberengstringen.ch/_rte/anlass/7826641",
+   "w": "https://www.kath-kirche-engstringen.ch"
   },
   {
    "gemeinden": [
@@ -22316,7 +23166,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "0 bis 7 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7715326"
+   "url": "https://www.urdorf.ch/_rte/anlass/7715326",
+   "w": "https://www.favu.ch/veranstaltungen/diverse-veranstaltungen/"
   },
   {
    "gemeinden": [
@@ -22352,7 +23203,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766305"
+   "url": "https://www.ilef.ch/_rte/anlass/7766305",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -22394,7 +23246,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "11.00 - 12.00",
    "age": null,
-   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=1020"
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=1020",
+   "w": "https://www.amtliche-nachrichten.ch/maschwanden"
   },
   {
    "gemeinden": [
@@ -22408,7 +23261,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "PrimaFlatuina.ch",
    "time": "11.00 - 12.10",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7795462"
+   "url": "https://www.uster.ch/_rte/anlass/7795462",
+   "w": "https://www.primaflautina.ch"
   },
   {
    "gemeinden": [
@@ -22440,7 +23294,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8735/eventdate/8221"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8735/eventdate/8221",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/324/2026/10/26"
   },
   {
    "gemeinden": [
@@ -22482,7 +23337,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804195"
+   "url": "https://www.benken.ch/_rte/anlass/7804195",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -22510,7 +23366,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeindebibliothek Meilen",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.meilen.ch/_rte/anlass/7833412"
+   "url": "https://www.meilen.ch/_rte/anlass/7833412",
+   "w": "https://www.bibliotheken-zh.ch/meilen/events"
   },
   {
    "gemeinden": [
@@ -22524,7 +23381,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378894"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378894",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -22556,7 +23414,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565137"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565137",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -22570,7 +23429,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804198"
+   "url": "https://www.benken.ch/_rte/anlass/7804198",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -22584,7 +23444,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "12.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7808404"
+   "url": "https://www.wildberg.ch/_rte/anlass/7808404",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -22602,7 +23463,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725934"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725934",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -22620,7 +23482,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702576"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702576",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -22670,7 +23533,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714891"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714891",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -22716,7 +23580,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804210"
+   "url": "https://www.benken.ch/_rte/anlass/7804210",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -22730,7 +23595,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392592"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392592",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -22744,7 +23610,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "zwergli.richterswil – Elternbildung",
    "time": "19.45 - 21.30",
    "age": null,
-   "url": "https://www.richterswil.ch/_rte/anlass/7792609"
+   "url": "https://www.richterswil.ch/_rte/anlass/7792609",
+   "w": "https://calarota.ch/zwergli/zwerglielternbildung.html"
   },
   {
    "gemeinden": [
@@ -22804,7 +23671,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MIR Mitenand in Rümlang",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7645675"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7645675",
+   "w": "http://www.mirr-ruemlang.ch."
   },
   {
    "gemeinden": [
@@ -22818,7 +23686,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reformierte Kirche Dürnten",
    "time": "14.00 - 16.30",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7656511"
+   "url": "https://www.duernten.ch/_rte/anlass/7656511",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -22836,7 +23705,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7826413"
+   "url": "https://www.ilef.ch/_rte/anlass/7826413",
+   "w": "http://www.green-boots.ch"
   },
   {
    "gemeinden": [
@@ -22882,7 +23752,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3249/eventdate/3772"
+   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3249/eventdate/3772",
+   "w": "https://chrabelgruppe-otelfingen.jimdosite.com/"
   },
   {
    "gemeinden": [
@@ -22896,7 +23767,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565080"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565080",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -22966,7 +23838,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593175"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593175",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -22994,7 +23867,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818721"
+   "url": "https://www.ilef.ch/_rte/anlass/7818721",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -23026,7 +23900,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621288"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621288",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -23040,7 +23915,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565191"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565191",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -23054,7 +23930,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740454"
+   "url": "https://www.ilef.ch/_rte/anlass/7740454",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -23082,7 +23959,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804201"
+   "url": "https://www.benken.ch/_rte/anlass/7804201",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -23118,7 +23996,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2692/eventdate/2060"
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2692/eventdate/2060",
+   "w": "https://elternverein-aeugst.ch/"
   },
   {
    "gemeinden": [
@@ -23136,7 +24015,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 9 Jahren"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7656505"
+   "url": "https://www.duernten.ch/_rte/anlass/7656505",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -23164,7 +24044,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378897"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378897",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -23178,7 +24059,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565239"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565239",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -23192,7 +24074,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7391140"
+   "url": "https://www.kloten.ch/_rte/anlass/7391140",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -23210,7 +24093,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3653/eventdate/3749"
+   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3653/eventdate/3749",
+   "w": "https://dinhard.biblioweb.ch/"
   },
   {
    "gemeinden": [
@@ -23274,7 +24158,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7833577"
+   "url": "https://www.uster.ch/_rte/anlass/7833577",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -23352,7 +24237,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "8 bis 12 Jahre"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3653/eventdate/58855"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3653/eventdate/58855",
+   "w": "https://refhorgen.ch/veranstaltung/61657"
   },
   {
    "gemeinden": [
@@ -23370,7 +24256,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7738774"
+   "url": "https://www.uster.ch/_rte/anlass/7738774",
+   "w": "http://www.enricolenzin.ch"
   },
   {
    "gemeinden": [
@@ -23402,7 +24289,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7769248"
+   "url": "https://www.duernten.ch/_rte/anlass/7769248",
+   "w": "https://bardill.ch/"
   },
   {
    "gemeinden": [
@@ -23420,7 +24308,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "2 bis 10 Jahre"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700008"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700008",
+   "w": "https://www.tvwb.ch/anlaesse"
   },
   {
    "gemeinden": [
@@ -23456,7 +24345,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766311"
+   "url": "https://www.ilef.ch/_rte/anlass/7766311",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -23502,7 +24392,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8816/eventdate/8267"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8816/eventdate/8267",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/324/2026/10/26"
   },
   {
    "gemeinden": [
@@ -23544,7 +24435,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804204"
+   "url": "https://www.benken.ch/_rte/anlass/7804204",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -23576,7 +24468,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818682"
+   "url": "https://www.ilef.ch/_rte/anlass/7818682",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -23590,7 +24483,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565140"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565140",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -23604,7 +24498,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804207"
+   "url": "https://www.benken.ch/_rte/anlass/7804207",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -23632,7 +24527,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienarbeit Opfikon",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7739401"
+   "url": "https://www.opfikon.ch/_rte/anlass/7739401",
+   "w": "https://lets-meet.org/reg/a6681a010c14d53e95"
   },
   {
    "gemeinden": [
@@ -23646,7 +24542,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736053"
+   "url": "https://www.kloten.ch/_rte/anlass/7736053",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -23664,7 +24561,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729132"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729132",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -23710,7 +24608,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804216"
+   "url": "https://www.benken.ch/_rte/anlass/7804216",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -23738,7 +24637,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "13.30 - 15.30",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552489"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552489",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/kidszone/"
   },
   {
    "gemeinden": [
@@ -23770,7 +24670,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7692571"
+   "url": "https://www.ilef.ch/_rte/anlass/7692571",
+   "w": "https://www.dia.ch/schottland"
   },
   {
    "gemeinden": [
@@ -23816,7 +24717,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Ev. Ref. Kirchgemeinde Kloten",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7718638"
+   "url": "https://www.kloten.ch/_rte/anlass/7718638",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -23862,7 +24764,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776385"
+   "url": "https://www.ilef.ch/_rte/anlass/7776385",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -23904,7 +24807,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565083"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565083",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -23964,7 +24868,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804213"
+   "url": "https://www.benken.ch/_rte/anlass/7804213",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -24052,7 +24957,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 8 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7826416"
+   "url": "https://www.ilef.ch/_rte/anlass/7826416",
+   "w": "https://www.stadthaussaal.ch"
   },
   {
    "gemeinden": [
@@ -24066,7 +24972,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7715332"
+   "url": "https://www.urdorf.ch/_rte/anlass/7715332",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -24098,7 +25005,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621291"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621291",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -24112,7 +25020,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565194"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565194",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -24126,7 +25035,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "11er Rat Benken",
    "time": "19.30",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7804222"
+   "url": "https://www.benken.ch/_rte/anlass/7804222",
+   "w": "https://www.fasnachtbenken.ch"
   },
   {
    "gemeinden": [
@@ -24176,7 +25086,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Naturschutz Bassersdorf Nürensdorf NBN",
    "time": "13.30 - 16.00",
    "age": null,
-   "url": "https://www.bruetten.ch/_rte/anlass/7284875"
+   "url": "https://www.bruetten.ch/_rte/anlass/7284875",
+   "w": "https://nbn.ch/agenda.html"
   },
   {
    "gemeinden": [
@@ -24222,7 +25133,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638775"
+   "url": "https://www.benken.ch/_rte/anlass/7638775",
+   "w": "https://jtb.ch/"
   },
   {
    "gemeinden": [
@@ -24236,7 +25148,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Schwümschuel Röteli",
    "time": "",
    "age": null,
-   "url": "https://www.dietikon.ch/_rte/anlass/7565242"
+   "url": "https://www.dietikon.ch/_rte/anlass/7565242",
+   "w": "https://www.schwuemschuel-roeteli.ch/kurse/kurse-dietikon/"
   },
   {
    "gemeinden": [
@@ -24254,7 +25167,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "7 bis 16 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7559062"
+   "url": "https://www.kloten.ch/_rte/anlass/7559062",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -24268,7 +25182,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "GlunggePhoniker",
    "time": "13.33 - 3.00",
    "age": null,
-   "url": "https://www.weisslingen.ch/_rte/anlass/7735477"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7735477",
+   "w": "https://glunggephoniker.ch/"
   },
   {
    "gemeinden": [
@@ -24300,7 +25215,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.russikon.ch/_rte/anlass/6823834"
+   "url": "https://www.russikon.ch/_rte/anlass/6823834",
+   "w": "http://www.gvr-russikon.ch"
   },
   {
    "gemeinden": [
@@ -24318,7 +25234,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7833619"
+   "url": "https://www.uster.ch/_rte/anlass/7833619",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -24350,7 +25267,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730464"
+   "url": "https://www.ilef.ch/_rte/anlass/7730464",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -24410,7 +25328,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kulturkommission Aesch ZH",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.aesch-zh.ch/_rte/anlass/7776595"
+   "url": "https://www.aesch-zh.ch/_rte/anlass/7776595",
+   "w": "https://kultur-aesch-zh.ch/event/aescher-lotto-2027/"
   },
   {
    "gemeinden": [
@@ -24442,7 +25361,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "bybalzer",
    "time": "14.00 - 15.30",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7523191"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7523191",
+   "w": "https://www.bybalzer.ch/fidibus-praesentiert-schneewittli/geschichte"
   },
   {
    "gemeinden": [
@@ -24456,7 +25376,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Harmoniemusik Wald",
    "time": "13.30",
    "age": null,
-   "url": "https://www.wald-zh.ch/_rte/anlass/7804261"
+   "url": "https://www.wald-zh.ch/_rte/anlass/7804261",
+   "w": "http://www.harmoniemusik-wald.ch"
   },
   {
    "gemeinden": [
@@ -24474,7 +25395,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766314"
+   "url": "https://www.ilef.ch/_rte/anlass/7766314",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -24506,7 +25428,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "5 bis 10 Jahre"
    },
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16123/eventdate/16589"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16123/eventdate/16589",
+   "w": "https://www.ortsmuseum-kuesnacht.ch/"
   },
   {
    "gemeinden": [
@@ -24524,7 +25447,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8817/eventdate/8268"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8817/eventdate/8268",
+   "w": "https://kirche-stallikon-wettswil.ch/"
   },
   {
    "gemeinden": [
@@ -24556,7 +25480,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.russikon.ch/_rte/anlass/7808416"
+   "url": "https://www.russikon.ch/_rte/anlass/7808416",
+   "w": "https://familienverein-russikon.ch/events/erste-hilfe-kurs"
   },
   {
    "gemeinden": [
@@ -24648,7 +25573,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725937"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725937",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -24768,7 +25694,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sigristenkeller Bülach",
    "time": "15.00 - 16.00",
    "age": null,
-   "url": "https://www.buelach.ch/_rte/anlass/7830568"
+   "url": "https://www.buelach.ch/_rte/anlass/7830568",
+   "w": "https://www.theaterhuber.ch"
   },
   {
    "gemeinden": [
@@ -24866,7 +25793,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Horgen",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7815247"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7815247",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -24898,7 +25826,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621294"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621294",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -24916,7 +25845,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827292"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7827292",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -25004,7 +25934,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593178"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593178",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -25022,7 +25953,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 8 Jahren"
    },
-   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6815/eventdate/29246"
+   "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6815/eventdate/29246",
+   "w": "https://www.sternenkeller.ch/programm/details/1130-best-of-fantoche-on-tour"
   },
   {
    "gemeinden": [
@@ -25050,7 +25982,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "FasnEgger",
    "time": "13.00 - 4.00",
    "age": null,
-   "url": "https://www.egg.ch/_rte/anlass/7784752"
+   "url": "https://www.egg.ch/_rte/anlass/7784752",
+   "w": "http://www.fasnegger.ch"
   },
   {
    "gemeinden": [
@@ -25064,7 +25997,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sportanlagen AG Wallisellen, EHC Wallisellen, SC Wallisellen, Elternforum",
    "time": "18.00 - 22.00",
    "age": null,
-   "url": "https://www.wallisellen.ch/_rte/anlass/7751587"
+   "url": "https://www.wallisellen.ch/_rte/anlass/7751587",
+   "w": "https://sportanlagen-wallisellen.ch/"
   },
   {
    "gemeinden": [
@@ -25082,7 +26016,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "7 bis 16 Jahre"
    },
-   "url": "https://www.kloten.ch/_rte/anlass/7559065"
+   "url": "https://www.kloten.ch/_rte/anlass/7559065",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -25096,7 +26031,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Katholische Kirche Dübendorf + Elterngruppe Dübendorf",
    "time": "16.30 - 23.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7761352"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7761352",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -25110,7 +26046,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2702/eventdate/2049"
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2702/eventdate/2049",
+   "w": "https://elternverein-aeugst.ch/"
   },
   {
    "gemeinden": [
@@ -25166,7 +26103,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienclub Stallikon Seite vorlesen",
    "time": "15.00 - 18.30",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8781/eventdate/8245"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8781/eventdate/8245",
+   "w": "https://www.familienclub.ch/"
   },
   {
    "gemeinden": [
@@ -25198,7 +26136,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "bybalzer",
    "time": "14.00 - 15.10",
    "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7522429"
+   "url": "https://www.uster.ch/_rte/anlass/7522429",
+   "w": "https://www.bybalzer.ch/schellen-ursli/geschichte"
   },
   {
    "gemeinden": [
@@ -25240,7 +26179,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Turnverein Maur",
    "time": "9.30 - 13.00",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10631/eventdate/14582"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10631/eventdate/14582",
+   "w": "https://tvmaur.ch/"
   },
   {
    "gemeinden": [
@@ -25268,7 +26208,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Handharmonikaclub Illnau-Effretikon",
    "time": "14.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7822867"
+   "url": "https://www.ilef.ch/_rte/anlass/7822867",
+   "w": "https://www.hcie.ch"
   },
   {
    "gemeinden": [
@@ -25286,7 +26227,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6747/eventdate/12530"
+   "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6747/eventdate/12530",
+   "w": "https://kulturkreis-herrliberg.ch/"
   },
   {
    "gemeinden": [
@@ -25322,7 +26264,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766317"
+   "url": "https://www.ilef.ch/_rte/anlass/7766317",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -25340,7 +26283,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7818865"
+   "url": "https://www.uster.ch/_rte/anlass/7818865",
+   "w": "https://www.kg-greifensee.ch/verso-il-sole-30-01-27"
   },
   {
    "gemeinden": [
@@ -25354,7 +26298,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7764064"
+   "url": "https://www.ilef.ch/_rte/anlass/7764064",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -25386,7 +26331,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "2 bis 4 Jahre"
    },
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8818/eventdate/8269"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8818/eventdate/8269",
+   "w": "https://kirche-stallikon-wettswil.ch/"
   },
   {
    "gemeinden": [
@@ -25432,7 +26378,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809406"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809406",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -25460,7 +26407,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818763"
+   "url": "https://www.ilef.ch/_rte/anlass/7818763",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -25492,7 +26440,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378903"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378903",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -25548,7 +26497,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736056"
+   "url": "https://www.kloten.ch/_rte/anlass/7736056",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -25566,7 +26516,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7718995"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7718995",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -25584,7 +26535,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729138"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729138",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -25648,7 +26600,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392574"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392574",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -25754,7 +26707,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Fasnachtskomitee Bassersdorf Seite drucken",
    "time": "19.00",
    "age": null,
-   "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6718/eventdate/10380"
+   "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6718/eventdate/10380",
+   "w": "https://www.bassersdorfer-fasnacht.ch/"
   },
   {
    "gemeinden": [
@@ -25870,7 +26824,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7715335"
+   "url": "https://www.urdorf.ch/_rte/anlass/7715335",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -25884,7 +26839,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Drü Dörfli",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806628"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806628",
+   "w": "https://www.familienverein3doerfli.ch/"
   },
   {
    "gemeinden": [
@@ -25948,7 +26904,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621297"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621297",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -25998,7 +26955,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Fasnachtskomitée Hinwil",
    "time": "",
    "age": null,
-   "url": "https://www.hinwil.ch/_rte/anlass/7672474"
+   "url": "https://www.hinwil.ch/_rte/anlass/7672474",
+   "w": "https://www.fakohi.ch/"
   },
   {
    "gemeinden": [
@@ -26012,7 +26970,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Elternrat Hittnau & Rampensäu",
    "time": "",
    "age": null,
-   "url": "https://www.hittnau.ch/_rte/anlass/7801159"
+   "url": "https://www.hittnau.ch/_rte/anlass/7801159",
+   "w": "https://www.fasnacht-hittnau.ch/"
   },
   {
    "gemeinden": [
@@ -26062,7 +27021,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638778"
+   "url": "https://www.benken.ch/_rte/anlass/7638778",
+   "w": "https://jtb.ch/"
   },
   {
    "gemeinden": [
@@ -26080,7 +27040,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 9 Jahren"
    },
-   "url": "https://www.duernten.ch/_rte/anlass/7656508"
+   "url": "https://www.duernten.ch/_rte/anlass/7656508",
+   "w": "https://www.refduernten.ch/home"
   },
   {
    "gemeinden": [
@@ -26122,7 +27083,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378906"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378906",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -26150,7 +27112,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sportclub Sellenbüren-Stallikon Seite vorlesen",
    "time": "18.30 - 22.00",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8314/eventdate/7617"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8314/eventdate/7617",
+   "w": "https://scsesta.ch"
   },
   {
    "gemeinden": [
@@ -26198,7 +27161,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4263-3050",
+   "id": "knonau-4263-3261",
    "name": "Gschichte-Ziit Bibliothek",
    "von": "2027-02-06",
    "bis": "2027-02-06",
@@ -26210,7 +27173,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4263/eventdate/3050"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4263/eventdate/3261",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -26228,7 +27192,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7833613"
+   "url": "https://www.uster.ch/_rte/anlass/7833613",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -26256,7 +27221,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendarbeit Wangen-Brüttisellen",
    "time": "17.00 - 20.00",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7816486"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7816486",
+   "w": "https://www.ojawb.ch/"
   },
   {
    "gemeinden": [
@@ -26384,7 +27350,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766320"
+   "url": "https://www.ilef.ch/_rte/anlass/7766320",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -26402,7 +27369,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7738780"
+   "url": "https://www.uster.ch/_rte/anlass/7738780",
+   "w": "http://www.puppenspiel.ch"
   },
   {
    "gemeinden": [
@@ -26434,7 +27402,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830814"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830814",
+   "w": "https://www.turbinetheater.ch/event/sophia/"
   },
   {
    "gemeinden": [
@@ -26463,6 +27432,20 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604425"
+  },
+  {
+   "gemeinden": [
+    "benken"
+   ],
+   "id": "benken-7834555",
+   "name": "Preisjassen am Fasnachtsmontag",
+   "von": "2027-02-08",
+   "bis": "2027-02-08",
+   "ort": "Bretzelstube",
+   "veranstalter": "Tschämpiens-Liig",
+   "time": "13.00 - 18.00",
+   "age": null,
+   "url": "https://www.benken.ch/_rte/anlass/7834555"
   },
   {
    "gemeinden": [
@@ -26508,7 +27491,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienarbeit Opfikon",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7739446"
+   "url": "https://www.opfikon.ch/_rte/anlass/7739446",
+   "w": "https://lets-meet.org/reg/bcd68e1a22815cf86a"
   },
   {
    "gemeinden": [
@@ -26526,7 +27510,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725940"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725940",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -26586,7 +27571,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MIR Mitenand in Rümlang",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7645678"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7645678",
+   "w": "http://www.mirr-ruemlang.ch."
   },
   {
    "gemeinden": [
@@ -26670,7 +27656,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Urdorf",
    "time": "15.30 - 17.00",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7715341"
+   "url": "https://www.urdorf.ch/_rte/anlass/7715341",
+   "w": "https://www.favu.ch/angebote/regelmaessige-treffs/"
   },
   {
    "gemeinden": [
@@ -26702,7 +27689,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730350"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730350",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -26720,7 +27708,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621300"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621300",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -26784,7 +27773,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "FasnachtsGesellschaft Uerzlikon",
    "time": "14.30 - 17.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7456441"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7456441",
+   "w": "https://fgu.ch/"
   },
   {
    "gemeinden": [
@@ -26854,7 +27844,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienclub Stallikon Seite vorlesen",
    "time": "15.00 - 17.30",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8780/eventdate/8243"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8780/eventdate/8243",
+   "w": "https://www.familienclub.ch/"
   },
   {
    "gemeinden": [
@@ -26868,7 +27859,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Fasnachtsgesellschaft Thalwil",
    "time": "13.30 - 19.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7702012"
+   "url": "https://www.thalwil.ch/_rte/anlass/7702012",
+   "w": "https://fasnacht-thalwil.ch"
   },
   {
    "gemeinden": [
@@ -26886,7 +27878,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3654/eventdate/3751"
+   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3654/eventdate/3751",
+   "w": "https://dinhard.biblioweb.ch/"
   },
   {
    "gemeinden": [
@@ -26933,6 +27926,25 @@ window.FAMILIENAGENDA = {
     "label": "ab 12 Jahren"
    },
    "url": "https://www.waedenswil.ch/_rte/anlass/7744759"
+  },
+  {
+   "gemeinden": [
+    "u"
+   ],
+   "id": "u-7834603",
+   "name": "NLA Unihockey: UHC Uster - Floorball Thurgau",
+   "von": "2027-02-13",
+   "bis": "2027-02-13",
+   "ort": "Sporthalle Buchholz",
+   "veranstalter": "UHC Uster",
+   "time": "19.30 - 21.30",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.uster.ch/_rte/anlass/7834603",
+   "w": "https://www.uhcuster.ch"
   },
   {
    "gemeinden": [
@@ -27016,7 +28028,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Impuls Triathlon Club Bülach",
    "time": "9.00 - 16.00",
    "age": null,
-   "url": "https://www.buelach.ch/_rte/anlass/7631137"
+   "url": "https://www.buelach.ch/_rte/anlass/7631137",
+   "w": "https://kids-ferienprogramm.ch/"
   },
   {
    "gemeinden": [
@@ -27048,7 +28061,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818685"
+   "url": "https://www.ilef.ch/_rte/anlass/7818685",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -27090,7 +28104,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "12.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7808401"
+   "url": "https://www.wildberg.ch/_rte/anlass/7808401",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -27104,7 +28119,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Mediothek Hinwil",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.hinwil.ch/_rte/anlass/7735993"
+   "url": "https://www.hinwil.ch/_rte/anlass/7735993",
+   "w": "https://www.bibliotheken-zh.ch/hinwil/"
   },
   {
    "gemeinden": [
@@ -27122,7 +28138,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725943"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725943",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -27164,7 +28181,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776388"
+   "url": "https://www.ilef.ch/_rte/anlass/7776388",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -27206,7 +28224,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818724"
+   "url": "https://www.ilef.ch/_rte/anlass/7818724",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -27224,7 +28243,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621303"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621303",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -27238,7 +28258,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Fasnachtsgesellschaft Thalwil",
    "time": "20.00",
    "age": null,
-   "url": "https://www.thalwil.ch/_rte/anlass/7702081"
+   "url": "https://www.thalwil.ch/_rte/anlass/7702081",
+   "w": "https://fasnacht-thalwil.ch"
   },
   {
    "gemeinden": [
@@ -27302,7 +28323,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "17.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4405/eventdate/58939"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4405/eventdate/58939",
+   "w": "https://www.sonne-bezau.at/"
   },
   {
    "gemeinden": [
@@ -27316,7 +28338,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Guggenmusik Füdlichnübler Wangen",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7775767"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7775767",
+   "w": "https://www.fuedlichnuebler.ch"
   },
   {
    "gemeinden": [
@@ -27408,7 +28431,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Römisch-katholische Kirchgemeinde",
    "time": "",
    "age": null,
-   "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3358/eventdate/6039"
+   "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3358/eventdate/6039",
+   "w": "http://kath-weinland.ch/"
   },
   {
    "gemeinden": [
@@ -27426,7 +28450,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830817"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830817",
+   "w": "https://www.turbinetheater.ch/event/sophia/"
   },
   {
    "gemeinden": [
@@ -27472,7 +28497,8 @@ window.FAMILIENAGENDA = {
     "max": 11,
     "label": "6 bis 11 Jahre"
    },
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17188/eventdate/17253"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17188/eventdate/17253",
+   "w": "https://camp.tanz-fabrik.ch/camp"
   },
   {
    "gemeinden": [
@@ -27486,7 +28512,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "KZU, Kompetenzzentrum Pflege und Gesundheit Seite drucken",
    "time": "",
    "age": null,
-   "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6681/eventdate/9824"
+   "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6681/eventdate/9824",
+   "w": "https://kzu.swiss/alle-veranstaltungen.html"
   },
   {
    "gemeinden": [
@@ -27634,7 +28661,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 10 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7826419"
+   "url": "https://www.ilef.ch/_rte/anlass/7826419",
+   "w": "https://www.stadthaussaal.ch"
   },
   {
    "gemeinden": [
@@ -27648,7 +28676,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7832998"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7832998",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -27680,7 +28709,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621306"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621306",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -27708,7 +28738,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740457"
+   "url": "https://www.ilef.ch/_rte/anlass/7740457",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -27768,7 +28799,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593181"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593181",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -27800,7 +28832,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1795/eventdate/2077"
+   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1795/eventdate/2077",
+   "w": "https://www.theaterzurwaage.ch"
   },
   {
    "gemeinden": [
@@ -27884,7 +28917,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4483/eventdate/58866"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4483/eventdate/58866",
+   "w": "https://refhorgen.ch/veranstaltung/62184"
   },
   {
    "gemeinden": [
@@ -27902,7 +28936,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766323"
+   "url": "https://www.ilef.ch/_rte/anlass/7766323",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -27962,7 +28997,8 @@ window.FAMILIENAGENDA = {
     "max": 6,
     "label": "1 bis 6 Jahre"
    },
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17426/eventdate/17310"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17426/eventdate/17310",
+   "w": "https://forms.gle/WocFwJft2Eq2kBP1A"
   },
   {
    "gemeinden": [
@@ -28022,7 +29058,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809409"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809409",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -28054,7 +29091,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818766"
+   "url": "https://www.ilef.ch/_rte/anlass/7818766",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -28104,7 +29142,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552456"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552456",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -28122,7 +29161,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714894"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714894",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -28136,7 +29176,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736059"
+   "url": "https://www.kloten.ch/_rte/anlass/7736059",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -28204,7 +29245,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7754770"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7754770",
+   "w": "https://www.dia.ch/schottland"
   },
   {
    "gemeinden": [
@@ -28334,7 +29376,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Drü Dörfli",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806634"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806634",
+   "w": "https://www.familienverein3doerfli.ch/"
   },
   {
    "gemeinden": [
@@ -28416,7 +29459,22 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621312"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621312",
+   "w": "http://www.buchstart.ch"
+  },
+  {
+   "gemeinden": [
+    "seuzach"
+   ],
+   "id": "seuzach-7834834",
+   "name": "DOG-Plausch-Turnier",
+   "von": "2027-03-05",
+   "bis": "2027-03-05",
+   "ort": "Bibliothek Seuzach",
+   "veranstalter": "Bibliothek Seuzach",
+   "time": "19.00 - 22.00",
+   "age": null,
+   "url": "https://www.seuzach.ch/_rte/anlass/7834834"
   },
   {
    "gemeinden": [
@@ -28544,7 +29602,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730467"
+   "url": "https://www.ilef.ch/_rte/anlass/7730467",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -28576,7 +29635,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Stadtmusik Dübendorf",
    "time": "10.30 - 22.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7714135"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7714135",
+   "w": "https://www.stadtmusik-duebendorf.ch/"
   },
   {
    "gemeinden": [
@@ -28618,7 +29678,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Turnverein Maur",
    "time": "9.30 - 13.00",
    "age": null,
-   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10632/eventdate/14577"
+   "url": "https://www.maur.ch/aktuelles-projekte/veranstaltungen.html/561/event/10632/eventdate/14577",
+   "w": "https://tvmaur.ch/"
   },
   {
    "gemeinden": [
@@ -28672,7 +29733,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766329"
+   "url": "https://www.ilef.ch/_rte/anlass/7766329",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -28690,7 +29752,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830820"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830820",
+   "w": "https://www.turbinetheater.ch/event/sophia/"
   },
   {
    "gemeinden": [
@@ -28768,7 +29831,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552462"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552462",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -28846,7 +29910,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702579"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702579",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -28896,7 +29961,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7718998"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7718998",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -28914,7 +29980,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729144"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729144",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -28964,7 +30031,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "3 bis 7 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818799"
+   "url": "https://www.ilef.ch/_rte/anlass/7818799",
+   "w": "https://www.bibliotheksverein.ch/illnau"
   },
   {
    "gemeinden": [
@@ -29010,7 +30078,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "13.30 - 15.30",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552492"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552492",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/kidszone/"
   },
   {
    "gemeinden": [
@@ -29052,7 +30121,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MIR Mitenand in Rümlang",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.ruemlang.ch/_rte/anlass/7645681"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7645681",
+   "w": "http://www.mirr-ruemlang.ch."
   },
   {
    "gemeinden": [
@@ -29196,7 +30266,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593184"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593184",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -29228,7 +30299,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621315"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621315",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -29324,7 +30396,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Mönchaltorf Oetwil am See",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832980"
+   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832980",
+   "w": "https://ref-moenchaltorf-oetwil.ch/"
   },
   {
    "gemeinden": [
@@ -29366,7 +30439,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "ElternEcho",
    "time": "10.30 - 13.00",
    "age": null,
-   "url": "https://www.stadel.ch/_rte/anlass/7777513"
+   "url": "https://www.stadel.ch/_rte/anlass/7777513",
+   "w": "https://www.elternecho.ch/"
   },
   {
    "gemeinden": [
@@ -29380,7 +30454,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienclub Stallikon Seite vorlesen",
    "time": "15.00 - 18.30",
    "age": null,
-   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8782/eventdate/8246"
+   "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8782/eventdate/8246",
+   "w": "https://www.familienclub.ch/"
   },
   {
    "gemeinden": [
@@ -29398,7 +30473,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 5 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7725997"
+   "url": "https://www.ilef.ch/_rte/anlass/7725997",
+   "w": "http://www.lorenz-pauli.ch"
   },
   {
    "gemeinden": [
@@ -29417,7 +30493,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "4 bis 15 Jahre"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7800322"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7800322",
+   "w": "https://pfadi-thala.ch"
   },
   {
    "gemeinden": [
@@ -29431,7 +30508,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reisetheater GmbH",
    "time": "",
    "age": null,
-   "url": "https://www.buelach.ch/_rte/anlass/7541029"
+   "url": "https://www.buelach.ch/_rte/anlass/7541029",
+   "w": "https://eventfrog.ch/de/p/kinderveranstaltungen/kindertheater/rumpelstilzli-buelach-7463199648259275047.html"
   },
   {
    "gemeinden": [
@@ -29481,7 +30559,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "1 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7822882"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7822882",
+   "w": "http://www.elterngruppe.ch."
   },
   {
    "gemeinden": [
@@ -29537,7 +30616,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3078/eventdate/58858"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3078/eventdate/58858",
+   "w": "https://refhorgen.ch/veranstaltung/61974"
   },
   {
    "gemeinden": [
@@ -29555,7 +30635,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766335"
+   "url": "https://www.ilef.ch/_rte/anlass/7766335",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -29601,7 +30682,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830823"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830823",
+   "w": "https://www.turbinetheater.ch/event/sophia/"
   },
   {
    "gemeinden": [
@@ -29643,7 +30725,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "08.00 - 19.03",
    "age": null,
-   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=1002"
+   "url": "https://www.maschwanden.ch/de/veranstaltungen/detail/detail.php?i=1002",
+   "w": "https://www.amtliche-nachrichten.ch/maschwanden"
   },
   {
    "gemeinden": [
@@ -29661,7 +30744,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818688"
+   "url": "https://www.ilef.ch/_rte/anlass/7818688",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -29675,7 +30759,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378909"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378909",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -29693,7 +30778,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552468"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552468",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -29725,7 +30811,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725949"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725949",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -29739,7 +30826,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736062"
+   "url": "https://www.kloten.ch/_rte/anlass/7736062",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -29753,7 +30841,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienzentrum Küsnacht weitere Termine 17. März 2027, 14:45 – 16:30 ",
    "time": "14.45 - 16.30",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17227/eventdate/17308"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17227/eventdate/17308",
+   "w": "https://forms.gle/MTxBCfcR94hqncad8"
   },
   {
    "gemeinden": [
@@ -29799,7 +30888,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392571"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392571",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -29817,7 +30907,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "4 bis 10 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4279/eventdate/3242"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4279/eventdate/3242",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -29835,7 +30926,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7826431"
+   "url": "https://www.ilef.ch/_rte/anlass/7826431",
+   "w": "https://www.stadthaussaal.ch"
   },
   {
    "gemeinden": [
@@ -29877,7 +30969,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 17.00",
    "age": null,
-   "url": "https://stadt.winterthur.ch/veranstaltung/spielen-entdecken-und-erforschen-rund-ums-thema-muenzen-und-geld"
+   "url": "https://stadt.winterthur.ch/veranstaltung/spielen-entdecken-und-erforschen-rund-ums-thema-muenzen-und-geld",
+   "w": "https://www.muenzkabinett.ch"
   },
   {
    "gemeinden": [
@@ -29891,7 +30984,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776391"
+   "url": "https://www.ilef.ch/_rte/anlass/7776391",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -29989,7 +31083,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818727"
+   "url": "https://www.ilef.ch/_rte/anlass/7818727",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -30007,7 +31102,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730353"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730353",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -30025,13 +31121,14 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621318"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621318",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4248-3043",
+   "id": "knonau-4248-3256",
    "name": "Buchstart Bibliothek",
    "von": "2027-03-19",
    "bis": "2027-03-19",
@@ -30043,7 +31140,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4248/eventdate/3043"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4248/eventdate/3256",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -30135,7 +31233,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593187"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593187",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -30153,7 +31252,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 6 Jahren"
    },
-   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2693/eventdate/2061"
+   "url": "https://www.aeugst-albis.ch/leben/veranstaltungen/details.html/98/event/2693/eventdate/2061",
+   "w": "https://elternverein-aeugst.ch/"
   },
   {
    "gemeinden": [
@@ -30181,7 +31281,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378915"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378915",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -30209,7 +31310,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Balzer Event GmbH",
    "time": "14.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7826437"
+   "url": "https://www.ilef.ch/_rte/anlass/7826437",
+   "w": "https://www.bybalzer.ch/tickets"
   },
   {
    "gemeinden": [
@@ -30223,7 +31325,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7391143"
+   "url": "https://www.kloten.ch/_rte/anlass/7391143",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -30255,7 +31358,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3655/eventdate/3750"
+   "url": "https://www.dinhard.ch/verwaltung/veranstaltungen.html/12/event/3655/eventdate/3750",
+   "w": "https://dinhard.biblioweb.ch/"
   },
   {
    "gemeinden": [
@@ -30269,7 +31373,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Dürnten",
    "time": "13.00 - 15.00",
    "age": null,
-   "url": "https://www.duernten.ch/_rte/anlass/7660744"
+   "url": "https://www.duernten.ch/_rte/anlass/7660744",
+   "w": "https://www.familienvereinduernten.ch/kleiderboerse/"
   },
   {
    "gemeinden": [
@@ -30287,7 +31392,8 @@ window.FAMILIENAGENDA = {
     "max": 9,
     "label": "0 bis 9 Jahre"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7792942"
+   "url": "https://www.richterswil.ch/_rte/anlass/7792942",
+   "w": "https://www.secondhandsamstagern.ch"
   },
   {
    "gemeinden": [
@@ -30305,7 +31411,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730455"
+   "url": "https://www.ilef.ch/_rte/anlass/7730455",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -30361,7 +31468,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 11.00",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7258712"
+   "url": "https://www.kloten.ch/_rte/anlass/7258712",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -30393,7 +31501,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7811161"
+   "url": "https://www.uster.ch/_rte/anlass/7811161",
+   "w": "https://www.centraluster.ch"
   },
   {
    "gemeinden": [
@@ -30411,7 +31520,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "2 bis 10 Jahre"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700014"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700014",
+   "w": "https://www.tvwb.ch/anlaesse/"
   },
   {
    "gemeinden": [
@@ -30429,7 +31539,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766338"
+   "url": "https://www.ilef.ch/_rte/anlass/7766338",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -30461,7 +31572,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 12 Jahren"
    },
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830811"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7830811",
+   "w": "https://www.turbinetheater.ch/event/sophia/"
   },
   {
    "gemeinden": [
@@ -30507,7 +31619,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.uster.ch/_rte/anlass/7811164"
+   "url": "https://www.uster.ch/_rte/anlass/7811164",
+   "w": "https://www.centraluster.ch"
   },
   {
    "gemeinden": [
@@ -30521,7 +31634,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Mediothek Hinwil",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.hinwil.ch/_rte/anlass/7735987"
+   "url": "https://www.hinwil.ch/_rte/anlass/7735987",
+   "w": "https://www.bibliotheken-zh.ch/hinwil/"
   },
   {
    "gemeinden": [
@@ -30567,7 +31681,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729147"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729147",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -30715,7 +31830,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "17.30 - 18.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7763656"
+   "url": "https://www.kloten.ch/_rte/anlass/7763656",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -30729,7 +31845,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833001"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833001",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -30793,7 +31910,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766341"
+   "url": "https://www.ilef.ch/_rte/anlass/7766341",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -30839,7 +31957,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725952"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725952",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -30853,7 +31972,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736065"
+   "url": "https://www.kloten.ch/_rte/anlass/7736065",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -30871,7 +31991,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7719001"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7719001",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -31015,7 +32136,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Drü Dörfli",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806640"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806640",
+   "w": "https://www.familienverein3doerfli.ch/"
   },
   {
    "gemeinden": [
@@ -31047,7 +32169,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621321"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621321",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -31139,7 +32262,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "9.00 - 12.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4163/eventdate/52868"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4163/eventdate/52868",
+   "w": "https://www.zuerisee-boerse.ch/"
   },
   {
    "gemeinden": [
@@ -31185,7 +32309,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730470"
+   "url": "https://www.ilef.ch/_rte/anlass/7730470",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -31231,7 +32356,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "DTV Andelfingen",
    "time": "",
    "age": null,
-   "url": "https://www.andelfingen.ch/_rte/anlass/7805575"
+   "url": "https://www.andelfingen.ch/_rte/anlass/7805575",
+   "w": "https://dtv-andelfingen.ch/damenturnverein"
   },
   {
    "gemeinden": [
@@ -31281,7 +32407,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766344"
+   "url": "https://www.ilef.ch/_rte/anlass/7766344",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -31369,7 +32496,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809412"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809412",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -31383,7 +32511,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818769"
+   "url": "https://www.ilef.ch/_rte/anlass/7818769",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -31447,7 +32576,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702582"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702582",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -31465,7 +32595,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729150"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729150",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -31561,7 +32692,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7816990"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7816990",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -31695,7 +32827,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593190"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593190",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -31745,7 +32878,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730356"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730356",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -31763,7 +32897,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621324"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621324",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -31891,6 +33026,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "ruemlang"
+   ],
+   "id": "ruemlang-7833847",
+   "name": "Kinderkleiderbörse im Frühling",
+   "von": "2027-04-10",
+   "bis": "2027-04-10",
+   "ort": "Gemeindesaal Rümlang",
+   "veranstalter": "Kinderkleiderbörse Rümlang",
+   "time": "13.00 - 15.30",
+   "age": null,
+   "url": "https://www.ruemlang.ch/_rte/anlass/7833847"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33212-0",
@@ -31969,7 +33118,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "2 bis 10 Jahre"
    },
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700023"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7700023",
+   "w": "https://www.tvwb.ch/anlaesse"
   },
   {
    "gemeinden": [
@@ -31987,7 +33137,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7766347"
+   "url": "https://www.ilef.ch/_rte/anlass/7766347",
+   "w": "http://www.ideesport.ch"
   },
   {
    "gemeinden": [
@@ -32057,7 +33208,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Praxis Bernstein GmbH",
    "time": "19.00 - 21.00",
    "age": null,
-   "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3347/eventdate/6025"
+   "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3347/eventdate/6025",
+   "w": "https://www.praxis-bernstein.ch/starkeeltern-starkekinder"
   },
   {
    "gemeinden": [
@@ -32071,7 +33223,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378918"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378918",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -32135,7 +33288,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725955"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725955",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -32153,7 +33307,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714897"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714897",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -32167,7 +33322,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736068"
+   "url": "https://www.kloten.ch/_rte/anlass/7736068",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -32213,7 +33369,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392568"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392568",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -32273,7 +33430,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1798/eventdate/2073"
+   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1798/eventdate/2073",
+   "w": "https://www.theaterzurwaage.ch"
   },
   {
    "gemeinden": [
@@ -32291,7 +33449,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818805"
+   "url": "https://www.ilef.ch/_rte/anlass/7818805",
+   "w": "http://www.evillnau.ch"
   },
   {
    "gemeinden": [
@@ -32421,7 +33580,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818730"
+   "url": "https://www.ilef.ch/_rte/anlass/7818730",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -32439,7 +33599,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621327"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621327",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -32507,7 +33668,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 15 Jahren"
    },
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4387/eventdate/58937"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4387/eventdate/58937",
+   "w": "https://refhorgen.ch/veranstaltung/64759"
   },
   {
    "gemeinden": [
@@ -32535,7 +33697,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378990"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378990",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -32549,7 +33712,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7391149"
+   "url": "https://www.kloten.ch/_rte/anlass/7391149",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -32569,7 +33733,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4265-3052",
+   "id": "knonau-4265-3262",
    "name": "Gschichte-Ziit Bibliothek",
    "von": "2027-04-17",
    "bis": "2027-04-17",
@@ -32581,7 +33745,22 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4265/eventdate/3052"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4265/eventdate/3262",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
+  },
+  {
+   "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834567",
+   "name": "Kinderartikelbörse",
+   "von": "2027-04-17",
+   "bis": "2027-04-17",
+   "ort": "Saal zum Doktorhaus",
+   "veranstalter": "Elternforum Wallisellen",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834567"
   },
   {
    "gemeinden": [
@@ -32613,7 +33792,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 11 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7730476"
+   "url": "https://www.ilef.ch/_rte/anlass/7730476",
+   "w": "https://www.jugi-effi.ch/"
   },
   {
    "gemeinden": [
@@ -32705,7 +33885,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818691"
+   "url": "https://www.ilef.ch/_rte/anlass/7818691",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -32747,7 +33928,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "12.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7808398"
+   "url": "https://www.wildberg.ch/_rte/anlass/7808398",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -32779,7 +33961,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7719007"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7719007",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -32797,7 +33980,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729153"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729153",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -32853,7 +34037,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "13.30 - 15.30",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552498"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552498",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/kidszone/"
   },
   {
    "gemeinden": [
@@ -32871,7 +34056,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7816999"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7816999",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -32903,7 +34089,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776394"
+   "url": "https://www.ilef.ch/_rte/anlass/7776394",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -32917,7 +34104,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "14.00 - 16.30",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17003/eventdate/16747"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17003/eventdate/16747",
+   "w": "https://www.kompassb.ch/"
   },
   {
    "gemeinden": [
@@ -33019,7 +34207,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621330"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621330",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -33037,7 +34226,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827295"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7827295",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -33087,7 +34277,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593193"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593193",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -33115,7 +34306,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638784"
+   "url": "https://www.benken.ch/_rte/anlass/7638784",
+   "w": "https://jtb.ch/"
   },
   {
    "gemeinden": [
@@ -33157,7 +34349,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Impuls Triathlon Club Bülach",
    "time": "9.00 - 16.00",
    "age": null,
-   "url": "https://www.buelach.ch/_rte/anlass/7631140"
+   "url": "https://www.buelach.ch/_rte/anlass/7631140",
+   "w": "https://kids-ferienprogramm.ch/"
   },
   {
    "gemeinden": [
@@ -33171,7 +34364,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "09.00 - 16.00",
    "age": null,
-   "url": "https://stadt.winterthur.ch/veranstaltung/ms-sports-camps-winterthur-2027"
+   "url": "https://stadt.winterthur.ch/veranstaltung/ms-sports-camps-winterthur-2027",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
   },
   {
    "gemeinden": [
@@ -33199,7 +34393,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirche Felsengrund",
    "time": "13.30",
    "age": null,
-   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3205/eventdate/1903"
+   "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3205/eventdate/1903",
+   "w": "https://kirche-felsengrund.ch "
   },
   {
    "gemeinden": [
@@ -33255,7 +34450,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833004"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833004",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -33287,7 +34483,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621333"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621333",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -33301,7 +34498,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "OK EGA'27 vom Gewerbeverein Egg",
    "time": "",
    "age": null,
-   "url": "https://www.egg.ch/_rte/anlass/7681435"
+   "url": "https://www.egg.ch/_rte/anlass/7681435",
+   "w": "https://www.ega-egg.ch"
   },
   {
    "gemeinden": [
@@ -33375,7 +34573,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MS Sports AG",
    "time": "",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/7823329"
+   "url": "https://www.faellanden.ch/_rte/anlass/7823329",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
   },
   {
    "gemeinden": [
@@ -33393,7 +34592,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809415"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809415",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -33407,7 +34607,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818772"
+   "url": "https://www.ilef.ch/_rte/anlass/7818772",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -33439,7 +34640,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7817002"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7817002",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -33481,7 +34683,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Drü Dörfli",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806649"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806649",
+   "w": "https://www.familienverein3doerfli.ch/"
   },
   {
    "gemeinden": [
@@ -33583,7 +34786,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Praxis Bernstein GmbH",
    "time": "19.00 - 21.00",
    "age": null,
-   "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3348/eventdate/6026"
+   "url": "https://www.feuerthalen.ch/gesellschaft/veranstaltungen.html/381/event/3348/eventdate/6026",
+   "w": "https://www.praxis-bernstein.ch/starkeeltern-starkekinder"
   },
   {
    "gemeinden": [
@@ -33661,7 +34865,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725958"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725958",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -33679,7 +34884,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702585"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702585",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -33693,7 +34899,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736071"
+   "url": "https://www.kloten.ch/_rte/anlass/7736071",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -33711,7 +34918,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729156"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729156",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -33793,7 +35001,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "4 bis 10 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4283/eventdate/3243"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4283/eventdate/3243",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -33895,7 +35104,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593196"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593196",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -33913,7 +35123,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621336"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621336",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -34031,7 +35242,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818694"
+   "url": "https://www.ilef.ch/_rte/anlass/7818694",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -34063,7 +35275,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714903"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714903",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -34095,7 +35308,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7817005"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7817005",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -34123,7 +35337,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7786546"
+   "url": "https://www.ilef.ch/_rte/anlass/7786546",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -34179,7 +35394,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818733"
+   "url": "https://www.ilef.ch/_rte/anlass/7818733",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -34197,7 +35413,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730359"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730359",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -34229,13 +35446,14 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621339"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621339",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4250-3044",
+   "id": "knonau-4250-3257",
    "name": "Buchstart Bibliothek",
    "von": "2027-05-21",
    "bis": "2027-05-21",
@@ -34247,7 +35465,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4250/eventdate/3044"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4250/eventdate/3257",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -34266,6 +35485,21 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 8 Jahre"
    },
    "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1746"
+  },
+  {
+   "gemeinden": [
+    "m"
+   ],
+   "id": "m-7832983",
+   "name": "Fiire mit de Chliine",
+   "von": "2027-05-22",
+   "bis": "2027-05-22",
+   "ort": "Kirche Mönchaltorf",
+   "veranstalter": "Kirchgemeinde Mönchaltorf Oetwil am See",
+   "time": "9.30 - 10.00",
+   "age": null,
+   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832983",
+   "w": "https://ref-moenchaltorf-oetwil.ch/"
   },
   {
    "gemeinden": [
@@ -34343,7 +35577,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3162/eventdate/3681"
+   "url": "https://www.otelfingen.ch/freizeit/veranstaltungskalender.html/202/event/3162/eventdate/3681",
+   "w": "https://muehleotelfingen.ch/veranstaltungen/programm/event/tiger-im-tank/"
   },
   {
    "gemeinden": [
@@ -34385,7 +35620,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378993"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378993",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -34399,7 +35635,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736077"
+   "url": "https://www.kloten.ch/_rte/anlass/7736077",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -34417,7 +35654,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729162"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729162",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -34463,7 +35701,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392565"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392565",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -34477,7 +35716,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "13.30 - 15.30",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552501"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552501",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/kidszone/"
   },
   {
    "gemeinden": [
@@ -34565,7 +35805,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833007"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833007",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -34583,7 +35824,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621342"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621342",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -34647,7 +35889,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593199"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593199",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -34675,7 +35918,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378996"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378996",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -34689,7 +35933,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7422367"
+   "url": "https://www.kloten.ch/_rte/anlass/7422367",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -34717,7 +35962,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7638790"
+   "url": "https://www.benken.ch/_rte/anlass/7638790",
+   "w": "https://jtb.ch/openair/"
   },
   {
    "gemeinden": [
@@ -34787,7 +36033,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818775"
+   "url": "https://www.ilef.ch/_rte/anlass/7818775",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -34805,7 +36052,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552471"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552471",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -34823,7 +36071,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 12 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7719010"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7719010",
+   "w": "https://duebendorf.zauberlaterne.org"
   },
   {
    "gemeinden": [
@@ -34891,7 +36140,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7817011"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7817011",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -34909,7 +36159,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818808"
+   "url": "https://www.ilef.ch/_rte/anlass/7818808",
+   "w": "https://www.bibliotheksverein.ch/illnau"
   },
   {
    "gemeinden": [
@@ -34979,7 +36230,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Drü Dörfli",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806652"
+   "url": "https://www.kappel-am-albis.ch/_rte/anlass/7806652",
+   "w": "https://www.familienverein3doerfli.ch/"
   },
   {
    "gemeinden": [
@@ -35011,7 +36263,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730362"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730362",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -35029,7 +36282,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621345"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621345",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -35043,7 +36297,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "OK Chilbi Dällikon",
    "time": "",
    "age": null,
-   "url": "https://www.daellikon.ch/_rte/anlass/7763623"
+   "url": "https://www.daellikon.ch/_rte/anlass/7763623",
+   "w": "https://chilbi-daellikon.ch/"
   },
   {
    "gemeinden": [
@@ -35121,7 +36376,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Gemeinschaftszentrum Roos & Ludothek Regensdorf",
    "time": "13.00 - 18.00",
    "age": null,
-   "url": "https://www.regensdorf.ch/_rte/anlass/7614073"
+   "url": "https://www.regensdorf.ch/_rte/anlass/7614073",
+   "w": "http://www.gzroos.ch"
   },
   {
    "gemeinden": [
@@ -35199,7 +36455,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809418"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809418",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -35249,7 +36506,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552474"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552474",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -35267,7 +36525,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725961"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725961",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -35285,7 +36544,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702591"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702591",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -35299,7 +36559,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736080"
+   "url": "https://www.kloten.ch/_rte/anlass/7736080",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -35317,7 +36578,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729168"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729168",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -35433,7 +36695,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593202"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593202",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -35451,7 +36714,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621348"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621348",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -35533,7 +36797,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827298"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7827298",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -35593,7 +36858,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818700"
+   "url": "https://www.ilef.ch/_rte/anlass/7818700",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -35611,7 +36877,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 2 Jahren"
    },
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552477"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552477",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/fiire_mit_de_chliine/"
   },
   {
    "gemeinden": [
@@ -35625,7 +36892,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Wildberg",
    "time": "12.00",
    "age": null,
-   "url": "https://www.wildberg.ch/_rte/anlass/7808395"
+   "url": "https://www.wildberg.ch/_rte/anlass/7808395",
+   "w": "https://ref-wildberg.ch"
   },
   {
    "gemeinden": [
@@ -35657,7 +36925,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714906"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714906",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -35689,7 +36958,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7817020"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7817020",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -35703,7 +36973,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776403"
+   "url": "https://www.ilef.ch/_rte/anlass/7776403",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -35773,7 +37044,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818736"
+   "url": "https://www.ilef.ch/_rte/anlass/7818736",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -35787,7 +37059,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Dorffest Brüttisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7054055"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7054055",
+   "w": "http://www.dorffäscht.com"
   },
   {
    "gemeinden": [
@@ -35805,7 +37078,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621354"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621354",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -35869,7 +37143,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Pfaffhauser Sommerfest",
    "time": "",
    "age": null,
-   "url": "https://www.faellanden.ch/_rte/anlass/7700698"
+   "url": "https://www.faellanden.ch/_rte/anlass/7700698",
+   "w": "https://www.pfaffhauser-sommerfest.ch/"
   },
   {
    "gemeinden": [
@@ -35943,7 +37218,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Familienverein Elternforum Seuzach in Kooperation mit GABA Schweiz",
    "time": "13.00 - 18.00",
    "age": null,
-   "url": "https://www.seuzach.ch/_rte/anlass/7746151"
+   "url": "https://www.seuzach.ch/_rte/anlass/7746151",
+   "w": "https://www.elternforum.com/Willkommen?b=1000952&c=NL%2CND1000088&s=djEtuZOu5bYT9kAVeoTn51J1yWM7nIuddm86YQginbwTGco="
   },
   {
    "gemeinden": [
@@ -35957,7 +37233,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7378999"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7378999",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -36027,7 +37304,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736083"
+   "url": "https://www.kloten.ch/_rte/anlass/7736083",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -36045,7 +37323,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729174"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729174",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -36073,7 +37352,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7392559"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7392559",
+   "w": "https://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -36087,7 +37367,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Evang.-Ref. Kirche Neftenbach",
    "time": "13.30 - 15.30",
    "age": null,
-   "url": "https://www.neftenbach.ch/_rte/anlass/7552504"
+   "url": "https://www.neftenbach.ch/_rte/anlass/7552504",
+   "w": "https://www.kirche-neftenbach.ch/angebote/kinder_und_jugendliche/freiwillige_angebote/kidszone/"
   },
   {
    "gemeinden": [
@@ -36175,7 +37456,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.00 - 11.00",
    "age": null,
-   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833010"
+   "url": "https://www.langnauamalbis.ch/_rte/anlass/7833010",
+   "w": "http://www.zh.ch/kjz-horgen"
   },
   {
    "gemeinden": [
@@ -36207,7 +37489,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7621357"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7621357",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -36253,7 +37536,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "18.00 - 22.00",
    "age": null,
-   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1796/eventdate/2076"
+   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1796/eventdate/2076",
+   "w": "https://www.theaterzurwaage.ch"
   },
   {
    "gemeinden": [
@@ -36281,7 +37565,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
    "age": null,
-   "url": "https://www.buchamirchel.ch/_rte/anlass/7593205"
+   "url": "https://www.buchamirchel.ch/_rte/anlass/7593205",
+   "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
   {
    "gemeinden": [
@@ -36309,7 +37594,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.birmensdorf.ch/_rte/anlass/7379005"
+   "url": "https://www.birmensdorf.ch/_rte/anlass/7379005",
+   "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
   {
    "gemeinden": [
@@ -36327,7 +37613,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4267/eventdate/3054"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4267/eventdate/3054",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -36341,7 +37628,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "11.00 - 20.00",
    "age": null,
-   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1797/eventdate/2075"
+   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1797/eventdate/2075",
+   "w": "https://www.theaterzurwaage.ch"
   },
   {
    "gemeinden": [
@@ -36467,7 +37755,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Forum 21 Illnau-Effretikon",
    "time": "",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7822069"
+   "url": "https://www.ilef.ch/_rte/anlass/7822069",
+   "w": "https://pas-de-deux.ch"
   },
   {
    "gemeinden": [
@@ -36523,7 +37812,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Freizyti Wangen-Brüttisellen",
    "time": "",
    "age": null,
-   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7799206"
+   "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7799206",
+   "w": "https://www.freizyti.ch/30_jahre_freizyti"
   },
   {
    "gemeinden": [
@@ -36605,7 +37895,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "10.00 - 10.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7778164"
+   "url": "https://www.kloten.ch/_rte/anlass/7778164",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -36651,7 +37942,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809424"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809424",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -36665,7 +37957,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818778"
+   "url": "https://www.ilef.ch/_rte/anlass/7818778",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -36697,7 +37990,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702594"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702594",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -36711,7 +38005,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kath. Pfarrei Christkönig",
    "time": "16.15 - 17.30",
    "age": null,
-   "url": "https://www.kloten.ch/_rte/anlass/7736086"
+   "url": "https://www.kloten.ch/_rte/anlass/7736086",
+   "w": "http://www.schluefweg.ch/"
   },
   {
    "gemeinden": [
@@ -36729,7 +38024,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729177"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729177",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -36797,7 +38093,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7817026"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7817026",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -36863,7 +38160,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4252-3045",
+   "id": "knonau-4252-3258",
    "name": "Buchstart Bibliothek",
    "von": "2027-07-09",
    "bis": "2027-07-09",
@@ -36875,7 +38172,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4252/eventdate/3045"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4252/eventdate/3258",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -37063,7 +38361,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 16 Jahre"
    },
-   "url": "https://www.ruemlang.ch/_rte/anlass/7822036"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7822036",
+   "w": "http://www.frmclinics.ch"
   },
   {
    "gemeinden": [
@@ -37077,7 +38376,23 @@ window.FAMILIENAGENDA = {
    "veranstalter": "MS Sports AG",
    "time": "9.30 - 16.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7766359"
+   "url": "https://www.ilef.ch/_rte/anlass/7766359",
+   "w": "https://www.mssports.ch/gaming-sport-camps/infos-und-anmeldung"
+  },
+  {
+   "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834645",
+   "name": "MS Sports Fussball Camp Wallisellen 2027",
+   "von": "2027-07-19",
+   "bis": "2027-07-19",
+   "ort": "Sportzentrum Spöde",
+   "veranstalter": "MS Sports AG",
+   "time": "",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834645",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
   },
   {
    "gemeinden": [
@@ -37095,7 +38410,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818703"
+   "url": "https://www.ilef.ch/_rte/anlass/7818703",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -37113,7 +38429,38 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "6 bis 16 Jahre"
    },
-   "url": "https://www.ruemlang.ch/_rte/anlass/7822039"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7822039",
+   "w": "http://www.frmclinics.ch"
+  },
+  {
+   "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834648",
+   "name": "MS Sports Fussball Camp Wallisellen 2027",
+   "von": "2027-07-20",
+   "bis": "2027-07-20",
+   "ort": "Sportzentrum Spöde",
+   "veranstalter": "MS Sports AG",
+   "time": "",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834648",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
+  },
+  {
+   "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834651",
+   "name": "MS Sports Fussball Camp Wallisellen 2027",
+   "von": "2027-07-21",
+   "bis": "2027-07-21",
+   "ort": "Sportzentrum Spöde",
+   "veranstalter": "MS Sports AG",
+   "time": "",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834651",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
   },
   {
    "gemeinden": [
@@ -37131,7 +38478,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.fehraltorf.ch/_rte/anlass/7817029"
+   "url": "https://www.fehraltorf.ch/_rte/anlass/7817029",
+   "w": "https://zh.ch/kjz.pfaeffikon"
   },
   {
    "gemeinden": [
@@ -37149,6 +38497,21 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834654",
+   "name": "MS Sports Fussball Camp Wallisellen 2027",
+   "von": "2027-07-22",
+   "bis": "2027-07-22",
+   "ort": "Sportzentrum Spöde",
+   "veranstalter": "MS Sports AG",
+   "time": "",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834654",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
+  },
+  {
+   "gemeinden": [
     "il"
    ],
    "id": "il-7818739",
@@ -37159,7 +38522,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818739"
+   "url": "https://www.ilef.ch/_rte/anlass/7818739",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -37178,6 +38542,21 @@ window.FAMILIENAGENDA = {
     "label": "4 bis 8 Jahre"
    },
    "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1755"
+  },
+  {
+   "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834657",
+   "name": "MS Sports Fussball Camp Wallisellen 2027",
+   "von": "2027-07-23",
+   "bis": "2027-07-23",
+   "ort": "Sportzentrum Spöde",
+   "veranstalter": "MS Sports AG",
+   "time": "",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834657",
+   "w": "https://www.mssports.ch/fussballcamps/infos"
   },
   {
    "gemeinden": [
@@ -37205,7 +38584,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Impuls Triathlon Club Bülach",
    "time": "9.00 - 16.00",
    "age": null,
-   "url": "https://www.buelach.ch/_rte/anlass/7631146"
+   "url": "https://www.buelach.ch/_rte/anlass/7631146",
+   "w": "https://kids-ferienprogramm.ch/"
   },
   {
    "gemeinden": [
@@ -37251,7 +38631,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Dorfvereine Bubikon-Wolfhausen",
    "time": "16.00",
    "age": null,
-   "url": "https://www.bubikon.ch/_rte/anlass/7681249"
+   "url": "https://www.bubikon.ch/_rte/anlass/7681249",
+   "w": "https://www.dorfvereine.ch/"
   },
   {
    "gemeinden": [
@@ -37283,7 +38664,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809427"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809427",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -37297,7 +38679,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818781"
+   "url": "https://www.ilef.ch/_rte/anlass/7818781",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -37449,7 +38832,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818706"
+   "url": "https://www.ilef.ch/_rte/anlass/7818706",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -37464,20 +38848,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604695"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006487",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-08-19",
-   "bis": "2027-08-19",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-19/"
   },
   {
    "gemeinden": [
@@ -37505,7 +38875,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818742"
+   "url": "https://www.ilef.ch/_rte/anlass/7818742",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -37538,20 +38909,6 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sport/zuricrit.html?calentry=1"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006488",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-08-23",
-   "bis": "2027-08-23",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-23/"
   },
   {
    "gemeinden": [
@@ -37593,7 +38950,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://www.seegraeben.ch/_rte/anlass/6844300"
+   "url": "https://www.seegraeben.ch/_rte/anlass/6844300",
+   "w": "https://www.kirche-seegraeben.ch"
   },
   {
    "gemeinden": [
@@ -37608,20 +38966,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604698"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006489",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-08-26",
-   "bis": "2027-08-26",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-26/"
   },
   {
    "gemeinden": [
@@ -37671,20 +39015,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-55466",
-   "name": "Pfäffiker Dorfete 2027",
-   "von": "2027-08-27",
-   "bis": "2027-08-28",
-   "ort": "Bahnhofstrasse",
-   "veranstalter": "",
-   "time": "",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/pfaeffiker-dorfete-2027/"
-  },
-  {
-   "gemeinden": [
     "knonau"
    ],
    "id": "knonau-4269-3056",
@@ -37699,21 +39029,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3056"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006490",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-08-30",
-   "bis": "2027-08-30",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-08-30/"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3056",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -37745,7 +39062,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729183"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729183",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -37760,20 +39078,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604701"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006491",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-02",
-   "bis": "2027-09-02",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-02/"
   },
   {
    "gemeinden": [
@@ -37837,21 +39141,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Natur- und Vogelschutzverein Gartenrötel Uitikon",
    "time": "14.00 - 16.00",
    "age": null,
-   "url": "https://www.uitikon.ch/_rte/anlass/7792036"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006492",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-06",
-   "bis": "2027-09-06",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-06/"
+   "url": "https://www.uitikon.ch/_rte/anlass/7792036",
+   "w": "https://www.gartenroetel.ch/node/153"
   },
   {
    "gemeinden": [
@@ -37883,7 +39174,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809430"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809430",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -37897,7 +39189,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818784"
+   "url": "https://www.ilef.ch/_rte/anlass/7818784",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -37929,7 +39222,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725964"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725964",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -37944,20 +39238,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604704"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006493",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-09",
-   "bis": "2027-09-09",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-09/"
   },
   {
    "gemeinden": [
@@ -37989,13 +39269,14 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730365"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730365",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4254-3046",
+   "id": "knonau-4254-3259",
    "name": "Buchstart Bibliothek",
    "von": "2027-09-10",
    "bis": "2027-09-10",
@@ -38007,7 +39288,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4254/eventdate/3046"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4254/eventdate/3259",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -38025,7 +39307,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827301"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7827301",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -38058,20 +39341,6 @@ window.FAMILIENAGENDA = {
    "time": "",
    "age": null,
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4367/eventdate/3222"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006494",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-13",
-   "bis": "2027-09-13",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-13/"
   },
   {
    "gemeinden": [
@@ -38121,7 +39390,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702597"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702597",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -38139,7 +39409,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "0 bis 5 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7729186"
+   "url": "https://www.urdorf.ch/_rte/anlass/7729186",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -38171,7 +39442,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "4 bis 10 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4285/eventdate/3244"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4285/eventdate/3244",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -38185,21 +39457,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776406"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006495",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-16",
-   "bis": "2027-09-16",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-16/"
+   "url": "https://www.ilef.ch/_rte/anlass/7776406",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -38227,7 +39486,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Verein Klassikfestival Küsnacht",
    "time": "",
    "age": null,
-   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16268/eventdate/15595"
+   "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/16268/eventdate/15595",
+   "w": "https://www.klassikfestival.ch"
   },
   {
    "gemeinden": [
@@ -38241,7 +39501,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818745"
+   "url": "https://www.ilef.ch/_rte/anlass/7818745",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -38287,21 +39548,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bürgermusik Benken",
    "time": "",
    "age": null,
-   "url": "https://www.benken.ch/_rte/anlass/7789402"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006496",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-20",
-   "bis": "2027-09-20",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-20/"
+   "url": "https://www.benken.ch/_rte/anlass/7789402",
+   "w": "https://buergermusikbenken.ch"
   },
   {
    "gemeinden": [
@@ -38333,7 +39581,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818709"
+   "url": "https://www.ilef.ch/_rte/anlass/7818709",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -38347,7 +39596,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Chumm und mach mit!",
    "time": "",
    "age": null,
-   "url": "https://www.urdorf.ch/_rte/anlass/7813867"
+   "url": "https://www.urdorf.ch/_rte/anlass/7813867",
+   "w": "https://www.schuleurdorf.ch/web/index.php"
   },
   {
    "gemeinden": [
@@ -38376,20 +39626,6 @@ window.FAMILIENAGENDA = {
    "time": "18.30 - 19.30",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/kitas/de/stadteigene/aktuelles/veranstaltungen/besichtigung-kita-leutschenbach.html?calentry=16"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006497",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-23",
-   "bis": "2027-09-23",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-23/"
   },
   {
    "gemeinden": [
@@ -38463,7 +39699,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "",
    "age": null,
-   "url": "https://stadt.winterthur.ch/veranstaltung/winti-sola"
+   "url": "https://stadt.winterthur.ch/veranstaltung/winti-sola",
+   "w": "https://www.wintisola.ch/"
   },
   {
    "gemeinden": [
@@ -38477,21 +39714,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7764067"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006498",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-27",
-   "bis": "2027-09-27",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-27/"
+   "url": "https://www.ilef.ch/_rte/anlass/7764067",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -38523,7 +39747,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714909"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714909",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -38555,21 +39780,8 @@ window.FAMILIENAGENDA = {
     "max": 7,
     "label": "3 bis 7 Jahre"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818811"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006499",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-09-30",
-   "bis": "2027-09-30",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-09-30/"
+   "url": "https://www.ilef.ch/_rte/anlass/7818811",
+   "w": "https://www.bibliotheksverein.ch/illnau"
   },
   {
    "gemeinden": [
@@ -38601,7 +39813,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730368"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730368",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -38637,6 +39850,20 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "wallisellen"
+   ],
+   "id": "wallisellen-7834570",
+   "name": "Kinderartikelbörse",
+   "von": "2027-10-02",
+   "bis": "2027-10-02",
+   "ort": "Saal zum Doktorhaus",
+   "veranstalter": "Elternforum Wallisellen",
+   "time": "9.00 - 11.00",
+   "age": null,
+   "url": "https://www.wallisellen.ch/_rte/anlass/7834570"
+  },
+  {
+   "gemeinden": [
     "richterswil"
    ],
    "id": "richterswil-7792939",
@@ -38651,7 +39878,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "0 bis 10 Jahre"
    },
-   "url": "https://www.richterswil.ch/_rte/anlass/7792939"
+   "url": "https://www.richterswil.ch/_rte/anlass/7792939",
+   "w": "https://www.secondhandsamstagern.ch"
   },
   {
    "gemeinden": [
@@ -38670,20 +39898,6 @@ window.FAMILIENAGENDA = {
     "label": "ab 5 Jahren"
    },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7289216"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006500",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-04",
-   "bis": "2027-10-04",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-04/"
   },
   {
    "gemeinden": [
@@ -38715,7 +39929,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809433"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809433",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -38729,7 +39944,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818787"
+   "url": "https://www.ilef.ch/_rte/anlass/7818787",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -38761,7 +39977,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725967"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725967",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -38779,20 +39996,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006501",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-07",
-   "bis": "2027-10-07",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-07/"
-  },
-  {
-   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604911",
@@ -38804,20 +40007,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604911"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006502",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-11",
-   "bis": "2027-10-11",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-11/"
   },
   {
    "gemeinden": [
@@ -38845,7 +40034,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "",
    "time": "9.00",
    "age": null,
-   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3548/eventdate/58878"
+   "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/3548/eventdate/58878",
+   "w": "https://refhorgen.ch/veranstaltung/62568"
   },
   {
    "gemeinden": [
@@ -38859,7 +40049,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "FMG - Freie Missionsgemeinde Kollbrunn",
    "time": "13.15 - 17.00",
    "age": null,
-   "url": "https://www.zell.ch/_rte/anlass/7796065"
+   "url": "https://www.zell.ch/_rte/anlass/7796065",
+   "w": "https://fmg-kollbrunn.ch/"
   },
   {
    "gemeinden": [
@@ -38874,20 +40065,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604719"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006503",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-14",
-   "bis": "2027-10-14",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-14/"
   },
   {
    "gemeinden": [
@@ -38915,21 +40092,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818748"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006504",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-18",
-   "bis": "2027-10-18",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-18/"
+   "url": "https://www.ilef.ch/_rte/anlass/7818748",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -38961,7 +40125,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818712"
+   "url": "https://www.ilef.ch/_rte/anlass/7818712",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -38989,21 +40154,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776409"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006505",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-21",
-   "bis": "2027-10-21",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-21/"
+   "url": "https://www.ilef.ch/_rte/anlass/7776409",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -39018,20 +40170,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604917"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006506",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-25",
-   "bis": "2027-10-25",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-25/"
   },
   {
    "gemeinden": [
@@ -39077,7 +40215,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725970"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725970",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -39095,7 +40234,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "1 bis 4 Jahre"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7714912"
+   "url": "https://www.urdorf.ch/_rte/anlass/7714912",
+   "w": "https://www.bibliotheken-zh.ch/Urdorf/"
   },
   {
    "gemeinden": [
@@ -39110,20 +40250,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604725"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006507",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-10-28",
-   "bis": "2027-10-28",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-10-28/"
   },
   {
    "gemeinden": [
@@ -39155,7 +40281,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818814"
+   "url": "https://www.ilef.ch/_rte/anlass/7818814",
+   "w": "http://www.bibliotheksverein.ch/illnau"
   },
   {
    "gemeinden": [
@@ -39173,7 +40300,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "1 bis 3 Jahre"
    },
-   "url": "https://www.maennedorf.ch/_rte/anlass/7827304"
+   "url": "https://www.maennedorf.ch/_rte/anlass/7827304",
+   "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
   },
   {
    "gemeinden": [
@@ -39191,21 +40319,22 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4271/eventdate/3058"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4271/eventdate/3058",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
-    "pfaeffikon"
+    "ruemlang"
    ],
-   "id": "pfaeffikon-10006508",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-11-01",
-   "bis": "2027-11-01",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
+   "id": "ruemlang-7833850",
+   "name": "Kinderkleiderbörse im Herbst",
+   "von": "2027-10-30",
+   "bis": "2027-10-30",
+   "ort": "Gemeindesaal Rümlang",
+   "veranstalter": "Kinderkleiderbörse Rümlang",
+   "time": "13.00 - 15.30",
    "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-01/"
+   "url": "https://www.ruemlang.ch/_rte/anlass/7833850"
   },
   {
    "gemeinden": [
@@ -39237,7 +40366,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.weisslingen.ch/_rte/anlass/7809436"
+   "url": "https://www.weisslingen.ch/_rte/anlass/7809436",
+   "w": "http://zh.ch/kjz-pfaeffikon.ch"
   },
   {
    "gemeinden": [
@@ -39251,7 +40381,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818790"
+   "url": "https://www.ilef.ch/_rte/anlass/7818790",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   },
   {
    "gemeinden": [
@@ -39269,7 +40400,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725973"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725973",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -39284,20 +40416,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604728"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006509",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-11-04",
-   "bis": "2027-11-04",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-04/"
   },
   {
    "gemeinden": [
@@ -39357,7 +40475,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "2 bis 3 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7730371"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7730371",
+   "w": "http://www.stadtbibliothek-duebendorf.ch"
   },
   {
    "gemeinden": [
@@ -39385,7 +40504,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Kirchgemeinde Mönchaltorf Oetwil am See",
    "time": "9.30 - 10.00",
    "age": null,
-   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832986"
+   "url": "https://www.moenchaltorf.ch/_rte/anlass/7832986",
+   "w": "https://ref-moenchaltorf-oetwil.ch/"
   },
   {
    "gemeinden": [
@@ -39400,20 +40520,6 @@ window.FAMILIENAGENDA = {
    "time": "16.00 - 18.00",
    "age": null,
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/stadtleben/sicherheit/oeffentliche-fuehrung-zs-museum.html?calentry=15"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006510",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-11-08",
-   "bis": "2027-11-08",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-08/"
   },
   {
    "gemeinden": [
@@ -39463,7 +40569,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.urdorf.ch/_rte/anlass/7702600"
+   "url": "https://www.urdorf.ch/_rte/anlass/7702600",
+   "w": "https://www.bibliotheken-zh.ch/urdorf/"
   },
   {
    "gemeinden": [
@@ -39478,20 +40585,6 @@ window.FAMILIENAGENDA = {
    "time": "9.00 - 11.00",
    "age": null,
    "url": "https://www.thalwil.ch/_rte/anlass/7604731"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006511",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-11-11",
-   "bis": "2027-11-11",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-11/"
   },
   {
    "gemeinden": [
@@ -39511,7 +40604,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4261-3048",
+   "id": "knonau-4261-3260",
    "name": "Buchstart Bibliothek",
    "von": "2027-11-12",
    "bis": "2027-11-12",
@@ -39523,7 +40616,8 @@ window.FAMILIENAGENDA = {
     "max": 4,
     "label": "0 bis 4 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4261/eventdate/3048"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4261/eventdate/3260",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -39541,7 +40635,8 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 4 Jahren"
    },
-   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1948/eventdate/2245"
+   "url": "https://www.elgg.ch/wohnen-leben/leben/veranstaltungen.html/143/event/1948/eventdate/2245",
+   "w": "https://www.kulturinelgg.ch"
   },
   {
    "gemeinden": [
@@ -39555,21 +40650,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Reisetheater GmbH",
    "time": "14.00",
    "age": null,
-   "url": "https://www.opfikon.ch/_rte/anlass/7783228"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006512",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-11-15",
-   "bis": "2027-11-15",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-15/"
+   "url": "https://www.opfikon.ch/_rte/anlass/7783228",
+   "w": "http://www.reisetheater.ch"
   },
   {
    "gemeinden": [
@@ -39601,7 +40683,8 @@ window.FAMILIENAGENDA = {
     "max": 3,
     "label": "Kleinkinder"
    },
-   "url": "https://www.ilef.ch/_rte/anlass/7818715"
+   "url": "https://www.ilef.ch/_rte/anlass/7818715",
+   "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/kinder-und-jugendhilfezentren/veranstaltungen-kurse-kjz/bewegungsraum-fuer-babys1.html"
   },
   {
    "gemeinden": [
@@ -39633,7 +40716,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725979"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725979",
+   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
   },
   {
    "gemeinden": [
@@ -39665,7 +40749,8 @@ window.FAMILIENAGENDA = {
     "max": 10,
     "label": "4 bis 10 Jahre"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4287/eventdate/3245"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4287/eventdate/3245",
+   "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
    "gemeinden": [
@@ -39679,21 +40764,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Bibliothek Effretikon",
    "time": "14.00 - 14.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7776412"
-  },
-  {
-   "gemeinden": [
-    "pfaeffikon"
-   ],
-   "id": "pfaeffikon-10006513",
-   "name": "Eltern-Kind-Singen",
-   "von": "2027-11-18",
-   "bis": "2027-11-18",
-   "ort": "Familienverein Pfäffikon",
-   "veranstalter": "",
-   "time": "09.30 - 11.00",
-   "age": null,
-   "url": "https://www.pfaeffikon.ch/event/eltern-kind-singen-2-2/2027-11-18/"
+   "url": "https://www.ilef.ch/_rte/anlass/7776412",
+   "w": "https://www.bibliotheksverein.ch/effretikon"
   },
   {
    "gemeinden": [
@@ -39721,7 +40793,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818751"
+   "url": "https://www.ilef.ch/_rte/anlass/7818751",
+   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
   }
  ]
 };
