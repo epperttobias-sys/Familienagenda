@@ -1,0 +1,34 @@
+name: Kandidaten-Websites und Bezirksbroschüren prüfen
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pruefen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node collect/probe2.mjs
+        continue-on-error: true
+      - name: Broschüren der Bezirke holen
+        continue-on-error: true
+        run: |
+          sudo apt-get install -y -q poppler-utils >/dev/null
+          mkdir -p data/brosch
+          B="https://internet.zh.ch/content/dam/zhweb/bilder-dokumente/themen/familie/angebote-fuer-familien-mit-kindern/freizeitgestaltung"
+          for n in affoltern andelfingen buelach dielsdorf dietikon hinwil horgen meilen pfaeffikon uster winterthur zuerich Affoltern Andelfingen Buelach Dielsdorf Dietikon Hinwil Horgen Meilen Uster Winterthur Zuerich; do
+            for f in "Angebote_Familien_$n.pdf" "angebote_familien_$n.pdf"; do
+              curl -sfL -A "Mozilla/5.0" "$B/$f" -o /tmp/b.pdf && pdftotext -layout /tmp/b.pdf "data/brosch/$f.txt" && echo "ok $f"
+            done
+          done
+          ls -la data/brosch
+      - run: |
+          git config user.name "familienagenda-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/probe2-out.json data/brosch
+          git diff --cached --quiet || git commit -m "Kandidaten geprüft"
+          git pull --rebase -X theirs --autostash origin main || (git rebase --abort; git pull --no-rebase -X ours origin main)
+          git push
