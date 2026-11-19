@@ -63,7 +63,7 @@ export function detailText(html, name) {
 }
 
 // Link zum Veranstalter auf der Detailseite (externe Website, keine Gemeinde-, Karten- oder Social-Links)
-const LINK_NO = /facebook|instagram|twitter|x\.com|linkedin|youtube|whatsapp|tiktok|google\.|maps\.|apple\.com|geo\.admin|map\.geo|swisstopo|sbb\.ch|search\.ch|local\.ch|i-web|iweb|cmi-|cookiebot|matomo|\.pdf($|\?)|mailto:|tel:|javascript:/i;
+const LINK_NO = /facebook|instagram|twitter|x\.com|linkedin|youtube|whatsapp|tiktok|google\.|goo\.gl|maps\.|geoweb|baustelle|apple\.com|geo\.admin|map\.geo|swisstopo|sbb\.ch|search\.ch|local\.ch|i-web|iweb|cmi-|cookiebot|matomo|\.pdf($|\?)|mailto:|tel:|javascript:/i;
 export function detailLink(html, domain) {
   const mainAt = html.search(/<main[\s>]/i);
   let body = html.slice(Math.max(0, mainAt >= 0 ? mainAt : html.search(/<body[\s>]/i)));
@@ -404,7 +404,7 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     if (info.kids || KIDS_CATEGORIES.has(ev.kategorie)) result.push({
       gemeinden: [code], id: `${code}-${ev.id}`, name: ev.name, von: ev.von, bis: ev.bis,
       ort: ev.ort || info.ort || "", veranstalter: ev.veranstalter || info.veranstalter || "",
-      time: ev.time || info.time, age: info.age, url: ev.url, ...(info.lk ? { w: info.lk } : {}),
+      time: ev.time || info.time, age: info.age, url: ev.url, ...(info.lk && !LINK_NO.test(info.lk) ? { w: info.lk } : {}),
     });
   }
   return { rows: items.length, events: result };
