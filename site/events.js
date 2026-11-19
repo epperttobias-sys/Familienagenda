@@ -2192,8 +2192,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7056227",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7056227"
   },
   {
    "gemeinden": [
@@ -6859,8 +6858,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740448",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7740448"
   },
   {
    "gemeinden": [
@@ -7453,8 +7451,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Solidarbasar Effretikon",
    "time": "9.00 - 13.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7300175",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7300175"
   },
   {
    "gemeinden": [
@@ -9911,8 +9908,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7349110",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7349110"
   },
   {
    "gemeinden": [
@@ -10404,8 +10400,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036301",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036301"
   },
   {
    "gemeinden": [
@@ -15460,8 +15455,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036304",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036304"
   },
   {
    "gemeinden": [
@@ -16839,8 +16833,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740451",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7740451"
   },
   {
    "gemeinden": [
@@ -20176,8 +20169,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7056230",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7056230"
   },
   {
    "gemeinden": [
@@ -22208,8 +22200,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818760",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818760"
   },
   {
    "gemeinden": [
@@ -23463,8 +23454,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725934",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725934"
   },
   {
    "gemeinden": [
@@ -23867,8 +23857,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818721",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818721"
   },
   {
    "gemeinden": [
@@ -23930,8 +23919,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740454",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7740454"
   },
   {
    "gemeinden": [
@@ -25573,8 +25561,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725937",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725937"
   },
   {
    "gemeinden": [
@@ -26031,8 +26018,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Katholische Kirche Dübendorf + Elterngruppe Dübendorf",
    "time": "16.30 - 23.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7761352",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7761352"
   },
   {
    "gemeinden": [
@@ -26407,8 +26393,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818763",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818763"
   },
   {
    "gemeinden": [
@@ -27510,8 +27495,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725940",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725940"
   },
   {
    "gemeinden": [
@@ -28138,8 +28122,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725943",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725943"
   },
   {
    "gemeinden": [
@@ -28224,8 +28207,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818724",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818724"
   },
   {
    "gemeinden": [
@@ -28738,8 +28720,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740457",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7740457"
   },
   {
    "gemeinden": [
@@ -29091,8 +29072,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818766",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818766"
   },
   {
    "gemeinden": [
@@ -30811,8 +30791,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725949",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725949"
   },
   {
    "gemeinden": [
@@ -31083,8 +31062,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818727",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818727"
   },
   {
    "gemeinden": [
@@ -31957,8 +31935,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725952",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725952"
   },
   {
    "gemeinden": [
@@ -32511,8 +32488,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818769",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818769"
   },
   {
    "gemeinden": [
@@ -33288,8 +33264,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725955",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725955"
   },
   {
    "gemeinden": [
@@ -33580,8 +33555,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818730",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818730"
   },
   {
    "gemeinden": [
@@ -34607,8 +34581,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818772",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818772"
   },
   {
    "gemeinden": [
@@ -34865,8 +34838,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725958",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725958"
   },
   {
    "gemeinden": [
@@ -35394,8 +35366,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818733",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818733"
   },
   {
    "gemeinden": [
@@ -36033,8 +36004,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818775",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818775"
   },
   {
    "gemeinden": [
@@ -36525,8 +36495,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725961",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725961"
   },
   {
    "gemeinden": [
@@ -37044,8 +37013,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818736",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818736"
   },
   {
    "gemeinden": [
@@ -37957,8 +37925,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818778",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818778"
   },
   {
    "gemeinden": [
@@ -38522,8 +38489,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818739",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818739"
   },
   {
    "gemeinden": [
@@ -38679,8 +38645,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818781",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818781"
   },
   {
    "gemeinden": [
@@ -38875,8 +38840,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818742",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818742"
   },
   {
    "gemeinden": [
@@ -39189,8 +39153,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818784",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818784"
   },
   {
    "gemeinden": [
@@ -39222,8 +39185,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725964",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725964"
   },
   {
    "gemeinden": [
@@ -39501,8 +39463,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818745",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818745"
   },
   {
    "gemeinden": [
@@ -39944,8 +39905,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818787",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818787"
   },
   {
    "gemeinden": [
@@ -39977,8 +39937,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725967",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725967"
   },
   {
    "gemeinden": [
@@ -40092,8 +40051,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818748",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818748"
   },
   {
    "gemeinden": [
@@ -40215,8 +40173,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725970",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725970"
   },
   {
    "gemeinden": [
@@ -40381,8 +40338,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818790",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818790"
   },
   {
    "gemeinden": [
@@ -40400,8 +40356,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725973",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725973"
   },
   {
    "gemeinden": [
@@ -40716,8 +40671,7 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725979",
-   "w": "https://du.geoweb.gossweiler.com/api/plugins/accesslinks/baustelleninfo"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725979"
   },
   {
    "gemeinden": [
@@ -40793,8 +40747,7 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818751",
-   "w": "https://goo.gl/maps/zQ1Q7F1WddZ1FkwC8"
+   "url": "https://www.ilef.ch/_rte/anlass/7818751"
   }
  ]
 };
