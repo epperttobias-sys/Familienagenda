@@ -62,6 +62,24 @@ export function detailText(html, name) {
   return (end > 0 ? t.slice(0, end) : t).slice(0, 4000);
 }
 
+// Link zum Veranstalter auf der Detailseite (externe Website, keine Gemeinde-, Karten- oder Social-Links)
+const LINK_NO = /facebook|instagram|twitter|x\.com|linkedin|youtube|whatsapp|tiktok|google\.|maps\.|apple\.com|geo\.admin|map\.geo|swisstopo|sbb\.ch|search\.ch|local\.ch|i-web|iweb|cmi-|cookiebot|matomo|\.pdf($|\?)|mailto:|tel:|javascript:/i;
+export function detailLink(html, domain) {
+  const mainAt = html.search(/<main[\s>]/i);
+  let body = html.slice(Math.max(0, mainAt >= 0 ? mainAt : html.search(/<body[\s>]/i)));
+  const cut = body.search(/<footer[\s>]|Fussbereich|<\/main>/i); if (cut > 0) body = body.slice(0, cut);
+  const host = (domain || "").replace(/^www\./, "").split("/")[0];
+  const cands = [];
+  for (const m of body.matchAll(/<a\b[^>]*href="(https?:\/\/[^"#]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+    const u = decode(m[1]), t = strip(m[2]);
+    let h; try { h = new URL(u).host.replace(/^www\./, ""); } catch { continue; }
+    if (LINK_NO.test(u) || (host && (h === host || h.endsWith("." + host)))) continue;
+    cands.push({ u, score: /website|webseite|homepage|www\.|weitere inf|mehr inf|anmeld|tickets?|programm|link/i.test(t) ? 2 : 1 });
+  }
+  cands.sort((a, b) => b.score - a.score);
+  return cands[0] ? cands[0].u : "";
+}
+
 export function parseTime(text) {
   const m = text.match(/\d{4}\s*,\s*(\d{1,2})[.:](\d{2})(?:\s*Uhr)?(?:\s*(?:-|–|bis)\s*(\d{1,2})[.:](\d{2}))?/);
   if (!m) return "";
@@ -375,10 +393,10 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     if (!isCandidate(ev, today)) continue;
     const key = `${code}:${ev.detailKey ?? ev.id}`;
     let info = cache[key];
-    if (!info || day(today) - day(info.seen) > 14) {
-      let text = `${ev.name} ${ev.hint}`;
-      if (ev.detailKey) { try { text = detailText(await get(ev.url), ev.name); } catch { info = null; } }
-      const fresh = { ...classify(ev, `${ev.hint} ${text}`), ...extras(text), seen: today };
+    if (!info || day(today) - day(info.seen) > 14 || (ev.detailKey && !("lk" in info))) {
+      let text = `${ev.name} ${ev.hint}`, lk = "";
+      if (ev.detailKey) { try { const html = await get(ev.url); text = detailText(html, ev.name); lk = detailLink(html, site.domain); } catch { info = null; } }
+      const fresh = { ...classify(ev, `${ev.hint} ${text}`), ...extras(text), lk, seen: today };
       if (info !== null) cache[key] = fresh;
       info = fresh;
     }
@@ -386,7 +404,7 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     if (info.kids || KIDS_CATEGORIES.has(ev.kategorie)) result.push({
       gemeinden: [code], id: `${code}-${ev.id}`, name: ev.name, von: ev.von, bis: ev.bis,
       ort: ev.ort || info.ort || "", veranstalter: ev.veranstalter || info.veranstalter || "",
-      time: ev.time || info.time, age: info.age, url: ev.url,
+      time: ev.time || info.time, age: info.age, url: ev.url, ...(info.lk ? { w: info.lk } : {}),
     });
   }
   return { rows: items.length, events: result };

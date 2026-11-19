@@ -787,7 +787,9 @@ function render(){
     if(pl==="out"&&wet(w))tags.append(node("span","tag warn","Regen möglich"));
     const fk=favKey(e),fb=node("button","fav",FAVS.has(fk)?"♥":"♡");fb.type="button";fb.setAttribute("aria-pressed",String(FAVS.has(fk)));fb.setAttribute("aria-label","Merken");
     fb.addEventListener("click",()=>{FAVS.has(fk)?FAVS.delete(fk):FAVS.add(fk);saveFav();render()});
-    bd.append(a,node("div","meta",bits.join(" · ")),tags);ev.append(em,bd,fb);list.append(ev);
+    bd.append(a,node("div","meta",bits.join(" · ")),tags);
+    if(e.w){const lk=node("div","lk"),wa=node("a","","🔗 Website des Veranstalters");wa.href=e.w;wa.target="_blank";wa.rel="noopener";lk.append(wa);bd.append(lk)}
+    ev.append(em,bd,fb);list.append(ev);
   }
   if(items.length>400)list.append(node("p","empty","Es werden die ersten 400 Anlässe gezeigt. Wähle einen Tag oder eine Gemeinde, um die Liste einzugrenzen."));
 }
