@@ -356,7 +356,7 @@ window.FAMILIENAGENDA = {
    "bezirk": "Affoltern",
    "domain": "www.knonau.ch",
    "ok": true,
-   "count": 37
+   "count": 38
   },
   "mettmenstetten": {
    "name": "Mettmenstetten",
@@ -2192,7 +2192,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7056227"
+   "url": "https://www.ilef.ch/_rte/anlass/7056227",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -3283,9 +3284,10 @@ window.FAMILIENAGENDA = {
    "bis": "2026-11-21",
    "ort": "Sihltal Kirche",
    "veranstalter": "Sihltal Kirche",
-   "time": "",
+   "time": "16.00 - 20.00",
    "age": null,
-   "url": "https://www.adliswil.ch/_rte/anlass/7817080"
+   "url": "https://www.adliswil.ch/_rte/anlass/7817080",
+   "w": "https://www.sihltalkirche.ch/2026/11/09/kerzenziehen-2/"
   },
   {
    "gemeinden": [
@@ -6858,7 +6860,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740448"
+   "url": "https://www.ilef.ch/_rte/anlass/7740448",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -7451,7 +7454,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Solidarbasar Effretikon",
    "time": "9.00 - 13.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7300175"
+   "url": "https://www.ilef.ch/_rte/anlass/7300175",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -9908,7 +9912,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7349110"
+   "url": "https://www.ilef.ch/_rte/anlass/7349110",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -10400,7 +10405,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036301"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036301",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -11803,17 +11809,18 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
+    "knonau",
     "mettmenstetten"
    ],
-   "id": "mettmenstetten-2234-1588",
+   "id": "knonau-4505-3264",
    "name": "St. Nikolaus besucht die Kinder",
    "von": "2026-12-03",
-   "bis": "2026-12-06",
+   "bis": "2026-12-03",
    "ort": "",
    "veranstalter": "",
    "time": "16.45",
    "age": null,
-   "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/2234/eventdate/1588"
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4505/eventdate/3264"
   },
   {
    "gemeinden": [
@@ -13160,7 +13167,11 @@ window.FAMILIENAGENDA = {
    "ort": "Stadt-und Regionalbibliothek",
    "veranstalter": "Stadt- und Regionalbibliothek Uster",
    "time": "10.30 - 11.30",
-   "age": null,
+   "age": {
+    "min": 8,
+    "max": 12,
+    "label": "ab 8 Jahren"
+   },
    "url": "https://www.uster.ch/_rte/anlass/7826464"
   },
   {
@@ -15455,7 +15466,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7036304"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7036304",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -16833,7 +16845,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740451"
+   "url": "https://www.ilef.ch/_rte/anlass/7740451",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -17852,6 +17865,20 @@ window.FAMILIENAGENDA = {
     "label": "3 bis 6 Jahre"
    },
    "url": "https://www.erlenbach.ch/de/veranstaltungen/yoga-fuer-mama-kind-11/"
+  },
+  {
+   "gemeinden": [
+    "u"
+   ],
+   "id": "u-7835479",
+   "name": "Zweisprachige Kinderlesung: Ana Sofia und die Tränenwolke",
+   "von": "2026-12-12",
+   "bis": "2026-12-12",
+   "ort": "Stadt- und Regionalbibliothek Uster",
+   "veranstalter": "Stadt- und Regionalbibliothek Uster",
+   "time": "10.30",
+   "age": null,
+   "url": "https://www.uster.ch/_rte/anlass/7835479"
   },
   {
    "gemeinden": [
@@ -20169,7 +20196,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7056230"
+   "url": "https://www.ilef.ch/_rte/anlass/7056230",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -21523,21 +21551,6 @@ window.FAMILIENAGENDA = {
   },
   {
    "gemeinden": [
-    "u"
-   ],
-   "id": "u-7786720",
-   "name": "Shaun das Schaf - Spuk im Kürbisfeld",
-   "von": "2026-12-24",
-   "bis": "2026-12-24",
-   "ort": "qtopia",
-   "veranstalter": "qtopia",
-   "time": "14.30",
-   "age": null,
-   "url": "https://www.uster.ch/_rte/anlass/7786720",
-   "w": "http://www.qtopia.ch"
-  },
-  {
-   "gemeinden": [
     "flurlingen"
    ],
    "id": "flurlingen-7233692",
@@ -22200,7 +22213,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818760"
+   "url": "https://www.ilef.ch/_rte/anlass/7818760",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -23454,7 +23468,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725934"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725934",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -23857,7 +23872,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818721"
+   "url": "https://www.ilef.ch/_rte/anlass/7818721",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -23919,7 +23935,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740454"
+   "url": "https://www.ilef.ch/_rte/anlass/7740454",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -25561,7 +25578,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725937"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725937",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -26018,7 +26036,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Katholische Kirche Dübendorf + Elterngruppe Dübendorf",
    "time": "16.30 - 23.00",
    "age": null,
-   "url": "https://www.duebendorf.ch/_rte/anlass/7761352"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7761352",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -26393,7 +26412,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818763"
+   "url": "https://www.ilef.ch/_rte/anlass/7818763",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -27495,7 +27515,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725940"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725940",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -28122,7 +28143,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725943"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725943",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -28207,7 +28229,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818724"
+   "url": "https://www.ilef.ch/_rte/anlass/7818724",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -28720,7 +28743,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "Soziokultur Illnau-Effretikon",
    "time": "19.00 - 22.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7740457"
+   "url": "https://www.ilef.ch/_rte/anlass/7740457",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -29072,7 +29096,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818766"
+   "url": "https://www.ilef.ch/_rte/anlass/7818766",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -30791,7 +30816,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725949"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725949",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -31062,7 +31088,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818727"
+   "url": "https://www.ilef.ch/_rte/anlass/7818727",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -31935,7 +31962,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725952"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725952",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -32488,7 +32516,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818769"
+   "url": "https://www.ilef.ch/_rte/anlass/7818769",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -33264,7 +33293,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725955"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725955",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -33555,7 +33585,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818730"
+   "url": "https://www.ilef.ch/_rte/anlass/7818730",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -34581,7 +34612,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818772"
+   "url": "https://www.ilef.ch/_rte/anlass/7818772",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -34838,7 +34870,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725958"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725958",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -35366,7 +35399,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818733"
+   "url": "https://www.ilef.ch/_rte/anlass/7818733",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -36004,7 +36038,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818775"
+   "url": "https://www.ilef.ch/_rte/anlass/7818775",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -36495,7 +36530,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725961"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725961",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -37013,7 +37049,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818736"
+   "url": "https://www.ilef.ch/_rte/anlass/7818736",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -37569,7 +37606,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4267-3054",
+   "id": "knonau-4267-3263",
    "name": "Gschichte-Ziit Bibliothek",
    "von": "2027-06-26",
    "bis": "2027-06-26",
@@ -37581,7 +37618,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4267/eventdate/3054",
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4267/eventdate/3263",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
@@ -37925,7 +37962,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818778"
+   "url": "https://www.ilef.ch/_rte/anlass/7818778",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -38489,7 +38527,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818739"
+   "url": "https://www.ilef.ch/_rte/anlass/7818739",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -38645,7 +38684,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818781"
+   "url": "https://www.ilef.ch/_rte/anlass/7818781",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -38840,7 +38880,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818742"
+   "url": "https://www.ilef.ch/_rte/anlass/7818742",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -38981,7 +39022,7 @@ window.FAMILIENAGENDA = {
    "gemeinden": [
     "knonau"
    ],
-   "id": "knonau-4269-3056",
+   "id": "knonau-4269-3265",
    "name": "Gschichte-Ziit Bibliothek",
    "von": "2027-08-28",
    "bis": "2027-08-28",
@@ -38993,7 +39034,7 @@ window.FAMILIENAGENDA = {
     "max": 12,
     "label": "ab 3 Jahren"
    },
-   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3056",
+   "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3265",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
   },
   {
@@ -39153,7 +39194,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818784"
+   "url": "https://www.ilef.ch/_rte/anlass/7818784",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -39185,7 +39227,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725964"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725964",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -39463,7 +39506,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818745"
+   "url": "https://www.ilef.ch/_rte/anlass/7818745",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -39905,7 +39949,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818787"
+   "url": "https://www.ilef.ch/_rte/anlass/7818787",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -39937,7 +39982,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725967"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725967",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -40051,7 +40097,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818748"
+   "url": "https://www.ilef.ch/_rte/anlass/7818748",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -40173,7 +40220,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725970"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725970",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -40338,7 +40386,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "15.00 - 16.30",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818790"
+   "url": "https://www.ilef.ch/_rte/anlass/7818790",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   },
   {
    "gemeinden": [
@@ -40356,7 +40405,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725973"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725973",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -40671,7 +40721,8 @@ window.FAMILIENAGENDA = {
     "max": 5,
     "label": "3 bis 5 Jahre"
    },
-   "url": "https://www.duebendorf.ch/_rte/anlass/7725979"
+   "url": "https://www.duebendorf.ch/_rte/anlass/7725979",
+   "w": "https://esteuern.egov-service.ch/de/zh"
   },
   {
    "gemeinden": [
@@ -40747,7 +40798,8 @@ window.FAMILIENAGENDA = {
    "veranstalter": "kjz Pfäffikon",
    "time": "9.30 - 11.00",
    "age": null,
-   "url": "https://www.ilef.ch/_rte/anlass/7818751"
+   "url": "https://www.ilef.ch/_rte/anlass/7818751",
+   "w": "https://www.schule-ilef.ch/ferienplan"
   }
  ]
 };
