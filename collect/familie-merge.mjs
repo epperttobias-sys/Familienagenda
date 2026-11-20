@@ -10,9 +10,11 @@ const DOC = /reglement|verordnung|ordnung\b|benutzungs|benützungs|gebühr|beitr
 const clean = n => n.replace(/\s*Externer Link wird in einem neuen Fenster geöffnet\.?/gi, "").replace(/\s*\((?:ausgewählt|pdf|extern)[^)]*\)/gi, "").replace(/\s+/g, " ").trim();
 
 export function mergeGemeindeSeiten(out, names) {
-  let S; try { S = JSON.parse(readFileSync("data/gemeinde-seiten.json", "utf8")).g; } catch { return { added: 0, filled: 0 }; }
+  // Quellen: Websites der Gemeinden und Standortlisten der Kita-Ketten
+  const S = [];
+  for (const f of ["data/gemeinde-seiten.json", "data/ketten.json"]) { try { S.push(...Object.entries(JSON.parse(readFileSync(f, "utf8")).g)); } catch {} }
   let added = 0, filled = 0;
-  for (const [c, o] of Object.entries(S)) {
+  for (const [c, o] of S) {
     const gname = names[c] || "", list = (out[c] = out[c] || []);
     for (const it0 of o.items || []) {
       const it = { ...it0, k: it0.k === "treff" ? "zentrum" : it0.k };
@@ -23,6 +25,7 @@ export function mergeGemeindeSeiten(out, names) {
         if (!twin.w && it.w) { twin.w = it.w; filled++; }
         if (!twin.u && it.u && it.u !== it.src) twin.u = it.u;
         if (!twin.a && it.a) twin.a = it.a;
+        if (!twin.lat && it.lat) { twin.lat = it.lat; twin.lon = it.lon; }
         continue;
       }
       const x = { k: it.k, n, a: it.a || "", w: it.w || "", oh: "", src: "g" };
