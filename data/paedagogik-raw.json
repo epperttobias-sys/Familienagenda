@@ -8,10 +8,27 @@
   "pages": 1
  },
  {
+  "key": "staefa|Kindertagesstätte pop e poppa",
+  "w": "https://www.popepoppa.ch/de/einrichtungen/kita-in-staefa/",
+  "hits": {
+   "bilingual": 6
+  },
+  "pages": 1
+ },
+ {
   "key": "staefa|Kita Müüsliburg",
   "w": "https://www.muusliburg.ch/",
   "hits": {},
   "pages": 5
+ },
+ {
+  "key": "staefa|pop e poppa Stäfa Tel",
+  "w": "https://www.popepoppa.ch/de/kita/gwunderfitz",
+  "hits": {
+   "montessori": 4,
+   "natur": 1
+  },
+  "pages": 2
  },
  {
   "key": "staefa|Teddybär",
@@ -43,7 +60,7 @@
   "key": "zuerich|Academicus",
   "w": "https://www.academicus.co/",
   "hits": {
-   "montessori": 7
+   "montessori": 3
   },
   "pages": 2
  },
@@ -2530,16 +2547,37 @@
   "pages": 5
  },
  {
+  "key": "u|Niederuster mit Tagesschule",
+  "w": "https://www.primarschule-uster.ch/niederuster",
+  "hits": {
+   "waldorf": 1,
+   "natur": 1
+  },
+  "pages": 5
+ },
+ {
   "key": "u|Noveos",
   "w": "https://www.noveos.ch/",
   "hits": {},
   "pages": 5
  },
  {
+  "key": "u|Primarschule Tagesstrukturen",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
   "key": "u|Schatzkiste",
   "w": "https://www.krippeschatzkiste.ch/",
   "hits": {},
   "pages": 1
+ },
+ {
+  "key": "u|Tagesfamilienverein Zürichsee Oberland",
+  "w": "https://www.tfzo.ch/",
+  "hits": {},
+  "pages": 5
  },
  {
   "key": "u|Verein Kindertagesstätte Muulwurf",
@@ -2589,10 +2627,79 @@
   "pages": 0
  },
  {
-  "key": "richterswil|Zauberflöte KiTa & KiGa",
+  "key": "richterswil|KITA Drei Eichen Samstagern",
   "w": "",
   "hits": {},
   "pages": 0
+ },
+ {
+  "key": "richterswil|KITA Filou Kids, Samstagern",
+  "w": "http://www.kita-filou-kids.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "richterswil|KITA Panda Kids, Richterswil",
+  "w": "http://www.pandakids.ch/richterswil/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "richterswil|KITA Richterswil",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "richterswil|KITA-Leiterin",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "richterswil|Zauberflöte KiTa & KiGa",
+  "w": "http://kitakigazauberfloete.ch/",
+  "hits": {
+   "montessori": 10,
+   "bilingual": 12,
+   "pikler": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "f|Kinderhaus \"s'2. Dihei\"",
+  "w": "http://www.kinderhaus-s2dihei.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "f|Kinderkrippe Tierlihof",
+  "w": "http://www.kinderkrippe-tierlihof.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "f|Kinderkrippe Villa Wunderchischte",
+  "w": "http://www.villa-wunderchischte.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "f|Kita Pippis Spielstrumpf",
+  "w": "https://www.kita-pippis-spielstrumpf.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "waedenswil|globegarden Wädenswil",
+  "w": "https://www.globegarden.ch/locations/waedenswil",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 6
+  },
+  "pages": 5
  },
  {
   "key": "waedenswil|KiBe",
@@ -2614,6 +2721,30 @@
    "bilingual": 12
   },
   "pages": 5
+ },
+ {
+  "key": "langnauamalbis|KibeLaA – Verein Kinderbetreuung Langnau am Albis",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "langnauamalbis|Mittagstisch Langnau am Albis",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "niederhasli|Kita Dorfhäsli",
+  "w": "https://www.kita-dorfhaesli.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "niederhasli|Tagesstrukturen Schule Niederhasli",
+  "w": "https://www.ps-niederhasli.ch/tagesstrukturen",
+  "hits": {},
+  "pages": 2
  },
  {
   "key": "r|Chinderhuus Muur Hort Aesch",
@@ -2673,6 +2804,14 @@
   "pages": 5
  },
  {
+  "key": "kloten|KiMi Kloten",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-kloten",
+  "hits": {
+   "natur": 4
+  },
+  "pages": 5
+ },
+ {
   "key": "kloten|Kita Chiselschtei",
   "w": "",
   "hits": {},
@@ -2684,6 +2823,14 @@
   "hits": {},
   "pages": 0,
   "err": "robots"
+ },
+ {
+  "key": "kloten|Krippesuenneli",
+  "w": "http://www.krippesuenneli.ch/",
+  "hits": {
+   "natur": 24
+  },
+  "pages": 4
  },
  {
   "key": "kloten|Zimbo",
@@ -2748,6 +2895,12 @@
   "pages": 0
  },
  {
+  "key": "horgen|KiTa Berghalden",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
   "key": "horgen|Kita Shining-Stars Two",
   "w": "https://www.shining-stars.ch",
   "hits": {
@@ -2777,6 +2930,22 @@
   "pages": 2
  },
  {
+  "key": "thalwil|Chinderhuus Mühlebach",
+  "w": "https://kita-thalwil.ch/kinderbetreuung/kita-chinderhuus-muehlebach/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "thalwil|Chinderhuus Öpfelbaum",
+  "w": "https://kita-thalwil.ch/kinderbetreuung/kita-chinderhuus-oepfelbaum/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
   "key": "thalwil|Froschkönig",
   "w": "https://froschkoeniggmbh.ch",
   "hits": {
@@ -2785,10 +2954,37 @@
   "pages": 1
  },
  {
+  "key": "thalwil|globegarden Farbstrasse",
+  "w": "https://www.globegarden.ch/locations/farbstrasse",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 5
+  },
+  "pages": 5
+ },
+ {
   "key": "thalwil|Hort Schwandel",
   "w": "",
   "hits": {},
   "pages": 0
+ },
+ {
+  "key": "thalwil|Inselparadies",
+  "w": "https://kita-thalwil.ch/kita-inselparadies/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "thalwil|Kinderkrippe Ulea",
+  "w": "https://www.kinderkrippe-ulea.ch/ulea",
+  "hits": {
+   "montessori": 3,
+   "pikler": 2,
+   "natur": 1
+  },
+  "pages": 2
  },
  {
   "key": "thalwil|Kita Trauminsel",
@@ -2797,6 +2993,61 @@
    "natur": 1
   },
   "pages": 2
+ },
+ {
+  "key": "thalwil|Stiftung Kindertagestätten Thalwil",
+  "w": "https://kita-thalwil.ch/tagesfamilien/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "z|Globegarden Kinderkrippe Giacometti",
+  "w": "https://www.globegarden.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "z|KiMi Kinderkrippe Zollikerberg",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-zollikerberg/",
+  "hits": {
+   "natur": 3
+  },
+  "pages": 5
+ },
+ {
+  "key": "z|Kinderkrippe Bienehuus Zollikon",
+  "w": "https://bienehuus.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "z|Kinderkrippe Ferdinand",
+  "w": "https://www.kinderkrippeferdinand.ch/",
+  "hits": {
+   "bilingual": 6
+  },
+  "pages": 1
+ },
+ {
+  "key": "z|KiTa Akidemy",
+  "w": "https://www.akidemy.ch/",
+  "hits": {
+   "reggio": 1,
+   "pikler": 1,
+   "bilingual": 10
+  },
+  "pages": 3
+ },
+ {
+  "key": "z|Tagesfamilienverein Zollikon",
+  "w": "http://www.tfv-zollikon-kuesnacht.ch/",
+  "hits": {},
+  "pages": 1
  },
  {
   "key": "i|Kindertraum-Haus",
@@ -2809,6 +3060,12 @@
   "w": "https://www.kitafugu.ch/",
   "hits": {},
   "pages": 2
+ },
+ {
+  "key": "wa|Krippe Nokimuz",
+  "w": "https://schule-wald.ch/tagesstruktur-krippe-nokimuz",
+  "hits": {},
+  "pages": 3
  },
  {
   "key": "winterthur|«Fugu» Kinderkrippe Winterthur Lokstadt",
@@ -2996,7 +3253,7 @@
   "key": "winterthur|Kindertagesstätte der IPW",
   "w": "https://ipw.ch/ueber-uns/kindertagesstaette",
   "hits": {},
-  "pages": 4
+  "pages": 3
  },
  {
   "key": "winterthur|Kindertagesstätte KIKRI",
@@ -3053,6 +3310,12 @@
   "pages": 5
  },
  {
+  "key": "winterthur|Kita Child Care Corner",
+  "w": "http://www.child-care-corner.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
   "key": "winterthur|KiTa Chrönli",
   "w": "https://www.kitachroenli.ch",
   "hits": {},
@@ -3089,6 +3352,13 @@
    "bilingual": 4
   },
   "pages": 5
+ },
+ {
+  "key": "winterthur|Kita Kinderwelt Rosenberg",
+  "w": "https://www.zwerglihuus.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
  },
  {
   "key": "winterthur|Kita La Luna",
@@ -3165,6 +3435,12 @@
   "pages": 3
  },
  {
+  "key": "winterthur|Kita Villa Ninck",
+  "w": "http://www.villaninck.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
   "key": "winterthur|Kita Vogelsang",
   "w": "https://www.kita-vogelsang.ch/",
   "hits": {},
@@ -3183,6 +3459,13 @@
    "natur": 5
   },
   "pages": 5
+ },
+ {
+  "key": "winterthur|Mittagstisch für Sekundarschüler:innen",
+  "w": "https://stadtplan.winterthur.ch/?topic=Grundkarte&scale=1000&x=2696516.12&y=1261600.16&back=Hintergrundkarte_LK_AV_Situationsplan&redlining=GEOMETRYCOLLECTION%28POLYGON%28%282696521.12+1261600.16%2C2696520.95+1261601.46%2C2696520.45+1261602.66%2C2696519.66+1261603.70%2C2696518.62+1261604.49%2C2696517.42+1261604.99%2C2696516.12+1261605.16%2C2696514.83+1261604.99%2C2696513.62+1261604.49%2C2696512.59+1261603.70%2C2696511.79+1261602.66%2C2696511.29+1261601.46%2C2696511.12+1261600.16%2C2696511.29+1261598.87%2C2696511.79+1261597.66%2C2696512.59+1261596.63%2C2696513.62+1261595.83%2C2696514.83+1261595.33%2C2696516.12+1261595.16%2C2696517.42+1261595.33%2C2696518.62+1261595.83%2C2696519.66+1261596.63%2C2696520.45+1261597.66%2C2696520.95+1261598.87%2C2696521.12+1261600.16%29%29%29",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
  },
  {
   "key": "winterthur|Montessori Kinderhaus",
@@ -3210,6 +3493,15 @@
  {
   "key": "winterthur|Pop e poppa Kita Leuehöhli",
   "w": "https://www.popepoppa.ch/de/einrichtungen/kita-in-winterthur/",
+  "hits": {
+   "montessori": 5,
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "winterthur|pop e poppa Winterthur Tel",
+  "w": "https://www.popepoppa.ch/de/kita/leuehohli",
   "hits": {
    "montessori": 5,
    "natur": 1
@@ -3309,10 +3601,37 @@
   "pages": 1
  },
  {
+  "key": "il|Mittagstisch Sek",
+  "w": "https://www.schule-ilef.ch/mittagstischsek",
+  "hits": {},
+  "pages": 5
+ },
+ {
   "key": "l|Kita",
   "w": "https://www.schule-herrliberg.ch/",
   "hits": {},
   "pages": 3
+ },
+ {
+  "key": "l|pop e poppa Herrliberg Tel",
+  "w": "https://www.popepoppa.ch/de/kita/kidsloft",
+  "hits": {
+   "montessori": 4,
+   "bilingual": 3
+  },
+  "pages": 2
+ },
+ {
+  "key": "rickenbach|Chinderchrippe Schlitzohr",
+  "w": "https://chinderchrippe-schlitzohr.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "rickenbach|Tagesbetreuung Primarschule Rickenbach",
+  "w": "https://www.primarschule-rickenbach.ch/unsere-schule/betreuung/",
+  "hits": {},
+  "pages": 1
  },
  {
   "key": "nuerensdorf|Kita Luftballon",
@@ -3324,19 +3643,102 @@
   "key": "g|Kita Greifensee",
   "w": "https://www.kita-greifensee.ch/",
   "hits": {},
+  "pages": 0,
+  "err": "HTTP 502"
+ },
+ {
+  "key": "g|KITA Greifensee",
+  "w": "https://www.vkka.ch/kindertagesstaetten/kita-greifensee",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 502"
+ },
+ {
+  "key": "buelach|Globegarden Glasi Kita",
+  "w": "https://www.globegarden.ch/locations/glasi",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "buelach|KiMi Bülach",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-buelach",
+  "hits": {
+   "natur": 4
+  },
   "pages": 5
  },
  {
   "key": "buelach|Kinderkrippe Lichtpunkt",
-  "w": "",
+  "w": "https://kita-lichtpunkt.ch/",
   "hits": {},
-  "pages": 0
+  "pages": 3
+ },
+ {
+  "key": "buelach|Kita Bächli",
+  "w": "https://kita-buelach.ch/kita-baechli-buelach/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "buelach|Kita Bergli",
+  "w": "https://kita-buelach.ch/kita-bergli-buelach/",
+  "hits": {},
+  "pages": 3
  },
  {
   "key": "buelach|KiTa Böndli",
   "w": "http://www.boendli.ch/",
   "hits": {},
   "pages": 3
+ },
+ {
+  "key": "buelach|Kita Kinderpalais",
+  "w": "http://www.kinderpalais.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "buelach|Kita MiniHelden",
+  "w": "https://kita-minihelden.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "o|KiMi Oetwil am See",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-oetwil-am-see",
+  "hits": {
+   "natur": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "o|Kita Perlä",
+  "w": "https://www.xn--kita-perl-32a.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 502"
+ },
+ {
+  "key": "birmensdorf|Hort Primarschule Birmensdorf",
+  "w": "https://www.primabirmensdorf.ch/web/cms.php?open=AngeboteundTarife",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "birmensdorf|Kinderbetreuung Huetiberg",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "birmensdorf|Kinderkrippe Sennhof",
+  "w": "",
+  "hits": {},
+  "pages": 0
  },
  {
   "key": "bonstetten|Kinderzentrum",
@@ -3357,10 +3759,42 @@
   "pages": 2
  },
  {
-  "key": "wb|Würmli",
-  "w": "",
+  "key": "wb|HadeKi Kinderkrippe",
+  "w": "http://www.hausdeskindes.ch/",
   "hits": {},
-  "pages": 0
+  "pages": 1
+ },
+ {
+  "key": "wb|Kinderkrippe KIMI Altbach",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-altbach/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "wb|Würmli",
+  "w": "http://www.kinderkrippewuermli.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "adliswil|globegarden Akidemy Adliswil",
+  "w": "https://www.globegarden.ch/locations/akidemy-adliswil",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 3
+  },
+  "pages": 5
+ },
+ {
+  "key": "adliswil|globegarden Grütpark",
+  "w": "https://www.globegarden.ch/locations/gruetpark",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 4
+  },
+  "pages": 5
  },
  {
   "key": "adliswil|Kinderhaus Werd",
@@ -3383,10 +3817,36 @@
   "pages": 2
  },
  {
+  "key": "adliswil|pop e poppa Adliswil Tel",
+  "w": "https://www.popepoppa.ch/de/kita/takatukaland",
+  "hits": {
+   "montessori": 4
+  },
+  "pages": 2
+ },
+ {
   "key": "buchs|Chinderhuus Wirbelwind",
   "w": "https://www.chinderhuus-wirbelwind.ch/",
   "hits": {},
   "pages": 1
+ },
+ {
+  "key": "daellikon|Kinderkrippe Bäretatze",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "dielsdorf|Kinderkrippe ZOO",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "dielsdorf|Kita Karussell",
+  "w": "",
+  "hits": {},
+  "pages": 0
  },
  {
   "key": "urdorf|Bienehuus",
@@ -3423,14 +3883,82 @@
   "pages": 2
  },
  {
+  "key": "embrach|Kinderkrippe Rägeboge",
+  "w": "https://www.kinderkrippe-raegeboge.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
   "key": "embrach|Kita Froschkönig",
   "w": "https://www.kzu-kita.ch/kita-froschkoenig/",
   "hits": {},
-  "pages": 2
+  "pages": 0,
+  "err": "HTTP 502"
+ },
+ {
+  "key": "embrach|Kita Gwundertrucke",
+  "w": "https://www.kita-gwundertrucke.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "b|Kinderkrippe Erlenbach",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "b|Kita Allegra Erlenbach",
+  "w": "https://kitaallegra.ch/en/daycare-centre-erlenbach-zuerich/",
+  "hits": {
+   "bilingual": 3
+  },
+  "pages": 1
+ },
+ {
+  "key": "b|Kita Fischers Fritzli",
+  "w": "https://www.fischersfritzli.ch/en/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "b|Schülerclub / Tagesstrukturen Schule Erlenbach",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "geroldswil|Kinderkrippenverein Dietikon",
+  "w": "https://kkvd.ch/",
+  "hits": {},
+  "pages": 5
  },
  {
   "key": "geroldswil|KiTa Stärneland",
   "w": "https://www.kita-staerneland.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "geroldswil|LMS Kita",
+  "w": "https://lms-privatschule.ch/unsere-kita/",
+  "hits": {
+   "montessori": 3,
+   "natur": 3
+  },
+  "pages": 2
+ },
+ {
+  "key": "geroldswil|Mittagstisch für Kindergarten- und Primarschüler",
+  "w": "https://www.psog.ch/angebot/tagesstrukturen/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "geroldswil|Mittagstisch für Oberstufenschüler",
+  "w": "https://www.oberstufeweiningen.ch/",
   "hits": {},
   "pages": 2
  },
@@ -3459,16 +3987,40 @@
   "pages": 1
  },
  {
+  "key": "hw|Kita Hinwil",
+  "w": "https://kitahinwil.ch/",
+  "hits": {
+   "montessori": 4
+  },
+  "pages": 4
+ },
+ {
   "key": "niederweningen|Kita Niederweningen",
   "w": "http://www.krippe-hort.ch/#!kita-schfflisdorf/c21ek",
   "hits": {},
   "pages": 1
  },
  {
+  "key": "kilchberg|globegarden Dorfstrasse",
+  "w": "https://www.globegarden.ch/locations/dorfstrasse",
+  "hits": {
+   "montessori": 5,
+   "natur": 1,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
   "key": "kilchberg|Kinderkrippe Kilchberg",
   "w": "https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/betreuungs-und-begleitungsangebot-fuer-familien#section-868",
   "hits": {},
   "pages": 2
+ },
+ {
+  "key": "kilchberg|Kinderkrippe Kilchberg (Schule Kilchberg)",
+  "w": "https://www.schule-kilchberg.ch/betreuung-/-tagesstruktur",
+  "hits": {},
+  "pages": 3
  },
  {
   "key": "opfikon|globegarden Glattpark",
@@ -3561,6 +4113,23 @@
   "err": "HTTP 503"
  },
  {
+  "key": "opfikon|pop e poppa Glattpark",
+  "w": "https://www.popepoppa.ch/de/kita/baretatze",
+  "hits": {
+   "montessori": 5,
+   "pikler": 1,
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "opfikon|Tagesfamilie - Stadt Zürich",
+  "w": "https://www.stadt-zuerich.ch/sd/de/index/ueber_das_departement/fuer_dritte/kitas/krippenaufsicht/Tagesfamilien.html",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 404"
+ },
+ {
   "key": "bb|Kinderhort Bubikon",
   "w": "https://www.kinderhort-bubikon.ch",
   "hits": {},
@@ -3601,6 +4170,29 @@
   "err": "robots"
  },
  {
+  "key": "bassersdorf|KiMi Geeren",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-geeren",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "bassersdorf|KiMi Post",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-post",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "bassersdorf|Tagesfamilienorganisation Zürcher Unterland (TFZU)",
+  "w": "http://www.tfzu.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 502"
+ },
+ {
   "key": "schlieren|Hort Zelgli",
   "w": "https://schule.schlieren.ch/hortgiardino",
   "hits": {},
@@ -3614,15 +4206,26 @@
  },
  {
   "key": "schlieren|Kinderkrippe am Rietpark",
-  "w": "",
+  "w": "https://www.globegarden.ch/locations/rietpark",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "schlieren|Kinderkrippenverein Dietikon",
+  "w": "https://kkvd.ch/",
   "hits": {},
-  "pages": 0
+  "pages": 5
  },
  {
   "key": "schlieren|Krippe KiMi",
-  "w": "",
-  "hits": {},
-  "pages": 0
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-futura",
+  "hits": {
+   "natur": 3
+  },
+  "pages": 5
  },
  {
   "key": "schlieren|Teddybär",
@@ -3638,6 +4241,24 @@
  },
  {
   "key": "rs|Russiker Kinderlager (RUKILA)",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "rs|Tagesstrukturen der Schule Russikon",
+  "w": "http://www.schulerussikon.ch/de/angebote/dienste/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "wi|Kinderkrippe Wila",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "wi|Tagesfamilien Zürcher Oberland",
   "w": "",
   "hits": {},
   "pages": 0
@@ -3738,6 +4359,16 @@
   "pages": 5
  },
  {
+  "key": "wz|globegarden Wetzikon",
+  "w": "https://www.globegarden.ch/locations/wetzikon",
+  "hits": {
+   "montessori": 5,
+   "natur": 1,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
   "key": "wz|GZO",
   "w": "https://www.gzo.ch/",
   "hits": {},
@@ -3756,12 +4387,30 @@
   "pages": 1
  },
  {
+  "key": "wz|Mittagstisch Sekundarschule",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
   "key": "ba|Wunderchnöiel",
   "w": "https://spielgruppe-bauma.ch/",
   "hits": {
    "natur": 6
   },
   "pages": 3
+ },
+ {
+  "key": "pfungen|Kindergarten Dorfstrasse",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "pfungen|KiTa Einzigartig",
+  "w": "https://kita-villa-pfungen.ch/",
+  "hits": {},
+  "pages": 1
  },
  {
   "key": "dietikon|Kindergrippe 3",
@@ -3855,6 +4504,14 @@
   "pages": 0
  },
  {
+  "key": "e|pop e poppa Egg Tel",
+  "w": "https://www.popepoppa.ch/de/kita/schneggehusli",
+  "hits": {
+   "montessori": 5
+  },
+  "pages": 2
+ },
+ {
   "key": "e|pop e poppa schneggehüsli",
   "w": "https://www.popepoppa.ch/de/einrichtungen/kita-in-egg/",
   "hits": {
@@ -3889,6 +4546,18 @@
   "pages": 0
  },
  {
+  "key": "s|Hort Primarschule Schwerzenbach",
+  "w": "https://www.schule-schwerzenbach.ch/tagesbetreuung/hort/p-99/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "s|Kita Chinderstern Schwerzenbach",
+  "w": "https://www.chinderstern.ch/schwerzenbach/",
+  "hits": {},
+  "pages": 5
+ },
+ {
   "key": "h|Kinderkrippe Einhorn",
   "w": "https://www.kinderkrippe-einhorn.ch/",
   "hits": {},
@@ -3901,6 +4570,18 @@
    "natur": 3
   },
   "pages": 3
+ },
+ {
+  "key": "ottenbach|Kinderkrippe + Mittagstisch",
+  "w": "https://ps-ottenbach.ch/kindertagesstaette/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "obfelden|Kinderkrippe Tamburin",
+  "w": "http://www.tamburin.ch/",
+  "hits": {},
+  "pages": 2
  },
  {
   "key": "obfelden|Tagesstrukturen ZickZack",
@@ -3921,6 +4602,12 @@
   "w": "",
   "hits": {},
   "pages": 0
+ },
+ {
+  "key": "t|Kinderkrippe Pandakids",
+  "w": "https://www.pandakids.ch/uetikon-am-see-kita/",
+  "hits": {},
+  "pages": 5
  },
  {
   "key": "t|Kinderkrippe Tatzelwurm",
@@ -3951,10 +4638,33 @@
   "pages": 1
  },
  {
+  "key": "hedingen|Chinderhus Hedingen– Krippe und Hort",
+  "w": "https://www.chinderhuus-hedingen.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
   "key": "hedingen|Hort und Mittagstisch",
   "w": "",
   "hits": {},
   "pages": 0
+ },
+ {
+  "key": "uitikon|Kinderkrippe Globegarden Leuengasse",
+  "w": "https://www.globegarden.ch/locations/leuengasse",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "uitikon|Kinderkrippe Löwenzahn",
+  "w": "https://kinderkrippe-loewenzahn-uitikon.ch/de/home",
+  "hits": {},
+  "pages": 5
  },
  {
   "key": "uitikon|Kinderkrippe Üetlizwerge",
@@ -3963,6 +4673,18 @@
    "natur": 2
   },
   "pages": 1
+ },
+ {
+  "key": "m|Kinderkrippe Müslihuus",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "m|Schülerbetreuung KidzClub (Hort)",
+  "w": "https://www.schulemoenchaltorf.ch/betreuungsangebot",
+  "hits": {},
+  "pages": 5
  },
  {
   "key": "dachsen|Kita & Hort Dachsen",
@@ -3995,6 +4717,109 @@
   "pages": 4
  },
  {
+  "key": "regensdorf|Hort Place for Kids",
+  "w": "https://www.placeforkids.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "regensdorf|Kinderkrippe Bambi",
+  "w": "https://www.kinderkrippe-bambi.ch/de/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "regensdorf|Kinderkrippe Regensdorf",
+  "w": "https://www.kita-regensdorf.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "regensdorf|Kinderkrippe Zoo",
+  "w": "https://www.krippezoo.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "regensdorf|Kita abc-daycare",
+  "w": "https://abc-daycare.ch/",
+  "hits": {
+   "natur": 1,
+   "bilingual": 14
+  },
+  "pages": 3
+ },
+ {
+  "key": "regensdorf|Kita Globegarden Rägipark",
+  "w": "https://www.globegarden.ch/locations/raegipark",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "regensdorf|Kita Little Kids",
+  "w": "https://www.littlekids.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 3
+ },
+ {
+  "key": "regensdorf|Kita Löwenzahn",
+  "w": "https://www.kita-loewenzahn.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "regensdorf|Kita Murmeli Huus",
+  "w": "https://murmeli-huus.ch/kinderkrippe-regensdorf/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "regensdorf|Kita Regensdorf",
+  "w": "https://www.kinderkrippe-regensdorf.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "regensdorf|Kita Villa Pumi",
+  "w": "https://villa-pumi.ch/",
+  "hits": {
+   "natur": 1,
+   "pikler": 1
+  },
+  "pages": 3
+ },
+ {
+  "key": "regensdorf|Tagesfamilie Nidino",
+  "w": "https://www.nidino.com/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "dietlikon|globegarden Schulgasse",
+  "w": "https://www.globegarden.ch/locations/schulgasse",
+  "hits": {
+   "montessori": 5,
+   "natur": 1,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "dietlikon|KiMi Looren",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-looren",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
   "key": "dietlikon|KiTa Pfiffikus",
   "w": "https://www.kita-pfiffikus.ch/",
   "hits": {},
@@ -4007,8 +4832,23 @@
   "pages": 4
  },
  {
+  "key": "winkel|Kinderkrippe Mini Meadows",
+  "w": "http://mini-meadows.ch/kinderkrippe/home.html",
+  "hits": {
+   "montessori": 7,
+   "bilingual": 3
+  },
+  "pages": 3
+ },
+ {
   "key": "winkel|kleine RiESEN",
   "w": "https://kleine-riesen.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "neftenbach|Kinderkrippe Sternschnuppe",
+  "w": "https://www.kinderkrippe-sternschnuppe.ch/",
   "hits": {},
   "pages": 2
  },
@@ -4019,10 +4859,26 @@
   "pages": 0
  },
  {
+  "key": "gossau|KiMi Gossau",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-gossau",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
   "key": "gossau|Mittagstisch",
   "w": "",
   "hits": {},
   "pages": 0
+ },
+ {
+  "key": "v|KiMi Volketswil",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-volketswil",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
  },
  {
   "key": "v|Kinderkrippe Avalon",
@@ -4037,6 +4893,28 @@
   "pages": 0
  },
  {
+  "key": "ws|Kita Chinderstern Weisslingen",
+  "w": "https://www.chinderstern.ch/weisslingen/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "glattfelden|Chinderhuus Dörfli",
+  "w": "https://www.chinderhuus-glattfelden.ch/",
+  "hits": {
+   "reggio": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "glattfelden|Kita kids&future",
+  "w": "https://kidsandfuture.ch/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 4
+ },
+ {
   "key": "turbenthal|Chinderhüeti Sunnewirbel",
   "w": "",
   "hits": {},
@@ -4049,15 +4927,192 @@
   "pages": 2
  },
  {
+  "key": "seuzach|Kita Schneckenwiese Seuzach",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "rorbas|Kita Mandala in Rorbas",
+  "w": "https://www.kitamandala.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "li|Chinderhuus ZicZac",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "ruemlang|Chinderhuus Zauberwald",
+  "w": "http://chinderhuus-zauberwald.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "ruemlang|Kimi Rümlang",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kimi-ruemlang/",
+  "hits": {
+   "natur": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "ruemlang|Kita Löwenherz",
+  "w": "http://www.kita-loewenherz.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
   "key": "sg|Mittagstisch für Kindergarten und Primarschule",
   "w": "https://www.schule-seegraeben.ch/",
   "hits": {},
   "pages": 4
  },
  {
+  "key": "hi|KiTa Hittnau",
+  "w": "https://www.schulehittnau.ch/kita",
+  "hits": {
+   "montessori": 1,
+   "pikler": 1
+  },
+  "pages": 5
+ },
+ {
   "key": "hi|Mittagstisch Hittnau",
   "w": "http://www.pro-senectute.ch/",
   "hits": {},
   "pages": 5
+ },
+ {
+  "key": "stammheim|KiMi Stammertal",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-stammertal",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "maschwanden|Tagesschule Maschwanden",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "aeugst|Kinderkrippe Coccolino",
+  "w": "http://www.coccolino.ch/kinderkrippe-aeugst-am-albis",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "kappelamalbis|Kindergarten Uerzlikon",
+  "w": "http://www.primarschulekappel.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "flurlingen|Familienergänzende Betreuung (FEB) – Betreuungshaus Flurlingen",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "flurlingen|Mittagstisch Flurlingen",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "henggart|Kinderkrippe Wirbelwind",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "henggart|Tagesstrukturen Primarschule Henggart",
+  "w": "https://www.primarschule-henggart.ch/tagesstrukturen-32.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "benken|Infoschreiben schulergänzende Betreuung TAGI",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "benken|Kindergarten Pfarreiheim",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "benken|Kindergarten Räbli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "marthalen|Tagesfamilien Winterthur Weinland",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "freiensteinteufen|Tagesfamilien Zürcher Unterland",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "hoeri|Kita Aufgepasst",
+  "w": "https://kita-aufgepasst.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "hoeri|Türmlihus-Kinderhort",
+  "w": "https://www.schulehoeri.ch/angebote/tagesbetreuung/tuermlihus-kinderhort-1/p-183586/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "daenikon|Tagesbetreuung Schule Rotflue",
+  "w": "https://www.schule-rotflue.ch/tagesbetreuung/angebot.html/479",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "steinmaur|Kinderkrippe Hosechnöpf GmbH",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "steinmaur|Kinderstube Steinmaur",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "weiach|KiTa Multikulti",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "daegerlen|Tagesfamilien Winterthur Weinland",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "huentwangen|Kalibu Eglisau/Hüntwangen",
+  "w": "https://www.kalibu.ch/h%C3%BCntwangen",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 2
  }
 ]
