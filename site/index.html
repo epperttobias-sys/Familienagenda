@@ -542,6 +542,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <section class="filters" aria-label="Suche Kinderbetreuung">
     <div class="row"><b>Gemeinde</b><details class="dd" id="btg-dd"><summary id="btg-sum">Alle Gemeinden</summary><div class="dd-panel" id="btg-panel"><input type="search" class="dd-search" id="btg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="btg-all">Alle</button><button type="button" id="btg-none">Keine</button></div></div></details></div>
     <div class="row"><b>Angebot</b><details class="dd" id="btk-dd"><summary id="btk-sum">Alle Angebote</summary><div class="dd-panel" id="btk-panel"><div class="dd-actions"><button type="button" id="btk-all">Alle Angebote</button></div></div></details></div>
+    <div class="row"><b>Pädagogik</b><details class="dd" id="btp-dd"><summary id="btp-sum">Alle</summary><div class="dd-panel" id="btp-panel"><div class="dd-actions"><button type="button" id="btp-all">Alle</button></div></div></details></div>
   </section>
   <p id="bacount" class="count-line"></p>
   <main id="betreuung"></main>
@@ -681,6 +682,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
 <script src="wetter.js"></script>
 <script src="vereine.js"></script>
 <script src="familie.js"></script>
+<script src="paedagogik.js"></script>
 <script src="ausflug.js"></script>
 <script src="ausflug-web.js"></script>
 <script src="spielplaetze.js"></script>
@@ -1109,6 +1111,8 @@ const BEZPDF={Uster:"https://internet.zh.ch/content/dam/zhweb/bilder-dokumente/t
 const EXTRA={wz:[["Familienstadtplan Wetzikon (PDF)","https://www.wetzikon.ch/wAssets/docs/Gesellschaft/Familienstadtplan-Wetzikon.pdf"]]};
 function ohDe(o){const D={Mo:"Mo",Tu:"Di",We:"Mi",Th:"Do",Fr:"Fr",Sa:"Sa",Su:"So",PH:"Feiertage"};return o.replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|PH)\b/g,m=>D[m]).replace(/\boff\b/g,"geschlossen").replace(/24\/7/,"immer offen").replace(/;\s*/g,"; ")}
 const FAK=[["spiel","🧸 Spielgruppen, Eltern- und Familienvereine"],["kita","🏫 Kitas, Krippen und Horte"],["bib","📚 Bibliotheken"],["ludo","🧩 Ludotheken"],["zentrum","🏠 Familienzentren und Treffpunkte"],["bad","🏊 Hallenbäder und Badis"]];
+const PED=[["montessori","🧩 Montessori"],["reggio","🎨 Reggio"],["pikler","👣 Pikler"],["waldorf","🌈 Waldorf"],["natur","🌲 Wald und Natur"],["bilingual","🗣️ Zweisprachig (Deutsch/Englisch)"]];
+const PEDT=Object.fromEntries(PED.map(([k,t])=>[k,t]));
 function famView(P,KINDS,withBera,goKey,boxId,cntId,standId,itemsFn){
   const F=window.FAMILIE||{gemeinden:{}},V=(window.VEREINE||{gemeinden:{}}).gemeinden,GM=Object.assign({},window.GEMEINDEN||{},(window.FAMILIENAGENDA&&window.FAMILIENAGENDA.gemeinden)||{});
   const box=document.getElementById(boxId),codes=Object.keys(GM);
@@ -1118,6 +1122,13 @@ function famView(P,KINDS,withBera,goKey,boxId,cntId,standId,itemsFn){
   const lk=(t,u)=>{const a=node("a","",t);a.href=u;a.target="_blank";a.rel="noopener";return a};
   const items=c=>itemsFn(c,F,V,GM);
   const kOn=k=>!selK||selK.has(k);
+  // Dropdown Pädagogik (nur wenn vorhanden)
+  const PD=(window.PAEDAGOGIK||{k:{}}).k,pp=document.getElementById(P+"p-panel");let selP=null;
+  const PEDA=PED.filter(([k])=>Object.values(PD).some(v=>v.includes(k)));const pedOf=(c,x)=>PD[c+"|"+x.n]||[],pOn=(c,x)=>!selP||pedOf(c,x).some(t=>selP.has(t));
+  if(pp){PEDA.forEach(([k,t])=>{const l=node("label"),i=document.createElement("input");i.type="checkbox";i.id=P+"p-"+k;
+      i.addEventListener("change",()=>{const s=new Set(selP||[]);i.checked?s.add(k):s.delete(k);selP=s.size?s:null;render()});l.append(i,node("span","",t));pp.append(l)});
+    pp.append(node("div","sep"),node("p","dd-note","Erkannt an Name und Website der Kita, auch wenn sie den Ansatz nur teilweise nutzt (z.B. Montessori-Material oder Waldtage). Bitte das Konzept direkt bei der Kita prüfen."));
+    document.getElementById(P+"p-all").addEventListener("click",()=>{selP=null;render()})}
   // Dropdown Gemeinde
   const gp=document.getElementById(P+"g-panel"),groups={};
   codes.forEach(c=>{const b=GM[c].bezirk||"Weitere";(groups[b]=groups[b]||[]).push(c)});
@@ -1138,22 +1149,24 @@ function famView(P,KINDS,withBera,goKey,boxId,cntId,standId,itemsFn){
     i.addEventListener("change",()=>{const s=new Set(selK||[]);i.checked?s.add(k):s.delete(k);selK=s.size&&s.size<KS.length?s:null;render()});l.append(i,node("span","",t));kp.append(l)});
   document.getElementById(P+"k-all").addEventListener("click",()=>{selK=null;render()});
   GO[goKey]=c=>{selG=new Set([c]);selK=null;render()};
-  RESET[goKey]=()=>{selG=null;selK=null;render()};
+  RESET[goKey]=()=>{selG=null;selK=null;selP=null;render()};
   function sync(){const sg=selG?[...selG]:codes;codes.forEach(c=>{const i=document.getElementById(P+"g-"+c);if(i)i.checked=!selG||selG.has(c)});
     const names=sg.map(c=>GM[c].name);document.getElementById(P+"g-sum").textContent=!selG?"Alle Gemeinden":!names.length?"Keine Gemeinde":names.length<=2?names.join(", "):names.length+" Gemeinden";
     KS.forEach(([k])=>document.getElementById(P+"k-"+k).checked=!!selK&&selK.has(k));
     const ks=selK?KS.filter(([k])=>selK.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];
-    document.getElementById(P+"k-sum").textContent=!selK?"Alle Angebote":ks.length===1?ks[0]:ks.length+" Angebote"}
+    document.getElementById(P+"k-sum").textContent=!selK?"Alle Angebote":ks.length===1?ks[0]:ks.length+" Angebote";
+    if(pp){PEDA.forEach(([k])=>document.getElementById(P+"p-"+k).checked=!!selP&&selP.has(k));const ps=selP?PED.filter(([k])=>selP.has(k)).map(([,t])=>t.replace(/^\S+\s/,"")):[];
+      document.getElementById(P+"p-sum").textContent=!selP?"Alle":ps.length===1?ps[0]:ps.length+" Ansätze";document.getElementById(P+"p-dd").classList.toggle("set",!!selP)}}
   const FIC=Object.fromEntries(KINDS.map(([k,t])=>[k,t.split(" ")[0]]));
   function render(){sync();box.replaceChildren();const rows=[];let nG=0,nA=0,shown=0;const MAX=250;
-    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c],L=items(c).filter(x=>kOn(x.k)),bera=withBera&&kOn("beratung");
-      if(selK&&!L.length&&!bera)return;rows.push([c,g,L,bera])});
+    codes.forEach(c=>{if(selG&&!selG.has(c))return;const g=GM[c],L=items(c).filter(x=>kOn(x.k)&&pOn(c,x)),bera=withBera&&kOn("beratung")&&!selP;
+      if((selK||selP)&&!L.length&&!bera)return;rows.push([c,g,L,bera])});
     rows.sort((x,y)=>x[1].name.localeCompare(y[1].name,"de"));
     rows.forEach(([c,g,L,bera])=>{nG++;nA+=L.length+(bera?1:0);if(shown>=MAX)return;
       if(rows.length>1)box.append(node("h2","bez",g.name+" ("+(L.length+(bera?1:0))+")"));
       if(bera){const k=KJZ[g.bezirk]||KJZ.Hinwil;shown++;box.append(mkCard({em:"👶",title:"Mütter- und Väterberatung",meta:"Kostenlos für Eltern mit Kindern bis 5 Jahre: Stillen, Ernährung, Schlaf, Entwicklung",links:[[k[0],k[1]]]}))}
       KINDS.forEach(([kk,title])=>L.filter(x=>x.k===kk).forEach(x=>{if(shown>=MAX)return;shown++;const links=[];if(x.w)links.push(["Website",x.w]);else links.push(wsearch(x.n,g.name));if(x.u)links.push([x.w?"Eintrag bei der Gemeinde":"Mehr bei der Gemeinde",x.u]);
-        if(x.lat)links.push(["Karte",gmaps(x.lat,x.lon)]);box.append(mkCard({em:FIC[kk],title:x.n,meta:[title.replace(/^\S+\s/,""),x.a].filter(Boolean).join(" · "),tags:x.oh?["🕒 "+ohDe(x.oh)]:[],links}))}));
+        if(x.lat)links.push(["Karte",gmaps(x.lat,x.lon)]);box.append(mkCard({em:FIC[kk],title:x.n,meta:[title.replace(/^\S+\s/,""),x.a].filter(Boolean).join(" · "),tags:pedOf(c,x).map(t=>PEDT[t]).concat(x.oh?["🕒 "+ohDe(x.oh)]:[]),links}))}));
       if(!L.length&&!bera)box.append(node("p","note","Zu dieser Gemeinde habe ich noch keine Einträge gefunden."));
       if(rows.length<=3){const src=node("p","gsrc");const parts=[];if(BEZPDF[g.bezirk])parts.push(lk("Übersicht Familienangebote Bezirk "+g.bezirk+" (Kanton, PDF)",BEZPDF[g.bezirk]));
         (EXTRA[c]||[]).forEach(([t,u])=>parts.push(lk(t,u)));parts.push(lk("Website der Gemeinde "+g.name,"https://"+g.domain));parts.forEach((a,i)=>{if(i)src.append(" · ");src.append(a)});box.append(src)}});
