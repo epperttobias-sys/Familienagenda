@@ -114,6 +114,27 @@ export function parseAge(text) {
   return null;
 }
 
+// Alter aus dem Titel, auch ohne Jahreszahl (Baby, ElKi, Familie, Schulstufe). Gilt nur für den Titel, nicht für die Detailseite.
+export function nameAge(name) {
+  let m;
+  const n = name.replace(/(\d)\s*-\s*(bis|und)\b/gi, "$1 $2");
+  if ((m = n.match(/(\d{1,2})\s*(?:bis|und|-|–)\s*(\d{1,2})\s*-?\s*jährige/i))) { const a = +m[1], b = +m[2]; if (b > a && a <= 12) return age(a, b, `${a} bis ${b} Jahre`); }
+  const strict = parseAge(n); if (strict) return strict;
+  if ((m = n.match(/\b(?:ab|ab der)\s*(\d)\.\s*Klasse/i))) return age(+m[1] + 5, 12, `ab ${m[1]}. Klasse`);
+  if ((m = n.match(/(\d)\.\s*(?:bis|-|–)\s*(\d)\.\s*Klasse/i))) return age(+m[1] + 5, +m[2] + 6, `${m[1]}. bis ${m[2]}. Klasse`);
+  if ((m = n.match(/bis\s*(?:zur\s*)?(\d)\.\s*Klasse/i))) return age(0, +m[1] + 6, `bis ${m[1]}. Klasse`);
+  if (/\b(baby|babys|säugling|krabbel|chrabbel|babymassage)/i.test(n)) return age(0, 2, "Babys");
+  if (/\b(elki|eltern-?kind|elternkind|mami\s*&\s*kind|mutter-?kind|vater-?kind|papi-?kind|müttertreff|kleinkind|chliichind|mit de chliine?s?c?h?t?e?|für die (kleinsten|kleinen)|knirps|zwerge)/i.test(n)) return age(0, 4, "Kleinkinder mit Eltern");
+  if (/vorschul/i.test(n)) return age(4, 6, "Vorschulalter");
+  if (/unterstufe/i.test(n)) return age(6, 9, "Unterstufe");
+  if (/mittelstuf/i.test(n)) return age(9, 12, "Mittelstufe");
+  if (/primarschul|schulpflichtig|schulkinder/i.test(n)) return age(6, 12, "Primarschulalter");
+  if (/famili|gross und klein|klein und gross|jung und alt|generationen/i.test(n)) return age(0, 12, "Familien, alle Alter");
+  return null;
+}
+// Nicht für Kinder, auch wenn ein Kinder-Wort vorkommt
+export const ADULT_ONLY = /ü\s?18|\b18\+|für erwachsene\b|nur für erwachsene|für senior|senioren|seniorinnen|männerabend|frauenabend|väter-?\/?männerabend|preisjass|jassturnier|apéro\b(?!.*kind)|gemeindeversammlung|infoabend für eltern|elternabend|elternbildung|elternworkshop|eltern begleiten|schulsystem/i;
+
 // Liest ein Event samt Detailseite aus. text ist der Inhalt der Detailseite.
 export function classify(ev, text) {
   const ageInfo = parseAge(ev.name) ?? parseAge(text);
@@ -401,10 +422,10 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
       info = fresh;
     }
     // Zielgruppe «Kinder/Familien» in der Agenda gilt immer, auch wenn die Detailseite schon früher anders eingestuft wurde
-    if (info.kids || KIDS_CATEGORIES.has(ev.kategorie)) result.push({
+    if ((info.kids || KIDS_CATEGORIES.has(ev.kategorie)) && !ADULT_ONLY.test(ev.name)) result.push({
       gemeinden: [code], id: `${code}-${ev.id}`, name: ev.name, von: ev.von, bis: ev.bis,
       ort: ev.ort || info.ort || "", veranstalter: ev.veranstalter || info.veranstalter || "",
-      time: ev.time || info.time, age: info.age, url: ev.url, ...(info.lk && !LINK_NO.test(info.lk) ? { w: info.lk } : {}),
+      time: ev.time || info.time, age: nameAge(ev.name) ?? info.age, url: ev.url, ...(info.lk && !LINK_NO.test(info.lk) ? { w: info.lk } : {}),
     });
   }
   return { rows: items.length, events: result };

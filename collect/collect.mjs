@@ -34,19 +34,30 @@ const previous = await readJson("site/events.json", { events: [] });
 previous.events ??= [];
 const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
 
-const events = [], status = {};
+const events = [], status = {}, failed = [];
+async function runSite(code, site) {
+  const r = await collectSite(code, site, { fetchText, cache, today, wait: () => sleep(site.delay ?? DELAY_MS) });
+  events.push(...r.events);
+  status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: true, count: r.events.length };
+  console.log(`${site.name}: ${r.rows} Events gelesen, ${r.events.length} für Kinder`);
+}
 for (const [code, site] of Object.entries(sites)) {
-  try {
-    const r = await collectSite(code, site, { fetchText, cache, today, wait: () => sleep(site.delay ?? DELAY_MS) });
-    events.push(...r.events);
-    status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: true, count: r.events.length };
-    console.log(`${site.name}: ${r.rows} Events gelesen, ${r.events.length} für Kinder`);
-  } catch (err) {
-    // Fällt eine Gemeinde aus, bleiben ihre bisherigen Events stehen.
-    const old = previous.events.filter(e => e.gemeinden[0] === code && e.bis >= today);
-    events.push(...old);
-    status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: false, count: old.length };
-    console.error(`${site.name} fehlgeschlagen: ${err.message}`);
+  try { await runSite(code, site); }
+  catch (err) { failed.push([code, site]); console.error(`${site.name} fehlgeschlagen: ${err.message}`); }
+}
+// Zweiter Versuch nach einer Pause: nächtliche Netzstörungen dauern oft nur Minuten
+if (failed.length) {
+  console.log(`${failed.length} Gemeinden fehlgeschlagen, neuer Versuch in 3 Minuten`);
+  await sleep(180000);
+  for (const [code, site] of failed) {
+    try { await runSite(code, site); }
+    catch (err) {
+      // Fällt eine Gemeinde aus, bleiben ihre bisherigen Events stehen.
+      const old = previous.events.filter(e => e.gemeinden[0] === code && e.bis >= today);
+      events.push(...old);
+      status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: false, count: old.length };
+      console.error(`${site.name} auch im zweiten Versuch fehlgeschlagen: ${err.message}`);
+    }
   }
 }
 

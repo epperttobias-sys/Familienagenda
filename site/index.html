@@ -54,6 +54,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dd-group .dd-all{font-size:.72rem;letter-spacing:0;text-transform:none;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:var(--accent)}
 .dd-group .dd-all:hover{text-decoration:none;background:var(--soft)}
 .dd-panel:not(.searching) label.dd-coll{display:none}
+.dd-near{display:flex;flex-wrap:wrap;align-items:center;gap:8px;padding:6px 2px 4px}
+.dd-near-btn{font-weight:700;border:1px solid var(--accent);color:var(--accent);background:var(--surface);border-radius:999px;padding:7px 12px}
+.dd-km{display:flex;gap:2px;border:1px solid var(--line);border-radius:999px;padding:2px}
+.dd-km button{border:0;background:none;border-radius:999px;padding:5px 10px;font-size:.8rem;font-weight:600;min-height:0}
+.dd-km button[aria-pressed=true]{background:var(--accent);color:#fff}
+.dd-near-msg{margin:2px 4px 6px}
 .dd-group button{border:0;background:none;padding:2px 4px;min-height:0;border-radius:6px;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .dd-group button:hover{text-decoration:underline}
 .dd-actions{display:flex;gap:6px;padding:4px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
@@ -1744,6 +1750,9 @@ route();
 start();
 
 /* Bezirke in allen Gemeinde-Auswahlen zuklappbar */
+const NEAR={pos:null,km:(()=>{try{return +localStorage.getItem("fa-near-km")||10}catch(e){return 10}})()};
+const GXY=(()=>{const m={},add=g=>{if(g&&g.lat&&g.name)m[g.name.toLowerCase()]=[g.lat,g.lon]};Object.values(window.GEMEINDEN||{}).forEach(add);return m})();
+const dist=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)*r;return 6371*Math.hypot(x,y)};
 (function collapseDistricts(){
   document.querySelectorAll(".dd-panel").forEach(panel=>{
     const heads=[...panel.querySelectorAll(":scope > .dd-group")];if(!heads.length)return;
@@ -1765,6 +1774,32 @@ start();
     panel.addEventListener("change",()=>setTimeout(refresh,0));panel.addEventListener("click",()=>setTimeout(refresh,0));
     const dd=panel.closest("details");if(dd)dd.addEventListener("toggle",()=>{if(dd.open){refresh();const anyAll=heads.every(h=>(items.get(h)||[]).every(l=>l.querySelector("input")?.checked));if(!anyAll)open1()}});
     refresh();
+    // «In der Nähe»: Gemeinden im Umkreis des eigenen Standorts wählen
+    const acts=panel.querySelector(".dd-actions"),none=acts&&[...acts.querySelectorAll("button")].find(x=>/^Keine$/.test(x.textContent.trim()));
+    const boxes=[...panel.querySelectorAll("label[data-name] input[type=checkbox]")];
+    if(none&&boxes.length){
+      const row=document.createElement("div");row.className="dd-near";
+      const nb=document.createElement("button");nb.type="button";nb.className="dd-near-btn";nb.textContent="📍 In der Nähe";
+      const seg=document.createElement("div");seg.className="dd-km";seg.setAttribute("role","group");seg.setAttribute("aria-label","Umkreis");
+      const msg=document.createElement("p");msg.className="dd-note dd-near-msg";msg.hidden=true;
+      const pick=km=>{NEAR.km=km;try{localStorage.setItem("fa-near-km",km)}catch(e){}document.querySelectorAll(".dd-km button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.km===km)))};
+      [5,10,20].forEach(km=>{const b=document.createElement("button");b.type="button";b.dataset.km=km;b.textContent=km+" km";b.setAttribute("aria-pressed",String(km===NEAR.km));
+        b.addEventListener("click",ev=>{ev.preventDefault();pick(km);if(NEAR.pos)nb.click()});seg.append(b)});
+      nb.addEventListener("click",ev=>{ev.preventDefault();msg.hidden=true;
+        const go=pos=>{const [la,lo]=pos,names=new Map();
+          boxes.forEach(i=>{const l=i.closest("label"),xy=GXY[l.dataset.name];if(xy)names.set(i,dist(la,lo,xy[0],xy[1]))});
+          if(!names.size){msg.textContent="Für diese Liste fehlen die Koordinaten.";msg.hidden=false;return}
+          let near=[...names].filter(([,d])=>d<=NEAR.km).map(([i])=>i);
+          if(!near.length)near=[[...names].sort((a,b)=>a[1]-b[1])[0][0]];
+          none.click();near.forEach(i=>{if(!i.checked){i.checked=true;i.dispatchEvent(new Event("change",{bubbles:true}))}});
+          setTimeout(()=>{refresh();open1();msg.textContent=near.length+(near.length===1?" Gemeinde":" Gemeinden")+" im Umkreis von "+NEAR.km+" km gewählt.";msg.hidden=false},0)};
+        if(NEAR.pos)return go(NEAR.pos);
+        if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";msg.hidden=false;return}
+        nb.disabled=true;nb.textContent="📍 Suche Standort …";
+        navigator.geolocation.getCurrentPosition(p=>{nb.disabled=false;nb.textContent="📍 In der Nähe";NEAR.pos=[p.coords.latitude,p.coords.longitude];go(NEAR.pos)},
+          e=>{nb.disabled=false;nb.textContent="📍 In der Nähe";msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden.";msg.hidden=false},{enableHighAccuracy:false,timeout:10000,maximumAge:600000})});
+      row.append(nb,seg);acts.after(row,msg);
+    }
   });
 })();
 </script>
