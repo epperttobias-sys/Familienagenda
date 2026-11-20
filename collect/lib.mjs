@@ -504,7 +504,7 @@ export const SYSTEMS = {
       const tm = info.match(/(\d{1,2})(?::(\d{2}))?\s*[–-]\s*(\d{1,2})(?::(\d{2}))?\s*Uhr/) || info.match(/(\d{1,2})(?::(\d{2}))?\s*Uhr/);
       const hm = (h, m) => `${h}.${m || "00"}`;
       const time = !tm ? "" : tm[3] && tm.length > 4 ? `${hm(tm[1], tm[2])} - ${hm(tm[3], tm[4])}` : hm(tm[1], tm[2]);
-      items.push({ id: "zm" + e.id, name: decode(e.title || "").trim(), ...range, ort: decode(e.museum || "").slice(0, 70), veranstalter: decode(e.museum || ""), kategorie: "14",
+      items.push({ id: "zm" + e.id, g: "zuerich", name: decode(e.title || "").trim(), ...range, ort: decode(e.museum || "").slice(0, 70), veranstalter: decode(e.museum || ""), kategorie: "14",
         hint: (e.flags || []).map(f => f.label).join(" "), url: e.detailUrl, detailKey: null, time });
     }
     return items;

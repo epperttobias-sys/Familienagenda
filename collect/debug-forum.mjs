@@ -1,0 +1,10 @@
+const UA = { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, Test)" };
+const get = async u => { const r = await fetch(u, { headers: UA }); console.log("GET", r.status, u); return r.text(); };
+const main = await get("https://www.forum-magazin.ch/agenda/");
+const a = [...main.matchAll(/href="\/([a-z0-9-]+)\/agenda\/\d{8}-/g)].map(m => m[1]);
+const o = [...main.matchAll(/<option[^>]*value="([^"]*)"/g)].map(m => m[1]);
+console.log("slugs aus links", new Set(a).size, "options", o.length, o.slice(0, 15));
+const h = await get("https://www.forum-magazin.ch/embrach/agenda/");
+const arts = h.split(/<article class="teaser teaser--agenda"/);
+console.log("articles", arts.length - 1); console.log(arts[1]?.slice(0, 1200));
+const sel = main.indexOf("<select"); console.log(main.slice(sel, sel + 1500));

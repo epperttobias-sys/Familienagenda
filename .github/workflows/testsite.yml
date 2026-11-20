@@ -7,4 +7,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
+      - run: node collect/debug-forum.mjs || true
       - run: node collect/testsite.mjs
