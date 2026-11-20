@@ -134,5 +134,13 @@
   "wiesendangen": {"name": "Wiesendangen", "bezirk": "Winterthur", "domain": "www.wiesendangen.ch", "lat": 47.532, "lon": 8.821},
   "zell": {"name": "Zell", "bezirk": "Winterthur", "domain": "www.zell.ch", "lat": 47.449, "lon": 8.805},
   "zuerich": {"name": "Zürich", "bezirk": "Zürich", "domain": "www.stadt-zuerich.ch", "system": "stzh", "delay": 500, "lat": 47.377, "lon": 8.54},
-  "winterthur": {"name": "Winterthur", "bezirk": "Winterthur", "domain": "stadt.winterthur.ch", "system": "winti", "delay": 600, "lat": 47.5, "lon": 8.724, "extra": ["kinderthur"]}
+  "winterthur": {"name": "Winterthur", "bezirk": "Winterthur", "domain": "stadt.winterthur.ch", "system": "winti", "delay": 600, "lat": 47.5, "lon": 8.724, "extra": ["kinderthur"]},
+  "dorf": {"name": "Dorf", "bezirk": "Andelfingen", "domain": "www.dorf.ch", "system": "eventitem", "path": "/dorfleben/veranstaltungskalender.html/98", "delay": 3000, "lat": 47.5725, "lon": 8.6484},
+  "nuerensdorf": {"name": "Nürensdorf", "bezirk": "Bülach", "domain": "www.nuerensdorf.ch", "system": "eventitem", "path": "/portraet/aktuelles/anlaesse-und-termine.html/271", "delay": 3000, "lat": 47.4477, "lon": 8.6493},
+  "oberglatt": {"name": "Oberglatt", "bezirk": "Dielsdorf", "domain": "www.oberglatt.ch", "system": "eventitem", "path": "/portraet/portraet/aktuelles/agenda.html/87", "delay": 3000, "lat": 47.4763, "lon": 8.5206},
+  "wettswilamalbis": {"name": "Wettswil am Albis", "bezirk": "Affoltern", "domain": "www.wettswil.ch", "system": "eventitem", "path": "/leben/freizeit/veranstaltungen.html/428", "delay": 3000, "lat": 47.339, "lon": 8.4756},
+  "glattfelden": {"name": "Glattfelden", "bezirk": "Bülach", "domain": "www.glattfelden.ch", "system": "eventitem", "path": "/freizeit/veranstaltungen.html/491", "delay": 3000, "lat": 47.5591, "lon": 8.5047},
+  "schlatt": {"name": "Schlatt", "bezirk": "Winterthur", "domain": "www.schlatt.ch", "system": "eventitem", "path": "/gesellschaft/freizeit-/veranstaltungen.html/168", "delay": 3000, "lat": 47.4738, "lon": 8.8304},
+  "hausenamalbis": {"name": "Hausen am Albis", "bezirk": "Affoltern", "domain": "www.hausen.ch", "lat": 47.2436, "lon": 8.5364},
+  "schlieren": {"name": "Schlieren", "bezirk": "Dietikon", "domain": "www.schlieren.ch", "lat": 47.397, "lon": 8.4484}
 }

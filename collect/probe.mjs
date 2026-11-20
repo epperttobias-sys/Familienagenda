@@ -11,7 +11,7 @@ async function probe(u) {
     // RAW: nur Links zu Agenda/Veranstaltungen speichern (ganze Seiten können Schlüssel enthalten)
     if (/^RAW/.test(L.find(x => x[1] === u)?.[0] || "")) {
       const links = [...new Set([...t.matchAll(/<a\b[^>]*href="([^"#]+)"[^>]*>([\s\S]{0,200}?)<\/a>/gi)].map(m => { const tx = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); return tx + " | " + m[1]; })
-        .filter(x => /veranstalt|agenda|anl[aä]ss|event|kalender|termine|freizeit|leben/i.test(x)))].slice(0, 40);
+        .filter(x => /veranstalt|agenda|anl[aä]ss|event|kalender|termine|freizeit|leben|ical|\.ics|webcal|feed|json|page=|seite|weiter|next/i.test(x)))].slice(0, 60);
       const sys = [/i-web|iweb|_rte\//i.test(t) && "iweb", /eventitem|event-item/i.test(t) && "eventitem", /govis|gov\.ch/i.test(t) && "govis", /onegov/i.test(t) && "onegov", /typo3/i.test(t) && "typo3", /wp-content/i.test(t) && "wordpress"].filter(Boolean);
       writeFileSync("data/raw/" + u.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "_").slice(0, 120) + ".json", JSON.stringify({ f: r.url, sys, links }, null, 1));
     }
