@@ -8,7 +8,7 @@ for (const [code, site] of Object.entries(sites)) {
   console.log("\n######", site.name);
   try {
     const raw = await SYSTEMS[site.system](site, fetchText, {}, code);
-    console.log("roh:", raw.length); raw.slice(0, 12).forEach(e => console.log("  ", e.von, e.bis, e.time, "|", e.name, "|", e.url));
+    console.log("roh:", raw.length, "ab heute:", raw.filter(e => e.bis >= today).length); raw.sort((a, b) => (a.von < today) - (b.von < today) || a.von.localeCompare(b.von)); raw.slice(0, 12).forEach(e => console.log("  ", e.von, e.bis, e.time, "|", e.name, "|", e.url));
     const r = await collectSite(code, site, { fetchText, cache: {}, today, wait: () => new Promise(r => setTimeout(r, 700)) });
     console.log("Kinder:", r.events.length); r.events.forEach(e => console.log("  K", e.von, e.time, "|", e.name, "|", JSON.stringify(e.age)));
   } catch (e) { console.log("FEHLER", e.message); }

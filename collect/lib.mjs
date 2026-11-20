@@ -454,9 +454,10 @@ export const SYSTEMS = {
         if (!range) return;
         const id = g.href.replace(/[?#].*$/, "").replace(/\/$/, "").split("/").pop();
         if (seen.has(id + range.von)) return;
-        const head = strip((inner.match(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/i) || [])[1] ?? "");
+        const okName = t => t && !GENERIC.test(t) && !/^\W*\d|\bUhr$|^(Mo|Di|Mi|Do|Fr|Sa|So)\w*,/.test(t) && !parseDateRange(t);
+        const head = [...inner.matchAll(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/gi)].map(x => strip(x[1])).find(okName) || "";
         const parts = g.list.flatMap(a => [strip(a.inner), ...[...a.inner.matchAll(/<(?:span|div|p|strong|b)[^>]*>([^<]{3,})</gi)].map(x => strip(x[1]))]);
-        const name = head || parts.filter(t => t && !GENERIC.test(t) && !/^\W*\d|\bUhr$|^(Mo|Di|Mi|Do|Fr|Sa|So)\w*,/.test(t) && !parseDateRange(t)).sort((a, b) => a.length - b.length)[0] || "";
+        const name = head || parts.filter(okName).sort((a, b) => a.length - b.length)[0] || "";
         if (!name || name.length > 140) return;
         seen.add(id + range.von); fresh++;
         const ctx = /\d{4}/.test(itext) ? itext : pre + " " + itext;
