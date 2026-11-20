@@ -1,5 +1,2 @@
-https://kinderregion.ch/de/
-https://kinderregion.ch/robots.txt
-https://circus-conelli.ch/
-https://www.theaterwinterthur.ch/
-https://www.millers.ch/spielplan
+https://kinderregion.ch/de/veranstaltungen/ | html
+https://kinderregion.ch/de/liste/kindertheater/
