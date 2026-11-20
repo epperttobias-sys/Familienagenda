@@ -17,7 +17,7 @@ for (const line of readFileSync("data/sondieren.txt", "utf8").split("\n").map(s 
     const main = (t.match(/<main[\s\S]*<\/main>/i) || [t])[0];
     const seen = new Set(), L = [];
     for (const m of main.matchAll(/<a\b[^>]*href="([^"#]+)"[^>]*>([\s\S]*?)<\/a>/gi)) { if (seen.has(m[1])) continue; seen.add(m[1]); L.push(strip(m[2]).slice(0, 60) + " | " + m[1].slice(0, 160)); }
-    console.log("LINKS " + L.length + "\n" + L.slice(0, +(process.env.NL || 120)).join("\n"));
+    console.log("LINKS " + L.length + "\n" + L.slice(0, +(process.env.NL || 400)).join("\n"));
     console.log("TEXT " + strip(main).slice(0, LIM));
     if (mode === "html") { const i = main.search(new RegExp(process.env.MARK || "veranst", "i")); console.log("HTML " + main.slice(Math.max(0, i), i + LIM).replace(/\s+/g, " ")); }
   } catch (e) { console.log("FEHLER", e.message); }

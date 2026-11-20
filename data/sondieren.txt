@@ -1,5 +1,3 @@
-https://zuercher-museen.ch/agenda?suitableForKids=true
-https://www.forum-magazin.ch/agenda/
-https://www.forum-magazin.ch/robots.txt
-https://www.zurichparkside.ch/kultur?field_event_kategorie_target_id%5B0%5D=10
-https://reformiert-zuerich.ch/agenda/
+https://www.forum-magazin.ch/agenda/ | html
+https://www.forum-magazin.ch/embrach/agenda/20261121-kirche-fur-kinder-2kg-1kl-unti-treff-398595/
+https://zuercher-museen.ch/agenda?suitableForKids=true | html
