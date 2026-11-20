@@ -46,6 +46,14 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dd-search:focus{border-color:var(--accent)}
 .dd-search:focus-visible{outline:3px solid var(--sun);outline-offset:1px}
 .dd-group{padding:10px 4px 2px}
+.dd-group{display:flex;align-items:center;gap:6px;padding:6px 2px 2px;border-top:1px solid var(--line);margin-top:4px}
+.dd-group .dd-tog{flex:1;display:flex;align-items:center;gap:8px;text-align:left;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);padding:8px 6px;min-height:40px}
+.dd-group .dd-tog::before{content:"▸";display:inline-block;width:1em;transition:transform .15s;font-size:.9rem}
+.dd-group.open .dd-tog::before{transform:rotate(90deg)}
+.dd-group .dd-tog .dd-n{margin-left:auto;white-space:nowrap;font-size:.72rem;letter-spacing:0;text-transform:none;font-weight:600;color:var(--muted,#64748b);background:var(--soft);border-radius:999px;padding:2px 8px}
+.dd-group .dd-all{font-size:.72rem;letter-spacing:0;text-transform:none;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:5px 10px;color:var(--accent)}
+.dd-group .dd-all:hover{text-decoration:none;background:var(--soft)}
+.dd-panel:not(.searching) label.dd-coll{display:none}
 .dd-group button{border:0;background:none;padding:2px 4px;min-height:0;border-radius:6px;font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .dd-group button:hover{text-decoration:underline}
 .dd-actions{display:flex;gap:6px;padding:4px 4px 8px;border-bottom:1px solid var(--line);margin-bottom:4px}
@@ -532,8 +540,8 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
     <p class="lead">Kitas, Krippen, Horte, Mittagstische und Kindergärten in deiner Gemeinde. Wähle oben deine Gemeinde.</p>
   </header>
   <section class="filters" aria-label="Suche Kinderbetreuung">
-    <div class="row"><b>Gemeinde</b><details class="dd" id="bg-dd"><summary id="bg-sum">Alle Gemeinden</summary><div class="dd-panel" id="bg-panel"><input type="search" class="dd-search" id="bg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="bg-all">Alle</button><button type="button" id="bg-none">Keine</button></div></div></details></div>
-    <div class="row"><b>Angebot</b><details class="dd" id="bk-dd"><summary id="bk-sum">Alle Angebote</summary><div class="dd-panel" id="bk-panel"><div class="dd-actions"><button type="button" id="bk-all">Alle Angebote</button></div></div></details></div>
+    <div class="row"><b>Gemeinde</b><details class="dd" id="btg-dd"><summary id="btg-sum">Alle Gemeinden</summary><div class="dd-panel" id="btg-panel"><input type="search" class="dd-search" id="btg-search" placeholder="Gemeinde suchen" aria-label="Gemeinde suchen"><div class="dd-actions"><button type="button" id="btg-all">Alle</button><button type="button" id="btg-none">Keine</button></div></div></details></div>
+    <div class="row"><b>Angebot</b><details class="dd" id="btk-dd"><summary id="btk-sum">Alle Angebote</summary><div class="dd-panel" id="btk-panel"><div class="dd-actions"><button type="button" id="btk-all">Alle Angebote</button></div></div></details></div>
   </section>
   <p id="bacount" class="count-line"></p>
   <main id="betreuung"></main>
@@ -1157,7 +1165,7 @@ function famView(P,KINDS,withBera,goKey,boxId,cntId,standId,itemsFn){
 const BKIND=n=>/kindergarten|kiga\b/i.test(n)?"kiga":/hort|mittagstisch|tagesstruktur|tagesschule|schülerclub|schuelerclub|kinderclub|betreuung|mittags/i.test(n)?"hort":"kita";
 famView("f",FAK.filter(([k])=>k!=="kita"),true,"familie","familie","facount","fastand",(c,F,V,GM)=>{const L=(F.gemeinden[c]||[]).filter(x=>x.k!=="kita").map(x=>Object.assign({},x));
   (V[c]||[]).filter(v=>v.k==="familie").forEach(v=>L.push({k:/ludothek/i.test(v.n)?"ludo":"spiel",n:v.n,w:v.w||"",u:v.u,a:v.o&&v.o!==(GM[c]||{}).name?v.o:""}));return L});
-famView("b",[["kita","🧸 Kitas und Krippen"],["hort","🍽️ Horte, Mittagstische und Tagesstrukturen"],["kiga","🎒 Kindergärten"]],false,"betreuung","betreuung","bacount","bastand",
+famView("bt",[["kita","🧸 Kitas und Krippen"],["hort","🍽️ Horte, Mittagstische und Tagesstrukturen"],["kiga","🎒 Kindergärten"]],false,"betreuung","betreuung","bacount","bastand",
   (c,F)=>(F.gemeinden[c]||[]).filter(x=>x.k==="kita").map(x=>Object.assign({},x,{k:BKIND(x.n)})));
 const AKS=[["tiere","🦙 Tiere und Tierparks"],["museum","🏛️ Museen"],["erlebnis","🎢 Erlebnis, Klettern, Minigolf"],["burg","🏰 Burgen, Schlösser, Ruinen"],["aussicht","🌄 Aussichtspunkte und Türme"],["sehens","⭐ Sehenswürdigkeiten"],["feuer","🔥 Feuerstellen und Grillplätze"]];
 (function setupAusflug(){
@@ -1721,6 +1729,31 @@ window.addEventListener("hashchange",route);
 document.querySelectorAll("[data-back]").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();location.hash="";route()}));
 route();
 start();
+
+/* Bezirke in allen Gemeinde-Auswahlen zuklappbar */
+(function collapseDistricts(){
+  document.querySelectorAll(".dd-panel").forEach(panel=>{
+    const heads=[...panel.querySelectorAll(":scope > .dd-group")];if(!heads.length)return;
+    const items=new Map();let cur=null;
+    for(const el of panel.children){if(el.classList.contains("dd-group"))cur=el;else if(cur&&el.tagName==="LABEL"){if(!items.has(cur))items.set(cur,[]);items.get(cur).push(el)}}
+    const refresh=()=>{heads.forEach(h=>{const L=items.get(h)||[],n=L.filter(l=>l.querySelector("input")?.checked).length,all=L.length;
+      const t=h.querySelector(".dd-n");if(t){t.textContent=n===all?(L[0]?.querySelector("input")?.type==="radio"?String(all):"alle "+all):n+" / "+all;t.dataset.de=t.textContent}
+      L.forEach(l=>l.classList.toggle("dd-coll",!h.classList.contains("open")))})};
+    const setOpen=(h,on)=>{h.classList.toggle("open",on);h.querySelector(".dd-tog").setAttribute("aria-expanded",String(on));refresh()};
+    heads.forEach(h=>{const hb=h.querySelector("button"),b=hb?hb.dataset.group:"";
+      const tog=document.createElement("button");tog.type="button";tog.className="dd-tog";tog.dataset.group=b;tog.setAttribute("aria-expanded","false");
+      tog.append(document.createTextNode("Bezirk "+b),Object.assign(document.createElement("span"),{className:"dd-n"}));
+      tog.addEventListener("click",ev=>{ev.preventDefault();setOpen(h,!h.classList.contains("open"))});
+      h.insertBefore(tog,h.firstChild);
+      if(hb){if(hb.disabled)hb.remove();else{hb.className="dd-all";hb.textContent="Ganzer Bezirk";hb.title="Ganzen Bezirk wählen oder abwählen"}}});
+    const open1=()=>{heads.forEach(h=>{const L=items.get(h)||[],n=L.filter(l=>l.querySelector("input")?.checked).length;if(n&&n<L.length&&!h.classList.contains("open"))setOpen(h,true)})};
+    const search=panel.querySelector("input[type=search]");
+    if(search)search.addEventListener("input",()=>panel.classList.toggle("searching",!!search.value.trim()));
+    panel.addEventListener("change",()=>setTimeout(refresh,0));panel.addEventListener("click",()=>setTimeout(refresh,0));
+    const dd=panel.closest("details");if(dd)dd.addEventListener("toggle",()=>{if(dd.open){refresh();const anyAll=heads.every(h=>(items.get(h)||[]).every(l=>l.querySelector("input")?.checked));if(!anyAll)open1()}});
+    refresh();
+  });
+})();
 </script>
 <script src="i18n.js"></script>
 </body>
