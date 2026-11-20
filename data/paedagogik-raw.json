@@ -1,0 +1,4063 @@
+[
+ {
+  "key": "staefa|Kinderkrippe Teddybär",
+  "w": "https://www.teddybaer-staefa.ch/",
+  "hits": {
+   "montessori": 1
+  },
+  "pages": 1
+ },
+ {
+  "key": "staefa|Kita Müüsliburg",
+  "w": "https://www.muusliburg.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "staefa|Teddybär",
+  "w": "https://www.teddybaer-staefa.ch/",
+  "hits": {
+   "montessori": 1
+  },
+  "pages": 1
+ },
+ {
+  "key": "zuerich|7 Bears Kindergarten und -krippe",
+  "w": "https://www.7-bears.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|ABB Kinderkrippe Mupfelchischte",
+  "w": "https://www.abbkinderkrippen.ch/krippen-horte/mupfelchischte-oerlikon/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|ABB Kinderkrippe Zwärgehuus",
+  "w": "https://abbkinderkrippen.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Academicus",
+  "w": "https://www.academicus.co/",
+  "hits": {
+   "montessori": 7
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Allegra Kinderhaus Im Birch",
+  "w": "https://unsere-champions.ch/imbirch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Allenmoos 3 Mittag und Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Altstetter Morgen-Mittag-Abendhort 1-2-3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/altstetterstrasse/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Apfelbaum 2-3-4-5 (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/apfelbaum/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Arnikahof + Arnikahof 2 Morgen/Mittag/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/huerstholz/betreuung/standorte.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Auhof 1+2 - Morgentisch, Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/auhof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Auzelg 1 Morgen-Mittag-Abendhort",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/auzelg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Auzelg 2 Mittag-Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/auzelg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Auzelg 3 Morgen-Mittag-Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/auzelg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Balber 1 (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Balgrist Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/balgrist/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Bambi",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Bambis Chinderland",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Bethanien",
+  "w": "https://kitas-bethanien.ch/altstetten/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Betreuung am Guggenberg",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/langmatt/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Blumenfeld Morgen-Mittag-Abendhort",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Brandschenke 1+2 Morgen-/Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Brunnenhof Morgentisch, Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html#hort_brunnenhof",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Chinderhuus Kaya",
+  "w": "https://www.krippenverein.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "zuerich|Chinderstern",
+  "w": "https://www.chinderstern.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|d'Insle",
+  "w": "https://www.dinsle-sprungbrett.ch/de",
+  "hits": {
+   "montessori": 45,
+   "bilingual": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Erfinder Treff",
+  "w": "https://spielgruppe-erfindertreff.ch",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Ernahof Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/sihlfeld/betreuung/standorte.html#hort_erna",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Fuchsia",
+  "w": "https://www.kita-fuchsia.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|GFZ",
+  "w": "https://gfz-zh.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "zuerich|GFZ 10",
+  "w": "http://www.gfz-zh.ch/kita-10",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|GFZ Kindertagesstätte 4",
+  "w": "https://gfz-zh.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "zuerich|GFZ Kindertagesstätte 5",
+  "w": "http://www.gfz-zh.ch/kita-5",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|GFZ Kindertagesstätte Zürich 3",
+  "w": "http://gfz-zh.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "zuerich|globegarden",
+  "w": "https://www.globegarden.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Globegarden",
+  "w": "https://www.globegarden.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|globegarden childcare",
+  "w": "https://www.globegarden.ch/locations/thurgauerstrasse",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 5
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Globegarden Childcare",
+  "w": "https://www.globegarden.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Goldräge",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Grimselzwerge",
+  "w": "https://www.grimselzwerge.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Grünau 3+4 - Morgen-Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gruenau/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Grütli 1-2-3 Morgen-/Mittag-/Abendbetreuung",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Güxi Kinderhort",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Güxi Kinderkrippe",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Güxi Kinderkrippe Albisriederplatz Ost",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Güxi Kinderkrippe Friesenberg Binz",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Güxi Kinderkrippe Schwamendingen",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Güxi Kinderkrippe Sonnenberg",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Güxi Kinderkrippen",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Hammer Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hirslanden_primar/betreuung/standorte.html#hort_hammerstrasse",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Heilighüsli Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/langmatt/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hort Allenmoos 1 & 2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hort Allenmoos 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hort Altweg",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hort Altweg 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hort Buchholz und Witikon",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Hort Hohl 1 und Kern 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/aussersihl/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hort Sihlfeld A-B-C + Bullingerhof 2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/sihlfeld/betreuung/standorte.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Hort Untermoos 7",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/untermoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Hügel Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Ilgen Hort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/ilgen/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Im Herrlig 2 Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/imherrlig/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Irchelkindergarten und Irchelkrippe",
+  "w": "https://www.irchelkrippe.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Joey",
+  "w": "https://www.joey-kinderkrippe.ch/",
+  "hits": {
+   "bilingual": 3
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Joey Kinderkrippe",
+  "w": "https://www.joey-kinderkrippe.ch/",
+  "hits": {
+   "bilingual": 3
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Katzenbach I + II Morgen-Mittag-Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/buhn/ueberuns/standorte/betreuung.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kicher-Erbsen",
+  "w": "https://www.kicher-erbsen.ch",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kiddi",
+  "w": "https://kitakiddi.ch/kita-kiddi-2-freilagerstrasse/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|KiddieLand",
+  "w": "https://www.kiddieland.ch/",
+  "hits": {
+   "montessori": 2,
+   "bilingual": 17
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kids & Co Kindertagesstätte Tiergarten",
+  "w": "https://www.profawo.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|kihz Feyerabend",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|kihz Hönggerberg",
+  "w": "https://www.kihz.uzh.ch/de/kitas/kihz-hoenggerberg.html",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|kihz Platten",
+  "w": "https://www.kihz.uzh.ch/de/kitas/kihz-platten.html",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|kihz Sumatra",
+  "w": "http://www.kihz.ch",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|kihz Tierspital",
+  "w": "https://www.kihz.uzh.ch/de/kitas/kihz-tierspital.html",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinder Kids",
+  "w": "https://www.kinderkids.ch/",
+  "hits": {
+   "montessori": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten & Horte C1 - C3",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kindergarten Bullingerhof 1+2 und Horte",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/sihlfeld/betreuung/standorte.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kindergarten Honeggerweg 1 + 2 und Kinderhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/wollishofen/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten und -hort Glaubten",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/schauenberg/ueberuns/standorte/kindergaerten.html#kindergarten_glaubten",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort 1 + 2 Am Wasser",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/amwasser/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Am Wettingertobel",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/vogtsrain/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Brauer 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/aussersihl/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Buchegg 1",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Frauentalweg",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Guggachpark 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/guggach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Lochergut",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/sihlfeld/ueberuns/standorte/kindergaerten.html#kindergarten_lochergut",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Maaghof",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/pfingstweid/ueberuns/standorte/kindergaerten.html#kindergarten_maaghof",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Neubühl 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/betreuung.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kindergarten und Hort Zollstrasse",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/limmat/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhor im Birch 1-8",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/imbirch/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort / Mensa Leimbach 1, 2, 3",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Bläse 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/blaesi/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Buchlern 2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/buchlern/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Buchwiesen 1 - 4",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/buchwiesen/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Bühl 1, 2, 3, 4 Morgen/Mittag/Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/buehl/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Buhn 1-3",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Buhnrain",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Chriesiweg 3",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/chriesiweg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Dachslern 1+3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/dachslernstrasse/betreuung/standorte.html#dachslern_i",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Dachslern 2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/dachslernstrasse/betreuung/standorte.html#dachslern_i",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Döltschi - Mittag",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Döltschweg 1+2",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Dorfstrasse - Morgen/Mittag/Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#dorfstrasse",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Eichrain 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/kolbenacker/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Eichrain 2+3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kolbenacker/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort ELCH Frieden",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riedenhalden/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Ettenfeld 1",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kolbenacker/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Falletsche 1, 2, 3, 4",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Feld (Mittaghort)",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/feld/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Feldblumen",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/dachslernstrasse/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Fluntern 1+2+3",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/fluntern/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Fluntern Pavillon",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Freilager 1+2+3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/untermoos/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Gabler 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Georg Kempf - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/holderbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Glaubten 2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/schauenberg/betreuung/standorte.html#glaubten_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Glauten 1+4",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/schauenberg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Graphis 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/probstei/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Grosswiesen 1 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hirzenbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Grosswiesen 2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hirzenbach/betreuung/standorte.html#grosswiesenstrasse143",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Grünau 1 + Morgentisch",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gruenau/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Grünau 2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gruenau/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Grünmatt 1, 2, 3",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Gubel 1",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/gubel/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort GZ Affoltern",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort GZ Riesbach Mittagstisch",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riesbach/betreuung/standorte.html#gz_riesbach",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hadlaub 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/fluntern/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hans Asper",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hansasper/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hardau 1",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hardau/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hardau 2,3,4,5,6,7",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hardau/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hardturm 1 + 2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/amwasser/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Heideggerweg 1+2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/saatlen/betreuung/standorte.html#heideggerweg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Heiligfeld - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/utogrund/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Herbstweg - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/saatlen/betreuung/standorte.html#heideggerweg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Herter Sek",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kinderhort Heubeeribüel 1",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/fluntern/ueberuns/kontakt/betreuungspersonen.html#morgentisch_heubeeribueel",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Heumatt 3",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/himmeri/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hirschengraben",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/hirschengraben/betreuung/standorte.html#hirschengraben",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hirzenbach - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hirzenbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hofwiesenstrasse - Mittag",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/milchbuck/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Honeggerweg",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/wollishofen/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Höngger - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#hoenggerstrasse",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hönggerstrasse - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#hoenggerstrasse",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hornbach 1, 3, 6",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/holderbach/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Hürstholz",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/huerstholz/betreuung/standorte.html#huerstholz",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Hürstholz 3",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/huerstholz/betreuung/standorte.html#huerstholz",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Hutten 1,2,3,4 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hutten/betreuung.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Im Gut",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/imgut/ueberuns/standorte/kindergaerten.html",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort im Herlig 1+4+6",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/imherrlig/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Imfeld 1+2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#imfeld_1",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort In Böden 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riedenhalden/betreuung/standorte.html#in_boeden_1_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort In der Ey 1",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/inderey/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort In der Ey 2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/inderey/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort In der Ey 3",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/inderey/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort In der Ey 4+5",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/inderey/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Isengrind 1 Morgen / Mittag / Abend",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Isengrind 2 Mittag / Abend",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Jugendrestaurant Küngenmatt 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html#kuengenmatt_1",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Käferholz",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Kappeli 1+6",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kappeli_primar/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kappeli 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kappeli_primar/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kappeli 4",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/kappeli_primar/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kappeli 5",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/kappeli_primar/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kartaus",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kartaus/ueberuns/standorte/kindergaerten.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kilchberg 2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hansasper/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kolbenacker C",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/kolbenacker/betreuung/standorte.html#kolbenacker_f",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kornhaus 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kornhaus/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kraftwerk (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/pfingstweid/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kronenwiese - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#kronenwiese",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Kronwiesen - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/luchswiesen/betreuung/standorte.html#kronwiesen",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Kügeliloo",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kuegeliloo/ueberuns/standorte/Betreuung.html#kuegeliloo",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Landenberg - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/nordstrasse/betreuung/standorte.html#hort_landenberg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Lavater 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/lavater/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Leimbach 1, 2 , 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/leimbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Leonhard Ragaz",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/imgut/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Letten 1+2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#letten_1_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Lettenholz",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/entlisberg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Letzigraben",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/aemtler_a/betreuung/standorte.html#mittag_abend-hortaemtlera",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Leutschenbach 6 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Limmat Sekundarstufe",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/limmat/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Limmat Unter-/Mittelstufe",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/limmat/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Limmatgut 1",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/amwasser/betreuung/standorte.html#limmatgut",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Loogarten",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/loogarten/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Loogarten 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/loogarten/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Loogarten 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/loogarten/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Loogarten 4",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/loogarten/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Looren A Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/looren/betreuung/standorte.html#mittag-_abendhortlooren",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Luchswiesen - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/luchswiesen/betreuung/standorte.html#luchswiesen",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Luegisland 1+2",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kinderhort Luegisland 3+Morgentisch",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kinderhort Maienstrasse 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kuegeliloo/ueberuns/standorte/Betreuung.html#kuegeliloo",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Manegg 1 bis 7",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/manegg/betreuung/standorte.html",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Mattenhof - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/mattenhof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Mattenhof 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/mattenhof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Meiliweg 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/buehl/betreuung/standorte.html#meiliweg_1_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Milchbuck 1a+2a - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/milchbuck/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Milchbuck 3+4 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/milchbuck/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Milchbuck 5 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/milchbuck/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Mittelstufen-Zentrum Neubühl",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/ueberuns/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Moos 1 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html#moos",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Mühlebach 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/riesbach/betreuung/standorte.html#muehlebach",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Nord 1+2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/nordstrasse/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Nordbrücke - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/nordstrasse/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Nürenberg - Mittag",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/letten/betreuung/standorte.html#nuerenberg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Oase - Mittag",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/lachenzelg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Ottiker - Mittag",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/scherr/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Owenweg",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html#owenweg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Pavillon Riesbach",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riesbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Pergamin 2 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/allmend/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Pfingstweid 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/pfingstweid/betreuung.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Probstei - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/probstei/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Pünten 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riedhof/betreuung/standorte.html#puenten",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Rebhügel - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/rebhuegel/betreuung.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Riedhof 1+2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riedhof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Riedhof 3 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riedhof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Riedtli 1 - Mittag",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/riedtli/betreuung/standorte.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Riesbach - Münchhalde 1+2",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Rosengarten - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Rösli 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/weinberg/betreuung/standorte.html#roesli_1",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Roswiesen 1+2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/luchswiesen/betreuung/standorte.html#roswiesen",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Rotach 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html#rotach",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Ruggächer 1 + 2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/holderbach/betreuung/standorte.html#morgentisch_und_mittag-abendhortruggaecheri",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Rütihof 1+4 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/ruetihof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Rütihof 2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/ruetihof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Rütihof 3 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/ruetihof/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Schaffhauserplatz Weinberg - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Schaffhauserstrasse - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/milchbuck/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Schanzengraben 1",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/hirschengraben/betreuung/standorte.html#schanzengraben",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Schauenberg 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/schauenberg/betreuung/standorte.html#schauenberg_1_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Scherr 1,2,3 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/scherr/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Scheuchzerstrasse 1+2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#scheuchzer_1_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Schütze Unter-/ Mittelstufe",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/schuetze/betreuung/standorte.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Seebacher 1+2",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Seefeld, Mittag-/Abendhort Seefeld",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/riesbach/betreuung/standorte.html#muehlebach",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Sihlbogen 1+3",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Sihlweid 1+2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/sihlweid/ueberuns/standorte/kindergaerten.html#kindergaerten_sihlweid12",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Stapferstrasse - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/scherr/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Staudenbühl 1+2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/himmeri/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Stein 1+2 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/buehl/betreuung.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Stettbach - Mittag",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/stettbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Stiglen 1+2",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kolbenacker/betreuung/standorte.html#stiglen",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Talwiesen 1 + 2 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/buehl/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Tiergarten Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/buehl/betreuung/standorte.html#tiergarten",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Trotten - Mittag",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/waidhalde/betreuung/standorte.html#waidhalde",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Turner 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#turner_1",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Unterer Schweighof - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Untermoos 2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/untermoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Untermoos 4",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/untermoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Untermoos 5",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/untermoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Untermoos 6",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/untermoos/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Unterstufen-Zentrum Neubühl",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/betreuung.html",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderhort Utogrund - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/utogrund/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Utogrund 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/utogrund/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Utogrund 3 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/utogrund/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Vogtsrain 1 Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/vogtsrain/betreuung/standorte.html#vogtsrain_1_mittag-abendhort",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Waidhalde 1 bis 7 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#waidhalde",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Waidmatt",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/riedenhalden/betreuung/standorte.html#waidmatt",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Wasserwerk - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/letten/betreuung/standorte.html#wasserwerk",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Weinberg 1 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#weinberg_1",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Wibichstrasse - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/waidhalde/betreuung/standorte.html#waidhalde",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Winterthurer - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/scherr/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Winzerhalde 1+2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/riedhof/betreuung/standorte.html#winzerhalde",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Wolfswinkel 1+2 - Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderhort Wollishofen im Lee - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/wollishofen/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhort Zanggerweg 1+2 - Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/weinberg/betreuung/standorte.html#zangger_1_2",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderhorte Küngenmatt 1 - 2 Morgen-Mittag-Abend",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/kuengenmatt/betreuung/standorte.html#kuengenmatt_1",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderia",
+  "w": "https://kinderia.ch",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kinderkrippe Apfelblüte",
+  "w": "https://www.apfelbluete.ch/",
+  "hits": {
+   "montessori": 4,
+   "pikler": 4
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kinderkrippe Bambi",
+  "w": "https://www.kinderkrippe-bambi.ch/de/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Kinderkrippe BAMBI",
+  "w": "https://www.kinderkrippe-bambi.ch/de/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Kinderkrippe Blüemli",
+  "w": "https://kitabluemli.ch/",
+  "hits": {
+   "pikler": 1,
+   "natur": 6,
+   "bilingual": 11
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderkrippe Bülachhof",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kinderkrippe Dino",
+  "w": "http://www.grow2gether.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderkrippe Dinolina",
+  "w": "http://www.grow2gether.ch/KK/DE/Dinolina_DE/Kontakt_Dl_DE.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderkrippe Gummibärli",
+  "w": "https://www.kk-gummibaerli.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kinderkrippe Harmonie",
+  "w": "https://grow2gether.com",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
+ },
+ {
+  "key": "zuerich|Kinderkrippe Nonna Rosa",
+  "w": "https://kitanonnarosa.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "zuerich|Kinderkrippe Schnappi",
+  "w": "http://www.grow2gether.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kindertagesstätte Käferhaus",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kindertagesstätte Pilgerbrunnen",
+  "w": "https://www.vefz.ch/kontakt",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "zuerich|Kindertagesstätte Regenbogen",
+  "w": "https://www.kita-regenbogen.ch/",
+  "hits": {
+   "pikler": 1
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Kindertagesstätte USZ Huttenstrasse",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kindervilla Lummerland",
+  "w": "http://www.kindervilla-lummerland.ch",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kita & Kiga Blumenwiese",
+  "w": "https://kitablumenwiese.ch/",
+  "hits": {
+   "montessori": 14
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kita Albatros",
+  "w": "https://albatros.social/",
+  "hits": {
+   "bilingual": 3
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Kita am Wasser",
+  "w": "https://kitaamwasser.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kita Beba",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|KiTa Bethanien Oerlikon",
+  "w": "https://bethanien.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kita Busi",
+  "w": "https://www.kita-buesi.ch/buesi-manegg-zh/",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "zuerich|Kita Büsi Höngg",
+  "w": "https://www.kita-buesi.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "zuerich|Kita Fuchsia",
+  "w": "http://www.kita-fuchsia.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kita Füessli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|kita fugu",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-zuerich-eggbuehl/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kita Fugu",
+  "w": "https://www.kitafugu.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kita In Böden",
+  "w": "https://www.stadt-zuerich.ch/kitas/de/in-boeden/informationen.html",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kita KiBiZ",
+  "w": "https://oberstrass.kitakibiz.ch/",
+  "hits": {
+   "montessori": 1
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kita Kiddi",
+  "w": "https://kitakiddi.ch/kita-kiddi-2-freilagerstrasse/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kita Leutschenbach",
+  "w": "https://www.stadt-zuerich.ch/kita-leutschenbach",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|KiTa Magdalenenstrasse Oerlikon",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Kita Mariakäfer",
+  "w": "https://kinderkrippe-mariakaefer.ch/kita-1-zuerich-oerlikon/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Kita Paradies",
+  "w": "https://www.stadt-zuerich.ch/kita-paradies",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Kita tandem",
+  "w": "https://www.kita-tandem.ch/",
+  "hits": {
+   "natur": 6
+  },
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Kita Tièchestrasse",
+  "w": "https://www.stadt-zuerich.ch/kitas/de/tiechestrasse-waidspital/ueber-kita-tiechestrasse.html",
+  "hits": {
+   "pikler": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Kita Wunderland",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|krippe kinderparadies",
+  "w": "https://www.krippekinderparadies.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "zuerich|Krippe Kinderparadies",
+  "w": "https://www.krippekinderparadies.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "zuerich|Krippe Krümel",
+  "w": "https://www.kinderkrippe-kruemel.ch",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Krippe Schiguna Kronenwiese",
+  "w": "https://www.schiguna.ch/",
+  "hits": {
+   "montessori": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Krippe Schmetterling",
+  "w": "https://www.krippe-schmetterling.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Krippe Windrädli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Langmatt 1 Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Leutschenbach 1 (Morgentisch)",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Leutschenbach 2 (Mittaghort)",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Leutschenbach 3 (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Leutschenbach 4 (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Little Learners",
+  "w": "https://littlelearners.ch/",
+  "hits": {
+   "bilingual": 4,
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Luna",
+  "w": "https://lunakids.ch/",
+  "hits": {
+   "montessori": 9
+  },
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag- und Abendhort Vogtsrain 2",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/vogtsrain/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Affoltern 1 + 2",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Altweg 4",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Bernina",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gubel/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Brahms 2",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Buhn 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/buhn/betreuung/abendbetreuung.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Bürglistrasse",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/gabler/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Fabrikstrasse",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kornhaus/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Fluntern 4+5",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Fritschi",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/aemtler_a/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Hegianwandweg 1",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Höfliweg",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kuengenmatt/betreuung/standorte.html#hoefliweg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Holderbach 4",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/holderbach/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Kilchberg 1A + 1B",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/wollishofen/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Kirchenacker",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/apfelbaum/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Kleinalbis 1",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Limmat",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/kornhaus/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Rütihof 2",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Schweighof 1",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Sihlweid 3",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/sihlweid/betreuung/standort.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Triemli 1",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Triemli 2",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Triemli 3",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittag-/Abendhort Vorderberg",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html#lokal",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-/AbendhortAltstetter 4",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/altstetterstrasse/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittag-Abendhort Friesenberg",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Mittaghort Ahorn/Friedrich 2 A",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittaghort Albisriederplatz",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittaghort Entlisberg 1",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittaghort Herzli-Träff",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Mittaghort Hillside",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/hirschengraben/betreuung/standorte.html#hillside",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittaghort Lokal",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/fluntern/betreuung/standorte.html#lokal",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittaghort Mittagstreff Liguster",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/liguster/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Mittaghort Pflegi",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/ilgen/betreuung/standorte.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Montessori Kinderhaus",
+  "w": "https://montessori-kinderhaus-zurichberg.ch/",
+  "hits": {
+   "montessori": 32
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Montessori Kinderhaus Quelle",
+  "w": "http://www.montessori-schulung.ch/",
+  "hits": {
+   "montessori": 3
+  },
+  "pages": 0,
+  "err": "HTTP 403"
+ },
+ {
+  "key": "zuerich|Morgentisch Hauriweg 2, Mittag-/Abendhort Hauriweg 1",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/entlisberg/betreuung/standorte.html#hauriweg",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Morgentisch Sihlweid 4, Mittag-/Abendhort Sihlweid 2A + 2B",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/sihlweid/betreuung/standort.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Morgentisch, Mittag-/Abendhort Ahorn/Friedrich",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Musische Kindertagesstätte MUKITA",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Neumünster-Pavillon Morgen-/Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/content/schulen/de/hirslanden_primar/betreuung/standorte.html#hort_neumuenster",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|PLAYground education",
+  "w": "https://www.playground-edu.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "zuerich|pop e poppa",
+  "w": "https://popepoppa.ch",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Pop e Poppa",
+  "w": "https://popepoppa.ch",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Pop E Poppa",
+  "w": "https://popepoppa.ch",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|pop e poppa frechdachs",
+  "w": "https://www.popepoppa.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Rachel's Kinderkrippe",
+  "w": "https://www.rachelskinderkrippe.ch/",
+  "hits": {
+   "natur": 13
+  },
+  "pages": 4
+ },
+ {
+  "key": "zuerich|Rumpelkiste",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Schildchrötli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Schmetterling",
+  "w": "https://www.krippe-schmetterling.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "zuerich|Schweighof 2 (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Schweighof 3 Morgen-Mittag-Abendhort",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Sikalino",
+  "w": "https://abbkinderkrippen.ch",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "zuerich|Spielhuus Elefant",
+  "w": "https://www.spielhuuselefant.ch/",
+  "hits": {
+   "bilingual": 3,
+   "montessori": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "zuerich|Tekmania",
+  "w": "https://www.tekmania.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Tiefenbrunnen Morgen-/Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Tobogan",
+  "w": "https://www.centrum-cs-curych.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "zuerich|Waldhort Escherhöhe (Mittag-/Abendhort)",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/fluntern/ueberuns/kontakt/betreuungspersonen.html#morgentisch_heubeeribueel",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Waldkindertagesbetreuung WaKiTa",
+  "w": "",
+  "hits": {
+   "natur": 3
+  },
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Yemayá",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "zuerich|Zurlinden 2 Mittag-/Abendhort",
+  "w": "https://www.stadt-zuerich.ch/schulen/de/zurlinden/ueberuns/standorte/schulhaus.html",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "zuerich|Край Рай",
+  "w": "https://krairai.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "u|Chinderhuus im Werk",
+  "w": "https://www.chinderhuusimwerk.ch",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "u|Fugu Kinderkrippe",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-uster/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "u|Fugu Kinderkrippe Uster",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-uster/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "u|Globe Garden",
+  "w": "https://www.globegarden.ch/locations/stadtpark",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "u|Hort im Lot",
+  "w": "http://www.hortimlot.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "u|Kindergarten und Krippe Heusser-Staub",
+  "w": "https://www.primarschule-uster.ch/",
+  "hits": {
+   "waldorf": 1,
+   "natur": 1
+  },
+  "pages": 5
+ },
+ {
+  "key": "u|Kinderhort kidin.ch",
+  "w": "https://www.kidin.ch/",
+  "hits": {
+   "montessori": 52
+  },
+  "pages": 5
+ },
+ {
+  "key": "u|Kinderhüeti Trückli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "u|Kinderkrippe Beluga",
+  "w": "https://www.wagerenhof.ch/angebot-fuer-menschen-mit-beeintraechtigung/wohnen-mitwirken-arbeiten/integrative-kinderkrippe",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "u|Kinderkrippe Heusser-Staub",
+  "w": "https://www.kinderkrippeheusserstaub.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "u|Kinderkrippe kidin.ch",
+  "w": "https://www.kidin.ch/",
+  "hits": {
+   "montessori": 52
+  },
+  "pages": 5
+ },
+ {
+  "key": "u|Kinderkrippe Mary Poppins",
+  "w": "https://kinderkrippe-uster.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
+ },
+ {
+  "key": "u|Kita Chinderkram",
+  "w": "https://kita-chinderkram.ch",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "u|Kita fugu",
+  "w": "https://www.kitafugu.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "u|Kita Seegarten",
+  "w": "https://www.kitaseegarten.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "u|KiTa Seegarten",
+  "w": "https://www.kitaseegarten.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "u|Krippe Rösligarten",
+  "w": "https://www.spitaluster.ch/Karriere/Das-bieten-wir-Ihnen/Kinderkrippe.304.html",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "u|Noveos",
+  "w": "https://www.noveos.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "u|Schatzkiste",
+  "w": "https://www.krippeschatzkiste.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "u|Verein Kindertagesstätte Muulwurf",
+  "w": "http://www.muulwurf.ch",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "u|Verein Ramba-Zamba Kinderbetreuung",
+  "w": "https://www.ramba-zamba.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "u|Waldkinder Uster",
+  "w": "http://www.waldkinderuster.ch",
+  "hits": {
+   "natur": 25,
+   "bilingual": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "richterswil|Güxi Kinderkrippe Richterswil Berg",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "richterswil|Güxi Kinderkrippe Richterswil Zentrum",
+  "w": "https://www.guexi.ch/de/standorte",
+  "hits": {
+   "montessori": 1,
+   "natur": 28
+  },
+  "pages": 5
+ },
+ {
+  "key": "richterswil|Kindertagesstätte",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "richterswil|Zauberflöte KiTa & KiGa",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "waedenswil|KiBe",
+  "w": "https://kibe-wädenswil.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "waedenswil|Kita Fugu",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-waedenswil/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "waedenswil|Wald-KiTa UHU",
+  "w": "https://kita-waedenswil.ch/",
+  "hits": {
+   "natur": 17,
+   "bilingual": 12
+  },
+  "pages": 5
+ },
+ {
+  "key": "r|Chinderhuus Muur Hort Aesch",
+  "w": "https://www.chinderhuus-muur.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "r|Chinderhuus Muur Hort Binz",
+  "w": "https://www.chinderhuus-muur.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "r|Chinderhuus Muur Hort Ebmatingen",
+  "w": "https://www.chinderhuus-muur.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "r|Chinderhuus Muur Hort Forch",
+  "w": "https://www.chinderhuus-muur.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "r|Chinderhuus Muur Hort Maur",
+  "w": "https://www.chinderhuus-muur.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "r|Chinderhuus Muur Krippe Ebmatingen",
+  "w": "https://www.chinderhuus-muur.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "r|Kids Club Moonlight",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "r|Kita Murmeli",
+  "w": "https://kita-murmeli.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "kloten|Globegarden Kinderkrippe",
+  "w": "http://www.globegarden.org/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "kloten|Kita Chiselschtei",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "kloten|Kita Einzigartig Kloten",
+  "w": "https://kita-einzigartig.ch",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "kloten|Zimbo",
+  "w": "https://zimbokita.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "affolternamalbis|Fugu Kinderkrippe",
+  "w": "https://www.kitafugu.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "affolternamalbis|Kinderkrippe Müsliburg",
+  "w": "https://www.kinderkrippe-muesliburg.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "affolternamalbis|Kita Chinderstern Affoltern am Albis",
+  "w": "https://www.chinderstern.ch/affoltern-am-albis/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 5
+ },
+ {
+  "key": "affolternamalbis|Schülerhort \"Familienzentrum\"",
+  "w": "https://www.psa.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "affolternamalbis|Schülerhort \"Naville-Haus\"",
+  "w": "https://www.psa.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "affolternamalbis|Schülerhort \"Zwillikon\"",
+  "w": "https://www.psa.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "mettmenstetten|Kinderkrippe Knirpsenvilla",
+  "w": "https://www.knirpsen-villa.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "horgen|Glückspilze Kinderkrippe",
+  "w": "https://www.glueckspilze.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "horgen|Kinderkrippe Seestern",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "horgen|Kita Shining-Stars Two",
+  "w": "https://www.shining-stars.ch",
+  "hits": {
+   "bilingual": 6
+  },
+  "pages": 3
+ },
+ {
+  "key": "horgen|Kita Stockerstrasse",
+  "w": "https://www.horgen.ch/ueber-horgen/verwaltung/bereiche/gesellschaft/kind-jugend-und-familie/kita-stockerstrasse.html/178",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "horgen|Kita Wunderfitz",
+  "w": "https://www.kita-wunderfitz.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "thalwil|Chindeparadies",
+  "w": "https://www.kita-thalwil.ch/chindeparadies/index.php",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "thalwil|Froschkönig",
+  "w": "https://froschkoeniggmbh.ch",
+  "hits": {
+   "bilingual": 1
+  },
+  "pages": 1
+ },
+ {
+  "key": "thalwil|Hort Schwandel",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "thalwil|Kita Trauminsel",
+  "w": "https://kita-thalwil.ch/kita-trauminsel/trauminsel-bildergalerie/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "i|Kindertraum-Haus",
+  "w": "https://kindertraum-haus.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "i|Kita Fugu Meilen",
+  "w": "https://www.kitafugu.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|«Fugu» Kinderkrippe Winterthur Lokstadt",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-winterthur-lokstadt/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|«Fugu» Kinderkrippe Winterthur Römertor",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-winterthur-roemertor/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|«Fugu» Kinderkrippe Winterthur Zentrum Deutweg",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-winterthur-zentrum-deutweg/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Akidemy",
+  "w": "https://www.akidemy.ch/",
+  "hits": {
+   "reggio": 1,
+   "pikler": 1,
+   "bilingual": 10
+  },
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Altstadt Kita Zauberland",
+  "w": "https://altstadt-zauberland.ch/",
+  "hits": {
+   "montessori": 41,
+   "natur": 5,
+   "pikler": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "winterthur|Apfelblüte Kinderkrippe",
+  "w": "https://www.apfelbluete.ch/",
+  "hits": {
+   "montessori": 4,
+   "pikler": 4
+  },
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Betreuung Alte Feuerwehr",
+  "w": "https://stadt.winterthur.ch/organisation/verwaltung-departemente/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Betreuung Feldstrasse",
+  "w": "https://stadt.winterthur.ch/organisation/verwaltung-departemente/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Betreuung Grünmatt",
+  "w": "https://stadt.winterthur.ch/organisation/verwaltung-departemente/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Betreuung Linde",
+  "w": "https://www.ausserdorf.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Betreuung Neuwiesen",
+  "w": "https://stadt.winterthur.ch/organisation/verwaltung-departemente/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Betreuung Schachen",
+  "w": "https://stadt.winterthur.ch/organisation/verwaltung-departemente/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Betreuung Talhof-Erlen",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "winterthur|Betreuung Wartstrasse",
+  "w": "https://www.schule-langwiesen.ch/angebote/internes-angebot/schulergaenzende-betreuung/p-38/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Betreuung Wülflingerstrasse",
+  "w": "https://www.schule-wuelflingerstrasse.ch/angebote/betreuung/p-62/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Chinder-Huus Hegi",
+  "w": "https://pwhegi.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Dä Hort",
+  "w": "https://www.kitaloki.ch/d%C3%A4-hort",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Familienzentrum Winterthur",
+  "w": "https://www.familienzentrum-winterthur.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Globegarden Trollstrasse",
+  "w": "https://www.globegarden.ch/locations/trollstrasse",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Hortgruppe Büelwiesenweg",
+  "w": "https://www.salzh.ch/hort/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|kiana Kinderkrippe",
+  "w": "https://www.kianakrippen.ch/standorte/winterthur/",
+  "hits": {
+   "natur": 4,
+   "bilingual": 2
+  },
+  "pages": 4
+ },
+ {
+  "key": "winterthur|Kinderhaus Winterthur",
+  "w": "https://www.kinderhauswinterthur.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Kinderhort Wässerwiesen",
+  "w": "https://waesserwiesen.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kinderkrippe Heckenrose",
+  "w": "https://www.heckenrose.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kinderkrippe Krümel",
+  "w": "https://www.kinderkrippe-kruemel.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Kinderkrippe Möwe",
+  "w": "https://krippemoewe.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Kinderkrippe Sternen-Schloss",
+  "w": "https://www.sternen-schloss.ch/unsere-krippen/winterthur/",
+  "hits": {
+   "natur": 1,
+   "bilingual": 4
+  },
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kindertagesstätte der IPW",
+  "w": "https://ipw.ch/ueber-uns/kindertagesstaette",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "winterthur|Kindertagesstätte KIKRI",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "winterthur|Kindertagesstätte Schnäggehuus",
+  "w": "https://www.familiaris.ch/schnaeggehuus/",
+  "hits": {
+   "natur": 5
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kindertagesstätte Wässerwiesen",
+  "w": "https://www.waesserwiesen.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kindertreff",
+  "w": "https://www.kindertreff.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kindervilla Chäferfäscht",
+  "w": "https://chaeferfaescht.com/",
+  "hits": {
+   "natur": 3
+  },
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Kita am Park",
+  "w": "https://www.kita-ampark.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita am Weiher",
+  "w": "https://kita-am-weiher.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Äntenäscht",
+  "w": "https://www.familiaris.ch/aentenaescht/",
+  "hits": {
+   "natur": 5
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|KiTa Chrönli",
+  "w": "https://www.kitachroenli.ch",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Kita Dampfschiff",
+  "w": "https://kita-dampfschiff.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Kita Etzberg",
+  "w": "https://www.kita-etzberg.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "winterthur|Kita Fantasia",
+  "w": "https://www.familiaris.ch/fantasia/",
+  "hits": {
+   "natur": 5
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kita Globegarden Archhöfe",
+  "w": "https://www.globegarden.ch/locations/archhoefe/",
+  "hits": {
+   "montessori": 5,
+   "natur": 1,
+   "bilingual": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kita La Luna",
+  "w": "https://www.kita-laluna.ch/",
+  "hits": {
+   "natur": 11
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kita Loki",
+  "w": "http://www.kita-loki.ch/kita-loki/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Luftibus",
+  "w": "https://www.kita-luftibus.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kita SalZH",
+  "w": "https://salzh.ch/betreuung/kita/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kita SalZH Büelwiesenweg",
+  "w": "https://salzh.ch/betreuung/kita/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|KiTa Spielberg",
+  "w": "https://www.brühlgut.ch/kitas/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|KiTa Spielblock",
+  "w": "https://www.brühlgut.ch/kitas/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|KiTa Spielpark",
+  "w": "https://www.brühlgut.ch/kitas/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Kita Strickhof",
+  "w": "https://www.familiaris.ch/strickhof/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "winterthur|KiTa Sunneberg",
+  "w": "https://kita-sunneberg.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Trotro",
+  "w": "https://www.kitaloki.ch/kita-trotro",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Tuktuk",
+  "w": "https://www.kitaloki.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Vogelsang",
+  "w": "https://www.kita-vogelsang.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Windrädli",
+  "w": "https://www.kita-windrädli.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "winterthur|Kita Zauberschiff",
+  "w": "https://www.familiaris.ch/zauberschiff/",
+  "hits": {
+   "natur": 5
+  },
+  "pages": 5
+ },
+ {
+  "key": "winterthur|Montessori Kinderhaus",
+  "w": "https://www.montessori-winterthur.ch/",
+  "hits": {
+   "montessori": 19
+  },
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Nonna Rosa",
+  "w": "https://kitanonnarosa.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "winterthur|Pinocchio Scuola Materna Italiana",
+  "w": "https://www.kindertagesstaette-pinocchio.ch/",
+  "hits": {
+   "montessori": 1,
+   "bilingual": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Pop e poppa Kita Leuehöhli",
+  "w": "https://www.popepoppa.ch/de/einrichtungen/kita-in-winterthur/",
+  "hits": {
+   "montessori": 5,
+   "natur": 1
+  },
+  "pages": 2
+ },
+ {
+  "key": "winterthur|Zwerglihuus Rosenberg",
+  "w": "https://www.zwerglihuus.ch/kita-rosenberg/",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
+ },
+ {
+  "key": "d|Fugu Kinderkrippe",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "d|Hort und Krippe Zwinggarten",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "d|Joey's Kinderkrippe",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "d|Kinder Loft Zwicky",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "d|Kinderhaus Imago",
+  "w": "https://www.visoparents.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "d|Kinderkrippe Kinderwerkstatt",
+  "w": "https://www.igkinderwerkstatt.ch/kinderkrippe.html",
+  "hits": {
+   "montessori": 14,
+   "pikler": 7,
+   "bilingual": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "d|Kinderpavillon Empa Eawag",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "d|Kinderwerkstatt",
+  "w": "https://www.igkinderwerkstatt.ch/kinderkrippe.html",
+  "hits": {
+   "montessori": 14,
+   "pikler": 7,
+   "bilingual": 2
+  },
+  "pages": 2
+ },
+ {
+  "key": "d|Pin-Pin",
+  "w": "https://pin-pin.ch",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
+ },
+ {
+  "key": "d|Zwerglinge",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "il|Hands-on-Kids",
+  "w": "https://kita-hands4kids.ch/",
+  "hits": {
+   "bilingual": 36,
+   "natur": 2,
+   "montessori": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "il|Kindertagesstätte Effretikon",
+  "w": "https://www.ilef.ch/verwaltungaz/25685",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "l|Kita",
+  "w": "https://www.schule-herrliberg.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "nuerensdorf|Kita Luftballon",
+  "w": "https://www.kita-luftballon.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "g|Kita Greifensee",
+  "w": "https://www.kita-greifensee.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "buelach|Kinderkrippe Lichtpunkt",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "buelach|KiTa Böndli",
+  "w": "http://www.boendli.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "bonstetten|Kinderzentrum",
+  "w": "https://kinderzentrum.ch/angebot-preise/standorte/bonstetten/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "bruetten|Kinderhaus Chrüsimüsi",
+  "w": "https://www.kinderhaus-chruesimuesi.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "wb|CocoBello",
+  "w": "https://www.cocobello.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "wb|Würmli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "adliswil|Kinderhaus Werd",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "adliswil|NaturKita",
+  "w": "https://www.naturkita.ch",
+  "hits": {
+   "natur": 24
+  },
+  "pages": 2
+ },
+ {
+  "key": "adliswil|Pandalino",
+  "w": "https://pandalino.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "buchs|Chinderhuus Wirbelwind",
+  "w": "https://www.chinderhuus-wirbelwind.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "urdorf|Bienehuus",
+  "w": "https://bienehuus.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "urdorf|Kinderkrippe Huetiberg",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "urdorf|Kita Spitzacker",
+  "w": "https://huetiberg.ch/",
+  "hits": {
+   "natur": 3
+  },
+  "pages": 1
+ },
+ {
+  "key": "elsau|Kinderclub Jojo Elsau",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "k|Chinderhuus",
+  "w": "https://www.chinderhuus-zumikon.ch/",
+  "hits": {
+   "natur": 10
+  },
+  "pages": 2
+ },
+ {
+  "key": "embrach|Kita Froschkönig",
+  "w": "https://www.kzu-kita.ch/kita-froschkoenig/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "geroldswil|KiTa Stärneland",
+  "w": "https://www.kita-staerneland.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "geroldswil|Stärneland",
+  "w": "https://www.kita-staerneland.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "hausenamalbis|Nano",
+  "w": "https://www.albiskinderkrippe-nano.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "hettlingen|KiTa Lundy",
+  "w": "https://www.kitalundy.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "hw|Familienforum Hinwil, Chinderhüeti",
+  "w": "https://familienforum-hinwil.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "niederweningen|Kita Niederweningen",
+  "w": "http://www.krippe-hort.ch/#!kita-schfflisdorf/c21ek",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "kilchberg|Kinderkrippe Kilchberg",
+  "w": "https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/betreuungs-und-begleitungsangebot-fuer-familien#section-868",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "opfikon|globegarden Glattpark",
+  "w": "https://www.globegarden.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "opfikon|globegarden Lilienthal",
+  "w": "https://www.globegarden.ch/",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "opfikon|Hazo-Kita",
+  "w": "https://www.hazo-kita.ch",
+  "hits": {
+   "natur": 5
+  },
+  "pages": 4
+ },
+ {
+  "key": "opfikon|Kinderhort & Mittagstisch",
+  "w": "https://www.schule-opfikon.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "opfikon|Kinderkrippe Bambi",
+  "w": "https://www.kinderkrippe-bambi.ch/de/kinderkrippen/standorte/kinderkrippe-opfikon",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "opfikon|Kinderkrippe Fugu",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-glattbrugg/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "opfikon|Kinderkrippe Popcorn",
+  "w": "https://kita-popcorn.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "opfikon|Kinderkrippe Purzelhuus",
+  "w": "https://www.purzel.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "opfikon|Kita Melodie",
+  "w": "https://www.kita-melodie.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "opfikon|Kita Pop e Poppa Bäretatze",
+  "w": "https://www.popepoppa.ch",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "opfikon|Kita Purzelschloss",
+  "w": "https://www.purzel.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "opfikon|KiTa Zwerglinge",
+  "w": "https://www.kitazwerglinge.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "opfikon|KitaS Creativa",
+  "w": "https://www.kitascreativa.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "HTTP 503"
+ },
+ {
+  "key": "bb|Kinderhort Bubikon",
+  "w": "https://www.kinderhort-bubikon.ch",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "bb|Kinderkrippe \"Storchennest\"",
+  "w": "https://chinderchrippe.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "bb|KiTa plus",
+  "w": "https://www.kitaplus.ch/",
+  "hits": {
+   "natur": 4,
+   "montessori": 1
+  },
+  "pages": 3
+ },
+ {
+  "key": "bb|Schulverwaltung",
+  "w": "https://www.schule-bubikon.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "rheinau|Im Chorb",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "bassersdorf|Kids House",
+  "w": "https://kita-einzigartig.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "robots"
+ },
+ {
+  "key": "schlieren|Hort Zelgli",
+  "w": "https://schule.schlieren.ch/hortgiardino",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "schlieren|Kinderhort Schärerwiese",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "schlieren|Kinderkrippe am Rietpark",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "schlieren|Krippe KiMi",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "schlieren|Teddybär",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "rs|Babysitter-Kurs und Babysittervermittlung",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "rs|Russiker Kinderlager (RUKILA)",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "wallisellen|Globegarden",
+  "w": "https://www.globegarden.ch/en/kita-finder",
+  "hits": {
+   "montessori": 6,
+   "pikler": 1,
+   "bilingual": 7
+  },
+  "pages": 5
+ },
+ {
+  "key": "wallisellen|kita fugu",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-wallisellen/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "wallisellen|Tagesbetreuung Arche",
+  "w": "https://www.schule.wallisellen.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "wd|Mittagstisch Wildberg",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "ru|Kita Fugu",
+  "w": "https://www.kitafugu.ch/fugu-kinderkrippe-rueti/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "wiesendangen|Kindertagesstätte KiWi",
+  "w": "https://kindertagesstaette-kiwi.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "pfaeffikon|Joey",
+  "w": "https://www.joey-kinderkrippe.ch/",
+  "hits": {
+   "bilingual": 3
+  },
+  "pages": 3
+ },
+ {
+  "key": "pfaeffikon|Lindenbaum Chinderhuus Pfäffikon",
+  "w": "https://www.lindenbaum-chinderhuus.ch/",
+  "hits": {
+   "natur": 1
+  },
+  "pages": 4
+ },
+ {
+  "key": "pfaeffikon|Tagesstrukturen",
+  "w": "https://www.schule-pfaeffikon.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "fischenthal|Mittagstisch Fischenthal",
+  "w": "https://www.schulefischenthal.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "du|Schulergänzende Betreuung",
+  "w": "https://www.schuleduernten.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "du|Spatzennest",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "du|Sternschnuppe",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "unterengstringen|globegarden childcare",
+  "w": "https://www.globegarden.ch/locations/zuercherstrasse",
+  "hits": {
+   "montessori": 5,
+   "bilingual": 2
+  },
+  "pages": 5
+ },
+ {
+  "key": "wz|GZO",
+  "w": "https://www.gzo.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "wz|Kinderhort",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "wz|Kita TigerEnte",
+  "w": "https://www.kita-tigerente.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "ba|Wunderchnöiel",
+  "w": "https://spielgruppe-bauma.ch/",
+  "hits": {
+   "natur": 6
+  },
+  "pages": 3
+ },
+ {
+  "key": "dietikon|Kindergrippe 3",
+  "w": "https://kkvd.ch",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "dietikon|Kinderkrippe 1",
+  "w": "https://kkvd.ch",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "dietikon|Kinderkrippe 2",
+  "w": "https://kkvd.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "dietikon|Kinderkrippe 4",
+  "w": "https://kkvd.ch",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "dietikon|Kita Chinderstern",
+  "w": "https://www.chinderstern.ch/dietikon/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "dietikon|Krippenhort",
+  "w": "https://kkvd.ch",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "wettswilamalbis|Hort Ägerten",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "wettswilamalbis|Hort Wolfetsloh",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "wettswilamalbis|Kinderzentrum",
+  "w": "https://kinderzentrum.ch/angebot-preise/standorte/wettswil-stationsstrasse/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "stallikon|Kinderkrippe Coccolino",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "stallikon|Kita Kiddi 5",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "oberglatt|Little Friends",
+  "w": "https://www.little-friends.ch/",
+  "hits": {},
+  "pages": 0,
+  "err": "fetch failed"
+ },
+ {
+  "key": "a|Kinderkrippe Zauberloki",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "a|Kita Purzelbaum",
+  "w": "https://www.schule-maennedorf.ch/kita/967",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "e|Kinderkrippe Esslinäscht",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "e|pop e poppa schneggehüsli",
+  "w": "https://www.popepoppa.ch/de/einrichtungen/kita-in-egg/",
+  "hits": {
+   "montessori": 5
+  },
+  "pages": 2
+ },
+ {
+  "key": "e|Tagesstrukturen Rietwies",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "gr|Kindertagesstätte Vita",
+  "w": "https://www.kita-vita.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "bachenbuelach|KIMI Kindertagesstätte",
+  "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-bachenbuelach/",
+  "hits": {
+   "natur": 4
+  },
+  "pages": 5
+ },
+ {
+  "key": "eglisau|Chinderhort Chugle Städtli",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "h|Kinderkrippe Einhorn",
+  "w": "https://www.kinderkrippe-einhorn.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "h|Kinderkrippe Majmunsche",
+  "w": "https://www.majmunsche.ch/",
+  "hits": {
+   "natur": 3
+  },
+  "pages": 3
+ },
+ {
+  "key": "obfelden|Tagesstrukturen ZickZack",
+  "w": "https://www.primarobfelden.ch/",
+  "hits": {
+   "natur": 4
+  },
+  "pages": 2
+ },
+ {
+  "key": "n|Fugu",
+  "w": "https://www.kitafugu.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "n|Kindertagesstätte LIFE",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "t|Kinderkrippe Tatzelwurm",
+  "w": "https://tatzelwurm.ch/",
+  "hits": {},
+  "pages": 1
+ },
+ {
+  "key": "t|Memory Elternkindzentrum",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "andelfingen|Hurrlibutz",
+  "w": "https://hurrlibutz.ch/",
+  "hits": {
+   "natur": 7
+  },
+  "pages": 3
+ },
+ {
+  "key": "andelfingen|Windrädli",
+  "w": "https://www.windraedli.ch/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 1
+ },
+ {
+  "key": "hedingen|Hort und Mittagstisch",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "uitikon|Kinderkrippe Üetlizwerge",
+  "w": "https://www.uetlizwerge.ch/",
+  "hits": {
+   "natur": 2
+  },
+  "pages": 1
+ },
+ {
+  "key": "dachsen|Kita & Hort Dachsen",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "baeretswil|Chinderhuus Triangel",
+  "w": "https://kinderkrippe-triangel.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "baeretswil|Kindergarten Oberdorf 1-3",
+  "w": "https://www.baeretswil.org/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "baeretswil|Mittagstisch für Kindergarten- und Primarschulkinder",
+  "w": "https://www.baeretswil.org/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "oberweningen|Kinderkrippe Hosechnöpf",
+  "w": "https://www.hosechnoepf.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "dietlikon|KiTa Pfiffikus",
+  "w": "https://www.kita-pfiffikus.ch/",
+  "hits": {},
+  "pages": 5
+ },
+ {
+  "key": "rueschlikon|Tageshort Moos",
+  "w": "https://www.schulerueschlikon.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "winkel|kleine RiESEN",
+  "w": "https://kleine-riesen.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "gossau|Babysitter Vermittlung",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "gossau|Mittagstisch",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "v|Kinderkrippe Avalon",
+  "w": "https://kita-avalon.ch/",
+  "hits": {},
+  "pages": 3
+ },
+ {
+  "key": "aesch|Hort Nessi",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "turbenthal|Chinderhüeti Sunnewirbel",
+  "w": "",
+  "hits": {},
+  "pages": 0
+ },
+ {
+  "key": "turbenthal|Chinderhuus Turbenthal",
+  "w": "http://www.chinderhuus-turbenthal.ch/",
+  "hits": {},
+  "pages": 2
+ },
+ {
+  "key": "sg|Mittagstisch für Kindergarten und Primarschule",
+  "w": "https://www.schule-seegraeben.ch/",
+  "hits": {},
+  "pages": 4
+ },
+ {
+  "key": "hi|Mittagstisch Hittnau",
+  "w": "http://www.pro-senectute.ch/",
+  "hits": {},
+  "pages": 5
+ }
+]
