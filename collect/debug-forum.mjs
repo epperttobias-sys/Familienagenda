@@ -1,12 +1,11 @@
 const UA = { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, Test)" };
 const get = async u => { const r = await fetch(u, { headers: UA }); console.log("GET", r.status, u); return r.text(); };
 const main = await get("https://www.forum-magazin.ch/agenda/");
-const f = main.indexOf("<form"); const fe = main.indexOf("</form>", f);
-const form = main.slice(f, fe);
-console.log("FORM", form.slice(0, 300));
-for (const m of form.matchAll(/<(select|input)[^>]*name="([^"]*)"[^>]*>/g)) console.log("FELD", m[0].slice(0, 200));
-const cat = form.indexOf('name="category'); console.log(form.slice(cat, cat + 1500).replace(/\s+/g, " "));
-for (const u of ["https://www.forum-magazin.ch/agenda/?parish=embrach", "https://www.forum-magazin.ch/embrach/agenda/"]) {
-  const h = await get(u); const a = h.split(/<article/).length - 1; console.log("articles", a, "teaser--agenda", h.split("teaser--agenda").length - 1);
-  const i = h.indexOf("/embrach/agenda/2026"); console.log(h.slice(i - 800, i + 900).replace(/\s+/g, " "));
-}
+const cat = main.indexOf('name="category"'); const opts = main.slice(cat, main.indexOf("</select>", cat));
+console.log([...opts.matchAll(/<option value="([^"]*)"[^>]*>([^<]*)/g)].map(m => m[1] + "=" + m[2].trim()).join(" | "));
+const id = ([...opts.matchAll(/<option value="([^"]*)"[^>]*>([^<]*)/g)].find(m => /Kinder/.test(m[2])) || [])[1];
+const h = await get("https://www.forum-magazin.ch/agenda/?category=" + id);
+const ev = [...h.matchAll(/class="agenda__event" href="([^"]*)"/g)].map(m => m[1]);
+console.log("events", ev.length, ev[0], ev[ev.length - 1]);
+console.log("nav", [...h.matchAll(/href="([^"]*(?:page|seite|day=)[^"]*)"/g)].map(m => m[1]).slice(0, 10));
+const i = h.lastIndexOf("agenda__event"); console.log(h.slice(i, i + 1500).replace(/\s+/g, " "));
