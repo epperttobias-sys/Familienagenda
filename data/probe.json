@@ -1,37 +1,30 @@
 [
  {
-  "l": "RAW dorf",
-  "u": "https://www.dorf.ch/dorfleben/veranstaltungskalender.html/98",
+  "l": "RAW dorf2",
+  "u": "https://www.dorf.ch/dorfleben/veranstaltungskalender.html/104",
   "s": 200,
-  "f": "https://www.dorf.ch/dorfleben/veranstaltungskalender.html/98",
-  "title": "Anlässe in Dorf – Gemeinde Dorf"
+  "f": "https://www.dorf.ch/dorfleben/veranstaltungskalender.html/104",
+  "title": "Veranstaltungskalender – Gemeinde Dorf"
  },
  {
-  "l": "RAW glattfelden",
-  "u": "https://www.glattfelden.ch/freizeit/veranstaltungen.html/491",
+  "l": "RAW glattapp",
+  "u": "https://www.glattfelderapp.ch/agenda",
   "s": 200,
-  "f": "https://www.glattfelden.ch/freizeit/veranstaltungen.html/491",
-  "title": "Veranstaltungen – Gemeinde Glattfelden"
+  "f": "https://www.glattfelderapp.ch/agenda",
+  "title": "Agenda | GlattfelderApp"
  },
  {
-  "l": "RAW oberglatt",
-  "u": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87",
+  "l": "RAW oberglatt2",
+  "u": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/86",
   "s": 200,
-  "f": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87",
-  "title": "Agenda Details – Oberglatt"
+  "f": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/86",
+  "title": "Agenda – Oberglatt"
  },
  {
-  "l": "RAW schlatt",
-  "u": "https://www.schlatt.ch/gesellschaft/freizeit-/veranstaltungen.html/168",
+  "l": "RAW schlieren2",
+  "u": "https://www.schlieren.ch/",
   "s": 200,
-  "f": "https://www.schlatt.ch/gesellschaft/freizeit-/veranstaltungen.html/168",
-  "title": "Veranstaltungen – Gemeinde Schlatt"
- },
- {
-  "l": "RAW schlieren",
-  "u": "https://www.schlieren.ch/anlaesseaktuelles",
-  "s": 200,
-  "f": "https://m.schlieren.ch/index.php?apid=14552707",
-  "title": "Schlieren | Anlässe"
+  "f": "https://www.schlieren.ch/",
+  "title": "Schlieren"
  }
 ]

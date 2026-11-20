@@ -1,11 +1,14 @@
 {
  "f": "https://www.schlieren.ch/",
+ "ct": "text/html; charset=UTF-8",
  "sys": [
   "iweb"
  ],
  "links": [
   "Leben und Arbeiten | /lebenarbeiten",
   "Leben | /leben",
+  "Weitere Organe | /behoerden",
+  "Gesetzeskapitel | /gesetzeskapitel",
   "Freizeit und Kultur | /freizeitkultur",
   "Freizeit | /freizeit",
   "Anlässe | /anlaesseaktuelles",
@@ -13,7 +16,17 @@
   "Freizeitanlagen | /freizeitanlagen",
   "Kulturleben | /kulturmanagement",
   "Kuko Veranstaltungen | /kuko",
+  "Alle Neuigkeiten | https://m.schlieren.ch/index.php?apid=36160231",
   "Alle Anlässe | https://m.schlieren.ch/index.php?apid=14552707",
-  "Lebendige Limmat Externer Link wird in einem neuen Fenster geöffnet. | https://www.zh.ch/de/planen-bauen/wasserbau/wasserbauprojekte/lebendige-limmat.html"
- ]
+  "Amtliche Mitteilungen | https://m.schlieren.ch/index.php?apid=274653969&embed=true",
+  "Alle Amtl. Mitteilungen | https://m.schlieren.ch/index.php?apid=12996014",
+  "Stadtratsnachrichten Externer Link wird in einem neuen Fenster geöffnet. | https://m.schlieren.ch/index.php?apid=558264436&amp;apparentid=36160231",
+  "Todesfälle (Amtliche Mitteilungen) Externer Link wird in einem neuen Fenster geöffnet. | https://m.schlieren.ch/index.php?apid=12996014&amp;apparentid=36160231",
+  "Weitere Informationen | https://www.schlieren.ch/_rtr/thema2_2161",
+  "Sanierung und Erweiterung der Schulanlage Kalktarren | https://www.schlieren.ch/_rtr/thema2_87400",
+  "Lebendige Limmat Externer Link wird in einem neuen Fenster geöffnet. | https://www.zh.ch/de/planen-bauen/wasserbau/wasserbauprojekte/lebendige-limmat.html",
+  "Weitere Informationen. | https://www.schlieren.ch/_rtr/arbeitgeberin"
+ ],
+ "head": "",
+ "ev": "<div class=\"events-block-out\" id=\"block2\">\n                            <div class=\"container\">\n                                <div class=\"row\">\n                                    <div class=\"col-md-12\">\n                                        <div class=\"block-title\">\n                                               <h2>Anlässe</h2>\n                                      </div>\n                                        <iframe id=\"eventsIFrame\" src=\"https://m.schlieren.ch/index.php?apid=871384744&embed=true\" allowfullscreen style=\"border: none; height: 400px; width: 100%;\"></iframe>\n\t\t\t\t\t\t\t\t\t    <div class=\"block-link\"><a href=\"https://m.schlieren.ch/index.php?apid=14552707\">Alle Anlässe</a></div>\n    \t\t\t\t\t\t\t\t\t                                                                                                                                                                 \n                                            \n                                                                                                                                               \n                                                                                                                     \n                                                                                                                                                                                                                                                                                                       \n                  "
 }
