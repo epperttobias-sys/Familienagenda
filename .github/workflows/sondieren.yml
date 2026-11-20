@@ -1,0 +1,15 @@
+name: Seiten sondieren
+on:
+  workflow_dispatch:
+    inputs:
+      lim: { description: "Textlänge", default: "3000" }
+      mark: { description: "HTML-Ausschnitt ab", default: "veranst" }
+jobs:
+  s:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node collect/sondieren.mjs
+        env: { LIM: "${{ inputs.lim }}", MARK: "${{ inputs.mark }}" }
