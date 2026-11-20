@@ -1,0 +1,780 @@
+{
+ "stand": "2026-11-20",
+ "g": {
+  "seuzach": {
+   "pages": 10,
+   "items": [
+    {
+     "n": "Kindergarten (ausgewählt)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.seuzach.ch/kindergarten",
+     "src": "https://www.seuzach.ch/kindergarten"
+    },
+    {
+     "n": "Hort (ausgewählt)",
+     "k": "kita",
+     "w": "http://www.tagesstern.ch/seuzach",
+     "u": "https://www.seuzach.ch/hort",
+     "src": "https://www.seuzach.ch/hort/1729",
+     "a": "Kontakt Tagesstern Seuzach Reutlingerstrasse 13a, Seuzach Tel. 079 809 01 24 seuz",
+     "plz": "8472"
+    },
+    {
+     "n": "Bibliothek (ausgewählt)",
+     "k": "bib",
+     "w": "http://www.bibliothek-seuzach.ch/",
+     "u": "https://www.seuzach.ch/bibliotheken",
+     "src": "https://www.seuzach.ch/bibliotheken/308",
+     "a": "Uhr Kontakt Bibliothek Seuzach Breitestrasse 6a, Seuzach Tel. 052 320 41 41 bibl",
+     "plz": "8472"
+    },
+    {
+     "n": "Website Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "bib",
+     "w": "http://www.bibliothek-seuzach.ch/",
+     "u": "https://www.seuzach.ch/bibliotheken/308",
+     "src": "https://www.seuzach.ch/bibliotheken/308"
+    }
+   ]
+  },
+  "ruemlang": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Jugendarbeit und Jugendtreff",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.ruemlang.ch/_rte/thema2/22054",
+     "src": "https://www.ruemlang.ch/jugend",
+     "a": "Übersicht. Benutzerkonto erstellen Kontakt Gemeindeverwaltung Rümlang Glattalstrasse 201, Rümlang Telefon",
+     "plz": "8153"
+    },
+    {
+     "n": "Kimi Rümlang Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kimi-ruemlang/",
+     "u": "https://www.ruemlang.ch/jugend/50188",
+     "src": "https://www.ruemlang.ch/jugend/50188"
+    },
+    {
+     "n": "Chinderhuus Zauberwald Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "http://chinderhuus-zauberwald.ch/",
+     "u": "https://www.ruemlang.ch/jugend/50188",
+     "src": "https://www.ruemlang.ch/jugend/50188"
+    },
+    {
+     "n": "Kita Löwenherz Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "http://www.kita-loewenherz.ch/",
+     "u": "https://www.ruemlang.ch/jugend/50188",
+     "src": "https://www.ruemlang.ch/jugend/50188"
+    },
+    {
+     "n": "LINK Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-waldchuehli.ch/kontakt",
+     "u": "https://www.ruemlang.ch/jugend/50188",
+     "src": "https://www.ruemlang.ch/jugend/50188"
+    },
+    {
+     "n": "Benutzungsordnung Gemeindebibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.ruemlang.ch/_rte/information/2972269",
+     "src": "https://www.ruemlang.ch/gk-schulefreizeit/kapitel/3622",
+     "a": "Übersicht. Benutzerkonto erstellen Kontakt Gemeindeverwaltung Rümlang Glattalstrasse 201, Rümlang Telefon",
+     "plz": "8153"
+    },
+    {
+     "n": "Gebührenordnung Gemeindebibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.ruemlang.ch/_rte/information/2972278",
+     "src": "https://www.ruemlang.ch/gk-schulefreizeit/kapitel/3622",
+     "a": "Übersicht. Benutzerkonto erstellen Kontakt Gemeindeverwaltung Rümlang Glattalstrasse 201, Rümlang Telefon",
+     "plz": "8153"
+    },
+    {
+     "n": "410.1 Beitragsverordnung für familien- und schulergänzende Kinderbetreuung (BVO)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.ruemlang.ch/_doc/7196035",
+     "src": "https://www.ruemlang.ch/gk-schulefreizeit/info/2972194"
+    }
+   ]
+  },
+  "z": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderkrippe Bienehuus Zollikon Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://bienehuus.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Kinderkrippe Ferdinand Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kinderkrippeferdinand.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "KiTa Akidemy Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.akidemy.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Globegarden Kinderkrippe Giacometti Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.globegarden.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "KiMi Kinderkrippe Zollikerberg Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-zollikerberg/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Tagesfamilienverein Zollikon Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "http://www.tfv-zollikon-kuesnacht.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.zollikon.ch%2Faemter%2F2589",
+     "u": "https://www.zollikon.ch/_rte/amt/2589",
+     "src": "https://www.zollikon.ch/departemente/64"
+    },
+    {
+     "n": "Freizeitdienst/Quartiertreff",
+     "k": "treff",
+     "w": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.zollikon.ch%2Faemter%2F1358",
+     "u": "https://www.zollikon.ch/_rte/amt/1358",
+     "src": "https://www.zollikon.ch/departemente/64",
+     "a": "Quartiertreff Binzstrasse 10, Zollikerberg Tel. 044 395 34 85",
+     "plz": "8125"
+    },
+    {
+     "n": "Geresaal/Quartiertreff",
+     "k": "treff",
+     "w": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.zollikon.ch%2Fraeume%2F63214",
+     "u": "https://www.zollikon.ch/_rte/thema2/63214",
+     "src": "https://www.zollikon.ch/departemente/64",
+     "a": "Quartiertreff Binzstrasse 10, Zollikerberg Tel. 044 395 34 85",
+     "plz": "8125"
+    },
+    {
+     "n": "Bibliotheken (ausgewählt)",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.zollikon.ch/bibliotheken",
+     "src": "https://www.zollikon.ch/bibliotheken"
+    },
+    {
+     "n": "Digitalen Bibliothek Onleihe. Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "bib",
+     "w": "https://dibiost.onleihe.com/dibiost/frontend/welcome,51-0-0-100-0-0-1-0-0-0-0.html",
+     "u": "https://www.zollikon.ch/bibliotheken",
+     "src": "https://www.zollikon.ch/bibliotheken"
+    },
+    {
+     "n": "Onlinekatalog Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/zollikon_zollikerberg/",
+     "u": "https://www.zollikon.ch/bibliotheken",
+     "src": "https://www.zollikon.ch/bibliotheken"
+    },
+    {
+     "n": "eigene Bibliothekskonto Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/zollikon_zollikerberg/",
+     "u": "https://www.zollikon.ch/bibliotheken",
+     "src": "https://www.zollikon.ch/bibliotheken"
+    },
+    {
+     "n": "Benutzungsordnung Bibliotheken Zollikon",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.zollikon.ch/_doc/2970032",
+     "src": "https://www.zollikon.ch/bibliotheken"
+    },
+    {
+     "n": "Reglement Mittagstisch Sekundarschule Zollikon-Zumikon",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.zollikon.ch/_rte/information/2082619",
+     "src": "https://www.zollikon.ch/gk-schulefreizeit/kapitel/111"
+    }
+   ]
+  },
+  "regensdorf": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "GZ Roos",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.regensdorf.ch/gzroosthema",
+     "src": "https://www.regensdorf.ch/familienukinder",
+     "a": "Kurse und Dienstleistungen pro Tag angeboten werden. Zur Agenda Externer Link wird in einem neuen Fenster geöffnet. Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.regensdorf.ch/gemeindebibliothek",
+     "src": "https://www.regensdorf.ch/familienukinder"
+    },
+    {
+     "n": "Familienergänzende Kinderbetreuung im Vorschulalter",
+     "k": "kita",
+     "w": "http://www.tfzu.ch/",
+     "u": "https://www.regensdorf.ch/_rte/thema2/2770",
+     "src": "https://www.regensdorf.ch/familienukinder",
+     "a": "Bitte beachten Sie dabei die Meldepflicht Externer Link wird in einem neuen Fenster geöffnet. . Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Vergünstigung von Spielgruppen",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/thema2/84049",
+     "src": "https://www.regensdorf.ch/familienukinder",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Kinderkrippe Bambi Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-bambi.ch/de/",
+     "u": "https://www.regensdorf.ch/familienukinder/2770",
+     "src": "https://www.regensdorf.ch/familienukinder/2770"
+    },
+    {
+     "n": "Kinderkrippe Zoo Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.krippezoo.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/2770",
+     "src": "https://www.regensdorf.ch/familienukinder/2770"
+    },
+    {
+     "n": "Kinderkrippe Regensdorf Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kita-regensdorf.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/2770",
+     "src": "https://www.regensdorf.ch/familienukinder/2770"
+    },
+    {
+     "n": "Hort Place for Kids Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.placeforkids.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita / Hort Teddy Club Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.teddy-club.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Bambi Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "http://www.kinderkrippe-bambi.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Löwenzahn Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kita-loewenzahn.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Regensdorf Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-regensdorf.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita abc-daycare Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://abc-daycare.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Globegarden Rägipark Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.globegarden.ch/locations/raegipark",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Little Kids Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://www.littlekids.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Murmeli Huus Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://murmeli-huus.ch/kinderkrippe-regensdorf/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Kita Villa Pumi Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://villa-pumi.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Gemeinschaftszentrum Roos",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/thema2/3008",
+     "src": "https://www.regensdorf.ch/sportthema",
+     "a": "Joggen oder Radfahren - die Naherholungsgebiete rund um Regensdorf laden zu sportlichen Aktivitäten im Freien ein. Während den Sommermonaten ist Schwimmen im Seebad Katzensee Externer Link wird in einem neuen Fenster geöffnet. besonders angesagt. Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "GZ Roos Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "treff",
+     "w": "http://www.gzroos.ch/?page_id=352",
+     "u": "https://www.regensdorf.ch/sportthema",
+     "src": "https://www.regensdorf.ch/sportthema"
+    },
+    {
+     "n": "Ludothek (ausgewählt)",
+     "k": "ludo",
+     "w": "",
+     "u": "https://www.regensdorf.ch/ludothekthema",
+     "src": "https://www.regensdorf.ch/ludothekthema"
+    },
+    {
+     "n": "Über die Ludothek Regensdorf",
+     "k": "ludo",
+     "w": "http://www.ludothek-regensdorf.ch/index.html",
+     "u": "https://www.regensdorf.ch/_rte/thema2/3179",
+     "src": "https://www.regensdorf.ch/ludothekthema",
+     "a": "Spielzeugen und -geräten zum Ausleihen für Jung und Alt. Zum Online-Katalog Externer Link wird in einem neuen Fenster geöffnet. Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Offizielle Homepage Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "ludo",
+     "w": "http://www.ludothek-regensdorf.ch/index.html",
+     "u": "https://www.regensdorf.ch/ludothekthema",
+     "src": "https://www.regensdorf.ch/ludothekthema"
+    },
+    {
+     "n": "Weitere Informationen Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "ludo",
+     "w": "http://www.ludothek-regensdorf.ch/index.html",
+     "u": "https://www.regensdorf.ch/ludothekthema",
+     "src": "https://www.regensdorf.ch/ludothekthema"
+    },
+    {
+     "n": "Reglement Elternforum Ruggenacher 1",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2763544",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Reglement Elternforum Ruggenacher 3",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2763550",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Reglement. Elternforum Chrüzächer",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2763553",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Reglement. Elternforum Chrüzächer Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Reglement Elternforum Pächterried+Watt",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2763556",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Reglement Elternforum Pächterried Watt Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Benützungsordnung GZ Roos",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2874376",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Benützungsordnung Ludothek",
+     "k": "ludo",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2874382",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Benutzungsordnung Bibliothek Regensdorf",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/1528567",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Reglement Spielgruppe Plus",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2317084",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Reglement Vergünstigung Spielgruppen",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rte/information/2528803",
+     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
+     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
+     "plz": "8105"
+    },
+    {
+     "n": "Gemeinschaftszentrum Roos Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "treff",
+     "w": "http://www.gzroos.ch/?page_id=343",
+     "u": "https://www.regensdorf.ch/familienukinder/2769",
+     "src": "https://www.regensdorf.ch/familienukinder/2769"
+    },
+    {
+     "n": "Spielgruppe Plus",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.regensdorf.ch/_rtr/thema2_77047",
+     "src": "https://www.regensdorf.ch/familienukinder/84049",
+     "a": "Nachmittag Vergünstigungen Sie können einen Antrag auf Kostenbeteiligung stellen. Ort Schulstrasse 56, Regensdorf Spielgruppen- leiter",
+     "plz": "8105"
+    },
+    {
+     "n": "Spielgruppe Regensdor Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "https://spielgruppe-regensdorf.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/84049",
+     "src": "https://www.regensdorf.ch/familienukinder/84049"
+    },
+    {
+     "n": "f Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "http://spielgruppe-regensdorf.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/84049",
+     "src": "https://www.regensdorf.ch/familienukinder/84049"
+    },
+    {
+     "n": "Spielgruppe Watt Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "https://www.spielgruppewatt.com/",
+     "u": "https://www.regensdorf.ch/familienukinder/84049",
+     "src": "https://www.regensdorf.ch/familienukinder/84049"
+    },
+    {
+     "n": "Spielgruppe Zauberland Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "https://spigru.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/84049",
+     "src": "https://www.regensdorf.ch/familienukinder/84049"
+    },
+    {
+     "n": "Sonnhalde Drinnen-Draussen Spielgruppe Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "https://www.spielgruppe.ch/spielgruppenverzeichnis.htm?action=detail&id=30001568",
+     "u": "https://www.regensdorf.ch/familienukinder/84049",
+     "src": "https://www.regensdorf.ch/familienukinder/84049"
+    },
+    {
+     "n": "Waldspielgruppe Regensdorf Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "spiel",
+     "w": "https://www.waldspielgruppe-regensdorf.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/84049",
+     "src": "https://www.regensdorf.ch/familienukinder/84049"
+    }
+   ]
+  },
+  "birmensdorf": {
+   "pages": 15,
+   "items": [
+    {
+     "n": "Elternforum",
+     "k": "spiel",
+     "w": "http://www.elternforum-birmensdorf.ch/",
+     "u": "https://www.birmensdorf.ch/_rte/thema2/55462",
+     "src": "https://www.birmensdorf.ch/familiejugend"
+    },
+    {
+     "n": "Kinderbetreuung zu Hause in Notsituationen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.birmensdorf.ch/_rte/thema2/88172",
+     "src": "https://www.birmensdorf.ch/familiejugend"
+    },
+    {
+     "n": "Verordnung familienergänzende Kinderbetreuung (VFEB), 15. September 2020",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.birmensdorf.ch/_rte/information/1686229",
+     "src": "https://www.birmensdorf.ch/schulefreizeit/kapitel/745"
+    },
+    {
+     "n": "Bibliothek, Benutzungsordnung",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.birmensdorf.ch/_rte/information/1824068",
+     "src": "https://www.birmensdorf.ch/schulefreizeit/kapitel/745"
+    },
+    {
+     "n": "elternforum-birmensdorf.ch",
+     "k": "spiel",
+     "w": "http://www.elternforum-birmensdorf.ch/",
+     "u": "https://www.birmensdorf.ch/familiejugend/55462",
+     "src": "https://www.birmensdorf.ch/familiejugend/55462"
+    },
+    {
+     "n": "elternforum-birmensdorf.ch",
+     "k": "spiel",
+     "w": "https://www.elternforum-birmensdorf.ch/",
+     "u": "https://www.birmensdorf.ch/familiejugend/55462",
+     "src": "https://www.birmensdorf.ch/familiejugend/55462"
+    },
+    {
+     "n": "440.1_Bibliothek_Benutzungsordnung.pdf",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.birmensdorf.ch/_doc/4370447",
+     "src": "https://www.birmensdorf.ch/schulefreizeit/info/1824068"
+    }
+   ]
+  },
+  "u": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.uster.ch/bibliotheken",
+     "src": "https://www.uster.ch/kinderfamilie"
+    },
+    {
+     "n": "Stadt- und Regionalbibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.uster.ch/stadtundregionalbibliothek",
+     "src": "https://www.uster.ch/kinderfamilie"
+    },
+    {
+     "n": "andere Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.uster.ch/anderebibliotheken",
+     "src": "https://www.uster.ch/kinderfamilie"
+    },
+    {
+     "n": "Kindergarten und Schulen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.uster.ch/_rte/thema2/3871",
+     "src": "https://www.uster.ch/kinderfamilie"
+    },
+    {
+     "n": "Primarschule Tagesstrukturen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.uster.ch/_rte/thema2/3879",
+     "src": "https://www.uster.ch/kinderfamilie"
+    },
+    {
+     "n": "Aufsicht Kitas, private Horte und Tagesfamilien",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.uster.ch/_rte/thema2/85639",
+     "src": "https://www.uster.ch/kinderfamilie",
+     "a": "Soziales Bahnhofstrasse 17, Uster Tel. 044 944 73 51 Kontak",
+     "plz": "8610"
+    },
+    {
+     "n": "Kinderkrippe Beluga",
+     "k": "kita",
+     "w": "https://www.wagerenhof.ch/produkte-dienstleistungen/integrative-kinderkrippe",
+     "u": "https://www.uster.ch/_rtr/unternehmen_24031",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Kinderkrippe der Stiftung Wagerenhof Daniela Rotzer Asylstrasse 24, Uster Tel. 044 905 17 02 daniel",
+     "plz": "8610"
+    },
+    {
+     "n": "Chinderhuus im Werk",
+     "k": "kita",
+     "w": "http://www.chinderhuusimwerk.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_24025",
+     "src": "https://www.uster.ch/kinderfamilie/3876"
+    },
+    {
+     "n": "KiTa Chinderchram",
+     "k": "kita",
+     "w": "https://kita-chinderkram.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_116053",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Fragen haben. Kontakt Kita Chinderkram C. Rodriguez Apothekerstrasse 18, Uster Tel. 044 940 33 11 info",
+     "plz": "8610"
+    },
+    {
+     "n": "Kinderkrippe Fugu",
+     "k": "kita",
+     "w": "https://www.kitafugu.ch/uster/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_161566",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Kinderkrippe Uster Kundendienst Braschlergasse 8, Uster Postadresse",
+     "plz": "8610"
+    },
+    {
+     "n": "Güxi Kinderkrippen",
+     "k": "kita",
+     "w": "https://www.guexi.ch/standorte/guexi-uster/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_299569",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Keine Betriebsferien Kontakt Güxi Kinderkrippen Administration Ackerstrasse 45, Uster Tel. 043 266 62 62 kontak",
+     "plz": "8610"
+    },
+    {
+     "n": "Kinderkrippe Heusser Staub",
+     "k": "kita",
+     "w": "http://www.kinderkrippeheusserstaub.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_24026",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Tage pro Woche Pädagogisch ausgebildetes Fachpersonal auf allen Gruppen Wunderschönes historisches Krippengebäude mit traumhaftem Umschwung und Garten Kontakt Kinderkrippe Heusser-Staub-Stiftung Frau Pia Barmettler Florastrasse 26, Uster Tel. 044 940 11 62 info",
+     "plz": "8610"
+    },
+    {
+     "n": "Hort im Lot",
+     "k": "kita",
+     "w": "http://www.hortimlot.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_24024",
+     "src": "https://www.uster.ch/kinderfamilie/3876"
+    },
+    {
+     "n": "Kinderhaus kidin.ch",
+     "k": "kita",
+     "w": "https://kidin.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_65516",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Ihrem Familienalltag perfekt anpasst. Kontakt Kinderwelt kidin.ch Markus Steiner Turicaphonstrasse 31, Riedikon bei Uster Postadresse",
+     "plz": "8616"
+    },
+    {
+     "n": "Kinderkrippe Muulwurf",
+     "k": "kita",
+     "w": "http://www.muulwurf.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_24028",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Valery Stehrenberger Industriestrasse 23, Uster Tel. 044 940 14 01 info",
+     "plz": "8610"
+    },
+    {
+     "n": "Kinderkrippe und Hort Ramba Zamba",
+     "k": "kita",
+     "w": "http://www.ramba-zamba.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_24027",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Leiterin Weiherallee 3, Uster Tel. 044 542 43 08 info",
+     "plz": "8610"
+    },
+    {
+     "n": "KiTa Seegarten",
+     "k": "kita",
+     "w": "http://www.kitaseegarten.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_56291",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Keine Betriebsferien Kontakt KiTa Seegarten Lisa Meier Freiestrasse 3, Uster Tel. 044 442 08 80 info",
+     "plz": "8610"
+    },
+    {
+     "n": "Tagesfamilienverein Zürichsee Oberland",
+     "k": "spiel",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.uster.ch/_rtr/unternehmen_92330",
+     "src": "https://www.uster.ch/kinderfamilie/3876",
+     "a": "Tagesfamilien. Kontakt Tagesfamilien Zürichsee Oberland Kontaktstelle Spitalstrasse 29, Rüti Tel. 076 348 86 20 info",
+     "plz": "8630"
+    },
+    {
+     "n": "Krippe Rösligarten",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.uster.ch/_rtr/unternehmen_104225",
+     "src": "https://www.uster.ch/kinderfamilie/3876"
+    },
+    {
+     "n": "Kinderkrippe Schatzkiste",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.uster.ch/_rtr/suchformular?query=schatzkiste",
+     "src": "https://www.uster.ch/kinderfamilie/3876"
+    },
+    {
+     "n": "Niederuster mit Tagesschule",
+     "k": "kita",
+     "w": "https://www.primarschule-uster.ch/niederuster",
+     "u": "https://www.primarschule-uster.ch/tagesstrukturen",
+     "src": "https://www.primarschule-uster.ch/tagesstrukturen"
+    },
+    {
+     "n": "Abteilung Tagesschule",
+     "k": "kita",
+     "w": "https://www.primarschule-uster.ch/nutagesschule",
+     "u": "https://www.primarschule-uster.ch/tagesstrukturen",
+     "src": "https://www.primarschule-uster.ch/tagesstrukturen"
+    },
+    {
+     "n": "Website Externer Link wird in einem neuen Fenster geöffnet.",
+     "k": "kita",
+     "w": "https://kita-chinderkram.ch/",
+     "u": "https://www.uster.ch/firmenverzeichnis/116053",
+     "src": "https://www.uster.ch/firmenverzeichnis/116053"
+    }
+   ]
+  }
+ }
+}
