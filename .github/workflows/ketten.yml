@@ -2,7 +2,7 @@ name: Standorte der Kita-Ketten holen
 
 on:
   schedule:
-    - cron: "47 3 4 * *" # monatlich am 3.
+    - cron: "47 3 4 * *" # monatlich am 4.
   workflow_dispatch:
 
 permissions:

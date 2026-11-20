@@ -63,13 +63,29 @@ async function geocode(q) {
   } catch { return null; }
 }
 
+const DOMAINS = { hausenamalbis: "www.hausen.ch", oetwilanderlimmat: "www.oetwil-limmat.ch", thalheimanderthur: "www.thalheim.ch", wettswilamalbis: "www.wettswil.ch" };
+// Seiten aus der Sitemap, deren Adresse nach Kinderbetreuung oder Familie klingt
+async function fromSitemap(home) {
+  const urls = [];
+  const take = async (u, depth) => { try { if (!(await allowed(u))) return; const r = await fetch(u, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(20000) }); if (!r.ok) return;
+    const x = await r.text(); const L = [...x.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)].map(m => dec(m[1]));
+    if (/<sitemapindex/i.test(x) && depth < 1) { for (const s of L.slice(0, 15)) await take(s, depth + 1); } else urls.push(...L); } catch {} };
+  let maps = [];
+  try { const r = await fetch(new URL("/robots.txt", home), { headers: UA, signal: AbortSignal.timeout(10000) }); if (r.ok) maps = [...(await r.text()).matchAll(/^\s*sitemap:\s*(\S+)/gim)].map(m => m[1]); } catch {}
+  if (!maps.length) maps = [new URL("/sitemap.xml", home).href];
+  for (const m of maps.slice(0, 3)) await take(m, 0);
+  return urls.filter(u => /kinderbetreuung|familienerg|kita|krippe|tagesstruktur|tagesschule|hort\b|horte|fr[uü]he-?kindheit|vorschul|spielgruppe|familie|eltern|ludothek|betreuung/i.test(decodeURIComponent(u)) && !/news|aktuell|archiv|stelle|job|reglement|\.pdf/i.test(u));
+}
+
 async function crawl(code, g) {
+  g = { ...g, domain: g.domain || DOMAINS[code] };
   if (!g.domain) return { err: "keine Domain", items: [] };
   const home = "https://" + g.domain + "/", ghost = g.domain.replace(/^www\./, "");
   const seen = new Set(), queue = [], pages = [], found = new Map();
   const push = (u, score, d) => { const k = u.replace(/\/$/, ""); if (seen.has(k)) return; seen.add(k); queue.push({ u, score, d }); };
   push(home, 99, 0);
-  while (queue.length && pages.length < 18) {
+  for (const u of (await fromSitemap(home)).slice(0, 25)) push(u, 10 + (/kinderbetreuung|familienerg|kita|krippe|tagesstruktur|fr[uü]he/i.test(u) ? 5 : 0), 1);
+  while (queue.length && pages.length < 24) {
     queue.sort((a, b) => b.score - a.score); const { u, d } = queue.shift();
     let page; try { page = await get(u); } catch { continue; }
     pages.push(page.url);
