@@ -145,5 +145,9 @@
   "schlieren": {"name": "Schlieren", "bezirk": "Dietikon", "domain": "www.schlieren.ch", "system": "keine", "grund": "Agenda nur im eingebetteten Fenster", "lat": 47.397, "lon": 8.4484},
   "ottenbach": {"name": "Ottenbach", "bezirk": "Affoltern", "domain": "www.ottenbach.ch", "system": "ical", "path": "/events/ical", "lat": 47.2818, "lon": 8.407},
   "ossingen": {"name": "Ossingen", "bezirk": "Andelfingen", "domain": "www.ossingen.ch", "system": "sfevent", "path": "/gemeinde/agenda", "lat": 47.6207, "lon": 8.7027},
-  "bergamirchel": {"name": "Berg am Irchel", "bezirk": "Andelfingen", "domain": "www.bergamirchel.ch", "system": "eventlist", "path": "/agenda/", "lat": 47.569, "lon": 8.5972}
+  "bergamirchel": {"name": "Berg am Irchel", "bezirk": "Andelfingen", "domain": "www.bergamirchel.ch", "system": "eventlist", "path": "/agenda/", "lat": 47.569, "lon": 8.5972},
+  "kilchberg": {"name": "Kilchberg", "bezirk": "Horgen", "domain": "www.kilchberg.ch", "system": "links", "path": "/veranstaltungen/seite/{p}", "pages": 15, "p0": 1, "link": "/veranstaltungen/termin/", "lat": 47.3199, "lon": 8.5451},
+  "oberrieden": {"name": "Oberrieden", "bezirk": "Horgen", "domain": "www.oberrieden.ch", "system": "links", "path": "/events?page={p}", "pages": 8, "link": "/events/\\d+$", "lat": 47.2742, "lon": 8.5769},
+  "gossau": {"name": "Gossau", "bezirk": "Hinwil", "domain": "www.gossau-zh.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/kalender/", "lat": 47.303, "lon": 8.7632},
+  "fischenthal": {"name": "Fischenthal", "bezirk": "Hinwil", "domain": "www.fischenthal.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/leben-familie-anlaesse/", "lat": 47.3399, "lon": 8.9266}
 }
