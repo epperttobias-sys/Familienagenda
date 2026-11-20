@@ -28,6 +28,15 @@ def texts():
             out.add(p.get("desc", ""))
     for p in load("essen-plus.js"):
         out.add(p.get("t", ""))
+    # Bemerkungen in Öffnungszeiten, z.B. "nach Vereinbarung"
+    ohs = [z.get("oh", "") for z in load("ausflug.js").get("ziele", [])] + [o.get("oh", "") for o in load("essen.js").get("orte", [])]
+    for lst in load("familie.js").get("gemeinden", {}).values():
+        ohs += [x.get("oh", "") for x in lst]
+    for lst in load("spielplaetze.js").get("gemeinden", {}).values():
+        ohs += [x.get("oh", "") for x in lst]
+    for oh in ohs:
+        for q in re.findall(r'"([^"]{3,})"', oh or ""):
+            out.add(q)
     return sorted(t.strip() for t in out if t and re.search(r"[A-Za-zÄÖÜäöü]{3}", t))
 
 

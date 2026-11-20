@@ -177,7 +177,7 @@ const D={
 "Quelle: Schulferien aller Schulgemeinden, Volksschulamt Kanton Zürich. Für spätere Schuljahre zeigen wir die Empfehlung des Kantons, bis die Gemeinden ihre Daten festlegen. Zusätzlich hat jede Schule bis zu vier freie Tage, die findest du bei deiner Schule. Angaben ohne Gewähr.":"Source: school holidays of all school communities, Volksschulamt canton of Zurich. For later school years we show the canton's recommendation until the towns set their dates. Each school also has up to four days off; ask your school. No guarantee.",
 // Wetter
 "sonnig":"sunny","leicht bewölkt":"partly cloudy","bewölkt":"cloudy","Nebel":"fog","Nieselregen":"drizzle","Regen":"rain","Schnee":"snow","Regenschauer":"rain showers","Schneeschauer":"snow showers","Gewitter":"thunderstorm",
-"Wochentags":"Weekdays","Brunnen":"Fountain","Trinkbrunnen":"Drinking fountain","Waldrand":"Forest edge","Schatten":"Shade","Spielplatz direkt nebenan":"Playground right next door","Fotos und Bewertungen auf Google":"Photos and reviews on Google","Merkmal":"Feature","Bereich":"Area","Ferien":"Holidays","Umkreis":"Area","bei den meisten Gemeinden":"in most towns","Angebot":"Service","Wetter":"Weather","Mo":"Mon","Di":"Tue","Mi":"Wed","Do":"Thu","Fr":"Fri","Sa":"Sat","So":"Sun","Morgen":"Tomorrow","mit Karte":"with map","zum Entdecken":"to discover","mit Spielmöglichkeit":"where kids can play","und Apotheken":"and pharmacies","Die Gemeinde überarbeitet gerade das Reglement für ihre Räume. Am besten direkt nachfragen.":"The town is currently revising its rules for its rooms. Best to ask directly.","Räume und Veranstaltungsorte":"Rooms and venues","Singsäle und Mehrzweckräume":"Music rooms and multi-purpose rooms","Städtische Säle und Räume":"City halls and rooms","Raum- und Saalangebot":"Rooms and halls","Gemeindeplatz (öffentliche Anlässe)":"Town square (public events)","Beide Säle zusammen, Foyer für Apéros":"Both halls together, foyer for receptions","Liegenschaften der Gemeinde und der Schule":"Town and school properties","Waldhütte mit Unterstand":"Forest hut with shelter"
+"Wochentags":"Weekdays","Viele Kulturräume, für Kulturveranstaltende oft vergünstigt": "Many cultural venues, often discounted for cultural organisers", "Kulturräume der Stadt Uster": "Cultural venues of the City of Uster", "Grosser Saal im Mönchhof": "Large hall in the Mönchhof", "Kleiner Saal im Mönchhof": "Small hall in the Mönchhof", "Über 20 Säle und Aussenanlagen, online buchbar": "Over 20 halls and outdoor areas, bookable online", "Quartieranlagen Chappeli, Kindhausen, Steibrugg und Gutenswil": "Neighbourhood facilities Chappeli, Kindhausen, Steibrugg and Gutenswil", "Schulhäuser ausserhalb der Schulzeit": "School buildings outside school hours", "Gemeindesaal (grosser und kleiner Saal)": "Town hall (large and small hall)", "Jürg-Wille-Saal im Gasthof Löwen": "Jürg-Wille hall in the Gasthof Löwen", "Turnhallen, Aulen und Schulküchen der Schule": "School gyms, assembly halls and school kitchens", "Waldhütten gibt es keine.": "There are no forest huts.", "Weitere Räume und Anlagen": "More rooms and facilities", "Vermietung Räume und Anlagen": "Rental of rooms and facilities", "Gebühren für Räume und Plätze (PDF)": "Fees for rooms and grounds (PDF)", "Nur eine Gebührenliste gefunden. Für die Reservation bei der Abteilung Bau und Liegenschaften nachfragen.": "Only a list of fees found. Ask the building and property department to book.", "Räume der Gemeinde nur für Einwohnerinnen, Einwohner und Dorfvereine.": "Town rooms only for residents and local clubs.", "Gemeindesaal (ca. 25 sitzend, Küche für 50)": "Town hall (approx. 25 seated, kitchen for 50)", "Chilestube (ca. 25 sitzend, über ref. Kirche)": "Chilestube (approx. 25 seated, via the Reformed church)", "Weitere Räume laut Raumverzeichnis": "More rooms in the room directory", "Räume der Rütner Schulen": "Rooms of the Rüti schools", "Mitteilung zum Nutzungsreglement": "Notice on the rules of use", "immer offen": "always open", "nach Vereinbarung": "by appointment", "auf Anfrage": "on request", "nach Absprache": "by arrangement", "geschlossen": "closed", "Tierparks, Museen, Burgen, Aussichtstürme und mehr": "zoos, museums, castles, lookout towers and more","Brunnen":"Fountain","Trinkbrunnen":"Drinking fountain","Waldrand":"Forest edge","Schatten":"Shade","Spielplatz direkt nebenan":"Playground right next door","Fotos und Bewertungen auf Google":"Photos and reviews on Google","Merkmal":"Feature","Bereich":"Area","Ferien":"Holidays","Umkreis":"Area","bei den meisten Gemeinden":"in most towns","Angebot":"Service","Wetter":"Weather","Mo":"Mon","Di":"Tue","Mi":"Wed","Do":"Thu","Fr":"Fri","Sa":"Sat","So":"Sun","Morgen":"Tomorrow","mit Karte":"with map","zum Entdecken":"to discover","mit Spielmöglichkeit":"where kids can play","und Apotheken":"and pharmacies","Die Gemeinde überarbeitet gerade das Reglement für ihre Räume. Am besten direkt nachfragen.":"The town is currently revising its rules for its rooms. Best to ask directly.","Räume und Veranstaltungsorte":"Rooms and venues","Singsäle und Mehrzweckräume":"Music rooms and multi-purpose rooms","Städtische Säle und Räume":"City halls and rooms","Raum- und Saalangebot":"Rooms and halls","Gemeindeplatz (öffentliche Anlässe)":"Town square (public events)","Beide Säle zusammen, Foyer für Apéros":"Both halls together, foyer for receptions","Liegenschaften der Gemeinde und der Schule":"Town and school properties","Waldhütte mit Unterstand":"Forest hut with shelter"
 };
 const WD={Mo:"Mon",Di:"Tue",Mi:"Wed",Do:"Thu",Fr:"Fri",Sa:"Sat",So:"Sun"};
 const WDL={Montag:"Monday",Dienstag:"Tuesday",Mittwoch:"Wednesday",Donnerstag:"Thursday",Freitag:"Friday",Samstag:"Saturday",Sonntag:"Sunday"};
@@ -192,6 +192,14 @@ const MOre="(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|N
 const WDre="(Mo|Di|Mi|Do|Fr|Sa|So)";
 const noun=(n,w)=>{const e=NOUN[w];return e?(+n===1?e[0]:e[1]):null};
 const tw=s=>D[s]!==undefined?D[s]:null;
+function hrs(s){
+  const X=window.I18N_EN||{};
+  return s.replace(/"([^"]+)"/g,(m,q)=>'"'+(D[q]||X[q]||q)+'"')
+   .replace(/\b(Mo|Tu|We|Th|Fr|Sa|Su|Di|Mi|Do|So)\b(?![a-zäöü])/g,m=>({Mo:"Mon",Tu:"Tue",We:"Wed",Th:"Thu",Fr:"Fri",Sa:"Sat",Su:"Sun",Di:"Tue",Mi:"Wed",Do:"Thu",So:"Sun"})[m])
+   .replace(/\bPH\b/g,"public holidays").replace(/\bSH\b/g,"school holidays").replace(/\boff\b/g,"closed").replace(/\bimmer offen\b/g,"always open").replace(/24\/7/g,"24/7")
+   .replace(/Feiertage geschlossen/g,"closed on public holidays").replace(/Feiertage/g,"public holidays").replace(/\bgeschlossen\b/g,"closed").replace(/\boffen\b/g,"open")
+   .replace(/\bnach Vereinbarung\b/g,"by appointment").replace(/\bauf Anfrage\b/g,"on request").replace(/\bJan\b/g,"Jan").replace(/\bMär\b/g,"Mar").replace(/\bMai\b/g,"May").replace(/\bOkt\b/g,"Oct").replace(/\bDez\b/g,"Dec");
+}
 function dates(s){
   return s.replace(new RegExp("\\b(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)\\b","g"),m=>WDL[m])
    .replace(new RegExp("\\b"+WDre+"(?=( \\d{1,2}\\.)|[–\\-/,]| bis |$|\\[| \\d{1,2}:)","g"),m=>WD[m])
@@ -200,6 +208,8 @@ function dates(s){
    .replace(/ bis /g," to ").replace(/Feiertage geschlossen/g,"closed on public holidays").replace(/Feiertage/g,"public holidays").replace(/\bgeschlossen\b/g,"closed");
 }
 const RULES=[
+ [/^Gerade Saison: (.+)\. Die Highlights stammen aus den Agenden aller Gemeinden\.$/,(m,l)=>{let x=l;for(const k of SEASONL)x=x.split(k).join(D[k]);return "In season now: "+x+". "+D["Die Highlights stammen aus den Agenden aller Gemeinden."]}],
+ [/^Andere Daten in der (.+)$/,"Other dates at $1"],[/^(\d+) Ziele: (.+)$/,(m,n,r)=>{const t=tw(r);return t?n+" destinations: "+t:null}],
  [/^(.*) in den nächsten (\d+) Wochen$/,(m,a,n)=>{const r=tr(a);return (r===null?a:r)+" in the next "+n+" weeks"}],[/^(\d+) Anlässe? aus (\d+) Gemeinden?$/,(m,a,b)=>a+(a==="1"?" event":" events")+" from "+b+(b==="1"?" town":" towns")],
  [/^Gerade Saison: (.+)$/,(m,a)=>"In season now: "+(tw(a)||a)],[/^(Heute|Morgen), (.+)$/,(m,a,b)=>(a==="Heute"?"Today":"Tomorrow")+", "+dates(b)],
  [/^(.+), (-?\d+)° bis (-?\d+)°, Regen (\d+) %$/,(m,a,b,c,d)=>(tw(a)||a)+", "+b+"° to "+c+"°, rain "+d+" %"],
@@ -228,6 +238,7 @@ const RULES=[
  [/^Nächste (\d+) Wochen$/,"Next $1 weeks"],[/^(.+) \((\d+)\)$/,(m,a,n)=>{const t=tr(a);return t!==null?t+" ("+n+")":null}],
  [/^Jetzt: (.+)$/,"Now: $1"]
 ];
+const SEASONL=["Samichlaus, Advent und Weihnachten","Räbeliechtli und Laternen","Herbst, Chilbi und Halloween","Sommer, Badi und Ferien","Winter, Schnee und Eis","Märkte und Feste","Bücher & Geschichten","Feste, Märkte & Brauchtum","Fasnacht","Ostern","Frühling","Samichlaus"];
 const NAMEP={"Spielplatz":"Playground","Waldspielplatz":"Forest playground","Kinderspielplatz":"Playground","Aussichtspunkt":"Viewpoint","Aussichtsturm":"Lookout tower","Feuerstelle":"Fire pit","Grillstelle":"Barbecue spot","Grillplatz":"Barbecue spot","Rastplatz":"Rest area",
  "Gemeindebibliothek":"Town library","Bibliothek":"Library","Stadtbibliothek":"City library","Ludothek":"Toy library","Spielgruppe":"Playgroup","Waldspielgruppe":"Forest playgroup","Hallenbad":"Indoor pool","Freibad":"Outdoor pool","Strandbad":"Lido","Seebad":"Lake lido","Schwimmbad":"Swimming pool",
  "Kinderkrippe":"Nursery","Krippe":"Nursery","Hort":"After-school care","Mittagstisch":"Lunch club","Tagesstruktur":"Day care (school)","Tagesstrukturen":"Day care (school)","Kindergarten":"Kindergarten","Schulhaus":"School","Primarschule":"Primary school","Familienzentrum":"Family centre","Gemeinschaftszentrum":"Community centre","Waldhütte":"Forest hut","Burgruine":"Castle ruin","Ruine":"Ruin","Schloss":"Castle","Museum":"Museum","Tierpark":"Animal park","Wildpark":"Wildlife park"};
@@ -238,7 +249,7 @@ function core(s,nd){
   if(nd)return null;
   if(new RegExp("^"+WDre+" \\d|^\\d{1,2}\\. ?"+MOre+"|^\\d{1,2}[.:]\\d{2}|^(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag), ").test(s)){
     const r=dates(s).replace(/: (\d+) Anlässe?$/,(m,n)=>": "+n+(n==="1"?" event":" events"));if(r!==s)return r}
-  const pm=s.match(/^(\S+) (.{2,60})$/);if(pm&&NAMEP[pm[1]]&&!/\d{1,2}\./.test(pm[2]))return NAMEP[pm[1]]+" "+pm[2].replace(/^bei (der |dem |den )?/,"near ").replace(/^beim /,"near the ").replace(/^(an der|am|im) /,"at ");
+  const pm=s.match(/^(\S+) (.{2,60})$/);if(pm&&NAMEP[pm[1]]&&!/\d{1,2}\./.test(pm[2])&&!/\b(und|für|der|die|das|mit|von|im|zum|zur)\b/.test(pm[2].replace(/^(bei|beim|an der|am|im) /,"")))return NAMEP[pm[1]]+" "+pm[2].replace(/^bei (der |dem |den )?/,"near ").replace(/^beim /,"near the ").replace(/^(an der|am|im) /,"at ");
   return null;
 }
 function tr(s){
@@ -246,7 +257,7 @@ function tr(s){
   // Emoji/Symbol vorne
   const m=s.match(/^([^\p{L}\d«(]+)(.+)$/u);
   if(m){r=core(m[2]);if(r!==null)return m[1]+r;
-    if(/🕒/.test(m[1]))return m[1]+dates(m[2])}
+    if(/🕒/.test(m[1]))return m[1]+hrs(m[2])}
   // Teile mit " · "
   if(s.includes(" · ")){let ch=false;const p=s.split(" · ").map(x=>{const y=tr(x);if(y!==null&&y!==x){ch=true;return y}return x});if(ch)return p.join(" · ")}
   return null;
