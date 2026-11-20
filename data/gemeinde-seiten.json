@@ -1,40 +1,1024 @@
 {
  "stand": "2026-11-20",
  "g": {
-  "seuzach": {
-   "pages": 10,
+  "aeugst": {
+   "pages": 3,
    "items": [
     {
-     "n": "Kindergarten (ausgewählt)",
+     "n": "Kinderkrippe Coccolino",
+     "k": "kita",
+     "w": "http://www.coccolino.ch/kinderkrippe-aeugst-am-albis",
+     "u": "https://www.aeugst-albis.ch/bildung-gesellschaft/gesellschaft/familienergaenzende-kinderbetreuung.html/554",
+     "src": "https://www.aeugst-albis.ch/bildung-gesellschaft/gesellschaft/familienergaenzende-kinderbetreuung.html/554"
+    },
+    {
+     "n": "Spielgruppe Räupli",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.aeugst-albis.ch/bildung-gesellschaft/gesellschaft/familienergaenzende-kinderbetreuung/spielgruppe-raeupli.html/556",
+     "src": "https://www.aeugst-albis.ch/bildung-gesellschaft/gesellschaft/familienergaenzende-kinderbetreuung.html/554"
+    },
+    {
+     "n": "Tagesfamilien des Bezirks Affoltern",
+     "k": "kita",
+     "w": "https://www.tagesfamilien-aaa.ch/",
+     "u": "https://www.aeugst-albis.ch/bildung-gesellschaft/gesellschaft/familienergaenzende-kinderbetreuung.html/554",
+     "src": "https://www.aeugst-albis.ch/bildung-gesellschaft/gesellschaft/familienergaenzende-kinderbetreuung.html/554"
+    }
+   ]
+  },
+  "knonau": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Eltern-Kind-Angebote Kleinkinder",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.knonau.ch/verwaltung/gemeindeverwaltung/dienstleistungen.html/292/service/938",
+     "src": "https://www.knonau.ch/gesellschaft/lebenslagen/fruehe-kindheit.html/767"
+    },
+    {
+     "n": "Bibliothek Knonau",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/Knonau/",
+     "u": "https://www.knonau.ch/gesellschaft/lebenslagen/fruehe-kindheit.html/767",
+     "src": "https://www.knonau.ch/gesellschaft/lebenslagen/fruehe-kindheit.html/767"
+    }
+   ]
+  },
+  "hedingen": {
+   "pages": 2,
+   "items": [
+    {
+     "n": "Spielgruppe Spatzenäscht Hedingen",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-hedingen.ch/",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    },
+    {
+     "n": "Spielgruppe Lärnmützli",
+     "k": "spiel",
+     "w": "https://www.hediger-spielgruppe.ch/",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    },
+    {
+     "n": "Chinderhus Hedingen– Krippe und Hort",
+     "k": "kita",
+     "w": "https://www.chinderhuus-hedingen.ch/",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    },
+    {
+     "n": "Bibliothek Hedingen",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/hedingen/Start",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    },
+    {
+     "n": "Elki – Eltern-Kind-Turnen Hedingen",
+     "k": "spiel",
+     "w": "https://dtvhedingen.ch/elki",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    },
+    {
+     "n": "Familienzentrum Affoltern",
+     "k": "treff",
+     "w": "https://familienzentrum-bezirk-affoltern.ch/",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    },
+    {
+     "n": "Tagesfamilien Bezirk Affoltern",
+     "k": "kita",
+     "w": "https://www.tagesfamilien-aaa.ch/",
+     "u": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31",
+     "src": "https://www.hedingen.ch/dorfleben/bildung-jungend-familie/familie.html/31"
+    }
+   ]
+  },
+  "mettmenstetten": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "familienzentrum-bezirk-affoltern.ch",
+     "k": "treff",
+     "w": "http://www.familienzentrum-bezirk-affoltern.ch/",
+     "u": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74",
+     "src": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74"
+    },
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/mettmenstetten",
+     "u": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74",
+     "src": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74"
+    },
+    {
+     "n": "tagesfamilien-aaa.ch",
+     "k": "kita",
+     "w": "http://www.tagesfamilien-aaa.ch/",
+     "u": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74",
+     "src": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74"
+    },
+    {
+     "n": "familienverein-mettmenstetten.ch",
+     "k": "spiel",
+     "w": "http://www.familienverein-mettmenstetten.ch/",
+     "u": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74",
+     "src": "https://www.mettmenstetten.ch/themen-a-z/kinder-jugend-und-familie/betreuungsangebote.html/74"
+    }
+   ]
+  },
+  "obfelden": {
+   "pages": 2,
+   "items": [
+    {
+     "n": "Kinderkrippe Tamburin",
+     "k": "kita",
+     "w": "http://www.tamburin.ch/",
+     "u": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65",
+     "src": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65"
+    },
+    {
+     "n": "Tagesbetreuung und Mittagstisch Primarschule",
+     "k": "kita",
+     "w": "https://www.primarobfelden.ch/angebot/tagesstrukturen.html/89",
+     "u": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65",
+     "src": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65"
+    },
+    {
+     "n": "Spielgruppe Rägeboge und Waldspielgruppe Silberspur",
+     "k": "spiel",
+     "w": "https://www.spielgruppeobfelden.ch/",
+     "u": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65",
+     "src": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65"
+    },
+    {
+     "n": "Buurehofspielgruppe Hoppelhaas",
+     "k": "spiel",
+     "w": "https://www.buurehofspielgruppe-hoppelhaas.ch/",
+     "u": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65",
+     "src": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65"
+    },
+    {
+     "n": "Tagesfamilien Bezirk Affoltern",
+     "k": "kita",
+     "w": "http://www.tagesfamilien-aaa.ch/",
+     "u": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65",
+     "src": "https://www.obfelden.ch/gesellschaft-soziales/jugend-und-familie.html/65"
+    }
+   ]
+  },
+  "stallikon": {
+   "pages": 1,
+   "items": []
+  },
+  "kappelamalbis": {
+   "pages": 11,
+   "items": [
+    {
+     "n": "Kindergarten Uerzlikon",
+     "k": "kita",
+     "w": "http://www.primarschulekappel.ch/",
+     "u": "https://www.kappel-am-albis.ch/kindergarten",
+     "src": "https://www.kappel-am-albis.ch/gesetzeskapitel/kapitel/2855",
+     "a": "Hauptikonerstrasse 5, Uerzlikon Tel. 044 764 16 45 sc",
+     "plz": "8926"
+    }
+   ]
+  },
+  "maschwanden": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderkrippe",
      "k": "kita",
      "w": "",
-     "u": "https://www.seuzach.ch/kindergarten",
-     "src": "https://www.seuzach.ch/kindergarten"
+     "u": "https://www.maschwanden.ch/de/schule-und-bildung/kinderkrippe/",
+     "src": "https://www.maschwanden.ch/de/schule-und-bildung/kinderkrippe/"
     },
     {
-     "n": "Hort (ausgewählt)",
+     "n": "hier weitere Informationen einholen",
      "k": "kita",
-     "w": "http://www.tagesstern.ch/seuzach",
-     "u": "https://www.seuzach.ch/hort",
-     "src": "https://www.seuzach.ch/hort/1729",
-     "a": "Kontakt Tagesstern Seuzach Reutlingerstrasse 13a, Seuzach Tel. 079 809 01 24 seuz",
-     "plz": "8472"
+     "w": "http://www.kinderkrippe-mettmenstetten.ch/",
+     "u": "https://www.maschwanden.ch/de/schule-und-bildung/kinderkrippe/",
+     "src": "https://www.maschwanden.ch/de/schule-und-bildung/kinderkrippe/"
     },
     {
-     "n": "Bibliothek (ausgewählt)",
+     "n": "Gemeindebibliothek",
      "k": "bib",
-     "w": "http://www.bibliothek-seuzach.ch/",
-     "u": "https://www.seuzach.ch/bibliotheken",
-     "src": "https://www.seuzach.ch/bibliotheken/308",
-     "a": "Uhr Kontakt Bibliothek Seuzach Breitestrasse 6a, Seuzach Tel. 052 320 41 41 bibl",
-     "plz": "8472"
+     "w": "",
+     "u": "https://www.maschwanden.ch/de/verwaltung/dienstleistungen/60_gemeindebibliothek",
+     "src": "https://www.maschwanden.ch/de/verwaltung/lebenslagen/?kat_id=4"
     },
     {
-     "n": "Website Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Hier finden Sie weitere Informationen zur Gemeindebibliothek.",
      "k": "bib",
-     "w": "http://www.bibliothek-seuzach.ch/",
-     "u": "https://www.seuzach.ch/bibliotheken/308",
-     "src": "https://www.seuzach.ch/bibliotheken/308"
+     "w": "https://ps-maschwanden.ch/ferienplan/",
+     "u": "https://www.maschwanden.ch/de/gemeinde-und-wirtschaft/kultur-und-freizeit/bibliothek/",
+     "src": "https://www.maschwanden.ch/de/verwaltung/dienstleistungen/60_gemeindebibliothek",
+     "a": "Dorfstrasse 66, Maschwanden Tel. 043 466 88 92",
+     "plz": "8933"
+    },
+    {
+     "n": "Tagesbetreuung",
+     "k": "kita",
+     "w": "https://tagesschule-maschwanden.ch/betreuung/",
+     "u": "https://www.maschwanden.ch/de/verwaltung/abteilungen/8_soziales-und-gesundheit",
+     "src": "https://www.maschwanden.ch/de/verwaltung/abteilungen/8_soziales-und-gesundheit"
+    },
+    {
+     "n": "Frauenverein Maschwanden",
+     "k": "spiel",
+     "w": "http://www.frauenverein-maschwanden.ch/",
+     "u": "https://www.maschwanden.ch/de/vereinsverzeichnis/75_frauenverein-maschwanden",
+     "src": "https://www.maschwanden.ch/de/vereinsverzeichnis/"
+    }
+   ]
+  },
+  "bonstetten": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Familienclub und Familienzentrum",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.bonstetten.ch/_rte/thema2/29900",
+     "src": "https://www.bonstetten.ch/thema-familie-kinder"
+    },
+    {
+     "n": "tagesfamilien-aaa.ch",
+     "k": "kita",
+     "w": "https://tagesfamilien-aaa.ch/",
+     "u": "https://www.bonstetten.ch/thema-familie-kinder/33248",
+     "src": "https://www.bonstetten.ch/thema-familie-kinder/33248"
+    },
+    {
+     "n": "Familienzentrum Bezirk Affoltern",
+     "k": "treff",
+     "w": "https://familienzentrum-bezirk-affoltern.ch/",
+     "u": "https://www.bonstetten.ch/thema-familie-kinder/29900",
+     "src": "https://www.bonstetten.ch/thema-familie-kinder/29900"
+    },
+    {
+     "n": "naturspielgruppe-strumberg.weebly.com",
+     "k": "spiel",
+     "w": "http://www.naturspielgruppe-strumberg.weebly.com/",
+     "u": "https://www.bonstetten.ch/thema-familie-kinder/33254",
+     "src": "https://www.bonstetten.ch/thema-familie-kinder/33254"
+    },
+    {
+     "n": "spielgruppe-bonstetten.ch",
+     "k": "spiel",
+     "w": "http://www.spielgruppe-bonstetten.ch/",
+     "u": "https://www.bonstetten.ch/thema-familie-kinder/33254",
+     "src": "https://www.bonstetten.ch/thema-familie-kinder/33254"
+    }
+   ]
+  },
+  "affolternamalbis": {
+   "pages": 15,
+   "items": [
+    {
+     "n": "hier",
+     "k": "kita",
+     "w": "https://www.tagesfamilien-aaa.ch/",
+     "u": "https://www.stadtaffoltern.ch/kinderbetreuung",
+     "src": "https://www.stadtaffoltern.ch/kinderbetreuung"
+    },
+    {
+     "n": "Menüpläne Tagesstrukturen",
+     "k": "kita",
+     "w": "https://www.psa.ch/betreuungsangebote/9451",
+     "u": "https://www.psa.ch/",
+     "src": "https://www.psa.ch/"
+    },
+    {
+     "n": "Regionalbibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.stadtaffoltern.ch/_rte/thema2/62995",
+     "src": "https://www.stadtaffoltern.ch/freizeit-kultur"
+    },
+    {
+     "n": "Jugendtreff Hirtschür",
+     "k": "treff",
+     "w": "http://www.ja-aaa.ch/",
+     "u": "https://www.stadtaffoltern.ch/_rte/sehenswuerdigkeit/10351",
+     "src": "https://www.stadtaffoltern.ch/sportanlagen",
+     "a": "Jonentalstrasse 3, Affoltern am Albis",
+     "plz": "8910",
+     "lat": 47.27524,
+     "lon": 8.45709
+    }
+   ]
+  },
+  "feuerthalen": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Frauenverein Feuerthalen-Langwiesen",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.feuerthalen.ch/gesellschaft/vereine/vereine-details.html/373/association/7",
+     "src": "https://www.feuerthalen.ch/gesellschaft/vereine.html/266"
+    }
+   ]
+  },
+  "andelfingen": {
+   "pages": 13,
+   "items": [
+    {
+     "n": "Ausführungsbestimmungen für familienergänzende Kinderbetreuung im Vorschulalter",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.andelfingen.ch/_rte/information/689917",
+     "src": "https://www.andelfingen.ch/gk-schulefreizeit/kapitel/1151"
+    },
+    {
+     "n": "Anschlussvertrag über den Betrieb der Gemeinde- und Schulbibliothek Andelfingen",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.andelfingen.ch/_rte/information/2351086",
+     "src": "https://www.andelfingen.ch/gk-schulefreizeit/kapitel/1151"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "http://www.bibliothek-andelfingen.ch/",
+     "u": "https://www.andelfingen.ch/bibliotheken",
+     "src": "https://www.andelfingen.ch/hort",
+     "a": "Hofwiesenstrasse 1, Andelfingen Tel. 052 304 30 47",
+     "plz": "8450"
+    }
+   ]
+  },
+  "buchamirchel": {
+   "pages": 12,
+   "items": []
+  },
+  "flurlingen": {
+   "pages": 5,
+   "items": [
+    {
+     "n": "Bibliothek (aktiv)",
+     "k": "bib",
+     "w": "http://www.schule-flurlingen.ch/angebote/bibliothek/",
+     "u": "https://www.flurlingen.ch/bibliotheken",
+     "src": "https://www.flurlingen.ch/bibliotheken/503",
+     "a": "Gründenstrasse 26, Flurlingen Tel. 052 659 18 75",
+     "plz": "8247"
+    },
+    {
+     "n": "Kindergarten (aktiv)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.flurlingen.ch/kindergarten",
+     "src": "https://www.flurlingen.ch/kindergarten"
+    }
+   ]
+  },
+  "kleinandelfingen": {
+   "pages": 2,
+   "items": []
+  },
+  "laufenuhwiesen": {
+   "pages": 2,
+   "items": []
+  },
+  "benken": {
+   "pages": 14,
+   "items": [
+    {
+     "n": "Schulergänzende Betreuung (TAGI)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.benken.ch/_rte/thema2/72172",
+     "src": "https://www.benken.ch/elternabc"
+    },
+    {
+     "n": "Kindergarten Pfarreiheim",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.benken.ch/pfarreiheim",
+     "src": "https://www.benken.ch/kindergartenraebli/2623",
+     "a": "Bahnhofstrasse 4, Benken Tel. 055 283 12 02 Lagep",
+     "plz": "8717"
+    },
+    {
+     "n": "Kindergarten Räbli",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.benken.ch/kindergartenraebli",
+     "src": "https://www.benken.ch/pfarreiheim/2622",
+     "a": "Schulstrasse 9, Benken Tel. 055 283 18 36 Lagep",
+     "plz": "8717"
+    },
+    {
+     "n": "Infoschreiben schulergänzende Betreuung TAGI",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.benken.ch/_doc/5493670",
+     "src": "https://www.benken.ch/publikationen/501484"
+    }
+   ]
+  },
+  "henggart": {
+   "pages": 16,
+   "items": [
+    {
+     "n": "Jugendtreff",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.henggart.ch/jugendtreff",
+     "src": "https://www.henggart.ch/kinderbetreuung"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "http://www.winmedio.net/henggart",
+     "u": "https://www.henggart.ch/bibliotheken",
+     "src": "https://www.henggart.ch/schulen",
+     "a": "Dorfstrasse 39, Henggart Tel. 052 305 15 52 bib",
+     "plz": "8444"
+    }
+   ]
+  },
+  "flaach": {
+   "pages": 18,
+   "items": []
+  },
+  "dachsen": {
+   "pages": 17,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "https://primarschuledachsen.ch/bibliothek/",
+     "u": "https://www.dachsen.ch/bibliotheken",
+     "src": "https://www.dachsen.ch/kitaundhort/29357",
+     "a": "Dorfstrasse 3, Dachsen Tel. 052 654 08 15 Webs",
+     "plz": "8447"
+    },
+    {
+     "n": "KITA-Leistungsvereinbarung mit Flurlingen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.dachsen.ch/_rtr/information_2036995",
+     "src": "https://www.dachsen.ch/kitaundhort/29357"
+    },
+    {
+     "n": "KITA-Leistungsvereinbarung mit Laufen-Uhwiesen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.dachsen.ch/_rtr/information_2036998",
+     "src": "https://www.dachsen.ch/kitaundhort/29357"
+    },
+    {
+     "n": "Kita und Hort Dachsen",
+     "k": "kita",
+     "w": "https://primarschuledachsen.ch/eltern-abc/",
+     "u": "https://www.dachsen.ch/_rte/amt/29357",
+     "src": "https://www.dachsen.ch/rechtssammlung/sammlung/1411168"
+    },
+    {
+     "n": "spielgruppe-frechdachse.ch",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-frechdachse.ch/",
+     "u": "https://www.dachsen.ch/spielgruppe",
+     "src": "https://www.dachsen.ch/spielgruppe"
+    }
+   ]
+  },
+  "rheinau": {
+   "pages": 11,
+   "items": []
+  },
+  "marthalen": {
+   "pages": 13,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "http://www.bibliothek-marthalen.ch/",
+     "u": "https://www.marthalen.ch/bibliotheken",
+     "src": "https://www.marthalen.ch/spielgruppe/2235"
+    }
+   ]
+  },
+  "truttikon": {
+   "pages": 0,
+   "items": []
+  },
+  "rifferswil": {
+   "pages": 6,
+   "items": [
+    {
+     "n": "Spielgruppe Mariechäferli Rifferswil",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.rifferswil.ch/_doc/6799903",
+     "src": "https://www.rifferswil.ch/jahre"
+    }
+   ]
+  },
+  "volken": {
+   "pages": 7,
+   "items": []
+  },
+  "bassersdorf": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "KIMI Krippen AG",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94"
+    },
+    {
+     "n": "Kita Einzigartig",
+     "k": "kita",
+     "w": "https://kita-einzigartig.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94"
+    },
+    {
+     "n": "Verein Mittagstisch 8303",
+     "k": "kita",
+     "w": "https://www.mittagstisch8303.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94"
+    },
+    {
+     "n": "Tagesfamilienorganisation Zürcher Unterland (TFZU)",
+     "k": "kita",
+     "w": "http://www.tfzu.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder.html/94"
+    },
+    {
+     "n": "Spielgruppe Chreisel",
+     "k": "spiel",
+     "w": "http://www.spielgruppe-chreisel.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder/spielgruppen.html/244",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder/spielgruppen.html/244"
+    },
+    {
+     "n": "Spielgruppe Schlümpfe",
+     "k": "spiel",
+     "w": "http://www.spielgruppe-schluempfe.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder/spielgruppen.html/244",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder/spielgruppen.html/244"
+    },
+    {
+     "n": "Spielgruppe SchereSteiPapier",
+     "k": "spiel",
+     "w": "https://www.scheresteipapier.ch/",
+     "u": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder/spielgruppen.html/244",
+     "src": "https://www.bassersdorf.ch/leben-standort/lebenslagen/familien-kinder/spielgruppen.html/244"
+    }
+   ]
+  },
+  "bachenbuelach": {
+   "pages": 3,
+   "items": []
+  },
+  "stammheim": {
+   "pages": 14,
+   "items": []
+  },
+  "dietlikon": {
+   "pages": 2,
+   "items": []
+  },
+  "hoeri": {
+   "pages": 2,
+   "items": []
+  },
+  "freiensteinteufen": {
+   "pages": 3,
+   "items": []
+  },
+  "lufingen": {
+   "pages": 5,
+   "items": []
+  },
+  "oberembrach": {
+   "pages": 6,
+   "items": []
+  },
+  "truellikon": {
+   "pages": 7,
+   "items": []
+  },
+  "rafz": {
+   "pages": 0,
+   "items": []
+  },
+  "wasterkingen": {
+   "pages": 3,
+   "items": []
+  },
+  "embrach": {
+   "pages": 15,
+   "items": [
+    {
+     "n": "Spielgruppe plus",
+     "k": "spiel",
+     "w": "https://familien-club.ch/spielgruppe-plus/",
+     "u": "https://www.embrach.ch/familie/52073",
+     "src": "https://www.embrach.ch/familie/52073"
+    },
+    {
+     "n": "Flyer Familientreff Embrach_2.HJ 2026",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.embrach.ch/_doc/7105435",
+     "src": "https://www.embrach.ch/familie/52073"
+    },
+    {
+     "n": "Kinderkrippe Rägeboge",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-raegeboge.ch/",
+     "u": "https://www.embrach.ch/familie/52073",
+     "src": "https://www.embrach.ch/familie/52073"
+    },
+    {
+     "n": "Kindertagesstätte Froschkönig ZKU",
+     "k": "kita",
+     "w": "http://www.kzu-kita.ch/kita-froschkoenig/",
+     "u": "https://www.embrach.ch/familie/52073",
+     "src": "https://www.embrach.ch/familie/52073"
+    },
+    {
+     "n": "Kita Gwundertrucke",
+     "k": "kita",
+     "w": "https://www.kita-gwundertrucke.ch/",
+     "u": "https://www.embrach.ch/familie/52073",
+     "src": "https://www.embrach.ch/familie/52073"
+    },
+    {
+     "n": "Tagesfamilien Zürcher Unterland",
+     "k": "kita",
+     "w": "https://www.tfzu.ch/home",
+     "u": "https://www.embrach.ch/familie/52073",
+     "src": "https://www.embrach.ch/familie/52073"
+    }
+   ]
+  },
+  "wallisellen": {
+   "pages": 15,
+   "items": []
+  },
+  "kloten": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Stadtbibliothek",
+     "k": "bib",
+     "w": "http://www.schluefweg.ch/",
+     "u": "https://www.kloten.ch/bibliothekfs",
+     "src": "https://www.kloten.ch/schule"
+    },
+    {
+     "n": "kimikrippen.ch",
+     "k": "kita",
+     "w": "https://kimikrippen.ch/de/home.html",
+     "u": "https://www.kloten.ch/kinderbetreuung/17171",
+     "src": "https://www.kloten.ch/kinderbetreuung/17171"
+    },
+    {
+     "n": "krippesuenneli.ch",
+     "k": "kita",
+     "w": "http://www.krippesuenneli.ch/",
+     "u": "https://www.kloten.ch/kinderbetreuung/17171",
+     "src": "https://www.kloten.ch/kinderbetreuung/17171"
+    },
+    {
+     "n": "kita-einzigartig.ch",
+     "k": "kita",
+     "w": "http://www.kita-einzigartig.ch/kloten",
+     "u": "https://www.kloten.ch/kinderbetreuung/17171",
+     "src": "https://www.kloten.ch/kinderbetreuung/17171"
+    },
+    {
+     "n": "kita-schlaufuchs.ch",
+     "k": "kita",
+     "w": "http://www.kita-schlaufuchs.ch/",
+     "u": "https://www.kloten.ch/kinderbetreuung/17171",
+     "src": "https://www.kloten.ch/kinderbetreuung/17171"
+    },
+    {
+     "n": "Krippe Looren (aktiv)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.kloten.ch/krippelooren",
+     "src": "https://www.kloten.ch/krippelooren"
+    },
+    {
+     "n": "Bildungskrippe und Bildungsräume (aktiv)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.kloten.ch/krippelooren/57044",
+     "src": "https://www.kloten.ch/krippelooren/57044"
+    },
+    {
+     "n": "Kinderbetreuung Kinderkrippen + Tagesfamilien (aktiv)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.kloten.ch/fruehekindheit/43201",
+     "src": "https://www.kloten.ch/fruehekindheit/43201"
+    }
+   ]
+  },
+  "winkel": {
+   "pages": 14,
+   "items": [
+    {
+     "n": "Kinderkrippe kleine RiESEN",
+     "k": "kita",
+     "w": "http://kleine-riesen.ch/",
+     "u": "https://www.winkel.ch/familie/11357",
+     "src": "https://www.winkel.ch/familie/11357"
+    },
+    {
+     "n": "Kinderkrippe Mini Meadows",
+     "k": "kita",
+     "w": "http://mini-meadows.ch/kinderkrippe/home.html",
+     "u": "https://www.winkel.ch/familie/11357",
+     "src": "https://www.winkel.ch/familie/11357"
+    },
+    {
+     "n": "Mini-Elki-Turnen",
+     "k": "spiel",
+     "w": "https://www.elternverein-winkel.ch/angebote/mini-elki-turnen",
+     "u": "https://www.winkel.ch/familie/11358",
+     "src": "https://www.winkel.ch/familie/11358"
+    },
+    {
+     "n": "Elki-Turnen",
+     "k": "spiel",
+     "w": "https://www.elternverein-winkel.ch/angebote/elki-turnen",
+     "u": "https://www.winkel.ch/familie/11358",
+     "src": "https://www.winkel.ch/familie/11358"
+    },
+    {
+     "n": "Ludothek Bülach",
+     "k": "ludo",
+     "w": "http://www.ludothek-buelach.ch/",
+     "u": "https://www.winkel.ch/familie/11358",
+     "src": "https://www.winkel.ch/familie/11358"
+    }
+   ]
+  },
+  "wil": {
+   "pages": 11,
+   "items": [
+    {
+     "n": "Spielgruppen, KITAs und Horte",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wil-zh.ch/spielgruppen",
+     "src": "https://www.wil-zh.ch/tagesfamilienzuercherunterland"
+    },
+    {
+     "n": "Tagesfamilien Zürcher Unterland",
+     "k": "kita",
+     "w": "http://www.tfzu.ch/",
+     "u": "https://www.wil-zh.ch/tagesfamilienzuercherunterland",
+     "src": "https://www.wil-zh.ch/spielgruppen",
+     "a": "Schäfligrabenstrasse 7, Wallisellen Tel. 044 883 71 00",
+     "plz": "8304"
+    },
+    {
+     "n": "Spielgruppen, KITA's und Horte im Rafzerfeld",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wil-zh.ch/_doc/6166912",
+     "src": "https://www.wil-zh.ch/spielgruppen"
+    },
+    {
+     "n": "Leistungsvereinbarung Verein Tagesfamilien Zürcher Unterland",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wil-zh.ch/_rte/information/1348972",
+     "src": "https://www.wil-zh.ch/gk-sozialesgesundheit/kapitel/2099"
+    },
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "http://www.dibiost.ch./",
+     "u": "https://www.wil-zh.ch/bibliotheken",
+     "src": "https://www.wil-zh.ch/anlaessevereine",
+     "a": "Dorfstrasse 15b, Wil ZH Tel. 044 879 20 87 bibli",
+     "plz": "8196"
+    }
+   ]
+  },
+  "dielsdorf": {
+   "pages": 0,
+   "items": []
+  },
+  "buelach": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Globegarden Glasi Kita",
+     "k": "kita",
+     "w": "https://www.globegarden.ch/locations/glasi",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "KIMI Krippen AG",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kita Bächli",
+     "k": "kita",
+     "w": "https://kita-buelach.ch/kita-baechli-buelach/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kita Bergli",
+     "k": "kita",
+     "w": "https://kita-buelach.ch/kita-bergli-buelach/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kita Böndli",
+     "k": "kita",
+     "w": "https://kita-buelach.ch/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kita Kinderpalais",
+     "k": "kita",
+     "w": "http://www.kinderpalais.ch/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kita Lichtpunkt",
+     "k": "kita",
+     "w": "https://kita-lichtpunkt.ch/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kita MiniHelden",
+     "k": "kita",
+     "w": "https://kita-minihelden.ch/",
+     "u": "https://www.buelach.ch/kinderjugendlichefamilie/72853",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Information sheet about fee subsidies for family-complementing and after-school childcare",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.buelach.ch/_doc/5231365",
+     "src": "https://www.buelach.ch/kinderjugendlichefamilie/72853"
+    },
+    {
+     "n": "Kindergarten & Primarschule",
+     "k": "kita",
+     "w": "https://www.schule-buelach.ch/",
+     "u": "https://www.buelach.ch/_rte/thema2/70024",
+     "src": "https://www.buelach.ch/schulebildung"
+    },
+    {
+     "n": "KiTas & Tagesfamilien",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.buelach.ch/_rte/thema2/70423",
+     "src": "https://www.buelach.ch/dienstleistungen/102379"
+    },
+    {
+     "n": "Wann besuchen die Klassen die Bibliothek?",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.buelach.ch/schulebildung/70024",
+     "src": "https://www.buelach.ch/schulebildung/70024"
+    }
+   ]
+  },
+  "daenikon": {
+   "pages": 2,
+   "items": [
+    {
+     "n": "waldspielgruppe.huettikon NULL @gmail.com",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.daenikon.ch/route/cms-index-redirectEmailLink/email/bWFpbHRvJTNBd2FsZHNwaWVsZ3J1cHBlJTJFaHVldHRpa29uJTQwZ21haWwlMkVjb20%3D",
+     "src": "https://www.daenikon.ch/verwaltung/soziales/soziale-dienste.html/309"
+    }
+   ]
+  },
+  "buchs": {
+   "pages": 15,
+   "items": [
+    {
+     "n": "Eltern-Kind-Singen",
+     "k": "spiel",
+     "w": "https://www.remure.ch/eltern-kind-singen/",
+     "u": "https://www.remure.ch/",
+     "src": "https://www.remure.ch/"
+    }
+   ]
+  },
+  "huettikon": {
+   "pages": 2,
+   "items": []
+  },
+  "neerach": {
+   "pages": 2,
+   "items": []
+  },
+  "daellikon": {
+   "pages": 11,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "http://www.mediothek-daellikon.ch/",
+     "u": "https://www.daellikon.ch/bibliotheken",
+     "src": "https://www.daellikon.ch/schulefreizeit/kapitel/1219"
+    }
+   ]
+  },
+  "niederweningen": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Onlinerechner Kita",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.niederweningen.ch/politik-verwaltung/online-schalter.html/29/product/21",
+     "src": "https://www.niederweningen.ch/lebenslagen/familie.html/99"
+    },
+    {
+     "n": "Frauenverein Niederweningen",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.niederweningen.ch/freizeit-kultur/vereine.html/89/association/94",
+     "src": "https://www.niederweningen.ch/freizeit-kultur/vereine.html/52"
+    },
+    {
+     "n": "Spielgruppe Surbgässli",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.niederweningen.ch/freizeit-kultur/vereine.html/89/association/28",
+     "src": "https://www.niederweningen.ch/freizeit-kultur/vereine.html/52"
+    }
+   ]
+  },
+  "otelfingen": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Spielgruppe Otelfingen",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.otelfingen.ch/freizeit/vereine.html/856/association/120",
+     "src": "https://www.otelfingen.ch/leben/familie-und-gesundheit.html/825"
+    }
+   ]
+  },
+  "regensberg": {
+   "pages": 3,
+   "items": []
+  },
+  "oberweningen": {
+   "pages": 11,
+   "items": []
+  },
+  "niederhasli": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Mediothek",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/Niederhasli/",
+     "u": "https://www.niederhasli.ch/kiga",
+     "src": "https://www.niederhasli.ch/kiga"
+    },
+    {
+     "n": "Jugendtreff",
+     "k": "treff",
+     "w": "http://www.jugendarbeit-nhng.ch/",
+     "u": "https://www.niederhasli.ch/4bis6prim",
+     "src": "https://www.niederhasli.ch/4bis6prim"
     }
    ]
   },
@@ -47,175 +1031,45 @@
      "w": "",
      "u": "https://www.ruemlang.ch/_rte/thema2/22054",
      "src": "https://www.ruemlang.ch/jugend",
-     "a": "Übersicht. Benutzerkonto erstellen Kontakt Gemeindeverwaltung Rümlang Glattalstrasse 201, Rümlang Telefon",
-     "plz": "8153"
+     "a": "Glattalstrasse 201, Rümlang Telefon",
+     "plz": "8153",
+     "lat": 47.45029,
+     "lon": 8.53034
     },
     {
-     "n": "Kimi Rümlang Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kimi Rümlang",
      "k": "kita",
      "w": "https://www.kimikrippen.ch/kimi_standort/kimi-ruemlang/",
      "u": "https://www.ruemlang.ch/jugend/50188",
      "src": "https://www.ruemlang.ch/jugend/50188"
     },
     {
-     "n": "Chinderhuus Zauberwald Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Chinderhuus Zauberwald",
      "k": "kita",
      "w": "http://chinderhuus-zauberwald.ch/",
      "u": "https://www.ruemlang.ch/jugend/50188",
      "src": "https://www.ruemlang.ch/jugend/50188"
     },
     {
-     "n": "Kita Löwenherz Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Löwenherz",
      "k": "kita",
      "w": "http://www.kita-loewenherz.ch/",
      "u": "https://www.ruemlang.ch/jugend/50188",
      "src": "https://www.ruemlang.ch/jugend/50188"
     },
     {
-     "n": "LINK Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "spiel",
-     "w": "https://www.spielgruppe-waldchuehli.ch/kontakt",
+     "n": "Tagesfamilien Zürich Unterland",
+     "k": "kita",
+     "w": "http://www.tfzu.ch/",
      "u": "https://www.ruemlang.ch/jugend/50188",
      "src": "https://www.ruemlang.ch/jugend/50188"
     },
     {
-     "n": "Benutzungsordnung Gemeindebibliothek",
-     "k": "bib",
-     "w": "",
-     "u": "https://www.ruemlang.ch/_rte/information/2972269",
-     "src": "https://www.ruemlang.ch/gk-schulefreizeit/kapitel/3622",
-     "a": "Übersicht. Benutzerkonto erstellen Kontakt Gemeindeverwaltung Rümlang Glattalstrasse 201, Rümlang Telefon",
-     "plz": "8153"
-    },
-    {
-     "n": "Gebührenordnung Gemeindebibliothek",
-     "k": "bib",
-     "w": "",
-     "u": "https://www.ruemlang.ch/_rte/information/2972278",
-     "src": "https://www.ruemlang.ch/gk-schulefreizeit/kapitel/3622",
-     "a": "Übersicht. Benutzerkonto erstellen Kontakt Gemeindeverwaltung Rümlang Glattalstrasse 201, Rümlang Telefon",
-     "plz": "8153"
-    },
-    {
-     "n": "410.1 Beitragsverordnung für familien- und schulergänzende Kinderbetreuung (BVO)",
+     "n": "Informationen für selbständige Tagesfamilien",
      "k": "kita",
      "w": "",
-     "u": "https://www.ruemlang.ch/_doc/7196035",
-     "src": "https://www.ruemlang.ch/gk-schulefreizeit/info/2972194"
-    }
-   ]
-  },
-  "z": {
-   "pages": 18,
-   "items": [
-    {
-     "n": "Kinderkrippe Bienehuus Zollikon Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "kita",
-     "w": "https://bienehuus.ch/",
-     "u": "https://www.zollikon.ch/familie/64156",
-     "src": "https://www.zollikon.ch/familie/64156"
-    },
-    {
-     "n": "Kinderkrippe Ferdinand Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "kita",
-     "w": "https://www.kinderkrippeferdinand.ch/",
-     "u": "https://www.zollikon.ch/familie/64156",
-     "src": "https://www.zollikon.ch/familie/64156"
-    },
-    {
-     "n": "KiTa Akidemy Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "kita",
-     "w": "https://www.akidemy.ch/",
-     "u": "https://www.zollikon.ch/familie/64156",
-     "src": "https://www.zollikon.ch/familie/64156"
-    },
-    {
-     "n": "Globegarden Kinderkrippe Giacometti Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "kita",
-     "w": "https://www.globegarden.ch/",
-     "u": "https://www.zollikon.ch/familie/64156",
-     "src": "https://www.zollikon.ch/familie/64156"
-    },
-    {
-     "n": "KiMi Kinderkrippe Zollikerberg Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "kita",
-     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-zollikerberg/",
-     "u": "https://www.zollikon.ch/familie/64156",
-     "src": "https://www.zollikon.ch/familie/64156"
-    },
-    {
-     "n": "Tagesfamilienverein Zollikon Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "spiel",
-     "w": "http://www.tfv-zollikon-kuesnacht.ch/",
-     "u": "https://www.zollikon.ch/familie/64156",
-     "src": "https://www.zollikon.ch/familie/64156"
-    },
-    {
-     "n": "Bibliotheken",
-     "k": "bib",
-     "w": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.zollikon.ch%2Faemter%2F2589",
-     "u": "https://www.zollikon.ch/_rte/amt/2589",
-     "src": "https://www.zollikon.ch/departemente/64"
-    },
-    {
-     "n": "Freizeitdienst/Quartiertreff",
-     "k": "treff",
-     "w": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.zollikon.ch%2Faemter%2F1358",
-     "u": "https://www.zollikon.ch/_rte/amt/1358",
-     "src": "https://www.zollikon.ch/departemente/64",
-     "a": "Quartiertreff Binzstrasse 10, Zollikerberg Tel. 044 395 34 85",
-     "plz": "8125"
-    },
-    {
-     "n": "Geresaal/Quartiertreff",
-     "k": "treff",
-     "w": "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=6577&lang=de_de&readclass=icms-i-speaker&url=https%3A%2F%2Fwww.zollikon.ch%2Fraeume%2F63214",
-     "u": "https://www.zollikon.ch/_rte/thema2/63214",
-     "src": "https://www.zollikon.ch/departemente/64",
-     "a": "Quartiertreff Binzstrasse 10, Zollikerberg Tel. 044 395 34 85",
-     "plz": "8125"
-    },
-    {
-     "n": "Bibliotheken (ausgewählt)",
-     "k": "bib",
-     "w": "",
-     "u": "https://www.zollikon.ch/bibliotheken",
-     "src": "https://www.zollikon.ch/bibliotheken"
-    },
-    {
-     "n": "Digitalen Bibliothek Onleihe. Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "bib",
-     "w": "https://dibiost.onleihe.com/dibiost/frontend/welcome,51-0-0-100-0-0-1-0-0-0-0.html",
-     "u": "https://www.zollikon.ch/bibliotheken",
-     "src": "https://www.zollikon.ch/bibliotheken"
-    },
-    {
-     "n": "Onlinekatalog Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "bib",
-     "w": "https://www.bibliotheken-zh.ch/zollikon_zollikerberg/",
-     "u": "https://www.zollikon.ch/bibliotheken",
-     "src": "https://www.zollikon.ch/bibliotheken"
-    },
-    {
-     "n": "eigene Bibliothekskonto Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "bib",
-     "w": "https://www.bibliotheken-zh.ch/zollikon_zollikerberg/",
-     "u": "https://www.zollikon.ch/bibliotheken",
-     "src": "https://www.zollikon.ch/bibliotheken"
-    },
-    {
-     "n": "Benutzungsordnung Bibliotheken Zollikon",
-     "k": "bib",
-     "w": "",
-     "u": "https://www.zollikon.ch/_doc/2970032",
-     "src": "https://www.zollikon.ch/bibliotheken"
-    },
-    {
-     "n": "Reglement Mittagstisch Sekundarschule Zollikon-Zumikon",
-     "k": "kita",
-     "w": "",
-     "u": "https://www.zollikon.ch/_rte/information/2082619",
-     "src": "https://www.zollikon.ch/gk-schulefreizeit/kapitel/111"
+     "u": "https://www.ruemlang.ch/_rtr/dokument_2823301",
+     "src": "https://www.ruemlang.ch/jugend/50188"
     }
    ]
   },
@@ -227,9 +1081,7 @@
      "k": "treff",
      "w": "",
      "u": "https://www.regensdorf.ch/gzroosthema",
-     "src": "https://www.regensdorf.ch/familienukinder",
-     "a": "Kurse und Dienstleistungen pro Tag angeboten werden. Zur Agenda Externer Link wird in einem neuen Fenster geöffnet. Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
+     "src": "https://www.regensdorf.ch/familienukinder"
     },
     {
      "n": "Gemeindebibliothek",
@@ -243,107 +1095,103 @@
      "k": "kita",
      "w": "http://www.tfzu.ch/",
      "u": "https://www.regensdorf.ch/_rte/thema2/2770",
-     "src": "https://www.regensdorf.ch/familienukinder",
-     "a": "Bitte beachten Sie dabei die Meldepflicht Externer Link wird in einem neuen Fenster geöffnet. . Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
+     "src": "https://www.regensdorf.ch/familienukinder"
     },
     {
-     "n": "Vergünstigung von Spielgruppen",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/thema2/84049",
-     "src": "https://www.regensdorf.ch/familienukinder",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Kinderkrippe Bambi Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kinderkrippe Bambi",
      "k": "kita",
      "w": "https://www.kinderkrippe-bambi.ch/de/",
      "u": "https://www.regensdorf.ch/familienukinder/2770",
      "src": "https://www.regensdorf.ch/familienukinder/2770"
     },
     {
-     "n": "Kinderkrippe Zoo Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kinderkrippe Zoo",
      "k": "kita",
      "w": "https://www.krippezoo.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/2770",
      "src": "https://www.regensdorf.ch/familienukinder/2770"
     },
     {
-     "n": "Kinderkrippe Regensdorf Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kinderkrippe Regensdorf",
      "k": "kita",
      "w": "https://www.kita-regensdorf.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/2770",
      "src": "https://www.regensdorf.ch/familienukinder/2770"
     },
     {
-     "n": "Hort Place for Kids Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Hort Place for Kids",
      "k": "kita",
      "w": "https://www.placeforkids.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita / Hort Teddy Club Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita / Hort Teddy Club",
      "k": "kita",
      "w": "https://www.teddy-club.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Bambi Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Bambi",
      "k": "kita",
      "w": "http://www.kinderkrippe-bambi.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Löwenzahn Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Löwenzahn",
      "k": "kita",
      "w": "https://www.kita-loewenzahn.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Regensdorf Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Regensdorf",
      "k": "kita",
      "w": "https://www.kinderkrippe-regensdorf.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita abc-daycare Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita abc-daycare",
      "k": "kita",
      "w": "https://abc-daycare.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Globegarden Rägipark Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Globegarden Rägipark",
      "k": "kita",
      "w": "https://www.globegarden.ch/locations/raegipark",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Little Kids Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Little Kids",
      "k": "kita",
      "w": "https://www.littlekids.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Murmeli Huus Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Murmeli Huus",
      "k": "kita",
      "w": "https://murmeli-huus.ch/kinderkrippe-regensdorf/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
     {
-     "n": "Kita Villa Pumi Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Kita Villa Pumi",
      "k": "kita",
      "w": "https://villa-pumi.ch/",
+     "u": "https://www.regensdorf.ch/familienukinder/66061",
+     "src": "https://www.regensdorf.ch/familienukinder/66061"
+    },
+    {
+     "n": "Tagesfamilie Nidino",
+     "k": "kita",
+     "w": "https://www.nidino.com/",
      "u": "https://www.regensdorf.ch/familienukinder/66061",
      "src": "https://www.regensdorf.ch/familienukinder/66061"
     },
@@ -352,134 +1200,7 @@
      "k": "treff",
      "w": "",
      "u": "https://www.regensdorf.ch/_rte/thema2/3008",
-     "src": "https://www.regensdorf.ch/sportthema",
-     "a": "Joggen oder Radfahren - die Naherholungsgebiete rund um Regensdorf laden zu sportlichen Aktivitäten im Freien ein. Während den Sommermonaten ist Schwimmen im Seebad Katzensee Externer Link wird in einem neuen Fenster geöffnet. besonders angesagt. Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "GZ Roos Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "treff",
-     "w": "http://www.gzroos.ch/?page_id=352",
-     "u": "https://www.regensdorf.ch/sportthema",
      "src": "https://www.regensdorf.ch/sportthema"
-    },
-    {
-     "n": "Ludothek (ausgewählt)",
-     "k": "ludo",
-     "w": "",
-     "u": "https://www.regensdorf.ch/ludothekthema",
-     "src": "https://www.regensdorf.ch/ludothekthema"
-    },
-    {
-     "n": "Über die Ludothek Regensdorf",
-     "k": "ludo",
-     "w": "http://www.ludothek-regensdorf.ch/index.html",
-     "u": "https://www.regensdorf.ch/_rte/thema2/3179",
-     "src": "https://www.regensdorf.ch/ludothekthema",
-     "a": "Spielzeugen und -geräten zum Ausleihen für Jung und Alt. Zum Online-Katalog Externer Link wird in einem neuen Fenster geöffnet. Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Offizielle Homepage Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "ludo",
-     "w": "http://www.ludothek-regensdorf.ch/index.html",
-     "u": "https://www.regensdorf.ch/ludothekthema",
-     "src": "https://www.regensdorf.ch/ludothekthema"
-    },
-    {
-     "n": "Weitere Informationen Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "ludo",
-     "w": "http://www.ludothek-regensdorf.ch/index.html",
-     "u": "https://www.regensdorf.ch/ludothekthema",
-     "src": "https://www.regensdorf.ch/ludothekthema"
-    },
-    {
-     "n": "Reglement Elternforum Ruggenacher 1",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2763544",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Reglement Elternforum Ruggenacher 3",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2763550",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Reglement. Elternforum Chrüzächer",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2763553",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Reglement. Elternforum Chrüzächer Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Reglement Elternforum Pächterried+Watt",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2763556",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Reglement Elternforum Pächterried Watt Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Benützungsordnung GZ Roos",
-     "k": "treff",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2874376",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Benützungsordnung Ludothek",
-     "k": "ludo",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2874382",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Benutzungsordnung Bibliothek Regensdorf",
-     "k": "bib",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/1528567",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Reglement Spielgruppe Plus",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2317084",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Reglement Vergünstigung Spielgruppen",
-     "k": "spiel",
-     "w": "",
-     "u": "https://www.regensdorf.ch/_rte/information/2528803",
-     "src": "https://www.regensdorf.ch/gk-schulefreizeit/kapitel/1801",
-     "a": "Fusszeile Kontakt Regensdorf Watterstrasse 116, Regensdorf 044 842 36 11 E-Mail",
-     "plz": "8105"
-    },
-    {
-     "n": "Gemeinschaftszentrum Roos Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "treff",
-     "w": "http://www.gzroos.ch/?page_id=343",
-     "u": "https://www.regensdorf.ch/familienukinder/2769",
-     "src": "https://www.regensdorf.ch/familienukinder/2769"
     },
     {
      "n": "Spielgruppe Plus",
@@ -487,52 +1208,180 @@
      "w": "",
      "u": "https://www.regensdorf.ch/_rtr/thema2_77047",
      "src": "https://www.regensdorf.ch/familienukinder/84049",
-     "a": "Nachmittag Vergünstigungen Sie können einen Antrag auf Kostenbeteiligung stellen. Ort Schulstrasse 56, Regensdorf Spielgruppen- leiter",
-     "plz": "8105"
+     "a": "Schulstrasse 56, Regensdorf Spielgruppen- leiter",
+     "plz": "8105",
+     "lat": 47.43326,
+     "lon": 8.46633
     },
     {
-     "n": "Spielgruppe Regensdor Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Spielgruppe Regensdor",
      "k": "spiel",
      "w": "https://spielgruppe-regensdorf.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/84049",
      "src": "https://www.regensdorf.ch/familienukinder/84049"
     },
     {
-     "n": "f Externer Link wird in einem neuen Fenster geöffnet.",
-     "k": "spiel",
-     "w": "http://spielgruppe-regensdorf.ch/",
-     "u": "https://www.regensdorf.ch/familienukinder/84049",
-     "src": "https://www.regensdorf.ch/familienukinder/84049"
-    },
-    {
-     "n": "Spielgruppe Watt Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Spielgruppe Watt",
      "k": "spiel",
      "w": "https://www.spielgruppewatt.com/",
      "u": "https://www.regensdorf.ch/familienukinder/84049",
      "src": "https://www.regensdorf.ch/familienukinder/84049"
     },
     {
-     "n": "Spielgruppe Zauberland Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Spielgruppe Zauberland",
      "k": "spiel",
      "w": "https://spigru.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/84049",
      "src": "https://www.regensdorf.ch/familienukinder/84049"
     },
     {
-     "n": "Sonnhalde Drinnen-Draussen Spielgruppe Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Sonnhalde Drinnen-Draussen Spielgruppe",
      "k": "spiel",
      "w": "https://www.spielgruppe.ch/spielgruppenverzeichnis.htm?action=detail&id=30001568",
      "u": "https://www.regensdorf.ch/familienukinder/84049",
      "src": "https://www.regensdorf.ch/familienukinder/84049"
     },
     {
-     "n": "Waldspielgruppe Regensdorf Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "Waldspielgruppe Regensdorf",
      "k": "spiel",
      "w": "https://www.waldspielgruppe-regensdorf.ch/",
      "u": "https://www.regensdorf.ch/familienukinder/84049",
      "src": "https://www.regensdorf.ch/familienukinder/84049"
     }
    ]
+  },
+  "steinmaur": {
+   "pages": 3,
+   "items": []
+  },
+  "schleinikon": {
+   "pages": 10,
+   "items": []
+  },
+  "schoefflisdorf": {
+   "pages": 8,
+   "items": []
+  },
+  "stadel": {
+   "pages": 8,
+   "items": []
+  },
+  "weiach": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Familienverein",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.weiach.ch/dorfleben/vereine.page/478/entityId/265/entityType/association_association",
+     "src": "https://www.weiach.ch/dorfleben/veranstaltungen.page/483/event/3182/eventdate/4353"
+    },
+    {
+     "n": "Familienverein - Krabbelgruppe Zwerglitreff (von 0-5 Jahren)",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.weiach.ch/dorfleben/veranstaltungen.page/483/event/3182/eventdate/4353",
+     "src": "https://www.weiach.ch/dorfleben/vereine.page/478/entityId/265/entityType/association_association"
+    },
+    {
+     "n": "Familienverein - Kinderfasnacht",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.weiach.ch/dorfleben/veranstaltungen.page/483/event/3160/eventdate/4224",
+     "src": "https://www.weiach.ch/dorfleben/vereine.page/478/entityId/265/entityType/association_association"
+    }
+   ]
+  },
+  "niederglatt": {
+   "pages": 13,
+   "items": [
+    {
+     "n": "Leistungsvereinbarung Familienzentrum Fanizu",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.niederglatt-zh.ch/_rte/information/2813263",
+     "src": "https://www.niederglatt-zh.ch/gk-sozialesgesundheit/kapitel/4279"
+    },
+    {
+     "n": "Leistungsvereinbarung Subvention 15 Spielgruppenplätze",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.niederglatt-zh.ch/_rte/information/2813266",
+     "src": "https://www.niederglatt-zh.ch/gk-sozialesgesundheit/kapitel/4279"
+    },
+    {
+     "n": "Leistungsvereinbarung für die Nutzung der Bibliothek durch die Sekundarschulgemeinde N_N",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.niederglatt-zh.ch/_rte/information/2813293",
+     "src": "https://www.niederglatt-zh.ch/gk-sozialesgesundheit/kapitel/4279"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "http://www.bibliothek-niederglatt.ch/",
+     "u": "https://www.niederglatt-zh.ch/bibliotheken",
+     "src": "https://www.niederglatt-zh.ch/freizeit/36596"
+    }
+   ]
+  },
+  "geroldswil": {
+   "pages": 2,
+   "items": [
+    {
+     "n": "Kita Stärneland",
+     "k": "kita",
+     "w": "http://kita-staerneland.ch/",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    },
+    {
+     "n": "Kinderkrippenverein Dietikon",
+     "k": "kita",
+     "w": "https://kkvd.ch/",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    },
+    {
+     "n": "LMS Kita",
+     "k": "kita",
+     "w": "https://lms-privatschule.ch/unsere-kita/",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    },
+    {
+     "n": "Kinderkrippen.online",
+     "k": "kita",
+     "w": "https://www.kinderkrippen-online.ch/kinderbetreuung",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    },
+    {
+     "n": "Mittagstisch für Kindergarten- und Primarschüler",
+     "k": "kita",
+     "w": "https://www.psog.ch/angebot/tagesstrukturen/",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    },
+    {
+     "n": "Mittagstisch für Oberstufenschüler",
+     "k": "kita",
+     "w": "https://www.oberstufeweiningen.ch/",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    },
+    {
+     "n": "Familienverein Mikado",
+     "k": "spiel",
+     "w": "https://familienverein-mikado.ch/index.html",
+     "u": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398",
+     "src": "https://www.geroldswil.ch/bildunggesellschaft/gesellschaft/familien-kinder.html/398"
+    }
+   ]
+  },
+  "aesch": {
+   "pages": 12,
+   "items": []
   },
   "birmensdorf": {
    "pages": 15,
@@ -543,48 +1392,3214 @@
      "w": "http://www.elternforum-birmensdorf.ch/",
      "u": "https://www.birmensdorf.ch/_rte/thema2/55462",
      "src": "https://www.birmensdorf.ch/familiejugend"
-    },
+    }
+   ]
+  },
+  "oberengstringen": {
+   "pages": 15,
+   "items": [
     {
-     "n": "Kinderbetreuung zu Hause in Notsituationen",
+     "n": "Bibliothek Oberengstringen",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/oberengstringen/",
+     "u": "https://www.oberengstringen.ch/bibliothek/35423",
+     "src": "https://www.oberengstringen.ch/bibliothek/35423"
+    }
+   ]
+  },
+  "dietikon": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderbetreuung und Frühe Förderung",
      "k": "kita",
      "w": "",
-     "u": "https://www.birmensdorf.ch/_rte/thema2/88172",
-     "src": "https://www.birmensdorf.ch/familiejugend"
+     "u": "https://www.dietikon.ch/kinderbetreuungthemen",
+     "src": "https://www.dietikon.ch/freizeitangebotefamilien"
     },
     {
-     "n": "Verordnung familienergänzende Kinderbetreuung (VFEB), 15. September 2020",
+     "n": "Stadt- und Regionalbibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.dietikon.ch/stadtregiobibliothek",
+     "src": "https://www.dietikon.ch/schule-dietikon",
+     "a": "Bremgartnerstrasse 20, Dietikon Tel. 044 744 36 36 Kon",
+     "plz": "8953"
+    },
+    {
+     "n": "Digitale Bibliothek Ostschweiz",
+     "k": "bib",
+     "w": "http://www.dibiost.ch/",
+     "u": "https://www.dietikon.ch/stadtregiobibliothek/8239",
+     "src": "https://www.dietikon.ch/stadtregiobibliothek/8239"
+    }
+   ]
+  },
+  "uitikon": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Leistungsvereinbarung Minibambini GmbH betreffend Kinderkrippe Üetlizwerge",
      "k": "kita",
      "w": "",
-     "u": "https://www.birmensdorf.ch/_rte/information/1686229",
-     "src": "https://www.birmensdorf.ch/schulefreizeit/kapitel/745"
+     "u": "https://www.uitikon.ch/_rte/information/2272747",
+     "src": "https://www.uitikon.ch/gk-sozialesgesundheit/kapitel/3766"
     },
     {
-     "n": "Bibliothek, Benutzungsordnung",
+     "n": "Leistungsvereinbarung Verein Kinderkrippe Löwenzahn",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.uitikon.ch/_rte/information/2272753",
+     "src": "https://www.uitikon.ch/gk-sozialesgesundheit/kapitel/3766"
+    },
+    {
+     "n": "Gemeinde- und Schulbibliothek",
+     "k": "bib",
+     "w": "http://www.bibliothek-uitikon.ch/",
+     "u": "https://www.uitikon.ch/freizeit/76249",
+     "src": "https://www.uitikon.ch/freizeit",
+     "a": "Leuengasse 3, Uitikon Tel. 044 200 15 36 bibl",
+     "plz": "8142"
+    },
+    {
+     "n": "hier",
+     "k": "spiel",
+     "w": "https://www.elternvereinuitikon.ch/spielgruppen",
+     "u": "https://www.uitikon.ch/wohnen/78178",
+     "src": "https://www.uitikon.ch/wohnen/78178"
+    },
+    {
+     "n": "Kinderkrippe ÜetliZwerge",
+     "k": "kita",
+     "w": "https://www.uetlizwerge.ch/",
+     "u": "https://www.uitikon.ch/wohnen/78178",
+     "src": "https://www.uitikon.ch/wohnen/78178"
+    },
+    {
+     "n": "Kinderkrippe Löwenzahn",
+     "k": "kita",
+     "w": "https://kinderkrippe-loewenzahn-uitikon.ch/de/home",
+     "u": "https://www.uitikon.ch/wohnen/78178",
+     "src": "https://www.uitikon.ch/wohnen/78178"
+    },
+    {
+     "n": "Kinderkrippe Globegarden Leuengasse",
+     "k": "kita",
+     "w": "https://www.globegarden.ch/locations/leuengasse",
+     "u": "https://www.uitikon.ch/wohnen/78178",
+     "src": "https://www.uitikon.ch/wohnen/78178"
+    }
+   ]
+  },
+  "opfikon": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Stadtbibliothek",
+     "k": "bib",
+     "w": "https://goo.gl/maps/wjkzkxcb18QR3BVB8",
+     "u": "https://www.opfikon.ch/stadtbibliothek",
+     "src": "https://www.opfikon.ch/familie"
+    },
+    {
+     "n": "spielgruppe.ch",
+     "k": "spiel",
+     "w": "https://www.spielgruppe.ch/",
+     "u": "https://www.opfikon.ch/familie/22469",
+     "src": "https://www.opfikon.ch/familie/22469"
+    },
+    {
+     "n": "Anmeldeflyer Spielgruppen mit Deutschförderung 2026/2027",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.opfikon.ch/_doc/6933400",
+     "src": "https://www.opfikon.ch/familie/22469"
+    },
+    {
+     "n": "Verein Tagesfamilien Zürcher Unterland",
+     "k": "kita",
+     "w": "https://www.tfzu.ch/home",
+     "u": "https://www.opfikon.ch/familie/22469",
+     "src": "https://www.opfikon.ch/familie/22469"
+    },
+    {
+     "n": "Tagesfamilie - Stadt Zürich (stadt-zuerich.ch)",
+     "k": "kita",
+     "w": "https://www.stadt-zuerich.ch/sd/de/index/ueber_das_departement/fuer_dritte/kitas/krippenaufsicht/Tagesfamilien.html",
+     "u": "https://www.opfikon.ch/familie/22469",
+     "src": "https://www.opfikon.ch/familie/22469"
+    },
+    {
+     "n": "Spielgruppen und Freizeitangebote für Kinder im",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.opfikon.ch/_doc/6927979",
+     "src": "https://www.opfikon.ch/familie/22481"
+    },
+    {
+     "n": "Subventionen Kita, Familienergänzende Betreuung 2026",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.opfikon.ch/_doc/6927988",
+     "src": "https://www.opfikon.ch/familie/22481"
+    },
+    {
+     "n": "Müttertreff Blumenstrasse 2026 Aug-Dez",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.opfikon.ch/_doc/7094161",
+     "src": "https://www.opfikon.ch/familie/27833"
+    },
+    {
+     "n": "Familientreff Winterhalbjahr 2026/2027",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.opfikon.ch/_doc/7290703",
+     "src": "https://www.opfikon.ch/familie/27833"
+    },
+    {
+     "n": "Krabbelgruppen ab Aug 2026",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.opfikon.ch/_doc/7109359",
+     "src": "https://www.opfikon.ch/familie/27833"
+    },
+    {
+     "n": "Digitale Bibliothek",
      "k": "bib",
      "w": "",
-     "u": "https://www.birmensdorf.ch/_rte/information/1824068",
-     "src": "https://www.birmensdorf.ch/schulefreizeit/kapitel/745"
+     "u": "https://www.opfikon.ch/_rte/thema2/44714",
+     "src": "https://www.opfikon.ch/stadtbibliothek",
+     "a": "Oberhauserstrasse 25, Glattbrugg Tel. 044 829 81 11 S",
+     "plz": "8152"
     },
     {
-     "n": "elternforum-birmensdorf.ch",
+     "n": "Digitale Bibliothek Ostschweiz",
+     "k": "bib",
+     "w": "https://dibiost.onleihe.com/dibiost/frontend/login,0-0-0-800-0-0-0-0-0-0-0.html?libraryId=811",
+     "u": "https://www.opfikon.ch/stadtbibliothek/44714",
+     "src": "https://www.opfikon.ch/stadtbibliothek/44714"
+    }
+   ]
+  },
+  "unterengstringen": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Pädagogisches Konzept Tagesstrukturen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.unterengstringen.ch/_rte/information/2062132",
+     "src": "https://www.unterengstringen.ch/gk-schulefreizeit/kapitel/1361",
+     "a": "Dorfstrasse 13, Unterengstringen Tel.",
+     "plz": "8103",
+     "lat": 47.411,
+     "lon": 8.44699
+    },
+    {
+     "n": "Elternforum",
      "k": "spiel",
-     "w": "http://www.elternforum-birmensdorf.ch/",
-     "u": "https://www.birmensdorf.ch/familiejugend/55462",
-     "src": "https://www.birmensdorf.ch/familiejugend/55462"
+     "w": "https://www.schuleunterengstringen.ch/elternforum",
+     "u": "https://www.schuleunterengstringen.ch/",
+     "src": "https://www.schuleunterengstringen.ch/"
     },
     {
-     "n": "elternforum-birmensdorf.ch",
+     "n": "Volksschule Kanton Zürich Eintritt Kindergarten Primarschule",
+     "k": "kita",
+     "w": "https://www.schuleunterengstringen.ch/_rtr/volksschule",
+     "u": "https://www.schuleunterengstringen.ch/",
+     "src": "https://www.schuleunterengstringen.ch/"
+    },
+    {
+     "n": "Kinderbetreuung / Unterstützungsbeiträge",
+     "k": "kita",
+     "w": "https://www.zh.ch/de/familie/angebote-fuer-familien-mit-kindern/familienergaenzende-betreuung.html",
+     "u": "https://www.unterengstringen.ch/sozialesgesundheit/25139",
+     "src": "https://www.unterengstringen.ch/sozialesgesundheit/25139"
+    },
+    {
+     "n": "Kinderkrippenverein",
+     "k": "kita",
+     "w": "https://kkvd.ch/",
+     "u": "https://www.unterengstringen.ch/sozialesgesundheit/25139",
+     "src": "https://www.unterengstringen.ch/sozialesgesundheit/25139"
+    },
+    {
+     "n": "Spielgruppe Surrli",
      "k": "spiel",
-     "w": "https://www.elternforum-birmensdorf.ch/",
-     "u": "https://www.birmensdorf.ch/familiejugend/55462",
-     "src": "https://www.birmensdorf.ch/familiejugend/55462"
+     "w": "http://www.spielgruppe-surrli.ch/",
+     "u": "https://www.unterengstringen.ch/sozialesgesundheit/25139",
+     "src": "https://www.unterengstringen.ch/sozialesgesundheit/25139"
     },
     {
-     "n": "440.1_Bibliothek_Benutzungsordnung.pdf",
+     "n": "Waldspielgruppe Gwunderli",
+     "k": "spiel",
+     "w": "https://www.waldspielgruppe-gwunderli.ch/",
+     "u": "https://www.unterengstringen.ch/sozialesgesundheit/25139",
+     "src": "https://www.unterengstringen.ch/sozialesgesundheit/25139"
+    }
+   ]
+  },
+  "gr": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "kita-vita.ch",
+     "k": "kita",
+     "w": "http://www.kita-vita.ch/",
+     "u": "https://www.grueningen.ch/dorfleben/gesellschaft/familie.html/102",
+     "src": "https://www.grueningen.ch/dorfleben/gesellschaft/familie.html/102"
+    }
+   ]
+  },
+  "weiningen": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/weiningen/",
+     "u": "https://www.weiningen.ch/jugendangebote",
+     "src": "https://www.weiningen.ch/jugendangebote"
+    },
+    {
+     "n": "elternvereinweiningen.ch",
+     "k": "spiel",
+     "w": "http://www.elternvereinweiningen.ch/",
+     "u": "https://www.weiningen.ch/jugendangebote",
+     "src": "https://www.weiningen.ch/jugendangebote"
+    }
+   ]
+  },
+  "urdorf": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "bibliothek-urdorf.ch",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/Urdorf/",
+     "u": "https://www.urdorf.ch/anlaesseaktuelles",
+     "src": "https://www.urdorf.ch/anlaesseaktuelles"
+    },
+    {
+     "n": "Elternforum",
+     "k": "spiel",
+     "w": "https://www.schuleurdorf.ch/web/index.php",
+     "u": "https://www.schuleurdorf.ch/web/index.php",
+     "src": "https://www.schuleurdorf.ch/web/index.php"
+    }
+   ]
+  },
+  "ru": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Veranstaltung und Angebot Bibliothek Rüti Dürnten",
      "k": "bib",
      "w": "",
-     "u": "https://www.birmensdorf.ch/_doc/4370447",
-     "src": "https://www.birmensdorf.ch/schulefreizeit/info/1824068"
+     "u": "https://www.rueti.ch/freizeit-kultur/bibliothek/veranstaltungskalender.html/381",
+     "src": "https://www.rueti.ch/lebenslagen/familie.html/277"
+    }
+   ]
+  },
+  "bb": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.bubikon.ch/bibliotheken",
+     "src": "https://www.bubikon.ch/beratungundinformation",
+     "a": "Rutschbergstrasse 18, Bubikon Telefon 055 253 33 33 E",
+     "plz": "8608"
+    },
+    {
+     "n": "Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.bubikon.ch/beratungundinformation",
+     "src": "https://www.bubikon.ch/beratungundinformation"
+    },
+    {
+     "n": "Kita-Rechner",
+     "k": "kita",
+     "w": "https://www.kitarechner.ch/Bubikon",
+     "u": "https://www.schule-bubikon.ch/",
+     "src": "https://www.schule-bubikon.ch/"
+    }
+   ]
+  },
+  "baeretswil": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "kinderkrippe-triangel.ch",
+     "k": "kita",
+     "w": "http://www.kinderkrippe-triangel.ch/",
+     "u": "https://www.baeretswil.ch/kinderbetreuungfs",
+     "src": "https://www.baeretswil.ch/kinderbetreuungfs"
+    },
+    {
+     "n": "Babysitter-Vermittlung",
+     "k": "spiel",
+     "w": "http://www.frauenverein-baeretswil.ch/index.php/offers/babysitter-vermittlung",
+     "u": "https://www.baeretswil.ch/kinderbetreuungfs",
+     "src": "https://www.baeretswil.ch/kinderbetreuungfs"
+    },
+    {
+     "n": "tagesfamilien.info",
+     "k": "kita",
+     "w": "http://www.tagesfamilien.info/",
+     "u": "https://www.baeretswil.ch/kinderbetreuungfs",
+     "src": "https://www.baeretswil.ch/kinderbetreuungfs"
+    },
+    {
+     "n": "Kinderbetreuung im Zürioberland",
+     "k": "kita",
+     "w": "https://www.zuerioberland-gesellschaft.ch/fur-einwohnerinnen/kinderbetreuung/",
+     "u": "https://www.baeretswil.ch/kinderbetreuungfs",
+     "src": "https://www.baeretswil.ch/kinderbetreuungfs"
+    },
+    {
+     "n": "Spielplatz Kindergarten Oberdorf",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.baeretswil.ch/_rte/sehenswuerdigkeit/13119",
+     "src": "https://www.baeretswil.ch/kinderspielplaetze",
+     "a": "Wetzikerstrasse 24, Bäretswil Sitemap Portrait",
+     "plz": "8344",
+     "lat": 47.33379,
+     "lon": 8.85652
+    },
+    {
+     "n": "Spielplatz Kindergarten und Schulhaus Adetswil",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.baeretswil.ch/_rte/sehenswuerdigkeit/13113",
+     "src": "https://www.baeretswil.ch/kinderspielplaetze",
+     "a": "Stapfetenstrasse 16, Adetswil Sitemap Portrait",
+     "plz": "8345",
+     "lat": 47.33997,
+     "lon": 8.84389
+    }
+   ]
+  },
+  "du": {
+   "pages": 16,
+   "items": [
+    {
+     "n": "familienvereinduernten.ch",
+     "k": "spiel",
+     "w": "https://www.familienvereinduernten.ch/",
+     "u": "https://www.duernten.ch/familie/28447",
+     "src": "https://www.duernten.ch/familie/28447"
+    },
+    {
+     "n": "Anschlussvertrag Bibliotheksverbund",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.duernten.ch/_rte/information/2215060",
+     "src": "https://www.duernten.ch/gk-schulefreizeit/kapitel/4030"
+    },
+    {
+     "n": "Öffnungszeiten Jugendtreff",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.duernten.ch/_doc/6145447",
+     "src": "https://www.duernten.ch/kinder-jugend/28435"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "https://www.rueti.ch/freizeit-kultur/bibliothek.html/270",
+     "u": "https://www.duernten.ch/bibliotheken",
+     "src": "https://www.duernten.ch/anlaesseaktuelles",
+     "a": "Spitalstrasse 6, Rüti Tel. 055 251 33 70 Website",
+     "plz": "8630"
+    }
+   ]
+  },
+  "hw": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kita Hinwil",
+     "k": "kita",
+     "w": "https://kitahinwil.ch/",
+     "u": "https://www.hinwil.ch/kitahinwil",
+     "src": "https://www.hinwil.ch/kitahinwil"
+    },
+    {
+     "n": "Spielgruppe Hinwil",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-hinwil.ch/",
+     "u": "https://www.hinwil.ch/familie",
+     "src": "https://www.hinwil.ch/familie"
+    },
+    {
+     "n": "Spielgruppe Hadlikon",
+     "k": "spiel",
+     "w": "https://familientreff-hadlikon.weebly.com/spielgruppe.html",
+     "u": "https://www.hinwil.ch/familie",
+     "src": "https://www.hinwil.ch/familie"
+    },
+    {
+     "n": "Spielgruppe Ringwil",
+     "k": "spiel",
+     "w": "http://www.gigelitopf.ch/",
+     "u": "https://www.hinwil.ch/familie",
+     "src": "https://www.hinwil.ch/familie"
+    },
+    {
+     "n": "Spielgruppe Zauberburg",
+     "k": "spiel",
+     "w": "https://spielgruppe-zauberburg.ch/",
+     "u": "https://www.hinwil.ch/familie",
+     "src": "https://www.hinwil.ch/familie"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.hinwil.ch/_rtr/bibliotheken.list",
+     "src": "https://www.hinwil.ch/dorffreizeitkultur"
+    }
+   ]
+  },
+  "horgen": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "KiTa Berghalden",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.horgen.ch/leben-in-horgen/kind-jugend-familie/familie/kita-berghalden.html/692",
+     "src": "https://www.horgen.ch/leben-in-horgen/kind-jugend-familie/familie.html/577"
+    },
+    {
+     "n": "KiTa Stockerstrasse",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.horgen.ch/leben-in-horgen/kind-jugend-familie/familie/kita-stockerstrasse.html/693",
+     "src": "https://www.horgen.ch/leben-in-horgen/kind-jugend-familie/familie.html/577"
+    },
+    {
+     "n": "Betreuung in Tagesfamilien",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.horgen.ch/leben-in-horgen/kind-jugend-familie/familie/tagesfamilien.html/499",
+     "src": "https://www.horgen.ch/leben-in-horgen/kind-jugend-familie/familie.html/577"
+    }
+   ]
+  },
+  "wa": {
+   "pages": 12,
+   "items": [
+    {
+     "n": "Krippe Nokimuz",
+     "k": "kita",
+     "w": "https://schule-wald.ch/tagesstruktur-krippe-nokimuz",
+     "u": "https://www.wald-zh.ch/familien/6826",
+     "src": "https://www.wald-zh.ch/familien/6826"
+    },
+    {
+     "n": "\"Tagesfamilien Zürcher Oberland\"",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/gemeinden/wald/",
+     "u": "https://www.wald-zh.ch/familien/6826",
+     "src": "https://www.wald-zh.ch/familien/6826"
+    },
+    {
+     "n": "Schulen / Tagesstrukturen",
+     "k": "kita",
+     "w": "https://www.schule-wald.ch/schule",
+     "u": "https://www.schule-wald.ch/",
+     "src": "https://www.schule-wald.ch/"
+    },
+    {
+     "n": "Tagesstruktur Hort",
+     "k": "kita",
+     "w": "https://www.schule-wald.ch/tagesstruktur-hort",
+     "u": "https://www.schule-wald.ch/",
+     "src": "https://www.schule-wald.ch/"
+    },
+    {
+     "n": "dieser Webseite",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/Wald/",
+     "u": "https://www.wald-zh.ch/dienstleistungen/23028",
+     "src": "https://www.wald-zh.ch/dienstleistungen/23028"
+    },
+    {
+     "n": "Spielgruppe \"Drübisfeufi\"",
+     "k": "spiel",
+     "w": "https://www.spielgruppe.ch/spielgruppenverzeichnis.htm?action=detail&id=30001512&dportal=1&src_plz=8636",
+     "u": "https://www.wald-zh.ch/familien/27418",
+     "src": "https://www.wald-zh.ch/familien/27418"
+    },
+    {
+     "n": "Spielgruppe Dusse Verusse Wald",
+     "k": "spiel",
+     "w": "https://www.dusse-verusse.ch/wald-zh/",
+     "u": "https://www.wald-zh.ch/familien/27418",
+     "src": "https://www.wald-zh.ch/familien/27418"
+    },
+    {
+     "n": "Spielgruppe Mutzelspielgruppe",
+     "k": "spiel",
+     "w": "https://mutzelspielgruppe.ch/",
+     "u": "https://www.wald-zh.ch/familien/27418",
+     "src": "https://www.wald-zh.ch/familien/27418"
+    },
+    {
+     "n": "Spielgruppe Teddybär",
+     "k": "spiel",
+     "w": "https://www.spielgruppe.ch/spielgruppenverzeichnis.htm?action=detail&id=30023528&dportal=1&src_plz=8636",
+     "u": "https://www.wald-zh.ch/familien/27418",
+     "src": "https://www.wald-zh.ch/familien/27418"
+    },
+    {
+     "n": "Spielgruppe Zauberwald",
+     "k": "spiel",
+     "w": "https://che01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.spielgruppe.ch%2Fspielgruppenverzeichnis.htm%3Faction%3Ddetail%26id%3D30055007%26dportal%3D1%26src_plz%3D8636&data=05%7C02%7Crita.hueppi%40wald-zh.ch%7C0c982491e3f54a4c4c8008de53b13859%7Cd9f3fceb703a47d4817a79f9ea3a0b59%7C0%7C0%7C639040217973690151%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=vAh3o1OAZHpCLh7hidCMY5Evup3biHWvmhfMgu%2BHIDg%3D&reserved=0",
+     "u": "https://www.wald-zh.ch/familien/27418",
+     "src": "https://www.wald-zh.ch/familien/27418"
+    },
+    {
+     "n": "spielgruppe.ch",
+     "k": "spiel",
+     "w": "https://www.spielgruppe.ch/spielgruppenverzeichnis.htm",
+     "u": "https://www.wald-zh.ch/familien/27418",
+     "src": "https://www.wald-zh.ch/familien/27418"
+    }
+   ]
+  },
+  "wz": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Regionalbibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/",
+     "src": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/"
+    },
+    {
+     "n": "Unsere Bibliothek im Überblick",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/",
+     "src": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/"
+    },
+    {
+     "n": "Hier",
+     "k": "bib",
+     "w": "https://bibliothek.wetzikon.ch/NetBiblio/",
+     "u": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/",
+     "src": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/"
+    },
+    {
+     "n": "Leihothek",
+     "k": "bib",
+     "w": "https://bibliothek.wetzikon.ch/NetBiblio/search/shortview?searchType=Extended&searchResultId=4588743&page=1&pageSize=25&Filter.Predefined=Gegenstand",
+     "u": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/",
+     "src": "https://www.wetzikon.ch/de/ueber-wetzikon/regionalbibliothek/"
+    },
+    {
+     "n": "Kindertagesstätten und Spielgruppen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wetzikon.ch/schule/vor-dem-kindergarten/kindertagesstaetten-spielgruppen/",
+     "src": "https://www.wetzikon.ch/schule/"
+    },
+    {
+     "n": "Familienzentrum FiZ Wetzikon",
+     "k": "treff",
+     "w": "https://fizwetzikon.ch/",
+     "u": "https://www.wetzikon.ch/schule/vor-dem-kindergarten/familienzentrum/",
+     "src": "https://www.wetzikon.ch/schule/"
+    },
+    {
+     "n": "Betreuung / Tagesstrukturen",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wetzikon.ch/schule/betreuung-tagesstrukturen/betreuung/",
+     "src": "https://www.wetzikon.ch/schule/",
+     "a": "Guldisloostrasse 15, Wetzikon Verordnung Gemeindebei",
+     "plz": "8620",
+     "lat": 47.32543,
+     "lon": 8.79326
+    },
+    {
+     "n": "Mittagstisch Sekundarschule",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wetzikon.ch/schule/betreuung-tagesstrukturen/mittagstisch-sekundarstufe/",
+     "src": "https://www.wetzikon.ch/schule/"
+    },
+    {
+     "n": "Kindertagesstätten / Tagesfamilien",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.wetzikon.ch/schule/betreuung-tagesstrukturen/vorschulkinder/",
+     "src": "https://www.wetzikon.ch/schule/"
+    }
+   ]
+  },
+  "sg": {
+   "pages": 11,
+   "items": [
+    {
+     "n": "Buurehofspielgruppe Summervogel",
+     "k": "spiel",
+     "w": "https://www.buurehofspielgruppe-summervogel.ch/",
+     "u": "https://www.seegraeben.ch/kindjugendfamilie",
+     "src": "https://www.seegraeben.ch/kindjugendfamilie"
+    },
+    {
+     "n": "Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.seegraeben.ch/kindjugendfamilie",
+     "src": "https://www.seegraeben.ch/kindjugendfamilie"
+    },
+    {
+     "n": "Familienzentrum Wetzikon",
+     "k": "treff",
+     "w": "https://fizwetzikon.ch/",
+     "u": "https://www.seegraeben.ch/kindjugendfamilie",
+     "src": "https://www.seegraeben.ch/kindjugendfamilie"
+    },
+    {
+     "n": "Beiträge an die familienergänzende Kinderbetreuung und weitere Angebote der Primarschule",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.seegraeben.ch/_rte/information/910300",
+     "src": "https://www.seegraeben.ch/gk-schulefreizeit/kapitel/1255"
+    },
+    {
+     "n": "Leistungsvereinbarung für Tagesbetruung von Kindern in Tagesfamilien",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.seegraeben.ch/_rte/information/1944583",
+     "src": "https://www.seegraeben.ch/gk-sozialesgesundheit/kapitel/1267"
+    },
+    {
+     "n": "Schulergänzende Tagesstrukturen",
+     "k": "kita",
+     "w": "https://www.schule-seegraeben.ch/_rtr/freieSeite_g16_mittagstisch",
+     "u": "https://www.schule-seegraeben.ch/",
+     "src": "https://www.schule-seegraeben.ch/"
+    }
+   ]
+  },
+  "rueschlikon": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "bibliothek-rueschlikon.ch",
+     "k": "bib",
+     "w": "http://www.bibliothek-rueschlikon.ch/",
+     "u": "https://www.rueschlikon.ch/bibliothek",
+     "src": "https://www.rueschlikon.ch/bibliothek"
+    },
+    {
+     "n": "Unser Angebot",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/angebot/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    },
+    {
+     "n": "Makerspace",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/angebot/makerspace/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    },
+    {
+     "n": "Jugendzimmer",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/angebot/jugendzimmer/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    },
+    {
+     "n": "Kundenbereich/Login",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/kundenbereich/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    },
+    {
+     "n": "Ausleihe E-Medien",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/e-medien/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    },
+    {
+     "n": "Veranstaltungen",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/thema/veranstaltung/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    },
+    {
+     "n": "Über uns",
+     "k": "bib",
+     "w": "https://bibliothek-rueschlikon.ch/team/",
+     "u": "https://bibliothek-rueschlikon.ch/",
+     "src": "https://bibliothek-rueschlikon.ch/"
+    }
+   ]
+  },
+  "richterswil": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kindertagesstätte",
+     "k": "kita",
+     "w": "https://www.kita-richterswil.ch/",
+     "u": "https://www.richterswil.ch/kindertagesstaette",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "Bibliothek Richterswil",
+     "k": "bib",
+     "w": "http://www.bibliothek-richterswil.ch/",
+     "u": "https://www.richterswil.ch/kinderjugendfamilie",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "Veranstaltungen in der Bibliothek",
+     "k": "bib",
+     "w": "https://bibliothek-richterswil.ch/veranstaltungen/",
+     "u": "https://www.richterswil.ch/kinderjugendfamilie",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "Vereinsliste - Elternverein",
+     "k": "spiel",
+     "w": "https://evrs.ch/",
+     "u": "https://www.richterswil.ch/_rtr/verein_17621",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "KITA Filou Kids, Samstagern",
+     "k": "kita",
+     "w": "http://www.kita-filou-kids.ch/",
+     "u": "https://www.richterswil.ch/kinderjugendfamilie",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "KITA Güxi, Richterswil",
+     "k": "kita",
+     "w": "http://www.guexi.ch/",
+     "u": "https://www.richterswil.ch/kinderjugendfamilie",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "KITA Panda Kids, Richterswil",
+     "k": "kita",
+     "w": "http://www.pandakids.ch/richterswil/",
+     "u": "https://www.richterswil.ch/kinderjugendfamilie",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "KITA und Kiga Zauberflöte, Richterswil",
+     "k": "kita",
+     "w": "http://kitakigazauberfloete.ch/",
+     "u": "https://www.richterswil.ch/kinderjugendfamilie",
+     "src": "https://www.richterswil.ch/kinderjugendfamilie"
+    },
+    {
+     "n": "Nelli Hess, Leiterin KITA Richterswil",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.richterswil.ch/_rtr/person_15242",
+     "src": "https://www.richterswil.ch/bildungkrippe"
+    },
+    {
+     "n": "Fabienne Jung, Leiterin KITA Drei Eichen Samstagern",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.richterswil.ch/_rtr/person_196177",
+     "src": "https://www.richterswil.ch/bildungkrippe",
+     "a": "Stationsstrasse 34, Samstagern Tel. 043 844 60 80 f",
+     "plz": "8833"
+    },
+    {
+     "n": "KITA-Leiterin",
+     "k": "kita",
+     "w": "",
+     "u": "http://www.richterswil.ch/de/verwaltungbehoerde/verwaltung/personenregister/welcome.php?personen_id=15242",
+     "src": "https://www.richterswil.ch/bildungkrippe"
+    }
+   ]
+  },
+  "thalwil": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Bibliothek Rosengarten",
+     "k": "bib",
+     "w": "https://crossiety.app/dorfplatz/thalwil",
+     "u": "https://www.thalwil.ch/bibliothek",
+     "src": "https://www.thalwil.ch/jugendfamilie"
+    },
+    {
+     "n": "Kitas der Stiftung Kindertagestätten",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/kinderbetreuung/uebersicht-kita/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Kinderkrippe Ulea",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-ulea.ch/ulea",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Kita Froschkönig",
+     "k": "kita",
+     "w": "http://www.kita-froschkoenig.ch/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Spielgruppe Rägeboge",
+     "k": "spiel",
+     "w": "http://www.xn--spielgruppergeboge-wtb.ch/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Spielgruppen Elternverein Thalwil",
+     "k": "spiel",
+     "w": "https://www.elternverein-thalwil.ch/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Spielgruppe Hampelmaa",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-hampelmaa.ch/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Spielgruppe Himmelsleitere",
+     "k": "spiel",
+     "w": "https://www.kath-thalwil.ch/familien",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Spielgruppe Bambi",
+     "k": "spiel",
+     "w": "https://www.spielgruppebambi-betreuung.ch/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Waldspielgruppe Fäderspiel",
+     "k": "spiel",
+     "w": "https://faederspiel.ch/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Stiftung Kindertagestätten Thalwil",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/tagesfamilien/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Tagesfamilien & Kinderbetreuung Nidino",
+     "k": "kita",
+     "w": "https://www.nidino.com/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Horte/Mittagstische",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.thalwil.ch/_rtr/themenbereich_1008",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "Trauminsel",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/glossary/hort-trauminsel/",
+     "u": "https://www.thalwil.ch/familien/32642",
+     "src": "https://www.thalwil.ch/familien/32642"
+    },
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/thalwil",
+     "u": "https://www.thalwil.ch/bibliothek/18325",
+     "src": "https://www.thalwil.ch/bibliothek/18325"
+    },
+    {
+     "n": "2026 Familientreff Flyer 2026",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.thalwil.ch/_doc/6504140",
+     "src": "https://www.thalwil.ch/familien/2884"
+    },
+    {
+     "n": "Chindeparadies",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/kita-chindeparadies/",
+     "u": "https://www.thalwil.ch/familien/86734",
+     "src": "https://www.thalwil.ch/familien/86734"
+    },
+    {
+     "n": "Chinderhuus Mühlebach",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/kinderbetreuung/kita-chinderhuus-muehlebach/",
+     "u": "https://www.thalwil.ch/familien/86734",
+     "src": "https://www.thalwil.ch/familien/86734"
+    },
+    {
+     "n": "Chinderhuus Öpfelbaum",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/kinderbetreuung/kita-chinderhuus-oepfelbaum/",
+     "u": "https://www.thalwil.ch/familien/86734",
+     "src": "https://www.thalwil.ch/familien/86734"
+    },
+    {
+     "n": "Im Fink",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/kita-im-fink/",
+     "u": "https://www.thalwil.ch/familien/86734",
+     "src": "https://www.thalwil.ch/familien/86734"
+    },
+    {
+     "n": "Inselparadies",
+     "k": "kita",
+     "w": "https://kita-thalwil.ch/kita-inselparadies/",
+     "u": "https://www.thalwil.ch/familien/86734",
+     "src": "https://www.thalwil.ch/familien/86734"
+    },
+    {
+     "n": "Ulea",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-ulea.ch/",
+     "u": "https://www.thalwil.ch/familien/86734",
+     "src": "https://www.thalwil.ch/familien/86734"
+    }
+   ]
+  },
+  "waedenswil": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Stadtbibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.waedenswil.ch/stadtbibliothen",
+     "src": "https://www.waedenswil.ch/gk-zivilrecht/kapitel/4054"
+    },
+    {
+     "n": "Zur Webseite",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-loki-emma.ch/",
+     "u": "https://www.freizeitanlage-waedi.ch/",
+     "src": "https://www.freizeitanlage-waedi.ch/"
+    },
+    {
+     "n": "Angebot und Informationen der Stadtbibliothek",
+     "k": "bib",
+     "w": "http://www.dibiost.ch/",
+     "u": "https://www.waedenswil.ch/_rtr/dienst_108616",
+     "src": "https://www.waedenswil.ch/dienststellenteams/10804"
+    },
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/waedenswil",
+     "u": "https://www.waedenswil.ch/dienststellenteams/10804",
+     "src": "https://www.waedenswil.ch/dienststellenteams/10804"
+    }
+   ]
+  },
+  "l": {
+   "pages": 3,
+   "items": []
+  },
+  "hb": {
+   "pages": 2,
+   "items": []
+  },
+  "b": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Dokumente Krippe",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.erlenbach.ch/de/schule/dokumente/?t=day_nursery",
+     "src": "https://www.erlenbach.ch/de/schule/krippe/"
+    },
+    {
+     "n": "Anmeldung Kinderkrippe",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.erlenbach.ch/de/dienstleistungen/anmeldung-kinderkrippe/",
+     "src": "https://www.erlenbach.ch/de/schule/krippe/"
+    },
+    {
+     "n": "Inserat Gruppenleitung mit Stv. Krippenleitung Funktion 100%",
+     "k": "kita",
+     "w": "https://www.publicjobs.ch/jobs/gruppenleitung-hortleitung/~job147315?ext",
+     "u": "https://www.erlenbach.ch/de/schule/krippe/",
+     "src": "https://www.erlenbach.ch/de/schule/krippe/"
+    },
+    {
+     "n": "Familienzentrum Flüügepilz",
+     "k": "treff",
+     "w": "https://xn--flgepilz-75aa.ch/",
+     "u": "https://www.erlenbach.ch/de/leben/jugend-familien/familienzentrum-flueuegepilz/",
+     "src": "https://www.erlenbach.ch/de/leben/jugend-familien/"
+    },
+    {
+     "n": "hier.",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/erlenbach/",
+     "u": "https://www.erlenbach.ch/de/schule/bibliothek/",
+     "src": "https://www.erlenbach.ch/de/schule/bibliothek/"
+    }
+   ]
+  },
+  "n": {
+   "pages": 2,
+   "items": [
+    {
+     "n": "Familienzentrum Küsnacht",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien/familienzentrum.page/841",
+     "src": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811"
+    },
+    {
+     "n": "Kinderkrippen",
+     "k": "kita",
+     "w": "https://www.schule-kuesnacht.ch/ueber-uns/kinderkrippen-kuesnacht/p-346/",
+     "u": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811",
+     "src": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811"
+    },
+    {
+     "n": "Ludothek Küsnacht",
+     "k": "ludo",
+     "w": "https://www.ludothekkuesnacht.ch/",
+     "u": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811",
+     "src": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811"
+    },
+    {
+     "n": "Bibliothek Küsnacht",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.kuesnacht.ch/leben-freizeit/bibliothek.page/833",
+     "src": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811"
+    },
+    {
+     "n": "Jugendtreff",
+     "k": "treff",
+     "w": "https://www.jugendtreffkuesnacht.ch/",
+     "u": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811",
+     "src": "https://www.kuesnacht.ch/leben-freizeit/kinder-und-familien.page/811"
+    }
+   ]
+  },
+  "o": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Kita Perlä",
+     "k": "kita",
+     "w": "https://www.xn--kita-perl-32a.ch/",
+     "u": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209",
+     "src": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209"
+    },
+    {
+     "n": "Kita KiMi",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-oetwil-am-see/",
+     "u": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209",
+     "src": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209"
+    },
+    {
+     "n": "Tagesfamilien Zürichsee Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/home",
+     "u": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209",
+     "src": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209"
+    },
+    {
+     "n": "Spielgruppe Häsli Hüpf und Feldhäsli",
+     "k": "spiel",
+     "w": "https://hahuplus.ch/",
+     "u": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209",
+     "src": "https://www.oetwil.ch/gesellschaft/familienbelange/familien-und-schulergaenzende-betreuung.html/209"
+    }
+   ]
+  },
+  "adliswil": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderhaus Werd",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.adliswil.ch/kinderhauswerd",
+     "src": "https://www.adliswil.ch/kindervorschulalter"
+    },
+    {
+     "n": "Kinderbetreuung im Vorschulalter",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.adliswil.ch/_rte/thema2/49448",
+     "src": "https://www.adliswil.ch/kindervorschulalter"
+    },
+    {
+     "n": "Spielgruppe mit Sprachförderung",
+     "k": "spiel",
+     "w": "https://spielgruppekuckuck.ch/",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49406",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49406"
+    },
+    {
+     "n": "Kurs: Startklar - Fit für den Kindergarten (Adliswil)",
+     "k": "kita",
+     "w": "https://spielgruppekuckuck.ch/starklar-kurs/",
+     "u": "https://www.adliswil.ch/_rtr/dienst_56594",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49406",
+     "a": "Kirchstrasse 2, Adliswil Der Kurs ist kostenlos",
+     "plz": "8134"
+    },
+    {
+     "n": "Eltern-Kind-Zirkus",
+     "k": "spiel",
+     "w": "https://marotte.ch/zirkusschule/angebote_kurse/eltern-kind-zirkus/10.4.4.0.html",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Eltern-Kind-Musizieren",
+     "k": "spiel",
+     "w": "http://www.schule-adliswil.ch/musikschule/unterricht/angebote/p-183890/",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Montessori Eltern-Baby-Kurse",
+     "k": "spiel",
+     "w": "https://www.elkiblumenau.ch/de/home",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Eltern-Kind-Schwimmen",
+     "k": "spiel",
+     "w": "http://www.aqua-activ.ch/adliswil-elki.html",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Wald-Spielgruppe Kuckuck",
+     "k": "spiel",
+     "w": "https://spielgruppekuckuck.ch/waldspielgruppe/",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Wald-Spielgruppe Sihlwichtel",
+     "k": "spiel",
+     "w": "https://www.sihlwichtel.ch/",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Spielgruppe Sihlau",
+     "k": "spiel",
+     "w": "https://www.steiner-schule.ch/paedagogik/spielgruppe/",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49442"
+    },
+    {
+     "n": "Kitas in Adliswil",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.adliswil.ch/_rtr/dienst_71905",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49448"
+    },
+    {
+     "n": "Tagesfamilien in Adliswil",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.adliswil.ch/_rtr/dienst_71911",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49448"
+    },
+    {
+     "n": "Spielgruppen in Adliswil",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.adliswil.ch/_rtr/thema2_49442",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49448"
+    },
+    {
+     "n": "Verband Kinderbetreuung Schweiz",
+     "k": "kita",
+     "w": "https://www.kibesuisse.ch/",
+     "u": "https://www.adliswil.ch/kindervorschulalter/49448",
+     "src": "https://www.adliswil.ch/kindervorschulalter/49448"
+    },
+    {
+     "n": "Gemeindeerlass Subventionierung Tagesstrukturen und Ferienbetreuung",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.adliswil.ch/_rte/information/3046498",
+     "src": "https://www.adliswil.ch/rechtssammlung/bildungschule/kapitel/454"
+    },
+    {
+     "n": "Gemeindeerlass Subventionierung Tagesstrukturen und Ferienbetreuung gültig ab 01.02.2027",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.adliswil.ch/_doc/7344139",
+     "src": "https://www.adliswil.ch/rechtssammlung/sammlung/3046498"
+    },
+    {
+     "n": "Haus Brugg & Bibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.adliswil.ch/hausbruggbibliothek",
+     "src": "https://www.adliswil.ch/alleevents"
+    }
+   ]
+  },
+  "i": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/meilen",
+     "u": "https://www.meilen.ch/bibliothek",
+     "src": "https://www.meilen.ch/bibliothek"
+    },
+    {
+     "n": "Digitalen Bibliothek Ostschweiz",
+     "k": "bib",
+     "w": "http://www.dibiost.ch/",
+     "u": "https://www.meilen.ch/bibliothek",
+     "src": "https://www.meilen.ch/bibliothek"
+    },
+    {
+     "n": "Informationen",
+     "k": "bib",
+     "w": "http://bibliotheken-zh.ch/meilen/bibliothek",
+     "u": "https://www.meilen.ch/bibliothek",
+     "src": "https://www.meilen.ch/bibliothek"
+    },
+    {
+     "n": "Veranstaltungen",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/meilen/events",
+     "u": "https://www.meilen.ch/bibliothek",
+     "src": "https://www.meilen.ch/bibliothek"
+    },
+    {
+     "n": "meilen.ludothek.net",
+     "k": "ludo",
+     "w": "http://meilen.ludothek.net/sortiment",
+     "u": "https://www.meilen.ch/ludothek",
+     "src": "https://www.meilen.ch/ludothek"
+    },
+    {
+     "n": "Spielgruppen, Kitas und Tagesbetreuung",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.meilen.ch/betreuung-und-beratung",
+     "src": "https://www.meilen.ch/betreuung-und-beratung"
+    },
+    {
+     "n": "spielgruppe-sonnenblume.ch",
+     "k": "spiel",
+     "w": "http://www.spielgruppe-sonnenblume.ch/",
+     "u": "https://www.meilen.ch/betreuung-und-beratung",
+     "src": "https://www.meilen.ch/betreuung-und-beratung"
+    }
+   ]
+  },
+  "langnauamalbis": {
+   "pages": 17,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.langnauamalbis.ch/bibliothekred",
+     "src": "https://www.langnauamalbis.ch/familie"
+    }
+   ]
+  },
+  "ba": {
+   "pages": 1,
+   "items": []
+  },
+  "a": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Familienzentrum Männedorf",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.maennedorf.ch/_rtr/thema2_63262",
+     "src": "https://www.maennedorf.ch/jugendfamilie/63262",
+     "a": "Saurenbachstrasse 6, Männedorf Karte",
+     "plz": "8708",
+     "lat": 47.25008,
+     "lon": 8.69758
+    }
+   ]
+  },
+  "k": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Gemeinschaftszentrum",
+     "k": "treff",
+     "w": "https://www.gemeinschaftszentrum-zumikon.ch/",
+     "u": "https://www.zumikon.ch/gemeinschaftszentrum",
+     "src": "https://www.zumikon.ch/familieundkinder"
+    },
+    {
+     "n": "Chinderhuus Zumikon",
+     "k": "kita",
+     "w": "https://www.chinderhuus-zumikon.ch/",
+     "u": "https://www.zumikon.ch/familieundkinder",
+     "src": "https://www.zumikon.ch/familieundkinder"
+    },
+    {
+     "n": "Konzept Personalentwicklung Kindergarten und Primarschule",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.zumikon.ch/_rte/information/975254",
+     "src": "https://www.zumikon.ch/schulefreizeit/kapitel/1007"
+    },
+    {
+     "n": "Konzept für den Einsatz von Praktikanten an Kindergarten und Primarschule",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.zumikon.ch/_rte/information/975269",
+     "src": "https://www.zumikon.ch/schulefreizeit/kapitel/1007"
+    },
+    {
+     "n": "Statuten Chinderhuus",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.zumikon.ch/_rte/information/975422",
+     "src": "https://www.zumikon.ch/schulefreizeit/kapitel/1007"
+    },
+    {
+     "n": "Leistungsvereinbarung Chinderhuus",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.zumikon.ch/_rte/information/2799202",
+     "src": "https://www.zumikon.ch/schulefreizeit/kapitel/1007"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "https://www.schule-zumikon.ch/bibliothek",
+     "u": "https://www.schule-zumikon.ch/",
+     "src": "https://www.schule-zumikon.ch/"
+    },
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "https://www.schule-zumikon.ch/gemeindebibliothek",
+     "u": "https://www.schule-zumikon.ch/",
+     "src": "https://www.schule-zumikon.ch/"
+    },
+    {
+     "n": "Schulbibliothek",
+     "k": "bib",
+     "w": "https://www.schule-zumikon.ch/schulbibliothek",
+     "u": "https://www.schule-zumikon.ch/",
+     "src": "https://www.schule-zumikon.ch/"
+    },
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/Zumikon",
+     "u": "https://www.schule-zumikon.ch/bibliothek",
+     "src": "https://www.schule-zumikon.ch/bibliothek"
+    }
+   ]
+  },
+  "hi": {
+   "pages": 10,
+   "items": [
+    {
+     "n": "KiTa Hittnau",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/kita",
+     "u": "https://www.hittnau.ch/lebenssituationen/45713",
+     "src": "https://www.hittnau.ch/lebenssituationen/45713"
+    },
+    {
+     "n": "Tagesfamilien Zürichsee Oberland",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/tagesfamilien",
+     "u": "https://www.schulehittnau.ch/projektkita",
+     "src": "https://www.schulehittnau.ch/projektkita"
+    },
+    {
+     "n": "20210917_Konzept-Machbarkeitsstudie KiTa Hittnau",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/_doc/388996",
+     "u": "https://www.schulehittnau.ch/projektkita",
+     "src": "https://www.schulehittnau.ch/projektkita"
+    },
+    {
+     "n": "20231120 KiTa-Projekt Fragen - Antworten",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/_doc/389095",
+     "u": "https://www.schulehittnau.ch/projektkita",
+     "src": "https://www.schulehittnau.ch/projektkita"
+    },
+    {
+     "n": "20240916_Präsentation KiTa Gemeindeversammlung",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/_doc/432235",
+     "u": "https://www.schulehittnau.ch/projektkita",
+     "src": "https://www.schulehittnau.ch/projektkita"
+    },
+    {
+     "n": "20260713 KiTa-Projekt Fragen - Antworten",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/_doc/515437",
+     "u": "https://www.schulehittnau.ch/projektkita",
+     "src": "https://www.schulehittnau.ch/projektkita"
+    },
+    {
+     "n": "20260824 Präsentation Info-Anlass vom 24. August 2026 zum KiTa-Bauprojekt",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/_doc/519724",
+     "u": "https://www.schulehittnau.ch/projektkita",
+     "src": "https://www.schulehittnau.ch/projektkita"
+    },
+    {
+     "n": "Projekt KiTa",
+     "k": "kita",
+     "w": "https://www.schulehittnau.ch/projektkita",
+     "u": "https://www.schulehittnau.ch/",
+     "src": "https://www.schulehittnau.ch/"
+    },
+    {
+     "n": "Zur Bibliothek",
+     "k": "bib",
+     "w": "https://hittnau.biblioweb.ch/",
+     "u": "https://www.schulehittnau.ch/",
+     "src": "https://www.schulehittnau.ch/"
+    },
+    {
+     "n": "Zur KiTa",
+     "k": "kita",
+     "w": "https://kita-hittnau.ch/",
+     "u": "https://www.schulehittnau.ch/",
+     "src": "https://www.schulehittnau.ch/"
+    },
+    {
+     "n": "Frauenverein Hittnau",
+     "k": "spiel",
+     "w": "https://www.frauenverein-hittnau.ch/",
+     "u": "https://www.hittnau.ch/alter/45421",
+     "src": "https://www.hittnau.ch/alter/45421"
+    },
+    {
+     "n": "aktueller Jahresbericht (unter Downloads Bibliothek)",
+     "k": "bib",
+     "w": "https://hittnau.biblioweb.ch/downloads",
+     "u": "https://www.schulehittnau.ch/bibliotheken/23",
+     "src": "https://www.schulehittnau.ch/bibliotheken/23"
+    }
+   ]
+  },
+  "z": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderkrippe Bienehuus Zollikon",
+     "k": "kita",
+     "w": "https://bienehuus.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Kinderkrippe Ferdinand",
+     "k": "kita",
+     "w": "https://www.kinderkrippeferdinand.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "KiTa Akidemy",
+     "k": "kita",
+     "w": "https://www.akidemy.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Globegarden Kinderkrippe Giacometti",
+     "k": "kita",
+     "w": "https://www.globegarden.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "KiMi Kinderkrippe Zollikerberg",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-zollikerberg/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Tagesfamilienverein Zollikon",
+     "k": "kita",
+     "w": "http://www.tfv-zollikon-kuesnacht.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.zollikon.ch/familie/64156",
+     "src": "https://www.zollikon.ch/familie/64156"
+    },
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.zollikon.ch/_rte/amt/2589",
+     "src": "https://www.zollikon.ch/departemente/64"
+    },
+    {
+     "n": "Freizeitdienst/Quartiertreff",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.zollikon.ch/_rte/amt/1358",
+     "src": "https://www.zollikon.ch/departemente/64"
+    },
+    {
+     "n": "Geresaal/Quartiertreff",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.zollikon.ch/_rte/thema2/63214",
+     "src": "https://www.zollikon.ch/departemente/64"
+    },
+    {
+     "n": "MedioPass Bibliotheken im Kanton Zürich.",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/VerbundZH/",
+     "u": "https://www.zollikon.ch/bibliotheken",
+     "src": "https://www.zollikon.ch/bibliotheken"
+    }
+   ]
+  },
+  "h": {
+   "pages": 16,
+   "items": [
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.fehraltorf.ch/gemeindebibliothek",
+     "src": "https://www.fehraltorf.ch/vereinsliste"
+    },
+    {
+     "n": "Leistungsvereinbarung für die Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.fehraltorf.ch/_rte/information/1743755",
+     "src": "https://www.fehraltorf.ch/gk-zivilrecht/kapitel/3379"
+    }
+   ]
+  },
+  "pfaeffikon": {
+   "pages": 7,
+   "items": [
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "https://www.winmedio.net/pfaeffikon/",
+     "u": "https://www.pfaeffikon.ch/kultur-freizeit/kultur/gemeindebibliothek/",
+     "src": "https://www.pfaeffikon.ch/kultur-freizeit/"
+    }
+   ]
+  },
+  "wi": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Spielgruppe Chäferfäscht",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.wila.ch/leben/vereine/vereinsdetails.html/331/association/24",
+     "src": "https://www.wila.ch/leben/vereine.html/232"
+    },
+    {
+     "n": "Familienverein Wila",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.wila.ch/leben/vereine/vereinsdetails.html/331/association/159",
+     "src": "https://www.wila.ch/leben/vereine.html/232"
+    }
+   ]
+  },
+  "ws": {
+   "pages": 7,
+   "items": [
+    {
+     "n": "Kita Chinderstern Weisslingen",
+     "k": "kita",
+     "w": "https://www.chinderstern.ch/weisslingen/",
+     "u": "https://www.weisslingen.ch/kita",
+     "src": "https://www.weisslingen.ch/kita"
+    },
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.weisslingen.ch/gemeindebibliothek",
+     "src": "https://www.weisslingen.ch/homebibliothek"
+    }
+   ]
+  },
+  "t": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Eltern-Kind-Zentrum MEMORY",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.uetikonamsee.ch/elternkindzentrummemory",
+     "src": "https://www.uetikonamsee.ch/kindjugendfamilie"
+    },
+    {
+     "n": "Spielgruppen in Uetikon",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.uetikonamsee.ch/soziales/25822",
+     "src": "https://www.uetikonamsee.ch/soziales/25825",
+     "a": "Bergstrasse 90, Uetikon am See Tel. 044 922 72",
+     "plz": "8707"
+    },
+    {
+     "n": "Kinderkrippe Tatzelwurm",
+     "k": "kita",
+     "w": "https://www.tatzelwurm.ch/",
+     "u": "https://www.uetikonamsee.ch/soziales/25825",
+     "src": "https://www.uetikonamsee.ch/soziales/25825"
+    },
+    {
+     "n": "Kinderkrippe Pandakids",
+     "k": "kita",
+     "w": "https://www.pandakids.ch/uetikon-am-see-kita/",
+     "u": "https://www.uetikonamsee.ch/soziales/25825",
+     "src": "https://www.uetikonamsee.ch/soziales/25825"
+    },
+    {
+     "n": "Vorkindergarten Pandakids II",
+     "k": "kita",
+     "w": "https://www.pandakids.ch/uetikon-am-see-vorkindergarten-hort/",
+     "u": "https://www.uetikonamsee.ch/soziales/25825",
+     "src": "https://www.uetikonamsee.ch/soziales/25825"
+    },
+    {
+     "n": "Tagesfamilie finden",
+     "k": "kita",
+     "w": "https://www.tatzelwurm.ch/tagesfamilie-uetikon",
+     "u": "https://www.uetikonamsee.ch/soziales/25825",
+     "src": "https://www.uetikonamsee.ch/soziales/25825"
+    },
+    {
+     "n": "Tagesfamilie werden",
+     "k": "kita",
+     "w": "https://www.tatzelwurm.ch/anmeldung-tageseltern",
+     "u": "https://www.uetikonamsee.ch/soziales/25825",
+     "src": "https://www.uetikonamsee.ch/soziales/25825"
+    },
+    {
+     "n": "Vermittlungsstelle für Tagesfamilien",
+     "k": "kita",
+     "w": "https://www.tatzelwurm.ch/?option=com_content&view=category&id=10&layout=blog&Itemid=20",
+     "u": "https://www.uetikonamsee.ch/soziales/25825",
+     "src": "https://www.uetikonamsee.ch/soziales/25825"
+    },
+    {
+     "n": "Bibliothek - Ein Ort für Alle",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.uetikonamsee.ch/bibliotheken/24634",
+     "src": "https://www.uetikonamsee.ch/bibliotheken",
+     "a": "Bergstrasse 137, Uetikon am See Tel. 044 922 71",
+     "plz": "8707"
+    },
+    {
+     "n": "Kanton Zürich",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/biblio-zh/start/",
+     "u": "https://www.uetikonamsee.ch/bibliotheken/24634",
+     "src": "https://www.uetikonamsee.ch/bibliotheken/24634"
+    },
+    {
+     "n": "Spielgruppe Grossdorf Chäfer",
+     "k": "spiel",
+     "w": "https://grossdorf-chaefer.ch/",
+     "u": "https://www.uetikonamsee.ch/soziales/25822",
+     "src": "https://www.uetikonamsee.ch/soziales/25822"
+    },
+    {
+     "n": "Spielgruppe Sunneburg",
+     "k": "spiel",
+     "w": "http://www.spielgruppe-sunneburg.ch/index.html",
+     "u": "https://www.uetikonamsee.ch/soziales/25822",
+     "src": "https://www.uetikonamsee.ch/soziales/25822"
+    },
+    {
+     "n": "Waldspielgruppe Stötzlischnägge",
+     "k": "spiel",
+     "w": "https://www.waldspielgruppe-stoetzlischnaegge.ch/index.html",
+     "u": "https://www.uetikonamsee.ch/soziales/25822",
+     "src": "https://www.uetikonamsee.ch/soziales/25822"
+    }
+   ]
+  },
+  "il": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.ilef.ch/bibliotheken",
+     "src": "https://www.ilef.ch/kinderbetreuung"
+    },
+    {
+     "n": "Städtische Kindertagesstätten",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.ilef.ch/_rte/thema2/35930",
+     "src": "https://www.ilef.ch/kinderbetreuung"
+    },
+    {
+     "n": "Private Kindertagesstätten",
+     "k": "kita",
+     "w": "http://www.kinderhausahoi.ch/",
+     "u": "https://www.ilef.ch/_rte/thema2/35984",
+     "src": "https://www.ilef.ch/kinderbetreuung"
+    },
+    {
+     "n": "Eröffnung einer Kindertagesstätte",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.ilef.ch/_rte/thema2/36253",
+     "src": "https://www.ilef.ch/kinderbetreuung"
+    },
+    {
+     "n": "Spielgruppen Spielgruppen",
+     "k": "spiel",
+     "w": "http://www.quadliwats.ch/",
+     "u": "https://www.ilef.ch/_rte/thema2/36241",
+     "src": "https://www.ilef.ch/familiekind"
+    },
+    {
+     "n": "Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.ilef.ch/kinderbetreuung/36235",
+     "src": "https://www.ilef.ch/kinderbetreuung/36235"
+    },
+    {
+     "n": "kita-hands4kids.ch",
+     "k": "kita",
+     "w": "http://www.kita-hands4kids.ch/",
+     "u": "https://www.ilef.ch/kinderbetreuung/35984",
+     "src": "https://www.ilef.ch/kinderbetreuung/35984"
+    },
+    {
+     "n": "kita-wunderblume.ch",
+     "k": "kita",
+     "w": "http://www.kita-wunderblume.ch/",
+     "u": "https://www.ilef.ch/kinderbetreuung/35984",
+     "src": "https://www.ilef.ch/kinderbetreuung/35984"
+    },
+    {
+     "n": "Mittagstisch Sek",
+     "k": "kita",
+     "w": "https://www.schule-ilef.ch/mittagstischsek",
+     "u": "https://www.schule-ilef.ch/schulergaenzendebetreuung",
+     "src": "https://www.schule-ilef.ch/schulergaenzendebetreuung"
+    }
+   ]
+  },
+  "wd": {
+   "pages": 10,
+   "items": []
+  },
+  "rs": {
+   "pages": 15,
+   "items": [
+    {
+     "n": "Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "http://www.tfzo.ch/",
+     "u": "https://www.russikon.ch/kinderbetreuung",
+     "src": "https://www.russikon.ch/kinderbetreuung"
+    },
+    {
+     "n": "Tagesstrukturen der Schule Russikon",
+     "k": "kita",
+     "w": "http://www.schulerussikon.ch/de/angebote/dienste/",
+     "u": "https://www.russikon.ch/kinderbetreuung",
+     "src": "https://www.russikon.ch/kinderbetreuung"
+    },
+    {
+     "n": "spielgrupperussikon.ch",
+     "k": "spiel",
+     "w": "http://www.spielgrupperussikon.ch/",
+     "u": "https://www.russikon.ch/kinderbetreuung",
+     "src": "https://www.russikon.ch/kinderbetreuung"
+    },
+    {
+     "n": "waldspielgruppe-maulwurf.jimdo.com",
+     "k": "spiel",
+     "w": "http://www.waldspielgruppe-maulwurf.jimdo.com/",
+     "u": "https://www.russikon.ch/kinderbetreuung",
+     "src": "https://www.russikon.ch/kinderbetreuung"
+    },
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "http://www.bibliothek-russikon.ch/",
+     "u": "https://www.russikon.ch/bibliotheken",
+     "src": "https://www.russikon.ch/freizeitkultur",
+     "a": "Madetswilerstrasse 2, Russikon Tel. 044 954 04 61 bib",
+     "plz": "8332"
+    },
+    {
+     "n": "Bibliothek Russikon",
+     "k": "bib",
+     "w": "https://www.schulerussikon.ch/",
+     "u": "https://www.schulerussikon.ch/",
+     "src": "https://www.schulerussikon.ch/"
+    }
+   ]
+  },
+  "r": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Bibliotheken",
+     "k": "bib",
+     "w": "https://bibliothek-maur.ch/",
+     "u": "https://www.maur.ch/themen/freizeit-mobilitaet.html/416",
+     "src": "https://www.maur.ch/themen/freizeit-mobilitaet.html/416"
+    }
+   ]
+  },
+  "d": {
+   "pages": 9,
+   "items": [
+    {
+     "n": "Stadtbibliothek Bettlistrasse 22 8600 Dübendorf",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.duebendorf.ch/ortsplan/a/8600%20D%C3%BCbendorf/Bettlistrasse%2022",
+     "src": "https://www.duebendorf.ch/veranstaltungengd/7588474",
+     "a": "Usterstrasse 2, Dübendorf",
+     "plz": "8600",
+     "lat": 47.39693,
+     "lon": 8.61825
+    }
+   ]
+  },
+  "li": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kindertagesstätte",
+     "k": "kita",
+     "w": "http://www.chinderhuus-ziczac.ch/",
+     "u": "https://www.lindau.ch/_rte/thema2/19709",
+     "src": "https://www.lindau.ch/jugendfamilie"
+    },
+    {
+     "n": "KITA-Rechner",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.lindau.ch/_rte/thema2/61471",
+     "src": "https://www.lindau.ch/jugendfamilie"
+    },
+    {
+     "n": "Verein Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://goo.gl/maps/2zdGpvsmkihpYSk5A",
+     "u": "https://www.lindau.ch/_rte/amt/27572",
+     "src": "https://www.lindau.ch/jugendfamilie/40805"
+    },
+    {
+     "n": "Kindergarten Allgemein",
+     "k": "kita",
+     "w": "https://www.schule-lindau.ch/kindergartenallgemein",
+     "u": "https://www.schule-lindau.ch/primarschuleallgemein",
+     "src": "https://www.schule-lindau.ch/primarschuleallgemein"
+    },
+    {
+     "n": "Bibliotheksteam",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.lindau.ch/_rtr/amt_22324",
+     "src": "https://www.lindau.ch/bibliothek"
+    }
+   ]
+  },
+  "g": {
+   "pages": 13,
+   "items": [
+    {
+     "n": "Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/home",
+     "u": "https://www.greifensee.ch/kinderjugend",
+     "src": "https://www.greifensee.ch/kinderjugend"
+    },
+    {
+     "n": "Spielgruppe Müsliland",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-muesliland.ch/muesliland",
+     "u": "https://www.greifensee.ch/kinderjugend",
+     "src": "https://www.greifensee.ch/kinderjugend"
+    },
+    {
+     "n": "Spielgruppe Hasehüsli",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-hasehuesli.ch/",
+     "u": "https://www.greifensee.ch/kinderjugend",
+     "src": "https://www.greifensee.ch/kinderjugend"
+    },
+    {
+     "n": "Spielgruppe Kuki",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-kuki.ch/",
+     "u": "https://www.greifensee.ch/kinderjugend",
+     "src": "https://www.greifensee.ch/kinderjugend"
+    },
+    {
+     "n": "KITA Greifensee",
+     "k": "kita",
+     "w": "https://www.vkka.ch/kindertagesstaetten/kita-greifensee",
+     "u": "https://www.greifensee.ch/kinderjugend",
+     "src": "https://www.greifensee.ch/kinderjugend"
+    },
+    {
+     "n": "ElKi-Turnen",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.greifensee.ch/_rtr/verein_85",
+     "src": "https://www.greifensee.ch/kinderjugend"
+    },
+    {
+     "n": "hier.",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/greifensee",
+     "u": "https://www.greifensee.ch/bildungbibliothek",
+     "src": "https://www.greifensee.ch/bildungbibliothek"
+    }
+   ]
+  },
+  "s": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Elternforum Primarschule",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-schulkinder/",
+     "src": "https://www.schwerzenbach.ch/lebenslagen/kinder-und-familie/"
+    },
+    {
+     "n": "Familienergänzende Tagesbetreuung Kita und Hort",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/hort-und-kita/",
+     "src": "https://www.schwerzenbach.ch/lebenslagen/kinder-und-familie/"
+    },
+    {
+     "n": "Subventionsbeiträge für Spielgruppenbesuch",
+     "k": "spiel",
+     "w": "https://schwerzenbach.egovstore.online/",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/hort-und-kita/antrag-subventionsbeitraege-fuer-familienergaenzende-kinderbetreuung-1/",
+     "src": "https://www.schwerzenbach.ch/lebenslagen/kinder-und-familie/"
+    },
+    {
+     "n": "Spielgruppe Schildkrötli",
+     "k": "spiel",
+     "w": "https://spielgruppe-schildchroetli.ch/",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-vorschulkinder/",
+     "src": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-vorschulkinder/"
+    },
+    {
+     "n": "Spielgruppe Wirbelwind",
+     "k": "spiel",
+     "w": "https://www.schule-schwerzenbach.ch/weitere-angebote/raummiete/familienzentrum/p-142/",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-vorschulkinder/",
+     "src": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-vorschulkinder/"
+    },
+    {
+     "n": "Bibliothek Schwerzenbach",
+     "k": "bib",
+     "w": "http://www.bibliothek-schwerzenbach.ch/de/",
+     "u": "https://www.schwerzenbach.ch/verwaltung/bibliothek/",
+     "src": "https://www.schwerzenbach.ch/verwaltung/bibliothek/"
+    },
+    {
+     "n": "einen Hort",
+     "k": "kita",
+     "w": "https://www.schule-schwerzenbach.ch/tagesbetreuung/hort/p-99/",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/hort-und-kita/",
+     "src": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/hort-und-kita/"
+    },
+    {
+     "n": "eine Kita",
+     "k": "kita",
+     "w": "https://www.schule-schwerzenbach.ch/tagesbetreuung/kita/p-100/",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/hort-und-kita/",
+     "src": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/hort-und-kita/"
+    },
+    {
+     "n": "Elternforum der Primarschule",
+     "k": "spiel",
+     "w": "https://www.schule-schwerzenbach.ch/fuer-eltern/elternforum/vorstand-1/p-33/",
+     "u": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-schulkinder/",
+     "src": "https://www.schwerzenbach.ch/dienstleistungen/persoenliches/kinder-und-jugendliche/angebote-fuer-schulkinder/"
+    }
+   ]
+  },
+  "e": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Spielgruppenangebote",
+     "k": "spiel",
+     "w": "https://www.igeli-finn.ch/",
+     "u": "https://www.egg.ch/_rte/thema2/83722",
+     "src": "https://www.egg.ch/familienkinderjugendliche",
+     "a": "Forchstrasse 145, Egg Tel. 043 277 12 01 gesellsc",
+     "plz": "8132"
+    },
+    {
+     "n": "Datenschutzerklärung Bibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.egg.ch/_rte/information/2717189",
+     "src": "https://www.egg.ch/gesetzeskapitel/kapitel/1037"
+    }
+   ]
+  },
+  "v": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "familienzentrum NULL @volketswil.ch",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.volketswil.ch/route/cms-index-redirectEmailLink/email/bWFpbHRvJTNBZmFtaWxpZW56ZW50cnVtJTQwdm9sa2V0c3dpbCUyRWNo",
+     "src": "https://www.volketswil.ch/alltag-und-gesellschaft/familie-und-kinder/familienzentren.html/410"
+    }
+   ]
+  },
+  "f": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "GZ Fällanden",
+     "k": "treff",
+     "w": "https://goo.gl/maps/QPmxPNz1MvPb4N9R8",
+     "u": "https://www.faellanden.ch/gz-faellanden",
+     "src": "https://www.faellanden.ch/kinderfamilien",
+     "a": "Talgartenstrasse 8, Fällanden Standort auf Google M",
+     "plz": "8117"
+    },
+    {
+     "n": "Kinderhaus \"s'2. Dihei\"",
+     "k": "kita",
+     "w": "http://www.kinderhaus-s2dihei.ch/",
+     "u": "https://www.faellanden.ch/_rte/sehenswuerdigkeit/3247",
+     "src": "https://www.faellanden.ch/freizeitandere",
+     "a": "Unterdorfstrasse 1, Fällanden Tel. 043 355 57 36 s2",
+     "plz": "8117"
+    },
+    {
+     "n": "Kinderkrippe Tierlihof",
+     "k": "kita",
+     "w": "http://www.kinderkrippe-tierlihof.ch/",
+     "u": "https://www.faellanden.ch/_rte/sehenswuerdigkeit/17374",
+     "src": "https://www.faellanden.ch/freizeitandere",
+     "a": "Langäristrasse 7a, Fällanden 044 825 24 24",
+     "plz": "8117"
+    },
+    {
+     "n": "Kinderkrippe Villa Wunderchischte",
+     "k": "kita",
+     "w": "http://www.villa-wunderchischte.ch/",
+     "u": "https://www.faellanden.ch/_rte/sehenswuerdigkeit/692",
+     "src": "https://www.faellanden.ch/freizeitandere",
+     "a": "Wigartenstrasse 13, Fällanden Tel. 044 825 51 24 ki",
+     "plz": "8117"
+    },
+    {
+     "n": "Kita Pippis Spielstrumpf",
+     "k": "kita",
+     "w": "https://www.kita-pippis-spielstrumpf.ch/",
+     "u": "https://www.faellanden.ch/_rte/sehenswuerdigkeit/34831",
+     "src": "https://www.faellanden.ch/freizeitandere"
+    },
+    {
+     "n": "Gemeindebibliothek Schwerzenbachstrasse 10 8117 Fällanden",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.faellanden.ch/ortsplan/a/8117%20F%C3%A4llanden/Schwerzenbachstrasse%2010",
+     "src": "https://www.faellanden.ch/anlaesseaktuelles/7762057"
+    }
+   ]
+  },
+  "altikon": {
+   "pages": 2,
+   "items": []
+  },
+  "dinhard": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "ElKi-Treff",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.dinhard.ch/gesellschaft/vereine.html/409/association/80",
+     "src": "https://www.dinhard.ch/gesellschaft/vereine.html/168"
+    },
+    {
+     "n": "Spielgruppenverein Dinhard",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.dinhard.ch/gesellschaft/vereine.html/409/association/22",
+     "src": "https://www.dinhard.ch/gesellschaft/vereine.html/168"
+    }
+   ]
+  },
+  "bruetten": {
+   "pages": 7,
+   "items": []
+  },
+  "wb": {
+   "pages": 7,
+   "items": []
+  },
+  "elgg": {
+   "pages": 2,
+   "items": []
+  },
+  "ellikonanderthur": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Familienzentrum Winterthur",
+     "k": "treff",
+     "w": "http://www.familienzentrum-winterthur.ch/",
+     "u": "https://www.ellikonanderthur.ch/gesellschaft/familie.html/138",
+     "src": "https://www.ellikonanderthur.ch/gesellschaft/familie.html/138"
+    },
+    {
+     "n": "Verein Tagesfamilien Winterthur Weinland",
+     "k": "kita",
+     "w": "http://www.tfww.ch/",
+     "u": "https://www.ellikonanderthur.ch/gesellschaft/familie.html/138",
+     "src": "https://www.ellikonanderthur.ch/gesellschaft/familie.html/138"
+    },
+    {
+     "n": "spielgruppedrachenhoehle.ch",
+     "k": "spiel",
+     "w": "https://www.spielgruppedrachenhoehle.ch/",
+     "u": "https://www.ellikonanderthur.ch/gesellschaft/kinder-und-jugend.html/137",
+     "src": "https://www.ellikonanderthur.ch/gesellschaft/kinder-und-jugend.html/137"
+    }
+   ]
+  },
+  "hagenbuch": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Frauenverein Hagenbuch",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.hagenbuch-zh.ch/freizeit/vereine.html/118/association/2",
+     "src": "https://www.hagenbuch-zh.ch/freizeit/vereine.html/105"
+    }
+   ]
+  },
+  "daegerlen": {
+   "pages": 8,
+   "items": [
+    {
+     "n": "KITA-Beiträge",
+     "k": "kita",
+     "w": "http://kitarechner.ch/Daegerlen/",
+     "u": "https://www.daegerlen.ch/kitabeitraege",
+     "src": "https://www.daegerlen.ch/familie",
+     "a": "Dorfstrasse 8, Rutschwil",
+     "plz": "8471",
+     "lat": 47.55778,
+     "lon": 8.72935
+    }
+   ]
+  },
+  "daettlikon": {
+   "pages": 8,
+   "items": [
+    {
+     "n": "Pädagogisches Konzept der Schule und der freiwilligen Tagesschule Dättlikon",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.daettlikon.ch/_rte/information/659695",
+     "src": "https://www.daettlikon.ch/schule/kapitel/292"
+    },
+    {
+     "n": "Bibliotheksmitarbeiter/in (ca. 10%) gesucht",
+     "k": "bib",
+     "w": "https://daettlikon.biblioweb.ch/aktuelles/0",
+     "u": "https://daettlikon.biblioweb.ch/",
+     "src": "https://daettlikon.biblioweb.ch/"
+    },
+    {
+     "n": "Gemeinde- und Schulbibliothek Dättlikon",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.daettlikon.ch/_rte/verein/61946",
+     "src": "https://www.daettlikon.ch/anlaesseaktuelles/7201247",
+     "a": "Schulstrasse 3, Dättlikon Tel. 052 315 10 75 Ko",
+     "plz": "8421"
+    }
+   ]
+  },
+  "elsau": {
+   "pages": 11,
+   "items": [
+    {
+     "n": "Jugendtreff",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.elsau.ch/jugendtreff",
+     "src": "https://www.elsau.ch/familiejugend",
+     "a": "Auwiesenstrasse 1, Elsau Telefon 052 368 78 00 E-M",
+     "plz": "8352"
+    },
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/Elsau/",
+     "u": "https://www.elsau.ch/kontaktbibliothek",
+     "src": "https://www.elsau.ch/kontaktbibliothek"
+    },
+    {
+     "n": "ludothek-elsau.ch",
+     "k": "ludo",
+     "w": "http://www.ludothek-elsau.ch/",
+     "u": "https://www.elsau.ch/ludothek",
+     "src": "https://www.elsau.ch/ludothek"
+    }
+   ]
+  },
+  "hettlingen": {
+   "pages": 12,
+   "items": []
+  },
+  "rickenbach": {
+   "pages": 9,
+   "items": [
+    {
+     "n": "Familienverein Rickenbach ZH",
+     "k": "spiel",
+     "w": "http://www.familienverein.ch/",
+     "u": "https://www.rickenbach-zh.ch/de/vereinsverzeichnis/129_familienverein-rickenbach-zh",
+     "src": "https://www.rickenbach-zh.ch/de/vereinsverzeichnis/"
+    },
+    {
+     "n": "Indoorspielgruppe «Bärehüsli»",
+     "k": "spiel",
+     "w": "http://www.xn--brehsli-5wa3t.ch/",
+     "u": "https://www.rickenbach-zh.ch/de/vereinsverzeichnis/96_indoorspielgruppe-%C2%ABb%C3%A4reh%C3%BCsli%C2%BB",
+     "src": "https://www.rickenbach-zh.ch/de/vereinsverzeichnis/"
+    }
+   ]
+  },
+  "m": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderbetreuung in Mönchaltorf",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/kinderbetreuung/110110",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Kinderkrippe Müslihuus",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/kinderkrippe",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Spielgruppen in Mönchaltorf",
+     "k": "spiel",
+     "w": "http://www.taipa.ch/",
+     "u": "https://www.moenchaltorf.ch/spielgruppeninmoenchaltorf",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Schülerbetreuung KidzClub (Hort)",
+     "k": "kita",
+     "w": "https://www.schulemoenchaltorf.ch/betreuungsangebot",
+     "u": "https://www.moenchaltorf.ch/kinderbetreuung/110110",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Leporello_Kinderkrippe_KidzClub_2026_Finale Version",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_doc/7053922",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Flyer Spielgruppe Plapperstorch August 2025",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_doc/6088351",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Betreuungs- und Betriebskonzept Kinderkrippe Müslihuus",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2348401",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Pädagogisches Konzept Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2348404",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Übersicht Tagesablauf und Blockzeiten Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2348407",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Präventionskonzept Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2827015",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Sicherheits- und Notfallkonzept Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2827018",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Waldkonzept Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2437456",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Konzept Eingewöhnung neuer Kinder Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2348419",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Regelung Betreuter Elternausgangsabend Kinderkrippe Müslihuus (*)",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_rtr/information_2348422",
+     "src": "https://www.moenchaltorf.ch/kinderbetreuung/110110"
+    },
+    {
+     "n": "Betriebsferien und Feiertage Kinderkrippe Müslihuus_2026",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_doc/6504965",
+     "src": "https://www.moenchaltorf.ch/betreuungsangebot"
+    },
+    {
+     "n": "Betriebsferien und Feiertage Kinderkrippe Müslihuus_2027",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.moenchaltorf.ch/_doc/7123108",
+     "src": "https://www.moenchaltorf.ch/betreuungsangebot"
+    }
+   ]
+  },
+  "turbenthal": {
+   "pages": 2,
+   "items": []
+  },
+  "wiesendangen": {
+   "pages": 6,
+   "items": []
+  },
+  "seuzach": {
+   "pages": 10,
+   "items": []
+  },
+  "zuerich": {
+   "pages": 1,
+   "items": []
+  },
+  "pfungen": {
+   "pages": 17,
+   "items": [
+    {
+     "n": "Kindergarten Dorfstrasse",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.pfungen.ch/kindergarten-dorfstrasse",
+     "src": "https://www.pfungen.ch/kinderbetreuung",
+     "a": "Dorfstrasse 25, Pfungen Tel. 052 305 07 70",
+     "plz": "8422"
+    },
+    {
+     "n": "KiTa Einzigartig",
+     "k": "kita",
+     "w": "https://kita-villa-pfungen.ch/",
+     "u": "https://www.pfungen.ch/kinderbetreuung",
+     "src": "https://www.pfungen.ch/kinderbetreuung"
+    },
+    {
+     "n": "(Tagesstrukturen Schule)",
+     "k": "kita",
+     "w": "https://www.schulepfungen.ch/htm/schulergaenzende-betreuung.htm",
+     "u": "https://www.pfungen.ch/kinderbetreuung",
+     "src": "https://www.pfungen.ch/kinderbetreuung"
+    }
+   ]
+  },
+  "neftenbach": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderkrippe Sternschnuppe",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-sternschnuppe.ch/",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Spielgruppe im Chämi",
+     "k": "spiel",
+     "w": "",
+     "u": "http://www.neftenbach.ch/de/gesellschaft/freizeit/vereinsliste/welcome.php?action=showverein&verein_id=71275",
+     "src": "https://www.neftenbach.ch/integration",
+     "a": "Breitestrasse 10, Neftenbach Tel. 079 583 40 80 H",
+     "plz": "8413"
+    },
+    {
+     "n": "Waldspielgruppe Eichhörndli",
+     "k": "spiel",
+     "w": "https://www.waldspielgruppe-neftenbach.ch/",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Waldspielgruppe Hülibü",
+     "k": "spiel",
+     "w": "https://waldspielgruppehuelibue.jimdoweb.com/",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Baby-Sitting",
+     "k": "spiel",
+     "w": "https://www.familienverein-nefti.ch/verein22",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Bibliothek Buchstart",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.neftenbach.ch/_rtr/veranstaltungen",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Jugendtreff INpoint",
+     "k": "treff",
+     "w": "https://www.jugendtreffneftenbach.ch/",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Familienverein",
+     "k": "spiel",
+     "w": "https://www.familienverein-nefti.ch/",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Seniorinnen- und Seniorenturnen des Frauenvereins",
+     "k": "spiel",
+     "w": "https://frauenverein-neftenbach.ch/aktivitaeten/",
+     "u": "https://www.neftenbach.ch/integration",
+     "src": "https://www.neftenbach.ch/integration"
+    },
+    {
+     "n": "Die Bibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.neftenbach.ch/diebibliothek",
+     "src": "https://www.neftenbach.ch/oeffnungszeitenadresse"
+    }
+   ]
+  },
+  "boppelsen": {
+   "pages": 2,
+   "items": [
+    {
+     "n": "spielgruppe-boppelsen.ch",
+     "k": "spiel",
+     "w": "http://www.spielgruppe-boppelsen.ch/",
+     "u": "https://www.boppelsen.ch/vereine-gruppen/",
+     "src": "https://www.boppelsen.ch/vereine-gruppen/"
+    }
+   ]
+  },
+  "bachs": {
+   "pages": 7,
+   "items": [
+    {
+     "n": "ELKI-Turnen",
+     "k": "spiel",
+     "w": "https://www.stvbachs.ch/jugend/muki-turnen/",
+     "u": "https://www.bachs.ch/portfolio-items/muki-turnen/?portfolioCats=31%2C32%2C57%2C58%2C36",
+     "src": "https://www.bachs.ch/kultur-freizeit/"
+    }
+   ]
+  },
+  "zell": {
+   "pages": 5,
+   "items": [
+    {
+     "n": "Bestätigung Kindertagesstätte",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.zell.ch/_rtr/onlinedienst_152929",
+     "src": "https://www.zell.ch/fruehe-kindheit-familie"
+    }
+   ]
+  },
+  "bergamirchel": {
+   "pages": 8,
+   "items": [
+    {
+     "n": "Bibliothek: Donnerstag ab 18.00 h Anlass offenes Adventsfenster mit Apéro, Glühwein usw.",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.bergamirchel.ch/agenda/2026/bibliothek-donnerstag-ab-18.00-h-anlass-offenes-adventsfenster-mit-apero-gluhwein-usw/",
+     "src": "https://www.bergamirchel.ch/soziales-und-gesundheit/"
+    }
+   ]
+  },
+  "dorf": {
+   "pages": 3,
+   "items": []
+  },
+  "winterthur": {
+   "pages": 18,
+   "items": [
+    {
+     "n": "Kinderbetreuung & Unterstützung",
+     "k": "kita",
+     "w": "",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie"
+    },
+    {
+     "n": "Kita & Tagesfamilie",
+     "k": "kita",
+     "w": "https://www.tfww.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie"
+    },
+    {
+     "n": "Mittagstisch für Sekundarschüler:innen",
+     "k": "kita",
+     "w": "https://stadtplan.winterthur.ch/?topic=Grundkarte&scale=1000&x=2696516.12&y=1261600.16&back=Hintergrundkarte_LK_AV_Situationsplan&redlining=GEOMETRYCOLLECTION%28POLYGON%28%282696521.12+1261600.16%2C2696520.95+1261601.46%2C2696520.45+1261602.66%2C2696519.66+1261603.70%2C2696518.62+1261604.49%2C2696517.42+1261604.99%2C2696516.12+1261605.16%2C2696514.83+1261604.99%2C2696513.62+1261604.49%2C2696512.59+1261603.70%2C2696511.79+1261602.66%2C2696511.29+1261601.46%2C2696511.12+1261600.16%2C2696511.29+1261598.87%2C2696511.79+1261597.66%2C2696512.59+1261596.63%2C2696513.62+1261595.83%2C2696514.83+1261595.33%2C2696516.12+1261595.16%2C2696517.42+1261595.33%2C2696518.62+1261595.83%2C2696519.66+1261596.63%2C2696520.45+1261597.66%2C2696520.95+1261598.87%2C2696521.12+1261600.16%29%29%29",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/mittagstisch-fuer-sekundarschuelerinnen",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie"
+    },
+    {
+     "n": "Standorte Kitas",
+     "k": "kita",
+     "w": "",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Standorte Tagesfamilien",
+     "k": "kita",
+     "w": "",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Apfelblüte Neuwiesenstrasse 31 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.apfelbluete.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Äntenäscht Ida-Sträuli-Strasse 79 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.familiaris.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita am Park Else-Züblin-Strasse 100 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-ampark.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita am Weiher Dättnauerstrasse 130 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-am-weiher.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Child Care Corner Marktgasse 56 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.child-care-corner.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Chrönli Grüntalstrasse 24 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "https://www.kitachroenli.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Dampfschiff Heinrich-Bosshard-Strasse 2 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-dampfschiff.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Etzberg Etzbergstrasse 8 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-etzberg.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Fugu Lokstadt Robert-Sulzer-Gasse 18 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kitafugu.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Globegarden Archhöfe Lagerhausstrasse 10 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.globegarden.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "kiana Krippe Wülflingen Gartenhof 2 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "https://www.kianakrippen.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Kinderwelt Rosenberg Schaffhauserstrasse 150 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "https://www.zwerglihuus.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Krümel Zürcherstrasse 133 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-kruemel.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita La Luna - KSW Haldenstrasse 54 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-laluna.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Luftibus Rümikerstrasse 58 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-luftibus.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita SalZH, Büelwiesenweg Büelwiesenweg 8 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.salzh.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Spielberg Brühlbergstrasse 6 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-spielberg.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Sunneberg Hinterdorfstrasse 4 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-sunneberg.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Vogelsang Untere Vogelsangstrasse 197 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kita-vogelsang.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kinderkrippe Schlosstal Wieshofstrasse 102 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "https://ipw.ch/ueber-uns/kindertagesstaette",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Wässerwiesen Wässerwiesenstrasse 67o (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.waesserwiesen.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Windrädli Riedhofstrasse 65 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.xn--kita-windrdli-kfb.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kinderhaus Winterthur Trollstrasse 33 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kinderhauswinterthur.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Villa Ninck Neuwiesenstrasse 11 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.villaninck.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Zauberland Tösstalstrasse 17 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.altstadt-zauberland.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Montessori Kinderhaus Winterthur Tellstrasse 16 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://montessori-winterthur.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita pop e poppa Leuehöhli Bahnmeisterweg 14 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.popepoppa.ch/de/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Pinocchio - Scuola Materna Italiana Wartstrasse 13 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kindertagesstaette-pinocchio.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Nonna Rosa Hobelwerkweg 37a (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "https://www.kitanonnarosa.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kinderkrippe Heckenrose Aeckerwiesenstrasse 16 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.heckenrose.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Loki Agnesstrasse 12a (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.kitaloki.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Kita Möwe St. Gallerstrasse 122 (wird in einem neuen Tab geöffnet)",
+     "k": "kita",
+     "w": "http://www.krippemoewe.ch/",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    },
+    {
+     "n": "Zurück zu «Kinderbetreuung & Unterstützung»",
+     "k": "kita",
+     "w": "",
+     "u": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung",
+     "src": "https://stadt.winterthur.ch/themen/schule-familie/kinderbetreuung-unterstuetzung/kita-tagesfamilie"
+    }
+   ]
+  },
+  "hausenamalbis": {
+   "err": "keine Domain",
+   "items": []
+  },
+  "glattfelden": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Chinderhuus Dörfli",
+     "k": "kita",
+     "w": "https://www.chinderhuus-glattfelden.ch/",
+     "u": "https://www.glattfelden.ch/lebenslagen/familie-und-kinder.html/468",
+     "src": "https://www.glattfelden.ch/lebenslagen/familie-und-kinder.html/468"
+    },
+    {
+     "n": "Kita kids&future",
+     "k": "kita",
+     "w": "https://kidsandfuture.ch/",
+     "u": "https://www.glattfelden.ch/lebenslagen/familie-und-kinder.html/468",
+     "src": "https://www.glattfelden.ch/lebenslagen/familie-und-kinder.html/468"
+    },
+    {
+     "n": "Verein Tagesfamilien Glattfelden",
+     "k": "kita",
+     "w": "http://www.tagesfamilien-glattfelden.ch/",
+     "u": "https://www.glattfelden.ch/lebenslagen/familie-und-kinder.html/468",
+     "src": "https://www.glattfelden.ch/lebenslagen/familie-und-kinder.html/468"
+    }
+   ]
+  },
+  "gossau": {
+   "pages": 4,
+   "items": [
+    {
+     "n": "Gemeinde­bibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.gossau-zh.ch/ueber-uns/verwaltung/praesidialabteilung/gemeindebibliothek/",
+     "src": "https://www.gossau-zh.ch/ueber-uns/verwaltung/praesidialabteilung/gemeindebibliothek/"
+    },
+    {
+     "n": "Digitale Bibliothek Ostschweiz",
+     "k": "bib",
+     "w": "https://dibiost.onleihe.com/dibiost/frontend/welcome,51-0-0-100-0-0-1-0-0-0-0.html",
+     "u": "https://www.gossau-zh.ch/ueber-uns/verwaltung/praesidialabteilung/gemeindebibliothek/",
+     "src": "https://www.gossau-zh.ch/ueber-uns/verwaltung/praesidialabteilung/gemeindebibliothek/"
+    },
+    {
+     "n": "Bärehöhli",
+     "k": "spiel",
+     "w": "https://www.xn--spielgruppe-brehhli-swb59a.ch/",
+     "u": "https://www.gossau-zh.ch/ueber-uns/verwaltung/sozialabteilung/kinder/",
+     "src": "https://www.gossau-zh.ch/ueber-uns/verwaltung/sozialabteilung/kinder/"
+    },
+    {
+     "n": "Kindertagesstätte KiMi",
+     "k": "kita",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-gossau/",
+     "u": "https://www.gossau-zh.ch/ueber-uns/verwaltung/sozialabteilung/kinder/",
+     "src": "https://www.gossau-zh.ch/ueber-uns/verwaltung/sozialabteilung/kinder/"
+    },
+    {
+     "n": "Verein Tagesfamilien Zürcher Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.gossau-zh.ch/ueber-uns/verwaltung/sozialabteilung/kinder/",
+     "src": "https://www.gossau-zh.ch/ueber-uns/verwaltung/sozialabteilung/kinder/"
+    }
+   ]
+  },
+  "eglisau": {
+   "pages": 10,
+   "items": [
+    {
+     "n": "kinderkrippe-sunneschii.ch",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-sunneschii.ch/",
+     "u": "https://www.eglisau.ch/de/bildung-familie/familien-und-schulergaenzende-betreuung/",
+     "src": "https://www.eglisau.ch/de/bildung-familie/familien-und-schulergaenzende-betreuung/"
+    },
+    {
+     "n": "kinderkrippe-elisa.ch",
+     "k": "kita",
+     "w": "https://www.kinderkrippe-elisa.ch/",
+     "u": "https://www.eglisau.ch/de/bildung-familie/familien-und-schulergaenzende-betreuung/",
+     "src": "https://www.eglisau.ch/de/bildung-familie/familien-und-schulergaenzende-betreuung/"
+    }
+   ]
+  },
+  "hochfelden": {
+   "pages": 5,
+   "items": [
+    {
+     "n": "Zur Webseite",
+     "k": "spiel",
+     "w": "https://www.spielgruppe-hochfelden.ch/",
+     "u": "https://hochfelden.ch/gesellschaft/familien-kinder",
+     "src": "https://hochfelden.ch/gesellschaft/familien-kinder"
+    },
+    {
+     "n": "Digitalen Bibliothek Ostschweiz",
+     "k": "bib",
+     "w": "https://dibiost.onleihe.com/dibiost/frontend/welcome,51-0-0-100-0-0-1-0-0-0-0.html",
+     "u": "https://hochfelden.ch/freizeit/bibliothek",
+     "src": "https://hochfelden.ch/freizeit/bibliothek"
+    }
+   ]
+  },
+  "nuerensdorf": {
+   "pages": 3,
+   "items": [
+    {
+     "n": "Jugendtreff / Skateranlage",
+     "k": "treff",
+     "w": "",
+     "u": "https://www.nuerensdorf.ch/leben-und-wohnen/kultur-und-freizeit.html/43",
+     "src": "https://www.nuerensdorf.ch/leben-und-wohnen/kultur-und-freizeit.html/43"
+    }
+   ]
+  },
+  "huentwangen": {
+   "pages": 8,
+   "items": [
+    {
+     "n": "bibliotheken-zh.ch",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/",
+     "u": "https://www.huentwangen.ch/freizeit/bibliothek/",
+     "src": "https://www.huentwangen.ch/freizeit/bibliothek/"
+    },
+    {
+     "n": "Familienverein Spielball Wasterkingen-Hüntwangen-Wil",
+     "k": "spiel",
+     "w": "https://www.familienvereinspielball.ch/",
+     "u": "https://www.huentwangen.ch/freizeit/vereine/",
+     "src": "https://www.huentwangen.ch/freizeit/vereine/"
+    }
+   ]
+  },
+  "oetwilanderlimmat": {
+   "err": "keine Domain",
+   "items": []
+  },
+  "oberglatt": {
+   "pages": 3,
+   "items": []
+  },
+  "fischenthal": {
+   "pages": 11,
+   "items": [
+    {
+     "n": "Bibliothek Fischenthal",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/bibliothek/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/angebote-fuer-familien-und-kinder/"
+    },
+    {
+     "n": "Jugendtreff",
+     "k": "treff",
+     "w": "https://jugendarbeitfischenthal.ch/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/angebote-fuer-familien-und-kinder/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/angebote-fuer-familien-und-kinder/"
+    },
+    {
+     "n": "zur Bibliothek Fischenthal",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/bibliothek/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "öffentliche Anlässe",
+     "k": "treff",
+     "w": "https://familientreffpunktfischenthal.ch/events/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Spielkafi",
+     "k": "treff",
+     "w": "https://familientreffpunktfischenthal.ch/spielkafi/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Chrabbelgruppe",
+     "k": "treff",
+     "w": "https://familientreffpunktfischenthal.ch/chrabbelgruppe/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Chinderhüeti",
+     "k": "treff",
+     "w": "https://familientreffpunktfischenthal.ch/chinderhueeti/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Babysittervermittlung",
+     "k": "treff",
+     "w": "https://familientreffpunktfischenthal.ch/babysitter-in/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Familientreffpunkt Fischenthal",
+     "k": "treff",
+     "w": "http://www.familientreffpunktfischenthal.ch/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Waldspielgruppe",
+     "k": "spiel",
+     "w": "https://www.spielgruppefischenthal.ch/angebot/waldspielgruppe",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Spielgruppe Fischenthal",
+     "k": "spiel",
+     "w": "http://www.spielgruppefischenthal.ch/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "Tagesfamilien Zürichsee Oberland",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    },
+    {
+     "n": "ElKi Turnen",
+     "k": "spiel",
+     "w": "https://www.tvfischenthal.ch/verein?b=1000505&c=ND1000005&s=djEtgG-2sC4aBFfoiLWbWybnkRfiKCkUWADgkSns1mkQkeM=",
+     "u": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/",
+     "src": "https://www.fischenthal.ch/leben-familie-anlaesse/informations-und-anlaufstelle-fruehe-kindheit/"
+    }
+   ]
+  },
+  "kilchberg": {
+   "pages": 13,
+   "items": [
+    {
+     "n": "Elternverein Kilchberg",
+     "k": "spiel",
+     "w": "http://elternvereinkilchberg.ch/",
+     "u": "https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/familie-sorgerecht-unterhalt",
+     "src": "https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/familie-sorgerecht-unterhalt"
+    },
+    {
+     "n": "Kinderkrippe Kilchberg (Schule Kilchberg)",
+     "k": "kita",
+     "w": "https://www.schule-kilchberg.ch/betreuung-/-tagesstruktur",
+     "u": "https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/betreuungs-und-begleitungsangebot-fuer-familien",
+     "src": "https://www.kilchberg.ch/themen/familie-partnerschaft-kinder-todesfall/betreuungs-und-begleitungsangebot-fuer-familien"
+    },
+    {
+     "n": "Gemeindebibliothek",
+     "k": "bib",
+     "w": "https://dibiost.onleihe.com/dibiost/frontend/welcome,51-0-0-100-0-0-1-0-0-0-0.html",
+     "u": "https://www.kilchberg.ch/themen/sport-kultur-freizeit/bibliothek",
+     "src": "https://www.kilchberg.ch/themen/sport-kultur-freizeit",
+     "a": "Landstrasse 110, Kilchberg 044 716 32 90 gemeind",
+     "plz": "8802"
+    },
+    {
+     "n": "Frauenverein Kilchberg",
+     "k": "spiel",
+     "w": "https://frauenvereinkilchberg.ch/",
+     "u": "https://www.kilchberg.ch/adresse/janina-studer",
+     "src": "https://www.kilchberg.ch/themen/vereine",
+     "a": "Landstrasse 17, Kilchberg Kontaktperson Janina",
+     "plz": "8802",
+     "lat": 47.33291,
+     "lon": 8.54169
+    },
+    {
+     "n": "Online-Katalaog der Bibliothek Kilchberg",
+     "k": "bib",
+     "w": "https://www.bibliotheken-zh.ch/VerbundZH/",
+     "u": "https://www.kilchberg.ch/themen/sport-kultur-freizeit/bibliothek",
+     "src": "https://www.kilchberg.ch/themen/sport-kultur-freizeit/bibliothek"
     }
    ]
   },
@@ -606,20 +4621,6 @@
      "src": "https://www.uster.ch/kinderfamilie"
     },
     {
-     "n": "andere Bibliotheken",
-     "k": "bib",
-     "w": "",
-     "u": "https://www.uster.ch/anderebibliotheken",
-     "src": "https://www.uster.ch/kinderfamilie"
-    },
-    {
-     "n": "Kindergarten und Schulen",
-     "k": "kita",
-     "w": "",
-     "u": "https://www.uster.ch/_rte/thema2/3871",
-     "src": "https://www.uster.ch/kinderfamilie"
-    },
-    {
      "n": "Primarschule Tagesstrukturen",
      "k": "kita",
      "w": "",
@@ -627,21 +4628,12 @@
      "src": "https://www.uster.ch/kinderfamilie"
     },
     {
-     "n": "Aufsicht Kitas, private Horte und Tagesfamilien",
-     "k": "kita",
-     "w": "",
-     "u": "https://www.uster.ch/_rte/thema2/85639",
-     "src": "https://www.uster.ch/kinderfamilie",
-     "a": "Soziales Bahnhofstrasse 17, Uster Tel. 044 944 73 51 Kontak",
-     "plz": "8610"
-    },
-    {
      "n": "Kinderkrippe Beluga",
      "k": "kita",
      "w": "https://www.wagerenhof.ch/produkte-dienstleistungen/integrative-kinderkrippe",
      "u": "https://www.uster.ch/_rtr/unternehmen_24031",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Kinderkrippe der Stiftung Wagerenhof Daniela Rotzer Asylstrasse 24, Uster Tel. 044 905 17 02 daniel",
+     "a": "Asylstrasse 24, Uster Tel. 044 905 17 02 daniel",
      "plz": "8610"
     },
     {
@@ -657,7 +4649,7 @@
      "w": "https://kita-chinderkram.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_116053",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Fragen haben. Kontakt Kita Chinderkram C. Rodriguez Apothekerstrasse 18, Uster Tel. 044 940 33 11 info",
+     "a": "Apothekerstrasse 18, Uster Tel. 044 940 33 11 info",
      "plz": "8610"
     },
     {
@@ -666,8 +4658,10 @@
      "w": "https://www.kitafugu.ch/uster/",
      "u": "https://www.uster.ch/_rtr/unternehmen_161566",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Kinderkrippe Uster Kundendienst Braschlergasse 8, Uster Postadresse",
-     "plz": "8610"
+     "a": "Braschlergasse 8, Uster Postadresse",
+     "plz": "8610",
+     "lat": 47.34853,
+     "lon": 8.71991
     },
     {
      "n": "Güxi Kinderkrippen",
@@ -675,7 +4669,7 @@
      "w": "https://www.guexi.ch/standorte/guexi-uster/",
      "u": "https://www.uster.ch/_rtr/unternehmen_299569",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Keine Betriebsferien Kontakt Güxi Kinderkrippen Administration Ackerstrasse 45, Uster Tel. 043 266 62 62 kontak",
+     "a": "Ackerstrasse 45, Uster Tel. 043 266 62 62 kontak",
      "plz": "8610"
     },
     {
@@ -684,7 +4678,7 @@
      "w": "http://www.kinderkrippeheusserstaub.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_24026",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Tage pro Woche Pädagogisch ausgebildetes Fachpersonal auf allen Gruppen Wunderschönes historisches Krippengebäude mit traumhaftem Umschwung und Garten Kontakt Kinderkrippe Heusser-Staub-Stiftung Frau Pia Barmettler Florastrasse 26, Uster Tel. 044 940 11 62 info",
+     "a": "Florastrasse 26, Uster Tel. 044 940 11 62 info",
      "plz": "8610"
     },
     {
@@ -700,8 +4694,10 @@
      "w": "https://kidin.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_65516",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Ihrem Familienalltag perfekt anpasst. Kontakt Kinderwelt kidin.ch Markus Steiner Turicaphonstrasse 31, Riedikon bei Uster Postadresse",
-     "plz": "8616"
+     "a": "Turicaphonstrasse 31, Riedikon bei Uster Postadresse",
+     "plz": "8616",
+     "lat": 47.33141,
+     "lon": 8.71252
     },
     {
      "n": "Kinderkrippe Muulwurf",
@@ -709,7 +4705,7 @@
      "w": "http://www.muulwurf.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_24028",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Valery Stehrenberger Industriestrasse 23, Uster Tel. 044 940 14 01 info",
+     "a": "Industriestrasse 23, Uster Tel. 044 940 14 01 info",
      "plz": "8610"
     },
     {
@@ -718,7 +4714,7 @@
      "w": "http://www.ramba-zamba.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_24027",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Leiterin Weiherallee 3, Uster Tel. 044 542 43 08 info",
+     "a": "Weiherallee 3, Uster Tel. 044 542 43 08 info",
      "plz": "8610"
     },
     {
@@ -727,16 +4723,16 @@
      "w": "http://www.kitaseegarten.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_56291",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Keine Betriebsferien Kontakt KiTa Seegarten Lisa Meier Freiestrasse 3, Uster Tel. 044 442 08 80 info",
+     "a": "Freiestrasse 3, Uster Tel. 044 442 08 80 info",
      "plz": "8610"
     },
     {
      "n": "Tagesfamilienverein Zürichsee Oberland",
-     "k": "spiel",
+     "k": "kita",
      "w": "https://www.tfzo.ch/",
      "u": "https://www.uster.ch/_rtr/unternehmen_92330",
      "src": "https://www.uster.ch/kinderfamilie/3876",
-     "a": "Tagesfamilien. Kontakt Tagesfamilien Zürichsee Oberland Kontaktstelle Spitalstrasse 29, Rüti Tel. 076 348 86 20 info",
+     "a": "Spitalstrasse 29, Rüti Tel. 076 348 86 20 info",
      "plz": "8630"
     },
     {
@@ -766,13 +4762,235 @@
      "w": "https://www.primarschule-uster.ch/nutagesschule",
      "u": "https://www.primarschule-uster.ch/tagesstrukturen",
      "src": "https://www.primarschule-uster.ch/tagesstrukturen"
+    }
+   ]
+  },
+  "ossingen": {
+   "pages": 6,
+   "items": [
+    {
+     "n": "kimikrippen.ch",
+     "k": "kita",
+     "w": "https://kimikrippen.ch/de/standorte/stammertal.html",
+     "u": "https://www.ossingen.ch/leben/soziales",
+     "src": "https://www.ossingen.ch/leben/soziales"
     },
     {
-     "n": "Website Externer Link wird in einem neuen Fenster geöffnet.",
+     "n": "spielgruppen-ossingen.ch",
+     "k": "spiel",
+     "w": "https://spielgruppen-ossingen.ch/",
+     "u": "https://www.ossingen.ch/leben/soziales",
+     "src": "https://www.ossingen.ch/leben/soziales"
+    }
+   ]
+  },
+  "schlatt": {
+   "pages": 2,
+   "items": []
+  },
+  "thalheimanderthur": {
+   "err": "keine Domain",
+   "items": []
+  },
+  "wettswilamalbis": {
+   "err": "keine Domain",
+   "items": []
+  },
+  "ottenbach": {
+   "pages": 13,
+   "items": [
+    {
+     "n": "Spielplatz Bibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.ottenbach.ch/topics/kultur-und-freizeit/anlagen-plaetze-kulturstaetten/spielplatz-bibliothek",
+     "src": "https://www.ottenbach.ch/topics/kultur-und-freizeit/anlagen-plaetze-kulturstaetten/spielplatz-bibliothek"
+    },
+    {
+     "n": "Gemeinde- und Schulbibliothek",
+     "k": "bib",
+     "w": "",
+     "u": "https://www.ottenbach.ch/topics/kultur-und-freizeit/gemeinde-und-schulbibliothek",
+     "src": "https://www.ottenbach.ch/topics/kultur-und-freizeit/gemeinde-und-schulbibliothek"
+    },
+    {
+     "n": "Familienzentrum Bezirk Affoltern",
+     "k": "treff",
+     "w": "https://familienzentrum-bezirk-affoltern.ch/",
+     "u": "https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie",
+     "src": "https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie"
+    },
+    {
+     "n": "Kinderkrippe + Mittagstisch",
      "k": "kita",
-     "w": "https://kita-chinderkram.ch/",
-     "u": "https://www.uster.ch/firmenverzeichnis/116053",
-     "src": "https://www.uster.ch/firmenverzeichnis/116053"
+     "w": "https://ps-ottenbach.ch/kindertagesstaette/",
+     "u": "https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie",
+     "src": "https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie"
+    },
+    {
+     "n": "Tagesfamilien Bezirk Affoltern",
+     "k": "kita",
+     "w": "https://www.tagesfamilien-aaa.ch/",
+     "u": "https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie",
+     "src": "https://www.ottenbach.ch/topics/politik-verwaltung/verwaltung/abteilungen/bevoelkerungsdienste/abteilung-soziales/jugend-und-familie"
+    }
+   ]
+  },
+  "rorbas": {
+   "pages": 6,
+   "items": [
+    {
+     "n": "Kinderbetreuung im Vorschulalter",
+     "k": "kita",
+     "w": "https://www.kitamandala.ch/",
+     "u": "https://www.rorbas.ch/kinderbetreuung-im-vorschulalter",
+     "src": "https://www.rorbas.ch/soziales",
+     "a": "Kirchgasse 1, Rorbas zu richten. Das Formular",
+     "plz": "8427"
+    }
+   ]
+  },
+  "staefa": {
+   "pages": 7,
+   "items": [
+    {
+     "n": "Eltern-Kind-Zentrum",
+     "k": "spiel",
+     "w": "http://www.elki-staefa.ch/",
+     "u": "https://www.staefa.ch/verwaltung/gemeindeverwaltung/dienstleistungen-a-z.html/339/egov_service/635",
+     "src": "https://www.staefa.ch/themen/soziales-unterstuetzung.html/400",
+     "a": "Tödistrasse 1, Stäfa Zur Geschichte des Hauses",
+     "plz": "8712"
+    },
+    {
+     "n": "Kindertagesstätte Müüsliburg",
+     "k": "kita",
+     "w": "https://www.muusliburg.ch/",
+     "u": "https://www.staefa.ch/themen/soziales-unterstuetzung.html/400",
+     "src": "https://www.staefa.ch/themen/soziales-unterstuetzung.html/400"
+    },
+    {
+     "n": "Tagesfamilienverein",
+     "k": "kita",
+     "w": "https://www.tfzo.ch/",
+     "u": "https://www.staefa.ch/themen/soziales-unterstuetzung.html/400",
+     "src": "https://www.staefa.ch/themen/soziales-unterstuetzung.html/400"
+    },
+    {
+     "n": "Bibliothek Stäfa",
+     "k": "bib",
+     "w": "https://lesegesellschaft.ch/bibliothek-stafa",
+     "u": "https://www.staefa.ch/themen/-freizeit-sport.html/401",
+     "src": "https://www.staefa.ch/themen/-freizeit-sport.html/401"
+    },
+    {
+     "n": "E-Mail an Eltern-Kind-Zentrum",
+     "k": "spiel",
+     "w": "",
+     "u": "https://www.staefa.ch/route/cms-index-redirectEmailLink/email/bWFpbHRvJTNBZWxraSU0MGdlbWVpbmRlJTJEc3RhZWZhJTJFY2g%3D",
+     "src": "https://www.staefa.ch/verwaltung/gemeindeverwaltung/dienstleistungen-a-z.html/339/egov_service/635"
+    },
+    {
+     "n": "Newsletter abonnieren",
+     "k": "spiel",
+     "w": "https://www.elki-staefa.ch/309/web2016/kontakt",
+     "u": "https://www.staefa.ch/verwaltung/gemeindeverwaltung/dienstleistungen-a-z.html/339/egov_service/635",
+     "src": "https://www.staefa.ch/verwaltung/gemeindeverwaltung/dienstleistungen-a-z.html/339/egov_service/635"
+    }
+   ]
+  },
+  "oberrieden": {
+   "pages": 18,
+   "items": []
+  },
+  "schlieren": {
+   "pages": 17,
+   "items": [
+    {
+     "n": "Kinderkrippenverein Dietikon",
+     "k": "kita",
+     "w": "https://kkvd.ch/",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "tagesfamilien@kkvd.ch",
+     "k": "kita",
+     "w": "http://tagesfamilien@kkvd.ch/",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "Spielgruppenverein",
+     "k": "spiel",
+     "w": "https://www.spielgruppen-schlieren.ch/",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "Spielgruppe Zelgli",
+     "k": "spiel",
+     "w": "https://www.mopage.ch/index.php?brandid=11423&apid=346739908&jsr=1",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "Eltern-Kind-Deutschkurs",
+     "k": "spiel",
+     "w": "https://wunderfitzundredeblitz.ch/kursorte/kanton-zuerich/schlieren/",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "Liste der Kinderkrippen",
+     "k": "kita",
+     "w": "https://schule.schlieren.ch/",
+     "u": "https://www.schlieren.ch/_rtr/publikation_78318",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "kibesuisse, Verband Kinderbetreuung Schweiz",
+     "k": "kita",
+     "w": "https://www.kibesuisse.ch/",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "Interessengruppe Spielgruppen Schweiz",
+     "k": "spiel",
+     "w": "http://www.spielgruppe.ch/",
+     "u": "https://www.schlieren.ch/familientb/1995",
+     "src": "https://www.schlieren.ch/familientb/1995"
+    },
+    {
+     "n": "Standortförderung, Kinderkrippen in Schlieren, Liste April 2025",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.schlieren.ch/_doc/5617555",
+     "src": "https://www.schlieren.ch/publikationen/78318"
+    },
+    {
+     "n": "Kinderkrippen ausserhalb Schlieren, Juni 2024",
+     "k": "kita",
+     "w": "",
+     "u": "https://www.schlieren.ch/_doc/5138422",
+     "src": "https://www.schlieren.ch/publikationen/441190"
+    },
+    {
+     "n": "online",
+     "k": "bib",
+     "w": "http://www.bibliotheken-zh.ch/schlieren",
+     "u": "https://www.schlieren.ch/bibliothek/573",
+     "src": "https://www.schlieren.ch/bibliothek/573"
+    },
+    {
+     "n": "Bibliothek (aktiv)",
+     "k": "bib",
+     "w": "http://www.dibiost.ch/",
+     "u": "https://www.schlieren.ch/bibliothek",
+     "src": "https://www.schlieren.ch/bibliothek/573",
+     "a": "Bahnhofstrasse 4, Schlieren Tel. 044 730 77 77 bi",
+     "plz": "8952"
     }
    ]
   }
