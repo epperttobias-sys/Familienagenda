@@ -235,6 +235,55 @@ export const SYSTEMS = {
     return items;
   },
 
+  // iCalendar-Feed (OneGov, z.B. Ottenbach): Titel, Zeit, Ort und Beschreibung stehen im Feed
+  async ical(site, get) {
+    const txt = (await get(`https://${site.domain}${site.path}`)).replace(/\r?\n[ \t]/g, "");
+    const loc = (iso) => { const d = new Date(iso); const z = d.toLocaleString("sv-SE", { timeZone: "Europe/Zurich" }); return { d: z.slice(0, 10), t: z.slice(11, 16).replace(":", ".") }; };
+    const val = (b, k) => { const m = b.match(new RegExp(`^${k}(?:;[^:\n]*)?:(.*)$`, "m")); return m ? m[1].replace(/\\n/g, " ").replace(/\\([,;\\])/g, "$1").trim() : ""; };
+    const when = v => /^\d{8}T\d{6}Z$/.test(v) ? loc(v.replace(/^(\d{4})(\d\d)(\d\d)T(\d\d)(\d\d)(\d\d)Z$/, "$1-$2-$3T$4:$5:$6Z")) : /^\d{8}/.test(v) ? { d: `${v.slice(0, 4)}-${v.slice(4, 6)}-${v.slice(6, 8)}`, t: /T(\d\d)(\d\d)/.test(v) ? v.replace(/^.*T(\d\d)(\d\d).*$/, "$1.$2") : "" } : null;
+    const items = [];
+    for (const b of txt.split("BEGIN:VEVENT").slice(1)) {
+      const st = when(val(b, "DTSTART")), en = when(val(b, "DTEND")) || st;
+      if (!st) continue;
+      const name = val(b, "SUMMARY"), uid = val(b, "UID") || name + st.d;
+      const t = st.t && st.t !== "00.00" ? (en.t && en.t !== st.t && en.d === st.d ? `${st.t} - ${en.t}` : st.t) : "";
+      items.push({ id: uid.replace(/@.*$/, "").slice(0, 80), name: name.charAt(0) + (name === name.toUpperCase() ? name.slice(1).toLowerCase() : name.slice(1)), von: st.d, bis: en.d < st.d ? st.d : en.d,
+        ort: val(b, "LOCATION").split(",")[0], veranstalter: "", kategorie: "", hint: `${val(b, "DESCRIPTION")} ${val(b, "CATEGORIES").replace(/Youth/g, "Jugend").replace(/Library/g, "Bibliothek")}`,
+        url: `https://${site.domain}/event/${uid.replace(/@.*$/, "")}`, detailKey: null, time: t });
+    }
+    return items;
+  },
+
+  // TYPO3 «sf_event_mgt» (Ossingen): Kacheln mit Tag, Monat und Jahr
+  async sfevent(site, get) {
+    const listUrl = `https://${site.domain}${site.path}`;
+    const html = await get(listUrl), items = [];
+    for (const b of html.split(/class="event-list-item/).slice(1)) {
+      const href = (b.match(/href="([^"]+)"/) || [])[1]; if (!href) continue;
+      const id = (decode(href).match(/\[event\]=(\d+)/) || decode(href).match(/%5Bevent%5D=(\d+)/) || [])[1]; if (!id) continue;
+      const d = (b.match(/class="bigday">\s*(\d{1,2})/) || [])[1], mo = (b.match(/class="month">\s*([A-Za-zäÄ]+)/) || [])[1], y = (b.match(/<\/span>\s*(\d{4})/) || [])[1];
+      const month = mo && monthOf(mo); if (!d || !month || !y) continue;
+      const name = strip((b.match(/class="event-title">([\s\S]*?)(?:<!--|<\/h3>)/) || [])[1] ?? "");
+      const von = ymd(Number(y), month, d);
+      items.push({ id, name, von, bis: von, ort: "", veranstalter: "", kategorie: "", hint: "", url: abs(listUrl, href), detailKey: id, time: "" });
+    }
+    return items;
+  },
+
+  // Einfache Terminliste «li.event» mit Monat und Tag, Jahr in der Adresse (Berg am Irchel)
+  async eventlist(site, get) {
+    const listUrl = `https://${site.domain}${site.path}`;
+    const html = await get(listUrl), items = [], seen = new Set();
+    for (const b of html.split(/<li class="event\b/).slice(1)) {
+      const a = b.match(/<a href="([^"]*\/(\d{4})\/([^"\/]+)\/?)"[^>]*>([\s\S]*?)<\/a>/); if (!a || seen.has(a[3])) continue;
+      const mo = (b.match(/event-month">\s*([A-Za-zäÄ]+)/) || [])[1], d = (b.match(/event-day">\s*(\d{1,2})/) || [])[1];
+      const month = mo && monthOf(mo); if (!month || !d) continue;
+      seen.add(a[3]); const von = ymd(Number(a[2]), month, d);
+      items.push({ id: a[3], name: strip(a[4]), von, bis: von, ort: "", veranstalter: "", kategorie: "", hint: "", url: abs(listUrl, a[1]), detailKey: a[3], time: "" });
+    }
+    return items;
+  },
+
   // TYPO3-Kalender mit Monatsansicht (Schwerzenbach). Kurzbeschreibung steht schon in der Liste.
   async bss(site, get) {
     let url = `https://${site.domain}${site.path}`;
