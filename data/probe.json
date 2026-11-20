@@ -1,44 +1,37 @@
 [
  {
-  "l": "RAW birm",
-  "u": "https://www.birmensdorf.ch/institutionen",
-  "s": 404,
-  "f": "https://www.birmensdorf.ch/institutionen",
-  "title": "Birmensdorf - Ungültige Adresse"
- },
- {
-  "l": "RAW dield",
-  "u": "https://www.dielsdorf.ch/institutionen",
-  "s": 404,
-  "f": "https://www.dielsdorf.ch/institutionen",
-  "title": "Dielsdorf - Ungültige Adresse"
- },
- {
-  "l": "RAW elgg",
-  "u": "https://www.elgg.ch/",
+  "l": "RAW dorf",
+  "u": "https://www.dorf.ch/dorfleben/veranstaltungskalender.html/98",
   "s": 200,
-  "f": "https://www.elgg.ch/",
-  "title": "Home – Gemeinde Elgg"
+  "f": "https://www.dorf.ch/dorfleben/veranstaltungskalender.html/98",
+  "title": "Anlässe in Dorf – Gemeinde Dorf"
  },
  {
-  "l": "RAW ober",
-  "u": "https://www.oberrieden.ch/leben/bildung-und-schule",
+  "l": "RAW glattfelden",
+  "u": "https://www.glattfelden.ch/freizeit/veranstaltungen.html/491",
   "s": 200,
-  "f": "https://www.oberrieden.ch/leben/bildung-und-schule",
-  "title": "Bildung und Schule | oberrieden.ch"
+  "f": "https://www.glattfelden.ch/freizeit/veranstaltungen.html/491",
+  "title": "Veranstaltungen – Gemeinde Glattfelden"
  },
  {
-  "l": "RAW seuz1",
-  "u": "https://www.seuzach.ch/institutionen",
-  "s": 404,
-  "f": "https://www.seuzach.ch/institutionen",
-  "title": "Seuzach - Ungültige Adresse"
+  "l": "RAW oberglatt",
+  "u": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87",
+  "s": 200,
+  "f": "https://www.oberglatt.ch/portraet/portraet/aktuelles/agenda.html/87",
+  "title": "Agenda Details – Oberglatt"
  },
  {
-  "l": "RAW seuz2",
-  "u": "https://www.seuzach.ch/_rtr/institutionen",
-  "s": 404,
-  "f": "https://www.seuzach.ch/_rtr/institutionen",
-  "title": "Seuzach - Ungültige Adresse"
+  "l": "RAW schlatt",
+  "u": "https://www.schlatt.ch/gesellschaft/freizeit-/veranstaltungen.html/168",
+  "s": 200,
+  "f": "https://www.schlatt.ch/gesellschaft/freizeit-/veranstaltungen.html/168",
+  "title": "Veranstaltungen – Gemeinde Schlatt"
+ },
+ {
+  "l": "RAW schlieren",
+  "u": "https://www.schlieren.ch/anlaesseaktuelles",
+  "s": 200,
+  "f": "https://m.schlieren.ch/index.php?apid=14552707",
+  "title": "Schlieren | Anlässe"
  }
 ]
