@@ -1,4 +1,24 @@
-aeugst | https://www.aeugst-albis.ch/leben/veranstaltungen.html/97
-horgen | https://www.horgen.ch/
-kuesnacht | https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844
-maur | https://www.maur.ch/
+RAW bachs | https://www.bachs.ch/
+RAW bergamirchel | https://www.bergamirchel.ch/
+RAW boppelsen | https://www.boppelsen.ch/
+RAW dorf | https://www.dorf.ch/
+RAW eglisau | https://www.eglisau.ch/
+RAW fischenthal | https://www.fischenthal.ch/
+RAW glattfelden | https://www.glattfelden.ch/
+RAW gossau | https://www.gossau-zh.ch/
+RAW hochfelden | https://hochfelden.ch/
+RAW huentwangen | https://www.huentwangen.ch/
+RAW kilchberg | https://www.kilchberg.ch/
+RAW nuerensdorf | https://www.nuerensdorf.ch/
+RAW oberglatt | https://www.oberglatt.ch/
+RAW oberrieden | https://www.oberrieden.ch/
+RAW ossingen | https://www.ossingen.ch/
+RAW ottenbach | https://www.ottenbach.ch/
+RAW rorbas | https://www.rorbas.ch/
+RAW schlatt | https://www.schlatt.ch/
+RAW schlieren | https://www.schlieren.ch/
+RAW staefa | https://www.staefa.ch/
+RAW hausenamalbis | https://www.hausen.ch/
+RAW oetwilanderlimmat | https://www.oetwil-limmat.ch/
+RAW thalheimanderthur | https://www.thalheim.ch/
+RAW wettswilamalbis | https://www.wettswil.ch/
