@@ -1,0 +1,10 @@
+{
+ "f": "https://www.globegarden.ch/sitemap.xml",
+ "ct": "application/xml;charset=utf-8",
+ "sys": [
+  "typo3"
+ ],
+ "links": [],
+ "head": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><?xml-stylesheet type=\"text/xsl\" href=\"/typo3/sysext/seo/Resources/Public/CSS/Sitemap.xsl\"?>\n\n<sitemapindex xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n    \n        <sitemap>\n            <loc>https://www.globegarden.ch/?sitemap=pages&amp;type=1533906435&amp;cHash=5dd8f5bdc0e36d13de452ceddb75e050</loc>\n            <lastmod>2026-11-19T21:10:56+01:00</lastmod>\n        </sitemap>\n    \n        <sitemap>\n            <loc>https://www.globegarden.ch/?sitemap=kitas&amp;type=1533906435&amp;cHash=59fc915ec52b707a8bae796aec3652bc</loc>\n            <lastmod>2026-11-17T08:59:09+01:00</lastmod>\n        </sitemap>\n    \n        <sitemap>\n            <loc>https://www.globegarden.ch/?sitemap=news&amp;type=1533906435&amp;cHash=193413fd43fba07a2ffc729193cb9b23</loc>\n            <lastmod>2026-11-19T20:08:29+01:00</lastmod>\n        </sitemap>\n    \n        <sitemap>\n            <loc>https://www.globegarden.ch/?sitemap=press&amp;type=1533906435&amp;cHash=575ac6459c4daba16d6a9ac8e01666a7</loc>\n            <lastmod>2026-11-19T13:47:26+01:00</lastmod>\n        </sitemap>\n    \n</sitemapindex>\n",
+ "ev": ""
+}

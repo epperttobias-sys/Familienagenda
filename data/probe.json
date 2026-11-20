@@ -1,26 +1,39 @@
 [
  {
-  "l": "RAW zhgeo1",
-  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=tags:geodaten%20AND%20kinderbetreuung&rows=10&fl=name,title",
+  "l": "RAW fugu",
+  "u": "https://www.kitafugu.ch/sitemap.xml",
   "s": 200,
-  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=tags:geodaten%20AND%20kinderbetreuung&rows=10&fl=name,title"
+  "f": "https://www.kitafugu.ch/sitemap_index.xml"
  },
  {
-  "l": "RAW zhgeo2",
-  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=betreuungseinrichtungen&rows=10&fl=name,title",
+  "l": "RAW gg",
+  "u": "https://www.globegarden.ch/sitemap.xml",
   "s": 200,
-  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=betreuungseinrichtungen&rows=10&fl=name,title"
+  "f": "https://www.globegarden.ch/sitemap.xml"
  },
  {
-  "l": "RAW zhgeo3",
-  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=hort%20standorte&rows=10&fl=name,title",
-  "s": 500,
-  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=hort%20standorte&rows=10&fl=name,title"
+  "l": "RAW guexi",
+  "u": "https://www.guexi.ch/sitemap.xml",
+  "s": 200,
+  "f": "https://www.guexi.ch/sitemap_index.xml"
  },
  {
-  "l": "RAW zhgeo4",
-  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kindertagesst%C3%A4tten%20standorte&rows=10&fl=name,title",
-  "s": 500,
-  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kindertagesst%C3%A4tten%20standorte&rows=10&fl=name,title"
+  "l": "RAW kibe",
+  "u": "https://www.kibesuisse.ch/sitemap.xml",
+  "s": 403,
+  "f": "https://www.kibesuisse.ch/sitemap.xml",
+  "title": "Just a moment..."
+ },
+ {
+  "l": "RAW kimi",
+  "u": "https://www.kimikrippen.ch/sitemap.xml",
+  "s": 200,
+  "f": "https://www.kimikrippen.ch/sitemap_index.xml"
+ },
+ {
+  "l": "RAW pep",
+  "u": "https://www.popepoppa.ch/sitemap.xml",
+  "s": 200,
+  "f": "https://www.popepoppa.ch/sitemap_index.xml"
  }
 ]
