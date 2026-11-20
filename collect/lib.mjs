@@ -125,6 +125,10 @@ export function nameAge(name) {
   if ((m = n.match(/bis\s*(?:zur\s*)?(\d)\.\s*Klasse/i))) return age(0, +m[1] + 6, `bis ${m[1]}. Klasse`);
   if (/\b(baby|babys|säugling|krabbel|chrabbel|babymassage)/i.test(n)) return age(0, 2, "Babys");
   if (/\b(elki|eltern-?kind|elternkind|mami\s*&\s*kind|mutter-?kind|vater-?kind|papi-?kind|müttertreff|kleinkind|chliichind|mit de chliine?s?c?h?t?e?|für die (kleinsten|kleinen)|knirps|zwerge)/i.test(n)) return age(0, 4, "Kleinkinder mit Eltern");
+  if (/\bbuchstart\b|miniclub|purzel|häsli\s*-?turn|muki|vaki|eki\b|krabbel/i.test(n)) return age(0, 4, "Kleinkinder mit Eltern");
+  if (/bücherzwerg|gschicht\w*[- ]?(zyt|ziit|zit)|geschichten(zeit|kiste|stunde)|erzählstunde|värslichiste|versli/i.test(n)) return age(2, 6, "Kleinkinder und Kindergarten");
+  if (/open\s*sunday|kinderkino|kinderdisco|kinderfasnacht|kindermaskenball|kinderzirkus|kinderflohmi|kindertheater|kinderkonzert/i.test(n)) return age(4, 12, "Kinder");
+  if (/midnight\s*sports|teenager|teens?\b|jugenddisco|jugendtreff|ab\s*12\b|oberstufe|sekundarschul/i.test(n)) return age(12, 17, "Jugendliche");
   if (/vorschul/i.test(n)) return age(4, 6, "Vorschulalter");
   if (/unterstufe/i.test(n)) return age(6, 9, "Unterstufe");
   if (/mittelstuf/i.test(n)) return age(9, 12, "Mittelstufe");
