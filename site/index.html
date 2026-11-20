@@ -1783,21 +1783,30 @@ const dist=(a,b,c,d)=>{const r=Math.PI/180,x=(d-b)*r*Math.cos((a+c)/2*r),y=(c-a)
       const seg=document.createElement("div");seg.className="dd-km";seg.setAttribute("role","group");seg.setAttribute("aria-label","Umkreis");
       const msg=document.createElement("p");msg.className="dd-note dd-near-msg";msg.hidden=true;
       const pick=km=>{NEAR.km=km;try{localStorage.setItem("fa-near-km",km)}catch(e){}document.querySelectorAll(".dd-km button").forEach(b=>b.setAttribute("aria-pressed",String(+b.dataset.km===km)))};
-      [5,10,20].forEach(km=>{const b=document.createElement("button");b.type="button";b.dataset.km=km;b.textContent=km+" km";b.setAttribute("aria-pressed",String(km===NEAR.km));
-        b.addEventListener("click",ev=>{ev.preventDefault();pick(km);if(NEAR.pos)nb.click()});seg.append(b)});
-      nb.addEventListener("click",ev=>{ev.preventDefault();msg.hidden=true;
-        const go=pos=>{const [la,lo]=pos,names=new Map();
-          boxes.forEach(i=>{const l=i.closest("label"),xy=GXY[l.dataset.name];if(xy)names.set(i,dist(la,lo,xy[0],xy[1]))});
-          if(!names.size){msg.textContent="Für diese Liste fehlen die Koordinaten.";msg.hidden=false;return}
-          let near=[...names].filter(([,d])=>d<=NEAR.km).map(([i])=>i);
-          if(!near.length)near=[[...names].sort((a,b)=>a[1]-b[1])[0][0]];
-          none.click();near.forEach(i=>{if(!i.checked){i.checked=true;i.dispatchEvent(new Event("change",{bubbles:true}))}});
-          setTimeout(()=>{refresh();open1();msg.textContent=near.length+(near.length===1?" Gemeinde":" Gemeinden")+" im Umkreis von "+NEAR.km+" km gewählt.";msg.hidden=false},0)};
-        if(NEAR.pos)return go(NEAR.pos);
-        if(!navigator.geolocation){msg.textContent="Dein Browser kann den Standort nicht bestimmen.";msg.hidden=false;return}
+      const center=(done)=>{
+        const fallback=why=>{let c=null;try{c=localStorage.getItem("fa-home-g")}catch(e){}
+          const g=c&&(window.GEMEINDEN||{})[c];
+          const one=boxes.filter(i=>i.checked);const og=one.length===1&&GXY[one[0].closest("label").dataset.name]?one[0].closest("label").dataset.name:null;
+          if(g&&g.lat)return done([g.lat,g.lon],"um "+g.name);
+          if(og)return done(GXY[og],"um "+one[0].closest("label").querySelector("span").textContent);
+          msg.textContent=why+" Wähle auf der Startseite deine Gemeinde, dann geht «In der Nähe» auch ohne Standort.";msg.hidden=false};
+        if(NEAR.pos)return done(NEAR.pos,"um deinen Standort");
+        if(!navigator.geolocation)return fallback("Dein Browser kann den Standort nicht bestimmen.");
         nb.disabled=true;nb.textContent="📍 Suche Standort …";
-        navigator.geolocation.getCurrentPosition(p=>{nb.disabled=false;nb.textContent="📍 In der Nähe";NEAR.pos=[p.coords.latitude,p.coords.longitude];go(NEAR.pos)},
-          e=>{nb.disabled=false;nb.textContent="📍 In der Nähe";msg.textContent=e.code===1?"Du hast den Standort nicht freigegeben. Du kannst ihn in den Einstellungen deines Browsers erlauben.":"Der Standort konnte nicht bestimmt werden.";msg.hidden=false},{enableHighAccuracy:false,timeout:10000,maximumAge:600000})});
+        navigator.geolocation.getCurrentPosition(p=>{nb.disabled=false;nb.textContent="📍 In der Nähe";NEAR.pos=[p.coords.latitude,p.coords.longitude];done(NEAR.pos,"um deinen Standort")},
+          e=>{nb.disabled=false;nb.textContent="📍 In der Nähe";fallback(e.code===1?"Der Standort ist nicht freigegeben.":"Der Standort konnte nicht bestimmt werden.")},{enableHighAccuracy:false,timeout:8000,maximumAge:600000})};
+      const run=km=>{msg.hidden=true;pick(km);
+        center(([la,lo],where)=>{const names=new Map();
+          boxes.forEach(i=>{const xy=GXY[i.closest("label").dataset.name];if(xy)names.set(i,dist(la,lo,xy[0],xy[1]))});
+          if(!names.size){msg.textContent="Für diese Liste fehlen die Koordinaten.";msg.hidden=false;return}
+          let near=[...names].filter(([,d])=>d<=km).map(([i])=>i);
+          if(!near.length)near=[[...names].sort((x,y)=>x[1]-y[1])[0][0]];
+          none.click();near.forEach(i=>{if(!i.checked){i.checked=true;i.dispatchEvent(new Event("change",{bubbles:true}))}});
+          setTimeout(()=>{heads.forEach(h=>setOpen(h,(items.get(h)||[]).some(l=>l.querySelector("input").checked)));
+            msg.textContent=near.length+(near.length===1?" Gemeinde":" Gemeinden")+" im Umkreis von "+km+" km "+where+" gewählt.";msg.hidden=false},0)})};
+      [5,10,20].forEach(km=>{const b=document.createElement("button");b.type="button";b.dataset.km=km;b.textContent=km+" km";b.setAttribute("aria-pressed",String(km===NEAR.km));
+        b.addEventListener("click",ev=>{ev.preventDefault();run(km)});seg.append(b)});
+      nb.addEventListener("click",ev=>{ev.preventDefault();run(NEAR.km)});
       row.append(nb,seg);acts.after(row,msg);
     }
   });
