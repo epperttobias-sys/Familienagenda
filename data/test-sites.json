@@ -1,0 +1,8 @@
+{
+ "oberrieden": {"name": "Oberrieden", "bezirk": "Horgen", "domain": "www.oberrieden.ch", "system": "links", "path": "/events?page={p}", "pages": 6, "link": "/events/\\d+$"},
+ "kilchberg": {"name": "Kilchberg", "bezirk": "Horgen", "domain": "www.kilchberg.ch", "system": "links", "path": "/veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=95", "link": "/veranstaltungen/termin/", "kat": "14"},
+ "kilchberg2": {"name": "Kilchberg alle", "bezirk": "Horgen", "domain": "www.kilchberg.ch", "system": "links", "path": "/veranstaltungen/seite/{p}", "pages": 4, "p0": 1, "link": "/veranstaltungen/termin/"},
+ "gossau": {"name": "Gossau", "bezirk": "Hinwil", "domain": "www.gossau-zh.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/kalender/"},
+ "fischenthal": {"name": "Fischenthal", "bezirk": "Hinwil", "domain": "www.fischenthal.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/leben-familie-anlaesse/"},
+ "thalheimanderthur": {"name": "Thalheim an der Thur", "bezirk": "Andelfingen", "domain": "www.thalheim.ch", "system": "ical", "path": "/index.php?option=com_dpcalendar&task=ical.download&id=g-9", "page": "/index.php/aktuell/veranstaltungen"}
+}

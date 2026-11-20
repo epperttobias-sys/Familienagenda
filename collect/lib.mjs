@@ -239,7 +239,8 @@ export const SYSTEMS = {
     return items;
   },
 
-  // iCalendar-Feed (OneGov, z.B. Ottenbach): Titel, Zeit, Ort und Beschreibung stehen im Feed
+  // iCalendar-Feed (OneGov Ottenbach, WordPress Gossau/Fischenthal, Joomla Thalheim): Titel, Zeit, Ort und Beschreibung stehen im Feed.
+  // Link zum Anlass: URL im Feed, sonst die Agenda-Seite (site.page), sonst OneGov-Muster.
   async ical(site, get) {
     const txt = (await get(`https://${site.domain}${site.path}`)).replace(/\r?\n[ \t]/g, "");
     const loc = (iso) => { const d = new Date(iso); const z = d.toLocaleString("sv-SE", { timeZone: "Europe/Zurich" }); return { d: z.slice(0, 10), t: z.slice(11, 16).replace(":", ".") }; };
@@ -253,7 +254,7 @@ export const SYSTEMS = {
       const t = st.t && st.t !== "00.00" ? (en.t && en.t !== st.t && en.d === st.d ? `${st.t} - ${en.t}` : st.t) : "";
       items.push({ id: uid.replace(/@.*$/, "").slice(0, 80), name: name.charAt(0) + (name === name.toUpperCase() ? name.slice(1).toLowerCase() : name.slice(1)), von: st.d, bis: en.d < st.d ? st.d : en.d,
         ort: val(b, "LOCATION").split(",")[0], veranstalter: "", kategorie: "", hint: `${val(b, "DESCRIPTION")} ${val(b, "CATEGORIES").replace(/Youth/g, "Jugend").replace(/Library/g, "Bibliothek")}`,
-        url: `https://${site.domain}/event/${uid.replace(/@.*$/, "")}`, detailKey: null, time: t });
+        url: val(b, "URL") || (site.page ? `https://${site.domain}${site.page}` : `https://${site.domain}/event/${uid.replace(/@.*$/, "")}`), detailKey: null, time: t });
     }
     return items;
   },
@@ -426,6 +427,43 @@ export const SYSTEMS = {
           kategorie: "14", hint: age, url: e.link, detailKey: null }));
       }
       if (list[list.length - 1].date < cutoff) break;
+    }
+    return items;
+  },
+
+  // Allgemeine Liste: Links auf Anlass-Seiten (site.link, regulärer Ausdruck), Datum im Linktext oder im Text davor/danach.
+  // site.path darf {p} für die Seitenzahl enthalten (site.pages Seiten ab site.p0). Für Drupal (Oberrieden), TYPO3 calendarize (Kilchberg) u.a.
+  async links(site, get) {
+    const base = `https://${site.domain}`, re = new RegExp(site.link), items = [], seen = new Set();
+    const GENERIC = /^(details?|mehr|weiter(lesen)?|weiterlesen ….*|mehr erfahren|zum anlass|anzeigen|›|»|→)$/i;
+    const pages = site.path.includes("{p}") ? site.pages ?? 3 : 1;
+    for (let p = 0; p < pages; p++) {
+      const url = base + site.path.replace("{p}", String(p + (site.p0 ?? 0)));
+      let html; try { html = await get(url); } catch (e) { if (p === 0) throw e; break; }
+      const main = (html.match(/<main[\s\S]*<\/main>/i) || [html])[0];
+      const A = [...main.matchAll(/<a\b[^>]*href="([^"#]+)"[^>]*>([\s\S]*?)<\/a>/gi)].map(m => ({ href: abs(url, m[1]), inner: m[2], at: m.index, end: m.index + m[0].length })).filter(a => re.test(a.href));
+      // gleiche Adresse hintereinander (Titel + «Details») als ein Eintrag
+      const groups = [];
+      for (const a of A) { const g = groups[groups.length - 1]; if (g && g.href === a.href) { g.list.push(a); g.end = a.end; } else groups.push({ href: a.href, list: [a], at: a.at, end: a.end }); }
+      let fresh = 0;
+      groups.forEach((g, i) => {
+        const pre = strip(main.slice(i ? groups[i - 1].end : Math.max(0, g.at - 600), g.at)).slice(-160);
+        const post = strip(main.slice(g.end, i + 1 < groups.length ? groups[i + 1].at : g.end + 600)).slice(0, 300);
+        const inner = g.list.map(a => a.inner).join(" "), itext = strip(inner);
+        const range = parseDateRange(itext) || parseDateRange(pre) || parseDateRange(post);
+        if (!range) return;
+        const id = g.href.replace(/[?#].*$/, "").replace(/\/$/, "").split("/").pop();
+        if (seen.has(id + range.von)) return;
+        const head = strip((inner.match(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/i) || [])[1] ?? "");
+        const name = head || g.list.map(a => strip(a.inner)).filter(t => t && !GENERIC.test(t)).sort((a, b) => a.length - b.length)[0] || "";
+        if (!name || name.length > 140) return;
+        seen.add(id + range.von); fresh++;
+        const ctx = /\d{4}/.test(itext) ? itext : pre + " " + itext;
+        const tm = ctx.match(/(\d{1,2}):(\d{2})(?:\s*Uhr)?(?:\s*(?:-|–|—|bis)\s*(\d{1,2}):(\d{2}))?|(\d{1,2})\.(\d{2})\s*Uhr/);
+        const time = !tm ? "" : tm[5] ? `${tm[5]}.${tm[6]}` : tm[3] ? `${tm[1]}.${tm[2]} - ${tm[3]}.${tm[4]}` : `${tm[1]}.${tm[2]}`;
+        items.push({ id: id + "-" + range.von, name: name.replace(/^(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),?\s*\d{1,2}\.\d{1,2}\.\d{4}\s*/, ""), ...range, ort: "", veranstalter: "", kategorie: site.kat ?? "", hint: head ? itext.slice(0, 400) : "", url: g.href, detailKey: id, time });
+      });
+      if (!fresh && p > 0) break;
     }
     return items;
   },

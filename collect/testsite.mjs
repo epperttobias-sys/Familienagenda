@@ -1,0 +1,15 @@
+// Hilfsmittel: liest die Gemeinden aus data/test-sites.json wie der nächtliche Lauf und zeigt das Ergebnis im Log.
+import { readFileSync } from "node:fs";
+import { SYSTEMS, collectSite } from "./lib.mjs";
+const sites = JSON.parse(readFileSync("data/test-sites.json", "utf8"));
+const fetchText = async u => { const r = await fetch(u, { headers: { "User-Agent": "Familienagenda/1.0 (privates Familienprojekt, Test)" }, signal: AbortSignal.timeout(30000) }); if (!r.ok) throw new Error(r.status + " " + u); return r.text(); };
+const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
+for (const [code, site] of Object.entries(sites)) {
+  console.log("\n######", site.name);
+  try {
+    const raw = await SYSTEMS[site.system](site, fetchText, {}, code);
+    console.log("roh:", raw.length); raw.slice(0, 12).forEach(e => console.log("  ", e.von, e.bis, e.time, "|", e.name, "|", e.url));
+    const r = await collectSite(code, site, { fetchText, cache: {}, today, wait: () => new Promise(r => setTimeout(r, 700)) });
+    console.log("Kinder:", r.events.length); r.events.forEach(e => console.log("  K", e.von, e.time, "|", e.name, "|", JSON.stringify(e.age)));
+  } catch (e) { console.log("FEHLER", e.message); }
+}
