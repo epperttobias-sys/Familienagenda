@@ -548,6 +548,55 @@ export const SYSTEMS = {
     return items;
   },
 
+  // Programmseiten von Veranstaltern (Theater, Konzerthäuser, Filmclubs …): je Seite ein Angebot mit einem oder mehreren Terminen.
+  // site.pages: Adressen oder { u, g }; site.index + site.link: Seiten aus einer Übersicht. Termine aus JSON-LD «Event» oder aus dem Text.
+  // site.g: Gemeinde des Veranstaltungsorts, sonst aus der Adresse im JSON-LD.
+  async termine(site, get, cache, code) {
+    const pages = (site.pages || []).map(p => typeof p === "string" ? { u: p } : p);
+    for (const ix of [].concat(site.index || [])) {
+      try { const h = await get(ix); const re = new RegExp(site.link);
+        for (const m of h.matchAll(/<a\b[^>]*href="([^"#]+)"/gi)) { const u = abs(ix, m[1]); if (re.test(u) && !pages.some(p => p.u === u)) pages.push({ u }); } } catch {}
+    }
+    const items = [], today = new Date().toISOString().slice(0, 10);
+    const MONTHRE = "(Januar|Februar|März|Maerz|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember|Jan|Feb|Mär|Apr|Jun|Jul|Aug|Sep|Sept|Okt|Nov|Dez)\\.?";
+    for (const pg of pages.slice(0, site.max ?? 60)) {
+      let html; try { html = await get(pg.u); } catch { continue; }
+      const title = strip((html.match(/<meta property="og:title" content="([^"]*)"/) || html.match(/<h1[^>]*>([\s\S]*?)<\/h1>/i) || [])[1] ?? "").replace(/\s*[|–-]\s*[^|–-]*$/, "").trim();
+      if (site.only && !new RegExp(site.only, "i").test(title + " " + pg.u)) continue;
+      // 1) JSON-LD
+      const lds = [];
+      for (const m of html.matchAll(/<script[^>]*application\/ld\+json[^>]*>([\s\S]*?)<\/script>/gi)) {
+        try { const walk = o => { if (Array.isArray(o)) o.forEach(walk); else if (o && typeof o === "object") { if (/Event/.test([].concat(o["@type"]).join(" ")) && o.startDate) lds.push(o); if (o["@graph"]) walk(o["@graph"]); if (o.subEvent) walk(o.subEvent); } }; walk(JSON.parse(m[1])); } catch {}
+      }
+      let found = 0;
+      for (const e of lds) {
+        const von = String(e.startDate).slice(0, 10), bis = String(e.endDate || e.startDate).slice(0, 10), t = String(e.startDate).slice(11, 16);
+        const loc = e.location || {}, addr = typeof loc.address === "string" ? loc.address : [loc.address?.streetAddress, [loc.address?.postalCode, loc.address?.addressLocality].filter(Boolean).join(" ")].filter(Boolean).join(", ");
+        const g = pg.g || site.g || (addr ? await gemeindeForAddress(addr, get, cache, code + ":") : "");
+        if (!g) continue;
+        items.push({ id: (e.url || pg.u).replace(/^https?:\/\/[^/]+/, "").slice(-60) + von + t, g, name: decode(e.name || title), von, bis: bis < von ? von : bis, ort: decode(loc.name || "").slice(0, 70), veranstalter: site.name,
+          kategorie: "14", hint: decode(e.description || "").slice(0, 300), url: e.url || pg.u, detailKey: null, time: t && t !== "00:00" ? t.replace(":", ".") : "" });
+        found++;
+      }
+      if (found) continue;
+      // 2) Termine im Text
+      const main = (html.match(/<main[\s\S]*<\/main>/i) || [html])[0], text = strip(main), seen = new Set();
+      const re = new RegExp(`(\\d{1,2})\\.\\s?(\\d{1,2})\\.\\s?(\\d{4}|\\d{2})?(?!\\d)|(\\d{1,2})\\.\\s?${MONTHRE}\\s*(\\d{4})?`, "g");
+      for (const m of text.matchAll(re)) {
+        let d, mo, y;
+        if (m[1]) { d = +m[1]; mo = +m[2]; y = m[3] ? +m[3] : 0; } else { d = +m[4]; mo = monthOf(m[5].replace("Maerz", "Mär")); y = m[6] ? +m[6] : 0; }
+        if (!mo || mo > 12 || d > 31 || !d) continue;
+        if (!y) { y = +today.slice(0, 4); if (ymd(y, mo, d) < today) y++; } else if (y < 100) y += 2000;
+        const von = ymd(y, mo, d); if (von < today || seen.has(von)) continue;
+        const after = text.slice(m.index + m[0].length, m.index + m[0].length + 40).match(/^[^0-9]{0,12}(\d{1,2})[:.](\d{2})/);
+        seen.add(von);
+        items.push({ id: pg.u.replace(/^https?:\/\/[^/]+/, "").slice(-60) + von, g: pg.g || site.g, name: pg.name || title, von, bis: von, ort: site.ort || "", veranstalter: site.name, kategorie: "14", hint: "", url: pg.u, detailKey: null,
+          time: after ? `${after[1]}.${after[2]}` : "" });
+      }
+    }
+    return items.filter(x => x.g);
+  },
+
   // Kacheln mit Datum und Titel (Erlenbach).
   async tiles(site, get) {
     const listUrl = `https://${site.domain}${site.path}`;
