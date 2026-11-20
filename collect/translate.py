@@ -66,7 +66,8 @@ def prep(t):
 def post(t):
     for a, b in POST:
         t = re.sub(a, b, t)
-    return t.strip()
+    t = t.strip()
+    return t[:1].upper() + t[1:] if t[:1].islower() else t
 
 
 def main():
