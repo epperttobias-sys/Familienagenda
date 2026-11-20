@@ -19,6 +19,10 @@
 "e": "1st Advent post run",
 "p": "1. Advent Postenlauf"
 },
+"3.Klasse (Erstkommunionvorbereitung)": {
+"e": "3rd class (preparation for first communion)",
+"p": "3.Klasse (Erstkommunionvorbereitung)"
+},
 "30 Jahre Freizyti Wangen-Brüttisellen": {
 "e": "30 years Freizyti Wangen-Brüttisellen",
 "p": "30 Jahre Freizyti Wangen-Brüttisellen"
@@ -26,6 +30,10 @@
 "53. Fällander Weihnachtsmärt": {
 "e": "53. Fällder Christmas months",
 "p": "53. Fällander Weihnachtsmärt"
+},
+"7 Wochen ANDERS: Fastenzeit für Heranwachsende": {
+"e": "7 weeks Anders: Lent for adolescents",
+"p": "7 Wochen Anders: Fastenzeit für Heranwachsende"
 },
 "ABGESAGT - Buchstart - Sprache entdecken": {
 "e": "Canceled - Bookstart - Discover language",
@@ -63,6 +71,18 @@
 "e": "Advent with 100 Stories, L ́Atelier-a children's studio",
 "p": "Advent mit 100 Stories, L´Atelier-ein Kinderatelier"
 },
+"Advent mobil": {
+"e": "Advent mobile",
+"p": "Advent mobil"
+},
+"Adventkranz-Basteln für Kinder": {
+"e": "Advent wreaths for children",
+"p": "Adventkranz-Basteln für Kinder"
+},
+"Advents- und Weihnachtsweg": {
+"e": "Advent and Christmas Walk",
+"p": "Advents- und Weihnachtsweg"
+},
 "Advents-Anlass beim Schurterhaus": {
 "e": "Advents-Anlas at the Schurterhaus",
 "p": "Advents-Anlass beim Schurterhaus"
@@ -87,6 +107,10 @@
 "e": "Advent in the \"90i\"",
 "p": "Adventsbasteln im \"90i\""
 },
+"Adventsfeier": {
+"e": "Advent celebration",
+"p": "Adventsfeier"
+},
 "Adventsfeier FMG mit dem Kinderchor \"Les Rossignols\"": {
 "e": "Advent party FMG with the children's choir \"Les Rossignols\"",
 "p": "Adventsfeier FMG mit dem Kinderchor \"Les Rossignols\""
@@ -99,9 +123,25 @@
 "e": "Advent window opening",
 "p": "Adventsfenster Eröffnung"
 },
+"Adventsfenster Neftenbach": {
+"e": "Advent window Neftenbach",
+"p": "Adventsfenster Neftenbach"
+},
+"Adventsfenster Pfungen": {
+"e": "Advent window Pfungen",
+"p": "Adventsfenster Pfungen"
+},
 "Adventsfenster Wettswil: Dä Samichlaus chunnt!": {
 "e": "Advent window Wettswil: Dä Sankt Nikolaus chunnt!",
 "p": "Adventsfenster Wettswil: Dä Sankt Nikolaus chunnt!"
+},
+"Adventsfenster in Feuerthalen (UG/Eingang Höhenstrasse)": {
+"e": "Advent window in Feuerthalen (UG/entrance Höhenstrasse)",
+"p": "Adventsfenster in Feuerthalen (UG/Eingang Höhenstrasse)"
+},
+"Adventsfenster in Kleinandelfingen": {
+"e": "Advent windows in Kleinandelfingen",
+"p": "Adventsfenster in Kleinandelfingen"
 },
 "Adventsfenster in Rikon": {
 "e": "Advent window in Rikon",
@@ -114,6 +154,10 @@
 "Adventsfenster mit Besuch vom Samichlaus": {
 "e": "Advent window with visit of Saint Nicholas",
 "p": "Adventsfenster mit Besuch vom Sankt Nikolaus"
+},
+"Adventsfenster-Eröffnung": {
+"e": "Advent window opening",
+"p": "Adventsfenster-Eröffnung"
 },
 "Adventsfenstereröffnung": {
 "e": "Advent window opening",
@@ -139,13 +183,29 @@
 "e": "Advent Concert and Open Advent Singing",
 "p": "Adventskonzert und Offenes Adventssingen"
 },
+"Adventskranz basteln": {
+"e": "Make Advent wreath",
+"p": "Adventskranz basteln"
+},
+"Adventskranz gemeinsam gestalten": {
+"e": "Designing Advent wreath together",
+"p": "Adventskranz gemeinsam gestalten"
+},
 "Adventskranzbasteln für Erwachsene": {
 "e": "Advent wreaths for adults",
 "p": "Adventskranzbasteln für Erwachsene"
 },
+"Adventskranzbinden mit Kaffeestube": {
+"e": "Advent wreathbands with coffee shop",
+"p": "Adventskranzbinden mit Kaffeestube"
+},
 "Adventskranzen für alle": {
 "e": "Advent wreaths for all",
 "p": "Adventskranzen für alle"
+},
+"Adventskränze binden für Gross und Klein Frauennetzwerk Kilchberg": {
+"e": "Advent wreaths bind for big and small women's network Kilchberg",
+"p": "Adventskränze binden für Gross und Klein Frauennetzwerk Kilchberg"
 },
 "Adventsmarkt Küsnacht": {
 "e": "Advent market Küsnacht",
@@ -175,6 +235,10 @@
 "e": "Advent Workshop",
 "p": "Adventswerkstatt"
 },
+"Adventsworkshop für Familien": {
+"e": "Advent workshop for families",
+"p": "Adventsworkshop für Familien"
+},
 "Adventszauber": {
 "e": "Advent Spell",
 "p": "Adventszauber"
@@ -198,6 +262,18 @@
 "Alex Porter - Familienprogramm Nepp": {
 "e": "Alex Porter - Family program Nepp",
 "p": "Alex Porter - Familienprogramm Nepp"
+},
+"Alice im Wunderland": {
+"e": "Alice in Wonderland",
+"p": "Alice im Wunderland"
+},
+"Alice tanzt": {
+"e": "Alice dances",
+"p": "Alice tanzt"
+},
+"Als die Tiere den Wald verliessen": {
+"e": "When the animals left the forest",
+"p": "Als die Tiere den Wald verliessen"
 },
 "Alter Traktor": {
 "e": "Old tractor",
@@ -351,6 +427,10 @@
 "e": "Craft table, climbing element and slide",
 "p": "Basteltisch, Kletterelement und Rutschbahn"
 },
+"Begegnung mit St. Nikolaus": {
+"e": "Meeting with St. Nicholas",
+"p": "Begegnung mit St. Nikolaus"
+},
 "Begegnung mit dem Samichlaus": {
 "e": "Meeting with Saint Nicholas",
 "p": "Begegnung mit dem Sankt Nikolaus"
@@ -379,6 +459,10 @@
 "e": "Benefit Musical: ABRI - The Companion's Legacy",
 "p": "Benefiz-Musical: ABRI - Das Vermächtnis der Gefährten"
 },
+"Benefizkonzert Kinderhilfe Uitikon": {
+"e": "Benefit concert Children's assistance Uitikon",
+"p": "Benefizkonzert Kinderhilfe Uitikon"
+},
 "Benefizkonzert Verein KinderHilfe": {
 "e": "Benefit Concert Association ChildrenHelp",
 "p": "Benefizkonzert Verein KinderHilfe"
@@ -398,6 +482,10 @@
 "Best of Fantoche on Tour": {
 "e": "Best of Fantoche on Tour",
 "p": "Best of Fantoche on Tour"
+},
+"Bestiarium": {
+"e": "Bestiary",
+"p": "Bestiarium"
 },
 "Besuch bei den Habichtskäuzen und anderen Greifvögeln (Greifvogelstation Berg am Irchel)": {
 "e": "Visit to the hawk owls and other birds of prey (Greifvogelstation Berg am Irchel)",
@@ -450,6 +538,10 @@
 "Bewegungsraum für Kleinkinder": {
 "e": "Movement space for small children",
 "p": "Bewegungsraum für Kleinkinder"
+},
+"BiG TiSCH": {
+"e": "BiG TiSCH",
+"p": "BiG TiSCH"
 },
 "Biberfell für Glasperlen": {
 "e": "Beaver fur for glass beads",
@@ -579,6 +671,10 @@
 "e": "Book start in the library",
 "p": "Buchstart in der Bibliothek"
 },
+"Buchstart mit Geschichten und Reimen": {
+"e": "Book start with stories and rhymes",
+"p": "Buchstart mit Geschichten und Reimen"
+},
 "Buchstart mit Reim und Spiel": {
 "e": "Book start with rhyme and game",
 "p": "Buchstart mit Reim und Spiel"
@@ -691,9 +787,17 @@
 "e": "Library Wülflingen",
 "p": "Bücherzwerge Bibliothek Wülflingen"
 },
+"Bülacher Weihnachtsmarkt": {
+"e": "Bülach Christmas Market",
+"p": "Bülacher Weihnachtsmarkt"
+},
 "CEVI": {
 "e": "CEVI",
 "p": "CEVI"
+},
+"Caffè domenicale dopo la Messa, Schlieren": {
+"e": "Caffè domesticale dopo la Messa, Schlieren",
+"p": "Caffè domenicale dopo la Messa, Schlieren"
 },
 "Café International": {
 "e": "Café International",
@@ -710,6 +814,14 @@
 "Café-Offline - Kinderbücher vorstellen": {
 "e": "Café-Offline - Presentation of children's books",
 "p": "Café-Offline - Kinderbücher vorstellen"
+},
+"Caritas Solidaritätsaktion «Eine Million Sterne»": {
+"e": "Caritas solidarity action «One million stars»",
+"p": "Caritas Solidaritätsaktion «Eine Million Sterne»"
+},
+"Caritas-Weihnacht 2026": {
+"e": "Caritas Christmas 2026",
+"p": "Caritas-Weihnacht 2026"
 },
 "Cevi Fröschli": {
 "e": "Cevi Frogs (Yungshar)",
@@ -739,6 +851,26 @@
 "e": "Child'Space course",
 "p": "Child'Space-Kurs"
 },
+"Chilekafi nach dem Familiengottesdienst": {
+"e": "Chilekafi after the family service",
+"p": "Chilekafi nach dem Familiengottesdienst"
+},
+"Chilemuus Filius": {
+"e": "Chilemulus Filius",
+"p": "Chilemuus Filius"
+},
+"Chinder-Chilä im Welbrig": {
+"e": "Children's Chila in the Welbrig",
+"p": "Kinder-Chilä im Welbrig"
+},
+"Chinderchile": {
+"e": "Cinderchiles",
+"p": "Chinderchile"
+},
+"Chinderchile in Hombrechtikon": {
+"e": "Chinderchile in Hombrechtikon",
+"p": "Chinderchile in Hombrechtikon"
+},
 "Chinderchilewiehnacht am 3. Advent | Aufführung des Musicals \"D Räuber vo Bethlehem\" von Adonia": {
 "e": "Chinderchilewiehnacht on the 3rd Advent, performance of the musical \"D Räuber vo Bethlehem\" by Adonia",
 "p": "Chinderchilewiehnacht am 3. Advent | Aufführung des Musicals \"D Räuber vo Bethlehem\" von Adonia"
@@ -763,9 +895,25 @@
 "e": "Chindermusicalwuche 2027",
 "p": "Chindermusicalwuche 2027"
 },
+"Chlaus Markt": {
+"e": "Saint Nicholas Market",
+"p": "Sankt Nikolaus Markt"
+},
+"Chlaus-Einzug Bülach": {
+"e": "Saint Nicholas' entry in Bülach",
+"p": "Sankt Nikolaus-Einzug Bülach"
+},
+"Chlaus-Hüsli": {
+"e": "Saint Nicholas Husli",
+"p": "Sankt Nikolaus-Hüsli"
+},
 "Chlaus-Zmorge": {
 "e": "Saint Nicholas' breakfast",
 "p": "Sankt Nikolaus-Frühstück"
+},
+"Chlausaussenden auf dem Kirchenvorplatz": {
+"e": "Chlausaussing on the church forecourt",
+"p": "Chlausaussenden auf dem Kirchenvorplatz"
 },
 "Chlausbus": {
 "e": "Chlausbus",
@@ -803,6 +951,10 @@
 "e": "Chlausumzug in the Huserholz forest",
 "p": "Chlausumzug in den Huserholz Wald"
 },
+"Chlichinderfiir/Wienachtsfiir für die Kleinsten in der Kapelle": {
+"e": "Chlichinderfiir/Wienachtsfiir for the little ones in the chapel",
+"p": "Chlichinderfiir/Wienachtsfiir für die Kleinsten in der Kapelle"
+},
 "Chliichind-Fiir": {
 "e": "Toddler's celebration",
 "p": "Kleinkind-Feier"
@@ -839,6 +991,10 @@
 "e": "Christchindlimärt Rikon",
 "p": "Christchindlimärt Rikon"
 },
+"Christmas Prints – Geschenkkarten gestalten": {
+"e": "Christmas Prints – Designing gift cards",
+"p": "Christmas Prints – Geschenkkarten gestalten"
+},
 "Christmette": {
 "e": "Christmette",
 "p": "Christmette"
@@ -850,6 +1006,14 @@
 "Chuchi International - Chinder-Chuchi - ausverkauft!": {
 "e": "Chuchi International - Children's Chuchi - sold out!",
 "p": "Chuchi International - Kinder-Chuchi - ausverkauft!"
+},
+"Chäferburg": {
+"e": "Chäferburg",
+"p": "Chäferburg"
+},
+"DER KLEINE PRINZ": {
+"e": "The little prince",
+"p": "Der kleine prinz"
 },
 "DIY: Adventskranzbinden": {
 "e": "DIY: Advent wreath bindings",
@@ -899,6 +1063,10 @@
 "e": "The frozen heart",
 "p": "Das gefrorene Herz"
 },
+"De Chasperli retted d'Wiehnacht": {
+"e": "De Chasperli retted d'Wiehnacht",
+"p": "De Chasperli retted d'Wiehnacht"
+},
 "De Samichlaus besucht eus": {
 "e": "De Saint Nicholas visits eus",
 "p": "De Sankt Nikolaus besucht eus"
@@ -930,6 +1098,10 @@
 "Der Königstiger ist eines der zwölf Dschungeltiere. Die Tiere wurden für die Kinder des Manessequartiers gebaut.": {
 "e": "The royal tiger is one of the twelve jungle animals. The animals were built for the children of the Manesse Quarter.",
 "p": "Der Königstiger ist eines der zwölf Dschungeltiere. Die Tiere wurden für die Kinder des Manessequartiers gebaut."
+},
+"Der Löwe, der nicht schreiben konnte": {
+"e": "The Lion Who Could Not Write",
+"p": "Der Löwe, der nicht schreiben konnte"
 },
 "Der Samichlaus besucht uns": {
 "e": "Saint Nicholas visits us",
@@ -983,9 +1155,17 @@
 "e": "The community of Wettswil invites..",
 "p": "Die Gemeinde Wettswil lädt ein.."
 },
+"Die Katze des Bäckers": {
+"e": "The baker's cat",
+"p": "Die Katze des Bäckers"
+},
 "Die Kristallkugel - Ein zauberhaftes Erzähltheater": {
 "e": "The Crystal Ball - A Magical Narrative Theatre",
 "p": "Die Kristallkugel - Ein zauberhaftes Erzähltheater"
+},
+"Die Lachse der Nebelfrau – Familiensonntag": {
+"e": "The Salmon of the Fog Woman – Family Sunday",
+"p": "Die Lachse der Nebelfrau – Familiensonntag"
 },
 "Die Schildkröte ist eines der zwölf Dschungeltiere. Die Tiere wurden für die Kinder des Manessequartiers gebaut.": {
 "e": "The turtle is one of the twelve jungle animals. The animals were built for the children of the Manesse Quarter.",
@@ -995,6 +1175,10 @@
 "e": "The snake is one of the twelve jungle animals. The animals were built for the children of the Manesse Quarter.",
 "p": "Die Schlange ist eines der zwölf Dschungeltiere. Die Tiere wurden für die Kinder des Manessequartiers gebaut."
 },
+"Die Sternsinger kommen zu Ihnen nach Hause": {
+"e": "The Sternsinger come to your home",
+"p": "Die Sternsinger kommen zu Ihnen nach Hause"
+},
 "Die Turbienen «Schlüssel zum Glück»": {
 "e": "The Turbias «Keys to Happiness»",
 "p": "Die Turbienen «Schlüssel zum Glück»"
@@ -1002,6 +1186,10 @@
 "Die Zauberlaterne Dübendorf": {
 "e": "The magic lantern Dübendorf",
 "p": "Die Zauberlaterne Dübendorf"
+},
+"Die Zauberorgel": {
+"e": "The Magic Organ",
+"p": "Die Zauberorgel"
 },
 "Die drei ??? und die Komposition des Unheils": {
 "e": "The three ??? and the composition of the calamity",
@@ -1035,6 +1223,10 @@
 "e": "Rotation organ at the Christmas market Winterthur",
 "p": "Drehorgel am Weihnachtsmarkt Winterthur"
 },
+"Dunkelfunkelndes Wandelhaus": {
+"e": "Dark Sparkling Wandelhaus",
+"p": "Dunkelfunkelndes Wandelhaus"
+},
 "Duo Sharon Chan und Charles Kwong": {
 "e": "Duo Sharon Chan and Charles Kwong",
 "p": "Duo Sharon Chan und Charles Kwong"
@@ -1059,9 +1251,25 @@
 "e": "Ice-disco",
 "p": "Eisdisco"
 },
+"EKW 2027: Themenblock 4": {
+"e": "EKW 2027: Theme block 4",
+"p": "EKW 2027: Themenblock 4"
+},
+"EKW 2027: Themenblock 5": {
+"e": "EKW 2027: Theme block 5",
+"p": "EKW 2027: Themenblock 5"
+},
 "ELKI-TREFF": {
 "e": "Elki-treff",
 "p": "Elki-treff"
+},
+"EVK KinderKino": {
+"e": "EVK ChildrenCinema",
+"p": "EVK KinderKino"
+},
+"EVK Vorlesestunde": {
+"e": "EVK Lecture",
+"p": "EVK Vorlesestunde"
 },
 "Egger Fasnacht": {
 "e": "Egger Fasnacht",
@@ -1107,9 +1315,21 @@
 "e": "Invitation to the nativity scene «De Zimmermaa is always there»",
 "p": "Einladung zum Krippenspiel «De Zimmermaa isch immer da»"
 },
+"Einstimmen in den Advent": {
+"e": "Tune in the Advent",
+"p": "Einstimmen in den Advent"
+},
 "Einzug des St. Niklaus in Effretikon": {
 "e": "Entry of St. Niklaus into Effretikon",
 "p": "Einzug des St. Niklaus in Effretikon"
+},
+"Eisbahn Wädi in Wädenswil": {
+"e": "Ice rink Wädi in Wädenswil",
+"p": "Eisbahn Wädi in Wädenswil"
+},
+"Eisbahn in Grüningen": {
+"e": "Ice rink in Grüningen",
+"p": "Eisbahn in Grüningen"
 },
 "Eisdisco": {
 "e": "Ice-disco",
@@ -1131,6 +1351,10 @@
 "e": "ElKi-Treff",
 "p": "ElKi-Treff"
 },
+"ElKi-Treff Oberrieden": {
+"e": "ElKi-Treff Oberrieden",
+"p": "ElKi-Treff Oberrieden"
+},
 "Elki-Treff": {
 "e": "Elki-Treff",
 "p": "Elki-Treff"
@@ -1143,6 +1367,10 @@
 "e": "Parent-child Christmas making",
 "p": "Eltern-Kind Weihnachtsbasteln"
 },
+"Eltern-Kind-Feier, Krypta": {
+"e": "Parent-child celebration, crypta",
+"p": "Eltern-Kind-Feier, Krypta"
+},
 "Eltern-Kind-Kerzenziehen": {
 "e": "Parent-child-carriage",
 "p": "Eltern-Kind-Kerzenziehen"
@@ -1150,6 +1378,10 @@
 "Eltern-Kind-Singen": {
 "e": "Parent-child-singing",
 "p": "Eltern-Kind-Singen"
+},
+"Eltern-Kind-Treff": {
+"e": "Parent-Child-Treff",
+"p": "Eltern-Kind-Treff"
 },
 "Eltern-Kind-Treff Wädenswil": {
 "e": "Parent-child-Treff Wädenswil",
@@ -1239,9 +1471,57 @@
 "e": "There are hardly any walls visible.",
 "p": "Es sind kaum noch Mauern sichtbar."
 },
+"Es war einmal....": {
+"e": "Once upon a time...",
+"p": "Es war einmal...."
+},
+"Es weihnachtet im Kunsthaus Zürich": {
+"e": "It is dedicated at the Kunsthaus Zürich",
+"p": "Es weihnachtet im Kunsthaus Zürich"
+},
+"Eucharistiefeier": {
+"e": "Eucharistic celebration",
+"p": "Eucharistiefeier"
+},
+"Eucharistiefeier - Familien-": {
+"e": "Eucharistic celebration - Family",
+"p": "Eucharistiefeier - Familien-"
+},
+"Eucharistiefeier am Sonntag und Versöhnungsfeier mit Familien": {
+"e": "Eucharistic celebration on Sunday and celebration of reconciliation with families",
+"p": "Eucharistiefeier am Sonntag und Versöhnungsfeier mit Familien"
+},
+"Eucharistiefeier mit Kindersegnung": {
+"e": "Eucharistic Celebration with Child Blessing",
+"p": "Eucharistiefeier mit Kindersegnung"
+},
+"Eucharistiefeier mit den Sternsingern": {
+"e": "Eucharistic Celebration with the Star Singers",
+"p": "Eucharistiefeier mit den Sternsingern"
+},
+"Eucharistiefeier und Chinderchile": {
+"e": "Eucharistic Celebration and Cinderchile",
+"p": "Eucharistiefeier und Chinderchile"
+},
 "Eucharistiefeier zu Neujahr": {
 "e": "Eucharistic celebration of New Year",
 "p": "Eucharistiefeier zu Neujahr"
+},
+"Eucharistiefeier zum 2. Advent mit Samichlausbesuch": {
+"e": "Eucharistic celebration for the 2nd Advent with Samichlaus visit",
+"p": "Eucharistiefeier zum 2. Advent mit Samichlausbesuch"
+},
+"Eucharistiefeier zum Fest der Heiligen Familie": {
+"e": "Eucharistic celebration of the Feast of the Holy Family",
+"p": "Eucharistiefeier zum Fest der Heiligen Familie"
+},
+"Eucharistiefeier, Familiengottesdienst mit den Erstklässlern": {
+"e": "Eucharistic celebration, family service with the first graders",
+"p": "Eucharistiefeier, Familiengottesdienst mit den Erstklässlern"
+},
+"Eucharistiefeier: Familien-Gottesdienst mit Krippenspiel": {
+"e": "Eucharistic celebration: Family service with nativity play",
+"p": "Eucharistiefeier: Familien-Gottesdienst mit Krippenspiel"
 },
 "Europas grösster Wasserfall / Europe biggest water falls": {
 "e": "Europe's largest waterfall / Europe biggest waterfall",
@@ -1267,6 +1547,10 @@
 "e": "Families - celebration of God",
 "p": "Familien - Gottesfeier"
 },
+"Familien Wort Gottes Feier mit Kommunion und HGU-Eröffnung": {
+"e": "Family Word of God Celebration with Communion and HGU Opening",
+"p": "Familien Wort Gottes Feier mit Kommunion und HGU-Eröffnung"
+},
 "Familien in Bewegung": {
 "e": "Families on the move",
 "p": "Familien in Bewegung"
@@ -1278,6 +1562,10 @@
 "Familien-Café": {
 "e": "Family Café",
 "p": "Familien-Café"
+},
+"Familien-Fasnacht": {
+"e": "Family Fasnacht",
+"p": "Familien-Fasnacht"
 },
 "Familien-Fasnachtsgottesdienst": {
 "e": "Family Carnival Service",
@@ -1299,6 +1587,14 @@
 "e": "Family service with Nicholas",
 "p": "Familien-Gottesdienst mit Nikolaus"
 },
+"Familien-Gottesdienst zum Heilig Abend": {
+"e": "Family service for the Holy Evening",
+"p": "Familien-Gottesdienst zum Heilig Abend"
+},
+"Familien-Kirchenfest: Krippe bauen": {
+"e": "Family-Church-Festival: crib building",
+"p": "Familien-Kirchenfest: Krippe bauen"
+},
 "Familien-Konzert": {
 "e": "Family concert",
 "p": "Familien-Konzert"
@@ -1311,13 +1607,37 @@
 "e": "Family lunch table - every Wednesday",
 "p": "Familien-Mittagstisch - jeden Mittwoch"
 },
+"Familien-Nachmittag: Grittbänz backen mit Café und Zvieri": {
+"e": "Family Afternoon: Bake the grittbänz with café and Zvieri snack",
+"p": "Familien-Nachmittag: Grittbänz backen mit Café und Zvieri-Snack"
+},
+"Familien-Rorate - offen für alle!": {
+"e": "Family-Rorate - open to all!",
+"p": "Familien-Rorate - offen für alle!"
+},
+"Familien-Weihnacht mit Weihnachtsliedern": {
+"e": "Family Christmas with Christmas Carols",
+"p": "Familien-Weihnacht mit Weihnachtsliedern"
+},
 "Familien-Weihnachtsfeier": {
 "e": "Family Christmas Party",
 "p": "Familien-Weihnachtsfeier"
 },
+"Familien-Weihnachtsfeier mit Kommunion": {
+"e": "Family Christmas Party with Communion",
+"p": "Familien-Weihnachtsfeier mit Kommunion"
+},
 "Familien-Weihnachtsgottesdienst": {
 "e": "Family Christmas Service",
 "p": "Familien-Weihnachtsgottesdienst"
+},
+"Familien-Weihnachtsgottesdienst, M. Pleines": {
+"e": "Family Christmas Service, M. Pleines",
+"p": "Familien-Weihnachtsgottesdienst, M. Pleines"
+},
+"FamilienSpass": {
+"e": "Family fun",
+"p": "FamilienSpass"
 },
 "Familienbrunch im YOHANA": {
 "e": "Family brunch in Yohana",
@@ -1347,6 +1667,10 @@
 "e": "Family party with shadow game",
 "p": "Familienfeier mit Schattenspiel"
 },
+"Familienfeier zum 1. Advent mit Matthias und allen Minis, mit Musik": {
+"e": "Family celebration for the 1st Advent with Matthias and all Minis, with music",
+"p": "Familienfeier zum 1. Advent mit Matthias und allen Minis, mit Musik"
+},
 "Familienfeier zum Heiligabend": {
 "e": "Family celebration on Christmas Eve",
 "p": "Familienfeier zum Heiligabend"
@@ -1375,6 +1699,18 @@
 "e": "Family Film Cameo: «Pumuckl and the Big Misunderstanding»",
 "p": "Familienfilm Kino Cameo: «Pumuckl und das grosse Missverständnis»"
 },
+"Familienführung": {
+"e": "Family guidance",
+"p": "Familienführung"
+},
+"Familienführung: Faszination Forschung": {
+"e": "Family tour: Fascination Research",
+"p": "Familienführung: Faszination Forschung"
+},
+"Familienführung: Was macht uns zu Menschen?": {
+"e": "Family management: What makes us human?",
+"p": "Familienführung: Was macht uns zu Menschen?"
+},
 "Familiengottesdienst": {
 "e": "Family service",
 "p": "Familiengottesdienst"
@@ -1395,13 +1731,33 @@
 "e": "Family service on Christmas Eve",
 "p": "Familiengottesdienst an Heiligabend"
 },
+"Familiengottesdienst in St. Georg Küsnacht": {
+"e": "Family service in St. Georg Küsnacht",
+"p": "Familiengottesdienst in St. Georg Küsnacht"
+},
+"Familiengottesdienst mit": {
+"e": "Family service with",
+"p": "Familiengottesdienst mit"
+},
 "Familiengottesdienst mit Krippenspiel": {
 "e": "Family service with nativity play",
 "p": "Familiengottesdienst mit Krippenspiel"
 },
+"Familiengottesdienst mit Krippenspiel – Weihnachten gemeinsam erleben": {
+"e": "Family service with nativity play – experience Christmas together",
+"p": "Familiengottesdienst mit Krippenspiel – Weihnachten gemeinsam erleben"
+},
 "Familiengottesdienst mit Samichlausbesuch und Workshops": {
 "e": "Family service with Samichlaus visit and workshops",
 "p": "Familiengottesdienst mit Samichlausbesuch und Workshops"
+},
+"Familiengottesdienst mit Tauferinnerung für alle Drittklässler": {
+"e": "Family service for all third-graders",
+"p": "Familiengottesdienst mit Tauferinnerung für alle Drittklässler"
+},
+"Familiengottesdienst mit den 4.-Klass-Untikindern": {
+"e": "Family service with the 4th-class children",
+"p": "Familiengottesdienst mit den 4.-Klass-Untikindern"
 },
 "Familiengottesdienst mit den Sternsinger:innen": {
 "e": "Family service with the Sternsinger:",
@@ -1410,6 +1766,18 @@
 "Familiengottesdienst mit den Sternsingern": {
 "e": "Family service with the Sternsingeren",
 "p": "Familiengottesdienst mit den Sternsingern"
+},
+"Familiengottesdienst und Kinderliturgie mit Empfang der Sternsinger": {
+"e": "Family service and children's liturgy with reception of the Sternsinger",
+"p": "Familiengottesdienst und Kinderliturgie mit Empfang der Sternsinger"
+},
+"Familiengottesdienst zu Christkönig mit Taufe": {
+"e": "Family service to Christ King with Baptism",
+"p": "Familiengottesdienst zu Christkönig mit Taufe"
+},
+"Familiengottesdienst zu Dreikönige mit Apero": {
+"e": "Family service to Three Kings with Apero",
+"p": "Familiengottesdienst zu Dreikönige mit Apero"
 },
 "Familiengottesdienst zu Ostern": {
 "e": "Family service at Easter",
@@ -1439,6 +1807,10 @@
 "e": "Family service to Saint Nicholas",
 "p": "Familiengottesdienst zum Sankt Nikolaus"
 },
+"Familiengottesdienst zur HGU-Eröffnung": {
+"e": "Family service for the opening of the HGU",
+"p": "Familiengottesdienst zur HGU-Eröffnung"
+},
 "Familiengottesdienst, Lichtmesse mit Blasius- und Kerzensegen": {
 "e": "Family service, Light Mass with Blasius and Candle Blessings",
 "p": "Familiengottesdienst, Lichtmesse mit Blasius- und Kerzensegen"
@@ -1455,9 +1827,29 @@
 "e": "Family Kafi and Mothers'/Father Counselling",
 "p": "Familienkafi und Mütter-/Väterberatung"
 },
+"Familienkonzert «Klanghotel der Gefühle»": {
+"e": "Family Concert «Klanghotel der Emotionen»",
+"p": "Familienkonzert «Klanghotel der Gefühle»"
+},
+"Familienkonzert: Bilder einer Ausstellung – ein Museumskrimi": {
+"e": "Family concert: pictures of an exhibition – a museum crime",
+"p": "Familienkonzert: Bilder einer Ausstellung – ein Museumskrimi"
+},
+"Familienkonzert: Das magische Tor": {
+"e": "Family Concert: The Magic Gate",
+"p": "Familienkonzert: Das magische Tor"
+},
+"Familienkonzert: Silberbüx – Mit Knall und Tätsch": {
+"e": "Family concert: Silberbüx – with bang and tätsch",
+"p": "Familienkonzert: Silberbüx – Mit Knall und Tätsch"
+},
 "Familiennachmittag des Handharmonikaclub Illnau-Effretikon": {
 "e": "Family afternoon of the Illnau-Effretikon accordion club",
 "p": "Familiennachmittag des Handharmonikaclub Illnau-Effretikon"
+},
+"Familienrorate": {
+"e": "Family rosters",
+"p": "Familienrorate"
 },
 "Familientag - Anlaufstelle Frühe Kindheit": {
 "e": "Family Day - Early Childhood Contact",
@@ -1474,6 +1866,14 @@
 "Familientag Blumenstrasse - Kreativatelier": {
 "e": "Family Day Blumenstrasse - Creative Studio",
 "p": "Familientag Blumenstrasse - Kreativatelier"
+},
+"Familientag Salto": {
+"e": "Family Day Salto",
+"p": "Familientag Salto"
+},
+"Familientag im Löwenbräukunst": {
+"e": "Family Day in the Lion's Brewing Art",
+"p": "Familientag im Löwenbräukunst"
 },
 "Familientreff": {
 "e": "Family meeting",
@@ -1499,6 +1899,10 @@
 "e": "Family Christmas",
 "p": "Familienweihnacht"
 },
+"Familienweihnacht mit": {
+"e": "Family Christmas with",
+"p": "Familienweihnacht mit"
+},
 "Familienweihnacht mit Krippenspiel": {
 "e": "Family Christmas with nativity game",
 "p": "Familienweihnacht mit Krippenspiel"
@@ -1510,6 +1914,22 @@
 "Familienweihnachtsfeier am Heiligabend": {
 "e": "Family Christmas celebration on Christmas Eve",
 "p": "Familienweihnachtsfeier am Heiligabend"
+},
+"Familienweihnachtsfeier mit Krippenspiel. Alle Jahre wieder freuen": {
+"e": "Family Christmas party with nativity play. Happy again every year",
+"p": "Familienweihnachtsfeier mit Krippenspiel. Alle Jahre wieder freuen"
+},
+"Familienweihnachtsgottesdienst mit Krippenspiel": {
+"e": "Family Christmas service with nativity play",
+"p": "Familienweihnachtsgottesdienst mit Krippenspiel"
+},
+"Familienwortgottesdienst mit Weihnachtsmusical, Kirche St. Anton": {
+"e": "Family Word Service with Christmas Musical, Church of St. Anton",
+"p": "Familienwortgottesdienst mit Weihnachtsmusical, Kirche St. Anton"
+},
+"Familienzmittag": {
+"e": "Family day",
+"p": "Familienzmittag"
 },
 "Farsi/Dari: Informationen zum Zürcher Schulsystem": {
 "e": "Farsi/Dari: Information on the Zurich school system",
@@ -1547,6 +1967,10 @@
 "e": "Carnival Wislig",
 "p": "Fasnacht Wislig"
 },
+"Fasnachts-Gottesdienst mit": {
+"e": "Fasnacht's service with",
+"p": "Fasnachts-Gottesdienst mit"
+},
 "Fasnachts-Party": {
 "e": "Fasnacht party",
 "p": "Fasnachts-Party"
@@ -1554,6 +1978,10 @@
 "Fasnachtsball im Bächli": {
 "e": "Fasnachtsball in Bächli",
 "p": "Fasnachtsball im Bächli"
+},
+"Fasnachtsbar Chliriethalle Damenriege Oberglatt ab 19 Uhr": {
+"e": "Carnival bar Chliriethalle Damenriege Oberglatt from 7 pm",
+"p": "Fasnachtsbar Chliriethalle Damenriege Oberglatt ab 19 Uhr"
 },
 "Fasnachtsplaketten - Malen": {
 "e": "Fasnachtsplaketten - Painting",
@@ -1574,6 +2002,10 @@
 "Ferienwerkstatt Naturmuseum": {
 "e": "Holiday Workshop Nature Museum",
 "p": "Ferienwerkstatt Naturmuseum"
+},
+"Festtags-Matinee": {
+"e": "Day matinee",
+"p": "Festtags-Matinee"
 },
 "Fidibus präsentiert: Schneewittli": {
 "e": "Fidibus presents: Schneewittli",
@@ -1603,6 +2035,10 @@
 "e": "Celebrating with the Little Family Christmas",
 "p": "Feiern mit den Kleinen Familienweihnacht"
 },
+"Fiire mit de Chliine Wiehnacht": {
+"e": "Celebrating with the Little Wiehnacht",
+"p": "Feiern mit den Kleinen Wiehnacht"
+},
 "Fiire mit de Chliine und de Grosse": {
 "e": "Celebrations with the little ones and de Grosse",
 "p": "Feiern mit den Kleinen und de Grosse"
@@ -1610,6 +2046,10 @@
 "Fiire mit de Chliine zur Fasnacht": {
 "e": "Celebrating with the little ones for Carnival",
 "p": "Feiern mit den Kleinen zur Fasnacht"
+},
+"Fiire mit de Chliine, ref. Kirche": {
+"e": "Celebrations with the little ones, ref. Church",
+"p": "Feiern mit den Kleinen, ref. Kirche"
 },
 "Fiire mit de Chline": {
 "e": "Celebrating with the Chline",
@@ -1619,9 +2059,17 @@
 "e": "Celebrations with the Chline",
 "p": "Feiern mit dä Chline"
 },
+"Film Abend «The Chosen»": {
+"e": "Film Evening «The Chosen»",
+"p": "Film Abend «The Chosen»"
+},
 "Filmabend": {
 "e": "Film night",
 "p": "Filmabend"
+},
+"Filmabend «The Chosen-die Auserwählten» 6. Staffel": {
+"e": "Film evening «The Chosen-the Chosen» 6th season",
+"p": "Filmabend «The Chosen-die Auserwählten» 6. Staffel"
 },
 "Fingerspiele und Kinderverse": {
 "e": "Finger games and children's verses",
@@ -1630,6 +2078,10 @@
 "FinkeZwitschere": {
 "e": "FinkeTwitters",
 "p": "FinkeZwitschere"
+},
+"Firmkurs 3.OS: Firmtag 1": {
+"e": "Firm course 3.OS: Firmtag 1",
+"p": "Firmkurs 3.OS: Firmtag 1"
 },
 "Flower Power \"Osterbasteln\"": {
 "e": "Flower Power \"Osterbasteln\"",
@@ -1655,9 +2107,41 @@
 "e": "Research Workshop - Christmas Special",
 "p": "Forscherwerkstatt - Weihnachts-Special"
 },
+"Fotihöck Pfarreilager": {
+"e": "Fotihöck parish camp",
+"p": "Fotihöck Pfarreilager"
+},
+"Friedenslichfeier": {
+"e": "Peace celebration",
+"p": "Friedenslichfeier"
+},
 "Friedenslicht - Ein kleines Licht auf grosser Reise": {
 "e": "Peace light - A small light on a big journey",
 "p": "Friedenslicht - Ein kleines Licht auf grosser Reise"
+},
+"Friedenslicht 2026": {
+"e": "Peacelight 2026",
+"p": "Friedenslicht 2026"
+},
+"Friedenslicht 2026 «Mache dich auf und werde licht»": {
+"e": "Peace light 2026 \"Get up and be lighted\"",
+"p": "Friedenslicht 2026 «Mache dich auf und werde licht»"
+},
+"Friedenslicht 2026- Zuversicht für alle": {
+"e": "Peacelight 2026- Confidence for all",
+"p": "Friedenslicht 2026- Zuversicht für alle"
+},
+"Friedenslicht Willkommensfeier mit Teen Life, Marina und Raphi": {
+"e": "Peace Light Welcome with Teen Life, Marina and Raphi",
+"p": "Friedenslicht Willkommensfeier mit Teen Life, Marina und Raphi"
+},
+"Friedenslicht, 13. Dezember 2026": {
+"e": "Peace light, 13 December 2026",
+"p": "Friedenslicht, 13. Dezember 2026"
+},
+"Friedenslicht-Feier": {
+"e": "Peace light celebration",
+"p": "Friedenslicht-Feier"
 },
 "Frischbaum selbst schneiden im Forstgarten Albisgüetli": {
 "e": "Fresh tree itself cut in the forest garden Albisgüetli",
@@ -1667,9 +2151,21 @@
 "e": "Fresh tree cutting itself in the Hönggerberg factory",
 "p": "Frischbaum selbst schneiden im Werkhof Hönggerberg"
 },
+"Früh Sprüh Festival": {
+"e": "Early Spray Festival",
+"p": "Früh Sprüh Festival"
+},
+"Frühlingsmarkt - Z1 Kindergarten": {
+"e": "Spring Market - Z1 Kindergarten",
+"p": "Frühlingsmarkt - Z1 Kindergarten"
+},
 "Frühschwimmen": {
 "e": "Early swimming",
 "p": "Frühschwimmen"
+},
+"Frühstück nach der Roratefeier": {
+"e": "Breakfast after the Rorate party",
+"p": "Frühstück nach der Roratefeier"
 },
 "Fund. Real Madrid Fussballcamp in Glattbrugg / Opfikon": {
 "e": "Fund. Real Madrid Football Camp in Glattbrugg / Oppikon",
@@ -1707,6 +2203,42 @@
 "e": "Stories WEG - The Grossi Reis vo de chline Rhyfee",
 "p": "Geschichten WEG - Die grossi Reis vo de chline Rhyfee"
 },
+"GW Heroes: 4. Klasse, Gruppe 1": {
+"e": "GW Heroes: 4th grade, group 1",
+"p": "GW Heroes: 4. Klasse, Gruppe 1"
+},
+"GW Heroes: 4. Klasse, Gruppe 2": {
+"e": "GW Heroes: 4th grade, group 2",
+"p": "GW Heroes: 4. Klasse, Gruppe 2"
+},
+"GW Heroes: 5./6. Klasse, Gruppe 1": {
+"e": "GW Heroes: 5th/6th class, group 1",
+"p": "GW Heroes: 5./6. Klasse, Gruppe 1"
+},
+"GW Heroes: 5./6. Klasse, Gruppe 2": {
+"e": "GW Heroes: 5th/6th grade, group 2",
+"p": "GW Heroes: 5./6. Klasse, Gruppe 2"
+},
+"GW Kids: 1. Klasse, Gruppe 1": {
+"e": "GW Kids: 1st grade, group 1",
+"p": "GW Kids: 1. Klasse, Gruppe 1"
+},
+"GW Kids: 1. Klasse, Gruppe 2": {
+"e": "GW Kids: 1st grade, group 2",
+"p": "GW Kids: 1. Klasse, Gruppe 2"
+},
+"GW Kids: 1./2. Kindergarten": {
+"e": "GW Kids: 1./2. Kindergarten",
+"p": "GW Kids: 1./2. Kindergarten"
+},
+"GW Kids: 2. Klasse": {
+"e": "GW Kids: 2nd grade",
+"p": "GW Kids: 2. Klasse"
+},
+"GW Teenies: Aktion Friedenslicht": {
+"e": "GW Teenies: Peacelight Action",
+"p": "GW Teenies: Aktion Friedenslicht"
+},
 "GamePlaza is a unique interactive video game museum. This innovative museum offers a blend of vintage and new arcade machines, gaming consoles, PC gaming and Virtual Reality for everyone to enjoy. Ent": {
 "e": "GamePlaza is a unique interactive video game museum. This innovative museum offers a blend of vintage and new arcade machines, gaming consoles, PC gaming and Virtual Reality for everyone to enjoy. Ent",
 "p": "GamePlaza is a unique interactive video game museum. This innovative museum offers a blend of vintage and new arcade machines, gaming consoles, PC gaming and Virtual Reality for everyone to enjoy. Ent"
@@ -1722,6 +2254,10 @@
 "Geld im Griff: Wie bringe ich es meinem Kind bei?": {
 "e": "Money under control: How do I teach my child?",
 "p": "Geld im Griff: Wie bringe ich es meinem Kind bei?"
+},
+"Geld regiert die Welt! Kinderworkshop": {
+"e": "Money rules the world! Children's workshop",
+"p": "Geld regiert die Welt! Kinderworkshop"
 },
 "Gelliplate- Printing": {
 "e": "Gelliplate Printing",
@@ -1819,6 +2355,10 @@
 "e": "Story lesson",
 "p": "Geschichtenstunde"
 },
+"Geschichtenstunde aus der Mongolei": {
+"e": "Story lesson from Mongolia",
+"p": "Geschichtenstunde aus der Mongolei"
+},
 "Geschichtenzeit": {
 "e": "Storytime",
 "p": "Geschichtenzeit"
@@ -1826,6 +2366,10 @@
 "Geschichtenzeit (Kinder ab 4 Jahren)": {
 "e": "Story time (children from 4 years)",
 "p": "Geschichtenzeit (Kinder ab 4 Jahren)"
+},
+"Gespräche und Kaffee": {
+"e": "Conversations and coffee",
+"p": "Gespräche und Kaffee"
 },
 "Gestaltungsatelier Keramik": {
 "e": "Ceramic design studio",
@@ -1851,6 +2395,10 @@
 "e": "Divine service with 4th grade children",
 "p": "Gottesdienst mit 4. Klasse Kindern"
 },
+"Gottesdienst zur Wiedereröffnung der Limi mit Aufnahme neuer LiMinis": {
+"e": "Divine service for the reopening of the Limi with new LiMinis",
+"p": "Gottesdienst zur Wiedereröffnung der Limi mit Aufnahme neuer LiMinis"
+},
 "Gratis aufs Glatteis": {
 "e": "Free on the ice",
 "p": "Gratis aufs Glatteis"
@@ -1862,6 +2410,10 @@
 "Grittibänz backen auf dem Robinsonspielplatz": {
 "e": "Breastballs Bake on the Robinson playground",
 "p": "Grittibänz (Brotmännchen) backen auf dem Robinsonspielplatz"
+},
+"Grittibänz backen im Eltern-Kind-Treff": {
+"e": "Breast Meat Baking in the Parent-Child-Treff",
+"p": "Grittibänz (Brotmännchen) backen im Eltern-Kind-Treff"
 },
 "Grittibänz backen in der Bibliothek": {
 "e": "Bake in the library",
@@ -1910,6 +2462,10 @@
 "Grosser Spielplatz, neun Kindermenüs, Malsachen": {
 "e": "Big playground, nine children's menus, painting stuff",
 "p": "Grosser Spielplatz, neun Kindermenüs, Malsachen"
+},
+"Gruppenstunde Jubla": {
+"e": "Group hour Jubla",
+"p": "Gruppenstunde Jubla"
 },
 "Gschichte Chischte": {
 "e": "Stories Chischt",
@@ -1991,6 +2547,10 @@
 "e": "Hasenmama - A Bruno Story",
 "p": "Hasenmama - Eine Bruno-Geschichte"
 },
+"Hauptprobe Krippenspiel": {
+"e": "Main sample Crib game",
+"p": "Hauptprobe Krippenspiel"
+},
 "Hausbesuche durch den Samichlaus": {
 "e": "Home visits by Saint Nicholas",
 "p": "Hausbesuche durch den Sankt Nikolaus"
@@ -2002,6 +2562,10 @@
 "Heidi (Theater Kanton Zürich) Familienvorstellung für alle ab 6 Jahren": {
 "e": "Heidi (Theater Kanton Zürich) Family performance for all from 6 years",
 "p": "Heidi (Theater Kanton Zürich) Familienvorstellung für alle ab 6 Jahren"
+},
+"Heiligabend für Familien": {
+"e": "Christmas Eve for families",
+"p": "Heiligabend für Familien"
 },
 "Heiligabend und Weihnachten": {
 "e": "Christmas Eve and Christmas",
@@ -2015,6 +2579,10 @@
 "e": "Hello Family",
 "p": "Hello Family"
 },
+"Herzlich willkommen, Samichlaus!": {
+"e": "Welcome, Saint Nicholas!",
+"p": "Herzlich willkommen, Sankt Nikolaus!"
+},
 "Herzliche Einladung zum Kerzenziehen in Schwerzenbach": {
 "e": "Cordial invitation to candle-drawing in Schwerzenbach",
 "p": "Herzliche Einladung zum Kerzenziehen in Schwerzenbach"
@@ -2023,9 +2591,29 @@
 "e": "Warm invitation to the Christmas musical, performed by the children and teenagers of the Glattalchurch",
 "p": "Herzliche Einladung zum Weihnachtsmusical, aufgeführt von den Kindern und Teenagern der Glattalchurch"
 },
+"Hey, hey, hey Taxi": {
+"e": "Hey, hey, hey Taxi",
+"p": "Hey, hey, hey Taxi"
+},
 "Hits aus dem Kinderzimmer \"Chinder Helde\"": {
 "e": "Hits from the children's room \"Kinder Helde\"",
 "p": "Hits aus dem Kinderzimmer \"Kinder Helde\""
+},
+"Hl. Messe mit Aussendung Samichlaus und Chinderchile": {
+"e": "Holy Mass with Saint Nicholas and Cinderchile",
+"p": "Hl. Messe mit Aussendung Sankt Nikolaus und Chinderchile"
+},
+"Hl. Messe mit Krippenspiel, Hütten": {
+"e": "Holy Mass with nativity play, huts",
+"p": "Hl. Messe mit Krippenspiel, Hütten"
+},
+"Hl. Messe, Chinderchile, St. Marien (Gr. Saal)": {
+"e": "Holy Mass, Chinderchile, St. Mary (Gr. Hall)",
+"p": "Hl. Messe, Chinderchile, St. Marien (Gr. Saal)"
+},
+"Hl. Messe/Kirchweihfest": {
+"e": "Holy Mass/Christmas",
+"p": "Hl. Messe/Kirchweihfest"
 },
 "Hochwacht, 1655 zum festen Wachturm ausgebaut, 1812 aufgelassen.": {
 "e": "Hochwacht, built in 1655 to the fixed watchtower, opened in 1812.",
@@ -2046,6 +2634,10 @@
 "Häsli Turne": {
 "e": "Häsli Turne",
 "p": "Häsli Turne"
+},
+"Illuminarium": {
+"e": "Illuminarium",
+"p": "Illuminarium"
 },
 "Im Stadtpark von Uster befindet sich ein kleiner Spielplatz mit Rutsche, einer Drehscheibe und einem kleinen Klettergerüst. Ein paar Bäume spenden Schatten über Sandkasten und Sitzbänke. Nebenan befindet sich eine kleine Wiese zum Spielen und entspannen.": {
 "e": "In the city park of Uster there is a small playground with slide, a turntable and a small climbing frame. A few trees provide shade over sandpit and benches. Next door there is a small meadow for playing and relaxing.",
@@ -2074,6 +2666,10 @@
 "Indoor-Spielplatz, Kindermenü": {
 "e": "Indoor playground, children's menu",
 "p": "Indoor-Spielplatz, Kindermenü"
+},
+"Indoorspielplatz Treff": {
+"e": "Indoor playground Treff",
+"p": "Indoorspielplatz Treff"
 },
 "Info-Veranstaltung: Deine Lehre bei den Gesundheitszentren für das Alter": {
 "e": "Info event: Your apprenticeship at the health centres for old age",
@@ -2143,9 +2739,17 @@
 "e": "Anniversary of the magic lantern Dübendorf",
 "p": "Jubiläum der Zauberlaterne Dübendorf"
 },
+"Jublinis - Jubla Montezuma": {
+"e": "Jublinis - Jubla Montezuma",
+"p": "Jublinis - Jubla Montezuma"
+},
 "Jugendcoaching": {
 "e": "Youth coaching",
 "p": "Jugendcoaching"
+},
+"Jugendlounge in Uetikon": {
+"e": "Youth lounge in Uetikon",
+"p": "Jugendlounge in Uetikon"
 },
 "Jugendtreff": {
 "e": "Youth meeting",
@@ -2191,6 +2795,10 @@
 "e": "SMALL CUNSTIVAL",
 "p": "KLEINesKUNSTFESTIVAL"
 },
+"Kafi & Begegnung": {
+"e": "Café & Encounter",
+"p": "Café & Begegnung"
+},
 "Kamishibai": {
 "e": "Kamishibai",
 "p": "Kamishibai"
@@ -2227,9 +2835,17 @@
 "e": "Kamishibai in Advent",
 "p": "Kamishibai im Advent"
 },
+"Kamishibai-Bildergeschichten": {
+"e": "Kamishibai picture stories",
+"p": "Kamishibai-Bildergeschichten"
+},
 "Kamishibai-Koffertheater": {
 "e": "Kamishibai case theatre",
 "p": "Kamishibai-Koffertheater"
+},
+"Kammermusik-Matinee": {
+"e": "Chamber music matinee",
+"p": "Kammermusik-Matinee"
 },
 "Kanu und Kajak – geniale Erfindungen": {
 "e": "Canoe and kayak – ingenious inventions",
@@ -2262,6 +2878,10 @@
 "Kasperlitheater: «De Samichlaus macht es Durenand»": {
 "e": "Kasperlitheater: «De Sankt Nikolaus macht es Durenand»",
 "p": "Kasperlitheater: «De Sankt Nikolaus macht es Durenand»"
+},
+"Kath. Frauenverein: De Samichlaus chunnt": {
+"e": "Kath. Frauenverein: De Sankt Nikolaus chunnt",
+"p": "Kath. Frauenverein: De Sankt Nikolaus chunnt"
 },
 "Kath. Kirche: Familienweihnacht": {
 "e": "Kath. Church: Family Christmas",
@@ -2331,6 +2951,10 @@
 "e": "Candle pulling Wildbachstrasse / Langgasse",
 "p": "Kerzenziehen Wildbachstrasse / Langgasse"
 },
+"Kerzenziehen am Hechtplatz": {
+"e": "Candle-drawing at the pike's place",
+"p": "Kerzenziehen am Hechtplatz"
+},
 "Kerzenziehen auf dem Bauspielplatz": {
 "e": "Candle-drawing on the building playground",
 "p": "Kerzenziehen auf dem Bauspielplatz"
@@ -2379,6 +3003,10 @@
 "e": "Candle-drawing public",
 "p": "Kerzenziehen öffentlich"
 },
+"Kids Church": {
+"e": "Kids Church",
+"p": "Kids Church"
+},
 "Kids Lounge mit Märchentelefon, Kinderecke, Kinderspeisen": {
 "e": "Kids lounge with fairytale telephone, children's corner, children's food",
 "p": "Kids Lounge mit Märchentelefon, Kinderecke, Kinderspeisen"
@@ -2403,6 +3031,10 @@
 "e": "Kids holiday program Sports holidays",
 "p": "Kids-Ferienprogramm Sportferien"
 },
+"Kids-Room, Nachmittagstreff für 4.-6. Klasse im Jugendkeller": {
+"e": "Kids room, afternoon meeting for 4-6th class in the youth cellar",
+"p": "Kids-Room, Nachmittagstreff für 4.-6. Klasse im Jugendkeller"
+},
 "KidsZone für 1. bis 4. Klasse": {
 "e": "KidsZone for 1st to 4th grade",
 "p": "KidsZone für 1. bis 4. Klasse"
@@ -2415,6 +3047,10 @@
 "e": "Children First Aid Course",
 "p": "Kinder Erste Hilfe Kurs"
 },
+"Kinder basteln Weihnachtsgeschenke": {
+"e": "Kids make Christmas gifts",
+"p": "Kinder basteln Weihnachtsgeschenke"
+},
 "Kinder dürfen Pizzateig kneten, Raketenglace zum Dessert": {
 "e": "Children are allowed to knead pizza dough, rocket ice cream for dessert",
 "p": "Kinder dürfen Pizzateig kneten, Raketenglace zum Dessert"
@@ -2422,6 +3058,14 @@
 "Kinder- Kino": {
 "e": "Children's cinema",
 "p": "Kinder- Kino"
+},
+"Kinder- und Familiengottesdienst mit Krippenspiel: «Die Suche nach dem Weihnachtsstern...»": {
+"e": "Children's and family service with nativity play: «The Search for the Christmas Star...»",
+"p": "Kinder- und Familiengottesdienst mit Krippenspiel: «Die Suche nach dem Weihnachtsstern...»"
+},
+"Kinder- und Familienweihnacht mit Krippenspiel": {
+"e": "Children's and family Christmas with nativity play",
+"p": "Kinder- und Familienweihnacht mit Krippenspiel"
 },
 "Kinder- und Jugendchor am Weihnachtsmarkt Winterthur": {
 "e": "Children's and youth choir at the Christmas market Winterthur",
@@ -2442,6 +3086,10 @@
 "Kinder-Kleiderbörse Dürnten": {
 "e": "Children's clothing fair Dürnten",
 "p": "Kinder-Kleiderbörse Dürnten"
+},
+"Kinder-Matinee": {
+"e": "Children's matinee",
+"p": "Kinder-Matinee"
 },
 "Kinder-Mittagstisch": {
 "e": "Children's lunch table",
@@ -2503,6 +3151,10 @@
 "e": "Children's Disco Special Edition",
 "p": "Kinderdisco Special Edition"
 },
+"Kinderdisco mit Eltern-Café": {
+"e": "Children's disco with parents' café",
+"p": "Kinderdisco mit Eltern-Café"
+},
 "Kinderecke": {
 "e": "Children's corner",
 "p": "Kinderecke"
@@ -2523,6 +3175,10 @@
 "e": "Kinderfilm 'Minions & Monster'",
 "p": "Kinderfilm 'Minions & Monster'"
 },
+"Kinderführung": {
+"e": "Children's guidance",
+"p": "Kinderführung"
+},
 "Kindergeschichte \"Die Käpfner Bergwerks-Zwerge\"": {
 "e": "Kindergeschichte \"Die Käpfner Bergwerk-Zwerge\"",
 "p": "Kindergeschichte \"Die Käpfner Bergwerks-Zwerge\""
@@ -2530,6 +3186,14 @@
 "Kindergeschichten": {
 "e": "Children's Stories",
 "p": "Kindergeschichten"
+},
+"Kindergottesdienst": {
+"e": "Children's Service",
+"p": "Kindergottesdienst"
+},
+"Kindergottesdienst zum Sami-": {
+"e": "Children's service to the Sami-",
+"p": "Kindergottesdienst zum Sami-"
 },
 "Kinderhausfasnacht": {
 "e": "Children's housefasnacht",
@@ -2559,6 +3223,10 @@
 "e": "Children's card, playground, meadow, rabbit",
 "p": "Kinderkarte, Spielplatz, Wiese, Hasen"
 },
+"Kinderkatechese": {
+"e": "Child catechesis",
+"p": "Kinderkatechese"
+},
 "Kinderkino": {
 "e": "Children's cinema",
 "p": "Kinderkino"
@@ -2582,6 +3250,10 @@
 "Kinderkonzert Tante Carmen": {
 "e": "Children's concert Aunt Carmen",
 "p": "Kinderkonzert Tante Carmen"
+},
+"Kinderkonzert «Tschüss Papagei»": {
+"e": "Children's concert «Tschüss Parrot»",
+"p": "Kinderkonzert «Tschüss Papagei»"
 },
 "Kinderlesung: Fabu Federkiel und das Geheimnis der Schulbibliothek": {
 "e": "Children's Reading: Fabu Federkiel and the Secret of the School Library",
@@ -2623,6 +3295,10 @@
 "e": "Kindermette on Christmas Eve",
 "p": "Kindermette am Heilig Abend"
 },
+"Kindermette und Eucharistiefeier mit Krippenspiel": {
+"e": "Kindermette and Eucharistic celebration with nativity play",
+"p": "Kindermette und Eucharistiefeier mit Krippenspiel"
+},
 "Kindermusical Schellenursli": {
 "e": "Children's musical bell ursli",
 "p": "Kindermusical Schellenursli"
@@ -2630,6 +3306,10 @@
 "Kindermusical «Schneewittli»": {
 "e": "Children's musical «Schneewittli»",
 "p": "Kindermusical «Schneewittli»"
+},
+"Kinderopernorcherster": {
+"e": "Children's opera nostrils",
+"p": "Kinderopernorcherster"
 },
 "Kinderrestaurant mit Betreuung an bestimmten Daten (Reservation nötig)": {
 "e": "Children's restaurant with support at certain dates (reservation required)",
@@ -2675,6 +3355,10 @@
 "e": "Children's Christmas with nativity play",
 "p": "Kinderweihnacht mit Krippenspiel"
 },
+"Kinderweihnachts-Gottesdienst mit Chinder-/Jugendchor": {
+"e": "Children's Christmas service with children's/youth choir",
+"p": "Kinderweihnachts-Gottesdienst mit Kinder-/Jugendchor"
+},
 "Kinderwoche": {
 "e": "Children's week",
 "p": "Kinderwoche"
@@ -2719,6 +3403,14 @@
 "e": "Church of Kunterbunt",
 "p": "Kirche Kunterbunt"
 },
+"Kirche Kunterbunt «ich halte dich» Jahreslosung 2027": {
+"e": "Church Kunterbunt «I keep you» Annual draw 2027",
+"p": "Kirche Kunterbunt «ich halte dich» Jahreslosung 2027"
+},
+"Kirche-für-Kinder (2.KG-1.Kl.) Unti-Treff": {
+"e": "Church-for-children (2.KG-1.Kl.) Unti-Treff",
+"p": "Kirche-für-Kinder (2.KG-1.Kl.) Unti-Treff"
+},
 "Klangmeditation alte Badi Robenhausen - draussen unter Dach": {
 "e": "Sound meditation old Badi Robenhausen - outside under roof",
 "p": "Klangmeditation alte Badi Robenhausen - draussen unter Dach"
@@ -2751,6 +3443,10 @@
 "e": "Small playroom",
 "p": "Kleines Spielzimmer"
 },
+"Kleinkinderfeier": {
+"e": "Young children's party",
+"p": "Kleinkinderfeier"
+},
 "Knirpsentreff im Spielzimmer": {
 "e": "Knirpsenreff in the game room",
 "p": "Knirpsentreff im Spielzimmer"
@@ -2775,6 +3471,14 @@
 "e": "Hummingbird Family Service",
 "p": "Kolibri-Familiengottesdienst"
 },
+"Kommunionfeier mit Jung und Alt und Samichlaus-Aussendung": {
+"e": "Communion celebration with young and old and Saint Nicholas",
+"p": "Kommunionfeier mit Jung und Alt und Sankt Nikolaus-Aussendung"
+},
+"Kommunionfeier mit Jung und Alt zum Dreikönigsfest": {
+"e": "Communion celebration with young and old at the Three King's Festival",
+"p": "Kommunionfeier mit Jung und Alt zum Dreikönigsfest"
+},
 "Konzert mit Peter Schindler & Peter Lehel": {
 "e": "Concert with Peter Schindler & Peter Lehel",
 "p": "Konzert mit Peter Schindler & Peter Lehel"
@@ -2790,6 +3494,10 @@
 "Krabbel-Kafi in der Bibliothek": {
 "e": "Krabbel-Café in the library",
 "p": "Krabbel-Café in der Bibliothek"
+},
+"Krabbelgruppe Rägäboge": {
+"e": "Krabbelgruppe Rägäboge",
+"p": "Krabbelgruppe Rägäboge"
 },
 "Krabbelgruppe im Spielzimmer": {
 "e": "Crab group in the game room",
@@ -2835,6 +3543,18 @@
 "e": "Creative workshop for families",
 "p": "Kreativwerkstatt für Familien"
 },
+"Kreise": {
+"e": "Circles",
+"p": "Kreise"
+},
+"Krimihörspiel «Die drei ???»": {
+"e": "The three of them???",
+"p": "Krimihörspiel «Die drei ???»"
+},
+"Krippenfeier für Kinder und Erwachsene": {
+"e": "Nativity party for children and adults",
+"p": "Krippenfeier für Kinder und Erwachsene"
+},
 "Krippenspiel": {
 "e": "Crib game",
 "p": "Krippenspiel"
@@ -2843,9 +3563,57 @@
 "e": "Nativity game Bethlehem",
 "p": "Krippenspiel Bethlehem"
 },
+"Krippenspiel Generalprobe": {
+"e": "Crib game rehearsal",
+"p": "Krippenspiel Generalprobe"
+},
+"Krippenspiel Hauptprobe": {
+"e": "Crib game main sample",
+"p": "Krippenspiel Hauptprobe"
+},
+"Krippenspiel Probe": {
+"e": "Crib game sample",
+"p": "Krippenspiel Probe"
+},
+"Krippenspiel mit Kindern aus Oberrieden": {
+"e": "Crib game with children from Oberrieden",
+"p": "Krippenspiel mit Kindern aus Oberrieden"
+},
+"Krippenspiel zu Weihnachten": {
+"e": "Christmas Crib Game",
+"p": "Krippenspiel zu Weihnachten"
+},
+"Krippenspiel «D’ Ängel wänd no bliibe»": {
+"e": "Crib game «D-Angels wänd no bliibe»",
+"p": "Krippenspiel «D’ Ängel wänd no bliibe»"
+},
+"Krippenspiel-Hauptprobe": {
+"e": "crib game main sample",
+"p": "Krippenspiel-Hauptprobe"
+},
+"Krippenspielprobe": {
+"e": "Crib game test",
+"p": "Krippenspielprobe"
+},
+"Krunica": {
+"e": "Krunica",
+"p": "Krunica"
+},
 "Kulturmama’s English Storytime": {
 "e": "Kulturmama-s English Storytime",
 "p": "Kulturmama’s English Storytime"
+},
+"Kunterwunderbunt: Abschlusskonzert «Fest der Farben»": {
+"e": "Kunterwunderbunt: Final concert «Festival of Colours»",
+"p": "Kunterwunderbunt: Abschlusskonzert «Fest der Farben»"
+},
+"Kunterwunderbunt: Rot, Rot, Rot": {
+"e": "Magnificent: Red, Red, Red",
+"p": "Kunterwunderbunt: Rot, Rot, Rot"
+},
+"Kunterwunderbunt: Schwarz und Weiss wie Zebra": {
+"e": "Magnificent: Black and white like zebra",
+"p": "Kunterwunderbunt: Schwarz und Weiss wie Zebra"
 },
 "Kurs Notfälle für Kinder 0-4": {
 "e": "Course Emergency cases for children 0-4",
@@ -2866,6 +3634,10 @@
 "Lancierung der Kampagne \"go offline\"": {
 "e": "Launch of the campaign \"go offline\"",
 "p": "Lancierung der Kampagne \"go offline\""
+},
+"Langnauer Weihnachtsmarkt in der Schwerzi": {
+"e": "Langnau Christmas Market in the Schwerzi",
+"p": "Langnauer Weihnachtsmarkt in der Schwerzi"
 },
 "Laternenbasteln": {
 "e": "lanterns",
@@ -2907,13 +3679,25 @@
 "e": "Reading in the dark",
 "p": "Lesen im Dunkeln"
 },
+"Licht und Adventslieder": {
+"e": "Light and Advent songs",
+"p": "Licht und Adventslieder"
+},
 "Licht und Stille": {
 "e": "Light and silence",
 "p": "Licht und Stille"
 },
+"Lichterfeier in Kleinandelfingen, im Anschluss Imbiss im Zentrum": {
+"e": "Light party in Kleinandelfingen, followed by snack in the center",
+"p": "Lichterfeier in Kleinandelfingen, im Anschluss Imbiss im Zentrum"
+},
 "Lichterweg Thalwil-Oberrieden": {
 "e": "Lichterweg Thalwil-Oberrieden",
 "p": "Lichterweg Thalwil-Oberrieden"
+},
+"Light up the Night: Gemeinsam durch den Advent": {
+"e": "Light up the Night: Together through Advent",
+"p": "Light up the Night: Gemeinsam durch den Advent"
 },
 "Linard Bardill & Bruno Brandenberger": {
 "e": "Linard Bardill & Bruno Brandenberger",
@@ -2922,6 +3706,10 @@
 "Linard Bardill - Was i ned weiss, weiss mini Geiss": {
 "e": "Linard Bardill - What i ned white, white mini Geiss",
 "p": "Linard Bardill - Was i ned weiss, weiss mini Geiss"
+},
+"Lindt Home of Chocolate": {
+"e": "Lindt Home of Chocolate",
+"p": "Lindt Home of Chocolate"
 },
 "Lisa Brunner im Ortsmuseum Küsnacht": {
 "e": "Lisa Brunner in the local museum Küsnacht",
@@ -2942,6 +3730,10 @@
 "Luftibus & Martin Kaspar Orkestra": {
 "e": "Luftibus & Martin Kaspar Orkestra",
 "p": "Luftibus & Martin Kaspar Orkestra"
+},
+"Lösbar-Liminade": {
+"e": "Soluble liminade",
+"p": "Lösbar-Liminade"
 },
 "MINI DECKI - wir nähen Patchworkdecken für geflüchtete Kinder und Jugendliche": {
 "e": "MINI Decki - we sew patchwork blankets for refugee children and adolescents",
@@ -3023,6 +3815,14 @@
 "e": "Midnight Sports Töss on Saturday",
 "p": "Midnight Sports Töss am Samstag"
 },
+"Mini Treff Kinonachmittag": {
+"e": "Mini meeting cinema afternoon",
+"p": "Mini Treff Kinonachmittag"
+},
+"Mini-Treff Guetzle-Nachmittag": {
+"e": "Mini-Treff Guetzle afternoon",
+"p": "Mini-Treff Guetzle-Nachmittag"
+},
 "Miniclub Bibliothek Hegi": {
 "e": "Miniclub Library Hegi",
 "p": "Miniclub Bibliothek Hegi"
@@ -3050,6 +3850,18 @@
 "Miniclub in der Stadtbibliothek": {
 "e": "Miniclub in the city library",
 "p": "Miniclub in der Stadtbibliothek"
+},
+"Minikirche": {
+"e": "Mini Church",
+"p": "Minikirche"
+},
+"Minimum": {
+"e": "Minimum",
+"p": "Minimum"
+},
+"Misa de Navidad": {
+"e": "Misa de Navidad",
+"p": "Misa de Navidad"
 },
 "Mit Ausblick über Uster bietet der Spielplatz am Rebenweg ein grosses Klettergerüst mit Schaukel, sowie Balancierbaumstämme, eine Wasserrinne zum Spielen und eine Spielwiese. Etwas erhöht hat es einige Picknickbänke in der Sonne wie auch im Schatten.": {
 "e": "With a view over Uster, the playground on the Rebenweg offers a large climbing frame with swings, as well as balancing tree trunks, a water channel for playing and a playground. It has slightly increased some picnic benches in the sun as well as in the shade.",
@@ -3103,6 +3915,10 @@
 "e": "Model railway",
 "p": "Modelleisenbahn"
 },
+"Morgenforschen": {
+"e": "Morning research",
+"p": "Morgenforschen"
+},
 "Morgenstund hat Gold im Mund": {
 "e": "Morning hour has gold in his mouth",
 "p": "Morgenstund hat Gold im Mund"
@@ -3122,6 +3938,18 @@
 "Museum und Fanshop des Fussballclub FCZ": {
 "e": "Museum and Fanshop of FCZ Football Club",
 "p": "Museum und Fanshop des Fussballclub FCZ"
+},
+"Musikgeschichten «Der Zauberschatz im Rhein»": {
+"e": "Musical Stories «The Magic Treasure in the Rhine»",
+"p": "Musikgeschichten «Der Zauberschatz im Rhein»"
+},
+"Musikgeschichten «Die Werkstatt der Schmetterlinge»": {
+"e": "Musical Stories «The Workshop of Butterflies»",
+"p": "Musikgeschichten «Die Werkstatt der Schmetterlinge»"
+},
+"Musikgeschichten «Heidi, Gian & Giachen: Auf zum Gipfel des Schwarzhorns»": {
+"e": "Musical stories «Heidi, Gian & Giachen: On to the summit of the Schwarzhorn»",
+"p": "Musikgeschichten «Heidi, Gian & Giachen: Auf zum Gipfel des Schwarzhorns»"
 },
 "Märchen im zauberhaften Märliwald": {
 "e": "Fairytale in the magical Marliwald",
@@ -3199,6 +4027,10 @@
 "e": "NLA Unihockey: UHC Uster - Tigers Langnau",
 "p": "NLA Unihockey: UHC Uster - Tigers Langnau"
 },
+"Nativity Play": {
+"e": "Nativity Play",
+"p": "Nativity Play"
+},
 "Naturnaher Spielplatz": {
 "e": "Near-natural playground",
 "p": "Naturnaher Spielplatz"
@@ -3219,6 +4051,10 @@
 "e": "New: Adventskafi with crafts for families",
 "p": "Neu: Adventskafi mit Basteln für Familien"
 },
+"Neue Minis – herzlich willkommen!": {
+"e": "New Minis – welcome!",
+"p": "Neue Minis – herzlich willkommen!"
+},
 "Neuer Kurs – Singe mit de Chliinschte – jetzt anmelden": {
 "e": "New course – singing with the smallest ones – register now",
 "p": "Neuer Kurs – Singen mit den Kleinsten – jetzt anmelden"
@@ -3230,6 +4066,18 @@
 "Nightball": {
 "e": "Nightball",
 "p": "Nightball"
+},
+"Nikolausaussendungsfeier, I. Bolliger, R. Metzenthin": {
+"e": "Nikolaus Ausführungsfeier, I. Bolliger, R. Metzenthin",
+"p": "Nikolausaussendungsfeier, I. Bolliger, R. Metzenthin"
+},
+"Nikolausbesuch im Waldhüsli": {
+"e": "Visit of Nicholas in the Waldhüsli",
+"p": "Nikolausbesuch im Waldhüsli"
+},
+"Nils Holgerssons wunderbare Reise": {
+"e": "Nils Holgersson's wonderful journey",
+"p": "Nils Holgerssons wunderbare Reise"
 },
 "Nistkasten Reinigung": {
 "e": "Nest box cleaning",
@@ -3287,6 +4135,10 @@
 "e": "Open game tower/ ElKi-Treff",
 "p": "Offener Spielturm/ ElKi-Treff"
 },
+"Offener Treff": {
+"e": "Open meeting",
+"p": "Offener Treff"
+},
 "Offener Treff Allmend": {
 "e": "Open meeting Allmend",
 "p": "Offener Treff Allmend"
@@ -3298,6 +4150,14 @@
 "Offener Waldnachmittag mit Waldkinder": {
 "e": "Open forest afternoon with forest children",
 "p": "Offener Waldnachmittag mit Waldkinder"
+},
+"Offenes Adventssingen": {
+"e": "Open Advent Singing",
+"p": "Offenes Adventssingen"
+},
+"Offenes Atelier für Alle": {
+"e": "Open Studio for All",
+"p": "Offenes Atelier für Alle"
 },
 "Offenes Singen zu Samichlaus, Advent und Weihnachten": {
 "e": "Open singing to Saint Nicholas, Advent and Christmas",
@@ -3339,6 +4199,10 @@
 "e": "OpenSunday",
 "p": "OpenSunday"
 },
+"Oratorio per bambini": {
+"e": "Oratorio per bambini",
+"p": "Oratorio per bambini"
+},
 "Ortsmuseum der Stadt Bülach": {
 "e": "Municipal Museum of the City of Bülach",
 "p": "Ortsmuseum der Stadt Bülach"
@@ -3354,6 +4218,10 @@
 "Osterbasteln in der Bibi": {
 "e": "Easter cakes in the Bibi",
 "p": "Osterbasteln in der Bibi"
+},
+"Outdoor Escape: Die Rache des Schneemanns": {
+"e": "Outdoor Escape: The Revenge of the Snowman",
+"p": "Outdoor Escape: Die Rache des Schneemanns"
 },
 "Ovaler Burghügel mit Mauerspuren, umgeben von einem Wall mit zwei Öffnungen. Wohl ursprünglich frühmittelalterliche Motte, die im 13. Jh. in eine Steinburg umgewandelt wurde. Die Herren v. Hengart erw": {
 "e": "Oval castle hill with traces of the wall, surrounded by a wall with two openings. Probably originally early medieval moth, which was converted into a stone castle in the 13th century.",
@@ -3419,6 +4287,10 @@
 "e": "Pleasure afternoon",
 "p": "Plauschnachmittag"
 },
+"Polarzauber am Hauptbahnhof Zürich": {
+"e": "Polarzauber at Zurich Central Station",
+"p": "Polarzauber am Hauptbahnhof Zürich"
+},
 "Portugiesische Kindergeschichten inkl. Live-Musik aus Portugal": {
 "e": "Portuguese children's stories including live music from Portugal",
 "p": "Portugiesische Kindergeschichten inkl. Live-Musik aus Portugal"
@@ -3434,6 +4306,18 @@
 "Prinzessin ARDITA – Figurentheater “fäderliicht” von Markus Vogt": {
 "e": "Princess Ardita – Figure Theatre by Markus Vogt",
 "p": "Prinzessin Ardita – Figurentheater “fäderliicht” von Markus Vogt"
+},
+"Probe Krippenspiel": {
+"e": "Sample Crib game",
+"p": "Probe Krippenspiel"
+},
+"Probe Weihnachtskrippenspiel": {
+"e": "Probe Christmas Crib Game",
+"p": "Probe Weihnachtskrippenspiel"
+},
+"Probe, Kinderchor": {
+"e": "rehearsal, children's choir",
+"p": "Probe, Kinderchor"
 },
 "Probelektion - Kinderballett - Pre-Ballet für 4- bis 5-Jährige": {
 "e": "Probelection - Children's Ballet - Pre-Ballet for 4- to 5-year-olds",
@@ -3531,6 +4415,50 @@
 "e": "Robotics workshop",
 "p": "Robotik-Workshop"
 },
+"Rorate (Blockunti)": {
+"e": "Rorate (Blockunti)",
+"p": "Rorate (Blockunti)"
+},
+"Rorate für Jung und Alt": {
+"e": "Rorate for young and old",
+"p": "Rorate für Jung und Alt"
+},
+"Rorate für Kinder und Jugendliche": {
+"e": "Rorate for children and adolescents",
+"p": "Rorate für Kinder und Jugendliche"
+},
+"Rorate mit Untischüler*innen und Jugendlichen": {
+"e": "Rorate with students and young people",
+"p": "Rorate mit Untischüler*innen und Jugendlichen"
+},
+"Rorate mit Zmorgen": {
+"e": "Rorate with Zmorgen",
+"p": "Rorate mit Zmorgen"
+},
+"Rorate, in St. Antonius Hirzel": {
+"e": "Rorate, in St. Antonius Hirzel",
+"p": "Rorate, in St. Antonius Hirzel"
+},
+"Rorate-Familiengottesdienst in Feuerthalen": {
+"e": "Rorate Family Service in Feuerthalen",
+"p": "Rorate-Familiengottesdienst in Feuerthalen"
+},
+"Rorate-Familiengottesdienst in Uhwiesen, im Anschluss Frühstück": {
+"e": "Rorate Family Service in Uhwiesen, followed by breakfast",
+"p": "Rorate-Familiengottesdienst in Uhwiesen, im Anschluss Frühstück"
+},
+"Rorate-Feier mit Schulkindern": {
+"e": "Rorate celebration with school children",
+"p": "Rorate-Feier mit Schulkindern"
+},
+"Rorate-Gottesdienst": {
+"e": "Rorate Service",
+"p": "Rorate-Gottesdienst"
+},
+"Rorate-Zmorge für Alle": {
+"e": "Rorate breakfast for all",
+"p": "Rorate-Frühstück für Alle"
+},
 "Rumpelstilzli": {
 "e": "Rumpelstilzli",
 "p": "Rumpelstilzli"
@@ -3570,6 +4498,10 @@
 "SPIELEN, ENTDECKEN UND ERFORSCHEN RUND UMS THEMA MÜNZEN UND GELD": {
 "e": "Play, discover and explore around the theme coins and money",
 "p": "Spielen, entdecken und erforschen rund ums thema münzen und geld"
+},
+"STOFF": {
+"e": "Substance",
+"p": "Stoff"
 },
 "SaNa-Kurs": {
 "e": "SaNa course",
@@ -3611,6 +4543,10 @@
 "e": "Saint Nicholas Library",
 "p": "Sankt Nikolaus Bibliothek"
 },
+"Samichlaus Express": {
+"e": "Saint Nicholas Express",
+"p": "Sankt Nikolaus Express"
+},
 "Samichlaus Familienclub Stallikon - NUR für Mitglieder": {
 "e": "Sankt Nikolaus Familienclub Stallikon - ONLY for members",
 "p": "Sankt Nikolaus Familienclub Stallikon - NUR für Mitglieder"
@@ -3643,6 +4579,10 @@
 "e": "Saint Nicholas in the forest",
 "p": "Sankt Nikolaus im Wald"
 },
+"Samichlaus im Winterzaubergarten": {
+"e": "Saint Nicholas in the Winter Magic Garden",
+"p": "Sankt Nikolaus im Winterzaubergarten"
+},
 "Samichlaus in Ottenbach": {
 "e": "Saint Nicholas in Ottenbach",
 "p": "Sankt Nikolaus in Ottenbach"
@@ -3650,6 +4590,10 @@
 "Samichlaus kommt nach Neerach (mit Anmeldung)": {
 "e": "Saint Nicholas comes to Neerach (with registration)",
 "p": "Sankt Nikolaus kommt nach Neerach (mit Anmeldung)"
+},
+"Samichlaus kommt!": {
+"e": "Saint Nicholas is coming!",
+"p": "Sankt Nikolaus kommt!"
 },
 "Samichlaus obere Luegeten": {
 "e": "Saint Nicholas Upper Luegeten",
@@ -3666,6 +4610,14 @@
 "Samichlaus und Schmutzli kommen uns besuchen": {
 "e": "Saint Nicholas and Schmutzli come to visit us",
 "p": "Sankt Nikolaus und Schmutzli kommen uns besuchen"
+},
+"Samichlaus und Schmutzli kommen!": {
+"e": "Saint Nicholas and Schmutzli are coming!",
+"p": "Sankt Nikolaus und Schmutzli kommen!"
+},
+"Samichlaus-Besuch": {
+"e": "Saint Nicholas' visit",
+"p": "Sankt Nikolaus-Besuch"
 },
 "Samichlaus-Besuch bei der Weihnachtskrippe auf dem Schwertplatz": {
 "e": "St. Nicholas' visit to the Christmas Nativity scene on the Square of Swords",
@@ -3703,9 +4655,17 @@
 "e": "Saint Nicholas carriage",
 "p": "Sankt Nikolaus-Kutsche"
 },
+"Samichlaus-Umzug": {
+"e": "Saint Nicholas procession",
+"p": "Sankt Nikolaus-Umzug"
+},
 "Samichlauseinzug": {
 "e": "Common Customs Tariff",
 "p": "Samichlauseinzug"
+},
+"Samichlausschwimmen": {
+"e": "Samichlaus swimming",
+"p": "Samichlausschwimmen"
 },
 "Samschtigsgschichtli": {
 "e": "Samstigsgschichtli",
@@ -3755,6 +4715,10 @@
 "e": "Schnägg Schnaaggi",
 "p": "Schnägg Schnaaggi"
 },
+"Schopfclub": {
+"e": "Chopping Club",
+"p": "Schopfclub"
+},
 "Schulsilvester Zmorge im Familienzentrum": {
 "e": "Schulsilvester breakfast in the family center",
 "p": "Schulsilvester Frühstück im Familienzentrum"
@@ -3767,6 +4731,18 @@
 "e": "Swiss Reading Day - Picture Book Cinema",
 "p": "Schweizer Vorlesetag - Bilderbuchkino"
 },
+"Schüler Rorate - Lichtfeier": {
+"e": "Pupils Rorate - Light party",
+"p": "Schüler Rorate - Lichtfeier"
+},
+"Schüler-Rorate": {
+"e": "Pupil-Rorate",
+"p": "Schüler-Rorate"
+},
+"Schüler-Rorate, Bruder-Klaus": {
+"e": "Student-Rorate, Brother-Klaus",
+"p": "Schüler-Rorate, Bruder-Klaus"
+},
 "SciStay - Forschen, Entdecken & Staunen für Kinder und Teens.": {
 "e": "SciStay - Research, discovery & wonder for kids and teens.",
 "p": "SciStay - Forschen, Entdecken & Staunen für Kinder und Teens."
@@ -3774,6 +4750,10 @@
 "Secondhand - alles fürs Kind": {
 "e": "Second hand - everything for the child",
 "p": "Secondhand - alles fürs Kind"
+},
+"Segensfeier und Tauferinnerungsfeier für Kleinkinder": {
+"e": "Blessing and Baptism Celebration for Infants",
+"p": "Segensfeier und Tauferinnerungsfeier für Kleinkinder"
 },
 "Sensowelt: Multisensorische Workshops für Kinder": {
 "e": "Sensowelt: Multisensory workshops for children",
@@ -3790,6 +4770,10 @@
 "Sicher durch den Winter mit Kleinkinder": {
 "e": "Safe through the winter with toddlers",
 "p": "Sicher durch den Winter mit Kleinkinder"
+},
+"Siebe Geisse und zwei Wölf": {
+"e": "Thick shit and two wolves",
+"p": "Siebe Geisse und zwei Wölf"
 },
 "Singe mit de Chliine": {
 "e": "Singing with the little ones",
@@ -3822,6 +4806,10 @@
 "Sonntagsverkauf und Weihnachtsmärt": {
 "e": "Sunday sale and Christmas",
 "p": "Sonntagsverkauf und Weihnachtsmärt"
+},
+"Spaghetti-Träff": {
+"e": "Spaghetti cup",
+"p": "Spaghetti-Träff"
 },
 "Spaghettiplausch": {
 "e": "Spaghetti chat",
@@ -4023,9 +5011,17 @@
 "e": "Tracking",
 "p": "Spurensuche"
 },
+"St. Annahof Märlitram": {
+"e": "St. Annahof Märlitram",
+"p": "St. Annahof Märlitram"
+},
 "St. Nikolaus besucht die Kinder": {
 "e": "St. Nicholas visits the children",
 "p": "St. Nikolaus besucht die Kinder"
+},
+"St. Nikolaus-Besuche bei den Familien in Rüschlikon": {
+"e": "St. Nicholas visits to the families in Rüschlikon",
+"p": "St. Nikolaus-Besuche bei den Familien in Rüschlikon"
 },
 "Starke Eltern – Starke Kinder®: Bedürfnisse": {
 "e": "Strong Parents – Strong Children®: Needs",
@@ -4043,13 +5039,53 @@
 "e": "Start-Fit for kindergarten and school",
 "p": "Startklar-Fit für Kindergarten und Schule"
 },
+"Sterndeuter-Tag für Untikinder": {
+"e": "Sterndeuter Day for Untikinder",
+"p": "Sterndeuter-Tag für Untikinder"
+},
+"Sterne-Siebdruck und Stick-Workshop": {
+"e": "Star screen printing and embroidery workshop",
+"p": "Sterne-Siebdruck und Stick-Workshop"
+},
 "Sternenwerkstatt": {
 "e": "Starry Workshop",
 "p": "Sternenwerkstatt"
 },
+"Sternsingen - Proben": {
+"e": "Star Singing - Samples",
+"p": "Sternsingen - Proben"
+},
+"Sternsinger": {
+"e": "Sternsinger",
+"p": "Sternsinger"
+},
+"Sternsinger Probe": {
+"e": "Sternsinger sample",
+"p": "Sternsinger Probe"
+},
+"Sternsinger-Aktion": {
+"e": "Sternsinger Action",
+"p": "Sternsinger-Aktion"
+},
+"Sternsinger-Gottesdienst": {
+"e": "Sternsinger Service",
+"p": "Sternsinger-Gottesdienst"
+},
 "Sternsinger-Gottesdienst mit Untikindern": {
 "e": "Sternsinger Service with Untikindern",
 "p": "Sternsinger-Gottesdienst mit Untikindern"
+},
+"Sternsinger-Probe": {
+"e": "Sternsinger sample",
+"p": "Sternsinger-Probe"
+},
+"Stimmungsvolle Lichtfeier zur Ankunft des Friedenslichtes": {
+"e": "atmospheric light celebration on the arrival of the Peace Light",
+"p": "Stimmungsvolle Lichtfeier zur Ankunft des Friedenslichtes"
+},
+"Stoffen": {
+"e": "Substances",
+"p": "Stoffen"
 },
 "Storie per piccoli lettori": {
 "e": "Storie per piccoli lettori",
@@ -4079,9 +5115,17 @@
 "e": "Stärnebitzgi - Figure Theatre Winterthur",
 "p": "Stärnebitzgi - Figurentheater Winterthur"
 },
+"Sunntigsfiir": {
+"e": "Sunntigsfiir",
+"p": "Sunntigsfiir"
+},
 "Südöstlich des Bäntales auf steilem, bewaldetem Burghügel spärliche Mauerreste erkennbar. Sitz der Schad, einem Zweig der Familie von Liebenberg (12. Jh.). (Quelle: Burgenverein.ch)": {
 "e": "South-east of the Bäntal on steep, wooded castle hills sparse remains of the wall. Seat of the Schad, a branch of the Liebenberg family (12th century). (Source: Burgenverein.ch)",
 "p": "Südöstlich des Bäntales auf steilem, bewaldetem Burghügel spärliche Mauerreste erkennbar. Sitz der Schad, einem Zweig der Familie von Liebenberg (12. Jh.). (Quelle: Burgenverein.ch)"
+},
+"TAGE DER OFFENEN TÜRCHEN": {
+"e": "Days of open doors",
+"p": "Tage der offenen türchen"
 },
 "TANZ-FABRIK CAMPs - Wochenkurs": {
 "e": "TANZ-Fabrik CAMPs - Weekly course",
@@ -4107,6 +5151,10 @@
 "e": "Flashlight guide for children",
 "p": "Taschenlampenführung für Kinder"
 },
+"Tauffeier Alessandro Müller": {
+"e": "Baptismal celebration Alessandro Müller",
+"p": "Tauffeier Alessandro Müller"
+},
 "Taufgottesdienst mit den Kindern des 3. Klass Unti": {
 "e": "Baptism Service with the Children of the 3rd Class Unti",
 "p": "Taufgottesdienst mit den Kindern des 3. Klass Unti"
@@ -4114,6 +5162,10 @@
 "Taufgottesdienst mit den Kindern des 3. Klass Unti,": {
 "e": "Baptismal service with the children of the 3rd Class Unti,",
 "p": "Taufgottesdienst mit den Kindern des 3. Klass Unti,"
+},
+"Taufvorbereitung": {
+"e": "Baptism preparation",
+"p": "Taufvorbereitung"
 },
 "Technorama is the only science centre in Switzerland and allows visitors to experience hundreds of phenomena from nature and technology. Visitors can experience and manipulate natural phenomena with a": {
 "e": "Technorama is the only science centre in Switzerland and allows visitors to experience hundreds of phenomena from nature and technology. Visitors can experience and manipulate natural phenomena with a",
@@ -4134,6 +5186,10 @@
 "The FIFA Museum is an association football museum owned and operated by FIFA. Entrance fee: Adults CHF 24, Children (Aged 7-15) CHF 14": {
 "e": "The FIFA Museum is an association football museum owned and operated by FIFA. Entrance fee: Adults CHF 24, Children (Aged 7-15) CHF 14",
 "p": "The FIFA Museum is an association football museum owned and operated by FIFA. Entrance fee: Adults CHF 24, Children (Aged 7-15) CHF 14"
+},
+"The Singing Christmas Tree": {
+"e": "The Singing Christmas Tree",
+"p": "The Singing Christmas Tree"
 },
 "Theater mit dem Kater": {
 "e": "Theatre with the hangover",
@@ -4167,6 +5223,10 @@
 "e": "Turner Chränzli",
 "p": "Turner Chränzli"
 },
+"Turnshow Rüti - Rütmisch oder taktlos": {
+"e": "Turnshow Rüti - Rütmisch or tactless",
+"p": "Turnshow Rüti - Rütmisch oder taktlos"
+},
 "Tössemer Märli - Frau Holle": {
 "e": "Tössemer Märli - Mrs Holle",
 "p": "Tössemer Märli - Frau Holle"
@@ -4186,6 +5246,22 @@
 "Unihockey Cup-Viertelfinal: UHC Uster - Floorball Chur United": {
 "e": "Unihockey Cup quarterel: UHC Uster - Floorball Chur United",
 "p": "Unihockey Cup-Viertelfinal: UHC Uster - Floorball Chur United"
+},
+"Unti-Treff 2. Klasse": {
+"e": "Unti-Treff 2nd grade",
+"p": "Unti-Treff 2. Klasse"
+},
+"Unti-Treff 3. Klasse (Erstkommunionvorbereitung)": {
+"e": "Unti-Treff 3rd Class (First Communion Preparation)",
+"p": "Unti-Treff 3. Klasse (Erstkommunionvorbereitung)"
+},
+"Unti-Treff 4. Klasse": {
+"e": "Unti-Treff 4th grade",
+"p": "Unti-Treff 4. Klasse"
+},
+"Unti-Treff 5./6. Klasse": {
+"e": "Unti-Treff 5/6th grade",
+"p": "Unti-Treff 5./6. Klasse"
 },
 "Urban Golf Parcours im aqua-life": {
 "e": "Urban golf course in aqua-life",
@@ -4267,6 +5343,14 @@
 "e": "Predispensing zyte",
 "p": "Vorläsezyt"
 },
+"Vorprobe Krippenspiel": {
+"e": "Presample Crib game",
+"p": "Vorprobe Krippenspiel"
+},
+"Vorstellungsgottesdienst der Erstkommunikanten mit Tauferneuerung": {
+"e": "Presentation service of the first communicators with baptismal renewal",
+"p": "Vorstellungsgottesdienst der Erstkommunikanten mit Tauferneuerung"
+},
 "Vortrag - Eliane Perret": {
 "e": "Lecture - Eliane Perret",
 "p": "Vortrag - Eliane Perret"
@@ -4295,6 +5379,10 @@
 "e": "Walder candle-drawing",
 "p": "Walder Kerzenziehen"
 },
+"Waldhüsli": {
+"e": "Forest husi",
+"p": "Waldhüsli"
+},
 "Wandertheater Compagnie Pas de Deux und Gäste": {
 "e": "Wandertheater Compagnie Pas de Deux and guests",
 "p": "Wandertheater Compagnie Pas de Deux und Gäste"
@@ -4310,6 +5398,14 @@
 "Webseite ab 07:30 Uhr kontaktieren": {
 "e": "Contact website from 07:30",
 "p": "Webseite ab 07:30 Uhr kontaktieren"
+},
+"Weggottesdienst - 1. Klasse": {
+"e": "Way Service - 1st Class",
+"p": "Weggottesdienst - 1. Klasse"
+},
+"Weggottesdienst - 2. Klasse": {
+"e": "Way Service - 2nd Class",
+"p": "Weggottesdienst - 2. Klasse"
 },
 "Weihnachten für alle": {
 "e": "Christmas for all",
@@ -4335,6 +5431,10 @@
 "e": "Christmas BackMagic for Big & Small",
 "p": "Weihnachts-BackZauber für Gross & Klein"
 },
+"Weihnachts-Krippenspiel": {
+"e": "Christmas Crib Game",
+"p": "Weihnachts-Krippenspiel"
+},
 "Weihnachts-Zirkus-Zauber in Russikon": {
 "e": "Christmas circus magic in Russikon",
 "p": "Weihnachts-Zirkus-Zauber in Russikon"
@@ -4347,6 +5447,10 @@
 "e": "Christmas performances – Kasperlibühne Zipfelmütze",
 "p": "Weihnachtsaufführungen – Kasperlibühne Zipfelmütze"
 },
+"Weihnachtsbacken": {
+"e": "Christmas cheeks",
+"p": "Weihnachtsbacken"
+},
 "Weihnachtsbasteln": {
 "e": "Christmas cakes",
 "p": "Weihnachtsbasteln"
@@ -4355,9 +5459,29 @@
 "e": "Christmas tins \"Origami window stars\" with Josefa Wollein",
 "p": "Weihnachtsbasteln \"Origami-Fenstersterne\" mit Josefa Wollein"
 },
+"Weihnachtsbasteln (ohne Eltern) alle Alterstufen": {
+"e": "Christmas tins (without parents) all ages",
+"p": "Weihnachtsbasteln (ohne Eltern) alle Alterstufen"
+},
+"Weihnachtsbasteln (ohne Eltern) alle Kinder": {
+"e": "Christmas tins (without parents) all children",
+"p": "Weihnachtsbasteln (ohne Eltern) alle Kinder"
+},
 "Weihnachtsbasteln 2026": {
 "e": "Christmas tins 2026",
 "p": "Weihnachtsbasteln 2026"
+},
+"Weihnachtsbasteln für Kinder": {
+"e": "Christmas tins for children",
+"p": "Weihnachtsbasteln für Kinder"
+},
+"Weihnachtsessen der Pfarrei": {
+"e": "Christmas dinner of the parish",
+"p": "Weihnachtsessen der Pfarrei"
+},
+"Weihnachtsessen mit Bedürftigen": {
+"e": "Christmas dinner with the needy",
+"p": "Weihnachtsessen mit Bedürftigen"
 },
 "Weihnachtsfeier für Klein und Gross": {
 "e": "Christmas party for young and old",
@@ -4387,6 +5511,14 @@
 "e": "Make Christmas gifts: make 3 cork coasters",
 "p": "Weihnachtsgeschenke basteln: 3 Korkuntersetzer herstellen"
 },
+"Weihnachtsgottesdienst mit Krippenspiel": {
+"e": "Christmas service with nativity play",
+"p": "Weihnachtsgottesdienst mit Krippenspiel"
+},
+"Weihnachtsguetzli backen": {
+"e": "Bake Christmas cookies",
+"p": "Weihnachtsguetzli backen"
+},
 "Weihnachtskonzert mit Attila Vural & Silvia-G. & Rhythm 25": {
 "e": "Christmas concert with Attila Vural & Silvia-G. & Rhythm 25",
 "p": "Weihnachtskonzert mit Attila Vural & Silvia-G. & Rhythm 25"
@@ -4394,6 +5526,10 @@
 "Weihnachtsmarkt": {
 "e": "Christmas market",
 "p": "Weihnachtsmarkt"
+},
+"Weihnachtsmarkt Dielsdorf": {
+"e": "Christmas market Dielsdorf",
+"p": "Weihnachtsmarkt Dielsdorf"
 },
 "Weihnachtsmarkt Winterthur mit Zauberwald": {
 "e": "Christmas market Winterthur with magic forest",
@@ -4418,6 +5554,22 @@
 "Weihnachtsmärt und Sonntagsverkauf": {
 "e": "Christmas and Sunday sales",
 "p": "Weihnachtsmärt und Sonntagsverkauf"
+},
+"Weihnachtsspiel «Das versteht doch kein Schaf»": {
+"e": "Christmas game «No sheep understands this»",
+"p": "Weihnachtsspiel «Das versteht doch kein Schaf»"
+},
+"Weihnachtsspiel-Generalprobe": {
+"e": "Christmas game rehearsal",
+"p": "Weihnachtsspiel-Generalprobe"
+},
+"Weihnachtsspiel-Hauptprobe": {
+"e": "Christmas Game Main Sample",
+"p": "Weihnachtsspiel-Hauptprobe"
+},
+"Weihnachtsweg": {
+"e": "Christmas Way",
+"p": "Weihnachtsweg"
 },
 "Weihnachtswerkstatt": {
 "e": "Christmas workshop",
@@ -4495,6 +5647,10 @@
 "e": "Winter tobogganing with the Speed Tubing track",
 "p": "Winterrodeln mit der Speed Tubing Bahn"
 },
+"Winterthurer Wintermarkt": {
+"e": "Winterthur winter market",
+"p": "Winterthurer Wintermarkt"
+},
 "Winterwoche für Familien mit Kindern, Enkeln und Jugendlichen 2.0": {
 "e": "Winter week for families with children, grandchildren and adolescents 2.0",
 "p": "Winterwoche für Familien mit Kindern, Enkeln und Jugendlichen 2.0"
@@ -4510,6 +5666,10 @@
 "Winti-Sola": {
 "e": "Winti-Sola",
 "p": "Winti-Sola"
+},
+"WipKitchen: Gemeinsam kochen": {
+"e": "WipKitchen: Cook together",
+"p": "WipKitchen: Gemeinsam kochen"
 },
 "Wir kreieren zusammen einen Weihnachtszug": {
 "e": "We create together a Christmas train",
@@ -4535,6 +5695,14 @@
 "e": "Workshop parents competently accompany the career choice",
 "p": "Workshop Eltern begleiten die Berufswahl kompetent"
 },
+"Wort-Gottes-Feier mit Familien zum Heiligen Nikolaus von Myra": {
+"e": "Word-God celebration with families to Saint Nicholas of Myra",
+"p": "Wort-Gottes-Feier mit Familien zum Heiligen Nikolaus von Myra"
+},
+"Wortgottesfeier zum Caritasprojekt 1 Million Sterne mit": {
+"e": "Word-god celebration of the Caritas project 1 million stars with",
+"p": "Wortgottesfeier zum Caritasprojekt 1 Million Sterne mit"
+},
 "Während Saison ab 19:00 gratis ohne Personal": {
 "e": "During season from 19:00 free without staff",
 "p": "Während Saison ab 19:00 gratis ohne Personal"
@@ -4543,6 +5711,10 @@
 "e": "Yoga for Mom & Child",
 "p": "Yoga für Mama & Kind"
 },
+"Z'mittag Träff": {
+"e": "T'mittag Träff",
+"p": "Z'mittag Träff"
+},
 "ZIMOUN": {
 "e": "Zimoun",
 "p": "Zimoun"
@@ -4550,6 +5722,34 @@
 "Zauberflocke - Figurentheater Winterthur": {
 "e": "Magic Flake - Figure Theatre Winterthur",
 "p": "Zauberflocke - Figurentheater Winterthur"
+},
+"Zauberlaterne – Filmclub für Kinder (Bülach)": {
+"e": "Magic lantern – Film club for children (Bülach)",
+"p": "Zauberlaterne – Filmclub für Kinder (Bülach)"
+},
+"Zauberlaterne – Filmclub für Kinder (Dübendorf)": {
+"e": "Magic lantern – Film club for children (Dübendorf)",
+"p": "Zauberlaterne – Filmclub für Kinder (Dübendorf)"
+},
+"Zauberlaterne – Filmclub für Kinder (Filmpodium)": {
+"e": "Magic lantern – Film club for children (Filmpodium)",
+"p": "Zauberlaterne – Filmclub für Kinder (Filmpodium)"
+},
+"Zauberlaterne – Filmclub für Kinder (Kino Abaton)": {
+"e": "Magic lantern – Film club for children (cinema Abaton)",
+"p": "Zauberlaterne – Filmclub für Kinder (Kino Abaton)"
+},
+"Zauberlaterne – Filmclub für Kinder (Männedorf)": {
+"e": "Magic lantern – Film club for children (Männedorf)",
+"p": "Zauberlaterne – Filmclub für Kinder (Männedorf)"
+},
+"Zauberlaterne – Filmclub für Kinder (Winterthur)": {
+"e": "Magic lantern – Film club for children (Winterthur)",
+"p": "Zauberlaterne – Filmclub für Kinder (Winterthur)"
+},
+"Zauberpark am Flughafen": {
+"e": "Magic park at the airport",
+"p": "Zauberpark am Flughafen"
 },
 "Zauberpark am Flughafen Zürich": {
 "e": "Magic Park at Zurich Airport",
@@ -4635,6 +5835,26 @@
 "e": "Cyt for stories in the library",
 "p": "Zyt für Geschichten in der Bibliothek"
 },
+"Zäme Singä": {
+"e": "Zäme Singä",
+"p": "Zäme Singä"
+},
+"Zäme Singä im Gsellhof Brüttisellen": {
+"e": "Zäme Singä in the Gsellhof Brüttisellen",
+"p": "Zäme Singä im Gsellhof Brüttisellen"
+},
+"Zäme cho - Zäme si... i de Chile": {
+"e": "Zäme cho - Zäme si... i de Church",
+"p": "Zäme cho - Zäme si... i de Kirche"
+},
+"Zämecho": {
+"e": "Zämecho",
+"p": "Zämecho"
+},
+"Zämä z'Mittag ässä": {
+"e": "Tämä z'Mittag aesä",
+"p": "Zämä z'Mittag ässä"
+},
 "Zürcher Silvesterlauf": {
 "e": "Zurich New Year's Eve Run",
 "p": "Zürcher Silvesterlauf"
@@ -4699,6 +5919,10 @@
 "e": "or by agreement",
 "p": "oder nach Vereinbarung"
 },
+"offenes Adventssingen für alle": {
+"e": "open Advent singing for all",
+"p": "offenes Adventssingen für alle"
+},
 "regulär geschlossen, zweimal pro Jahr Tag der offenen Tür": {
 "e": "regular closed, twice a year open door day",
 "p": "regulär geschlossen, zweimal pro Jahr Tag der offenen Tür"
@@ -4731,9 +5955,21 @@
 "e": "«Flower Power» Wreaths",
 "p": "«Flower Power» Kranzen"
 },
+"«Gottesdienst gemeinsam» mit der reformierten Kirchgemeinde / «Fasnachts»-Gottesdienst mit Predigt in Reimen": {
+"e": "«God Service Together» with the Reformed Church / «Fasnachts» Service with Sermon in Reimen",
+"p": "«Gottesdienst gemeinsam» mit der reformierten Kirchgemeinde / «Fasnachts»-Gottesdienst mit Predigt in Reimen"
+},
+"«Perform!» Bodies of Identity": {
+"e": "«Perform!» Bodies of Identity",
+"p": "«Perform!» Bodies of Identity"
+},
 "«Unter Milliarden von Sternen»": {
 "e": "«Under billions of stars»",
 "p": "«Unter Milliarden von Sternen»"
+},
+"«Wintermärli» - Schneewoche für alle Generationen in Saas Grund": {
+"e": "«Wintermärli» - Snow week for all generations in Saas Grund",
+"p": "«Wintermärli» - Schneewoche für alle Generationen in Saas Grund"
 },
 "«Winterzauber mit de Tante Carmen» – ein bisschen Wärme zur Winterzeit": {
 "e": "«Winter magic with Aunt Carmen» – a bit of warmth at the winter time",
@@ -4771,6 +6007,10 @@
 "e": "Public guided tour Civil Protection Museum",
 "p": "Öffentliche Führung Zivilschutz-Museum"
 },
+"Öffentliche Hauptprobe Singspiel": {
+"e": "Public Main Sample Singing Game",
+"p": "Öffentliche Hauptprobe Singspiel"
+},
 "Öffentliches KERZENZIEHEN in der Ludothek im EICHI, Niederglatt": {
 "e": "Public candle-drawing in the Ludothek im Eichi, Niederglatt",
 "p": "Öffentliches Kerzenziehen in der Ludothek im Eichi, Niederglatt"
@@ -4786,6 +6026,30 @@
 "Öffentliches Kerzenziehen im Jugendhaus und auf dem Märtplatz Effretikon": {
 "e": "Public candle-drawing in the youth house and on the Märtplatz Effretikon",
 "p": "Öffentliches Kerzenziehen im Jugendhaus und auf dem Märtplatz Effretikon"
+},
+"Ökum. Adventsfeier, Teufenbachweiher": {
+"e": "Ecum. Advent celebration, Teufenbachweiher",
+"p": "Ökum. Adventsfeier, Teufenbachweiher"
+},
+"Ökum. Fasnachtsgottesdienst in Oberstammheim": {
+"e": "Ecum. Carnival service in Oberstammheim",
+"p": "Ökum. Fasnachtsgottesdienst in Oberstammheim"
+},
+"Ökum. Fiire mit de Chliine": {
+"e": "Ecum. Celebrating with the little ones",
+"p": "Ökum. Feiern mit den Kleinen"
+},
+"Ökum. Fiire mit de Chliine, Weisslingen": {
+"e": "Ecum. Celebrating with the little ones, Weisslingen",
+"p": "Ökum. Feiern mit den Kleinen, Weisslingen"
+},
+"Ökum. Silvester-Gottesdienst": {
+"e": "Ecum. New Year's Eve Service",
+"p": "Ökum. Silvester-Gottesdienst"
+},
+"Ökum. Suppentag mit Martin Burkart und Tobias Günter": {
+"e": "Ecum. Soup Day with Martin Burkart and Tobias Günter",
+"p": "Ökum. Suppentag mit Martin Burkart und Tobias Günter"
 },
 "Ökumenischer Familiengottesdienst (Suppentag)": {
 "e": "Ecumenical Family Service (Suppentag)",
