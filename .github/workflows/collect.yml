@@ -23,7 +23,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        bezirk: [Affoltern, Andelfingen, Bülach, Dielsdorf, Dietikon, Hinwil, Horgen, Meilen, Pfäffikon, Uster, Winterthur, Zürich, eventitem]
+        bezirk: [Affoltern, Andelfingen, Bülach, Dielsdorf, Dietikon, Hinwil, Horgen, Meilen, Pfäffikon, Uster, Winterthur, Zürich, eventitem, Quellen]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

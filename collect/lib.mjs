@@ -199,6 +199,30 @@ export function parseDateRange(text) {
 const attr = (html, name) => decode((html.match(new RegExp(`${name}="([^"]*)"`)) || [])[1] ?? "");
 const abs = (base, href) => new URL(decode(href), base).href;
 
+// ---------- Gemeinde aus einer Adresse (für kantonsweite Quellen) ----------
+const slugify = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+let GIDX = {};
+// G: { code: { name } } aus site/gemeinden.js
+export function setGemeindeIndex(G) { GIDX = {}; for (const [c, g] of Object.entries(G)) GIDX[slugify(g.name)] = c; }
+export const gemeindeByName = n => GIDX[slugify(String(n).replace(/\s+ZH$|\s*\(ZH\)$/, ""))] || "";
+// Adresse «Strasse 5, 8424 Embrach» → Gemeinde-Code. Ortsteile (Effretikon, Gattikon …) über geo.admin.ch, gemerkt im Cache.
+export async function gemeindeForAddress(addr, get, cache, prefix = "") {
+  const m = String(addr).match(/\b(\d{4})\s+([A-ZÄÖÜ][^,;()]*)/); if (!m) return "";
+  const byName = gemeindeByName(m[2].trim()); if (byName) return byName;
+  if (!/^8/.test(m[1])) return "";
+  const key = prefix + "geo:" + slugify(addr); if (key in cache) return cache[key];
+  let code = "";
+  try {
+    const s = JSON.parse(await get("https://api3.geo.admin.ch/rest/services/api/SearchServer?type=locations&origins=address,zipcode&limit=1&sr=4326&searchText=" + encodeURIComponent(addr)));
+    const a = s.results?.[0]?.attrs;
+    if (a) {
+      const j = JSON.parse(await get(`https://api3.geo.admin.ch/rest/services/api/MapServer/identify?geometryType=esriGeometryPoint&geometry=${a.lon},${a.lat}&sr=4326&layers=all:ch.swisstopo.swissboundaries3d-gemeinde-flaeche.fill&tolerance=0&returnGeometry=false&imageDisplay=10,10,96&mapExtent=${a.lon - 0.01},${a.lat - 0.01},${a.lon + 0.01},${a.lat + 0.01}`));
+      const g = j.results?.[0]?.attributes; if (g) code = gemeindeByName(g.gemname || g.label || "");
+    }
+  } catch { return ""; }
+  cache[key] = code; return code;
+}
+
 // ---------- Bausteine für die verschiedenen Agenda-Systeme ----------
 // Jeder Baustein liefert Einträge: { id, name, von, bis, ort, veranstalter, kategorie, hint, url, detailKey, time }
 export const SYSTEMS = {
@@ -470,6 +494,60 @@ export const SYSTEMS = {
     return items;
   },
 
+  // Zürcher Museen: Schnittstelle der Museumsagenda, nur «Für Kinder geeignet». Ausstellungen ohne festes Datum fallen weg.
+  async museen(site, get) {
+    const list = JSON.parse(await get("https://zuercher-museen.ch/api/experiences?suitableForKids=true")), items = [];
+    for (const e of list) {
+      const info = decode(e.experienceInfo || "").replace(/ /g, " ");
+      if (/^bis\b/i.test(info)) continue;
+      const range = parseDateRange(info); if (!range) continue;
+      const tm = info.match(/(\d{1,2})(?::(\d{2}))?\s*[–-]\s*(\d{1,2})(?::(\d{2}))?\s*Uhr/) || info.match(/(\d{1,2})(?::(\d{2}))?\s*Uhr/);
+      const hm = (h, m) => `${h}.${m || "00"}`;
+      const time = !tm ? "" : tm[3] && tm.length > 4 ? `${hm(tm[1], tm[2])} - ${hm(tm[3], tm[4])}` : hm(tm[1], tm[2]);
+      items.push({ id: "zm" + e.id, name: decode(e.title || "").trim(), ...range, ort: decode(e.museum || "").slice(0, 70), veranstalter: decode(e.museum || ""), kategorie: "14",
+        hint: (e.flags || []).map(f => f.label).join(" "), url: e.detailUrl, detailKey: null, time });
+    }
+    return items;
+  },
+
+  // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda jeder Pfarrei, nur Rubrik «Kinder und Familien».
+  // Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
+  async forum(site, get, cache, code) {
+    const base = "https://www.forum-magazin.ch", main = await get(base + "/agenda/");
+    const slugs = [...new Set([...main.matchAll(/href="\/([a-z0-9-]+)\/agenda\/\d{8}-/g), ...main.matchAll(/<option[^>]*value="\/?([a-z0-9-]+)\/?(?:agenda\/?)?"/g)].map(m => m[1]))];
+    const items = [], seen = new Set();
+    for (const slug of slugs) {
+      let html; try { html = await get(`${base}/${slug}/agenda/`); } catch { continue; }
+      for (const b of html.split(/<article class="teaser teaser--agenda"/).slice(1)) {
+        const href = (b.match(/href="(\/[a-z0-9-]+\/agenda\/(\d{8})-[^"]*?-(\d+)\/)"/) || []);
+        if (!href[1] || seen.has(href[3])) continue;
+        const cats = [...((b.match(/<ul class="teaser__category">([\s\S]*?)<\/ul>/) || [])[1] || "").matchAll(/<li>([^<]*)<\/li>/g)].map(x => decode(x[1]).trim());
+        const name = strip((b.match(/<h1 class="teaser__title">([\s\S]*?)<\/h1>/) || [])[1] ?? "");
+        if (!cats.includes("Kinder und Familien") && !KIDS_NAME.test(name)) continue;
+        seen.add(href[3]);
+        const dt = (b.match(/<time datetime="(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})/) || []);
+        const dateText = strip((b.match(/<time[^>]*>([\s\S]*?)<\/time>/) || [])[1] ?? "");
+        const von = dt[1] || `${href[2].slice(0, 4)}-${href[2].slice(4, 6)}-${href[2].slice(6, 8)}`;
+        const bisM = dateText.match(/bis\s+\w+,\s*(\d{1,2})\.\s*([A-Za-zäÄ]+)/);
+        let bis = von; if (bisM && monthOf(bisM[2])) { const y = +von.slice(0, 4), mo = monthOf(bisM[2]); bis = ymd(mo < +von.slice(5, 7) ? y + 1 : y, mo, bisM[1]); }
+        const tm = dateText.match(/(\d{1,2})\.(\d{2})(?:\s*bis\s*(\d{1,2})\.(\d{2}))?\s*Uhr/);
+        const time = tm ? (tm[3] ? `${tm[1]}.${tm[2]} - ${tm[3]}.${tm[4]}` : `${tm[1]}.${tm[2]}`) : "";
+        const pfarrei = strip((b.match(/<h2 class="teaser__pretitle">([\s\S]*?)<\/h2>/) || [])[1] ?? "");
+        // Gemeinde: Adresse von der Anlass-Seite, sonst Ort in Klammern bei der Pfarrei
+        const key = `${code}:fa:${href[3]}`;
+        if (!(key in cache)) {
+          let addr = ""; try { const d = await get(base + href[1]); addr = decode((d.match(/"address":\s*"([^"]*)"/) || [])[1] || ""); } catch {}
+          cache[key] = { addr, g: addr ? await gemeindeForAddress(addr, get, cache, code + ":") : "" };
+        }
+        let g = cache[key].g || gemeindeByName((pfarrei.match(/\(([^)-]+?)(?:\s*-|\))/) || [])[1] || "") || gemeindeByName(slug.replace(/-.*$/, ""));
+        if (!g) continue;
+        items.push({ id: "fa" + href[3], g, name, von, bis: bis < von ? von : bis, ort: (cache[key].addr.split(",")[0] || pfarrei).slice(0, 70), veranstalter: "Kath. Pfarrei " + pfarrei.replace(/\s*\(.*$/, ""), kategorie: "14",
+          hint: cats.join(" "), url: base + href[1], detailKey: null, time });
+      }
+    }
+    return items;
+  },
+
   // Kacheln mit Datum und Titel (Erlenbach).
   async tiles(site, get) {
     const listUrl = `https://${site.domain}${site.path}`;
@@ -516,7 +594,7 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     }
     // Zielgruppe «Kinder/Familien» in der Agenda gilt immer, auch wenn die Detailseite schon früher anders eingestuft wurde
     if ((info.kids || KIDS_CATEGORIES.has(ev.kategorie)) && !ADULT_ONLY.test(ev.name)) result.push({
-      gemeinden: [code], id: `${code}-${ev.id}`, name: ev.name, von: ev.von, bis: ev.bis,
+      gemeinden: [ev.g || code], id: `${ev.g || code}-${ev.id}`, ...(site.quelle ? { q: code } : {}), name: ev.name, von: ev.von, bis: ev.bis,
       ort: ev.ort || info.ort || "", veranstalter: ev.veranstalter || info.veranstalter || "",
       time: ev.time || info.time, age: nameAge(ev.name) ?? info.age, url: ev.url, ...(info.lk && !LINK_NO.test(info.lk) ? { w: info.lk } : {}),
     });

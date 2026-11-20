@@ -1,6 +1,6 @@
 // Läuft jede Nacht: holt alle Gemeinden und schreibt site/events.json.
 import { readFile, writeFile } from "node:fs/promises";
-import { collectSite, merge } from "./lib.mjs";
+import { collectSite, merge, setGemeindeIndex } from "./lib.mjs";
 
 const root = new URL("..", import.meta.url);
 const path = p => new URL(p, root);
@@ -25,6 +25,8 @@ async function fetchText(url) {
 const ONLY = process.env.BEZIRK || "";
 const slug = s => s.toLowerCase().replace(/ä/g, "ae").replace(/ö/g, "oe").replace(/ü/g, "ue").replace(/[^a-z0-9]+/g, "-");
 const all = await readJson("collect/gemeinden.json", {});
+// Gemeinde-Namen für kantonsweite Quellen (Anlässe werden der Gemeinde des Veranstaltungsorts zugeordnet)
+setGemeindeIndex(JSON.parse((await readFile(path("site/gemeinden.js"), "utf8")).replace(/^[^=]*=\s*/, "").replace(/;\s*$/, "")));
 // system «keine»: Gemeinde ohne lesbare Agenda (nur PDF, externe App), bleibt für Wetter und Karte drin
 // «eventitem» läuft als eigener, langsamer Durchgang, weil alle diese Gemeinden beim gleichen Anbieter liegen
 const sites = Object.fromEntries(Object.entries(all).filter(([, s]) => s.system !== "keine").filter(([, s]) => !ONLY || (ONLY === "eventitem" ? s.system === "eventitem" : s.bezirk === ONLY && s.system !== "eventitem")));
@@ -35,11 +37,13 @@ const previous = await readJson("site/events.json", { events: [] });
 previous.events ??= [];
 const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Europe/Zurich" });
 
-const events = [], status = {}, failed = [];
+const events = [], status = {}, quellen = {}, failed = [];
+// Kantonsweite Quellen (quelle: true) sind keine Gemeinde: eigener Status, keine Gemeinde-Auswahl
+const st = (code, site) => (site.quelle ? quellen : status);
 async function runSite(code, site) {
   const r = await collectSite(code, site, { fetchText, cache, today, wait: () => sleep(site.delay ?? DELAY_MS) });
   events.push(...r.events);
-  status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: true, count: r.events.length };
+  st(code, site)[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: true, count: r.events.length };
   console.log(`${site.name}: ${r.rows} Events gelesen, ${r.events.length} für Kinder`);
 }
 for (const [code, site] of Object.entries(sites)) {
@@ -54,9 +58,9 @@ if (failed.length) {
     try { await runSite(code, site); }
     catch (err) {
       // Fällt eine Gemeinde aus, bleiben ihre bisherigen Events stehen.
-      const old = previous.events.filter(e => e.gemeinden[0] === code && e.bis >= today);
+      const old = previous.events.filter(e => (site.quelle ? e.q === code : e.gemeinden[0] === code && !e.q) && e.bis >= today);
       events.push(...old);
-      status[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: false, count: old.length };
+      st(code, site)[code] = { name: site.name, bezirk: site.bezirk, domain: site.domain, ok: false, count: old.length };
       console.error(`${site.name} auch im zweiten Versuch fehlgeschlagen: ${err.message}`);
     }
   }
@@ -66,17 +70,17 @@ if (ONLY) {
   const mine = Object.fromEntries(Object.entries(cache).filter(([k]) => sites[k.split(":")[0]]));
   await writeFile(path(cacheFile), JSON.stringify(mine) + "\n");
   const { mkdir } = await import("node:fs/promises"); await mkdir(path("data/parts/"), { recursive: true });
-  await writeFile(path(`data/parts/${slug(ONLY)}.json`), JSON.stringify({ bezirk: ONLY, status, events }) + "\n");
+  await writeFile(path(`data/parts/${slug(ONLY)}.json`), JSON.stringify({ bezirk: ONLY, status, quellen, events }) + "\n");
   console.log(`Bezirk ${ONLY}: ${events.length} Anlässe aus ${Object.keys(sites).length} Gemeinden`);
   process.exit(0);
 }
 await writeFile(path(cacheFile), JSON.stringify(cache) + "\n");
-if (!Object.values(status).some(s => s.ok)) {
+if (!Object.values(status).some(s => s.ok) && !Object.values(quellen).some(s => s.ok)) {
   console.error("Keine Gemeinde erreichbar, die bisherigen Daten bleiben bestehen.");
   process.exit(1);
 }
 const merged = merge(events);
-const out = JSON.stringify({ stand: today, gemeinden: status, events: merged }, null, 1);
+const out = JSON.stringify({ stand: today, gemeinden: status, quellen, events: merged }, null, 1);
 await writeFile(path("site/events.json"), out + "\n");
 await writeFile(path("site/events.js"), "window.FAMILIENAGENDA = " + out + ";\n");
 console.log(`Fertig: ${merged.length} Anlässe`);

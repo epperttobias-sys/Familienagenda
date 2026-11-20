@@ -1,20 +1,18 @@
 {
- "kilchberg": {
-  "name": "Kilchberg",
-  "bezirk": "Horgen",
-  "domain": "www.kilchberg.ch",
-  "system": "links",
-  "path": "/veranstaltungen/seite/{p}",
-  "pages": 6,
-  "p0": 1,
-  "link": "/veranstaltungen/termin/"
+ "q-museen": {
+  "name": "Zürcher Museen",
+  "bezirk": "Quellen",
+  "domain": "zuercher-museen.ch",
+  "system": "museen",
+  "quelle": true,
+  "delay": 800
  },
- "thalheimanderthur": {
-  "name": "Thalheim an der Thur",
-  "bezirk": "Andelfingen",
-  "domain": "www.thalheim.ch",
-  "system": "ical",
-  "path": "/index.php?option=com_dpcalendar&task=ical.download&id=g-9",
-  "page": "/index.php/aktuell/veranstaltungen"
+ "q-kath": {
+  "name": "Katholische Pfarreien",
+  "bezirk": "Quellen",
+  "domain": "www.forum-magazin.ch",
+  "system": "forum",
+  "quelle": true,
+  "delay": 700
  }
 }
