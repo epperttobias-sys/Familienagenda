@@ -1,0 +1,24 @@
+{
+ "f": "https://www.birmensdorf.ch/institutionen",
+ "ct": "text/html; charset=UTF-8",
+ "sys": [
+  "iweb"
+ ],
+ "links": [
+  "zur Startseite | /_rtr/home",
+  "Veranstaltungskalender | /anlaesseaktuelles",
+  "Freizeitkurse Erwachsene | /bilderwachsenen",
+  "Restaurants | /restaurants",
+  "Abfallkalender | /abfalldaten",
+  "Leben/Wohnen | /lebenwohnen",
+  "Arbeit/Freizeit | /arbeitfreizeittb",
+  "Veranstaltungen | /veranstaltungentb",
+  "Termine | /abstimmungen",
+  "4 Schule, Freizeit | /schulefreizeit",
+  "Weiter zur Volltextsuche. | /_rtr/suchformular",
+  "Freizeitkurse | http://www.birmensdorf.ch/de/bildung/bilderwachsenen/",
+  "Startseite | /_rtr/home"
+ ],
+ "head": "",
+ "ev": ""
+}

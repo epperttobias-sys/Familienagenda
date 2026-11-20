@@ -1,39 +1,44 @@
 [
  {
-  "l": "RAW fugu",
-  "u": "https://www.kitafugu.ch/sitemap.xml",
-  "s": 200,
-  "f": "https://www.kitafugu.ch/sitemap_index.xml"
+  "l": "RAW birm",
+  "u": "https://www.birmensdorf.ch/institutionen",
+  "s": 404,
+  "f": "https://www.birmensdorf.ch/institutionen",
+  "title": "Birmensdorf - Ungültige Adresse"
  },
  {
-  "l": "RAW gg",
-  "u": "https://www.globegarden.ch/sitemap.xml",
-  "s": 200,
-  "f": "https://www.globegarden.ch/sitemap.xml"
+  "l": "RAW dield",
+  "u": "https://www.dielsdorf.ch/institutionen",
+  "s": 404,
+  "f": "https://www.dielsdorf.ch/institutionen",
+  "title": "Dielsdorf - Ungültige Adresse"
  },
  {
-  "l": "RAW guexi",
-  "u": "https://www.guexi.ch/sitemap.xml",
+  "l": "RAW elgg",
+  "u": "https://www.elgg.ch/",
   "s": 200,
-  "f": "https://www.guexi.ch/sitemap_index.xml"
+  "f": "https://www.elgg.ch/",
+  "title": "Home – Gemeinde Elgg"
  },
  {
-  "l": "RAW kibe",
-  "u": "https://www.kibesuisse.ch/sitemap.xml",
-  "s": 403,
-  "f": "https://www.kibesuisse.ch/sitemap.xml",
-  "title": "Just a moment..."
+  "l": "RAW ober",
+  "u": "https://www.oberrieden.ch/leben/bildung-und-schule",
+  "s": 200,
+  "f": "https://www.oberrieden.ch/leben/bildung-und-schule",
+  "title": "Bildung und Schule | oberrieden.ch"
  },
  {
-  "l": "RAW kimi",
-  "u": "https://www.kimikrippen.ch/sitemap.xml",
-  "s": 200,
-  "f": "https://www.kimikrippen.ch/sitemap_index.xml"
+  "l": "RAW seuz1",
+  "u": "https://www.seuzach.ch/institutionen",
+  "s": 404,
+  "f": "https://www.seuzach.ch/institutionen",
+  "title": "Seuzach - Ungültige Adresse"
  },
  {
-  "l": "RAW pep",
-  "u": "https://www.popepoppa.ch/sitemap.xml",
-  "s": 200,
-  "f": "https://www.popepoppa.ch/sitemap_index.xml"
+  "l": "RAW seuz2",
+  "u": "https://www.seuzach.ch/_rtr/institutionen",
+  "s": 404,
+  "f": "https://www.seuzach.ch/_rtr/institutionen",
+  "title": "Seuzach - Ungültige Adresse"
  }
 ]
