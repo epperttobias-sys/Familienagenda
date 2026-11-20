@@ -45,7 +45,7 @@ export function normalizeRow(row) {
 export function isCandidate(ev, today) {
   if (!ev.von || ev.bis < today) return false;
   if (day(ev.von) - day(today) > HORIZON_DAYS) return false;
-  if (day(ev.bis) - day(ev.von) > MAX_DAYS) return false;
+  if (day(ev.bis) - day(ev.von) > (ev.long ? 120 : MAX_DAYS)) return false;
   if (SKIP_CATEGORIES.has(ev.kategorie) && !KIDS_NAME.test(ev.name)) return false;
   return !ADMIN.test(ev.name) || KIDS_NAME.test(ev.name);
 }
@@ -607,6 +607,45 @@ export const SYSTEMS = {
     return [...best.values()];
   },
 
+  // kinderregion.ch: redaktionell ausgewählte Familien-Tipps (Kindertheater, Advent, Samichlaus …) mit Link direkt zum Anbieter.
+  // Listen-Seiten werden auf der Startseite und bei «Veranstaltungen» gefunden. Einträge: «Ort | Datum | Alter Titel Beschreibung».
+  async kinderregion(site, get) {
+    const base = "https://kinderregion.ch", lists = new Set([base + "/de/veranstaltungen/"]);
+    for (const u of [base + "/de/", base + "/de/veranstaltungen/"]) { try { for (const m of (await get(u)).matchAll(/href="(https:\/\/kinderregion\.ch\/de\/liste\/[a-z0-9-]+\/)"/g)) lists.add(m[1]); } catch {} }
+    const skip = new RegExp(site.skipHosts || "^$"), items = [], seen = new Set(), today = new Date().toISOString().slice(0, 10);
+    const y4 = y => (y ? (+y < 100 ? 2000 + +y : +y) : 0);
+    const ZH = /Zürich|Zürcher|Bernhard[- ]Theater|Stadelhofen|Kanzlei|Hechtplatz|Purpur|Rigiblick|Millers|Opernhaus|Tonhalle|Schauspielhaus|Landesmuseum|Zoo Zürich/;
+    for (const lu of lists) {
+      let html; try { html = await get(lu); } catch { continue; }
+      for (const m of html.matchAll(/<a\b[^>]*href="(https?:\/\/[^"]+)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+        const href = decode(m[1]); if (/kinderregion\.ch/.test(href) || skip.test(href)) continue;
+        const parts = m[2].split(/<\/(?:p|span|div|h\d)>/i).map(strip).filter(Boolean), txt = strip(m[2]);
+        // Datum: «19. bis 21.11.26», «8.11.26 bis 17.1.27», «ab 4.11.26», «13.12.26», «7./8.12.26», «20. bis 22. November 2026»
+        let von, bis, d;
+        const t = txt.replace(/(\d{1,2})\.\/(\d{1,2})\./g, "$1. bis $2.");
+        if ((d = t.match(/(\d{1,2})\.(\d{1,2})\.(\d{2,4})?\s*(?:bis|–|-)\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})/))) { const yb = y4(d[6]), ya = y4(d[3]) || (+d[2] > +d[5] ? yb - 1 : yb); von = ymd(ya, d[2], d[1]); bis = ymd(yb, d[5], d[4]); }
+        else if ((d = t.match(/(\d{1,2})\.\s*(?:bis|–|-)\s*(\d{1,2})\.(\d{1,2})\.(\d{2,4})/))) { von = ymd(y4(d[4]), d[3], d[1]); bis = ymd(y4(d[4]), d[3], d[2]); }
+        else if ((d = t.match(/ab\s+(\d{1,2})\.(\d{1,2})\.(\d{2,4})/))) { von = ymd(y4(d[3]), d[2], d[1]); bis = new Date(Math.max(Date.parse(von), Date.parse(today)) + 30 * 864e5).toISOString().slice(0, 10); }
+        else if ((d = t.match(/(\d{1,2})\.(\d{1,2})\.(\d{2,4})/))) { von = bis = ymd(y4(d[3]), d[2], d[1]); }
+        else { const r = parseDateRange(t.replace(/Bis am\s+/i, "")); if (!r) continue; ({ von, bis } = r); if (/^\s*bis\s/i.test(t)) von = today; }
+        if (bis < today) continue;
+        // Ort → Gemeinde: Zürcher Häuser, sonst ein Gemeindename im Text
+        let g = ZH.test(txt) ? "zuerich" : "";
+        if (!g) for (const w of txt.split(/[\s,|()]+/)) { const c = gemeindeByName(w); if (c && w.length > 3) { g = c; break; } }
+        if (!g || (/Zug\b|Schwyz|Liechtenstein|Luzern|Aargau|St\. ?Gallen|Thurgau/.test(txt) && !ZH.test(txt))) continue;
+        // Titel: Teil nach Ort, Datum und Alter
+        const segs = parts.length > 1 ? parts : txt.split(/\s*\|\s*/);
+        let title = segs.find(x => !/^\d|^ab \d|^bis|^diverse|\|/.test(x) && x.length > 3 && !ZH.test(x) && x.length < 90) || segs[segs.length - 1];
+        title = title.replace(/^(ab \d+ Jahren?|alle)\s+/i, "").split(/(?<=[a-zäöü])\s+(?=[A-ZÄÖÜ][a-zäöü]+ [a-zäöü]+ [a-zäöü]+ )/)[0].slice(0, 90);
+        const age = (txt.match(/ab (\d{1,2}) Jahren?/) || [])[0] || "";
+        const id = href.replace(/^https?:\/\//, "").replace(/[?#].*$/, "").slice(0, 70) + von;
+        if (seen.has(id)) continue; seen.add(id);
+        items.push({ id, g, name: title, von, bis, long: true, tip: true, ort: (txt.split("|")[0] || "").trim().slice(0, 60), veranstalter: "", kategorie: "14", hint: age + " " + txt.slice(0, 300), url: href, detailKey: null, time: "" });
+      }
+    }
+    return items;
+  },
+
   // Kacheln mit Datum und Titel (Erlenbach).
   async tiles(site, get) {
     const listUrl = `https://${site.domain}${site.path}`;
@@ -653,7 +692,7 @@ export async function collectSite(code, site, { fetchText, cache, today, wait = 
     }
     // Zielgruppe «Kinder/Familien» in der Agenda gilt immer, auch wenn die Detailseite schon früher anders eingestuft wurde
     if ((info.kids || KIDS_CATEGORIES.has(ev.kategorie)) && !ADULT_ONLY.test(ev.name)) result.push({
-      gemeinden: [ev.g || code], id: `${ev.g || code}-${ev.id}`, ...(site.quelle ? { q: code } : {}), name: ev.name, von: ev.von, bis: ev.bis,
+      gemeinden: [ev.g || code], id: `${ev.g || code}-${ev.id}`, ...(site.quelle ? { q: code } : {}), ...(ev.tip ? { tip: 1 } : {}), name: ev.name, von: ev.von, bis: ev.bis,
       ort: ev.ort || info.ort || "", veranstalter: ev.veranstalter || info.veranstalter || "",
       time: ev.time || info.time, age: nameAge(ev.name) ?? info.age, url: ev.url, ...(info.lk && !LINK_NO.test(info.lk) ? { w: info.lk } : {}),
     });
