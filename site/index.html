@@ -106,6 +106,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset
 .room .links a{color:var(--accent);font-weight:700;text-underline-offset:3px}
 .room .note{margin:0;color:var(--muted);font-size:.9rem}
 .count-line{margin:0;color:var(--muted);font-size:.92rem}
+.rtog{border:0;background:none;padding:0;color:var(--sec,#0a5cb8);font:inherit;font-size:.92rem;text-decoration:underline;cursor:pointer}
 .room .bz{font-size:.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .soon{color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);padding-top:14px}
 .empty{padding:24px;text-align:center;color:var(--muted)}
@@ -699,7 +700,7 @@ const AGES=[[0,3],[4,6],[7,9],[10,12]];
 const TIMES=[["all","Alle Termine"],["today","Heute"],["we","Nächstes Wochenende"],["30","Nächste 30 Tage"]];
 let SITES={},EVENTS=[];
 const RESET={},GO={};
-const state={g:new Set(),a:new Set(),k:new Set(),open:true,t:"all",w:"all"};
+const state={g:new Set(),a:new Set(),k:new Set(),open:true,t:"all",w:"all",r:false};
 const ARTS=[["basteln","🎨","Basteln & Gestalten",/bastel|kerzenzieh|kerzen|töpfer|werk|atelier|kreativ|malen|mal-|zeichn|näh|filz|kranz|guetzli|back|koch|schmuck|gestalt|druck|lego/i],
  ["buecher","📚","Bücher & Geschichten",/bibliothek|buch|bücher|vorles|gschicht|geschicht|erzähl|märli|märchen|bilderbuch|lesen|lese|verslispiel|reim/i],
  ["buehne","🎭","Theater, Kino & Musik",/theater|kino|film|zauber|puppen|kasperli|figuren|clown|zirkus|circus|musik|konzert|sing|chor|lieder|tanz|disco|ballett/i],
@@ -708,6 +709,10 @@ const ARTS=[["basteln","🎨","Basteln & Gestalten",/bastel|kerzenzieh|kerzen|t�
  ["natur","🌳","Natur & Tiere",/wald|natur|tier|zoo|bauernhof|hof\b|garten|exkursion|vogel|wander|pilz|biene|pony|pferd|esel|ziege|insekt|bach\b|weiher/i],
  ["treff","🧸","Spielgruppen & Treffpunkte",/spielgruppe|krabbel|chrabbel|treff|eltern|kafi|café|cafe|ludothek|spielnachmittag|spielmorgen|spielplatz|fiire|gottesdienst|chinder|spielen|mütter|väter/i],
  ["entdecken","🔬","Kurse & Entdecken",/kurs|workshop|forsch|experiment|robot|programm|museum|führung|entdeck|wissen|technik|erste hilfe|babysitter/i]];
+// Wiederkehrende Treffs, Gottesdienste, Beratungen und Kurse: standardmässig ausgeblendet, damit die besonderen Anlässe sichtbar sind
+const ROUTINE=/treff\b|treffen\b|-treff|kafi|café|cafe\b|beratung|sprechstunde|gottesdienst|eucharistie|messe\b|santa messa|wortgottes|andacht|rosenkranz|gebet|fiire|kolibri|unti\b|unti-|religionsunterricht|firm|ministrant|probe\b|chorprobe|mittagstisch|zmittag|spielgruppe|krabbel|chrabbel|elternbildung|elternabend|deutschkurs|sprachkurs|stillgruppe|mütter|väter|mamas?\b|papas?\b|eltern-kind-turnen|muki|vaki|ki-?turnen|turnen\b|training|lektion|semester|abo\b|kursreihe|probetraining|offene turnhalle|spielnachmittag|spielmorgen|ludothek|sitzung|versammlung|anmeldeschluss|infoabend|informationsabend|stammtisch|sammlung|häckseldienst/i;
+const SPECIAL=/chlaus|familienevent|zirkus|circus|theater|kino|film|zauber|märli|märchen|puppen|kasperli|figuren|clown|konzert|musical|disco|show|fest\b|fäscht|chilbi|samichlaus|nikolaus|umzug|räbe|laterne|lichter|weihnachtsmärt|weihnachtsmarkt|familientag|familiensonntag|kinderfest|flohmi|workshop|atelier|kerzenzieh|experiment|zoo|tierpark|eisbahn|ferien|lesung|erzähl|geschichten|kamishibai|bastel/i;
+const isRoutine=e=>e.q==="q-kath"?!SPECIAL.test(e.name):ROUTINE.test(e.name)&&!SPECIAL.test(e.name);
 const ARTX=new Map();
 function arts(e){let r=ARTX.get(e);if(!r){r=ARTS.filter(a=>a[3].test(e.name)).map(a=>a[0]);ARTX.set(e,r)}return r}
 function artIcon(e){if(/samichlaus|nikolaus/i.test(e.name))return["🎅","#dc2626"];const a=arts(e)[0];
@@ -762,7 +767,7 @@ function wOk(e,show){if(state.w==="all")return true;const pl=place(e);
 function select(today){
   const[from,to]=range(today);
   return EVENTS.filter(e=>e.bis>=from&&e.von<=to&&(!state.g.size||e.gemeinden.some(c=>state.g.has(c)))&&ageOk(e))
-    .filter(e=>(!state.k.size||arts(e).some(a=>state.k.has(a))||(state.k.has("sonst")&&!arts(e).length))&&(state.t!=="fav"||FAVS.has(favKey(e))))
+    .filter(e=>(!state.k.size||arts(e).some(a=>state.k.has(a))||(state.k.has("sonst")&&!arts(e).length))&&(state.t!=="fav"||FAVS.has(favKey(e)))&&(state.r||state.t==="fav"||!isRoutine(e)))
     .map(e=>({e,show:e.von>from?e.von:from})).filter(x=>wOk(x.e,x.show))
     .sort((a,b)=>a.show.localeCompare(b.show)||a.e.name.localeCompare(b.e.name,"de"));
 }
@@ -770,7 +775,7 @@ const SWD=["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Sams
 const MS=["Jan","Feb","März","Apr","Mai","Juni","Juli","Aug","Sep","Okt","Nov","Dez"];
 function strip(today){const box=document.getElementById("dstrip");if(!box)return;box.replaceChildren();
   const ti=iso(today),cur=state.t==="today"?"d:"+ti:state.t;
-  const base=EVENTS.filter(e=>(!state.g.size||e.gemeinden.some(c=>state.g.has(c)))&&ageOk(e)&&(!state.k.size||arts(e).some(a=>state.k.has(a))||(state.k.has("sonst")&&!arts(e).length)));
+  const base=EVENTS.filter(e=>(!state.g.size||e.gemeinden.some(c=>state.g.has(c)))&&ageOk(e)&&(!state.k.size||arts(e).some(a=>state.k.has(a))||(state.k.has("sonst")&&!arts(e).length))&&(state.r||!isRoutine(e)));
   const mk=(v,top,big,small,txt)=>{const b=node("button","dchip"+(txt?" txt":""));b.type="button";b.append(document.createTextNode(top),node("b","",big));if(small!=null)b.append(node("i","",small));
     b.setAttribute("aria-pressed",String(cur===v));b.addEventListener("click",()=>{state.t=cur===v&&v!=="all"?"all":v;update()});box.append(b);return b};
   mk("all","Alle","∞",null,1);
@@ -783,7 +788,9 @@ function strip(today){const box=document.getElementById("dstrip");if(!box)return
 function render(){
   const n=new Date(),today=new Date(n.getFullYear(),n.getMonth(),n.getDate()),items=select(today);strip(today);
   const list=document.getElementById("list");list.replaceChildren();
-  document.getElementById("count").textContent=(items.length===1?"1 Anlass":items.length+" Anlässe")+" gefunden";
+  const cnt=document.getElementById("count");cnt.textContent=(items.length===1?"1 Anlass":items.length+" Anlässe")+" gefunden";
+  if(state.t!=="fav"){const rb=node("button","rtog",state.r?"Nur besondere Anlässe zeigen":"Auch regelmässige Treffs und Kurse zeigen");rb.type="button";rb.setAttribute("aria-pressed",String(state.r));
+    rb.addEventListener("click",()=>{state.r=!state.r;try{localStorage.setItem("fa-routine",state.r?"1":"0")}catch(x){}render()});cnt.append(" · ",rb)}
   if(!items.length){list.append(node("p","empty",state.t==="fav"?"Du hast noch keine Anlässe gemerkt. Tippe bei einem Anlass auf das Herz ♡.":"Für diese Auswahl gibt es keine Anlässe. Wähle einen anderen Tag, mehr Gemeinden oder ein anderes Alter."));return}
   const one=state.t.startsWith("d:")||state.t==="today";let day="";
   for(const{e,show}of items.slice(0,400)){
@@ -838,7 +845,7 @@ async function start(){
     try{const r=await fetch("events.json",{cache:"no-cache"});if(!r.ok)throw 0;data=await r.json()}catch(e){}
   }
   if(!data||!data.events||!data.gemeinden){document.getElementById("count").textContent="Die Anlässe konnten nicht geladen werden. Die Datei events.js fehlt im selben Ordner wie diese Seite.";return}
-  SITES=data.gemeinden;EVENTS=data.events;
+  SITES=data.gemeinden;EVENTS=data.events;try{state.r=localStorage.getItem("fa-routine")==="1"}catch(x){}
   document.getElementById("tile-text").textContent=EVENTS.length+" Anlässe aus "+Object.keys(SITES).length+" Gemeinden";
   const names=Object.values(SITES);
   const down=names.filter(s=>!s.ok).map(s=>s.name);
