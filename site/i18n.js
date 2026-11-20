@@ -228,12 +228,17 @@ const RULES=[
  [/^Nächste (\d+) Wochen$/,"Next $1 weeks"],[/^(.+) \((\d+)\)$/,(m,a,n)=>{const t=tr(a);return t!==null?t+" ("+n+")":null}],
  [/^Jetzt: (.+)$/,"Now: $1"]
 ];
+const NAMEP={"Spielplatz":"Playground","Waldspielplatz":"Forest playground","Kinderspielplatz":"Playground","Aussichtspunkt":"Viewpoint","Aussichtsturm":"Lookout tower","Feuerstelle":"Fire pit","Grillstelle":"Barbecue spot","Grillplatz":"Barbecue spot","Rastplatz":"Rest area",
+ "Gemeindebibliothek":"Town library","Bibliothek":"Library","Stadtbibliothek":"City library","Ludothek":"Toy library","Spielgruppe":"Playgroup","Waldspielgruppe":"Forest playgroup","Hallenbad":"Indoor pool","Freibad":"Outdoor pool","Strandbad":"Lido","Seebad":"Lake lido","Schwimmbad":"Swimming pool",
+ "Kinderkrippe":"Nursery","Krippe":"Nursery","Hort":"After-school care","Mittagstisch":"Lunch club","Tagesstruktur":"Day care (school)","Tagesstrukturen":"Day care (school)","Kindergarten":"Kindergarten","Schulhaus":"School","Primarschule":"Primary school","Familienzentrum":"Family centre","Gemeinschaftszentrum":"Community centre","Waldhütte":"Forest hut","Burgruine":"Castle ruin","Ruine":"Ruin","Schloss":"Castle","Museum":"Museum","Tierpark":"Animal park","Wildpark":"Wildlife park"};
 function core(s,nd){
   if(D[s]!==undefined)return D[s];
+  const X=window.I18N_EN;if(X&&X[s]!==undefined)return X[s];
   for(const [re,f] of RULES){const m=s.match(re);if(m){const r=typeof f==="string"?s.replace(re,f):f(...m);if(r!=null)return r}}
   if(nd)return null;
   if(new RegExp("^"+WDre+" \\d|^\\d{1,2}\\. ?"+MOre+"|^\\d{1,2}[.:]\\d{2}|^(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag), ").test(s)){
     const r=dates(s).replace(/: (\d+) Anlässe?$/,(m,n)=>": "+n+(n==="1"?" event":" events"));if(r!==s)return r}
+  const pm=s.match(/^(\S+) (.{2,60})$/);if(pm&&NAMEP[pm[1]]&&!/\d{1,2}\./.test(pm[2]))return NAMEP[pm[1]]+" "+pm[2];
   return null;
 }
 function tr(s){
@@ -270,10 +275,11 @@ function restore(){
   const w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT|NodeFilter.SHOW_ELEMENT);let n;
   while(n=w.nextNode()){if(n.nodeType===3){const o=ORIG.get(n);if(o&&n.nodeValue===o.en)n.nodeValue=o.de}else{const st=AORIG.get(n);if(st)for(const a in st)if(n.getAttribute(a)===st[a].en)n.setAttribute(a,st[a].de)}}
 }
-let busy=false;
+let busy=false,loadingEN=false;
 function apply(l){
   LANG=l;document.documentElement.lang=l;
   if(obs){obs.disconnect();obs=null}
+  if(l==="en"&&!window.I18N_EN&&!loadingEN){loadingEN=true;const sc=document.createElement("script");sc.src="en.js";sc.onload=()=>{if(LANG==="en"){busy=true;try{walk(document.body)}finally{busy=false;obs&&obs.takeRecords()}}};document.head.appendChild(sc)}
   if(l==="en"){walk(document.body);document.title="For Families in Zurich";
     obs=new MutationObserver(ms=>{if(busy)return;busy=true;try{for(const m of ms){if(m.type==="characterData")doText(m.target);else if(m.type==="attributes")doEl(m.target);else m.addedNodes.forEach(walk)}}finally{busy=false;obs&&obs.takeRecords()}});
     obs.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:ATTR})}
