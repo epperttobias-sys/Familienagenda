@@ -149,5 +149,7 @@
   "kilchberg": {"name": "Kilchberg", "bezirk": "Horgen", "domain": "www.kilchberg.ch", "system": "links", "path": "/veranstaltungen/seite/{p}", "pages": 15, "p0": 1, "link": "/veranstaltungen/termin/", "lat": 47.3199, "lon": 8.5451},
   "oberrieden": {"name": "Oberrieden", "bezirk": "Horgen", "domain": "www.oberrieden.ch", "system": "links", "path": "/events?page={p}", "pages": 8, "link": "/events/\\d+$", "lat": 47.2742, "lon": 8.5769},
   "gossau": {"name": "Gossau", "bezirk": "Hinwil", "domain": "www.gossau-zh.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/kalender/", "lat": 47.303, "lon": 8.7632},
-  "fischenthal": {"name": "Fischenthal", "bezirk": "Hinwil", "domain": "www.fischenthal.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/leben-familie-anlaesse/", "lat": 47.3399, "lon": 8.9266}
+  "fischenthal": {"name": "Fischenthal", "bezirk": "Hinwil", "domain": "www.fischenthal.ch", "system": "ical", "path": "/evt-kategorie/veranstaltungen/", "page": "/leben-familie-anlaesse/", "lat": 47.3399, "lon": 8.9266},
+  "q-museen": {"name": "Zürcher Museen", "bezirk": "Quellen", "domain": "zuercher-museen.ch", "system": "museen", "quelle": true, "delay": 800},
+  "q-kath": {"name": "Katholische Pfarreien", "bezirk": "Quellen", "domain": "www.forum-magazin.ch", "system": "forum", "quelle": true, "delay": 700}
 }
