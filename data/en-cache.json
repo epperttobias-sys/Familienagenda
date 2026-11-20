@@ -211,6 +211,10 @@
 "e": "On the big adventure playground woodworm children can romp out. They can build huts, experiment with metal or climb through dragons. In addition, they can play with sand and water or fry with friends and family.",
 "p": "Auf dem grossen Abenteuerspielplatz Holzwurm können sich Kinder austoben. Sie können Hütten bauen, mit Metall experimentieren oder durch Drachen klettern. Zudem können sie mit Sand und Wasser spielen oder mit Freunden und Familie bräteln."
 },
+"Aufgrund umfassender Renovationsarbeiten vorübergehend geschlossen": {
+"e": "Temporary closed due to extensive renovation work",
+"p": "Aufgrund umfassender Renovationsarbeiten vorübergehend geschlossen"
+},
 "Aus dem Geschichtenkoffer": {
 "e": "From the story case",
 "p": "Aus dem Geschichtenkoffer"
@@ -275,6 +279,10 @@
 "e": "Baby massage",
 "p": "Babymassage"
 },
+"Bad & Wellness": {
+"e": "Bath & Wellness",
+"p": "Bad & Wellness"
+},
 "Bassersdorfer Fasnacht": {
 "e": "Bassersdorfer Fasnacht",
 "p": "Bassersdorfer Fasnacht"
@@ -322,6 +330,10 @@
 "Begleiteter Bewegungsraum für Babys": {
 "e": "Accompanied movement space for babies",
 "p": "Begleiteter Bewegungsraum für Babys"
+},
+"Bei Regen bleibt die Anlage geschlossen": {
+"e": "In case of rain, the system remains closed",
+"p": "Bei Regen bleibt die Anlage geschlossen"
 },
 "Beizli am Adventsmärt": {
 "e": "Beizli on Advent Märt",
@@ -599,6 +611,10 @@
 "e": "Buzzi Run",
 "p": "Buzzi-Lauf"
 },
+"By reservation": {
+"e": "By reservation",
+"p": "By reservation"
+},
 "Börse - Kinderartikel & - kleider": {
 "e": "Stock Exchange - Children's Articles & Dresses",
 "p": "Börse - Kinderartikel & - kleider"
@@ -803,6 +819,10 @@
 "e": "The Museum Rietberg is a museum of art from Asia, Africa, America and Oceania. Admission fees: CHF 18 / 14 (reduced)",
 "p": "Das Museum Rietberg ist ein Museum für Kunst aus Asien, Afrika, Amerika und Ozeanien. Eintrittspreise: CHF 18 / 14 (reduziert)"
 },
+"Das Museum kann nur mit einer Führung besichtigt werden.": {
+"e": "The museum can only be visited with a guided tour.",
+"p": "Das Museum kann nur mit einer Führung besichtigt werden."
+},
 "Das Neinhorn": {
 "e": "The Nohorn",
 "p": "Das Neinhorn"
@@ -846,6 +866,10 @@
 "Der \"Samichlaus\" kommt": {
 "e": "The \"Sankt Nikolaus\" comes",
 "p": "Der \"Sankt Nikolaus\" kommt"
+},
+"Der Austellungsraum ist nur während der 3-4 Wechselausstellungen im Jahr geöffnet": {
+"e": "The exhibition room is only open during the 3-4 temporary exhibitions in the year",
+"p": "Der Austellungsraum ist nur während der 3-4 Wechselausstellungen im Jahr geöffnet"
 },
 "Der DrüüBei-Kinderspielplatz ist Eigentum der Politischen Gemeinde Dällikon und dient in erster Linie der Bevölkerung.\nZutrittsverbot ab 22 Uhr.": {
 "e": "The DrüBei children's playground is the property of the political community of Dällikon and primarily serves the population.",
@@ -962,6 +986,10 @@
 "Durch die aussergewöhnliche Form des Terrains und der klaren Baumgrenze der Waldlichtung als akustischer Spiegel werden Schallwellen um einige Sekunden verzögert zurückgeworfen. Dies erzeugt ein vom V": {
 "e": "Due to the unusual shape of the terrain and the clear tree line of the forest clearing as acoustic mirrors, sound waves are thrown back by a few seconds.",
 "p": "Durch die aussergewöhnliche Form des Terrains und der klaren Baumgrenze der Waldlichtung als akustischer Spiegel werden Schallwellen um einige Sekunden verzögert zurückgeworfen. Dies erzeugt ein vom V"
+},
+"During school weeks open until 18:00": {
+"e": "During school weeks open until 18:00",
+"p": "During school weeks open until 18:00"
 },
 "Dä Chlaus im WIsliger Wald": {
 "e": "St. Nicholas in the WIslig forest",
@@ -1567,6 +1595,10 @@
 "e": "Fresh tree cutting itself in the Hönggerberg factory",
 "p": "Frischbaum selbst schneiden im Werkhof Hönggerberg"
 },
+"Frühschwimmen": {
+"e": "Early swimming",
+"p": "Frühschwimmen"
+},
 "Fund. Real Madrid Fussballcamp in Glattbrugg / Opfikon": {
 "e": "Fund. Real Madrid Football Camp in Glattbrugg / Oppikon",
 "p": "Fund. Real Madrid Fussballcamp in Glattbrugg / Opfikon"
@@ -2022,6 +2054,10 @@
 "Jahreskonzert 2027 - Harmoniemusik Wald (Familienkonzert)": {
 "e": "Annual Concert 2027 - Harmoniemusik Wald (Family Concert)",
 "p": "Jahreskonzert 2027 - Harmoniemusik Wald (Familienkonzert)"
+},
+"Jeden 1. u d 3. Sonntag im Monat von 11:00-16:00, oder nach Absprache.": {
+"e": "Every 1st and 3rd Sunday of the month from 11:00-16:00, or by appointment.",
+"p": "Jeden 1. u d 3. Sonntag im Monat von 11:00-16:00, oder nach Absprache."
 },
 "Jubiläum der Zauberlaterne Dübendorf": {
 "e": "Anniversary of the magic lantern Dübendorf",
@@ -3087,9 +3123,17 @@
 "e": "Emergency cases in small children Kibesuisse",
 "p": "Notfälle bei Kleinkindern Kibesuisse"
 },
+"Nur Erwachsene": {
+"e": "Adults only",
+"p": "Nur Erwachsene"
+},
 "OPEN AIR KERZENZIEHEN USTER": {
 "e": "Open air candle-pulling uster",
 "p": "Open air kerzenziehen uster"
+},
+"Offen je nach Anlass.": {
+"e": "Open depending on the occasion.",
+"p": "Offen je nach Anlass."
 },
 "Offene Kirchentür am Horgner Weihnachtsmarkt": {
 "e": "Open church door at the Horgner Christmas Market",
@@ -3331,6 +3375,10 @@
 "e": "Representative manor house, which served until 1830 as the Landvogtsitz.",
 "p": "Repräsentatives Herrenhaus, das bis 1830 als Landvogtsitz diente."
 },
+"Reservation by phone or e-mail": {
+"e": "Reservation by phone or e-mail",
+"p": "Reservation by phone or e-mail"
+},
 "Rhythmuszauber": {
 "e": "Rhythm Magic",
 "p": "Rhythmuszauber"
@@ -3514,6 +3562,10 @@
 "Samschtigsgschichtli": {
 "e": "Samstigsgschichtli",
 "p": "Samschtigsgschichtli"
+},
+"Samstag/Sonntag/Feiertage: Zutritt von 7:00 bis 24:00 Uhr ausschliesslich und nur für Angehörige der Vetsuisse-Fakultät mit gültiger, freigeschalteter und validierter UZH-Card.": {
+"e": "Saturday/Sunday/Holiday: Access from 7:00 am to midnight exclusively and only for members of the Vetsuisse Faculty with valid, unlocked and validated UZH card.",
+"p": "Samstag/Sonntag/Feiertage: Zutritt von 7:00 bis 24:00 Uhr ausschliesslich und nur für Angehörige der Vetsuisse-Fakultät mit gültiger, freigeschalteter und validierter UZH-Card."
 },
 "Sand-Spielplatz für Kinder": {
 "e": "Sand playground for children",
@@ -4011,6 +4063,10 @@
 "e": "Provides toys to children, young people and families for use in Eulachpark or in Hall 710",
 "p": "Verleiht Spielmaterial an Kinder, Jugendliche und Familien zur Nutzung im Eulachpark oder in der Halle 710"
 },
+"Vermietung: Ortsverein Hegi": {
+"e": "Rental: Local association Hegi",
+"p": "Vermietung: Ortsverein Hegi"
+},
 "Verse, Lieder und Geschichten für die Kleinsten - Buchstart": {
 "e": "Verses, songs and stories for the youngest - book start",
 "p": "Verse, Lieder und Geschichten für die Kleinsten - Buchstart"
@@ -4098,6 +4154,10 @@
 "Wasserschloss #4 der Quellwasserleitung Sihlbrugg–Zürich; seit 1975 begehbare Anlage mit audio-visueller Vorführung": {
 "e": "Water lock #4 of the spring water pipe Sihlbrugg–Zurich; since 1975 walkable system with audio-visual demonstration",
 "p": "Wasserschloss #4 der Quellwasserleitung Sihlbrugg–Zürich; seit 1975 begehbare Anlage mit audio-visueller Vorführung"
+},
+"Webseite ab 07:30 Uhr kontaktieren": {
+"e": "Contact website from 07:30",
+"p": "Webseite ab 07:30 Uhr kontaktieren"
 },
 "Weihnachten für alle": {
 "e": "Christmas for all",
@@ -4311,6 +4371,10 @@
 "e": "Workshop parents competently accompany the career choice",
 "p": "Workshop Eltern begleiten die Berufswahl kompetent"
 },
+"Während Saison ab 19:00 gratis ohne Personal": {
+"e": "During season from 19:00 free without staff",
+"p": "Während Saison ab 19:00 gratis ohne Personal"
+},
 "Yoga für Mama & Kind": {
 "e": "Yoga for Mom & Child",
 "p": "Yoga für Mama & Kind"
@@ -4419,6 +4483,22 @@
 "e": "Zürih okul sistemi ile ilgili bilgiler",
 "p": "Zürih okul sistemi ile ilgili bilgiler"
 },
+"auf Anfrage": {
+"e": "on request",
+"p": "auf Anfrage"
+},
+"bei gutem Wetter": {
+"e": "in good weather",
+"p": "bei gutem Wetter"
+},
+"bei trockenem Wetter": {
+"e": "in dry weather",
+"p": "bei trockenem Wetter"
+},
+"by appointment": {
+"e": "by appointment",
+"p": "by appointment"
+},
 "contains the Konrad Kellenberger watch collection and the Oscar Schwank pocket watch collection": {
 "e": "contains the Konrad Kellenberger watch collection and the Oscar Schwank pocket watch collection",
 "p": "contains the Konrad Kellenberger watch collection and the Oscar Schwank pocket watch collection"
@@ -4439,9 +4519,33 @@
 "e": "miam concerts for children between 0 and 6 years",
 "p": "miam-Konzerte für Kinder zwischen 0 und 6 Jahren"
 },
+"nach Vereinbarung": {
+"e": "by agreement",
+"p": "nach Vereinbarung"
+},
+"nur auf Voranmeldung": {
+"e": "only on prior notification",
+"p": "nur auf Voranmeldung"
+},
+"nur bei schönem Wetter": {
+"e": "only in nice weather",
+"p": "nur bei schönem Wetter"
+},
+"oder nach Vereinbarung": {
+"e": "or by agreement",
+"p": "oder nach Vereinbarung"
+},
+"regulär geschlossen, zweimal pro Jahr Tag der offenen Tür": {
+"e": "regular closed, twice a year open door day",
+"p": "regulär geschlossen, zweimal pro Jahr Tag der offenen Tür"
+},
 "s'Bibliteam verzellt Bilderbüechli": {
 "e": "s'Bibliteam verzellt Bilderbüechli",
 "p": "s'Bibliteam verzellt Bilderbüechli"
+},
+"select days only, see website": {
+"e": "select days only, see website",
+"p": "select days only, see website"
 },
 "von Garklein bis Subkontrabass - Blockflötenkonzert PrimaFlautina": {
 "e": "from Garklein to Subcontrabass - Recorder concerto PrimaFlautina",
