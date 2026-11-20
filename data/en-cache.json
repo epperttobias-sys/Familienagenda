@@ -1,4 +1,8 @@
 {
+"\"Gschichte-Ziit\" in der Bibliothek": {
+"e": "\"Story Time\" in the Library",
+"p": "\"Geschichtenzeit\" in der Bibliothek"
+},
 "\"o solo mio!\" Komödie über Einsamkeit mit Gesang": {
 "e": "\"o solo mio!\" Comedy about loneliness with singing",
 "p": "\"o solo mio!\" Komödie über Einsamkeit mit Gesang"
@@ -22,6 +26,10 @@
 "53. Fällander Weihnachtsmärt": {
 "e": "53. Fällder Christmas months",
 "p": "53. Fällander Weihnachtsmärt"
+},
+"ABGESAGT - Buchstart - Sprache entdecken": {
+"e": "Canceled - Bookstart - Discover language",
+"p": "Abgesagt - Buchstart - Sprache entdecken"
 },
 "ABRI - DAS VERMÄCHTNIS DER GEFÄHRTEN": {
 "e": "Abri - the legacy of the companions",
@@ -47,6 +55,10 @@
 "e": "Action gym",
 "p": "Action Turnhalle"
 },
+"Actionreiche Sportcamps für Kinder & Jugendliche von 4 - 13 Jahren": {
+"e": "Actionful sports camps for children & teenagers from 4 - 13 years",
+"p": "Actionreiche Sportcamps für Kinder & Jugendliche von 4 - 13 Jahren"
+},
 "Advent mit 100 Stories, L´Atelier-ein Kinderatelier": {
 "e": "Advent with 100 Stories, L ́Atelier-a children's studio",
 "p": "Advent mit 100 Stories, L´Atelier-ein Kinderatelier"
@@ -58,6 +70,10 @@
 "Advents-Zmorge": {
 "e": "Advent breakfast",
 "p": "Advents-Frühstück"
+},
+"AdventsZauber": {
+"e": "AdventMagic",
+"p": "AdventsZauber"
 },
 "Adventsbasteln für Kinder bei Gelateria Crema": {
 "e": "Advent making for children at Gelateria Crema",
@@ -98,6 +114,10 @@
 "Adventsgesteck basteln für Kinder von 8 bis 12 Jahren": {
 "e": "Advent cutlery for children from 8 to 12 years",
 "p": "Adventsgesteck basteln für Kinder von 8 bis 12 Jahren"
+},
+"Adventskalender Thalwil Oberdorf": {
+"e": "Advent Calendar Thalwil Oberdorf",
+"p": "Adventskalender Thalwil Oberdorf"
 },
 "Adventskalender – Kreativer Bastelnachmittag für Kinder": {
 "e": "Advent Calendar – Creative craft afternoon for children",
@@ -699,6 +719,10 @@
 "e": "Child'Space course",
 "p": "Child'Space-Kurs"
 },
+"Chinderchilewiehnacht am 3. Advent | Aufführung des Musicals \"D Räuber vo Bethlehem\" von Adonia": {
+"e": "Chinderchilewiehnacht on the 3rd Advent, performance of the musical \"D Räuber vo Bethlehem\" by Adonia",
+"p": "Chinderchilewiehnacht am 3. Advent | Aufführung des Musicals \"D Räuber vo Bethlehem\" von Adonia"
+},
 "Chinderfasnacht": {
 "e": "Chinderfasnacht",
 "p": "Chinderfasnacht"
@@ -995,6 +1019,10 @@
 "e": "St. Nicholas in the WIslig forest",
 "p": "Dä Sankt Nikolaus im WIsliger Wald"
 },
+"Dä Samichlaus zündet d'Liechter aa": {
+"e": "Dä Saint Nicholas ignites d'Liechter aa",
+"p": "Dä Sankt Nikolaus zündet d'Liechter aa"
+},
 "EISDISCO": {
 "e": "Ice-disco",
 "p": "Eisdisco"
@@ -1187,6 +1215,10 @@
 "e": "Experimental construction and design",
 "p": "Experimentelles Bauen und Gestalten"
 },
+"FEEL GOOD EXPO 2027": {
+"e": "Feel good expo 2027",
+"p": "Feel good expo 2027"
+},
 "FORUM Adventsmarkt und Kerzenziehen der KiKo": {
 "e": "Forum Advent market and candle-drawing of the KiKo",
 "p": "Forum Adventsmarkt und Kerzenziehen der KiKo"
@@ -1202,6 +1234,10 @@
 "Familien in Bewegung": {
 "e": "Families on the move",
 "p": "Familien in Bewegung"
+},
+"Familien-Atelier mit 100 Geschichten, L'Atelier": {
+"e": "Family studio with 100 stories, L'Atelier",
+"p": "Familien-Atelier mit 100 Geschichten, L'Atelier"
 },
 "Familien-Café": {
 "e": "Family Café",
@@ -1731,6 +1767,10 @@
 "e": "Story chest in the library Töss for children from 3 to 6 years",
 "p": "Geschichtenkiste in der Bibliothek Töss für Kinder von 3 bis 6 Jahren"
 },
+"Geschichtenkoffer in der Bibliothek": {
+"e": "Story case in the library",
+"p": "Geschichtenkoffer in der Bibliothek"
+},
 "Geschichtenkoffer in der Bibliothek Dachsen": {
 "e": "Story case in the library Dachsen",
 "p": "Geschichtenkoffer in der Bibliothek Dachsen"
@@ -1899,6 +1939,10 @@
 "e": "Glycaeciite",
 "p": "Gschichtäziit"
 },
+"Guetzli backen": {
+"e": "Bake guetzli",
+"p": "Guetzli backen"
+},
 "Guetzlifestival": {
 "e": "Guetzlifestival",
 "p": "Guetzlifestival"
@@ -2066,6 +2110,10 @@
 "Jugendcoaching": {
 "e": "Youth coaching",
 "p": "Jugendcoaching"
+},
+"Jugendtreff": {
+"e": "Youth meeting",
+"p": "Jugendtreff"
 },
 "Jungscharnachmittag": {
 "e": "Boys' afternoon",
@@ -2250,6 +2298,10 @@
 "Kerzenziehen bei der Martin Stiftung": {
 "e": "Candle-drawing at the Martin Foundation",
 "p": "Kerzenziehen bei der Martin Stiftung"
+},
+"Kerzenziehen im Baumgärtlihof": {
+"e": "Candle-drawing in the Baumgärtlihof",
+"p": "Kerzenziehen im Baumgärtlihof"
 },
 "Kerzenziehen in Seen": {
 "e": "Candle-drawing in lakes",
@@ -2619,6 +2671,10 @@
 "e": "Church of Kunterbunt",
 "p": "Kirche Kunterbunt"
 },
+"Klangmeditation alte Badi Robenhausen - draussen unter Dach": {
+"e": "Sound meditation old Badi Robenhausen - outside under roof",
+"p": "Klangmeditation alte Badi Robenhausen - draussen unter Dach"
+},
 "Klassikfestival Küsnacht": {
 "e": "Klassikfestival Küsnacht",
 "p": "Klassikfestival Küsnacht"
@@ -2747,6 +2803,10 @@
 "e": "Course Emergency cases for children 0-4",
 "p": "Kurs Notfälle für Kinder 0-4"
 },
+"Kurs «Fit für den Kindergarten»": {
+"e": "Course «Fit for kindergarten»",
+"p": "Kurs «Fit für den Kindergarten»"
+},
 "Kuscheltier-Nacht": {
 "e": "Cuddly toy night",
 "p": "Kuscheltier-Nacht"
@@ -2774,6 +2834,10 @@
 "Lebkuchen verzieren": {
 "e": "Decorate gingerbread",
 "p": "Lebkuchen verzieren"
+},
+"Lebkuchen verzieren am Weihnachtsmarkt": {
+"e": "Gingerbread decorate at the Christmas market",
+"p": "Lebkuchen verzieren am Weihnachtsmarkt"
 },
 "Lebkuchen verzieren am Weihnachtsmarkt Winterthur": {
 "e": "Gingerbread decorate at Christmas market Winterthur",
@@ -2827,6 +2891,10 @@
 "e": "Luftibus & Martin Kaspar Orkestra",
 "p": "Luftibus & Martin Kaspar Orkestra"
 },
+"MINI DECKI - wir nähen Patchworkdecken für geflüchtete Kinder und Jugendliche": {
+"e": "MINI Decki - we sew patchwork blankets for refugee children and adolescents",
+"p": "MINI Decki - wir nähen Patchworkdecken für geflüchtete Kinder und Jugendliche"
+},
 "MINI-TURNEN": {
 "e": "Mini gymnastics",
 "p": "Mini-turnen"
@@ -2846,6 +2914,10 @@
 "MS Sports Fussball Camp Fällanden 2027": {
 "e": "MS Sports Football Camp Fällanden 2027",
 "p": "MS Sports Fussball Camp Fällanden 2027"
+},
+"MS Sports Fussball Camp Kemptthal 2027": {
+"e": "MS Sports Football Camp Kemptthal 2027",
+"p": "MS Sports Fussball Camp Kemptthal 2027"
 },
 "MS Sports Fussball Camp Wallisellen 2027": {
 "e": "MS Sports Football Camp Wallisellen 2027",
@@ -3171,6 +3243,10 @@
 "e": "Open meeting Tannenbach",
 "p": "Offener Treff Tannenbach"
 },
+"Offener Waldnachmittag mit Waldkinder": {
+"e": "Open forest afternoon with forest children",
+"p": "Offener Waldnachmittag mit Waldkinder"
+},
 "Offenes Singen zu Samichlaus, Advent und Weihnachten": {
 "e": "Open singing to Saint Nicholas, Advent and Christmas",
 "p": "Offenes Singen zu Sankt Nikolaus, Advent und Weihnachten"
@@ -3222,6 +3298,10 @@
 "Osterbasteln": {
 "e": "Easter cakes",
 "p": "Osterbasteln"
+},
+"Osterbasteln in der Bibi": {
+"e": "Easter cakes in the Bibi",
+"p": "Osterbasteln in der Bibi"
 },
 "Ovaler Burghügel mit Mauerspuren, umgeben von einem Wall mit zwei Öffnungen. Wohl ursprünglich frühmittelalterliche Motte, die im 13. Jh. in eine Steinburg umgewandelt wurde. Die Herren v. Hengart erw": {
 "e": "Oval castle hill with traces of the wall, surrounded by a wall with two openings. Probably originally early medieval moth, which was converted into a stone castle in the 13th century.",
@@ -3363,6 +3443,10 @@
 "e": "Rainforest afternoon",
 "p": "Regenwaldnachmittag"
 },
+"Reim & Spiel in der Bibliothek": {
+"e": "Reim & game in the library",
+"p": "Reim & Spiel in der Bibliothek"
+},
 "Reim und Spiel mit Angela Richard": {
 "e": "Rhyme and game with Angela Richard",
 "p": "Reim und Spiel mit Angela Richard"
@@ -3414,6 +3498,10 @@
 "Räbeliechtliumzug 2027": {
 "e": "Turnip lantern removal 2027",
 "p": "Rübenlaternen-Umzug 2027"
+},
+"Rütner Kerzenziehen": {
+"e": "Rütner candle-drawing",
+"p": "Rütner Kerzenziehen"
 },
 "SAMICHLAUS- ZVIERI": {
 "e": "Saint Nicholas' zvieri",
@@ -3534,6 +3622,10 @@
 "Samichlaus-Einzug": {
 "e": "Saint Nicholas' entry",
 "p": "Sankt Nikolaus-Einzug"
+},
+"Samichlaus-Einzug in Oberengstringen": {
+"e": "Sankt Nikolaus-Einzug in Oberengstringen",
+"p": "Sankt Nikolaus-Einzug in Oberengstringen"
 },
 "Samichlaus-Express": {
 "e": "Saint Nicholas Express",
@@ -4202,6 +4294,10 @@
 "Weihnachtsbasteln \"Origami-Fenstersterne\" mit Josefa Wollein": {
 "e": "Christmas tins \"Origami window stars\" with Josefa Wollein",
 "p": "Weihnachtsbasteln \"Origami-Fenstersterne\" mit Josefa Wollein"
+},
+"Weihnachtsbasteln 2026": {
+"e": "Christmas tins 2026",
+"p": "Weihnachtsbasteln 2026"
 },
 "Weihnachtsfeier für Klein und Gross": {
 "e": "Christmas party for young and old",
