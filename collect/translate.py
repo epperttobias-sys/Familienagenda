@@ -33,9 +33,11 @@ def texts():
 
 # Schweizerdeutsch und Mundart vor der Übersetzung ins Hochdeutsche bringen
 CH = [
+    (r"\bChinderfiir\b", "Kinderfeier"), (r"\bChliichind", "Kleinkind"), (r"-Fiir\b", "-Feier"), (r"\bGschichte-?(Ziit|Zyt|ziit|zyt)\b", "Geschichtenzeit"),
+    (r"\bBsuech bim\b", "Besuch beim"), (r"\bBsuech\b", "Besuch"), (r"\bZiit\b", "Zeit"), (r"\bMüüsli", "Mäuse"), (r"\bFröschli\b", "Frösche (Jungschar)"),
     (r"\bChliinsch?te\b", "Kleinsten"), (r"\bChliine\b", "Kleinen"), (r"\bChlii\b", "klein"), (r"\bChinde?r\b", "Kinder"), (r"\bChind\b", "Kind"),
     (r"\bFiire\b", "Feiern"), (r"\bSinge\b", "Singen"), (r"\bmit de\b", "mit den"), (r"\bfür d\b", "für die"), (r"\bGschichte\b", "Geschichten"),
-    (r"\bGschichtli\b", "Geschichten"), (r"\bVärsli\b", "Verse"), (r"\bSamichlaus\b", "Nikolaus"), (r"\bChlaus\b", "Nikolaus"), (r"\bChilbi\b", "Jahrmarkt"),
+    (r"\bGschichtli\b", "Geschichten"), (r"\bVärsli\b", "Verse"), (r"\bSamichlaus\b", "Sankt Nikolaus"), (r"\bChlaus\b", "Sankt Nikolaus"), (r"\bChilbi\b", "Kirmes"),
     (r"\bRäbeliechtli(umzug|-Umzug)?\b", "Rübenlaternen-Umzug"), (r"\bRäbe\b", "Rüben"), (r"\bZmorge\b", "Frühstück"), (r"\bZmittag\b", "Mittagessen"),
     (r"\bZnacht\b", "Abendessen"), (r"\bZvieri\b", "Zvieri-Snack"), (r"\bKafi\b", "Café"), (r"\bGigampfi\b", "Wippe"), (r"\bChrabbel", "Krabbel"),
     (r"\bChile\b", "Kirche"), (r"\bChilegass\b", "Kirchgasse"), (r"\bLiechtli\b", "Lichter"), (r"\bGrittibänz\b", "Grittibänz (Brotmännchen)"),
@@ -45,7 +47,9 @@ CH = [
 # Nach der Übersetzung
 POST = [
     (r"\bLudothek\b", "toy library"), (r"\bludothek\b", "toy library"), (r"\bSt\. Nicholas\b", "St Nicholas"), (r"\bSanta Claus\b", "St Nicholas"),
-    (r"\bFather Christmas\b", "St Nicholas"), (r"\bturnip lantern(s)? parade\b", "turnip lantern parade"), (r"\bFasnacht\b", "carnival"),
+    (r"\bFather Christmas\b", "St Nicholas"), (r"\b(Saint|Sankt|St\.?) (Nikolaus|Nicholas|Nicolas)\b", "St Nicholas"), (r"\bNikolaus\b", "St Nicholas"),
+    (r"(?<!St )\bNicholas\b", "St Nicholas"), (r"\bKirmes\b", "funfair"), (r"\bJahrmarkt\b", "fair"), (r"\b[Cc]andle-drawing\b", "candle dipping"), (r"\b[Cc]andle drawing\b", "candle dipping"),
+    (r"\bthe municipality of\b", "the town of"), (r"\bmunicipality\b", "town"), (r"\bturnip lantern(s)? parade\b", "turnip lantern parade"), (r"\bFasnacht\b", "carnival"),
 ]
 
 
@@ -68,7 +72,8 @@ def post(t):
 def main():
     cache = json.loads(CACHE.read_text(encoding="utf-8")) if CACHE.exists() else {}
     want = texts()
-    todo = [t for t in want if t not in cache]
+    ok = lambda t: isinstance(cache.get(t), dict) and cache[t].get("p") == prep(t)
+    todo = [t for t in want if not ok(t)]
     print(f"{len(want)} Texte, davon neu: {len(todo)}", flush=True)
     if todo:
         from transformers import MarianMTModel, MarianTokenizer
@@ -87,12 +92,17 @@ def main():
             with torch.no_grad():
                 gen = model.generate(**enc, num_beams=3, max_new_tokens=400)
             for de, en in zip(batch, tok.batch_decode(gen, skip_special_tokens=True)):
-                cache[de] = post(en)
+                cache[de] = {"p": prep(de), "e": en}
             if i // B % 10 == 0:
                 print(f"  {i + len(batch)}/{len(order)} ({time.time() - t0:.0f}s)", flush=True)
         CACHE.parent.mkdir(exist_ok=True)
         CACHE.write_text(json.dumps(cache, ensure_ascii=False, sort_keys=True, indent=0), encoding="utf-8")
-    used = {t: cache[t] for t in want if t in cache and cache[t] and cache[t] != t}
+    used = {}
+    for t in want:
+        if ok(t):
+            e = post(cache[t]["e"])
+            if e and e != t:
+                used[t] = e
     (SITE / "en.js").write_text(
         "// Automatisch übersetzt mit Opus-MT (Helsinki-NLP, CC-BY 4.0). Nicht von Hand bearbeiten.\n"
         "window.I18N_EN=" + json.dumps(used, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
