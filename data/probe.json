@@ -1,88 +1,42 @@
 [
  {
-  "l": "RAW berg",
-  "u": "https://www.bergamirchel.ch/agenda/",
+  "l": "RAW globe",
+  "u": "https://www.globegarden.ch/locations",
   "s": 200,
-  "f": "https://www.bergamirchel.ch/agenda/",
-  "title": "Agenda - Gemeinde Berg am Irchel"
+  "f": "https://www.globegarden.ch/kita-locator",
+  "title": "Kita Locator | globegarden"
  },
  {
-  "l": "RAW boptypes",
-  "u": "https://www.boppelsen.ch/wp-json/wp/v2/types",
+  "l": "RAW globe2",
+  "u": "https://www.globegarden.ch/en/kita-finder",
   "s": 200,
-  "f": "https://www.boppelsen.ch/wp-json/wp/v2/types"
+  "f": "https://www.globegarden.ch/en/kita-finder",
+  "title": "Kita finder | globegarden"
  },
  {
-  "l": "RAW fischtypes",
-  "u": "https://www.fischenthal.ch/wp-json/wp/v2/types",
+  "l": "RAW wintipdf",
+  "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/kinder-jugendliche-und-familien/kinderbetreuung/standorte-der-kitas",
   "s": 200,
-  "f": "https://www.fischenthal.ch/wp-json/wp/v2/types"
+  "f": "https://stadt.winterthur.ch/standorte-kitas",
+  "title": "Standorte Kitas | Stadt Winterthur"
  },
  {
-  "l": "RAW gossautypes",
-  "u": "https://www.gossau-zh.ch/wp-json/wp/v2/types",
+  "l": "RAW zhckan",
+  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kita&rows=10",
   "s": 200,
-  "f": "https://www.gossau-zh.ch/wp-json/wp/v2/types",
-  "title": "Gemeinde Gossau ZH -"
+  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kita&rows=10"
  },
  {
-  "l": "RAW hueintypes",
-  "u": "https://www.huentwangen.ch/wp-json/wp/v2/types",
+  "l": "RAW zhckan2",
+  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kinderbetreuung&rows=10",
   "s": 200,
-  "f": "https://www.huentwangen.ch/wp-json/wp/v2/types"
+  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kinderbetreuung&rows=10"
  },
  {
-  "l": "RAW kilchfam",
-  "u": "https://www.kilchberg.ch/veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=95",
-  "s": 200,
-  "f": "https://www.kilchberg.ch/veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=95",
-  "title": "Veranstaltungen | Gemeinde Kilchberg"
- },
- {
-  "l": "RAW oberrieden",
-  "u": "https://www.oberrieden.ch/events",
-  "s": 200,
-  "f": "https://www.oberrieden.ch/events",
-  "title": "Veranstaltungskalender | oberrieden.ch"
- },
- {
-  "l": "RAW ossingen",
-  "u": "https://www.ossingen.ch/gemeinde/agenda",
-  "s": 200,
-  "f": "https://www.ossingen.ch/gemeinde/agenda",
-  "title": "Agenda"
- },
- {
-  "l": "RAW ottical",
-  "u": "https://www.ottenbach.ch/events/ical",
-  "s": 200,
-  "f": "https://www.ottenbach.ch/events/ical"
- },
- {
-  "l": "RAW ottjson",
-  "u": "https://www.ottenbach.ch/events/json",
-  "s": 200,
-  "f": "https://www.ottenbach.ch/events/json"
- },
- {
-  "l": "RAW staefa1",
-  "u": "https://www.staefa.ch/aktuelles/anlaesse.html",
+  "l": "RAW zollikon",
+  "u": "https://www.zollikon.ch/kinderbetreuung",
   "s": 404,
-  "f": "https://www.staefa.ch/aktuelles/anlaesse.html",
-  "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
- },
- {
-  "l": "RAW staefa2",
-  "u": "https://www.staefa.ch/leben/freizeit/veranstaltungen.html",
-  "s": 404,
-  "f": "https://www.staefa.ch/leben/freizeit/veranstaltungen.html",
-  "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
- },
- {
-  "l": "RAW staefa3",
-  "u": "https://www.staefa.ch/veranstaltungen",
-  "s": 404,
-  "f": "https://www.staefa.ch/veranstaltungen",
-  "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
+  "f": "https://www.zollikon.ch/kinderbetreuung",
+  "title": "Gemeinde Zollikon - Ungültige Adresse"
  }
 ]

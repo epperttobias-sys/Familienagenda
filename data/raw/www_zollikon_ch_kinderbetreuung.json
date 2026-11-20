@@ -1,0 +1,36 @@
+{
+ "f": "https://www.zollikon.ch/kinderbetreuung",
+ "ct": "text/html; charset=UTF-8",
+ "sys": [
+  "iweb"
+ ],
+ "links": [
+  "zur Startseite | /_rtr/home",
+  "Lebensraum | /fuer-alle",
+  "Veranstaltungen | /anlaesseaktuelles",
+  "Fachstelle Alter und Gesundheit / Weitere Angebote und Aktivitäten | /fachstelle-alter-gesundheit-weitere-angebote-aktivitaeten",
+  "Freizeitbegeisterte und Naturfreunde | /freizeit-natur",
+  "Freizeitdienst | /freizeitdienste",
+  "Bewilligungen | /bewilligungenfreizeit",
+  "Abstimmungs- und Wahltermine | /abstimmungen",
+  "4 Schule / Freizeit | /gk-schulefreizeit",
+  "Abstimmungs- und Wahltermine | https://www.zollikon.ch/_rtr/abstimmungen",
+  "Alter | https://www.zollikon.ch/_rtr/fachstellealtergesundheitweitereangeboteaktivitaeten",
+  "Anlässe | https://www.zollikon.ch/_rtr/anlaesseaktuelles?ort=",
+  "Arrestbegehren | https://www.zollikon.ch/_rtr/dienst_93712",
+  "Bewilligungen | https://www.zollikon.ch/_rtr/bewilligungenfreizeit",
+  "Entsorgungskalender | https://www.zollikon.ch/_docn/6410276/Entsorgungskalender_2026.pdf",
+  "Freizeitdienst | https://www.zollikon.ch/_rtr/freizeitdienste",
+  "Geldsammlung (Bewilligung) | https://www.zollikon.ch/_rtr/bewilligungenfreizeit",
+  "Kursangebot Freizeitdienst | https://www.zollikon.ch/_rtr/kursangebot",
+  "Lebensbestätigung/-bescheinigung | https://www.zollikon.ch/_rtr/dienst_3130",
+  "Sammelaktion | https://www.zollikon.ch/_rtr/bewilligungenfreizeit",
+  "Sportanlagen | https://www.zollikon.ch/_rtr/sportfreizeit",
+  "Veranstaltungen | https://www.zollikon.ch/_rtr/anlaesseaktuelles?ort=",
+  "Wahltermine | https://www.zollikon.ch/_rtr/abstimmungen",
+  "Weiter zur Volltextsuche. | /_rtr/suchformular",
+  "Startseite | /_rtr/home"
+ ],
+ "head": "",
+ "ev": "<li class=\"last menu-item  menu-online-terminbuchung menu-level-3\"><a href=\"/online-terminbuchung\">Online-Terminbuchung</a>\n        </li>\n        </ul>\n        </li><li class=\"has-sub menu-item  menu-remeinderatred menu-level-2\"><a href=\"/remeinderatred\">Gemeinderat</a><ul class=\"sub-menu sub-menu-level-3\">\n            <li class=\"icms-menu-repeated-title\"><a class=\"menuLevelTitle\" href=\"/remeinderatred\">\n                    Gemeinderat\n                    </a></li>\n                <li class=\"first menu-item  menu-exekutive menu-level-3\"><a href=\"/exekutive\">Gemeinderat</a>\n        </li><li class=\"menu-item  menu-legislaturziel menu-level-3\"><a href=\"/legislaturziel\">Legislaturziele</a>\n        </li><li class=\"menu-item  menu-verhandlungsberichte menu-level-3\"><a href=\"/verhandlungsberichte\">Verhandlungsberichte</a>\n        </li><li class=\"last menu-item  menu-dialogabend menu-level-3\"><a href=\"/dialogabend\">Dialogabend</a>\n        </li>\n        </ul>\n        </li><li class=\"has-sub menu-item  menu-abstimmungenwahlen menu-level-2\"><a href=\"/abstimmungenwahlen\">Wahlen &amp; Abstimmungen</a><ul class=\"sub-menu sub-menu-level-3\">\n            <li class=\"icms-menu-repeated-title\"><a class=\"menuLevelTitle\" href=\"/abstimmungenwahlen\">\n                    Wahlen &amp; Abstimmungen\n                    </a></li>\n                <li class=\"first menu-item  menu-sitzung menu-level-3\"><a href=\"/sitzung\">Gemeindeversammlung</a>\n        </li><li class=\"menu-item  menu-abstimmungen menu-level"
+}
