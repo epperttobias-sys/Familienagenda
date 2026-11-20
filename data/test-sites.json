@@ -1,11 +1,1 @@
-{
- "q-kinderregion": {
-  "name": "kinderregion.ch",
-  "bezirk": "Quellen",
-  "domain": "kinderregion.ch",
-  "system": "kinderregion",
-  "quelle": true,
-  "delay": 900,
-  "skipHosts": "opernhaus\\.ch|theater-purpur\\.ch|tonhalle-orchester\\.ch|schauspielhaus\\.ch|lanterne-magique"
- }
-}
+{}

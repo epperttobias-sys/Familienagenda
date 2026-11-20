@@ -634,11 +634,12 @@ export const SYSTEMS = {
         const ortSeg = segs.find(x => !/\d/.test(x) && x.length < 50) || "";
         const inOrt = (txt.match(/\b(?:in|im|auf dem|am)\s+([A-ZÄÖÜ][\wäöü-]+(?:\s(?:am|an der|bei)\s[A-ZÄÖÜ][\wäöü]+)?)/g) || []).map(x => x.replace(/^\S+(\s(dem|der))?\s+/, ""));
         let g = gemeindeByName(ortSeg) || (ZH.test(ortSeg) ? "zuerich" : "");
+        if (!g) for (const w of ortSeg.split(/[\s,]+/).reverse()) { const c = gemeindeByName(w); if (c && w.length > 3 && !/^(Dorf|Wald|Wil|Hausen|Berg)$/.test(w)) { g = c; break; } }
         if (!g) for (const w of inOrt) { const c = gemeindeByName(w); if (c && !/^(Dorf|Wald|Wil|Hausen|Berg|Stammheim)$/.test(w)) { g = c; break; } }
         if (!g && ZH.test(txt) && !/Zug\b|Schwyz|Liechtenstein|Luzern|Aargau|St\. ?Gallen|Thurgau|Jona|Rapperswil/.test(txt)) g = "zuerich";
         if (!g) continue;
         // Titel: erster Teil ohne Datum, der nicht der Ort ist
-        let title = segs.find(x => !/\d/.test(x) && x !== ortSeg && x.length > 3 && x.length < 90 && !/^(diverse|alle)\b/i.test(x)) || segs.find(x => !/^\d|^ab \d|^bis/.test(x) && x !== ortSeg) || ortSeg;
+        let title = /\bin [A-ZÄÖÜ]/.test(ortSeg) ? ortSeg : segs.find(x => !/\d/.test(x) && x !== ortSeg && x.length > 3 && x.length < 90 && !/^(diverse|alle)\b/i.test(x)) || segs.find(x => !/^\d|^ab \d|^bis/.test(x) && x !== ortSeg) || ortSeg;
         title = title.replace(/^(ab \d+ Jahren?|alle)\s+/i, "").split(/(?<=[a-zäöü])\s+(?=[A-ZÄÖÜ][a-zäöü]+ [a-zäöü]+ [a-zäöü]+ )/)[0].slice(0, 90);
         const age = (txt.match(/ab (\d{1,2}) Jahren?/) || [])[0] || "";
         const id = href.replace(/^https?:\/\//, "").replace(/[?#].*$/, "").slice(0, 70) + von;

@@ -106,6 +106,7 @@ button:focus-visible,a:focus-visible{outline:3px solid var(--sun);outline-offset
 .room .links a{color:var(--accent);font-weight:700;text-underline-offset:3px}
 .room .note{margin:0;color:var(--muted);font-size:.9rem}
 .count-line{margin:0;color:var(--muted);font-size:.92rem}
+.tag.tip{background:#fef3c7;color:#92400e;font-weight:600}
 .rtog{border:0;background:none;padding:0;color:var(--sec,#0a5cb8);font:inherit;font-size:.92rem;text-decoration:underline;cursor:pointer}
 .room .bz{font-size:.75rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
 .soon{color:var(--muted);font-size:.9rem;border-top:1px solid var(--line);padding-top:14px}
@@ -675,7 +676,7 @@ footer{color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);padd
   <main id="list"></main>
 
   <footer>
-    Du kannst mehrere Gemeinden und Altersgruppen gleichzeitig wählen. Die Anlässe werden jede Nacht automatisch aus den Agenden der Gemeinden und der Zürcher Museen gesammelt. «Ab 4 Jahren» zählt bis 12 Jahre mit. Anlässe ohne Altersangabe heissen «Alter offen». Die Erkennung kann Fehler machen, prüfe Alter, Zeit und Anmeldung bitte auf der Detailseite.
+    Du kannst mehrere Gemeinden und Altersgruppen gleichzeitig wählen. Die Anlässe werden jede Nacht automatisch aus den Agenden der Gemeinden, von Familien-Tipps (kinderregion.ch), Theatern, Konzerthäusern, der Zauberlaterne und den Zürcher Museen gesammelt. «Ab 4 Jahren» zählt bis 12 Jahre mit. Anlässe ohne Altersangabe heissen «Alter offen». Die Erkennung kann Fehler machen, prüfe Alter, Zeit und Anmeldung bitte auf der Detailseite.
     <span id="status"></span>
   </footer>
 </div>
@@ -712,7 +713,7 @@ const ARTS=[["basteln","🎨","Basteln & Gestalten",/bastel|kerzenzieh|kerzen|t�
 // Wiederkehrende Treffs, Gottesdienste, Beratungen und Kurse: standardmässig ausgeblendet, damit die besonderen Anlässe sichtbar sind
 const ROUTINE=/treff\b|treffen\b|-treff|kafi|café|cafe\b|beratung|sprechstunde|gottesdienst|eucharistie|messe\b|santa messa|wortgottes|andacht|rosenkranz|gebet|fiire|kolibri|unti\b|unti-|religionsunterricht|firm|ministrant|probe\b|chorprobe|mittagstisch|zmittag|spielgruppe|krabbel|chrabbel|elternbildung|elternabend|deutschkurs|sprachkurs|stillgruppe|mütter|väter|mamas?\b|papas?\b|eltern-kind-turnen|muki|vaki|ki-?turnen|turnen\b|training|lektion|semester|abo\b|kursreihe|probetraining|offene turnhalle|spielnachmittag|spielmorgen|ludothek|sitzung|versammlung|anmeldeschluss|infoabend|informationsabend|stammtisch|sammlung|häckseldienst/i;
 const SPECIAL=/chlaus|familienevent|zirkus|circus|theater|kino|film|zauber|märli|märchen|puppen|kasperli|figuren|clown|konzert|musical|disco|show|fest\b|fäscht|chilbi|samichlaus|nikolaus|umzug|räbe|laterne|lichter|weihnachtsmärt|weihnachtsmarkt|familientag|familiensonntag|kinderfest|flohmi|workshop|atelier|kerzenzieh|experiment|zoo|tierpark|eisbahn|ferien|lesung|erzähl|geschichten|kamishibai|bastel/i;
-const isRoutine=e=>e.q==="q-kath"?!SPECIAL.test(e.name):ROUTINE.test(e.name)&&!SPECIAL.test(e.name);
+const isRoutine=e=>e.tip?false:e.q==="q-kath"?!SPECIAL.test(e.name):ROUTINE.test(e.name)&&!SPECIAL.test(e.name);
 const ARTX=new Map();
 function arts(e){let r=ARTX.get(e);if(!r){r=ARTS.filter(a=>a[3].test(e.name)).map(a=>a[0]);ARTX.set(e,r)}return r}
 function artIcon(e){if(/samichlaus|nikolaus/i.test(e.name))return["🎅","#dc2626"];const a=arts(e)[0];
@@ -803,6 +804,7 @@ function render(){
     if(e.time)bits.push(e.time+" Uhr");const where=[e.ort,e.gemeinden.map(c=>SITES[c]&&SITES[c].name).filter(Boolean).join(", ")].filter(Boolean);
     if(where.length)bits.push(where.join(", "));
     const tags=node("div","tags");
+    if(e.tip)tags.append(node("span","tag tip","⭐ Tipp"));
     tags.append(node("span","tag"+(e.age?" kids":""),e.age?e.age.label:"Alter offen"));
     const pl=place(e),w=wxFor(e,show);
     if(pl==="in")tags.append(node("span","tag in","🏠 Drinnen"));if(pl==="out")tags.append(node("span","tag out","🌳 Draussen"));
