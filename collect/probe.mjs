@@ -8,7 +8,13 @@ const SKIP = /kinderregion|kidzh|kinderthur|facebook|instagram|twitter|x\.com|li
 async function probe(u) {
   try { const r = await fetch(u, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(25000) });
     const t = (await r.text()).slice(0, 400000);
-    if (/^RAW/.test(L.find(x => x[1] === u)?.[0] || "")) writeFileSync("data/raw/" + u.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "_").slice(0, 120) + ".txt", r.url + "\n" + t);
+    // RAW: nur Links zu Agenda/Veranstaltungen speichern (ganze Seiten können Schlüssel enthalten)
+    if (/^RAW/.test(L.find(x => x[1] === u)?.[0] || "")) {
+      const links = [...new Set([...t.matchAll(/<a\b[^>]*href="([^"#]+)"[^>]*>([\s\S]{0,200}?)<\/a>/gi)].map(m => { const tx = m[2].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(); return tx + " | " + m[1]; })
+        .filter(x => /veranstalt|agenda|anl[aä]ss|event|kalender|termine|freizeit|leben/i.test(x)))].slice(0, 40);
+      const sys = [/i-web|iweb|_rte\//i.test(t) && "iweb", /eventitem|event-item/i.test(t) && "eventitem", /govis|gov\.ch/i.test(t) && "govis", /onegov/i.test(t) && "onegov", /typo3/i.test(t) && "typo3", /wp-content/i.test(t) && "wordpress"].filter(Boolean);
+      writeFileSync("data/raw/" + u.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "_").slice(0, 120) + ".json", JSON.stringify({ f: r.url, sys, links }, null, 1));
+    }
     const title = (t.match(/<title[^>]*>([^<]*)/i) || [])[1]?.trim().slice(0, 120);
     const closed = (t.match(/[^.<>]{0,60}(definitiv geschlossen|endgültig geschlossen|dauerhaft geschlossen|für immer geschlossen|haben (unser|das) (restaurant|lokal|café|kafi) geschlossen|wir sagen (adieu|tschüss|danke)|letzter öffnungstag|betrieb eingestellt|neue pächter|domain (is )?for sale|domain kaufen)[^.<>]{0,60}/i) || [])[0];
     let ext; if (/kinderregion|kidzh|kinderthur|zuerich\.com|myswitzerland/.test(r.url)) ext = [...new Set([...t.matchAll(/href="(https?:\/\/[^"#]+)"/g)].map(m => m[1]).filter(h => !SKIP.test(h) && !h.includes(new URL(r.url).host)))].slice(0, 8);
