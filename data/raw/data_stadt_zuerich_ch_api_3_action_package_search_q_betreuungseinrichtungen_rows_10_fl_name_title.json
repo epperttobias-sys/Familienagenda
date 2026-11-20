@@ -1,0 +1,8 @@
+{
+ "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=betreuungseinrichtungen&rows=10&fl=name,title",
+ "ct": "application/json;charset=utf-8",
+ "sys": [],
+ "links": [],
+ "head": "{\"help\": \"https://ckan-prod.zurich.datopian.com/api/3/action/help_show?name=package_search\", \"success\": true, \"result\": {\"count\": 0, \"facets\": {}, \"results\": [], \"sort\": \"score desc, date_last_modified desc\", \"search_facets\": {}}}",
+ "ev": ""
+}

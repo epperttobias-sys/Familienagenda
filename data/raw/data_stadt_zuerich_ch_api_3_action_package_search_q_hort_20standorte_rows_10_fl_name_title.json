@@ -1,0 +1,8 @@
+{
+ "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=hort%20standorte&rows=10&fl=name,title",
+ "ct": "application/json;charset=utf-8",
+ "sys": [],
+ "links": [],
+ "head": "{\"help\": \"https://ckan-prod.zurich.datopian.com/api/3/action/help_show?name=package_search\", \"error\": {\"__type\": \"Internal Server Error\", \"message\": \"Internal Server Error\"}, \"success\": false}",
+ "ev": ""
+}

@@ -1,42 +1,26 @@
 [
  {
-  "l": "RAW globe",
-  "u": "https://www.globegarden.ch/locations",
+  "l": "RAW zhgeo1",
+  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=tags:geodaten%20AND%20kinderbetreuung&rows=10&fl=name,title",
   "s": 200,
-  "f": "https://www.globegarden.ch/kita-locator",
-  "title": "Kita Locator | globegarden"
+  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=tags:geodaten%20AND%20kinderbetreuung&rows=10&fl=name,title"
  },
  {
-  "l": "RAW globe2",
-  "u": "https://www.globegarden.ch/en/kita-finder",
+  "l": "RAW zhgeo2",
+  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=betreuungseinrichtungen&rows=10&fl=name,title",
   "s": 200,
-  "f": "https://www.globegarden.ch/en/kita-finder",
-  "title": "Kita finder | globegarden"
+  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=betreuungseinrichtungen&rows=10&fl=name,title"
  },
  {
-  "l": "RAW wintipdf",
-  "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/kinder-jugendliche-und-familien/kinderbetreuung/standorte-der-kitas",
-  "s": 200,
-  "f": "https://stadt.winterthur.ch/standorte-kitas",
-  "title": "Standorte Kitas | Stadt Winterthur"
+  "l": "RAW zhgeo3",
+  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=hort%20standorte&rows=10&fl=name,title",
+  "s": 500,
+  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=hort%20standorte&rows=10&fl=name,title"
  },
  {
-  "l": "RAW zhckan",
-  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kita&rows=10",
-  "s": 200,
-  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kita&rows=10"
- },
- {
-  "l": "RAW zhckan2",
-  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kinderbetreuung&rows=10",
-  "s": 200,
-  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kinderbetreuung&rows=10"
- },
- {
-  "l": "RAW zollikon",
-  "u": "https://www.zollikon.ch/kinderbetreuung",
-  "s": 404,
-  "f": "https://www.zollikon.ch/kinderbetreuung",
-  "title": "Gemeinde Zollikon - Ungültige Adresse"
+  "l": "RAW zhgeo4",
+  "u": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kindertagesst%C3%A4tten%20standorte&rows=10&fl=name,title",
+  "s": 500,
+  "f": "https://data.stadt-zuerich.ch/api/3/action/package_search?q=kindertagesst%C3%A4tten%20standorte&rows=10&fl=name,title"
  }
 ]
