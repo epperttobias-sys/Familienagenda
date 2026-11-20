@@ -592,16 +592,19 @@ export const SYSTEMS = {
         let d, mo, y;
         if (m[1]) { d = +m[1]; mo = +m[2]; y = m[3] ? +m[3] : 0; } else { d = +m[4]; mo = monthOf(m[5].replace("Maerz", "Mär")); y = m[6] ? +m[6] : 0; }
         if (!mo || mo > 12 || d > 31 || !d) continue;
-        if (!y) { y = +today.slice(0, 4); if (ymd(y, mo, d) < today) y++; } else if (y < 100) y += 2000;
+        if (!y) { y = +today.slice(0, 4); if (ymd(y, mo, d) < today) y++; if ((Date.parse(ymd(y, mo, d)) - Date.parse(today)) / 864e5 > 240) continue; } else if (y < 100) y += 2000;
         const von = ymd(y, mo, d); if (von < today || seen.has(von + sec.head)) continue;
-        const after = text.slice(m.index + m[0].length, m.index + m[0].length + 40).match(/^[^0-9]{0,12}(\d{1,2})[:.](\d{2})/);
+        const after = text.slice(m.index + m[0].length, m.index + m[0].length + 40).match(/^[^0-9]{0,12}(\d{1,2})[:.](\d{2})(?![.\d])/);
         seen.add(von + sec.head);
         const nm = pg.name || (sec.head && sec.head.length < 90 && !/^\W*\d|termine|daten|vorstellungen|tickets|spielplan|programm/i.test(sec.head) ? sec.head : title);
         items.push({ id: pg.u.replace(/^https?:\/\/[^/]+/, "").slice(-50) + von + nm.slice(0, 10), g: pg.g || site.g, name: nm, von, bis: von, ort: site.ort || "", veranstalter: site.name, kategorie: "14", hint: "", url: pg.u, detailKey: null,
           time: after ? `${after[1]}.${after[2]}` : "" });
       } }
     }
-    return items.filter(x => x.g);
+    // gleicher Anlass am gleichen Tag nur einmal, der Eintrag mit Uhrzeit gewinnt
+    const best = new Map();
+    for (const x of items.filter(x => x.g)) { const k = x.url + x.von + x.name; const o = best.get(k); if (!o || (!o.time && x.time)) best.set(k, x); }
+    return [...best.values()];
   },
 
   // Kacheln mit Datum und Titel (Erlenbach).
