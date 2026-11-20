@@ -1,6 +1,1 @@
-https://eventfrog.ch/robots.txt
-https://eventfrog.ch/de/events/zuerich/kinderveranstaltungen.html
-https://eventfrog.ch/de/events/kanton-zuerich/kinderveranstaltungen.html
-https://www.zoo.ch/de/veranstaltungen
-https://www.tonhalle-orchester.ch/konzerte/familie/
-https://www.opernhaus.ch/spielplan/kinder-und-familie/
+https://eventfrog.ch/de/events/kanton-zuerich/veranstaltungen-kinder-familien.html | html
