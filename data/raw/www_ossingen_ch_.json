@@ -1,0 +1,21 @@
+{
+ "f": "https://www.ossingen.ch/",
+ "sys": [
+  "typo3"
+ ],
+ "links": [
+  "Agenda | /gemeinde/agenda",
+  "Leben | /leben/freizeit",
+  "Freizeit | /leben/freizeit",
+  "Vereine | /leben/vereine",
+  "Gewerbe | /leben/gewerbe",
+  "Soziales | /leben/soziales",
+  "Alle Events anzeigen | /gemeinde/agenda",
+  "Altpapiersammlung | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=361&amp;cHash=db459bbefe0fb3725e5abbc7d3eef14a",
+  "Märt-Sunntig | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=347&amp;cHash=4b78dfcde902255fa602e2c4ef9570a7",
+  "Fit mit KI in Sprachen | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=359&amp;cHash=17838bed6962e8ca27cbd5f1724c3761",
+  "Einstimmung in die Adventszeit | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=284&amp;cHash=688fa37391e3df2eeb7d1f420089d519",
+  "Stimmungsvolles Adventskonzert | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=365&amp;cHash=736202949e1dab0a5526e8d0934435a4",
+  "Budgetgemeindeversammlung | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=283&amp;cHash=44738ef5e91ac962cdd859359dbabdc0"
+ ]
+}
