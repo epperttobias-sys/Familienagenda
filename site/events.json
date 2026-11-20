@@ -601,7 +601,7 @@
    "bezirk": "Uster",
    "domain": "www.volketswil.ch",
    "ok": true,
-   "count": 18
+   "count": 17
   },
   "altikon": {
    "name": "Altikon",
@@ -1078,9 +1078,9 @@
    "veranstalter": "Bibliothek Rüti Dürnten weitere Termine 27. November 2026, 19:15 – 20:",
    "time": "19.15 - 20.45",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "ab 6 Jahren"
+    "label": "Kinder"
    },
    "url": "https://www.rueti.ch/freizeit-kultur/veranstaltungskalender.html/32/event/6771/eventdate/26447"
   },
@@ -1656,7 +1656,11 @@
    "ort": "Stadt- und Regionalbibliothek Uster",
    "veranstalter": "Stadt- und Regionalbibliothek Uster",
    "time": "10.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.uster.ch/_rte/anlass/7837030"
   },
   {
@@ -1751,7 +1755,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-10/"
   },
   {
@@ -1767,8 +1775,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7588474",
    "w": "http://www.buchstart.ch"
@@ -1786,8 +1794,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "9 Monate bis 3 Jahre"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.uster.ch/_rte/anlass/7613602"
   },
@@ -1884,9 +1892,9 @@
    "veranstalter": "Bibliothek Zollikerberg",
    "time": "16.30",
    "age": {
-    "min": 4,
-    "max": 12,
-    "label": "ab 4 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.zollikon.ch/_rte/anlass/7370296"
   },
@@ -2161,25 +2169,6 @@
   },
   {
    "gemeinden": [
-    "v"
-   ],
-   "id": "v-17255-106199",
-   "name": "Volketswiler Kerzenziehen",
-   "von": "2026-11-20",
-   "bis": "2026-11-20",
-   "ort": "Werkraum Schulhaus Feldhof",
-   "veranstalter": "Verein Kerzenziehen Volketswil Volketswiler Kerzenziehen (Bienenwachs)",
-   "time": "18.30 - 21.30",
-   "age": {
-    "min": 3,
-    "max": 4,
-    "label": "3 bis 4 Jahre"
-   },
-   "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17255/eventdate/106199",
-   "w": "https://kerzenziehenvolketswil.jimdofree.com/"
-  },
-  {
-   "gemeinden": [
     "wa"
    ],
    "id": "wa-7737121",
@@ -2423,8 +2412,8 @@
    "time": "10.00 - 10.30",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "9 Monate bis 3 Jahre"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.waedenswil.ch/_rte/anlass/7108535"
   },
@@ -2880,7 +2869,11 @@
    "ort": "Sukkulenten-Sammlung Zürich",
    "veranstalter": "",
    "time": "14.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.stadt-zuerich.ch/de/aktuell/veranstaltungen/umwelt-und-energie/gruenagenda/kreativ-zwischen-kakteen.html?calentry=1"
   },
   {
@@ -3172,7 +3165,11 @@
    "ort": "AXA Arena",
    "veranstalter": "Familienverein",
    "time": "17.15 - 21.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.hettlingen.ch/_rte/anlass/7712269",
    "w": "http://familienverein-hettlingen.ch"
   },
@@ -3787,9 +3784,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766290",
    "w": "http://www.ideesport.ch"
@@ -3805,7 +3802,11 @@
    "ort": "Turnhalle Tannenbach",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4202/eventdate/54522",
    "w": "https://www.kinderbuero-horgen.ch"
   },
@@ -4024,9 +4025,9 @@
    "veranstalter": "Bibliothek Dietlikon",
    "time": "15.30 - 16.00",
    "age": {
-    "min": 2,
-    "max": 12,
-    "label": "ab 2 Jahren"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1356/eventdate/6361",
    "w": "https://www.schule-dietlikon.ch/bibliothek/aktuelles/"
@@ -4042,7 +4043,11 @@
    "ort": "Gemeindebibliothek",
    "veranstalter": "Bibliothek Meilen",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.meilen.ch/_rte/anlass/7094897",
    "w": "https://www.bibliotheken-zh.ch/Meilen/Veranstaltungen"
   },
@@ -4448,9 +4453,9 @@
    "veranstalter": "Gemeinde- und Schulbibliothek Winkel",
    "time": "10.30 - 11.30",
    "age": {
-    "min": 1,
-    "max": 12,
-    "label": "ab 1 Jahren"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.winkel.ch/_rte/anlass/7658425",
    "w": "https://www.bibliothekwinkel.ch/"
@@ -4577,7 +4582,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-4/"
   },
   {
@@ -4592,9 +4601,9 @@
    "veranstalter": "Bibliothek Küsnacht",
    "time": "14.30 - 15.15",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17359/eventdate/17267"
   },
@@ -4705,7 +4714,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen-5/"
   },
   {
@@ -4733,7 +4746,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "14.00 - 15.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704256"
   },
   {
@@ -5003,7 +5020,11 @@
    "ort": "Bibliothek",
    "veranstalter": "Bibliothek Wettswil",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3436/eventdate/7735",
    "w": "http://www.buchstart.ch"
   },
@@ -5326,9 +5347,9 @@
    "veranstalter": "Bibliothek Wettswil",
    "time": "14.30 - 15.00",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3438/eventdate/7737",
    "w": "http://www.buchstart.ch"
@@ -5364,9 +5385,9 @@
    "veranstalter": "Bibliothek Egg",
    "time": "15.00 - 15.30",
    "age": {
-    "min": 4,
+    "min": 2,
     "max": 6,
-    "label": "4 bis 6 Jahre"
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.egg.ch/_rte/anlass/7601410",
    "w": "https://www.bibliotheken-zh.ch/egg/"
@@ -5382,7 +5403,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556272"
   },
   {
@@ -5615,9 +5640,9 @@
    "veranstalter": "Die Zauberlaterne Männedorf",
    "time": "15.30 - 17.00",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7827283",
    "w": "https://www.lanterne-magique.org/de/clubs/mannedorf/"
@@ -5726,7 +5751,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-3/"
   },
   {
@@ -5789,9 +5818,9 @@
    "veranstalter": "Marina Ritter (Leitung)",
    "time": "10.00 - 11.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/7232372"
   },
@@ -6089,7 +6118,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-2/"
   },
   {
@@ -6122,7 +6155,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677718"
   },
   {
@@ -6518,8 +6555,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7588477",
    "w": "http://www.buchstart.ch"
@@ -6725,7 +6762,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-3/"
   },
   {
@@ -6740,9 +6781,9 @@
    "veranstalter": "",
    "time": "9.30 - 10.00",
    "age": {
-    "min": 3,
-    "max": 5,
-    "label": "3 bis 5 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/5452940"
   },
@@ -6772,9 +6813,9 @@
    "veranstalter": "Stadtbibliothek Opfikon",
    "time": "16.00 - 16.30",
    "age": {
-    "min": 4,
-    "max": 7,
-    "label": "4 bis 7 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.opfikon.ch/_rte/anlass/7199831"
   },
@@ -6962,7 +7003,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-2/"
   },
   {
@@ -7009,7 +7054,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593166",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -7355,7 +7404,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-7/"
   },
   {
@@ -7369,7 +7422,11 @@
    "ort": "Albisstrasse 27",
    "veranstalter": "",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1903/eventdate/1409"
   },
   {
@@ -8352,7 +8409,11 @@
    "ort": "Ref. Kirchgemeindehaus Nauen",
    "veranstalter": "Reformierte Kirche Dürnten",
    "time": "9.30 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.duernten.ch/_rte/anlass/7656520",
    "w": "https://www.refduernten.ch/home"
   },
@@ -8894,9 +8955,9 @@
    "veranstalter": "Stadt Adliswil - Verein Kinder in Bewegung",
    "time": "10.00 - 14.00",
    "age": {
-    "min": 3,
-    "max": 8,
-    "label": "3 bis 8 Jahre"
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
    },
    "url": "https://www.adliswil.ch/_rte/anlass/7747540"
   },
@@ -9038,9 +9099,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766293",
    "w": "http://www.ideesport.ch"
@@ -9056,7 +9117,11 @@
    "ort": "Turnhalle Tannenbach",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4203/eventdate/54523",
    "w": "https://www.kinderbuero-horgen.ch"
   },
@@ -9290,7 +9355,11 @@
    "ort": "Bibliothek",
    "veranstalter": "Bibliothek Buchs",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.buchs-zh.ch/_rte/anlass/7837405"
   },
   {
@@ -9352,9 +9421,9 @@
    "veranstalter": "Gemeindebibliothek",
    "time": "10.00 - 10.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556212",
    "w": "https://www.bibliothek-neftenbach.ch"
@@ -9402,7 +9471,11 @@
    "ort": "Bibliothek Uitikon",
    "veranstalter": "Bibliothek Uitikon",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.uitikon.ch/_rte/anlass/7621717",
    "w": "https://www.bibliothek-uitikon.ch/"
   },
@@ -9814,7 +9887,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7049573"
   },
   {
@@ -9829,9 +9906,9 @@
    "veranstalter": "Gemeindebibliothek",
    "time": "10.00 - 10.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556215",
    "w": "https://www.bibliothek-neftenbach.ch"
@@ -9847,7 +9924,11 @@
    "ort": "Bibliothek",
    "veranstalter": "",
    "time": "09.00 - 09.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.ottenbach.ch/event/buchstart-treff-die-welt-der-sprache-entdecken-2026-12-01"
   },
   {
@@ -9984,8 +10065,8 @@
    "time": "16.00 - 16.30",
    "age": {
     "min": 2,
-    "max": 12,
-    "label": "ab 2 Jahren"
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.wildberg.ch/_rte/anlass/7723456"
   },
@@ -10001,9 +10082,9 @@
    "veranstalter": "Gemeinde-und Schulbibliothek Zumikon",
    "time": "14.30 - 15.00",
    "age": {
-    "min": 3,
-    "max": 8,
-    "label": "3 bis 8 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.zumikon.ch/_rte/anlass/7675354"
   },
@@ -10065,7 +10146,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim/"
   },
   {
@@ -10079,7 +10164,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "14.00 - 15.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704259"
   },
   {
@@ -10306,9 +10395,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/6907450",
    "w": "https://www.bibliotheken-zh.ch/urdorf/"
@@ -10326,8 +10415,8 @@
    "time": "9.20",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.wangen-bruettisellen.ch/_rte/anlass/7076273",
    "w": "https://www.buchstart.ch/"
@@ -10346,7 +10435,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7450498"
   },
@@ -10985,9 +11074,9 @@
    "veranstalter": "Marina Ritter (Leitung)",
    "time": "10.00 - 11.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/7232375"
   },
@@ -11066,9 +11155,9 @@
    "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
    "time": "16.00 - 16.30",
    "age": {
-    "min": 3,
-    "max": 5,
-    "label": "3 bis 5 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7217117",
    "w": "https://bibliotheken-zh.ch/thalwil/Home"
@@ -11341,7 +11430,11 @@
    "ort": "Bibliothek Rüschlikon im Kinderzimmer",
    "veranstalter": "Bibliothek Rüschlikon",
    "time": "9.00 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.rueschlikon.ch/_rte/anlass/7691254"
   },
   {
@@ -11475,7 +11568,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677721"
   },
   {
@@ -11715,7 +11812,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "9.00 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704277"
   },
   {
@@ -11792,7 +11893,11 @@
    "ort": "Lila",
    "veranstalter": "Lila Kindertheater",
    "time": "14.00 - 18.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.urdorf.ch/_rte/anlass/7815073",
    "w": "https://www.lila.ch/theater/"
   },
@@ -11999,8 +12104,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7588480",
    "w": "http://www.buchstart.ch"
@@ -12016,7 +12121,11 @@
    "ort": "Gemeindebibliothek Rümlang",
    "veranstalter": "",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.ruemlang.ch/_rte/anlass/5452946"
   },
   {
@@ -12032,8 +12141,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "9 Monate bis 3 Jahre"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.uster.ch/_rte/anlass/7837036"
   },
@@ -12050,8 +12159,8 @@
    "time": "9.30 - 10.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7217081",
    "w": "https://bibliotheken-zh.ch/thalwil/Home"
@@ -12254,9 +12363,9 @@
    "veranstalter": "Katholische Pfarrei St. Andreas",
    "time": "19.00",
    "age": {
-    "min": 13,
+    "min": 12,
     "max": 12,
-    "label": "ab 13 Jahren"
+    "label": "Jugendliche"
    },
    "url": "https://www.uster.ch/_rte/anlass/7836184",
    "w": "https://www.pfarrei-uster.ch/"
@@ -12488,7 +12597,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-3/"
   },
   {
@@ -12829,7 +12942,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-4/"
   },
   {
@@ -12843,7 +12960,11 @@
    "ort": "",
    "veranstalter": "",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=2169&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=3578a174ae5084c9569b6ff23dc7d639"
   },
   {
@@ -12858,9 +12979,9 @@
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.richterswil.ch/_rte/anlass/7566325",
    "w": "http://bibliothek-richterswil.ch"
@@ -13117,9 +13238,9 @@
    "veranstalter": "",
    "time": "",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/3649/eventdate/2892",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -13136,9 +13257,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "10.30 - 11.00",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7554388",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -14486,9 +14607,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766296",
    "w": "http://www.ideesport.ch"
@@ -14504,7 +14625,11 @@
    "ort": "Turnhalle Tannenbach",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4204/eventdate/54524",
    "w": "https://www.kinderbuero-horgen.ch"
   },
@@ -15352,7 +15477,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378888",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -15370,7 +15499,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/6912994"
   },
@@ -15385,7 +15514,11 @@
    "ort": "Gemeindebibliothek Weiningen",
    "veranstalter": "Gemeindebibliothek Weiningen",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.weiningen.ch/_rte/anlass/7477723",
    "w": "https://www.bibliotheken-zh.ch/weiningen/api/images/imageopac/77"
   },
@@ -15400,7 +15533,11 @@
    "ort": "Gemeindebibliothek Rafz",
    "veranstalter": "Gemeindebibliothek Rafz",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.rafz.ch/_rte/anlass/6949486",
    "w": "https://www.bibliotheken-zh.ch/rafz/"
   },
@@ -15553,7 +15690,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704262"
   },
   {
@@ -15815,8 +15956,8 @@
    "time": "09.00 - 09.30",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "0 bis 3 Jahre"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.pfaeffikon.ch/event/buchstart-erzaehlen-hoeren-und-entdecken/2026-12-09/"
   },
@@ -16087,9 +16228,9 @@
    "veranstalter": "Bibliothek Illnau",
    "time": "14.00 - 15.00",
    "age": {
-    "min": 3,
-    "max": 7,
-    "label": "3 bis 7 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7471582",
    "w": "https://www.bibliotheksverein.ch/illnau"
@@ -16120,7 +16261,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556275"
   },
   {
@@ -16135,9 +16280,9 @@
    "veranstalter": "Gemeindebibliothek Rosengarten Thalwil",
    "time": "16.00 - 16.30",
    "age": {
-    "min": 3,
-    "max": 5,
-    "label": "3 bis 5 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7217114",
    "w": "https://bibliotheken-zh.ch/thalwil/Home"
@@ -16291,7 +16436,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.30 - 11.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-seen-2/"
   },
   {
@@ -16305,7 +16454,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-in-der-stadtbibliothek-3/"
   },
   {
@@ -16414,9 +16567,9 @@
    "veranstalter": "Marina Ritter (Leitung)",
    "time": "10.00 - 11.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/7232378"
   },
@@ -16556,9 +16709,9 @@
    "veranstalter": "Bibliothek Herrliberg",
    "time": "9.00 - 9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.herrliberg.ch/leben/freizeit/veranstaltungen.html/288/event/6979/eventdate/12661",
    "w": "https://bibliothekherrliberg.ch"
@@ -16845,7 +16998,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-2/"
   },
   {
@@ -16910,7 +17067,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "9.00 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704280"
   },
   {
@@ -16924,7 +17085,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593172",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -17021,7 +17186,11 @@
    "ort": "Tannenpark",
    "veranstalter": "",
    "time": "15.30 - 18.00",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4183/eventdate/54503",
    "w": "https://www.kinderbuero-horgen.ch"
   },
@@ -17100,8 +17269,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7588486",
    "w": "http://www.buchstart.ch"
@@ -17117,7 +17286,11 @@
    "ort": "Bibliothek Schulhaus Dörfli",
    "veranstalter": "Gemeinde-und Schulbibliothek Oetwil am See",
    "time": "9.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.oetwil.ch/dorfleben/veranstaltungen.html/61/event/3359/eventdate/1984",
    "w": "https://www.bibliotheken-zh.ch/Oetwil-am-See/Veranstaltungen"
   },
@@ -17151,9 +17324,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7554631",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -17323,9 +17496,9 @@
    "veranstalter": "",
    "time": "9.30 - 10.00",
    "age": {
-    "min": 3,
-    "max": 5,
-    "label": "3 bis 5 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/5452952"
   },
@@ -17427,7 +17600,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-hegi-4/"
   },
   {
@@ -17652,7 +17829,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378891",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -17669,8 +17850,8 @@
    "time": "10.00 - 10.30",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "9 Monate bis 3 Jahre"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.waedenswil.ch/_rte/anlass/7108538"
   },
@@ -17885,9 +18066,9 @@
    "veranstalter": "Gemeindebibliothek Weiningen",
    "time": "10.30 - 11.30",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.weiningen.ch/_rte/anlass/7477750",
    "w": "https://www.bibliotheken-zh.ch/weiningen/"
@@ -18068,9 +18249,9 @@
    "veranstalter": "",
    "time": "09.00 - 16.00",
    "age": {
-    "min": 4,
+    "min": 12,
     "max": 12,
-    "label": "4 bis 14 Jahre"
+    "label": "Jugendliche"
    },
    "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=17143"
   },
@@ -18690,9 +18871,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766299",
    "w": "http://www.ideesport.ch"
@@ -18708,7 +18889,11 @@
    "ort": "Turnhalle Tannenbach",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.horgen.ch/leben-in-horgen/freizeit/veranstaltungen/veranstaltung-details.html/100/event/4205/eventdate/54525",
    "w": "https://www.kinderbuero-horgen.ch"
   },
@@ -18846,9 +19031,9 @@
    "veranstalter": "Bibliothek Dietlikon",
    "time": "15.30 - 16.00",
    "age": {
-    "min": 2,
-    "max": 12,
-    "label": "ab 2 Jahren"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.dietlikon.ch/kultur-freizeit/kultur/veranstaltungen/detail.html/74/event/1357/eventdate/6360",
    "w": "https://www.schule-dietlikon.ch/bibliothek/aktuelles/"
@@ -19112,7 +19297,11 @@
    "ort": "Gemeindebibliothek Aesch",
    "veranstalter": "Gemeindebibliothek Aesch ZH",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.aesch-zh.ch/_rte/anlass/7376536",
    "w": "https://www.bibliotheken-zh.ch/aesch-zh/Veranstaltungen"
   },
@@ -19226,9 +19415,9 @@
    "veranstalter": "Bibliothek Elsau",
    "time": "16.00 - 16.30",
    "age": {
-    "min": 3,
+    "min": 2,
     "max": 6,
-    "label": "3 bis 6 Jahre"
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.elsau.ch/_rte/anlass/7692088"
   },
@@ -19366,7 +19555,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704265"
   },
   {
@@ -19530,7 +19723,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-11/"
   },
   {
@@ -19546,8 +19743,8 @@
    "time": "9.30 - 10.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.hedingen.ch/dorfleben/veranstaltungen.html/68/event/367/eventdate/935",
    "w": "https://www.bibliotheken-zh.ch/Hedingen/api/images/imageopac/259"
@@ -19710,7 +19907,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392577",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -19862,7 +20063,11 @@
    "ort": "Kultino",
    "veranstalter": "",
    "time": "15.15 - 17.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=17121"
   },
   {
@@ -20043,9 +20248,9 @@
    "veranstalter": "Marina Ritter (Leitung)",
    "time": "10.00 - 11.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ruemlang.ch/_rte/anlass/7232381"
   },
@@ -20263,7 +20468,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7049576"
   },
   {
@@ -20383,7 +20592,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677724"
   },
   {
@@ -20579,7 +20792,11 @@
    "ort": "Mehrzweckraum Hofwis",
    "veranstalter": "Frühe Förderung Elsau",
    "time": "9.00 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.elsau.ch/_rte/anlass/7704283"
   },
   {
@@ -20722,7 +20939,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-11/"
   },
   {
@@ -20738,8 +20959,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7588489",
    "w": "http://www.buchstart.ch"
@@ -20757,8 +20978,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "9 Monate bis 3 Jahre"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.uster.ch/_rte/anlass/7608643"
   },
@@ -21539,7 +21760,11 @@
    "ort": "",
    "veranstalter": "",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.schwerzenbach.ch/aktuelles/veranstaltungskalender/?tx_bssevents_calendar%5Baction%5D=detail&tx_bssevents_calendar%5Bappointment%5D=3342&tx_bssevents_calendar%5Bcontroller%5D=Event&cHash=14550d2aa1bd9159a92c5444b0a207b8"
   },
   {
@@ -21615,9 +21840,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766302",
    "w": "http://www.ideesport.ch"
@@ -21781,7 +22006,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-veltheim-2/"
   },
   {
@@ -22749,9 +22978,9 @@
    "veranstalter": "Gemeindebibliothek",
    "time": "10.00 - 10.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556221",
    "w": "https://www.bibliothek-neftenbach.ch"
@@ -22926,7 +23155,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836511"
   },
   {
@@ -22941,9 +23174,9 @@
    "veranstalter": "Gemeindebibliothek",
    "time": "10.00 - 10.30",
    "age": {
-    "min": 2,
+    "min": 0,
     "max": 4,
-    "label": "2 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556224",
    "w": "https://www.bibliothek-neftenbach.ch"
@@ -22978,7 +23211,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-5/"
   },
   {
@@ -23235,7 +23472,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-3/"
   },
   {
@@ -23397,8 +23638,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621285",
    "w": "http://www.buchstart.ch"
@@ -23417,7 +23658,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4275/eventdate/3254",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -23518,7 +23759,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-4/"
   },
   {
@@ -23532,7 +23777,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837408"
   },
   {
@@ -23659,7 +23908,11 @@
    "ort": "Sekundarschule Rosenau",
    "veranstalter": "",
    "time": "20.00 - 23.15",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-5/"
   },
   {
@@ -23771,7 +24024,7 @@
    "age": {
     "min": 4,
     "max": 12,
-    "label": "ab 4 Jahren"
+    "label": "Kinder"
    },
    "url": "https://www.waedenswil.ch/_rte/anlass/7646170",
    "w": "https://www.lesegesellschaft.org"
@@ -23942,9 +24195,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766305",
    "w": "http://www.ideesport.ch"
@@ -23960,7 +24213,11 @@
    "ort": "Schulhaus Sennhof",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kinderthur.ch/events/open-sunday-sennhof-3/"
   },
   {
@@ -23974,7 +24231,11 @@
    "ort": "Schulhaus Gutenberg",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kinderthur.ch/events/open-sunday-toess-4/"
   },
   {
@@ -24139,7 +24400,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378894",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -24157,7 +24422,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809067"
   },
@@ -24273,7 +24538,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-12/"
   },
   {
@@ -24288,9 +24557,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714891",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -24357,7 +24626,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392592",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -24387,7 +24660,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556278"
   },
   {
@@ -24630,7 +24907,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593175",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -24678,7 +24959,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-12/"
   },
   {
@@ -24694,8 +24979,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621288",
    "w": "http://www.buchstart.ch"
@@ -24863,7 +25148,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378897",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -25082,7 +25371,7 @@
    "age": {
     "min": 4,
     "max": 12,
-    "label": "ab 4 Jahren"
+    "label": "Kinder"
    },
    "url": "https://www.uster.ch/_rte/anlass/7738774",
    "w": "http://www.enricolenzin.ch"
@@ -25169,9 +25458,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766311",
    "w": "http://www.ideesport.ch"
@@ -25377,7 +25666,11 @@
    "ort": "Dettenbühlstrasse 1",
    "veranstalter": "Bibliothek Wettswil",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3924/eventdate/10112",
    "w": "http://www.buchstart.ch"
   },
@@ -25528,7 +25821,11 @@
    "ort": "Kultino",
    "veranstalter": "",
    "time": "15.15 - 17.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=17122"
   },
   {
@@ -25663,7 +25960,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836526"
   },
   {
@@ -25789,7 +26090,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677727"
   },
   {
@@ -25899,8 +26204,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621291",
    "w": "http://www.buchstart.ch"
@@ -26015,7 +26320,11 @@
    "ort": "Albisstrasse 27",
    "veranstalter": "",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1904/eventdate/1408"
   },
   {
@@ -26112,9 +26421,9 @@
    "veranstalter": "GVR Gemeindeverein Russikon für Kultur und Freizeit",
    "time": "",
    "age": {
-    "min": 5,
+    "min": 4,
     "max": 12,
-    "label": "ab 5 Jahren"
+    "label": "Kinder"
    },
    "url": "https://www.russikon.ch/_rte/anlass/6823834",
    "w": "http://www.gvr-russikon.ch"
@@ -26300,9 +26609,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766314",
    "w": "http://www.ideesport.ch"
@@ -26454,9 +26763,9 @@
    "veranstalter": "Bibliothek Küsnacht",
    "time": "14.30 - 15.15",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17536/eventdate/17664"
   },
@@ -26541,9 +26850,9 @@
    "veranstalter": "Bibliothek Wettswil",
    "time": "14.30 - 15.00",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3926/eventdate/10107",
    "w": "http://www.buchstart.ch"
@@ -26559,7 +26868,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556281"
   },
   {
@@ -26574,9 +26887,9 @@
    "veranstalter": "",
    "time": "10.00",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "ab 6 Jahren"
+    "label": "Kinder"
    },
    "url": "https://www.kinderthur.ch/events/kindertheater-geisterbahn/"
   },
@@ -26775,8 +27088,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621294",
    "w": "http://www.buchstart.ch"
@@ -26793,9 +27106,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7827292",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -26880,7 +27193,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-4/"
   },
   {
@@ -26908,7 +27225,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593178",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -26942,7 +27263,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-8/"
   },
   {
@@ -27057,7 +27382,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677730"
   },
   {
@@ -27071,7 +27400,11 @@
    "ort": "Alte Landi, neben Sekundarschulhaus",
    "veranstalter": "Verein Kinderfasnacht Bauma",
    "time": "15.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.bauma.ch/_rte/anlass/7610902"
   },
   {
@@ -27085,7 +27418,11 @@
    "ort": "Singsaal, Schulhaus Loomatt",
    "veranstalter": "Familienclub Stallikon Seite vorlesen",
    "time": "15.00 - 18.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8781/eventdate/8245",
    "w": "https://www.familienclub.ch/"
   },
@@ -27255,9 +27592,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766317",
    "w": "http://www.ideesport.ch"
@@ -27292,7 +27629,11 @@
    "ort": "Bibliothek Effretikon",
    "veranstalter": "Bibliothek Effretikon",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.ilef.ch/_rte/anlass/7764064",
    "w": "https://www.bibliotheksverein.ch/effretikon"
   },
@@ -27307,7 +27648,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556233"
   },
   {
@@ -27446,7 +27791,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836529"
   },
   {
@@ -27460,7 +27809,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378903",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -27475,7 +27828,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556236"
   },
   {
@@ -27489,7 +27846,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-6/"
   },
   {
@@ -27624,7 +27985,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392574",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -27671,7 +28036,11 @@
    "ort": "Kultino",
    "veranstalter": "",
    "time": "15.15 - 17.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.wetzikon.ch/de/veranstaltungen/detail/detail.php?i=17124"
   },
   {
@@ -27804,7 +28173,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-4/"
   },
   {
@@ -27818,7 +28191,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677733"
   },
   {
@@ -27942,8 +28319,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621297",
    "w": "http://www.buchstart.ch"
@@ -28079,7 +28456,11 @@
    "ort": "Räblihalle",
    "veranstalter": "Jugendteam Benken (JTB)",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.benken.ch/_rte/anlass/7638778",
    "w": "https://jtb.ch/"
   },
@@ -28127,7 +28508,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-5/"
   },
   {
@@ -28141,7 +28526,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378906",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -28156,7 +28545,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837411"
   },
   {
@@ -28250,9 +28643,9 @@
    "veranstalter": "",
    "time": "",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4263/eventdate/3261",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -28338,7 +28731,11 @@
    "ort": "Gemeindesaal Nassenmatt",
    "veranstalter": "Fasnachtskomitee Aesch ZH",
    "time": "12.00 - 17.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.aesch-zh.ch/_rte/anlass/7772137"
   },
   {
@@ -28435,9 +28832,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766320",
    "w": "http://www.ideesport.ch"
@@ -28544,7 +28941,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809070"
   },
@@ -28818,8 +29215,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621300",
    "w": "http://www.buchstart.ch"
@@ -28908,7 +29305,11 @@
    "ort": "Gemeindesaal Kappal am Albis",
    "veranstalter": "FasnachtsGesellschaft Uerzlikon",
    "time": "14.30 - 17.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kappel-am-albis.ch/_rte/anlass/7456441",
    "w": "https://fgu.ch/"
   },
@@ -28951,7 +29352,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-6/"
   },
   {
@@ -28965,7 +29370,11 @@
    "ort": "Albisstrasse 27",
    "veranstalter": "",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.mettmenstetten.ch/themen-a-z/veranstaltungen.html/31/event/1905/eventdate/1407"
   },
   {
@@ -29028,7 +29437,11 @@
    "ort": "",
    "veranstalter": "",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4135/eventdate/2962"
   },
   {
@@ -29042,7 +29455,11 @@
    "ort": "Mehrzweckhalle, Fehraltorf",
    "veranstalter": "FasnachtsFründe Fehraltorf",
    "time": "13.15 - 17.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7799995"
   },
   {
@@ -29429,7 +29846,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836538"
   },
   {
@@ -29518,8 +29939,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621303",
    "w": "http://www.buchstart.ch"
@@ -29856,7 +30277,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-13/"
   },
   {
@@ -29888,7 +30313,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556284"
   },
   {
@@ -29970,7 +30399,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677736"
   },
   {
@@ -30018,7 +30451,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-13/"
   },
   {
@@ -30034,8 +30471,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621306",
    "w": "http://www.buchstart.ch"
@@ -30112,7 +30549,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-5/"
   },
   {
@@ -30126,7 +30567,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593181",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -30141,7 +30586,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-9/"
   },
   {
@@ -30174,7 +30623,11 @@
    "ort": "Sekundarschule Rosenau",
    "veranstalter": "",
    "time": "20.00 - 23.15",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-6/"
   },
   {
@@ -30264,9 +30717,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766323",
    "w": "http://www.ideesport.ch"
@@ -30282,7 +30735,11 @@
    "ort": "Schulhaus Sennhof",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kinderthur.ch/events/open-sunday-sennhof-4/"
   },
   {
@@ -30296,7 +30753,11 @@
    "ort": "Schulhaus Gutenberg",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kinderthur.ch/events/open-sunday-toess-5/"
   },
   {
@@ -30343,7 +30804,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556239"
   },
   {
@@ -30467,7 +30932,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836541"
   },
   {
@@ -30481,7 +30950,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556242"
   },
   {
@@ -30515,9 +30988,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714894",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -30721,7 +31194,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677739"
   },
   {
@@ -30834,8 +31311,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621312",
    "w": "http://www.buchstart.ch"
@@ -30901,7 +31378,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-6/"
   },
   {
@@ -31107,9 +31588,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766329",
    "w": "http://www.ideesport.ch"
@@ -31201,7 +31682,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809079"
   },
@@ -31235,7 +31716,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-7/"
   },
   {
@@ -31250,9 +31735,9 @@
    "veranstalter": "Bibliothek Küsnacht",
    "time": "14.30 - 15.15",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.kuesnacht.ch/leben-freizeit/veranstaltungen.page/844/event/17548/eventdate/17678"
   },
@@ -31281,7 +31766,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-4/"
   },
   {
@@ -31421,9 +31910,9 @@
    "veranstalter": "Bibliothek Illnau",
    "time": "14.00 - 15.00",
    "age": {
-    "min": 3,
-    "max": 7,
-    "label": "3 bis 7 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818799",
    "w": "https://www.bibliotheksverein.ch/illnau"
@@ -31457,7 +31946,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556287"
   },
   {
@@ -31504,7 +31997,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-5/"
   },
   {
@@ -31629,7 +32126,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-6/"
   },
   {
@@ -31675,7 +32176,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593184",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -31706,8 +32211,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621315",
    "w": "http://www.buchstart.ch"
@@ -31777,7 +32282,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-7/"
   },
   {
@@ -31805,7 +32314,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-7/"
   },
   {
@@ -31819,7 +32332,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837414"
   },
   {
@@ -31866,7 +32383,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677742"
   },
   {
@@ -31895,7 +32416,11 @@
    "ort": "Singsaal, Schulhaus Loomatt",
    "veranstalter": "Familienclub Stallikon Seite vorlesen",
    "time": "15.00 - 18.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8782/eventdate/8246",
    "w": "https://www.familienclub.ch/"
   },
@@ -32047,7 +32572,11 @@
    "ort": "Singsaal Schulanlage Lättenwiesen",
    "veranstalter": "Kulturkommission",
    "time": "14.00 - 15.00",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.opfikon.ch/_rte/anlass/7181861"
   },
   {
@@ -32077,9 +32606,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766335",
    "w": "http://www.ideesport.ch"
@@ -32212,7 +32741,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378909",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -32246,7 +32779,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen/"
   },
   {
@@ -32345,7 +32882,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392571",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -32398,7 +32939,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-in-der-stadtbibliothek/"
   },
   {
@@ -32478,7 +33023,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836550"
   },
   {
@@ -32528,7 +33077,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677745"
   },
   {
@@ -32556,7 +33109,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-4/"
   },
   {
@@ -32624,8 +33181,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621318",
    "w": "http://www.buchstart.ch"
@@ -32644,7 +33201,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4248/eventdate/3256",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -32746,7 +33303,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-5/"
   },
   {
@@ -32760,7 +33321,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593187",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -32808,7 +33373,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378915",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -33098,9 +33667,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766338",
    "w": "http://www.ideesport.ch"
@@ -33233,7 +33802,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-14/"
   },
   {
@@ -33298,7 +33871,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556290"
   },
   {
@@ -33312,7 +33889,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-seen-5/"
   },
   {
@@ -33446,7 +34027,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-14/"
   },
   {
@@ -33497,9 +34082,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766341",
    "w": "http://www.ideesport.ch"
@@ -33708,7 +34293,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677748"
   },
   {
@@ -33767,8 +34356,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621321",
    "w": "http://www.buchstart.ch"
@@ -33852,7 +34441,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-7/"
   },
   {
@@ -33899,7 +34492,11 @@
    "ort": "Sekundarschule Rosenau",
    "veranstalter": "",
    "time": "20.00 - 23.15",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-7/"
   },
   {
@@ -34012,9 +34609,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766344",
    "w": "http://www.ideesport.ch"
@@ -34030,7 +34627,11 @@
    "ort": "Schulhaus Sennhof",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kinderthur.ch/events/open-sunday-sennhof-5/"
   },
   {
@@ -34044,7 +34645,11 @@
    "ort": "Schulhaus Gutenberg",
    "veranstalter": "",
    "time": "13.30 - 16.30",
-   "age": null,
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "Kinder"
+   },
    "url": "https://www.kinderthur.ch/events/open-sunday-toess-6/"
   },
   {
@@ -34058,7 +34663,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556245"
   },
   {
@@ -34164,7 +34773,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836553"
   },
   {
@@ -34178,7 +34791,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556248"
   },
   {
@@ -34298,7 +34915,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556293"
   },
   {
@@ -34463,7 +35084,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593190",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -34531,8 +35156,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621324",
    "w": "http://www.buchstart.ch"
@@ -34616,7 +35241,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-8/"
   },
   {
@@ -34630,7 +35259,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837417"
   },
   {
@@ -34784,9 +35417,9 @@
    "veranstalter": "Stadt Illnau-Effretikon",
    "time": "13.30 - 16.30",
    "age": {
-    "min": 6,
+    "min": 4,
     "max": 12,
-    "label": "6 bis 12 Jahre"
+    "label": "Kinder"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7766347",
    "w": "http://www.ideesport.ch"
@@ -34885,7 +35518,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378918",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -34903,7 +35540,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809085"
   },
@@ -34918,7 +35555,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-8/"
   },
   {
@@ -34966,9 +35607,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714897",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -35035,7 +35676,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392568",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -35116,9 +35761,9 @@
    "veranstalter": "Bibliothek Illnau",
    "time": "14.00 - 17.00",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818805",
    "w": "http://www.evillnau.ch"
@@ -35134,7 +35779,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836559"
   },
   {
@@ -35184,7 +35833,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-7/"
   },
   {
@@ -35198,7 +35851,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677751"
   },
   {
@@ -35297,8 +35954,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621327",
    "w": "http://www.buchstart.ch"
@@ -35401,7 +36058,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378990",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -35450,9 +36111,9 @@
    "veranstalter": "",
    "time": "",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4265/eventdate/3262",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -35659,7 +36320,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-15/"
   },
   {
@@ -35729,7 +36394,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "16.00 - 16.45",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-wuelflingen-22/"
   },
   {
@@ -35743,7 +36412,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556296"
   },
   {
@@ -35879,7 +36552,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677754"
   },
   {
@@ -35925,7 +36602,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-15/"
   },
   {
@@ -35941,8 +36622,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621330",
    "w": "http://www.buchstart.ch"
@@ -35959,9 +36640,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7827295",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -36013,7 +36694,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593193",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -36028,7 +36713,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-10/"
   },
   {
@@ -36123,7 +36812,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-veltheim-4/"
   },
   {
@@ -36241,8 +36934,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621333",
    "w": "http://www.buchstart.ch"
@@ -36291,7 +36984,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-6/"
   },
   {
@@ -36394,7 +37091,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836562"
   },
   {
@@ -36514,7 +37215,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-9/"
   },
   {
@@ -36546,7 +37251,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556251"
   },
   {
@@ -36614,7 +37323,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809091"
   },
@@ -36629,7 +37338,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556254"
   },
   {
@@ -36643,7 +37356,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-oberwinterthur-9/"
   },
   {
@@ -36779,7 +37496,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "16.00 - 16.45",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-wuelflingen-23/"
   },
   {
@@ -36898,7 +37619,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-9/"
   },
   {
@@ -36930,7 +37655,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593196",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -36947,8 +37676,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621336",
    "w": "http://www.buchstart.ch"
@@ -37091,7 +37820,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-16/"
   },
   {
@@ -37106,9 +37839,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714903",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -37190,7 +37923,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836568"
   },
   {
@@ -37240,7 +37977,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677757"
   },
   {
@@ -37292,7 +38033,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-16/"
   },
   {
@@ -37308,8 +38053,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621339",
    "w": "http://www.buchstart.ch"
@@ -37328,7 +38073,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4250/eventdate/3257",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -37362,7 +38107,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837420"
   },
   {
@@ -37409,7 +38158,11 @@
    "ort": "Sekundarschule Rosenau",
    "veranstalter": "",
    "time": "20.00 - 23.15",
-   "age": null,
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "Jugendliche"
+   },
    "url": "https://www.kinderthur.ch/events/midnight-sports-toess-am-samstag-8/"
   },
   {
@@ -37514,7 +38267,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378993",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -37599,7 +38356,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392565",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -37701,7 +38462,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677760"
   },
   {
@@ -37732,8 +38497,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621342",
    "w": "http://www.buchstart.ch"
@@ -37767,7 +38532,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-7/"
   },
   {
@@ -37799,7 +38568,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593199",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -37814,7 +38587,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-11/"
   },
   {
@@ -37828,7 +38605,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378996",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -37974,7 +38755,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836571"
   },
   {
@@ -38116,7 +38901,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818808",
    "w": "https://www.bibliotheksverein.ch/illnau"
@@ -38182,7 +38967,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677763"
   },
   {
@@ -38250,8 +39039,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621345",
    "w": "http://www.buchstart.ch"
@@ -38318,7 +39107,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-8/"
   },
   {
@@ -38379,7 +39172,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556257"
   },
   {
@@ -38451,7 +39248,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7809097"
   },
@@ -38466,7 +39263,11 @@
    "ort": "Bibliothek Neftenbach",
    "veranstalter": "Gemeindebibliothek",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556260"
   },
   {
@@ -38589,7 +39390,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-9/"
   },
   {
@@ -38603,7 +39408,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-in-der-stadtbibliothek-2/"
   },
   {
@@ -38671,7 +39480,11 @@
    "ort": "Winterthurer Bibliotheken Hegi",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-bibliothek-hegi-10/"
   },
   {
@@ -38685,7 +39498,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593202",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -38702,8 +39519,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621348",
    "w": "http://www.buchstart.ch"
@@ -38755,7 +39572,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-toess-11/"
   },
   {
@@ -38769,7 +39590,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-10/"
   },
   {
@@ -38783,7 +39608,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837423"
   },
   {
@@ -38798,9 +39627,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7827298",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -38816,7 +39645,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677766"
   },
   {
@@ -38937,7 +39770,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-wuelflingen-3/"
   },
   {
@@ -38952,9 +39789,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714906",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -39022,7 +39859,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836577"
   },
   {
@@ -39072,7 +39913,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677769"
   },
   {
@@ -39086,7 +39931,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-6/"
   },
   {
@@ -39136,8 +39985,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621354",
    "w": "http://www.buchstart.ch"
@@ -39189,7 +40038,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-oberwinterthur-7/"
   },
   {
@@ -39305,7 +40158,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7378999",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -39334,7 +40191,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-6/"
   },
   {
@@ -39362,7 +40223,11 @@
    "ort": "Bibliothek Hegi",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-hegi-17/"
   },
   {
@@ -39428,7 +40293,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "14.30 - 15.00",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7392559",
    "w": "https://bibliotheken-zh.ch/birmensdorf"
   },
@@ -39462,7 +40331,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-seen-7/"
   },
   {
@@ -39530,7 +40403,11 @@
    "ort": "Irchelhalle Buch am Irchel",
    "veranstalter": "Monika Hirt",
    "time": "9.30 - 11.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7677772"
   },
   {
@@ -39559,7 +40436,11 @@
    "ort": "Bibliothek Oberwinterthur",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-oberwinterthur-17/"
   },
   {
@@ -39575,8 +40456,8 @@
    "time": "10.30 - 11.00",
    "age": {
     "min": 0,
-    "max": 3,
-    "label": "Kleinkinder"
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.duebendorf.ch/_rte/anlass/7621357",
    "w": "http://www.buchstart.ch"
@@ -39610,7 +40491,11 @@
    "ort": "Stadtbibliothek Winterthur",
    "veranstalter": "",
    "time": "16.00 - 16.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/geschichtenkiste-stadtbibliothek-winterthur-8/"
   },
   {
@@ -39639,7 +40524,11 @@
    "ort": "Bibliothek Veltheim",
    "veranstalter": "",
    "time": "09.30 - 10.15",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.kinderthur.ch/events/miniclub-bibliothek-veltheim-7/"
   },
   {
@@ -39653,7 +40542,11 @@
    "ort": "Giebel",
    "veranstalter": "Sandra Reutemann",
    "time": "9.00 - 11.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.buchamirchel.ch/_rte/anlass/7593205",
    "w": "https://spielgruppebuchamirchel.ch/?Purzeltreff"
   },
@@ -39668,7 +40561,11 @@
    "ort": "Bibliothek Seen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-seen-12/"
   },
   {
@@ -39682,7 +40579,11 @@
    "ort": "Gemeinde- und Schulbibliothek",
    "veranstalter": "Bibliothek",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.birmensdorf.ch/_rte/anlass/7379005",
    "w": "http://bibliotheken-zh.ch/birmensdorf"
   },
@@ -39698,9 +40599,9 @@
    "veranstalter": "",
    "time": "",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4267/eventdate/3263",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -39975,7 +40876,11 @@
    "ort": "Bibliothek Töss",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-toess-9/"
   },
   {
@@ -40082,7 +40987,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836580"
   },
   {
@@ -40307,7 +41216,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4252/eventdate/3258",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -40359,7 +41268,11 @@
    "ort": "Bibliothek Wülflingen",
    "veranstalter": "",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
+   },
    "url": "https://www.kinderthur.ch/events/buecherzwerge-bibliothek-wuelflingen-11/"
   },
   {
@@ -40373,7 +41286,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837429"
   },
   {
@@ -40473,7 +41390,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836586"
   },
   {
@@ -41436,7 +42357,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837432"
   },
   {
@@ -41451,9 +42376,9 @@
    "veranstalter": "",
    "time": "",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4269/eventdate/3265",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -41667,7 +42592,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836589"
   },
   {
@@ -41772,7 +42701,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4254/eventdate/3259",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -41789,9 +42718,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7827301",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -41860,7 +42789,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7832971"
   },
@@ -41965,7 +42894,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836592"
   },
   {
@@ -42198,7 +43131,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837435"
   },
   {
@@ -42263,7 +43200,11 @@
    "ort": "Bibliothek Effretikon",
    "veranstalter": "Bibliothek Effretikon",
    "time": "9.30 - 10.00",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.ilef.ch/_rte/anlass/7764067",
    "w": "https://www.bibliotheksverein.ch/effretikon"
   },
@@ -42297,9 +43238,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714909",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -42334,9 +43275,9 @@
    "veranstalter": "Bibliothek Illnau",
    "time": "14.00 - 15.00",
    "age": {
-    "min": 3,
-    "max": 7,
-    "label": "3 bis 7 Jahre"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818811",
    "w": "https://www.bibliotheksverein.ch/illnau"
@@ -42543,7 +43484,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836595"
   },
   {
@@ -42799,7 +43744,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836598"
   },
   {
@@ -42883,9 +43832,9 @@
    "veranstalter": "Gemeindebibliothek Urdorf",
    "time": "9.30 - 10.15",
    "age": {
-    "min": 1,
+    "min": 0,
     "max": 4,
-    "label": "1 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.urdorf.ch/_rte/anlass/7714912",
    "w": "https://www.bibliotheken-zh.ch/Urdorf/"
@@ -42938,9 +43887,9 @@
    "veranstalter": "Bibliothek Illnau",
    "time": "16.00 - 21.00",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.ilef.ch/_rte/anlass/7818814",
    "w": "http://www.bibliotheksverein.ch/illnau"
@@ -42956,7 +43905,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837438"
   },
   {
@@ -42971,9 +43924,9 @@
    "veranstalter": "Bibliothek Männedorf",
    "time": "9.30",
    "age": {
-    "min": 1,
-    "max": 3,
-    "label": "1 bis 3 Jahre"
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.maennedorf.ch/_rte/anlass/7827304",
    "w": "https://www.schule-maennedorf.ch/bibliothek/1091"
@@ -42990,9 +43943,9 @@
    "veranstalter": "",
    "time": "",
    "age": {
-    "min": 3,
-    "max": 12,
-    "label": "ab 3 Jahren"
+    "min": 2,
+    "max": 6,
+    "label": "Kleinkinder und Kindergarten"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4271/eventdate/3058",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -43078,7 +44031,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836601"
   },
   {
@@ -43262,7 +44219,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.langnauamalbis.ch/_rte/anlass/7832974"
   },
@@ -43335,7 +44292,7 @@
    "age": {
     "min": 0,
     "max": 4,
-    "label": "0 bis 4 Jahre"
+    "label": "Kleinkinder mit Eltern"
    },
    "url": "https://www.knonau.ch/dorfleben/freizeit-sport/veranstaltungen/detail.html/516/event/4261/eventdate/3260",
    "w": "https://www.bibliotheken-zh.ch/Knonau/"
@@ -43507,7 +44464,11 @@
    "ort": "Regionalbibliothek Affoltern",
    "veranstalter": "Regionalbibliothek Affoltern",
    "time": "",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.stadtaffoltern.ch/_rte/anlass/7836607"
   },
   {
@@ -43558,7 +44519,11 @@
    "ort": "Stadtbibliothek, Dachstock",
    "veranstalter": "Stadtbibliothek",
    "time": "10.00 - 10.30",
-   "age": null,
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
    "url": "https://www.waedenswil.ch/_rte/anlass/7837441"
   }
  ]
