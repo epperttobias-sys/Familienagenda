@@ -500,6 +500,9 @@ export const SYSTEMS = {
     for (const e of list) {
       const info = decode(e.experienceInfo || "").replace(/ /g, " ");
       if (/^bis\b/i.test(info)) continue;
+      // nur ausdrücklich für Familien und Kinder gedachte Angebote, keine allgemeinen Führungen oder Gespräche
+      const t = decode(e.title || "");
+      if (!/famili|kinder|kids|junior|workshop|atelier|geschichten|märchen|maerchen|bastel|gestalten|entdeck|forsch|rätsel|zoo|tiere|ferien/i.test(t)) continue;
       const range = parseDateRange(info); if (!range) continue;
       const tm = info.match(/(\d{1,2})(?::(\d{2}))?\s*[–-]\s*(\d{1,2})(?::(\d{2}))?\s*Uhr/) || info.match(/(\d{1,2})(?::(\d{2}))?\s*Uhr/);
       const hm = (h, m) => `${h}.${m || "00"}`;
