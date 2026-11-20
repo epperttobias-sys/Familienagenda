@@ -15,14 +15,16 @@ const TOPIC = /kinderbetreuung|familienerg[aä]nz|kita|krippe|tagesstruktur|betr
 const NAV_NO = /abfall|steuer|bau|wahl|abstimm|politik|stelle|jobs|amtsblatt|protokoll|gesetz|reglement|login|kontakt$|impressum|datenschutz|news|aktuell|medien|feuerwehr|friedhof|bestattung|wasser|strom|parkier/i;
 // Einträge
 const CAT = [
-  ["kita", /\bkita\b|kitas\b|kinderkrippe|krippe|kindertagesst|kinderhaus|kinderhort|\bhort\b|tagesstruktur|tagesschule|mittagstisch|kinderbetreuung\s+\S|childcare|nursery|kinderland|kinderwelt|kindergarten\s+\S+|chinderhuus|chinderhus|tagi\b|schülerclub|kinderclub/i],
+  ["kita", /tagesfamilie|tageseltern|\bkita\b|kitas\b|kinderkrippe|krippe|kindertagesst|kinderhaus|kinderhort|\bhort\b|tagesstruktur|tagesschule|mittagstisch|kinderbetreuung\s+\S|childcare|nursery|kinderland|kinderwelt|kindergarten\s+\S+|chinderhuus|chinderhus|tagi\b|schülerclub|kinderclub/i],
   ["spiel", /spielgruppe|waldspielgruppe|elternverein|familienverein|elternforum|frauenverein|müttertreff|eltern-kind|elki|krabbel/i],
   ["ludo", /ludothek/i],
   ["bib", /bibliothek|mediathek/i],
   ["treff", /familienzentrum|familientreff|gemeinschaftszentrum|\bgz\b|kinder- und jugendtreff|jugendtreff|quartiertreff|eltern-?café|elterncafé|familiencafé/i],
 ];
 const GENERIC = /^(kinderbetreuung|familienergänzende (kinder)?betreuung|kita|kitas|krippe|krippen|hort|horte|spielgruppen?|bibliothek|ludothek|familie|familien|kinder|eltern|mittagstisch|tagesstrukturen?|betreuung|schulergänzende betreuung|freizeit|vereine|mehr|weiter|website|webseite|homepage|link|details?|zur website|kinderbetreuung im frühbereich|vorschulalter|frühe kindheit|familienzentrum|angebote?|übersicht|kontakt|tagesfamilien|tageseltern)$/i;
-const BAD = /\.(pdf|docx?|xlsx?|jpe?g|png)(\?|$)|mailto:|tel:|javascript:|facebook|instagram|twitter|linkedin|youtube|google\.|maps\.|whatsapp/i;
+const DOC = /reglement|verordnung|ordnung\b|benutzungs|benützungs|gebühr|beitrag|vergünstigung|aufsicht|meldepflicht|notsituation|konto|katalog|onleihe|richtlinie|merkblatt|formular|antrag|anmeldung für|tarif|^über die|^offizielle|^weitere|^website|^link$|^mehr\b|kindergarten und schulen|^andere\b|\.pdf|\d{3}\.\d/i;
+export const cleanName = n => n.replace(/\s*Externer Link wird in einem neuen Fenster geöffnet\.?/gi, "").replace(/\s*\((?:ausgewählt|pdf|extern)[^)]*\)/gi, "").replace(/\s+/g, " ").trim();
+const BAD = /readspeaker|\.(pdf|docx?|xlsx?|jpe?g|png)(\?|$)|mailto:|tel:|javascript:|facebook|instagram|twitter|linkedin|youtube|google\.|maps\.|whatsapp/i;
 
 const robots = new Map();
 async function allowed(u) {
@@ -51,7 +53,7 @@ const links = (html, base) => [...html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)
 }).filter(Boolean);
 const main = html => (html.match(/<main[\s\S]*?<\/main>/i) || html.match(/<div[^>]+(?:id|class)=["'][^"']*(?:content|main|inhalt)[^"']*["'][\s\S]*/i) || [html])[0];
 const catOf = s => (CAT.find(([, re]) => re.test(s)) || [])[0];
-const ADR = /([A-ZÄÖÜ][a-zäöüé.-]+(?:[- ][A-Za-zäöüé.-]+)*(?:strasse|str\.|weg|gasse|platz|rain|halde|hof|acker|matt|wies|ring|allee|steig|berg|graben)\s+\d+[a-z]?)\s*,?\s*(8\d{3})\s+([A-ZÄÖÜ][\wäöüéè. -]{1,30})/;
+const ADR = /([A-ZÄÖÜ][a-zäöüé-]+(?:strasse|str\.|weg|gasse|platz|rain|halde|hof|acker|matt|wies|ring|allee|steig|berg|graben)\s+\d+[a-z]?)\s*,?\s*(8\d{3})\s+([A-ZÄÖÜ][\wäöüéè. -]{1,30})/;
 
 async function geocode(q) {
   try {
@@ -79,8 +81,9 @@ async function crawl(code, g) {
     }
     // Einträge im Inhaltsbereich (nicht im Menü)
     for (const l of (d === 0 ? [] : body)) {
-      const name = l.t.replace(/\s*\((?:pdf|extern)[^)]*\)/i, "").trim();
-      if (name.length < 4 || name.length > 90 || GENERIC.test(name) || /^(www\.|https?:)/i.test(name) && !catOf(l.host)) continue;
+      if (/\(ausgewählt\)/i.test(l.t)) continue;
+      const name = cleanName(l.t);
+      if (name.length < 4 || name.length > 90 || GENERIC.test(name) || DOC.test(name) || /^(www\.|https?:)/i.test(name) && !catOf(l.host)) continue;
       const cat = catOf(name) || (l.host !== ghost && catOf(l.host.replace(/[.-]/g, " ")));
       if (!cat) continue;
       const key = name.toLowerCase().replace(/[^a-z0-9äöü]/g, "");
@@ -100,6 +103,12 @@ async function crawl(code, g) {
       const a = txt(m).match(ADR); if (a) it.a = `${a[1]}, ${a[3].trim()}`, it.plz = a[2];
     } catch {}
   }
+  // Adresse, die bei vielen Einträgen gleich ist, ist die der Gemeindeverwaltung
+  const freq = {}; items.forEach(x => x.a && (freq[x.a] = (freq[x.a] || 0) + 1));
+  items.forEach(x => { if (x.a && freq[x.a] > 1) { delete x.a; delete x.plz; } });
+  // gleiche Website nur einmal
+  const byW = new Map(); for (const x of items) { if (!x.w) continue; const k = x.w.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""); if (byW.has(k)) x.dup = 1; else byW.set(k, x); }
+  for (let j = items.length - 1; j >= 0; j--) if (items[j].dup) items.splice(j, 1);
   for (const it of items) if (it.a) { const p = await geocode(`${it.a.split(",")[0]} ${it.plz || ""} ${it.a.split(",")[1] || g.name}`); if (p) [it.lat, it.lon] = p; await sleep(150); }
   return { pages: pages.length, items };
 }
