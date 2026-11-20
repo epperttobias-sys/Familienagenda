@@ -1,169 +1,111 @@
 [
  {
-  "l": "RAW bachs",
-  "u": "https://www.bachs.ch/",
-  "s": 200,
-  "f": "https://www.bachs.ch/",
-  "title": "Offizielle Seite der Gemeinde Bachs"
- },
- {
   "l": "RAW bergamirchel",
-  "u": "https://www.bergamirchel.ch/",
+  "u": "https://www.bergamirchel.ch/freizeit-und-kultur/kalender/",
   "s": 200,
-  "f": "https://www.bergamirchel.ch/",
-  "title": "Startseite - Gemeinde Berg am Irchel"
+  "f": "https://www.bergamirchel.ch/agenda/",
+  "title": "Agenda - Gemeinde Berg am Irchel"
  },
  {
   "l": "RAW boppelsen",
   "u": "https://www.boppelsen.ch/",
   "s": 200,
   "f": "https://www.boppelsen.ch/",
-  "title": "Einen Moment bitte …"
- },
- {
-  "l": "RAW dorf",
-  "u": "https://www.dorf.ch/",
-  "s": 200,
-  "f": "https://www.dorf.ch/",
-  "title": "Home – Gemeinde Dorf"
+  "title": "Boppelsen - Gemeinde"
  },
  {
   "l": "RAW eglisau",
-  "u": "https://www.eglisau.ch/",
+  "u": "https://www.eglisau.ch/de/aktuelles-dossiers/termine/",
   "s": 200,
-  "f": "https://www.eglisau.ch/de/home/",
-  "title": "Willkommen: Gemeinde Eglisau"
+  "f": "https://www.eglisau.ch/de/aktuelles-dossiers/termine/",
+  "title": "Termine: Gemeinde Eglisau"
  },
  {
   "l": "RAW fischenthal",
-  "u": "https://www.fischenthal.ch/",
+  "u": "https://www.fischenthal.ch/leben-familie-anlaesse/",
   "s": 200,
-  "f": "https://www.fischenthal.ch/",
-  "title": "Gemeinde Fischenthal"
- },
- {
-  "l": "RAW glattfelden",
-  "u": "https://www.glattfelden.ch/",
-  "s": 200,
-  "f": "https://www.glattfelden.ch/",
-  "title": "Home – Gemeinde Glattfelden"
+  "f": "https://www.fischenthal.ch/leben-familie-anlaesse/",
+  "title": "Leben, Familie, Anlässe - Gemeinde Fischenthal"
  },
  {
   "l": "RAW gossau",
-  "u": "https://www.gossau-zh.ch/",
+  "u": "https://www.gossau-zh.ch/kalender/",
   "s": 200,
-  "f": "https://www.gossau-zh.ch/",
-  "title": "Home - Gemeinde Gossau ZH"
- },
- {
-  "l": "RAW hausenamalbis",
-  "u": "https://www.hausen.ch/",
-  "s": 200,
-  "f": "https://www.hausen.ch/",
-  "title": "Hausen am Albis"
- },
- {
-  "l": "RAW hochfelden",
-  "u": "https://hochfelden.ch/",
-  "s": 200,
-  "f": "https://hochfelden.ch/",
-  "title": "Willkommen in Hochfelden - Gemeinde Hochfelden"
+  "f": "https://www.gossau-zh.ch/kalender/",
+  "title": "Kalender - Gemeinde Gossau ZH"
  },
  {
   "l": "RAW huentwangen",
-  "u": "https://www.huentwangen.ch/",
+  "u": "https://www.huentwangen.ch/wp-json/tribe/events/v1/events?per_page=5",
+  "s": 404,
+  "f": "https://www.huentwangen.ch/wp-json/tribe/events/v1/events?per_page=5"
+ },
+ {
+  "l": "RAW huentwangenpage",
+  "u": "https://www.huentwangen.ch/aktuelles/veranstaltungen/",
   "s": 200,
-  "f": "https://www.huentwangen.ch/",
-  "title": "Gemeinde Hüntwangen"
+  "f": "https://www.huentwangen.ch/aktuelles/veranstaltungen/",
+  "title": "Agenda &#8211; Gemeinde Hüntwangen"
  },
  {
   "l": "RAW kilchberg",
-  "u": "https://www.kilchberg.ch/",
+  "u": "https://www.kilchberg.ch/veranstaltungen",
   "s": 200,
-  "f": "https://www.kilchberg.ch/",
-  "title": "Gemeinde Kilchberg | Gemeinde Kilchberg"
- },
- {
-  "l": "RAW nuerensdorf",
-  "u": "https://www.nuerensdorf.ch/",
-  "s": 200,
-  "f": "https://www.nuerensdorf.ch/",
-  "title": "Home – Gemeinde Nürensdorf"
- },
- {
-  "l": "RAW oberglatt",
-  "u": "https://www.oberglatt.ch/",
-  "s": 200,
-  "f": "https://www.oberglatt.ch/",
-  "title": "Home – Oberglatt"
+  "f": "https://www.kilchberg.ch/veranstaltungen",
+  "title": "Veranstaltungen | Gemeinde Kilchberg"
  },
  {
   "l": "RAW oberrieden",
-  "u": "https://www.oberrieden.ch/",
+  "u": "https://www.oberrieden.ch/events",
   "s": 200,
-  "f": "https://www.oberrieden.ch/",
-  "title": "Gemeinde Oberrieden"
+  "f": "https://www.oberrieden.ch/events",
+  "title": "Veranstaltungskalender | oberrieden.ch"
  },
  {
-  "l": "RAW oetwilanderlimmat",
+  "l": "RAW oetwil",
   "u": "https://www.oetwil-limmat.ch/",
   "s": -1,
   "e": "ERR_TLS_CERT_ALTNAME_INVALID"
  },
  {
+  "l": "RAW oetwil2",
+  "u": "https://oetwil-limmat.ch/",
+  "s": -1,
+  "e": "ERR_TLS_CERT_ALTNAME_INVALID"
+ },
+ {
   "l": "RAW ossingen",
-  "u": "https://www.ossingen.ch/",
+  "u": "https://www.ossingen.ch/gemeinde/agenda",
   "s": 200,
-  "f": "https://www.ossingen.ch/",
-  "title": "Ossingen"
+  "f": "https://www.ossingen.ch/gemeinde/agenda",
+  "title": "Agenda"
  },
  {
   "l": "RAW ottenbach",
-  "u": "https://www.ottenbach.ch/",
+  "u": "https://www.ottenbach.ch/events",
   "s": 200,
-  "f": "https://www.ottenbach.ch/",
-  "title": "Gemeinde Ottenbach"
+  "f": "https://www.ottenbach.ch/events",
+  "title": "Veranstaltungen"
  },
  {
   "l": "RAW rorbas",
-  "u": "https://www.rorbas.ch/",
+  "u": "https://www.rorbas.ch/agenda-2",
   "s": 200,
-  "f": "https://www.rorbas.ch/",
-  "title": "Home - Gemeinde Rorbas"
- },
- {
-  "l": "RAW schlatt",
-  "u": "https://www.schlatt.ch/",
-  "s": 200,
-  "f": "https://www.schlatt.ch/",
-  "title": "Home – Gemeinde Schlatt"
- },
- {
-  "l": "RAW schlieren",
-  "u": "https://www.schlieren.ch/",
-  "s": 200,
-  "f": "https://www.schlieren.ch/",
-  "title": "Schlieren"
+  "f": "https://www.rorbas.ch/agenda-2",
+  "title": "Agenda - Gemeinde Rorbas"
  },
  {
   "l": "RAW staefa",
-  "u": "https://www.staefa.ch/",
-  "s": 200,
-  "f": "https://www.staefa.ch/",
-  "title": "Home – Gemeinde Stäfa"
+  "u": "https://www.staefa.ch/aktuelles/veranstaltungen.html",
+  "s": 404,
+  "f": "https://www.staefa.ch/aktuelles/veranstaltungen.html",
+  "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
  },
  {
-  "l": "RAW thalheimanderthur",
-  "u": "https://www.thalheim.ch/",
+  "l": "RAW thalheim",
+  "u": "https://www.thalheim.ch/index.php/aktuell/veranstaltungen",
   "s": 200,
-  "f": "https://www.thalheim.ch/",
-  "title": "Thalheim (ZH)"
- },
- {
-  "l": "RAW wettswilamalbis",
-  "u": "https://www.wettswil.ch/",
-  "s": 200,
-  "f": "https://www.wettswil.ch/",
-  "title": "Home – Gemeinde Wettswil"
+  "f": "https://www.thalheim.ch/index.php/aktuell/veranstaltungen",
+  "title": "Veranstaltungen"
  }
 ]

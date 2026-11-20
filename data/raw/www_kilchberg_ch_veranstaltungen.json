@@ -1,0 +1,33 @@
+{
+ "f": "https://www.kilchberg.ch/veranstaltungen",
+ "sys": [
+  "typo3"
+ ],
+ "links": [
+  "Veranstaltungen | /veranstaltungen",
+  "Hallenbad | /themen/sport-kultur-freizeit/sport-und-freizeitanlagen-baeder/hallenbad",
+  "Kalenderansicht anzeigen &rarr; | /veranstaltungen/kalender",
+  "Brauchtum &amp; Tradition | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=97&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=e90d503a60e18f204de6a6c79c6cf584960982596629a7ba9dec3e11e3630e31",
+  "C. F. Meyer-Haus | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=142&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=3bc2df303a54234bf3467b3af0c907fd66f5e347b54cc31e5f9c93a044314f46",
+  "Diverses | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=98&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=848454cc7c32a6b467c7257f95b7ac80ec88e82a71d5522868daa94632b709de",
+  "Essen &amp; Trinken | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=85&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=910748739e62e493f87564071fb56856204a31cdb31ce2b5ea8878137530bc1f",
+  "Familien &amp; Kinder | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=95&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=13a713ac5127e9dfc6799b5088dd18bdff2a26f9921c8ea81285b091d57609fb",
+  "Gesundheit | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=93&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=67448846e2e3dc0b78f020587da6a9ec99f0734f970b635742d1cc42a8496ebc",
+  "Konzert, Musical | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=86&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=b188cf9f475de5f93b7873dbccd877b0c74af1993bab7b26e4266f1ffb3c065c",
+  "Kunst &amp; Handwerk | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=84&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=47f6585a17a58c98531b606f2f9557c2c37c0e853bdd7abb4182d7c645febdcb",
+  "Kurs, Seminar | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=90&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=de787c39b57d99e2bd9c68c4170863b0ba9851bbd02edf646fea19149b7cb6db",
+  "Messe, Ausstellung | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=91&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=3a10696e211e809ea13460d7df89b1cb28eb3884797794668b0d1a9eb4bba3dd",
+  "Politik | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=94&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=2ff7b2903fefb3176e1a94039da7305e852df3b8afa14b815e34bab423d30400",
+  "Schulanlass | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=137&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=5a2840bfdd2089733347f6efdbbf27953c21e1b040a845c26ef66c19b1c373f9",
+  "Schulferien | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=138&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=068b9ec9fc8e95397460995be7300d4840005318b1351eeeccb20757a5682a09",
+  "Senioren | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=96&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=f9d6f71f6c60116bd9ca3746844b15817d8f8770d2eae90daf223108c1492a43",
+  "Sport | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=88&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=1a1871071b04d6d208854ace68e8f3fdc28b2175058b20c79f107f400dee8b88",
+  "Tanz &amp; Party | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=87&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=b6bc90e729a2f0aaf6943462140b9fb6821a724da6913b73655eefc85f3a9967",
+  "Theater, Bühne &amp; Kino | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=89&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=e93a7f68107fb2e40a78748ec12a577e2b6fa5c9958a6d394115f380d57694c3",
+  "Veranstaltungen | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=83&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=eb55d5a0140877816fe082ef1172b41db4d719b1f266997336d5e5116a2099a7",
+  "Vortrag, Lesung &amp; Führung | /veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=92&amp;tx_calendarize_calendar%5BstartDate%5D=2026-11-20&amp;cHash=18674b659228b0f7bbc0585687a4dfcad13468d286b5d5580d64de1faf646db5",
+  "2 | /veranstaltungen/seite/2",
+  "3 | /veranstaltungen/seite/3",
+  "nächste | /veranstaltungen/seite/2"
+ ]
+}
