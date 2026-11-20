@@ -14,12 +14,12 @@
    },
    {
     "u": "https://www.lanterne-magique.org/clubs/dubendorf/",
-    "g": "duebendorf",
+    "g": "d",
     "name": "Zauberlaterne – Filmclub für Kinder (Dübendorf)"
    },
    {
     "u": "https://www.lanterne-magique.org/clubs/mannedorf/",
-    "g": "maennedorf",
+    "g": "a",
     "name": "Zauberlaterne – Filmclub für Kinder (Männedorf)"
    },
    {
@@ -39,34 +39,6 @@
    }
   ]
  },
- "q-oper": {
-  "name": "Opernhaus Zürich",
-  "bezirk": "Quellen",
-  "domain": "www.opernhaus.ch",
-  "system": "termine",
-  "quelle": true,
-  "delay": 800,
-  "g": "zuerich",
-  "ort": "Opernhaus Zürich",
-  "index": "https://www.opernhaus.ch/entdecken/vermittlungsangebote-familien-kinder-jugendliche/",
-  "link": "/spielplan/kalendarium/[^/]+/"
- },
- "q-tonhalle": {
-  "name": "Tonhalle-Orchester Zürich",
-  "bezirk": "Quellen",
-  "domain": "www.tonhalle-orchester.ch",
-  "system": "termine",
-  "quelle": true,
-  "delay": 800,
-  "g": "zuerich",
-  "ort": "Tonhalle Zürich",
-  "index": [
-   "https://www.tonhalle-orchester.ch/kinder-familien/familienkonzerte/",
-   "https://www.tonhalle-orchester.ch/kinder-familien/kinder-matinee/",
-   "https://www.tonhalle-orchester.ch/kinder-familien/kammermusik-fuer-kinder-kunterwunderbunt/"
-  ],
-  "link": "/konzerte/kalender/[^/]+/"
- },
  "q-purpur": {
   "name": "Theater PurPur",
   "bezirk": "Quellen",
@@ -79,5 +51,18 @@
   "pages": [
    "https://theater-purpur.ch/theater"
   ]
+ },
+ "q-schauspielhaus": {
+  "name": "Schauspielhaus Zürich",
+  "bezirk": "Quellen",
+  "domain": "www.schauspielhaus.ch",
+  "system": "termine",
+  "quelle": true,
+  "delay": 800,
+  "g": "zuerich",
+  "ort": "Schauspielhaus Zürich",
+  "index": "https://www.schauspielhaus.ch/de/spielplan",
+  "link": "/de/spielplan/\\d+/[a-z0-9-]+/?$",
+  "onlyText": "ab \\d{1,2} Jahren|Familienstück|für die ganze Familie|Familienvorstellung"
  }
 }
