@@ -510,40 +510,37 @@ export const SYSTEMS = {
     return items;
   },
 
-  // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda jeder Pfarrei, nur Rubrik «Kinder und Familien».
-  // Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
+  // Katholische Kirche im Kanton Zürich (forum-magazin.ch): Agenda aller Pfarreien, Rubrik «Kinder und Familien», Seite für Seite
+  // («Mehr Veranstaltungen laden»). Die Gemeinde kommt aus der Adresse auf der Anlass-Seite (einmal geladen, dann gemerkt).
   async forum(site, get, cache, code) {
-    const base = "https://www.forum-magazin.ch", main = await get(base + "/agenda/");
-    const slugs = [...new Set([...main.matchAll(/href="\/([a-z0-9-]+)\/agenda\/\d{8}-/g), ...main.matchAll(/<option[^>]*value="\/?([a-z0-9-]+)\/?(?:agenda\/?)?"/g)].map(m => m[1]))];
-    const items = [], seen = new Set();
-    for (const slug of slugs) {
-      let html; try { html = await get(`${base}/${slug}/agenda/`); } catch { continue; }
-      for (const b of html.split(/<article class="teaser teaser--agenda"/).slice(1)) {
-        const href = (b.match(/href="(\/[a-z0-9-]+\/agenda\/(\d{8})-[^"]*?-(\d+)\/)"/) || []);
-        if (!href[1] || seen.has(href[3])) continue;
-        const cats = [...((b.match(/<ul class="teaser__category">([\s\S]*?)<\/ul>/) || [])[1] || "").matchAll(/<li>([^<]*)<\/li>/g)].map(x => decode(x[1]).trim());
-        const name = strip((b.match(/<h1 class="teaser__title">([\s\S]*?)<\/h1>/) || [])[1] ?? "");
-        if (!cats.includes("Kinder und Familien") && !KIDS_NAME.test(name)) continue;
-        seen.add(href[3]);
-        const dt = (b.match(/<time datetime="(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})/) || []);
-        const dateText = strip((b.match(/<time[^>]*>([\s\S]*?)<\/time>/) || [])[1] ?? "");
-        const von = dt[1] || `${href[2].slice(0, 4)}-${href[2].slice(4, 6)}-${href[2].slice(6, 8)}`;
-        const bisM = dateText.match(/bis\s+\w+,\s*(\d{1,2})\.\s*([A-Za-zäÄ]+)/);
-        let bis = von; if (bisM && monthOf(bisM[2])) { const y = +von.slice(0, 4), mo = monthOf(bisM[2]); bis = ymd(mo < +von.slice(5, 7) ? y + 1 : y, mo, bisM[1]); }
-        const tm = dateText.match(/(\d{1,2})\.(\d{2})(?:\s*bis\s*(\d{1,2})\.(\d{2}))?\s*Uhr/);
+    const base = "https://www.forum-magazin.ch", Q = "?category=kinder-und-familien", items = [], seen = new Set();
+    const until = new Date(Date.now() + (site.days ?? 90) * 864e5).toISOString().slice(0, 10).replace(/-/g, "");
+    let url = base + "/agenda/" + Q;
+    for (let page = 0; page < (site.maxPages ?? 20) && url; page++) {
+      const html = await get(url);
+      for (const b of html.split(/class="agenda__grid-event"/).slice(1)) {
+        const href = b.match(/href="(\/([a-z0-9-]+)\/agenda\/(\d{8})-[^"]*?-(\d+)\/)"/) || [];
+        if (!href[1] || seen.has(href[4])) continue;
+        seen.add(href[4]);
+        const cats = [...((b.match(/<ul class="agenda__event-category">([\s\S]*?)<\/ul>/) || [])[1] || "").matchAll(/<li>([^<]*)<\/li>/g)].map(x => decode(x[1]).trim());
+        const name = strip((b.match(/<h1 class="agenda__event-title">([\s\S]*?)<\/h1>/) || [])[1] ?? "");
+        const von = `${href[3].slice(0, 4)}-${href[3].slice(4, 6)}-${href[3].slice(6, 8)}`;
+        const tm = strip((b.match(/<time class="agenda__time"[^>]*>([\s\S]*?)<\/time>/) || [])[1] ?? "").match(/(\d{1,2})\.(\d{2})(?:\s*(?:bis|-|–)\s*(\d{1,2})\.(\d{2}))?/);
         const time = tm ? (tm[3] ? `${tm[1]}.${tm[2]} - ${tm[3]}.${tm[4]}` : `${tm[1]}.${tm[2]}`) : "";
-        const pfarrei = strip((b.match(/<h2 class="teaser__pretitle">([\s\S]*?)<\/h2>/) || [])[1] ?? "");
-        // Gemeinde: Adresse von der Anlass-Seite, sonst Ort in Klammern bei der Pfarrei
-        const key = `${code}:fa:${href[3]}`;
+        const pfarrei = strip((b.match(/<p class="agenda__event-location">([\s\S]*?)<\/p>/) || [])[1] ?? "");
+        const key = `${code}:fa:${href[4]}`;
         if (!(key in cache)) {
           let addr = ""; try { const d = await get(base + href[1]); addr = decode((d.match(/"address":\s*"([^"]*)"/) || [])[1] || ""); } catch {}
           cache[key] = { addr, g: addr ? await gemeindeForAddress(addr, get, cache, code + ":") : "" };
         }
-        let g = cache[key].g || gemeindeByName((pfarrei.match(/\(([^)-]+?)(?:\s*-|\))/) || [])[1] || "") || gemeindeByName(slug.replace(/-.*$/, ""));
+        // Gemeinde: Adresse, sonst erster Ort in Klammern bei der Pfarrei, sonst Pfarrei-Kürzel in der Adresse
+        const g = cache[key].g || gemeindeByName((pfarrei.match(/\(([^)]+?)(?:\s+-\s|\))/) || [])[1] || "") || gemeindeByName(href[2]) || gemeindeByName(href[2].split("-")[0]);
         if (!g) continue;
-        items.push({ id: "fa" + href[3], g, name, von, bis: bis < von ? von : bis, ort: (cache[key].addr.split(",")[0] || pfarrei).slice(0, 70), veranstalter: "Kath. Pfarrei " + pfarrei.replace(/\s*\(.*$/, ""), kategorie: "14",
+        items.push({ id: "fa" + href[4], g, name, von, bis: von, ort: (cache[key].addr.split(",")[0] || pfarrei).slice(0, 70), veranstalter: "Kath. Pfarrei " + pfarrei.replace(/\s*\(.*$/, ""), kategorie: "14",
           hint: cats.join(" "), url: base + href[1], detailKey: null, time });
       }
+      const next = html.match(/hx-get="(\/agenda\/after\/(\d{8})\/)"/);
+      url = next && next[2] <= until ? base + next[1] + Q : null;
     }
     return items;
   },

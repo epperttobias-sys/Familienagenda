@@ -1,1 +1,10 @@
-{}
+{
+ "q-kath": {
+  "name": "Katholische Pfarreien",
+  "bezirk": "Quellen",
+  "domain": "www.forum-magazin.ch",
+  "system": "forum",
+  "quelle": true,
+  "delay": 700
+ }
+}
