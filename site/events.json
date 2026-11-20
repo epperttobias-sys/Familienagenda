@@ -36,6 +36,20 @@
    "ok": true,
    "count": 0
   },
+  "hausenamalbis": {
+   "name": "Hausen am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.hausen.ch",
+   "ok": true,
+   "count": 3
+  },
+  "ottenbach": {
+   "name": "Ottenbach",
+   "bezirk": "Affoltern",
+   "domain": "www.ottenbach.ch",
+   "ok": true,
+   "count": 5
+  },
   "andelfingen": {
    "name": "Andelfingen",
    "bezirk": "Andelfingen",
@@ -124,6 +138,20 @@
    "name": "Volken",
    "bezirk": "Andelfingen",
    "domain": "www.volken.ch",
+   "ok": true,
+   "count": 0
+  },
+  "ossingen": {
+   "name": "Ossingen",
+   "bezirk": "Andelfingen",
+   "domain": "www.ossingen.ch",
+   "ok": true,
+   "count": 0
+  },
+  "bergamirchel": {
+   "name": "Berg am Irchel",
+   "bezirk": "Andelfingen",
+   "domain": "www.bergamirchel.ch",
    "ok": true,
    "count": 0
   },
@@ -336,6 +364,13 @@
    "domain": "www.weiningen.ch",
    "ok": true,
    "count": 5
+  },
+  "schlieren": {
+   "name": "Schlieren",
+   "bezirk": "Dietikon",
+   "domain": "www.schlieren.ch",
+   "ok": false,
+   "count": 0
   },
   "aeugst": {
    "name": "Aeugst am Albis",
@@ -609,6 +644,48 @@
    "domain": "www.turbenthal.ch",
    "ok": true,
    "count": 6
+  },
+  "dorf": {
+   "name": "Dorf",
+   "bezirk": "Andelfingen",
+   "domain": "www.dorf.ch",
+   "ok": true,
+   "count": 0
+  },
+  "nuerensdorf": {
+   "name": "Nürensdorf",
+   "bezirk": "Bülach",
+   "domain": "www.nuerensdorf.ch",
+   "ok": true,
+   "count": 0
+  },
+  "oberglatt": {
+   "name": "Oberglatt",
+   "bezirk": "Dielsdorf",
+   "domain": "www.oberglatt.ch",
+   "ok": true,
+   "count": 0
+  },
+  "wettswilamalbis": {
+   "name": "Wettswil am Albis",
+   "bezirk": "Affoltern",
+   "domain": "www.wettswil.ch",
+   "ok": true,
+   "count": 23
+  },
+  "glattfelden": {
+   "name": "Glattfelden",
+   "bezirk": "Bülach",
+   "domain": "www.glattfelden.ch",
+   "ok": true,
+   "count": 0
+  },
+  "schlatt": {
+   "name": "Schlatt",
+   "bezirk": "Winterthur",
+   "domain": "www.schlatt.ch",
+   "ok": true,
+   "count": 0
   },
   "bb": {
    "name": "Bubikon",
@@ -916,14 +993,14 @@
    "bezirk": "Winterthur",
    "domain": "www.rickenbach-zh.ch",
    "ok": true,
-   "count": 58
+   "count": 57
   },
   "seuzach": {
    "name": "Seuzach",
    "bezirk": "Winterthur",
    "domain": "www.seuzach.ch",
    "ok": true,
-   "count": 29
+   "count": 32
   },
   "wiesendangen": {
    "name": "Wiesendangen",
@@ -944,7 +1021,7 @@
    "bezirk": "Winterthur",
    "domain": "stadt.winterthur.ch",
    "ok": true,
-   "count": 308
+   "count": 310
   },
   "zuerich": {
    "name": "Zürich",
@@ -1797,24 +1874,6 @@
   },
   {
    "gemeinden": [
-    "rickenbach"
-   ],
-   "id": "rickenbach-1720-2026-11-20",
-   "name": "Fussballplausch Rickenbach",
-   "von": "2026-11-20",
-   "bis": "2026-11-20",
-   "ort": "",
-   "veranstalter": "",
-   "time": "16.45 - 18.00",
-   "age": {
-    "min": 4,
-    "max": 8,
-    "label": "4 bis 8 Jahre"
-   },
-   "url": "https://www.rickenbach-zh.ch/de/veranstaltungen/detail/detail.php?i=1720"
-  },
-  {
-   "gemeinden": [
     "z"
    ],
    "id": "z-7370296",
@@ -2382,6 +2441,24 @@
    "time": "14.00 - 17.00",
    "age": null,
    "url": "https://www.daegerlen.ch/_rte/anlass/7712677"
+  },
+  {
+   "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33616-0",
+   "name": "Christbaumschmuck 1. Runde",
+   "von": "2026-11-21",
+   "bis": "2026-11-21",
+   "ort": "Sternen Zauberei",
+   "veranstalter": "",
+   "time": "14.00 - 17.00",
+   "age": {
+    "min": 6,
+    "max": 12,
+    "label": "ab 6 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/christbaumschmuck-1-runde/"
   },
   {
    "gemeinden": [
@@ -3872,6 +3949,24 @@
   },
   {
    "gemeinden": [
+    "winterthur"
+   ],
+   "id": "winterthur-kt33614-0",
+   "name": "Wir kreieren zusammen einen Weihnachtszug",
+   "von": "2026-11-22",
+   "bis": "2026-11-22",
+   "ort": "Sternen Zauberei",
+   "veranstalter": "",
+   "time": "10.00 - 13.00",
+   "age": {
+    "min": 12,
+    "max": 12,
+    "label": "ab 12 Jahren"
+   },
+   "url": "https://www.kinderthur.ch/events/wir-kreieren-zusammen-einen-weihnachtszug/"
+  },
+  {
+   "gemeinden": [
     "zuerich"
    ],
    "id": "zuerich-auf-kaktus-safari--im-rahmen-des-fereinplauschprogramm-21-14",
@@ -4395,6 +4490,20 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4231-9927",
+   "name": "Die Gemeinde Wettswil lädt ein..",
+   "von": "2026-11-24",
+   "bis": "2026-11-24",
+   "ort": "Ettenbergstrasse 1",
+   "veranstalter": "",
+   "time": "18.30",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4231/eventdate/9927"
+  },
+  {
+   "gemeinden": [
     "dietikon"
    ],
    "id": "dietikon-7565125",
@@ -4885,6 +4994,21 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-3436-7735",
+   "name": "Buchstart-Treff",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Bibliothek",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3436/eventdate/7735",
+   "w": "http://www.buchstart.ch"
+  },
+  {
+   "gemeinden": [
     "hw"
    ],
    "id": "hw-7735984",
@@ -5189,6 +5313,25 @@
     "label": "Familien, alle Alter"
    },
    "url": "https://www.thalwil.ch/_rte/anlass/7604602"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-3438-7737",
+   "name": "Geschichtenzeit",
+   "von": "2026-11-25",
+   "bis": "2026-11-25",
+   "ort": "Bibliothek",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3438/eventdate/7737",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -6464,6 +6607,25 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4174-9886",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-11-27",
+   "bis": "2026-11-27",
+   "ort": "Kirchgemeindesaal Wettswil",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "9.00 - 9.45",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4174/eventdate/9886",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/296/2026/10/30"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7178516",
@@ -6933,6 +7095,20 @@
    },
    "url": "https://www.volketswil.ch/freizeit-und-kultur/veranstaltungen/details.html/247/event/17212/eventdate/106147",
    "w": "https://www.verein-abri.ch"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-3695-9909",
+   "name": "Adventsbasteln - AUSGEBUCHT!",
+   "von": "2026-11-28",
+   "bis": "2026-11-28",
+   "ort": "Bibliothek",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "10.00 - 12.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3695/eventdate/9909"
   },
   {
    "gemeinden": [
@@ -8741,6 +8917,21 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4245-10088",
+   "name": "Licht und Stille",
+   "von": "2026-11-29",
+   "bis": "2026-11-29",
+   "ort": "",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4245/eventdate/10088",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/353/2026/11/29"
+  },
+  {
+   "gemeinden": [
     "rueschlikon"
    ],
    "id": "rueschlikon-7833655",
@@ -9273,6 +9464,24 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4044-9893",
+   "name": "Eltern-Kind-Yoga im Advent",
+   "von": "2026-11-30",
+   "bis": "2026-11-30",
+   "ort": "Bibliothek Wettswil",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "19.00 - 19.45",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4044/eventdate/9893"
+  },
+  {
+   "gemeinden": [
     "thalwil"
    ],
    "id": "thalwil-7604401",
@@ -9626,6 +9835,20 @@
    },
    "url": "https://www.neftenbach.ch/_rte/anlass/7556215",
    "w": "https://www.bibliothek-neftenbach.ch"
+  },
+  {
+   "gemeinden": [
+    "ottenbach"
+   ],
+   "id": "ottenbach-buchstart-treff-die-welt-der-sprache-entdecken-2026-12-01",
+   "name": "BUCHSTART-TREFF: \"Die Welt der Sprache entdecken\"",
+   "von": "2026-12-01",
+   "bis": "2026-12-01",
+   "ort": "Bibliothek",
+   "veranstalter": "",
+   "time": "09.00 - 09.30",
+   "age": null,
+   "url": "https://www.ottenbach.ch/event/buchstart-treff-die-welt-der-sprache-entdecken-2026-12-01"
   },
   {
    "gemeinden": [
@@ -10555,6 +10778,20 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4087-9926",
+   "name": "Lebkuchenhaus selber machen! - AUSGEBUCHT!",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Mehrzwecksaal Ägerten",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4087/eventdate/9926"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt33493-0",
@@ -10936,6 +11173,20 @@
    "age": null,
    "url": "https://www.neftenbach.ch/_rte/anlass/7815193",
    "w": "https://www.sarailg.ch"
+  },
+  {
+   "gemeinden": [
+    "ottenbach"
+   ],
+   "id": "ottenbach-weihnachtszauber-adventsgeschichte-basteln-2026-12-02",
+   "name": "Weihnachtszauber - Adventsgeschichte & Basteln",
+   "von": "2026-12-02",
+   "bis": "2026-12-02",
+   "ort": "Bibliothek",
+   "veranstalter": "",
+   "time": "16.30 - 17.00",
+   "age": null,
+   "url": "https://www.ottenbach.ch/event/weihnachtszauber-adventsgeschichte-basteln-2026-12-02"
   },
   {
    "gemeinden": [
@@ -11854,6 +12105,25 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4175-9885",
+   "name": "Eltern-Kind-Singen",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "Kirchgemeindesaal Wettswil",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "9.00 - 9.45",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4175/eventdate/9885",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/296/2026/10/30"
+  },
+  {
+   "gemeinden": [
     "waedenswil"
    ],
    "id": "waedenswil-7178513",
@@ -12171,6 +12441,21 @@
    "time": "17.00 - 20.00",
    "age": null,
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8798/eventdate/8256",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/354/2026/12/4"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4257-10063",
+   "name": "Licht und Stille",
+   "von": "2026-12-04",
+   "bis": "2026-12-04",
+   "ort": "",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4257/eventdate/10063",
    "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/354/2026/12/4"
   },
   {
@@ -13662,6 +13947,36 @@
   },
   {
    "gemeinden": [
+    "hausenamalbis"
+   ],
+   "id": "hausenamalbis-7376587",
+   "name": "Adventsfenster mit Besuch vom Samichlaus",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Wohnhuus Meilihof",
+   "veranstalter": "Wohnhuus Meilihof",
+   "time": "18.00",
+   "age": null,
+   "url": "https://www.hausen.ch/_rte/anlass/7376587",
+   "w": "https://www.wfjb.ch/index_mh.php"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4246-10087",
+   "name": "Adventsfenster Wettswil: Dä Samichlaus chunnt!",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Reformierte Kirche Wettswil",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "17.00 - 18.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4246/eventdate/10087",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/adventsfenster-wettswil-dae-samichlaus-chunt/363/2026/12/6"
+  },
+  {
+   "gemeinden": [
     "wz"
    ],
    "id": "wz-26359-2026-12-06",
@@ -13842,6 +14157,20 @@
    "age": null,
    "url": "https://www.rheinau.ch/_rte/anlass/7603540",
    "w": "https://ovr.rheinau.net"
+  },
+  {
+   "gemeinden": [
+    "hausenamalbis"
+   ],
+   "id": "hausenamalbis-7361605",
+   "name": "Chlausumzug in den Huserholz Wald",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Huserholz",
+   "veranstalter": "Klausgesellschaft Hausen",
+   "time": "17.20 - 19.30",
+   "age": null,
+   "url": "https://www.hausen.ch/_rte/anlass/7361605"
   },
   {
    "gemeinden": [
@@ -14268,6 +14597,20 @@
    "age": null,
    "url": "https://www.buchs-zh.ch/_rte/anlass/7823485",
    "w": "https://www.familienverein-buchs.ch"
+  },
+  {
+   "gemeinden": [
+    "ottenbach"
+   ],
+   "id": "ottenbach-samichlaus-in-ottenbach-2-2026-12-06",
+   "name": "Samichlaus in Ottenbach",
+   "von": "2026-12-06",
+   "bis": "2026-12-06",
+   "ort": "Steinhof 1",
+   "veranstalter": "",
+   "time": "18.00 - 20.00",
+   "age": null,
+   "url": "https://www.ottenbach.ch/event/samichlaus-in-ottenbach-2-2026-12-06"
   },
   {
    "gemeinden": [
@@ -15815,6 +16158,24 @@
   },
   {
    "gemeinden": [
+    "ottenbach"
+   ],
+   "id": "ottenbach-kamishibai-koffertheater-5-2026-12-09",
+   "name": "Kamishibai-Koffertheater",
+   "von": "2026-12-09",
+   "bis": "2026-12-09",
+   "ort": "Bibliothek",
+   "veranstalter": "",
+   "time": "14.30 - 14.50",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.ottenbach.ch/event/kamishibai-koffertheater-5-2026-12-09"
+  },
+  {
+   "gemeinden": [
     "buelach"
    ],
    "id": "buelach-7695016",
@@ -17023,6 +17384,21 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4258-10062",
+   "name": "Licht und Stille",
+   "von": "2026-12-11",
+   "bis": "2026-12-11",
+   "ort": "",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4258/eventdate/10062",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/355/2026/12/11"
+  },
+  {
+   "gemeinden": [
     "du"
    ],
    "id": "du-7667131",
@@ -18222,7 +18598,8 @@
   },
   {
    "gemeinden": [
-    "stallikon"
+    "stallikon",
+    "wettswilamalbis"
    ],
    "id": "stallikon-8804-8260",
    "name": "Kolibri - Kinderweihnacht",
@@ -20591,6 +20968,21 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4259-10061",
+   "name": "Licht und Stille",
+   "von": "2026-12-18",
+   "bis": "2026-12-18",
+   "ort": "",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "17.00 - 20.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4259/eventdate/10061",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/fuer-erwachsene/licht-und-stille-offene-kirche-und-kerzenlicht/356/2026/12/18"
+  },
+  {
+   "gemeinden": [
     "d"
    ],
    "id": "d-7818844",
@@ -21465,6 +21857,25 @@
     "label": "Familien, alle Alter"
    },
    "url": "https://www.stallikon.ch/dorfleben/veranstaltungen.html/406/event/8811/eventdate/8270",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/familien-gottesdienst/246/2026/12/24"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4250-10070",
+   "name": "Familien-Gottesdienst",
+   "von": "2026-12-24",
+   "bis": "2026-12-24",
+   "ort": "",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "16.00",
+   "age": {
+    "min": 0,
+    "max": 12,
+    "label": "Familien, alle Alter"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4250/eventdate/10070",
    "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/default/familien-gottesdienst/246/2026/12/24"
   },
   {
@@ -22659,7 +23070,8 @@
   },
   {
    "gemeinden": [
-    "stallikon"
+    "stallikon",
+    "wettswilamalbis"
    ],
    "id": "stallikon-8814-8264",
    "name": "Kolibri",
@@ -23081,7 +23493,8 @@
   },
   {
    "gemeinden": [
-    "stallikon"
+    "stallikon",
+    "wettswilamalbis"
    ],
    "id": "stallikon-8815-8263",
    "name": "Vortrag - Eliane Perret",
@@ -23979,6 +24392,24 @@
   },
   {
    "gemeinden": [
+    "ottenbach"
+   ],
+   "id": "ottenbach-kamishibai-koffertheater-5-2027-01-13",
+   "name": "Kamishibai-Koffertheater",
+   "von": "2027-01-13",
+   "bis": "2027-01-13",
+   "ort": "Bibliothek",
+   "veranstalter": "",
+   "time": "14.30 - 14.50",
+   "age": {
+    "min": 4,
+    "max": 12,
+    "label": "ab 4 Jahren"
+   },
+   "url": "https://www.ottenbach.ch/event/kamishibai-koffertheater-5-2027-01-13"
+  },
+  {
+   "gemeinden": [
     "ruemlang"
    ],
    "id": "ruemlang-5478352",
@@ -24298,6 +24729,25 @@
    "age": null,
    "url": "https://www.ilef.ch/_rte/anlass/7740454",
    "w": "https://www.schule-ilef.ch/ferienplan"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4176-9884",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-15",
+   "bis": "2027-01-15",
+   "ort": "Kirchgemeindesaal Wettswil",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "9.00 - 9.45",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4176/eventdate/9884",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/296/2026/10/30"
   },
   {
    "gemeinden": [
@@ -24915,6 +25365,21 @@
    "age": null,
    "url": "https://www.opfikon.ch/_rte/anlass/7739401",
    "w": "https://lets-meet.org/reg/a6681a010c14d53e95"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-3924-10112",
+   "name": "Buchstart-Treff",
+   "von": "2027-01-20",
+   "bis": "2027-01-20",
+   "ort": "Dettenbühlstrasse 1",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "10.00 - 10.30",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3924/eventdate/10112",
+   "w": "http://www.buchstart.ch"
   },
   {
    "gemeinden": [
@@ -26066,6 +26531,25 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-3926-10107",
+   "name": "Geschichtenzeit",
+   "von": "2027-01-27",
+   "bis": "2027-01-27",
+   "ort": "Dettenbühlstrasse 1",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "14.30 - 15.00",
+   "age": {
+    "min": 3,
+    "max": 12,
+    "label": "ab 3 Jahren"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/3926/eventdate/10107",
+   "w": "http://www.buchstart.ch"
+  },
+  {
+   "gemeinden": [
     "neftenbach"
    ],
    "id": "neftenbach-7556281",
@@ -26329,6 +26813,25 @@
    "time": "20.00 - 23.00",
    "age": null,
    "url": "https://www.kinderthur.ch/events/eisdisco-10/"
+  },
+  {
+   "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4255-10065",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-01-29",
+   "bis": "2027-01-29",
+   "ort": "Kirchgemeindesaal Wettswil",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "9.00 - 9.45",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4255/eventdate/10065",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/301/2027/1/29"
   },
   {
    "gemeinden": [
@@ -28323,6 +28826,25 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4256-10064",
+   "name": "Eltern-Kind-Singen",
+   "von": "2027-02-12",
+   "bis": "2027-02-12",
+   "ort": "Kirchgemeindesaal Wettswil",
+   "veranstalter": "Reformierte Kirche Stallikon Wettswil",
+   "time": "9.00 - 9.45",
+   "age": {
+    "min": 0,
+    "max": 4,
+    "label": "Kleinkinder mit Eltern"
+   },
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4256/eventdate/10064",
+   "w": "https://kirche-stallikon-wettswil.ch/auf-einen-blick/agenda/jugend-anlaesse/elki-singen/302/2027/2/12"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7756411",
@@ -28837,6 +29359,20 @@
   },
   {
    "gemeinden": [
+    "wettswilamalbis"
+   ],
+   "id": "wettswilamalbis-4107-10152",
+   "name": "Kinder-Flohmarkt",
+   "von": "2027-02-17",
+   "bis": "2027-02-17",
+   "ort": "Mehrzwecksaal Ägerten",
+   "veranstalter": "Bibliothek Wettswil",
+   "time": "15.00 - 17.00",
+   "age": null,
+   "url": "https://www.wettswil.ch/leben/freizeit/veranstaltungen.html/429/event/4107/eventdate/10152"
+  },
+  {
+   "gemeinden": [
     "opfikon"
    ],
    "id": "opfikon-7764793",
@@ -29280,6 +29816,20 @@
    "age": null,
    "url": "https://www.bassersdorf.ch/leben-standort/lebenslagen/veranstaltungen.html/108/event/6681/eventdate/9824",
    "w": "https://kzu.swiss/alle-veranstaltungen.html"
+  },
+  {
+   "gemeinden": [
+    "seuzach"
+   ],
+   "id": "seuzach-7838491",
+   "name": "Kinder-Spielnachmittag",
+   "von": "2027-02-23",
+   "bis": "2027-02-23",
+   "ort": "Bibliothek Seuzach",
+   "veranstalter": "Bibliothek Seuzach",
+   "time": "14.00 - 16.30",
+   "age": null,
+   "url": "https://www.seuzach.ch/_rte/anlass/7838491"
   },
   {
    "gemeinden": [
@@ -31232,6 +31782,20 @@
   },
   {
    "gemeinden": [
+    "seuzach"
+   ],
+   "id": "seuzach-7838485",
+   "name": "Biblioweekend - Basteln für Kinder",
+   "von": "2027-03-13",
+   "bis": "2027-03-13",
+   "ort": "Bibliothek Seuzach",
+   "veranstalter": "Bibliothek Seuzach",
+   "time": "13.30 - 16.00",
+   "age": null,
+   "url": "https://www.seuzach.ch/_rte/anlass/7838485"
+  },
+  {
+   "gemeinden": [
     "winterthur"
    ],
    "id": "winterthur-kt32933-0",
@@ -32351,6 +32915,21 @@
    "age": null,
    "url": "https://www.duernten.ch/_rte/anlass/7660744",
    "w": "https://www.familienvereinduernten.ch/kleiderboerse/"
+  },
+  {
+   "gemeinden": [
+    "hausenamalbis"
+   ],
+   "id": "hausenamalbis-7713688",
+   "name": "Kinderkleiderbörse",
+   "von": "2027-03-20",
+   "bis": "2027-03-20",
+   "ort": "Gemeindesaal Weid",
+   "veranstalter": "Frauenverein Hausen - Ebertswil",
+   "time": "13.00 - 15.00",
+   "age": null,
+   "url": "https://www.hausen.ch/_rte/anlass/7713688",
+   "w": "https://fvhausen.ch/"
   },
   {
    "gemeinden": [
@@ -36570,6 +37149,20 @@
    },
    "url": "https://www.fehraltorf.ch/_rte/anlass/7817005",
    "w": "https://zh.ch/kjz.pfaeffikon"
+  },
+  {
+   "gemeinden": [
+    "seuzach"
+   ],
+   "id": "seuzach-7838479",
+   "name": "Schweizer Vorlesetag - Bilderbuchkino",
+   "von": "2027-05-19",
+   "bis": "2027-05-19",
+   "ort": "Bibliothek Seuzach",
+   "veranstalter": "Bibliothek Seuzach",
+   "time": "17.00 - 18.00",
+   "age": null,
+   "url": "https://www.seuzach.ch/_rte/anlass/7838479"
   },
   {
    "gemeinden": [
