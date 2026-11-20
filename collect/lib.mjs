@@ -630,17 +630,20 @@ export const SYSTEMS = {
         else { const r = parseDateRange(t.replace(/Bis am\s+/i, "")); if (!r) continue; ({ von, bis } = r); if (/^\s*bis\s/i.test(t)) von = today; }
         if (bis < today) continue;
         // Ort → Gemeinde: Zürcher Häuser, sonst ein Gemeindename im Text
-        let g = ZH.test(txt) ? "zuerich" : "";
-        if (!g) for (const w of txt.split(/[\s,|()]+/)) { const c = gemeindeByName(w); if (c && w.length > 3) { g = c; break; } }
-        if (!g || (/Zug\b|Schwyz|Liechtenstein|Luzern|Aargau|St\. ?Gallen|Thurgau/.test(txt) && !ZH.test(txt))) continue;
-        // Titel: Teil nach Ort, Datum und Alter
-        const segs = parts.length > 1 ? parts : txt.split(/\s*\|\s*/);
-        let title = segs.find(x => !/^\d|^ab \d|^bis|^diverse|\|/.test(x) && x.length > 3 && !ZH.test(x) && x.length < 90) || segs[segs.length - 1];
+        const segs = (parts.length > 1 ? parts : [txt]).flatMap(x => x.split(/\s*\|\s*/)).map(x => x.trim()).filter(Boolean);
+        const ortSeg = segs.find(x => !/\d/.test(x) && x.length < 50) || "";
+        const inOrt = (txt.match(/\b(?:in|im|auf dem|am)\s+([A-ZÄÖÜ][\wäöü-]+(?:\s(?:am|an der|bei)\s[A-ZÄÖÜ][\wäöü]+)?)/g) || []).map(x => x.replace(/^\S+(\s(dem|der))?\s+/, ""));
+        let g = gemeindeByName(ortSeg) || (ZH.test(ortSeg) ? "zuerich" : "");
+        if (!g) for (const w of inOrt) { const c = gemeindeByName(w); if (c && !/^(Dorf|Wald|Wil|Hausen|Berg|Stammheim)$/.test(w)) { g = c; break; } }
+        if (!g && ZH.test(txt) && !/Zug\b|Schwyz|Liechtenstein|Luzern|Aargau|St\. ?Gallen|Thurgau|Jona|Rapperswil/.test(txt)) g = "zuerich";
+        if (!g) continue;
+        // Titel: erster Teil ohne Datum, der nicht der Ort ist
+        let title = segs.find(x => !/\d/.test(x) && x !== ortSeg && x.length > 3 && x.length < 90 && !/^(diverse|alle)\b/i.test(x)) || segs.find(x => !/^\d|^ab \d|^bis/.test(x) && x !== ortSeg) || ortSeg;
         title = title.replace(/^(ab \d+ Jahren?|alle)\s+/i, "").split(/(?<=[a-zäöü])\s+(?=[A-ZÄÖÜ][a-zäöü]+ [a-zäöü]+ [a-zäöü]+ )/)[0].slice(0, 90);
         const age = (txt.match(/ab (\d{1,2}) Jahren?/) || [])[0] || "";
         const id = href.replace(/^https?:\/\//, "").replace(/[?#].*$/, "").slice(0, 70) + von;
         if (seen.has(id)) continue; seen.add(id);
-        items.push({ id, g, name: title, von, bis, long: true, tip: true, ort: (txt.split("|")[0] || "").trim().slice(0, 60), veranstalter: "", kategorie: "14", hint: age + " " + txt.slice(0, 300), url: href, detailKey: null, time: "" });
+        items.push({ id, g, name: title, von, bis, long: true, tip: true, ort: ortSeg.slice(0, 60), veranstalter: "", kategorie: "14", hint: age + " " + txt.slice(0, 300), url: href, detailKey: null, time: "" });
       }
     }
     return items;
