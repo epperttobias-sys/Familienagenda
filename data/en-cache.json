@@ -75,6 +75,10 @@
 "e": "AdventMagic",
 "p": "AdventsZauber"
 },
+"Adventsbasteln - AUSGEBUCHT!": {
+"e": "Advent Bastels - Booked out!",
+"p": "Adventsbasteln - Ausgebucht!"
+},
 "Adventsbasteln für Kinder bei Gelateria Crema": {
 "e": "Advent making for children at Gelateria Crema",
 "p": "Adventsbasteln für Kinder bei Gelateria Crema"
@@ -95,6 +99,10 @@
 "e": "Advent window opening",
 "p": "Adventsfenster Eröffnung"
 },
+"Adventsfenster Wettswil: Dä Samichlaus chunnt!": {
+"e": "Advent window Wettswil: Dä Sankt Nikolaus chunnt!",
+"p": "Adventsfenster Wettswil: Dä Sankt Nikolaus chunnt!"
+},
 "Adventsfenster in Rikon": {
 "e": "Advent window in Rikon",
 "p": "Adventsfenster in Rikon"
@@ -102,6 +110,10 @@
 "Adventsfenster in der Gemeinde Seegräben": {
 "e": "Advent window in the municipality of Seegräben",
 "p": "Adventsfenster in der Gemeinde Seegräben"
+},
+"Adventsfenster mit Besuch vom Samichlaus": {
+"e": "Advent window with visit of Saint Nicholas",
+"p": "Adventsfenster mit Besuch vom Sankt Nikolaus"
 },
 "Adventsfenstereröffnung": {
 "e": "Advent window opening",
@@ -279,6 +291,10 @@
 "e": "BGF settlement Affoltern",
 "p": "BGF-Siedlung Affoltern"
 },
+"BUCHSTART-TREFF: \"Die Welt der Sprache entdecken\"": {
+"e": "Bookstart Treff: \"Discovering the world of language\"",
+"p": "Buchstart-Treff: \"Die Welt der Sprache entdecken\""
+},
 "Baby Massage Kurs Illnau": {
 "e": "Baby Massage Course Illnau",
 "p": "Baby Massage Kurs Illnau"
@@ -442,6 +458,10 @@
 "Biblikino": {
 "e": "Biblikino",
 "p": "Biblikino"
+},
+"Biblioweekend - Basteln für Kinder": {
+"e": "Biblioweekend - Crafts for children",
+"p": "Biblioweekend - Basteln für Kinder"
 },
 "Bienenwachs Kerzenziehen im Treffpunkt Untermosen in der Freizeitanlage": {
 "e": "Beeswax candle pulling in the meeting place Untermosen in the leisure area",
@@ -779,6 +799,10 @@
 "e": "Chlausus train Uster 2026",
 "p": "Chlausumzug Uster 2026"
 },
+"Chlausumzug in den Huserholz Wald": {
+"e": "Chlausumzug in the Huserholz forest",
+"p": "Chlausumzug in den Huserholz Wald"
+},
 "Chliichind-Fiir": {
 "e": "Toddler's celebration",
 "p": "Kleinkind-Feier"
@@ -798,6 +822,10 @@
 "Chrabelgruppe - offene Turnhalle für die Kleinsten": {
 "e": "Chrabelgruppe - open gym for the little ones",
 "p": "Chrabelgruppe - offene Turnhalle für die Kleinsten"
+},
+"Christbaumschmuck 1. Runde": {
+"e": "Christmas Tree Decoration 1st Round",
+"p": "Christbaumschmuck 1. Runde"
 },
 "Christbaumschredderete": {
 "e": "Christmas tree shredders",
@@ -950,6 +978,10 @@
 "Die Einsamen im Meer": {
 "e": "The Lonely in the Sea",
 "p": "Die Einsamen im Meer"
+},
+"Die Gemeinde Wettswil lädt ein..": {
+"e": "The community of Wettswil invites..",
+"p": "Die Gemeinde Wettswil lädt ein.."
 },
 "Die Kristallkugel - Ein zauberhaftes Erzähltheater": {
 "e": "The Crystal Ball - A Magical Narrative Theatre",
@@ -1134,6 +1166,10 @@
 "Eltern-Kind-Töpfern ab März": {
 "e": "Parent-child potters from March",
 "p": "Eltern-Kind-Töpfern ab März"
+},
+"Eltern-Kind-Yoga im Advent": {
+"e": "Parent-child yoga in Advent",
+"p": "Eltern-Kind-Yoga im Advent"
 },
 "Elternkind Circus-Event \"Elki\" Cicus": {
 "e": "Parent Child Circus Event \"Elki\" Cicus",
@@ -2191,6 +2227,10 @@
 "e": "Kamishibai in Advent",
 "p": "Kamishibai im Advent"
 },
+"Kamishibai-Koffertheater": {
+"e": "Kamishibai case theatre",
+"p": "Kamishibai-Koffertheater"
+},
 "Kanu und Kajak – geniale Erfindungen": {
 "e": "Canoe and kayak – ingenious inventions",
 "p": "Kanu und Kajak – geniale Erfindungen"
@@ -2391,6 +2431,10 @@
 "e": "Children's Advent",
 "p": "Kinder-Adventsanlass"
 },
+"Kinder-Flohmarkt": {
+"e": "Children's flea market",
+"p": "Kinder-Flohmarkt"
+},
 "Kinder-Kino": {
 "e": "Children's cinema",
 "p": "Kinder-Kino"
@@ -2402,6 +2446,10 @@
 "Kinder-Mittagstisch": {
 "e": "Children's lunch table",
 "p": "Kinder-Mittagstisch"
+},
+"Kinder-Spielnachmittag": {
+"e": "Children's Game Afternoon",
+"p": "Kinder-Spielnachmittag"
 },
 "Kinder-Yoga Bibliothek": {
 "e": "Children's Yoga Library",
@@ -2842,6 +2890,10 @@
 "Lebkuchen verzieren am Weihnachtsmarkt Winterthur": {
 "e": "Gingerbread decorate at Christmas market Winterthur",
 "p": "Lebkuchen verzieren am Weihnachtsmarkt Winterthur"
+},
+"Lebkuchenhaus selber machen! - AUSGEBUCHT!": {
+"e": "- Make your own gingerbread house!",
+"p": "Lebkuchenhaus selber machen! - Ausgebucht!"
 },
 "LeseZeit Kids: Mitmach-Lesung mit Andrea Külling": {
 "e": "LeseZeit Kids: Joining Reading with Andrea Külling",
@@ -3591,6 +3643,10 @@
 "e": "Saint Nicholas in the forest",
 "p": "Sankt Nikolaus im Wald"
 },
+"Samichlaus in Ottenbach": {
+"e": "Saint Nicholas in Ottenbach",
+"p": "Sankt Nikolaus in Ottenbach"
+},
 "Samichlaus kommt nach Neerach (mit Anmeldung)": {
 "e": "Saint Nicholas comes to Neerach (with registration)",
 "p": "Sankt Nikolaus kommt nach Neerach (mit Anmeldung)"
@@ -3706,6 +3762,10 @@
 "Schulstart - Achtung Kinder!": {
 "e": "School start - Attention children!",
 "p": "Schulstart - Achtung Kinder!"
+},
+"Schweizer Vorlesetag - Bilderbuchkino": {
+"e": "Swiss Reading Day - Picture Book Cinema",
+"p": "Schweizer Vorlesetag - Bilderbuchkino"
 },
 "SciStay - Forschen, Entdecken & Staunen für Kinder und Teens.": {
 "e": "SciStay - Research, discovery & wonder for kids and teens.",
@@ -4363,6 +4423,10 @@
 "e": "Christmas workshop",
 "p": "Weihnachtswerkstatt"
 },
+"Weihnachtszauber - Adventsgeschichte & Basteln": {
+"e": "Christmas Magic - Advent Story & Crafting",
+"p": "Weihnachtszauber - Adventsgeschichte & Basteln"
+},
 "Weihnachtszauber mit Kinderstimmen": {
 "e": "Christmas magic with children's voices",
 "p": "Weihnachtszauber mit Kinderstimmen"
@@ -4446,6 +4510,10 @@
 "Winti-Sola": {
 "e": "Winti-Sola",
 "p": "Winti-Sola"
+},
+"Wir kreieren zusammen einen Weihnachtszug": {
+"e": "We create together a Christmas train",
+"p": "Wir kreieren zusammen einen Weihnachtszug"
 },
 "Wir sorgen für Ihre ganz persönliche, massgeschneiderte Auszeit vom privaten und dem Berufsalltag. Gönnen Sie sich und Ihren Angehörigen ein Coaching mit Tieren (Lamas und Minipigs), ein Lama-Trekking": {
 "e": "We take care of your personal, tailor-made time off from private and professional life. Treat yourself and your family members to coaching with animals (lamas and minipigs), a Lama trekking",
