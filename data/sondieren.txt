@@ -1,6 +1,6 @@
-https://zuercher-museen.ch/api/experiences?limit=5
-https://zuercher-museen.ch/api/experiences?suitableForKids=true&limit=3
-https://www.forum-magazin.ch/agenda/?page=2
-https://www.forum-magazin.ch/agenda/?kategorie=kinder-und-familien
-https://www.forum-magazin.ch/embrach/agenda/
-https://www.forum-magazin.ch/agenda/?ics=yes
+https://eventfrog.ch/robots.txt
+https://eventfrog.ch/de/events/zuerich/kinderveranstaltungen.html
+https://eventfrog.ch/de/events/kanton-zuerich/kinderveranstaltungen.html
+https://www.zoo.ch/de/veranstaltungen
+https://www.tonhalle-orchester.ch/konzerte/familie/
+https://www.opernhaus.ch/spielplan/kinder-und-familie/
