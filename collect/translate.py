@@ -48,7 +48,7 @@ CH = [
 POST = [
     (r"\bLudothek\b", "toy library"), (r"\bludothek\b", "toy library"), (r"\bSt\. Nicholas\b", "St Nicholas"), (r"\bSanta Claus\b", "St Nicholas"),
     (r"\bFather Christmas\b", "St Nicholas"), (r"\b(Saint|Sankt|St\.?) (Nikolaus|Nicholas|Nicolas)\b", "St Nicholas"), (r"\bNikolaus\b", "St Nicholas"),
-    (r"(?<!St )\bNicholas\b", "St Nicholas"), (r"\bKirmes\b", "funfair"), (r"\bJahrmarkt\b", "fair"), (r"\b[Cc]andle-drawing\b", "candle dipping"), (r"\b[Cc]andle drawing\b", "candle dipping"),
+    (r"(?<!St )\bNicholas\b", "St Nicholas"), (r"\bKirmes\b", "funfair"), (r"\bJahrmarkt\b", "fair"), (r"\b[Cc]andle-drawing\b", "candle dipping"), (r"\b[Cc]andle drawing\b", "candle dipping"), (r"\b[Cc]andle[- ]pulling\b", "candle dipping"), (r"\b[Cc]andle pull\b", "candle dipping"), (r"\b[Dd]rawing candles\b", "candle dipping"), (r"\b[Pp]ulling candles\b", "candle dipping"),
     (r"\bthe municipality of\b", "the town of"), (r"\bmunicipality\b", "town"), (r"\bturnip lantern(s)? parade\b", "turnip lantern parade"), (r"\bFasnacht\b", "carnival"),
 ]
 
