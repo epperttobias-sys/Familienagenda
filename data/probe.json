@@ -1,57 +1,41 @@
 [
  {
-  "l": "RAW bergamirchel",
-  "u": "https://www.bergamirchel.ch/freizeit-und-kultur/kalender/",
+  "l": "RAW berg",
+  "u": "https://www.bergamirchel.ch/agenda/",
   "s": 200,
   "f": "https://www.bergamirchel.ch/agenda/",
   "title": "Agenda - Gemeinde Berg am Irchel"
  },
  {
-  "l": "RAW boppelsen",
-  "u": "https://www.boppelsen.ch/",
+  "l": "RAW boptypes",
+  "u": "https://www.boppelsen.ch/wp-json/wp/v2/types",
   "s": 200,
-  "f": "https://www.boppelsen.ch/",
-  "title": "Boppelsen - Gemeinde"
+  "f": "https://www.boppelsen.ch/wp-json/wp/v2/types"
  },
  {
-  "l": "RAW eglisau",
-  "u": "https://www.eglisau.ch/de/aktuelles-dossiers/termine/",
+  "l": "RAW fischtypes",
+  "u": "https://www.fischenthal.ch/wp-json/wp/v2/types",
   "s": 200,
-  "f": "https://www.eglisau.ch/de/aktuelles-dossiers/termine/",
-  "title": "Termine: Gemeinde Eglisau"
+  "f": "https://www.fischenthal.ch/wp-json/wp/v2/types"
  },
  {
-  "l": "RAW fischenthal",
-  "u": "https://www.fischenthal.ch/leben-familie-anlaesse/",
+  "l": "RAW gossautypes",
+  "u": "https://www.gossau-zh.ch/wp-json/wp/v2/types",
   "s": 200,
-  "f": "https://www.fischenthal.ch/leben-familie-anlaesse/",
-  "title": "Leben, Familie, Anlässe - Gemeinde Fischenthal"
+  "f": "https://www.gossau-zh.ch/wp-json/wp/v2/types",
+  "title": "Gemeinde Gossau ZH -"
  },
  {
-  "l": "RAW gossau",
-  "u": "https://www.gossau-zh.ch/kalender/",
+  "l": "RAW hueintypes",
+  "u": "https://www.huentwangen.ch/wp-json/wp/v2/types",
   "s": 200,
-  "f": "https://www.gossau-zh.ch/kalender/",
-  "title": "Kalender - Gemeinde Gossau ZH"
+  "f": "https://www.huentwangen.ch/wp-json/wp/v2/types"
  },
  {
-  "l": "RAW huentwangen",
-  "u": "https://www.huentwangen.ch/wp-json/tribe/events/v1/events?per_page=5",
-  "s": 404,
-  "f": "https://www.huentwangen.ch/wp-json/tribe/events/v1/events?per_page=5"
- },
- {
-  "l": "RAW huentwangenpage",
-  "u": "https://www.huentwangen.ch/aktuelles/veranstaltungen/",
+  "l": "RAW kilchfam",
+  "u": "https://www.kilchberg.ch/veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=95",
   "s": 200,
-  "f": "https://www.huentwangen.ch/aktuelles/veranstaltungen/",
-  "title": "Agenda &#8211; Gemeinde Hüntwangen"
- },
- {
-  "l": "RAW kilchberg",
-  "u": "https://www.kilchberg.ch/veranstaltungen",
-  "s": 200,
-  "f": "https://www.kilchberg.ch/veranstaltungen",
+  "f": "https://www.kilchberg.ch/veranstaltungen?tx_calendarize_calendar%5BcustomSearch%5D%5Bcategories%5D%5B0%5D=95",
   "title": "Veranstaltungen | Gemeinde Kilchberg"
  },
  {
@@ -62,18 +46,6 @@
   "title": "Veranstaltungskalender | oberrieden.ch"
  },
  {
-  "l": "RAW oetwil",
-  "u": "https://www.oetwil-limmat.ch/",
-  "s": -1,
-  "e": "ERR_TLS_CERT_ALTNAME_INVALID"
- },
- {
-  "l": "RAW oetwil2",
-  "u": "https://oetwil-limmat.ch/",
-  "s": -1,
-  "e": "ERR_TLS_CERT_ALTNAME_INVALID"
- },
- {
   "l": "RAW ossingen",
   "u": "https://www.ossingen.ch/gemeinde/agenda",
   "s": 200,
@@ -81,31 +53,36 @@
   "title": "Agenda"
  },
  {
-  "l": "RAW ottenbach",
-  "u": "https://www.ottenbach.ch/events",
+  "l": "RAW ottical",
+  "u": "https://www.ottenbach.ch/events/ical",
   "s": 200,
-  "f": "https://www.ottenbach.ch/events",
-  "title": "Veranstaltungen"
+  "f": "https://www.ottenbach.ch/events/ical"
  },
  {
-  "l": "RAW rorbas",
-  "u": "https://www.rorbas.ch/agenda-2",
+  "l": "RAW ottjson",
+  "u": "https://www.ottenbach.ch/events/json",
   "s": 200,
-  "f": "https://www.rorbas.ch/agenda-2",
-  "title": "Agenda - Gemeinde Rorbas"
+  "f": "https://www.ottenbach.ch/events/json"
  },
  {
-  "l": "RAW staefa",
-  "u": "https://www.staefa.ch/aktuelles/veranstaltungen.html",
+  "l": "RAW staefa1",
+  "u": "https://www.staefa.ch/aktuelles/anlaesse.html",
   "s": 404,
-  "f": "https://www.staefa.ch/aktuelles/veranstaltungen.html",
+  "f": "https://www.staefa.ch/aktuelles/anlaesse.html",
   "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
  },
  {
-  "l": "RAW thalheim",
-  "u": "https://www.thalheim.ch/index.php/aktuell/veranstaltungen",
-  "s": 200,
-  "f": "https://www.thalheim.ch/index.php/aktuell/veranstaltungen",
-  "title": "Veranstaltungen"
+  "l": "RAW staefa2",
+  "u": "https://www.staefa.ch/leben/freizeit/veranstaltungen.html",
+  "s": 404,
+  "f": "https://www.staefa.ch/leben/freizeit/veranstaltungen.html",
+  "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
+ },
+ {
+  "l": "RAW staefa3",
+  "u": "https://www.staefa.ch/veranstaltungen",
+  "s": 404,
+  "f": "https://www.staefa.ch/veranstaltungen",
+  "title": "Schade! Seite nicht gefunden. – Gemeinde Stäfa"
  }
 ]

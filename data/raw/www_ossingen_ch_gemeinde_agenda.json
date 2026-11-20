@@ -1,5 +1,6 @@
 {
  "f": "https://www.ossingen.ch/gemeinde/agenda",
+ "ct": "text/html; charset=utf-8",
  "sys": [
   "eventitem",
   "typo3"
@@ -40,5 +41,7 @@
   "Häcksel-Service | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=360&amp;cHash=fbbe561dc4936b3961c0808054dcafcf",
   "Jahrmarkt | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=362&amp;cHash=db742d938dd9a2b8ac6c94ad09e67f7b",
   "Altpapiersammlung | /gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=215&amp;cHash=a775bb5274f9a33360b2ef99da2e4eb6"
- ]
+ ],
+ "head": "",
+ "ev": "<div class=\"tx-sf-event-mgt\">\n\t\n    <div class=\"eventList\">\n      <div class=\"container eventlistContainer\">\n        <h2>Agenda</h2>\n\n        <!-- The code below shows how you can filter events by categories. You can e.g. create an UL which acts like a select-box -->\n        \n        <a class=\"morelink\" href=\"/gemeinde/agenda\">Alle Events anzeigen</a>\n        \n\n        <!-- Output all events -->\n        <div class=\"row\">\n          \n            <div class=\"event-list-item col-sm-4\">\n    \n            <a href=\"/gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieventdetail%5Bevent%5D=361&amp;cHash=db459bbefe0fb3725e5abbc7d3eef14a\">\n                <div class=\"event-list-row\">\n                    <div class=\"eventdate\">\n                        \n                        \n                                <div class=\"bigdayname\">Samstag</div>\n                                <div class=\"bigday\">21.</div>\n                                <div class=\"smallmonth\"><span class=\"month\">Nov</span> 2026</div>\n                            \n                       \n                    </div>\n                    <h3 class=\"event-title\">\n                        Altpapiersammlung <!--\n                        \n                                <a href=\"/gemeinde/agenda/default-title?tx_sfeventmgt_pieventdetail%5Baction%5D=detail&amp;tx_sfeventmgt_pieventdetail%5Bcontroller%5D=Event&amp;tx_sfeventmgt_pieven"
 }

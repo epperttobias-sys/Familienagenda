@@ -1,5 +1,6 @@
 {
  "f": "https://www.oberrieden.ch/events",
+ "ct": "text/html; charset=UTF-8",
  "sys": [],
  "links": [
   "Leben | /dienstleistungen-nach-themenbereich/783?menulevel=1",
@@ -62,5 +63,7 @@
   "Details | /events/7073",
   "Junges Theater Oberrieden: Der Grosse Gatsby | /events/7215",
   "Details | /events/7215"
- ]
+ ],
+ "head": "",
+ "ev": "<div class=\"view view-events view-id-events view-display-id-events_listing js-view-dom-id-be369e506ac7439cf3c02363347ca157e87151c30208095caef786b3b82a1544\">\n  \n    \n      <div class=\"view-header\">\n      <p>Sie können sich unter <a href=\"/aktuelles/abo-dienste\">Abo-Dienste</a> registrieren um in Zukunft per Mail Informationen zu Veranstaltungen oder Informationen aus Oberrieden nach Wahl zu erhalten. Über Veranstaltungen in der Region informiert Sie der <a href=\"https://www.zurichparkside.ch/kultur\" target=\"_blank\">Kultur-Kalender</a> von Zürich Park Side, der auch als App verfügbar ist.</p><p>&nbsp;</p><a href=\"/form/veranstaltung-melden\" class=\"view-header-link\"><i class=\"fa-solid fa-calendar-plus\"></i>Veranstaltung melden</a>\r\n<a href=\"/events/archiv\" class=\"view-header-link\"><i class=\"fa fa-archive\" aria-hidden=\"true\"></i>Archiv</a>\n    </div>\n        <div class=\"view-filters\">\n      <form class=\"views-exposed-form\" data-drupal-selector=\"views-exposed-form-events-events-listing\" action=\"/events\" method=\"get\" id=\"views-exposed-form-events-events-listing\" accept-charset=\"UTF-8\">\n  <div class=\"form--inline clearfix\">\n  <div class=\"js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-title form-item-title\">\n      <label for=\"edit-title\">Titel</label>\n        <input data-drupal-selector=\"edit-title\" type=\"text\" id=\"edit-title\" name=\"title\" value=\"\" size=\"30\" maxlength=\"128\" class=\"form-text\" />\n\n        </div>\n<div class=\"js-form-item form-item js-form"
 }
