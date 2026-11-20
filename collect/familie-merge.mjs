@@ -6,8 +6,12 @@ const GEN = /\b(kita|kitas|kinderkrippe|krippe|kinderhort|hort|kindertagesstätt
 const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9 ]/g, " ");
 const sig = (n, gname) => new Set(norm(n).replace(GEN, " ").split(/\s+/).filter(w => w.length > 2 && !norm(gname).split(/\s+/).includes(w)));
 const host = u => { try { const x = new URL(u); return (x.hostname.replace(/^www\./, "") + x.pathname.replace(/\/$/, "")).toLowerCase(); } catch { return ""; } };
-const DOC = /reglement|verordnung|ordnung\b|benutzungs|benützungs|gebühr|beitrag|vergünstigung|aufsicht|meldepflicht|notsituation|konto|katalog|onleihe|richtlinie|merkblatt|formular|antrag|tarif|^über die|^offizielle|^weitere|^website|^link$|kindergarten und schulen|^andere\b|\.pdf|\d{3}\.\d|^bibliotheken$|^f$/i;
-const clean = n => n.replace(/\s*Externer Link wird in einem neuen Fenster geöffnet\.?/gi, "").replace(/\s*\((?:ausgewählt|pdf|extern)[^)]*\)/gi, "").replace(/\s+/g, " ").trim();
+const DOC = /reglement|verordnung|ordnung\b|benutzungs|benützungs|gebühr|beitrag|vergünstigung|aufsicht|meldepflicht|notsituation|konto|katalog|onleihe|richtlinie|merkblatt|formular|antrag|tarif|^über die|^offizielle|^weitere|^website|^link$|kindergarten und schulen|^andere\b|\.pdf|\d{3}\.\d|^bibliotheken$|^f$|^zur\b|^zum\b|^hier$|vereinsliste|katalog|katalaog|digital|\(aktiv\)|vertrag|flyer|^schulen\b|im überblick|^unsere\b|kinderbetreuung im|^online|newsletter|anmeldung|^mehr\b|^weiter|^details|^infos?\b|^informationen|^kontakt|^angebot|^übersicht|^download|^jetzt\b|^startseite|^home$|leitbild|konzept|jahresbericht|^\W*$|mediopass|dieser|^private\b|erlass|verband|leistungsvereinbarung|präsentation|rechner|allgemein|^\d{6,}|^(spielgruppen|kitas|krippen|horte|tagesfamilien|kinderkrippen)\b|angebote\b|^betreuung\b|^(kinderkrippe|kita|hort|spielgruppe|gemeindebibliothek|bibliothek|jugendtreff|elternforum|tagesfamilienverein|kinderkrippenverein)$|subvention|gemeindeversammlung|^verein\b|kindertagesstätten$|liste\b|standorte|information|sheet|veranstaltungen|bestätigung|interessengruppe|schweiz\b|werden$|kinderbetreuung in|^kita und hort$|makerspace|buchstart|null|@|\.xn\b|\bfee\b|subsid|^tagesstruktur(en)?\s+hort$|^im \w+$|^abteilung\b|^regionalbibliothek$|^gemeinde- und schulbibliothek$|menüpl|unterstützung|^kimikrippen$|krippen ag$|primarschule$|^kurs\b|volksschule|\/|und spielgruppen|frühe förderung|^eine?n? |familienergänzende|finden$|leporello|_|^spielplatz|^projekt|^tagesbetreuung$|^kindertagesstätte$|beiträge|^kita kimi$|^kindertagesstätte kimi$|^\(|^kindergarten & |& tagesfamilie|^schulergänzende|^güxi kinderkrippen$|^tagesbetreuung und|öffnungszeiten|anlässe|datenschutz|^über uns|^wann\b|^die bibliothek|team$|blinde|e-medien|jugendzimmer|^hier\b|senior|^kanton\b|ein ort für|leihothek/i;
+const pretty = h => h.replace(/^https?:\/\//, "").replace(/^www\./, "").split("/")[0].replace(/\.(ch|com|org|net|swiss|info|li)$/, "").replace(/[-_.]+/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+const clean = n => { n = n.replace(/\s*Externer Link wird in einem neuen Fenster geöffnet\.?/gi, "").replace(/\s*\((?:ausgewählt|pdf|extern|wird in einem neuen [^)]*|[a-z0-9-]+\.(?:ch|com|org)[^)]*)\)/gi, "").replace(/\s*[-–]\s*[a-z0-9-]+\.(?:ch|com|org)\b.*$/i, "").replace(/\s+/g, " ").trim();
+  n = n.replace(/^[^,]{3,40}, Leiterin\s+/i, "").replace(/^Kita in [^,]+, Zürich\s+/i, "").replace(/^"(.*)"$/, "$1");
+  n = n.replace(/\s+[A-ZÄÖÜ][\wäöü-]*(strasse|weg|gasse|platz|rain)\s+\d+\w?\b.*$/, "").replace(/\s+\(Hort\)$/, " (Hort)").trim();
+  return /^[\w.-]+\.(ch|com|org|net|swiss)(\/\S*)?$/i.test(n) ? pretty(n) : n; };
 
 export function mergeGemeindeSeiten(out, names) {
   // Quellen: Websites der Gemeinden und Standortlisten der Kita-Ketten
@@ -18,7 +22,11 @@ export function mergeGemeindeSeiten(out, names) {
     const gname = names[c] || "", list = (out[c] = out[c] || []);
     for (const it0 of o.items || []) {
       const it = { ...it0, k: it0.k === "treff" ? "zentrum" : it0.k };
-      const n = clean(it.n); if (n.length < 4 || DOC.test(n)) continue;
+      let n = clean(it.n);
+      if (/glücklich aufwachsen/i.test(n)) n = "pop e poppa " + ((it.a || "").split(",")[1] || gname).trim();
+      if (n.length < 4 || DOC.test(n)) continue;
+      // Bibliotheken kommen meist schon aus OpenStreetMap: nur ergänzen, wo noch keine bekannt ist
+      if (it.k === "bib" && (list.some(y => y.k === "bib") || !/bibliothek/i.test(n))) continue;
       const h = it.w ? host(it.w) : "", s = sig(n, gname);
       const twin = list.find(y => y.k === it.k || (it.k === "kita" && y.k === "kita") ? (h && y.w && host(y.w) === h && !/globegarden\.ch$|kimikrippen\.ch$|guexi\.ch$/.test(h)) || (s.size && (() => { const t = sig(y.n, gname); return t.size && ([...s].every(w => t.has(w)) || [...t].every(w => s.has(w))); })()) : false);
       if (twin) {

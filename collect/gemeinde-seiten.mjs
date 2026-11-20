@@ -42,7 +42,7 @@ async function get(u) {
   const r = await fetch(u, { headers: UA, redirect: "follow", signal: AbortSignal.timeout(20000) });
   if (!r.ok) throw new Error("HTTP " + r.status);
   if (!/html/i.test(r.headers.get("content-type") || "")) throw new Error("kein HTML");
-  await sleep(400);
+  await sleep(900);
   return { html: (await r.text()).slice(0, 1500000), url: r.url };
 }
 const links = (html, base) => [...html.matchAll(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi)].map(m => {
@@ -131,9 +131,13 @@ async function crawl(code, g) {
 
 const codes = Object.keys(G).filter(c => !ONLY.length || ONLY.includes(c));
 const out = {}; let i = 0;
-await Promise.all(Array.from({ length: 6 }, async () => { while (i < codes.length) { const c = codes[i++];
+await Promise.all(Array.from({ length: 3 }, async () => { while (i < codes.length) { const c = codes[i++];
   try { out[c] = await crawl(c, G[c]); } catch (e) { out[c] = { err: String(e.message || e), items: [] }; }
   console.log(G[c].name, (out[c].items || []).length, "Einträge,", out[c].pages || 0, "Seiten", out[c].err || ""); } }));
+// Gemeinden ohne Treffer (z.B. weil die Website gerade bremst): Ergebnis des letzten Laufs behalten
+let prev = {}; try { prev = JSON.parse(readFileSync("data/gemeinde-seiten.json", "utf8")).g || {}; } catch {}
+for (const c of codes) if (!(out[c].items || []).length && (prev[c]?.items || []).length) { out[c] = { ...prev[c], alt: 1 }; console.log(G[c].name, "– ohne Treffer, behalte", prev[c].items.length, "vom letzten Lauf"); }
+if (ONLY.length) for (const c in prev) if (!out[c]) out[c] = prev[c];
 writeFileSync("data/gemeinde-seiten.json", JSON.stringify({ stand: new Date().toISOString().slice(0, 10), g: out }, null, 1));
 const cnt = {}; Object.values(out).forEach(o => (o.items || []).forEach(x => cnt[x.k] = (cnt[x.k] || 0) + 1));
 console.log("Total:", cnt, "Gemeinden ohne Treffer:", Object.entries(out).filter(([, o]) => !(o.items || []).length).map(([c]) => G[c].name).join(", "));
