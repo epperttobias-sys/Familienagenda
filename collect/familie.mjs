@@ -53,6 +53,9 @@ for (const c in out) out[c].sort((a, b) => a.k.localeCompare(b.k) || a.n.localeC
 const cnt = {}; Object.values(out).flat().forEach(x => cnt[x.k] = (cnt[x.k] || 0) + 1);
 console.log("familienangebote:", JSON.stringify(cnt), "gemeinden:", Object.keys(out).length);
 await fillSites(Object.values(out).flat());
+// Einträge von den Gemeinde-Websites ergänzen (data/gemeinde-seiten.json, monatlich gesammelt)
+{ const { mergeGemeindeSeiten } = await import("./familie-merge.mjs");
+  console.log("Gemeinde-Seiten:", mergeGemeindeSeiten(out, Object.fromEntries(Object.entries(G).map(([c, g]) => [c, g.name])))); }
 // Geprüfte Korrekturen: geschlossene Angebote ausblenden, tote Links ersetzen (data/familie-fix.json)
 try { const FX = JSON.parse(readFileSync("data/familie-fix.json", "utf8"));
   for (const c in out) { out[c] = out[c].filter(x => !FX.hide.includes(c + "|" + x.n)); out[c].forEach(x => { const k = c + "|" + x.n; if (k in FX.url) x.w = FX.url[k]; }); }
