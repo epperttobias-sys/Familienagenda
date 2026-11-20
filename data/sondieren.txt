@@ -1,12 +1,5 @@
-https://www.pbz.ch/veranstaltungen/
-https://www.reformiert-zuerich.ch/agenda
-https://www.zhref.ch/agenda
-https://www.zhkath.ch/agenda
-https://www.museen-zuerich.ch/
-https://www.landesmuseum.ch/de/kinder-familien
-https://www.zurichparkside.ch/kultur
-https://www.kirche-uster.ch/
-https://www.pbz.ch/robots.txt
-https://www.reformiert-zuerich.ch/robots.txt
-https://www.museen-zuerich.ch/robots.txt
-https://www.zurichparkside.ch/robots.txt
+https://zuercher-museen.ch/agenda?suitableForKids=true
+https://www.forum-magazin.ch/agenda/
+https://www.forum-magazin.ch/robots.txt
+https://www.zurichparkside.ch/kultur?field_event_kategorie_target_id%5B0%5D=10
+https://reformiert-zuerich.ch/agenda/
