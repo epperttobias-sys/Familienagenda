@@ -1,1 +1,362 @@
-[{"id": 16, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html", "n": "Allenmoos 3 Mittag und Abendhort", "g": "Zürich"}, {"id": 17, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/apfelbaum/betreuung/standorte.html", "n": "Apfelbaum 2-3-4-5 (Mittag-/Abendhort)", "g": "Zürich"}, {"id": 17, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/apfelbaum/betreuung/mittagabendbetreuung.html", "n": "Apfelbaum 2-3-4-5 (Mittag-/Abendhort)", "g": "Zürich"}, {"id": 18, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/auhof/betreuung/standorte.html", "n": "Auhof 1+2 - Morgentisch, Mittag-/Abendhort", "g": "Zürich"}, {"id": 18, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/auhof/betreuung.html", "n": "Auhof 1+2 - Morgentisch, Mittag-/Abendhort", "g": "Zürich"}, {"id": 21, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/langmatt/betreuung/standorte.html", "n": "Betreuung am Guggenberg", "g": "Zürich"}, {"id": 24, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html", "n": "Hort Allenmoos 1 & 2", "g": "Zürich"}, {"id": 25, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/allenmoos/betreuung/standorte.html", "n": "Hort Allenmoos 3", "g": "Zürich"}, {"id": 26, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung/standorte.html", "n": "Hort Altweg", "g": "Zürich"}, {"id": 26, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung.html", "n": "Hort Altweg", "g": "Zürich"}, {"id": 27, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung/standorte.html", "n": "Hort Altweg 3", "g": "Zürich"}, {"id": 28, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/untermoos/betreuung/standorte.html", "n": "Hort Untermoos 7", "g": "Zürich"}, {"id": 29, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/ilgen/betreuung/standorte.html", "n": "Ilgen Hort", "g": "Zürich"}, {"id": 29, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/ilgen/betreuung.html", "n": "Ilgen Hort", "g": "Zürich"}, {"id": 30, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/buhn/ueberuns/standorte/betreuung.html", "n": "Katzenbach I + II Morgen-Mittag-Abendhort", "g": "Zürich"}, {"id": 31, "src": "agent", "u": "https://kihz.uzh.ch/en/kitas/kihz-feyerabend.html", "n": "kihz Feyerabend", "g": "Zürich"}, {"id": 33, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/gubel/betreuung/standorte.html", "n": "Kindergarten & Horte C1 - C3", "g": "Zürich"}, {"id": 33, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/gubel/ueberuns/standorte/kindergaerten.html", "n": "Kindergarten & Horte C1 - C3", "g": "Zürich"}, {"id": 34, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/sihlfeld/betreuung/standorte.html", "n": "Kindergarten Bullingerhof 1+2 und Horte", "g": "Zürich"}, {"id": 34, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/sihlfeld/ueberuns/standorte/kindergaerten.html", "n": "Kindergarten Bullingerhof 1+2 und Horte", "g": "Zürich"}, {"id": 35, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/aussersihl/betreuung/standorte.html", "n": "Kindergarten und Hort Brauer 1+2", "g": "Zürich"}, {"id": 35, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/aussersihl/ueberuns/standorte/kindergaerten.html", "n": "Kindergarten und Hort Brauer 1+2", "g": "Zürich"}, {"id": 36, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/guggach/betreuung/standorte.html", "n": "Kindergarten und Hort Guggachpark 1+2", "g": "Zürich"}, {"id": 36, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/guggach/ueberuns/standorte/kindergaerten.html", "n": "Kindergarten und Hort Guggachpark 1+2", "g": "Zürich"}, {"id": 37, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/betreuung.html", "n": "Kindergarten und Hort Neubühl 1+2", "g": "Zürich"}, {"id": 37, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/ueberuns/standorte/kindergaerten.html", "n": "Kindergarten und Hort Neubühl 1+2", "g": "Zürich"}, {"id": 38, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/kolbenacker/betreuung/standorte.html", "n": "Kinderhort Eichrain 2+3", "g": "Zürich"}, {"id": 39, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/hirzenbach/betreuung/standorte.html", "n": "Kinderhort Grosswiesen 1 Mittag-Abend", "g": "Zürich"}, {"id": 40, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/hansasper/betreuung/standorte.html", "n": "Kinderhort Hans Asper", "g": "Zürich"}, {"id": 40, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/hansasper/betreuung.html", "n": "Kinderhort Hans Asper", "g": "Zürich"}, {"id": 41, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/herter/betreuung.html", "n": "Kinderhort Herter Sek", "g": "Zürich"}, {"id": 42, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/wollishofen/betreuung/standorte.html", "n": "Kinderhort Honeggerweg", "g": "Zürich"}, {"id": 42, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/wollishofen/betreuung/mittagsbetreuung.html", "n": "Kinderhort Honeggerweg", "g": "Zürich"}, {"id": 43, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/leimbach/betreuung/standorte.html", "n": "Kinderhort Leimbach 1, 2 , 3", "g": "Zürich"}, {"id": 43, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/leimbach/betreuung.html", "n": "Kinderhort Leimbach 1, 2 , 3", "g": "Zürich"}, {"id": 44, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/luegisland/betreuung/standorte.html", "n": "Kinderhort Luegisland 1+2", "g": "Zürich"}, {"id": 45, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/luegisland/betreuung/standorte.html", "n": "Kinderhort Luegisland 3+Morgentisch", "g": "Zürich"}, {"id": 46, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/manegg/betreuung/standorte.html", "n": "Kinderhort Manegg 1 bis 7", "g": "Zürich"}, {"id": 46, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/manegg/betreuung.html", "n": "Kinderhort Manegg 1 bis 7", "g": "Zürich"}, {"id": 47, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/rebhuegel/betreuung.html", "n": "Kinderhort Rebhügel - Mittag-Abend", "g": "Zürich"}, {"id": 48, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/betreuung.html", "n": "Kinderhort Unterstufen-Zentrum Neubühl", "g": "Zürich"}, {"id": 48, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/neubuehl/betreuung/mittagsbetreuung.html", "n": "Kinderhort Unterstufen-Zentrum Neubühl", "g": "Zürich"}, {"id": 54, "src": "beleg", "u": "https://www.usz.ch/app/uploads/2025/09/EB-Reglement-2026.01.pdf", "n": "Kindertagesstätte USZ Huttenstrasse", "g": "Zürich"}, {"id": 58, "src": "agent", "u": "https://www.stadt-zuerich.ch/kitas/de/in-boeden/informationen.html", "n": "Kita In Böden", "g": "Zürich"}, {"id": 58, "src": "beleg", "u": "https://www.stadt-zuerich.ch/kitas/de/in-boeden/ueber-uns.html", "n": "Kita In Böden", "g": "Zürich"}, {"id": 67, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/altweg/betreuung/standorte.html", "n": "Mittag-/Abendhort Altweg 4", "g": "Zürich"}, {"id": 70, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/sihlweid/betreuung/standort.html", "n": "Mittag-/Abendhort Sihlweid 3", "g": "Zürich"}, {"id": 74, "src": "agent", "u": "https://www.stadt-zuerich.ch/content/schulen/de/altstetterstrasse/betreuung/standorte.html", "n": "Mittag-/AbendhortAltstetter 4", "g": "Zürich"}, {"id": 160, "src": "agent", "u": "https://www.adliswil.ch/dienstleistungen/102658", "n": "Hallen- und Freibad Tal", "g": "Adliswil"}, {"id": 160, "src": "beleg", "u": "https://www.adliswil.ch/hallenufreibad/93478", "n": "Hallen- und Freibad Tal", "g": "Adliswil"}, {"id": 165, "src": "agent", "u": "https://www.urdorf.ch/dienstleistungen/41951", "n": "Hallenbad Urdorf", "g": "Urdorf"}, {"id": 165, "src": "beleg", "u": "https://www.urdorf.ch/sportfreizeitanlagen", "n": "Hallenbad Urdorf", "g": "Urdorf"}, {"id": 169, "src": "agent", "u": "https://www.embrach.ch/badi/51551", "n": "Hallen- und Freibad Embrach", "g": "Embrach"}, {"id": 182, "src": "agent", "u": "https://www.russikon.ch/kinderbetreuung", "n": "Babysitter-Kurs und Babysittervermittlung", "g": "Russikon"}, {"id": 185, "src": "beleg", "u": "https://www.water-world.ch", "n": "Wellness World Wallisellen", "g": "Wallisellen"}, {"id": 187, "src": "beleg", "u": "https://www.globegarden.ch/en/kita-finder", "n": "Globegarden", "g": "Wallisellen"}, {"id": 189, "src": "agent", "u": "https://www.wildberg.ch/anlaesseaktuelles/7606414", "n": "Mittagstisch Wildberg", "g": "Wildberg"}, {"id": 191, "src": "beleg", "u": "https://www.rueti.ch/public/upload/assets/12377/Reglement%20und%20Tarife%20f%C3%BCr%20die%20Ben%C3%BCtzung%20des%20Lehrschwimmbeckens%20Widacher%20%28Beilage%20GRB%20Nr.%202026-66%29.pdf?fp=2", "n": "Lehrschwimmbad Widacher", "g": "Rüti"}, {"id": 192, "src": "agent", "u": "https://www.rueti.ch/freizeit-kultur/raumreservationen/gemeinschaftszentrum.html/658", "n": "Gemeinschaftszentrum", "g": "Rüti"}, {"id": 201, "src": "beleg", "u": "https://www.wetzikon.ch/schule-wAssets/docs/betreuung/Merkblatt-Tagesstrukturen.pdf", "n": "Kinderhort", "g": "Wetzikon"}, {"id": 203, "src": "beleg", "u": "https://wetzikon.ch/wAssets/docs/Gesellschaft/Wetzikon_Fruehe_Foerderung_Kinderortsplan_web.pdf", "n": "Spielgruppenhaus", "g": "Wetzikon"}, {"id": 214, "src": "beleg", "u": "https://www.oberglatt.ch/public/upload/assets/13015/Gemeindebibliothek%20Oberglatt%20Jahresbericht%202025.pdf?fp=2", "n": "Gemeindebibliothek Oberglatt", "g": "Oberglatt"}, {"id": 218, "src": "agent", "u": "https://www.egg.ch/schulefreizeit/info/735034", "n": "Schwimmbad", "g": "Egg"}, {"id": 218, "src": "beleg", "u": "https://www.egg.ch/schulefreizeit", "n": "Schwimmbad", "g": "Egg"}, {"id": 222, "src": "agent", "u": "https://www.grueningen.ch/dorfleben/freizeit-sport/vereine/vereine-detail.html/848/association/20", "n": "Jugendtreff", "g": "Grüningen"}, {"id": 222, "src": "beleg", "u": "https://www.grueningen.ch/gemeinde-grueningen/dorfleben/gesellschaft/jugend.html/100", "n": "Jugendtreff", "g": "Grüningen"}, {"id": 79, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/ilgen/betreuung/standorte.html", "n": "Mittaghort Pflegi", "g": "Zürich"}, {"id": 79, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/riesbach/betreuung.html", "n": "Mittaghort Pflegi", "g": "Zürich"}, {"id": 80, "src": "agent", "u": "https://www.stadt-zuerich.ch/schulen/de/sihlweid/betreuung/standort.html", "n": "Morgentisch Sihlweid 4, Mittag-/Abendhort Sihlweid 2A + 2B", "g": "Zürich"}, {"id": 80, "src": "beleg", "u": "https://www.stadt-zuerich.ch/schulen/de/sihlweid/betreuung.html", "n": "Morgentisch Sihlweid 4, Mittag-/Abendhort Sihlweid 2A + 2B", "g": "Zürich"}, {"id": 92, "src": "agent", "u": "https://im-viadukt.ch/en/bogen/kindertreff-viadukt", "n": "Kindertreff Viadukt", "g": "Zürich"}, {"id": 104, "src": "agent", "u": "https://www.kidsclub-moonlight.ch", "n": "Kids Club Moonlight", "g": "Maur"}, {"id": 111, "src": "agent", "u": "https://www.kinderkrippe-seestern.ch", "n": "Kinderkrippe Seestern", "g": "Horgen"}, {"id": 111, "src": "beleg", "u": "https://www.horgen.ch/ueber-horgen/verwaltung/dienstleistungen-a-z.html/118/print/pdf/service/452", "n": "Kinderkrippe Seestern", "g": "Horgen"}, {"id": 117, "src": "agent", "u": "https://www.meilen.ch/hallenbadallmend/9697", "n": "Hallenbad Meilen", "g": "Meilen"}, {"id": 117, "src": "beleg", "u": "https://www.meilen.ch/aemter/13218", "n": "Hallenbad Meilen", "g": "Meilen"}, {"id": 120, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung", "n": "Betreuung Alte Feuerwehr", "g": "Winterthur"}, {"id": 120, "src": "beleg", "u": "https://stadt.winterthur.ch/gemeinde/verwaltung/stadtkanzlei/kommunikation-stadt-winterthur/medienmitteilungen-stadt-winterthur/schulergaenzende-betreuung-im-ehemaligen-feuerwehrstuetzpunkt", "n": "Betreuung Alte Feuerwehr", "g": "Winterthur"}, {"id": 121, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung", "n": "Betreuung Feldstrasse", "g": "Winterthur"}, {"id": 121, "src": "beleg", "u": "https://stadt.winterthur.ch/gemeinde/verwaltung/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung", "n": "Betreuung Feldstrasse", "g": "Winterthur"}, {"id": 122, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung", "n": "Betreuung Grünmatt", "g": "Winterthur"}, {"id": 122, "src": "beleg", "u": "https://stadt.winterthur.ch/gemeinde/verwaltung/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung", "n": "Betreuung Grünmatt", "g": "Winterthur"}, {"id": 123, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung", "n": "Betreuung Neuwiesen", "g": "Winterthur"}, {"id": 123, "src": "beleg", "u": "https://stadt.winterthur.ch/gemeinde/verwaltung/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung", "n": "Betreuung Neuwiesen", "g": "Winterthur"}, {"id": 124, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung", "n": "Betreuung Schachen", "g": "Winterthur"}, {"id": 124, "src": "beleg", "u": "https://stadt.winterthur.ch/gemeinde/verwaltung/schule-und-sport/familie-und-betreuung/schulergaenzende-betreuung", "n": "Betreuung Schachen", "g": "Winterthur"}, {"id": 125, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/bildung-und-schule/schulerganzende-betreuung", "n": "Betreuung Talhof-Erlen", "g": "Winterthur"}, {"id": 125, "src": "beleg", "u": "https://stadt.winterthur.ch/stadtratsbeschluesse/2022-08-31/sr22597-1", "n": "Betreuung Talhof-Erlen", "g": "Winterthur"}, {"id": 132, "src": "agent", "u": "https://www.zh.ch/de/bildungsdirektion/amt-fuer-jugend-und-berufsberatung/kjz-winterthur.html", "n": "Kinder- und Jugendhilfezentrum (kjz)", "g": "Winterthur"}, {"id": 132, "src": "beleg", "u": "https://www.zh.ch/kjz-winterthur", "n": "Kinder- und Jugendhilfezentrum (kjz)", "g": "Winterthur"}, {"id": 133, "src": "agent", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/kultur/kultur-erleben/quartierkultur/halle710", "n": "Quartierraum Halle 710", "g": "Winterthur"}, {"id": 133, "src": "beleg", "u": "https://stadt.winterthur.ch/themen/leben-in-winterthur/planen-und-bauen/wir-planen-fuer-sie/projekte-stadtplanung/neuhegi-die-neue-stadt-in-winterthur/halle-710-eine-halle-fuer-alle", "n": "Quartierraum Halle 710", "g": "Winterthur"}, {"id": 144, "src": "agent", "u": "https://www.visoparents.ch", "n": "Kinderhaus Imago", "g": "Dübendorf"}, {"id": 145, "src": "agent", "u": "https://www.kihz.uzh.ch/en/kitas/kihz-chriesbach.html", "n": "Kinderpavillon Empa Eawag", "g": "Dübendorf"}, {"id": 148, "src": "agent", "u": "https://www.ilef.ch/verwaltungaz/25685", "n": "Kindertagesstätte Effretikon", "g": "Illnau-Effretikon"}, {"id": 148, "src": "beleg", "u": "https://www.ilef.ch/jugendfamilie/kinder-und-betreuung/kindertagesstaetten/kita-effretikon/kontaktanmeldung/", "n": "Kindertagesstätte Effretikon", "g": "Illnau-Effretikon"}, {"id": 225, "src": "beleg", "u": "https://sospo.myswitzerland.com/lakesides-swimming-pools/flussbadi-burgweg-820", "n": "Flussbadi Eglisau", "g": "Eglisau"}, {"id": 227, "src": "beleg", "u": "https://www.schwerzenbach.ch/fileadmin/user_upload/Images/Bibliothek/Jahresbericht_2022___2023.pdf", "n": "Bibliothek", "g": "Schwerzenbach"}, {"id": 230, "src": "agent", "u": "https://www.kuesnacht.ch/leben-freizeit/sportanlagen/sportplatz-und-hallenbad-heslibach.page/839", "n": "Hallenbad Heslibach", "g": "Küsnacht"}, {"id": 231, "src": "agent", "u": "https://www.kuesnacht.ch/leben-freizeit/sportanlagen/seebaeder/strandbad.page/931", "n": "Strandbad Küsnacht", "g": "Küsnacht"}, {"id": 241, "src": "beleg", "u": "https://www.badi-info.ch/husemersee.html", "n": "Badesee Husemersee", "g": "Ossingen"}, {"id": 243, "src": "agent", "u": "https://www.neftenbach.ch/sportanlagen/11242", "n": "Schwimmbad Neftenbach", "g": "Neftenbach"}, {"id": 251, "src": "beleg", "u": "https://www.turbenthal.ch/public/upload/assets/2432/Angebote%20f%C3%BCr%20Eltern%20mit%20Kleinkindern%20der%20Gemeinde%20Turbenthal_ab%202024.pdf?fp=5", "n": "Chinderhüeti Sunnewirbel", "g": "Turbenthal"}, {"id": 252, "src": "beleg", "u": "https://www.turbenthal.ch/public/upload/assets/2432/Angebote%20f%C3%BCr%20Eltern%20mit%20Kleinkindern%20der%20Gemeinde%20Turbenthal_ab%202024.pdf?fp=5", "n": "Spielgruppe Sunnewirbel Turbenthal", "g": "Turbenthal"}, {"id": 256, "src": "agent", "u": "https://www.stammheim.ch/sportanlagen/15607", "n": "Badeplatz Nussbaumersee", "g": "Stammheim"}, {"id": 257, "src": "beleg", "u": "https://www.happycow.net/reviews/seven-nine-restaurant-wallisellen-91695", "n": "79", "g": "Wallisellen"}, {"id": 263, "src": "beleg", "u": "https://www.thewaytocoffee.com/roasters/rent-a-barista-coffee-roasters", "n": "Barista Coffee Roasters", "g": "Zürich"}, {"id": 266, "src": "beleg", "u": "https://www.stadt-zuerich.ch/gesundheitszentren/de/ueber-uns/medien/publikationen/restaurants.html", "n": "Cafeteria Buchlern", "g": "Zürich"}, {"id": 270, "src": "agent", "u": "https://sauriermuseum.ch/", "n": "Dino Beizli", "g": "Seegräben"}, {"id": 273, "src": "beleg", "u": "https://int-meetings.myswitzerland.com/en/restaurant/gastro-hirschen", "n": "Hirschen", "g": "Illnau-Effretikon"}, {"id": 276, "src": "beleg", "u": "https://www.stadt-zuerich.ch/de/planen-und-bauen/projekte-und-ausschreibungen/hochbauvorhaben/planung-ausfuehrung/garderobengebaeude-juchhof.html", "n": "Juchhof 2", "g": "Zürich"}, {"id": 279, "src": "beleg", "u": "https://www.myswitzerland.com/en/experiences/food-wine/restaurant/marche-restaurant-kemptthal/", "n": "Marché Kemptthal", "g": "Lindau"}, {"id": 280, "src": "beleg", "u": "https://zuri.net/de/zurich/alle-restaurants/pizzeria-la-casa-da-pepino-12166.htm", "n": "Pizzeria da Pepino", "g": "Zürich"}, {"id": 289, "src": "beleg", "u": "https://www.swipein.restaurant/en/restaurant/restaurant-terrasse-galeria-wetzikon-zh-zurich", "n": "Terrasse-Galeria", "g": "Wetzikon"}]
+[
+ {
+  "id": "feuerthalen|KiTa Feuerthalen",
+  "src": "kita",
+  "u": "https://www.feuerthalen.ch/public/upload/assets/1172/KiTa%20Feuerthalen%20Betriebsreglement_2014-06-30.pdf?fp=1",
+  "n": "KiTa Feuerthalen",
+  "g": "Feuerthalen",
+  "k": "kita"
+ },
+ {
+  "id": "hb|Schulergänzende Betreuung Minimax",
+  "src": "kita",
+  "u": "https://www.hombrechtikon.ch/public/upload/assets/2581/410.1_Schulerg%C3%A4nzende_Betreuung_Minimax.pdf?fp=1",
+  "n": "Schulergänzende Betreuung Minimax",
+  "g": "Hombrechtikon",
+  "k": "hort"
+ },
+ {
+  "id": "seuzach|Kita Schneckenwiese Seuzach",
+  "src": "kita",
+  "u": "https://knauf.com/de-CH/referenzen/knauf-gips/kindertagesstaette-schneckenwiese-seuzach",
+  "n": "Kita Schneckenwiese Seuzach",
+  "g": "Seuzach",
+  "k": "kita"
+ },
+ {
+  "id": "maschwanden|Tagesschule Maschwanden",
+  "src": "kita",
+  "u": "https://www.maschwanden.ch/de/verwaltung/abteilungen/10_tagesschule",
+  "n": "Tagesschule Maschwanden",
+  "g": "Maschwanden",
+  "k": "hort"
+ },
+ {
+  "id": "dielsdorf|Kita Karussell",
+  "src": "kita",
+  "u": "https://www.dielsdorf.ch/kleinkindbetreuung/113770",
+  "n": "Kita Karussell",
+  "g": "Dielsdorf",
+  "k": "kita"
+ },
+ {
+  "id": "dielsdorf|Hort Karussell",
+  "src": "kita",
+  "u": "https://www.dielsdorf.ch/kleinkindbetreuung/113770",
+  "n": "Hort Karussell",
+  "g": "Dielsdorf",
+  "k": "hort"
+ },
+ {
+  "id": "dielsdorf|Kinderkrippe ZOO",
+  "src": "kita",
+  "u": "https://www.dielsdorf.ch/kleinkindbetreuung/291313",
+  "n": "Kinderkrippe ZOO",
+  "g": "Dielsdorf",
+  "k": "kita"
+ },
+ {
+  "id": "steinmaur|Kinderkrippe Hosechnöpf GmbH",
+  "src": "kita",
+  "u": "https://www.steinmaur.ch/firmenverzeichnis/54907",
+  "n": "Kinderkrippe Hosechnöpf GmbH",
+  "g": "Steinmaur",
+  "k": "kita"
+ },
+ {
+  "id": "steinmaur|Kinderstube Steinmaur (Verein Kinderstube Wehntal)",
+  "src": "kita",
+  "u": "https://www.steinmaur.ch/firmenverzeichnis/59410",
+  "n": "Kinderstube Steinmaur (Verein Kinderstube Wehntal)",
+  "g": "Steinmaur",
+  "k": "kita"
+ },
+ {
+  "id": "weiningen|Schulergänzende Tagesstrukturen Primarschule Weiningen",
+  "src": "kita",
+  "u": "https://www.weiningen.ch/_docn/5189056/136.1_-_Betriebsreglement_Schulerg%C3%A4nzende_Tagesstrukturen_Primarschule_Weiningen_ab_Mai_2024.pdf",
+  "n": "Schulergänzende Tagesstrukturen Primarschule Weiningen",
+  "g": "Weiningen",
+  "k": "hort"
+ },
+ {
+  "id": "li|Chinderhuus ZicZac",
+  "src": "kita",
+  "u": "https://www.lindau.ch/firmenverzeichnis/27533",
+  "n": "Chinderhuus ZicZac",
+  "g": "Lindau",
+  "k": "kita"
+ },
+ {
+  "id": "rifferswil|Tagesfamilien Bezirk Affoltern",
+  "src": "kita",
+  "u": "https://www.rifferswil.ch/de/soziales/organisationen/welcome.php?action=showorg&org_id=9976",
+  "n": "Tagesfamilien Bezirk Affoltern",
+  "g": "Rifferswil",
+  "k": "tagesfamilie"
+ },
+ {
+  "id": "flurlingen|Mittagstisch Flurlingen",
+  "src": "kita",
+  "u": "https://www.flurlingen.ch/organisationen/10216",
+  "n": "Mittagstisch Flurlingen",
+  "g": "Flurlingen",
+  "k": "hort"
+ },
+ {
+  "id": "flurlingen|Familienergänzende Betreuung (FEB) – Betreuungshaus Flurlingen",
+  "src": "kita",
+  "u": "https://www.flurlingen.ch/dossiers/14144",
+  "n": "Familienergänzende Betreuung (FEB) – Betreuungshaus Flurlingen",
+  "g": "Flurlingen",
+  "k": "hort"
+ },
+ {
+  "id": "marthalen|Tagesfamilien Winterthur Weinland",
+  "src": "kita",
+  "u": "https://marthalen.ch/de/lebenfs/organisationen/welcome.php?action=showorg&org_id=9720",
+  "n": "Tagesfamilien Winterthur Weinland",
+  "g": "Marthalen",
+  "k": "tagesfamilie"
+ },
+ {
+  "id": "freiensteinteufen|Tagesfamilien Zürcher Unterland",
+  "src": "kita",
+  "u": "https://www.freienstein-teufen.ch/verwaltung/dienstleistungen-a-z.html/174/egov_service/453",
+  "n": "Tagesfamilien Zürcher Unterland",
+  "g": "Freienstein-Teufen",
+  "k": "tagesfamilie"
+ },
+ {
+  "id": "daellikon|Kinderkrippe Bäretatze",
+  "src": "kita",
+  "u": "https://www.daellikon.ch/vereinsliste/7119",
+  "n": "Kinderkrippe Bäretatze",
+  "g": "Dällikon",
+  "k": "kita"
+ },
+ {
+  "id": "weiach|KiTa Multikulti",
+  "src": "kita",
+  "u": "https://www.weiach.ch/dorfleben/vereine.page/478/association/204",
+  "n": "KiTa Multikulti",
+  "g": "Weiach",
+  "k": "kita"
+ },
+ {
+  "id": "langnauamalbis|KibeLaA – Verein Kinderbetreuung Langnau am Albis",
+  "src": "kita",
+  "u": "https://www.langnauamalbis.ch/vereinsliste/23175",
+  "n": "KibeLaA – Verein Kinderbetreuung Langnau am Albis",
+  "g": "Langnau am Albis",
+  "k": "kita"
+ },
+ {
+  "id": "langnauamalbis|Mittagstisch Langnau am Albis",
+  "src": "kita",
+  "u": "https://www.langnauamalbis.ch/dienstleistungen/4895",
+  "n": "Mittagstisch Langnau am Albis",
+  "g": "Langnau am Albis",
+  "k": "hort"
+ },
+ {
+  "id": "wi|Kinderkrippe Wila",
+  "src": "kita",
+  "u": "https://www.wila.ch/verwaltung/dienstleistungen.html/42/egov_service/626",
+  "n": "Kinderkrippe Wila",
+  "g": "Wila",
+  "k": "kita"
+ },
+ {
+  "id": "wi|Mittagstisch Wila (Kindergarten- und Schulkinder)",
+  "src": "kita",
+  "u": "https://www.wila.ch/public/upload/assets/2725/Brosch%C3%BCre_Angebote%20f%C3%BCr%20Familien%20mit%20Kindern.pdf?fp=2",
+  "n": "Mittagstisch Wila (Kindergarten- und Schulkinder)",
+  "g": "Wila",
+  "k": "hort"
+ },
+ {
+  "id": "wi|Tagesfamilien Zürcher Oberland",
+  "src": "kita",
+  "u": "https://www.wila.ch/verwaltung/dienstleistungen.html/42/egov_service/625",
+  "n": "Tagesfamilien Zürcher Oberland",
+  "g": "Wila",
+  "k": "tagesfamilie"
+ },
+ {
+  "id": "daegerlen|Tagesfamilien Winterthur Weinland",
+  "src": "kita",
+  "u": "https://www.daegerlen.ch/familie/30181",
+  "n": "Tagesfamilien Winterthur Weinland",
+  "g": "Dägerlen",
+  "k": "tagesfamilie"
+ },
+ {
+  "id": "henggart|Kinderkrippe Wirbelwind",
+  "src": "kita",
+  "u": "https://www.henggart.ch/firmenverzeichnis/32682",
+  "n": "Kinderkrippe Wirbelwind",
+  "g": "Henggart",
+  "k": "kita"
+ },
+ {
+  "id": "henggart|Tagesstrukturen Primarschule Henggart",
+  "src": "kita",
+  "u": "https://www.primarschule-henggart.ch/tagesstrukturen-32.html",
+  "n": "Tagesstrukturen Primarschule Henggart",
+  "g": "Henggart",
+  "k": "hort"
+ },
+ {
+  "id": "hoeri|Kita Aufgepasst",
+  "src": "kita",
+  "u": "https://kita-aufgepasst.ch/",
+  "n": "Kita Aufgepasst",
+  "g": "Höri",
+  "k": "kita"
+ },
+ {
+  "id": "hoeri|Türmlihus-Kinderhort (Primarschule Höri)",
+  "src": "kita",
+  "u": "https://www.schulehoeri.ch/angebote/tagesbetreuung/tuermlihus-kinderhort-1/p-183586/",
+  "n": "Türmlihus-Kinderhort (Primarschule Höri)",
+  "g": "Höri",
+  "k": "hort"
+ },
+ {
+  "id": "daenikon|Tagesbetreuung Schule Rotflue (Dänikon-Hüttikon)",
+  "src": "kita",
+  "u": "https://www.schule-rotflue.ch/tagesbetreuung/angebot.html/479",
+  "n": "Tagesbetreuung Schule Rotflue (Dänikon-Hüttikon)",
+  "g": "Dänikon",
+  "k": "hort"
+ },
+ {
+  "id": "niederhasli|Kita Dorfhäsli",
+  "src": "kita",
+  "u": "https://www.kita-dorfhaesli.ch/",
+  "n": "Kita Dorfhäsli",
+  "g": "Niederhasli",
+  "k": "kita"
+ },
+ {
+  "id": "niederhasli|Kita Spielraum",
+  "src": "kita",
+  "u": "https://www.kita-spielraum.ch/",
+  "n": "Kita Spielraum",
+  "g": "Niederhasli",
+  "k": "kita"
+ },
+ {
+  "id": "niederhasli|Tagesstrukturen Schule Niederhasli",
+  "src": "kita",
+  "u": "https://www.ps-niederhasli.ch/tagesstrukturen",
+  "n": "Tagesstrukturen Schule Niederhasli",
+  "g": "Niederhasli",
+  "k": "hort"
+ },
+ {
+  "id": "birmensdorf|Kinderkrippe Sennhof",
+  "src": "kita",
+  "u": "https://www.birmensdorf.ch/vereinsliste/9231",
+  "n": "Kinderkrippe Sennhof",
+  "g": "Birmensdorf",
+  "k": "kita"
+ },
+ {
+  "id": "birmensdorf|Kinderbetreuung Huetiberg",
+  "src": "kita",
+  "u": "https://www.birmensdorf.ch/vereinsliste/31740",
+  "n": "Kinderbetreuung Huetiberg",
+  "g": "Birmensdorf",
+  "k": "kita"
+ },
+ {
+  "id": "birmensdorf|Hort Primarschule Birmensdorf",
+  "src": "kita",
+  "u": "https://www.primabirmensdorf.ch/web/cms.php?open=AngeboteundTarife",
+  "n": "Hort Primarschule Birmensdorf",
+  "g": "Birmensdorf",
+  "k": "hort"
+ },
+ {
+  "id": "b|Kinderkrippe Erlenbach",
+  "src": "kita",
+  "u": "https://www.erlenbach.ch/de/schule/krippe/",
+  "n": "Kinderkrippe Erlenbach",
+  "g": "Erlenbach",
+  "k": "kita"
+ },
+ {
+  "id": "b|Schülerclub / Tagesstrukturen Schule Erlenbach",
+  "src": "kita",
+  "u": "https://www.erlenbach.ch/de/schule/schuelerclub/",
+  "n": "Schülerclub / Tagesstrukturen Schule Erlenbach",
+  "g": "Erlenbach",
+  "k": "hort"
+ },
+ {
+  "id": "b|Kita Allegra Erlenbach",
+  "src": "kita",
+  "u": "https://kitaallegra.ch/en/daycare-centre-erlenbach-zuerich/",
+  "n": "Kita Allegra Erlenbach",
+  "g": "Erlenbach",
+  "k": "kita"
+ },
+ {
+  "id": "b|Kita Fischers Fritzli",
+  "src": "kita",
+  "u": "https://www.fischersfritzli.ch/en/",
+  "n": "Kita Fischers Fritzli",
+  "g": "Erlenbach",
+  "k": "kita"
+ },
+ {
+  "id": "s|Kita Primarschule Schwerzenbach",
+  "src": "kita",
+  "u": "https://www.schule-schwerzenbach.ch/tagesbetreuung/kita/p-100/",
+  "n": "Kita Primarschule Schwerzenbach",
+  "g": "Schwerzenbach",
+  "k": "kita"
+ },
+ {
+  "id": "s|Hort Primarschule Schwerzenbach",
+  "src": "kita",
+  "u": "https://www.schule-schwerzenbach.ch/tagesbetreuung/hort/p-99/",
+  "n": "Hort Primarschule Schwerzenbach",
+  "g": "Schwerzenbach",
+  "k": "hort"
+ },
+ {
+  "id": "s|Kita Chinderstern Schwerzenbach",
+  "src": "kita",
+  "u": "https://www.chinderstern.ch/schwerzenbach/",
+  "n": "Kita Chinderstern Schwerzenbach",
+  "g": "Schwerzenbach",
+  "k": "kita"
+ },
+ {
+  "id": "rickenbach|Chinderchrippe Schlitzohr",
+  "src": "kita",
+  "u": "https://chinderchrippe-schlitzohr.ch/",
+  "n": "Chinderchrippe Schlitzohr",
+  "g": "Rickenbach",
+  "k": "kita"
+ },
+ {
+  "id": "rickenbach|Tagesbetreuung Primarschule Rickenbach",
+  "src": "kita",
+  "u": "https://www.primarschule-rickenbach.ch/unsere-schule/betreuung/",
+  "n": "Tagesbetreuung Primarschule Rickenbach",
+  "g": "Rickenbach",
+  "k": "hort"
+ },
+ {
+  "id": "huentwangen|Kalibu Eglisau/Hüntwangen",
+  "src": "kita",
+  "u": "https://www.kalibu.ch/h%C3%BCntwangen",
+  "n": "Kalibu Eglisau/Hüntwangen",
+  "g": "Hüntwangen",
+  "k": "kita"
+ }
+]
