@@ -1,0 +1,617 @@
+{
+ "stand": "2026-11-20",
+ "g": {
+  "adliswil": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Akidemy Adliswil",
+     "w": "https://www.globegarden.ch/locations/akidemy-adliswil",
+     "a": "Soodring 36, Adliswil",
+     "lat": 47.31605,
+     "lon": 8.52115,
+     "src": "https://www.globegarden.ch/locations/akidemy-adliswil"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Grütpark",
+     "w": "https://www.globegarden.ch/locations/gruetpark",
+     "a": "Zürichstrasse 73a, Adliswil",
+     "lat": 47.3224,
+     "lon": 8.52856,
+     "src": "https://www.globegarden.ch/locations/gruetpark"
+    },
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/takatukaland",
+     "a": "Soodmattenstrasse 4, Adliswil Tel",
+     "lat": 47.31987,
+     "lon": 8.52345,
+     "src": "https://www.popepoppa.ch/de/kita/takatukaland"
+    }
+   ]
+  },
+  "zuerich": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Akidemy Maneggplatz",
+     "w": "https://www.globegarden.ch/locations/akidemy-maneggplatz",
+     "a": "Maneggplatz 44, Zürich-Manegg",
+     "lat": 47.33984,
+     "lon": 8.52011,
+     "src": "https://www.globegarden.ch/locations/akidemy-maneggplatz"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Akidemy Maneggstrasse",
+     "w": "https://www.globegarden.ch/locations/akidemy-manegg",
+     "a": "Maneggstrasse 33, Zürich",
+     "lat": 47.34163,
+     "lon": 8.52065,
+     "src": "https://www.globegarden.ch/locations/akidemy-manegg"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Carmenstrasse",
+     "w": "https://www.globegarden.ch/locations/carmenstrasse",
+     "a": "Carmenstrasse 6, Zürich",
+     "lat": 47.37052,
+     "lon": 8.56097,
+     "src": "https://www.globegarden.ch/locations/carmenstrasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Fluntern",
+     "w": "https://www.globegarden.ch/locations/fluntern",
+     "a": "Vorderberg 11, Zürich",
+     "lat": 47.37667,
+     "lon": 8.55936,
+     "src": "https://www.globegarden.ch/locations/fluntern"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Freihofstrasse",
+     "w": "https://www.globegarden.ch/locations/freihofstrasse",
+     "a": "Freihofstrasse 21, Zürich-Altstetten",
+     "lat": 47.38552,
+     "lon": 8.5018,
+     "src": "https://www.globegarden.ch/locations/freihofstrasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Friedensgasse",
+     "w": "https://www.globegarden.ch/locations/friedensgasse",
+     "a": "Brandschenkestr. 38, Zürich",
+     "lat": 47.36871,
+     "lon": 8.53095,
+     "src": "https://www.globegarden.ch/locations/friedensgasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Giesshübelstrasse",
+     "w": "https://www.globegarden.ch/locations/giesshuebelstrasse",
+     "a": "Giesshübelstrasse 15, Zürich",
+     "lat": 47.35964,
+     "lon": 8.52307,
+     "src": "https://www.globegarden.ch/locations/giesshuebelstrasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Hürststrasse",
+     "w": "https://www.globegarden.ch/locations/huerststrasse",
+     "a": "Hürststrasse 56, Zürich",
+     "lat": 47.41441,
+     "lon": 8.52756,
+     "src": "https://www.globegarden.ch/locations/huerststrasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Hürstwald",
+     "w": "https://www.globegarden.ch/locations/huerstwald",
+     "a": "Binzmühlestrasse 370, Zürich",
+     "lat": 47.41382,
+     "lon": 8.52357,
+     "src": "https://www.globegarden.ch/locations/huerstwald"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Mühlackerstrasse",
+     "w": "https://www.globegarden.ch/locations/muehlackerstrasse",
+     "a": "Mühlackerstrasse 67, Zürich",
+     "lat": 47.42382,
+     "lon": 8.50409,
+     "src": "https://www.globegarden.ch/locations/muehlackerstrasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Nägelistrasse",
+     "w": "https://www.globegarden.ch/locations/naegelistrasse",
+     "a": "Nägelistrasse 16, Zürich",
+     "lat": 47.37452,
+     "lon": 8.55605,
+     "src": "https://www.globegarden.ch/locations/naegelistrasse"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Paradeplatz",
+     "w": "https://www.globegarden.ch/locations/paradeplatz",
+     "a": "Talstrasse 58, Zürich",
+     "lat": 47.37036,
+     "lon": 8.53606,
+     "src": "https://www.globegarden.ch/locations/paradeplatz"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Sihlcity",
+     "w": "https://www.globegarden.ch/locations/sihlcity",
+     "a": "Uetlibergstrasse 132, Zürich",
+     "lat": 47.36018,
+     "lon": 8.51578,
+     "src": "https://www.globegarden.ch/locations/sihlcity"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Talacker",
+     "w": "https://www.globegarden.ch/locations/talacker",
+     "a": "Talacker 23, Zürich",
+     "lat": 47.37038,
+     "lon": 8.53659,
+     "src": "https://www.globegarden.ch/locations/talacker"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Uhlandstrasse",
+     "w": "https://www.globegarden.ch/locations/uhlandstrasse",
+     "a": "Uhlandstrasse 6, Zürich",
+     "lat": 47.39447,
+     "lon": 8.52893,
+     "src": "https://www.globegarden.ch/locations/uhlandstrasse"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Zürich KiMi Leimbach",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-leimbach",
+     "a": "Wegackerstrasse 46, Zürich",
+     "lat": 47.33251,
+     "lon": 8.51591,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-leimbach"
+    },
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/zurichberg",
+     "a": "Carmenstrasse 52, Zürich Tel",
+     "lat": 47.36666,
+     "lon": 8.56409,
+     "src": "https://www.popepoppa.ch/de/kita/zurichberg"
+    },
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/chinderburg",
+     "a": "Badenerstrasse 710, Zürich",
+     "lat": 47.38922,
+     "lon": 8.48308,
+     "src": "https://www.popepoppa.ch/de/kita/chinderburg"
+    }
+   ]
+  },
+  "z": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Akidemy Zollikon",
+     "w": "https://www.globegarden.ch/locations/akidemy-zollikon",
+     "a": "Landstrasse 107, Zollikon",
+     "lat": 47.3363,
+     "lon": 8.57693,
+     "src": "https://www.globegarden.ch/locations/akidemy-zollikon"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Zollikerberg, Zürich KiMi Zollikerberg",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-zollikerberg",
+     "a": "Neuweg 10, Zollikerberg",
+     "lat": 47.34789,
+     "lon": 8.60171,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-zollikerberg"
+    }
+   ]
+  },
+  "winterthur": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Archhöfe",
+     "w": "https://www.globegarden.ch/locations/archhoefe",
+     "a": "Lagerhausstrasse 10, Winterthur",
+     "lat": 47.49773,
+     "lon": 8.7246,
+     "src": "https://www.globegarden.ch/locations/archhoefe"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Trollstrasse",
+     "w": "https://www.globegarden.ch/locations/trollstrasse",
+     "a": "Trollstrasse 16, Winterthur",
+     "lat": 47.50225,
+     "lon": 8.73227,
+     "src": "https://www.globegarden.ch/locations/trollstrasse"
+    },
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/leuehohli",
+     "a": "Bahnmeisterweg 14, Winterthur Tel",
+     "lat": 47.49799,
+     "lon": 8.72083,
+     "src": "https://www.popepoppa.ch/de/kita/leuehohli"
+    }
+   ]
+  },
+  "wallisellen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Churfirstenstrasse",
+     "w": "https://www.globegarden.ch/locations/churfirstenstrasse",
+     "a": "Churfirstenstrasse 17, Wallisellen",
+     "lat": 47.41079,
+     "lon": 8.60411,
+     "src": "https://www.globegarden.ch/locations/churfirstenstrasse"
+    }
+   ]
+  },
+  "kilchberg": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Dorfstrasse",
+     "w": "https://www.globegarden.ch/locations/dorfstrasse",
+     "a": "Dorfstrasse 141, Kilchberg",
+     "lat": 47.31673,
+     "lon": 8.53874,
+     "src": "https://www.globegarden.ch/locations/dorfstrasse"
+    }
+   ]
+  },
+  "thalwil": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Farbstrasse",
+     "w": "https://www.globegarden.ch/locations/farbstrasse",
+     "a": "Seidenstrasse 31, Thalwil",
+     "lat": 47.29406,
+     "lon": 8.56786,
+     "src": "https://www.globegarden.ch/locations/farbstrasse"
+    }
+   ]
+  },
+  "buelach": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Glasi",
+     "w": "https://www.globegarden.ch/locations/glasi",
+     "a": "Sodagasse 2, Bülach",
+     "lat": 47.52655,
+     "lon": 8.53424,
+     "src": "https://www.globegarden.ch/locations/glasi"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Bülach, Zürich KiMi Bülach",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-buelach",
+     "a": "Hochfelderstrasse 21, Bülach",
+     "lat": 47.52001,
+     "lon": 8.53575,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-buelach"
+    }
+   ]
+  },
+  "opfikon": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Glattpark",
+     "w": "https://www.globegarden.ch/locations/glattpark",
+     "a": "Thurgauerstrasse 105, Glattpark-Opfikon",
+     "lat": 47.42231,
+     "lon": 8.55769,
+     "src": "https://www.globegarden.ch/locations/glattpark"
+    },
+    {
+     "k": "kita",
+     "n": "globegarden Lilienthal",
+     "w": "https://www.globegarden.ch/locations/lilienthal",
+     "a": "Boulevard Lilienthal 1, Glattpark-Opfikon",
+     "lat": 47.42474,
+     "lon": 8.56318,
+     "src": "https://www.globegarden.ch/locations/lilienthal"
+    },
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/baretatze",
+     "a": "Boulevard Lilienthal 19, Glattpark",
+     "lat": 47.42348,
+     "lon": 8.5621,
+     "src": "https://www.popepoppa.ch/de/kita/baretatze"
+    }
+   ]
+  },
+  "uitikon": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Leuengasse",
+     "w": "https://www.globegarden.ch/locations/leuengasse",
+     "a": "Leuengasse 52, Uitikon Waldegg",
+     "lat": 47.36356,
+     "lon": 8.45887,
+     "src": "https://www.globegarden.ch/locations/leuengasse"
+    }
+   ]
+  },
+  "regensdorf": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Rägipark",
+     "w": "https://www.globegarden.ch/locations/raegipark",
+     "a": "Ostring 6, Regensdorf",
+     "lat": 47.43746,
+     "lon": 8.47335,
+     "src": "https://www.globegarden.ch/locations/raegipark"
+    }
+   ]
+  },
+  "schlieren": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Rietpark",
+     "w": "https://www.globegarden.ch/locations/rietpark",
+     "a": "Brandstrasse 1, Schlieren",
+     "lat": 47.40116,
+     "lon": 8.44728,
+     "src": "https://www.globegarden.ch/locations/rietpark"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Schlieren, Zürich KiMi Futura",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-futura",
+     "a": "Parkallee 46, Schlieren",
+     "lat": 47.39826,
+     "lon": 8.43663,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-futura"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Schlieren, Zürich KiMi Giardino",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-giardino",
+     "a": "Feldstrasse 1, Schlieren",
+     "lat": 47.40297,
+     "lon": 8.44699,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-giardino"
+    }
+   ]
+  },
+  "dietlikon": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Schulgasse",
+     "w": "https://www.globegarden.ch/locations/schulgasse",
+     "a": "Schulgasse 4, Dietlikon",
+     "lat": 47.4255,
+     "lon": 8.61598,
+     "src": "https://www.globegarden.ch/locations/schulgasse"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Dietlikon, Zürich KiMi Looren",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-looren",
+     "a": "Loorenstrasse 1, Dietlikon",
+     "lat": 47.4253,
+     "lon": 8.61565,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-looren"
+    }
+   ]
+  },
+  "u": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Stadtpark",
+     "w": "https://www.globegarden.ch/locations/stadtpark",
+     "a": "Zürichstrasse 9, Uster",
+     "lat": 47.34937,
+     "lon": 8.71512,
+     "src": "https://www.globegarden.ch/locations/stadtpark"
+    }
+   ]
+  },
+  "waedenswil": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Wädenswil",
+     "w": "https://www.globegarden.ch/locations/waedenswil",
+     "a": "Büelenweg 4, Wädenswil",
+     "lat": 47.23192,
+     "lon": 8.66138,
+     "src": "https://www.globegarden.ch/locations/waedenswil"
+    }
+   ]
+  },
+  "wz": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Wetzikon",
+     "w": "https://www.globegarden.ch/locations/wetzikon",
+     "a": "Bahnhofstrasse 205, Wetzikon",
+     "lat": 47.32961,
+     "lon": 8.80411,
+     "src": "https://www.globegarden.ch/locations/wetzikon"
+    }
+   ]
+  },
+  "unterengstringen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "globegarden Zürcherstrasse",
+     "w": "https://www.globegarden.ch/locations/zuercherstrasse",
+     "a": "Zürcherstrasse 53, Unterengstringen",
+     "lat": 47.41367,
+     "lon": 8.44818,
+     "src": "https://www.globegarden.ch/locations/zuercherstrasse"
+    }
+   ]
+  },
+  "gossau": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Gossau, Zürich KiMi Gossau",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-gossau",
+     "a": "Bergstrasse 37, Gossau",
+     "lat": 47.30061,
+     "lon": 8.76458,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-gossau"
+    }
+   ]
+  },
+  "v": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Volketswil, Zürich KiMi Volketswil",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-volketswil",
+     "a": "Feldhofstrasse 31, Volketswil",
+     "lat": 47.3877,
+     "lon": 8.6838,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-volketswil"
+    }
+   ]
+  },
+  "stammheim": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Unterstammheim, Zürich KiMi Stammertal",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-stammertal",
+     "a": "Müsliweg 6, Unterstammheim",
+     "lat": 47.63887,
+     "lon": 8.79113,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-stammertal"
+    }
+   ]
+  },
+  "bassersdorf": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Bassersdorf, Zürich KiMi Post",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-post",
+     "a": "Poststrasse 2, Bassersdorf",
+     "lat": 47.44291,
+     "lon": 8.63134,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-post"
+    },
+    {
+     "k": "kita",
+     "n": "Kita in Bassersdorf, Zürich KiMi Geeren",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-geeren",
+     "a": "Opfikonerstrasse 27, Bassersdorf",
+     "lat": 47.44323,
+     "lon": 8.62162,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-geeren"
+    }
+   ]
+  },
+  "kloten": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Kloten, Zürich KiMi Kloten",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-kloten",
+     "a": "Wylerstrasse 1, Kloten",
+     "lat": 47.45095,
+     "lon": 8.58584,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-kloten"
+    }
+   ]
+  },
+  "o": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Oetwil am See, Zürich KiMi Oetwil am See",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-oetwil-am-see",
+     "a": "Schlösslistrasse 23, Oetwil am See",
+     "lat": 47.26832,
+     "lon": 8.7214,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kita-kimi-oetwil-am-see"
+    }
+   ]
+  },
+  "ruemlang": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita in Rümlang, Zürich KiMi Rümlang",
+     "w": "https://www.kimikrippen.ch/kimi_standort/kimi-ruemlang",
+     "a": "Katzenrütistrasse 44, Rümlang",
+     "lat": 47.44831,
+     "lon": 8.52472,
+     "src": "https://www.kimikrippen.ch/kimi_standort/kimi-ruemlang"
+    }
+   ]
+  },
+  "l": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/kidsloft",
+     "a": "Schulhausstrasse 24, Herrliberg Tel",
+     "lat": 47.28779,
+     "lon": 8.6146,
+     "src": "https://www.popepoppa.ch/de/kita/kidsloft"
+    }
+   ]
+  },
+  "e": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/schneggehusli",
+     "a": "Forchstrasse 111, Egg Tel",
+     "lat": 47.2969,
+     "lon": 8.69256,
+     "src": "https://www.popepoppa.ch/de/kita/schneggehusli"
+    }
+   ]
+  },
+  "staefa": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "pop e poppa Glücklich aufwachsen",
+     "w": "https://www.popepoppa.ch/de/kita/gwunderfitz",
+     "a": "Laubisrütistrasse 42, Stäfa Tel",
+     "lat": 47.23798,
+     "lon": 8.74543,
+     "src": "https://www.popepoppa.ch/de/kita/gwunderfitz"
+    }
+   ]
+  }
+ }
+}
