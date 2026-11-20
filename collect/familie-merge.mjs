@@ -16,15 +16,15 @@ const clean = n => { n = n.replace(/\s*Externer Link wird in einem neuen Fenster
 export function mergeGemeindeSeiten(out, names) {
   // Quellen: Websites der Gemeinden und Standortlisten der Kita-Ketten
   const S = [];
-  for (const f of ["data/gemeinde-seiten.json", "data/ketten.json"]) { try { S.push(...Object.entries(JSON.parse(readFileSync(f, "utf8")).g)); } catch {} }
+  for (const f of ["data/gemeinde-seiten.json", "data/ketten.json", "data/kita-extra.json"]) { try { S.push(...Object.entries(JSON.parse(readFileSync(f, "utf8")).g).map(([c, o]) => [c, o, f.includes("extra")])); } catch {} }
   let added = 0, filled = 0;
-  for (const [c, o] of S) {
+  for (const [c, o, checked] of S) {
     const gname = names[c] || "", list = (out[c] = out[c] || []);
     for (const it0 of o.items || []) {
       const it = { ...it0, k: it0.k === "treff" ? "zentrum" : it0.k };
       let n = clean(it.n);
       if (/glücklich aufwachsen/i.test(n)) n = "pop e poppa " + ((it.a || "").split(",")[1] || gname).trim();
-      if (n.length < 4 || DOC.test(n)) continue;
+      if (n.length < 4 || (!checked && DOC.test(n))) continue;
       // Bibliotheken kommen meist schon aus OpenStreetMap: nur ergänzen, wo noch keine bekannt ist
       if (it.k === "bib" && (list.some(y => y.k === "bib") || !/bibliothek/i.test(n))) continue;
       const h = it.w ? host(it.w) : "", s = sig(n, gname);

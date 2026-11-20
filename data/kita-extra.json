@@ -1,0 +1,285 @@
+{
+ "stand": "2026-11-20",
+ "hinweis": "Von Hilfsagenten gesucht, Links auf GitHub geprüft",
+ "g": {
+  "seuzach": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita Schneckenwiese Seuzach"
+    }
+   ]
+  },
+  "maschwanden": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesschule Maschwanden",
+     "u": "https://www.maschwanden.ch/de/verwaltung/abteilungen/10_tagesschule"
+    }
+   ]
+  },
+  "dielsdorf": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita Karussell"
+    },
+    {
+     "k": "kita",
+     "n": "Hort Karussell"
+    },
+    {
+     "k": "kita",
+     "n": "Kinderkrippe ZOO"
+    }
+   ]
+  },
+  "steinmaur": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kinderstube Steinmaur",
+     "u": "https://www.steinmaur.ch/firmenverzeichnis/59410"
+    },
+    {
+     "k": "kita",
+     "n": "Kinderkrippe Hosechnöpf GmbH",
+     "u": "https://www.steinmaur.ch/firmenverzeichnis/54907"
+    }
+   ]
+  },
+  "li": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Chinderhuus ZicZac",
+     "u": "https://www.lindau.ch/firmenverzeichnis/27533"
+    }
+   ]
+  },
+  "flurlingen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Mittagstisch Flurlingen",
+     "u": "https://www.flurlingen.ch/organisationen/10216"
+    },
+    {
+     "k": "kita",
+     "n": "Familienergänzende Betreuung (FEB) – Betreuungshaus Flurlingen",
+     "u": "https://www.flurlingen.ch/dossiers/14144"
+    }
+   ]
+  },
+  "freiensteinteufen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesfamilien Zürcher Unterland",
+     "u": "https://www.freienstein-teufen.ch/verwaltung/dienstleistungen-a-z.html/174/egov_service/453"
+    }
+   ]
+  },
+  "weiach": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "KiTa Multikulti",
+     "u": "https://www.weiach.ch/dorfleben/vereine.page/478/association/204"
+    }
+   ]
+  },
+  "daellikon": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kinderkrippe Bäretatze",
+     "u": "https://www.daellikon.ch/vereinsliste/7119"
+    }
+   ]
+  },
+  "wi": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kinderkrippe Wila",
+     "u": "https://www.wila.ch/verwaltung/dienstleistungen.html/42/egov_service/626"
+    },
+    {
+     "k": "kita",
+     "n": "Tagesfamilien Zürcher Oberland",
+     "u": "https://www.wila.ch/verwaltung/dienstleistungen.html/42/egov_service/625"
+    }
+   ]
+  },
+  "daegerlen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesfamilien Winterthur Weinland",
+     "u": "https://www.daegerlen.ch/familie/30181"
+    }
+   ]
+  },
+  "henggart": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesstrukturen Primarschule Henggart",
+     "w": "https://www.primarschule-henggart.ch/tagesstrukturen-32.html"
+    },
+    {
+     "k": "kita",
+     "n": "Kinderkrippe Wirbelwind",
+     "u": "https://www.henggart.ch/firmenverzeichnis/32682"
+    }
+   ]
+  },
+  "hoeri": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Türmlihus-Kinderhort",
+     "w": "https://www.schulehoeri.ch/angebote/tagesbetreuung/tuermlihus-kinderhort-1/p-183586/"
+    },
+    {
+     "k": "kita",
+     "n": "Kita Aufgepasst",
+     "w": "https://kita-aufgepasst.ch/"
+    }
+   ]
+  },
+  "marthalen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesfamilien Winterthur Weinland",
+     "u": "https://www.marthalen.ch/organisationen/9720"
+    }
+   ]
+  },
+  "langnauamalbis": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Mittagstisch Langnau am Albis",
+     "u": "https://www.langnauamalbis.ch/dienstleistungen/4895"
+    },
+    {
+     "k": "kita",
+     "n": "KibeLaA – Verein Kinderbetreuung Langnau am Albis",
+     "u": "https://www.langnauamalbis.ch/vereinsliste/23175"
+    }
+   ]
+  },
+  "daenikon": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesbetreuung Schule Rotflue",
+     "w": "https://www.schule-rotflue.ch/tagesbetreuung/angebot.html/479"
+    }
+   ]
+  },
+  "niederhasli": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kita Dorfhäsli",
+     "w": "https://www.kita-dorfhaesli.ch/"
+    },
+    {
+     "k": "kita",
+     "n": "Tagesstrukturen Schule Niederhasli",
+     "w": "https://www.ps-niederhasli.ch/tagesstrukturen"
+    }
+   ]
+  },
+  "birmensdorf": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kinderkrippe Sennhof",
+     "u": "https://www.birmensdorf.ch/vereinsliste/9231"
+    },
+    {
+     "k": "kita",
+     "n": "Hort Primarschule Birmensdorf",
+     "w": "https://www.primabirmensdorf.ch/web/cms.php?open=AngeboteundTarife"
+    },
+    {
+     "k": "kita",
+     "n": "Kinderbetreuung Huetiberg",
+     "u": "https://www.birmensdorf.ch/vereinsliste/31740"
+    }
+   ]
+  },
+  "b": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Schülerclub / Tagesstrukturen Schule Erlenbach",
+     "u": "https://www.erlenbach.ch/de/schule/schuelerclub/"
+    },
+    {
+     "k": "kita",
+     "n": "Kinderkrippe Erlenbach",
+     "u": "https://www.erlenbach.ch/de/schule/krippe/"
+    },
+    {
+     "k": "kita",
+     "n": "Kita Fischers Fritzli",
+     "w": "https://www.fischersfritzli.ch/en/"
+    },
+    {
+     "k": "kita",
+     "n": "Kita Allegra Erlenbach",
+     "w": "https://kitaallegra.ch/en/daycare-centre-erlenbach-zuerich/"
+    }
+   ]
+  },
+  "s": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Hort Primarschule Schwerzenbach",
+     "w": "https://www.schule-schwerzenbach.ch/tagesbetreuung/hort/p-99/"
+    },
+    {
+     "k": "kita",
+     "n": "Kita Primarschule Schwerzenbach",
+     "w": "https://www.schule-schwerzenbach.ch/tagesbetreuung/kita/p-100/"
+    },
+    {
+     "k": "kita",
+     "n": "Kita Chinderstern Schwerzenbach",
+     "w": "https://www.chinderstern.ch/schwerzenbach/"
+    }
+   ]
+  },
+  "rickenbach": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Tagesbetreuung Primarschule Rickenbach",
+     "w": "https://www.primarschule-rickenbach.ch/unsere-schule/betreuung/"
+    },
+    {
+     "k": "kita",
+     "n": "Chinderchrippe Schlitzohr",
+     "w": "https://chinderchrippe-schlitzohr.ch/"
+    }
+   ]
+  },
+  "huentwangen": {
+   "items": [
+    {
+     "k": "kita",
+     "n": "Kalibu Eglisau/Hüntwangen",
+     "w": "https://www.kalibu.ch/h%C3%BCntwangen"
+    }
+   ]
+  }
+ }
+}
